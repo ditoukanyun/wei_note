@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "aa23a2f22108e8ce",
+        "id": "3d75e1f6d387790b",
         "type": "split",
         "children": [
           {
             "id": "fcfb420e469b66bb",
             "type": "tabs",
-            "dimension": 59.42857142857143,
+            "dimension": 45.937813440320966,
             "children": [
               {
                 "id": "121ff885c0d82526",
@@ -32,30 +32,31 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01_Areas/AI提示语/06_Obsidian助手/Obsidian助手 MOC.md",
+                    "file": "01_Areas/技术学习/前端开发/React/React 性能优化.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Obsidian助手 MOC"
+                  "title": "React 性能优化"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
-            "id": "0ca302ff7e9e672d",
+            "id": "5fb83e07630eb9d6",
             "type": "tabs",
-            "dimension": 40.57142857142857,
+            "dimension": 54.062186559679034,
             "children": [
               {
-                "id": "6025812cc7a903ab",
+                "id": "ad3ee718fec1a1dc",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
                     "terminal:terminal": {
-                      "cwd": "/Users/chenwei/Documents/wei_note/01_Areas/技术学习/前端开发/css",
+                      "cwd": "/Users/chenwei/Documents/wei_note/01_Areas/技术学习/前端开发/React",
                       "focus": false,
                       "profile": {
                         "args": [
@@ -86,7 +87,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "终端：OC | 整理目录结构与文件归档指导"
+                  "title": "终端：OC | React 性能优化参考链接解读与提升要点"
                 }
               }
             ]
@@ -165,7 +166,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Areas/技术学习/前端开发/css/Bootstrap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Bootstrap 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -184,12 +184,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Areas/技术学习/前端开发/css/Bootstrap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Bootstrap 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -227,13 +226,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Areas/技术学习/前端开发/css/Bootstrap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Bootstrap 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -266,8 +264,15 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "121ff885c0d82526",
+  "active": "ad3ee718fec1a1dc",
   "lastOpenFiles": [
+    "01_Areas/技术学习/前端开发/React/React 性能优化.md",
+    "快速入门指南.md",
+    "01_Areas/技术学习/前端开发/React/React 18 新特性.md",
+    "01_Areas/技术学习/前端开发/React",
+    "01_Areas/AI提示语/06_Obsidian助手/批量重命名-笔记文件.md",
+    "01_Areas/AI提示语/06_Obsidian助手/Obsidian助手 MOC.md",
+    "01_Areas/技术学习/前端开发/css/Bootstrap.md",
     "01_Areas/技术学习/前端开发/css/Center.md",
     "01_Areas/技术学习/前端开发/css/MOC.md",
     "01_Areas/技术学习/前端开发/css/Unit.md",
@@ -275,9 +280,7 @@
     "01_Areas/技术学习/前端开发/css/README.md",
     "01_Areas/技术学习/前端开发/css/BFC.md",
     "01_Areas/技术学习/前端开发/css/Sass.md",
-    "01_Areas/技术学习/前端开发/css/Bootstrap.md",
     "01_Areas/AI提示语/06_Obsidian助手/整理-Obsidian目录.md",
-    "01_Areas/AI提示语/06_Obsidian助手/Obsidian助手 MOC.md",
     "01_Areas/技术学习/前端开发/css/horizontal-vertical.md",
     "01_Areas/AI提示语/提示语优化技巧.md",
     "01_Areas/AI提示语/02_编程开发/编程开发 MOC.md",
@@ -292,12 +295,8 @@
     "01_Areas/技术学习/Python编程/04-速查-核心知识点.md",
     "01_Areas/AI提示语/AI提示语使用指南.md",
     "01_Areas/技术学习/Python编程/04-速查-进阶知识.md",
-    "01_Areas/AI提示语/02_编程开发/生成-函数代码.md",
-    "01_Areas/AI提示语/AI提示语中心 MOC.md",
-    "01_Areas/AI提示语/01_写作创作/撰写-技术博客.md",
     "01_Areas/AI提示语/05_生活助手",
     "01_Areas/AI提示语/04_工作提效",
-    "01_Areas/AI提示语/03_学习研究/学习研究 MOC.md",
     "01_Areas/AI提示语/03_学习研究",
     "01_Areas/AI提示语/02_编程开发",
     "01_Areas/AI提示语/01_写作创作",
@@ -313,7 +312,6 @@
     "01_Areas/技术学习/前端开发/css/img/49.png",
     "01_Areas/技术学习/前端开发/css/img/44.png",
     "01_Areas/技术学习/前端开发/css/img",
-    "01_Areas/技术学习/前端开发/css",
     "未命名 1.canvas",
     "未命名 2.canvas",
     "未命名 3.canvas",
