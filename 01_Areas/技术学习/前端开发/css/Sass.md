@@ -1,3 +1,16 @@
+---
+title: Sass/SCSS预处理器
+date: 2026-02-10
+tags:
+  - css
+  - sass
+  - 预处理器
+  - 工具
+category: 技术学习
+status: active
+parent: "[[MOC]]"
+---
+
 # Sass
 
 - sass是css的预处理器，通过sass语法编写scss，再处理成css代码，其中sass加入了多种css不具备的语法，使得在开发中更加便利、高效

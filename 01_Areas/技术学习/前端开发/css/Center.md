@@ -1,3 +1,15 @@
+---
+title: 实现水平垂直居中
+date: 2026-02-10
+tags:
+  - css
+  - 布局
+  - 居中
+category: 技术学习
+status: active
+parent: "[[MOC]]"
+---
+
 # 实现水平&垂直居中
 
 ## 水平居中

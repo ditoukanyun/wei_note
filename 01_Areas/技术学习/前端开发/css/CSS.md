@@ -1,3 +1,15 @@
+---
+title: CSS基础
+date: 2026-02-10
+tags:
+  - css
+  - 前端
+  - 基础
+category: 技术学习
+status: active
+parent: "[[MOC]]"
+---
+
 # CSS基础
 
 ## 书写方式

@@ -1,3 +1,16 @@
+---
+title: Bootstrap框架
+date: 2026-02-10
+tags:
+  - css
+  - bootstrap
+  - 框架
+  - 响应式
+category: 技术学习
+status: active
+parent: "[[MOC]]"
+---
+
 # Bootstrap
 
 - 开源框架，web 前端框架

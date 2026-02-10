@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "462ed0c9571cdd78",
+        "id": "aa23a2f22108e8ce",
         "type": "split",
         "children": [
           {
             "id": "fcfb420e469b66bb",
             "type": "tabs",
-            "dimension": 59.04761904761905,
+            "dimension": 59.42857142857143,
             "children": [
               {
                 "id": "121ff885c0d82526",
@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01_Areas/技术学习/前端开发/css/BFC.md",
+                    "file": "01_Areas/技术学习/前端开发/css/Bootstrap.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "BFC"
+                  "title": "Bootstrap"
                 }
               },
               {
@@ -43,19 +43,19 @@
             ]
           },
           {
-            "id": "8c34b3834f4ce72d",
+            "id": "0ca302ff7e9e672d",
             "type": "tabs",
-            "dimension": 40.95238095238095,
+            "dimension": 40.57142857142857,
             "children": [
               {
-                "id": "dd7a63ef161cf194",
+                "id": "6025812cc7a903ab",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
                     "terminal:terminal": {
-                      "cwd": "/Users/chenwei/Documents/wei_note",
+                      "cwd": "/Users/chenwei/Documents/wei_note/01_Areas/技术学习/前端开发/css",
                       "focus": false,
                       "profile": {
                         "args": [
@@ -86,7 +86,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "终端：OC | Greeting check-in"
+                  "title": "终端：OC | 整理目录结构与文件归档指导"
                 }
               }
             ]
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Areas/技术学习/前端开发/css/BFC.md",
+                "file": "01_Areas/技术学习/前端开发/css/Bootstrap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "BFC 的反向链接列表"
+              "title": "Bootstrap 的反向链接列表"
             }
           },
           {
@@ -184,12 +184,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Areas/技术学习/前端开发/css/BFC.md",
+                "file": "01_Areas/技术学习/前端开发/css/Bootstrap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "BFC 的出链列表"
+              "title": "Bootstrap 的出链列表"
             }
           },
           {
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Areas/技术学习/前端开发/css/BFC.md",
+                "file": "01_Areas/技术学习/前端开发/css/Bootstrap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "BFC 的大纲"
+              "title": "Bootstrap 的大纲"
             }
           },
           {
@@ -268,16 +268,17 @@
   },
   "active": "121ff885c0d82526",
   "lastOpenFiles": [
+    "01_Areas/技术学习/前端开发/css/Center.md",
+    "01_Areas/技术学习/前端开发/css/MOC.md",
+    "01_Areas/技术学习/前端开发/css/Unit.md",
+    "01_Areas/技术学习/前端开发/css/CSS.md",
+    "01_Areas/技术学习/前端开发/css/README.md",
+    "01_Areas/技术学习/前端开发/css/BFC.md",
     "01_Areas/技术学习/前端开发/css/Sass.md",
     "01_Areas/技术学习/前端开发/css/Bootstrap.md",
-    "01_Areas/技术学习/前端开发/css/BFC.md",
     "01_Areas/AI提示语/06_Obsidian助手/整理-Obsidian目录.md",
     "01_Areas/AI提示语/06_Obsidian助手/Obsidian助手 MOC.md",
-    "01_Areas/技术学习/前端开发/css/Unit.md",
-    "01_Areas/技术学习/前端开发/css/Center.md",
-    "01_Areas/技术学习/前端开发/css/README.md",
     "01_Areas/技术学习/前端开发/css/horizontal-vertical.md",
-    "01_Areas/技术学习/前端开发/css/MOC.md",
     "01_Areas/AI提示语/提示语优化技巧.md",
     "01_Areas/AI提示语/02_编程开发/编程开发 MOC.md",
     "01_Areas/AI提示语/06_Obsidian助手",
@@ -299,7 +300,6 @@
     "01_Areas/AI提示语/03_学习研究/学习研究 MOC.md",
     "01_Areas/AI提示语/03_学习研究",
     "01_Areas/AI提示语/02_编程开发",
-    "01_Areas/AI提示语/01_写作创作/写作创作 MOC.md",
     "01_Areas/AI提示语/01_写作创作",
     "01_Areas/AI提示语",
     "01_Areas/技术学习/前端开发/css/img/9.png",

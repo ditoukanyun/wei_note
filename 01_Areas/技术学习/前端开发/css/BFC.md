@@ -1,3 +1,16 @@
+---
+title: BFC、浮动与清除浮动
+date: 2026-02-10
+tags:
+  - css
+  - bfc
+  - 布局
+  - 浮动
+category: 技术学习
+status: active
+parent: "[[MOC]]"
+---
+
 # BFC、浮动、清除浮动
 
 ## 什么是BFC

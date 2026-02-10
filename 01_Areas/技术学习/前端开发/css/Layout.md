@@ -1,3 +1,15 @@
+---
+title: CSS常见布局
+date: 2026-02-10
+tags:
+  - css
+  - 布局
+  - 前端
+category: 技术学习
+status: active
+parent: "[[MOC]]"
+---
+
 # CSS常见布局
 
 ## 单列布局

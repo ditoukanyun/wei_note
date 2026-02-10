@@ -1,3 +1,16 @@
+---
+title: 浏览器兼容性处理
+date: 2026-02-10
+tags:
+  - css
+  - 兼容性
+  - hack
+  - ie
+category: 技术学习
+status: active
+parent: "[[MOC]]"
+---
+
 # 浏览器兼容
 
 - 这里主要列出一些关于浏览器css兼容性问题以及解决方法(hack)

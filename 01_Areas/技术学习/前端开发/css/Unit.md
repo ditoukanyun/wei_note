@@ -1,3 +1,15 @@
+---
+title: CSS单位详解
+date: 2026-02-10
+tags:
+  - css
+  - 单位
+  - 基础
+category: 技术学习
+status: active
+parent: "[[MOC]]"
+---
+
 # CSS单位
 
 CSS中到处都需要使用单位，各类属性也离不开单位，通过不同单位我们可以实现不同的效果，来达到预期结果
