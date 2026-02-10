@@ -10,7 +10,7 @@
           {
             "id": "68df4658c91cbba9",
             "type": "tabs",
-            "dimension": 60.09708737864078,
+            "dimension": 52.38095238095239,
             "children": [
               {
                 "id": "e57c90c5318b48a9",
@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01_Areas/技术学习/Python编程/00-导航-Python编程导航.md",
+                    "file": "01_Areas/技术学习/前端开发/html/README.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "00-导航-Python编程导航"
+                  "title": "README"
                 }
               }
             ]
@@ -31,17 +31,17 @@
           {
             "id": "fcfb420e469b66bb",
             "type": "tabs",
-            "dimension": 39.90291262135922,
+            "dimension": 47.61904761904761,
             "children": [
               {
-                "id": "88b18fc7e3f2eab0",
+                "id": "5533d26f823232b5",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
                     "terminal:terminal": {
-                      "cwd": "/Users/chenwei/Documents/wei_note",
+                      "cwd": "/Users/chenwei/Documents/wei_note/01_Areas/技术学习/前端开发/html",
                       "focus": false,
                       "profile": {
                         "args": [
@@ -72,7 +72,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "终端：OC | Python 编程学习资料清单分析与整理"
+                  "title": "终端：OC | Obsidian 方法整理文件夹顺序与内容优化"
                 }
               }
             ]
@@ -249,8 +249,30 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "88b18fc7e3f2eab0",
+  "active": "5533d26f823232b5",
   "lastOpenFiles": [
+    "01_Areas/技术学习/前端开发/html/README.md",
+    "01_Areas/技术学习/前端开发/html/06-Canvas实战案例.md",
+    "01_Areas/技术学习/前端开发/html/HTML5.md",
+    "01_Areas/技术学习/前端开发/html/test.md",
+    "01_Areas/技术学习/前端开发/html/03-Meta标签详解.md",
+    "01_Areas/技术学习/前端开发/html/01-HTML基础入门.md",
+    "01_Areas/技术学习/前端开发/html/00-HTML-MOC.md",
+    "01_Areas/技术学习/前端开发/html/05-HTML5新特性.md",
+    "01_Areas/技术学习/前端开发/html/04-HTML特殊属性.md",
+    "01_Areas/技术学习/前端开发/html/02-HTML标签详解.md",
+    "01_Areas/技术学习/前端开发/html/meta.md",
+    "01_Areas/技术学习/前端开发/html/HTML.md",
+    "01_Areas/技术学习/前端开发/html/Canvas.md",
+    "01_Areas/技术学习/前端开发/html/img/photo.png",
+    "01_Areas/技术学习/前端开发/html/special.md",
+    "01_Areas/技术学习/前端开发/html/img",
+    "01_Areas/技术学习/前端开发/html",
+    "00_Projects/学习项目/React进阶_30天精通.md",
+    "快速入门指南.md",
+    "01_Areas/技术学习/前端开发/React 18 新特性.md",
+    "01_Areas/技术学习/Python编程/01-基础-数据结构详解.md",
+    "01_Areas/技术学习/Python编程/01-基础-面向对象编程.md",
     "01_Areas/技术学习/Python编程/00-导航-Python编程导航.md",
     "README.md",
     "01_Areas/技术学习/Python编程/04-速查-资源汇总.md",
@@ -258,25 +280,6 @@
     "01_Areas/技术学习/Python编程/04-速查-进阶知识.md",
     "01_Areas/技术学习/Python编程/04-速查-核心知识点.md",
     "Dashboard.md",
-    "01_Areas/技术学习/Python编程/01-基础-核心语法汇总.md",
-    "01_Areas/技术学习/Python编程/Python-100-Days索引.md",
-    "01_Areas/技术学习/Python编程/01-基础-语法入门.md",
-    "01_Areas/技术学习/Python编程/03-方向C-机器学习.md",
-    "01_Areas/技术学习/Python编程/03-方向C-数据分析.md",
-    "01_Areas/技术学习/Python编程/03-方向B-网络爬虫.md",
-    "01_Areas/技术学习/Python编程/03-方向A-工程化实践.md",
-    "01_Areas/技术学习/Python编程/03-方向A-Web开发-Django全栈.md",
-    "01_Areas/技术学习/Python编程/02-应用-数据库与SQL.md",
-    "01_Areas/技术学习/Python编程/02-应用-进阶与Linux.md",
-    "01_Areas/技术学习/Python编程/02-应用-文件操作与常用库.md",
-    "01_Areas/技术学习/Python编程/01-基础-面向对象编程.md",
-    "01_Areas/技术学习/Python编程/01-基础-函数与模块.md",
-    "01_Areas/技术学习/Python编程/01-基础-数据结构详解.md",
-    "01_Areas/技术学习/Python编程/00-MOC-知识地图.md",
-    "01_Areas/技术学习/Python编程/00-学习计划-100天路线.md",
-    "01_Areas/技术学习/Python编程/README.md",
-    "02_Resources/技术资源/Python/01-Python基础/01-Python基础索引.md",
-    "01_Areas/技术学习/Python编程/Python Web开发.md",
     "未命名 2.base",
     "未命名 1.base",
     "未命名.base",
@@ -286,8 +289,6 @@
     "02_Resources/技术资源/Python/08-机器学习",
     "02_Resources/技术资源/Python/07-数据分析",
     "02_Resources/技术资源/Python/06-网络爬虫",
-    "02_Resources/技术资源/Python/05-Django开发",
-    "02_Resources/技术资源/Python/04-数据库与SQL",
     "01_Areas/技术学习/Python编程/Python-100-Days-master/公开课/第04次公开课-好玩的Python/code/resources/chiling.jpg",
     "01_Areas/技术学习/Python编程/Python-100-Days-master/公开课/第04次公开课-好玩的Python/code/resources/frame.jpg",
     "01_Areas/技术学习/Python编程/Python-100-Days-master/Day01-20/res/day01/install_python_4.png",
@@ -296,7 +297,6 @@
     "01_Areas/技术学习/Python编程/Python-100-Days-master/公开课/第06次公开课-算法入门系列2-在水一方/res/eight_queen.png",
     "01_Areas/技术学习/Python编程/Python-100-Days-master/公开课/第06次公开课-算法入门系列2-在水一方/res/droste.png",
     "01_Areas/技术学习/Python编程/Python-100-Days-master/公开课/第04次公开课-好玩的Python/res/requests.png",
-    "01_Areas/技术学习/Python编程/Python-100-Days-master/公开课/年薪50W+的Python程序员如何写代码/res/use-pandas-in-jupyter-notebook.png",
     "未命名 1.canvas",
     "未命名 2.canvas",
     "未命名 3.canvas",
