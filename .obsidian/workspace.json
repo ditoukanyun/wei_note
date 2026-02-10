@@ -4,44 +4,58 @@
     "type": "split",
     "children": [
       {
-        "id": "86759ef868355033",
+        "id": "462ed0c9571cdd78",
         "type": "split",
         "children": [
           {
-            "id": "68df4658c91cbba9",
+            "id": "fcfb420e469b66bb",
             "type": "tabs",
-            "dimension": 52.38095238095239,
+            "dimension": 59.04761904761905,
             "children": [
               {
-                "id": "e57c90c5318b48a9",
+                "id": "121ff885c0d82526",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01_Areas/技术学习/前端开发/html/README.md",
+                    "file": "01_Areas/技术学习/前端开发/css/BFC.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "README"
+                  "title": "BFC"
+                }
+              },
+              {
+                "id": "fb2c241faf387c0e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "01_Areas/AI提示语/06_Obsidian助手/Obsidian助手 MOC.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Obsidian助手 MOC"
                 }
               }
             ]
           },
           {
-            "id": "fcfb420e469b66bb",
+            "id": "8c34b3834f4ce72d",
             "type": "tabs",
-            "dimension": 47.61904761904761,
+            "dimension": 40.95238095238095,
             "children": [
               {
-                "id": "5533d26f823232b5",
+                "id": "dd7a63ef161cf194",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
                     "terminal:terminal": {
-                      "cwd": "/Users/chenwei/Documents/wei_note/01_Areas/技术学习/前端开发/html",
+                      "cwd": "/Users/chenwei/Documents/wei_note",
                       "focus": false,
                       "profile": {
                         "args": [
@@ -72,7 +86,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "终端：OC | Obsidian 方法整理文件夹顺序与内容优化"
+                  "title": "终端：OC | Greeting check-in"
                 }
               }
             ]
@@ -110,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "obsidian 提示语",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,6 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01_Areas/技术学习/前端开发/css/BFC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "BFC 的反向链接列表"
             }
           },
           {
@@ -169,11 +184,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "01_Areas/技术学习/前端开发/css/BFC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "BFC 的出链列表"
             }
           },
           {
@@ -211,12 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "01_Areas/技术学习/前端开发/css/BFC.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "BFC 的大纲"
             }
           },
           {
@@ -249,54 +266,54 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5533d26f823232b5",
+  "active": "121ff885c0d82526",
   "lastOpenFiles": [
-    "01_Areas/技术学习/前端开发/html/README.md",
-    "01_Areas/技术学习/前端开发/html/06-Canvas实战案例.md",
-    "01_Areas/技术学习/前端开发/html/HTML5.md",
-    "01_Areas/技术学习/前端开发/html/test.md",
-    "01_Areas/技术学习/前端开发/html/03-Meta标签详解.md",
-    "01_Areas/技术学习/前端开发/html/01-HTML基础入门.md",
-    "01_Areas/技术学习/前端开发/html/00-HTML-MOC.md",
-    "01_Areas/技术学习/前端开发/html/05-HTML5新特性.md",
-    "01_Areas/技术学习/前端开发/html/04-HTML特殊属性.md",
-    "01_Areas/技术学习/前端开发/html/02-HTML标签详解.md",
-    "01_Areas/技术学习/前端开发/html/meta.md",
-    "01_Areas/技术学习/前端开发/html/HTML.md",
-    "01_Areas/技术学习/前端开发/html/Canvas.md",
-    "01_Areas/技术学习/前端开发/html/img/photo.png",
-    "01_Areas/技术学习/前端开发/html/special.md",
-    "01_Areas/技术学习/前端开发/html/img",
-    "01_Areas/技术学习/前端开发/html",
-    "00_Projects/学习项目/React进阶_30天精通.md",
-    "快速入门指南.md",
-    "01_Areas/技术学习/前端开发/React 18 新特性.md",
-    "01_Areas/技术学习/Python编程/01-基础-数据结构详解.md",
-    "01_Areas/技术学习/Python编程/01-基础-面向对象编程.md",
-    "01_Areas/技术学习/Python编程/00-导航-Python编程导航.md",
-    "README.md",
-    "01_Areas/技术学习/Python编程/04-速查-资源汇总.md",
-    "01_Areas/技术学习/Python编程/04-速查-项目实践.md",
-    "01_Areas/技术学习/Python编程/04-速查-进阶知识.md",
-    "01_Areas/技术学习/Python编程/04-速查-核心知识点.md",
+    "01_Areas/技术学习/前端开发/css/Sass.md",
+    "01_Areas/技术学习/前端开发/css/Bootstrap.md",
+    "01_Areas/技术学习/前端开发/css/BFC.md",
+    "01_Areas/AI提示语/06_Obsidian助手/整理-Obsidian目录.md",
+    "01_Areas/AI提示语/06_Obsidian助手/Obsidian助手 MOC.md",
+    "01_Areas/技术学习/前端开发/css/Unit.md",
+    "01_Areas/技术学习/前端开发/css/Center.md",
+    "01_Areas/技术学习/前端开发/css/README.md",
+    "01_Areas/技术学习/前端开发/css/horizontal-vertical.md",
+    "01_Areas/技术学习/前端开发/css/MOC.md",
+    "01_Areas/AI提示语/提示语优化技巧.md",
+    "01_Areas/AI提示语/02_编程开发/编程开发 MOC.md",
+    "01_Areas/AI提示语/06_Obsidian助手",
+    "01_Areas/AI提示语/05_生活助手_副本/生活助手 MOC.md",
+    "01_Areas/AI提示语/05_生活助手_副本",
+    "01_Areas/AI提示语/05_生活助手/生活助手 MOC.md",
+    "01_Areas/AI提示语/04_工作提效/工作提效 MOC.md",
+    "01_Areas/AI提示语/04_工作提效/撰写-商务邮件.md",
     "Dashboard.md",
-    "未命名 2.base",
-    "未命名 1.base",
-    "未命名.base",
-    "01_Areas/技术学习/Python编程/Python-100-Days-master/Day01-20/res/day01/github_pypl_and_ieee_spectrum.png",
-    "02_Resources/技术资源/Python/01-Python基础",
-    "02_Resources/技术资源/Python/09-高级主题",
-    "02_Resources/技术资源/Python/08-机器学习",
-    "02_Resources/技术资源/Python/07-数据分析",
-    "02_Resources/技术资源/Python/06-网络爬虫",
-    "01_Areas/技术学习/Python编程/Python-100-Days-master/公开课/第04次公开课-好玩的Python/code/resources/chiling.jpg",
-    "01_Areas/技术学习/Python编程/Python-100-Days-master/公开课/第04次公开课-好玩的Python/code/resources/frame.jpg",
-    "01_Areas/技术学习/Python编程/Python-100-Days-master/Day01-20/res/day01/install_python_4.png",
-    "01_Areas/技术学习/Python编程/Python-100-Days-master/公开课/第06次公开课-算法入门系列2-在水一方/res/knight_tour.gif",
-    "01_Areas/技术学习/Python编程/Python-100-Days-master/公开课/第06次公开课-算法入门系列2-在水一方/res/maze.png",
-    "01_Areas/技术学习/Python编程/Python-100-Days-master/公开课/第06次公开课-算法入门系列2-在水一方/res/eight_queen.png",
-    "01_Areas/技术学习/Python编程/Python-100-Days-master/公开课/第06次公开课-算法入门系列2-在水一方/res/droste.png",
-    "01_Areas/技术学习/Python编程/Python-100-Days-master/公开课/第04次公开课-好玩的Python/res/requests.png",
+    "01_Areas/AI提示语/03_学习研究/总结-文章要点.md",
+    "01_Areas/技术学习/Python编程/04-速查-核心知识点.md",
+    "01_Areas/AI提示语/AI提示语使用指南.md",
+    "01_Areas/技术学习/Python编程/04-速查-进阶知识.md",
+    "01_Areas/AI提示语/02_编程开发/生成-函数代码.md",
+    "01_Areas/AI提示语/AI提示语中心 MOC.md",
+    "01_Areas/AI提示语/01_写作创作/撰写-技术博客.md",
+    "01_Areas/AI提示语/05_生活助手",
+    "01_Areas/AI提示语/04_工作提效",
+    "01_Areas/AI提示语/03_学习研究/学习研究 MOC.md",
+    "01_Areas/AI提示语/03_学习研究",
+    "01_Areas/AI提示语/02_编程开发",
+    "01_Areas/AI提示语/01_写作创作/写作创作 MOC.md",
+    "01_Areas/AI提示语/01_写作创作",
+    "01_Areas/AI提示语",
+    "01_Areas/技术学习/前端开发/css/img/9.png",
+    "01_Areas/技术学习/前端开发/css/img/8.png",
+    "01_Areas/技术学习/前端开发/css/img/7.png",
+    "01_Areas/技术学习/前端开发/css/img/6.png",
+    "01_Areas/技术学习/前端开发/css/img/51.png",
+    "01_Areas/技术学习/前端开发/css/img/52.png",
+    "01_Areas/技术学习/前端开发/css/img/50.png",
+    "01_Areas/技术学习/前端开发/css/img/5.png",
+    "01_Areas/技术学习/前端开发/css/img/49.png",
+    "01_Areas/技术学习/前端开发/css/img/44.png",
+    "01_Areas/技术学习/前端开发/css/img",
+    "01_Areas/技术学习/前端开发/css",
     "未命名 1.canvas",
     "未命名 2.canvas",
     "未命名 3.canvas",
