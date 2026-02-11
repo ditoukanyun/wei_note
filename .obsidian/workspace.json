@@ -4,96 +4,137 @@
     "type": "split",
     "children": [
       {
-        "id": "3d75e1f6d387790b",
-        "type": "split",
+        "id": "16617aef1c67db75",
+        "type": "tabs",
         "children": [
           {
-            "id": "fcfb420e469b66bb",
-            "type": "tabs",
-            "dimension": 45.937813440320966,
-            "children": [
-              {
-                "id": "121ff885c0d82526",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "01_Areas/技术学习/前端开发/css/Bootstrap.md",
-                    "mode": "source",
-                    "source": false
+            "id": "2d379e2403fe28ed",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/chenwei/Documents/wei_note/01_Areas/技术学习/AI相关/Skill/案例",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "executable": "/bin/zsh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
                   },
-                  "icon": "lucide-file",
-                  "title": "Bootstrap"
+                  "serial": null
                 }
               },
-              {
-                "id": "fb2c241faf387c0e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "01_Areas/技术学习/前端开发/React/React 性能优化.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "React 性能优化"
-                }
-              }
-            ],
-            "currentTab": 1
+              "pinned": true,
+              "icon": "terminal",
+              "title": "终端：chenwei@chenweideMacBook-Pro:~/Documents/wei_note/01_Areas/技术学习/AI相关/Skill/案例"
+            }
           },
           {
-            "id": "5fb83e07630eb9d6",
-            "type": "tabs",
-            "dimension": 54.062186559679034,
-            "children": [
-              {
-                "id": "ad3ee718fec1a1dc",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/Users/chenwei/Documents/wei_note/01_Areas/技术学习/前端开发/React",
-                      "focus": false,
-                      "profile": {
-                        "args": [
-                          "--login"
-                        ],
-                        "executable": "/bin/zsh",
-                        "followTheme": true,
-                        "name": "",
-                        "platforms": {
-                          "darwin": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": null
-                    }
+            "id": "5446dc5e7b0d5a52",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/chenwei/Documents/wei_note/01_Areas/技术学习/前端开发/vue",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "executable": "/bin/zsh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
                   },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "终端：OC | React 性能优化参考链接解读与提升要点"
+                  "serial": null
                 }
-              }
-            ]
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "终端：chenwei@chenweideMacBook-Pro:~/Documents/wei_note/01_Areas/技术学习/前端开发/vue"
+            }
+          },
+          {
+            "id": "96d7ebb2936a43f4",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/chenwei/Documents/wei_note/",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "executable": "/bin/zsh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": null
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "终端：OC | Daily planner: OrbitOS start-my-day s..."
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -125,7 +166,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "obsidian 提示语",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -249,7 +290,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 423.5
+    "width": 581.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,54 +305,54 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ad3ee718fec1a1dc",
+  "active": "96d7ebb2936a43f4",
   "lastOpenFiles": [
-    "01_Areas/技术学习/前端开发/React/React 性能优化.md",
-    "快速入门指南.md",
-    "01_Areas/技术学习/前端开发/React/React 18 新特性.md",
-    "01_Areas/技术学习/前端开发/React",
-    "01_Areas/AI提示语/06_Obsidian助手/批量重命名-笔记文件.md",
-    "01_Areas/AI提示语/06_Obsidian助手/Obsidian助手 MOC.md",
-    "01_Areas/技术学习/前端开发/css/Bootstrap.md",
-    "01_Areas/技术学习/前端开发/css/Center.md",
-    "01_Areas/技术学习/前端开发/css/MOC.md",
-    "01_Areas/技术学习/前端开发/css/Unit.md",
-    "01_Areas/技术学习/前端开发/css/CSS.md",
-    "01_Areas/技术学习/前端开发/css/README.md",
-    "01_Areas/技术学习/前端开发/css/BFC.md",
-    "01_Areas/技术学习/前端开发/css/Sass.md",
-    "01_Areas/AI提示语/06_Obsidian助手/整理-Obsidian目录.md",
-    "01_Areas/技术学习/前端开发/css/horizontal-vertical.md",
-    "01_Areas/AI提示语/提示语优化技巧.md",
-    "01_Areas/AI提示语/02_编程开发/编程开发 MOC.md",
-    "01_Areas/AI提示语/06_Obsidian助手",
-    "01_Areas/AI提示语/05_生活助手_副本/生活助手 MOC.md",
-    "01_Areas/AI提示语/05_生活助手_副本",
-    "01_Areas/AI提示语/05_生活助手/生活助手 MOC.md",
-    "01_Areas/AI提示语/04_工作提效/工作提效 MOC.md",
-    "01_Areas/AI提示语/04_工作提效/撰写-商务邮件.md",
-    "Dashboard.md",
-    "01_Areas/AI提示语/03_学习研究/总结-文章要点.md",
-    "01_Areas/技术学习/Python编程/04-速查-核心知识点.md",
-    "01_Areas/AI提示语/AI提示语使用指南.md",
-    "01_Areas/技术学习/Python编程/04-速查-进阶知识.md",
-    "01_Areas/AI提示语/05_生活助手",
-    "01_Areas/AI提示语/04_工作提效",
-    "01_Areas/AI提示语/03_学习研究",
-    "01_Areas/AI提示语/02_编程开发",
-    "01_Areas/AI提示语/01_写作创作",
-    "01_Areas/AI提示语",
-    "01_Areas/技术学习/前端开发/css/img/9.png",
-    "01_Areas/技术学习/前端开发/css/img/8.png",
-    "01_Areas/技术学习/前端开发/css/img/7.png",
-    "01_Areas/技术学习/前端开发/css/img/6.png",
-    "01_Areas/技术学习/前端开发/css/img/51.png",
-    "01_Areas/技术学习/前端开发/css/img/52.png",
-    "01_Areas/技术学习/前端开发/css/img/50.png",
-    "01_Areas/技术学习/前端开发/css/img/5.png",
-    "01_Areas/技术学习/前端开发/css/img/49.png",
-    "01_Areas/技术学习/前端开发/css/img/44.png",
-    "01_Areas/技术学习/前端开发/css/img",
+    "50_资源/Newsletters/2026-02-11-摘要.md",
+    "10_日记/2026-02-11.md",
+    "README.md",
+    "99_系统/模板/Content_Template.md",
+    "99_系统/模板/Daily_Note.md",
+    "50_资源/Newsletters",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "。opencode/skills/parse-knowledge/SKILL.md",
+    "。opencode/skills/ask/SKILL.md",
+    "。opencode/skills/start-my-day/SKILL.md",
+    "。opencode/skills/research/SKILL.md",
+    "。opencode/skills/obsidian-markdown/SKILL.md",
+    "。opencode/skills/archive/SKILL.md",
+    "。opencode/skills/ai-products/TEMPLATE.md",
+    "。opencode/skills/ai-newsletters/TEMPLATE.md",
+    "。opencode/skills/ai-newsletters/SKILL.md",
+    "。opencode/skills/kickoff/SKILL.md",
+    "。opencode/skills/obsidian-bases/SKILL.md",
+    "。opencode/skills/json-canvas/SKILL.md",
+    "。opencode/skills/brainstorm/SKILL.md",
+    "。opencode/skills/ai-products/SKILL.md",
+    "。opencode/skills/start-my-day",
+    "。opencode/skills/research",
+    "。opencode/skills/parse-knowledge",
+    "。opencode/skills/obsidian-markdown",
+    "。opencode/skills/obsidian-bases",
+    "。opencode/skills/kickoff",
+    "。opencode/skills/json-canvas",
+    "。opencode/skills/brainstorm",
+    "。opencode/skills/ask",
+    "opencode/skills/start-my-day/SKILL.md",
+    "opencode/skills/research/SKILL.md",
+    "opencode/skills/kickoff/SKILL.md",
+    "opencode/skills/obsidian-bases/SKILL.md",
+    "opencode/skills/parse-knowledge/SKILL.md",
+    "50_资源/Screenshot.png",
+    "40_知识库/前端开发/React/03-资源/images/3.png",
+    "40_知识库/前端开发/React/03-资源/images/6.png",
+    "40_知识库/前端开发/React/03-资源/images/4.png",
+    "40_知识库/前端开发/React/03-资源/images/2.png",
+    "40_知识库/前端开发/React/03-资源/images/5.png",
+    "40_知识库/前端开发/React/03-资源/images/1.png",
+    "40_知识库/前端开发/vue/img/9.png",
+    "40_知识库/前端开发/vue/img/6.png",
+    "40_知识库/前端开发/vue/img/7.png",
     "未命名 1.canvas",
     "未命名 2.canvas",
     "未命名 3.canvas",

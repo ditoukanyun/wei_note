@@ -1,0 +1,90 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+        - file.inFolder("30_研究")
+        - file.inFolder("40_知识库")
+formulas:
+  display_title: file.asLink(file.basename.replace("_", " ").replace("-", " "))
+  category: file.folder.split("/").reverse()[0]
+  area_name: file.path.split("/")[1]
+  source_type: if(file.inFolder("40_知识库"), "知识库", "研究")
+  tag_list: if(tags != "", tags.join(", "), "")
+properties:
+  formula.display_title:
+    displayName: 标题
+  formula.category:
+    displayName: 分类
+  formula.area_name:
+    displayName: 领域
+  formula.source_type:
+    displayName: 类型
+  formula.tag_list:
+    displayName: 标签
+  created:
+    displayName: 创建时间
+views:
+  - type: table
+    name: 📚 知识库
+    filters:
+      and:
+        - file.inFolder("40_知识库")
+    groupBy:
+      property: formula.area_name
+      direction: ASC
+    order:
+      - formula.display_title
+      - formula.category
+      - formula.tag_list
+      - created
+    sort:
+      - property: formula.display_title
+        direction: DESC
+      - property: formula.category
+        direction: ASC
+    columnSize:
+      formula.display_title: 250
+      formula.category: 150
+      formula.tag_list: 200
+  - type: table
+    name: 📖 研究
+    filters:
+      and:
+        - file.inFolder("30_研究")
+    groupBy:
+      property: formula.area_name
+      direction: ASC
+    order:
+      - formula.display_title
+      - formula.category
+      - formula.tag_list
+      - created
+    sort:
+      - property: formula.category
+        direction: ASC
+    columnSize:
+      formula.display_title: 250
+      formula.category: 150
+      formula.tag_list: 200
+  - type: table
+    name: 🔍 全部知识
+    filters:
+      and:
+        - formula.tag_list.contains("mcp")
+    groupBy:
+      property: formula.source_type
+      direction: ASC
+    order:
+      - formula.display_title
+      - formula.area_name
+      - formula.category
+      - formula.tag_list
+    sort:
+      - property: formula.area_name
+        direction: ASC
+      - property: formula.display_title
+        direction: ASC
+    columnSize:
+      formula.display_title: 250
+      formula.area_name: 120
+      formula.category: 150
