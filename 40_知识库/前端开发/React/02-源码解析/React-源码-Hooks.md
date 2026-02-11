@@ -58,7 +58,7 @@ function App() {
 
 调用链路如下
 
-![hook](../03-资源/images/3.png)
+![hook](40_知识库/前端开发/React/03-资源/images/3.png)
 
 ### beginWork
 

@@ -1,3 +1,25 @@
+---
+title: Python数据库与SQL
+description: MySQL数据库、SQL语句、Python数据库操作、ORM基础（Day36-45）
+date: 2026-02-10
+tags:
+  - python
+  - mysql
+  - sql
+  - database
+  - orm
+  - pymysql
+category: 应用阶段
+status: active
+aliases:
+  - 数据库
+  - SQL
+  - MySQL
+  - Day36-45
+parent: "[[00-导航-Python编程导航]]"
+up: "[[00-MOC-知识地图]]"
+---
+
 # Python数据库与SQL (Day 36-45)
 
 > 掌握关系型数据库MySQL和SQL语言，学会用Python操作数据库
@@ -436,4 +458,4 @@ engine = create_engine('mysql+pymysql://...', poolclass=QueuePool, pool_size=10)
 
 ---
 
-**下一步**: [[Python Web开发]] → 学习Django框架
+**下一步**: [[03-方向A-Web开发-Django全栈|Django全栈]] → 学习Django框架

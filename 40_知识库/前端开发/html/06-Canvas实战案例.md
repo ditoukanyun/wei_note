@@ -17,7 +17,7 @@ parent: "[[00-HTML-MOC|HTML知识地图]]"
 > [!abstract] 项目简介
 > 使用HTML5 Canvas + 原生JavaScript实现功能完善的画板应用，支持画笔、直线、矩形、圆形、橡皮擦等工具。
 
-![画板预览](./img/photo.png)
+![画板预览](photo.png)
 
 
 ## 功能特性

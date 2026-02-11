@@ -1207,4 +1207,4 @@ beforeCreate () {
 
 ## VueRouter流程图
 
-![VueRouter流程图](../img/54.png)
+![VueRouter流程图](40_知识库/前端开发/vue/img/54.png)

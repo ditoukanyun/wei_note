@@ -103,7 +103,7 @@ parent: "[[MOC]]"
 - font 值 eg：font：italic bold 14px "微软雅黑" ，可以同时设置斜体、加粗、大小、字体；需要空格隔开，并且要有顺序
 - **vertical-align** 垂直对齐，行内块元素有默认值，默认 baseline 默认对齐，top 顶部对齐，middle 中部对齐，bottom 底部对齐
 - 定义字体
-![img](4.png)
+![img](40_知识库/前端开发/css/img/4.png)
 - 1em相当于100%宽度字体
 - **%相对于父级**
 - 行高1.5em（倍数适应好）、px
@@ -386,7 +386,7 @@ parent: "[[MOC]]"
 - row-gap：行间距、column-gap列间距，gap，行 列
 - grid-row/column-start/end：r1-start/c2-end画指定行列位置栅格，必须矩形
 - grid-template-row：快捷画栅格r、c
-![img](5.png)
+![img](40_知识库/前端开发/css/img/5.png)
 - span 1 占一行/列
 - grid-row/column：3/4，开始/结束（推荐）
 - grid-area：2/2/3/3定位区域

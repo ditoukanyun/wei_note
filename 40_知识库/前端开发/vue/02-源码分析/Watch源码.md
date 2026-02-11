@@ -186,4 +186,4 @@ teardown () {
 
 ### Watch过程示意图
 
-![Watch过程示意图](../img/46.png)
+![Watch过程示意图](40_知识库/前端开发/vue/img/46.png)

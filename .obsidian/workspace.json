@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "16617aef1c67db75",
+        "id": "85ec2a0dca00d03a",
         "type": "tabs",
         "children": [
           {
-            "id": "2d379e2403fe28ed",
+            "id": "88f7df079b4a9641",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "terminal:terminal",
               "state": {
                 "terminal:terminal": {
-                  "cwd": "/Users/chenwei/Documents/wei_note/01_Areas/技术学习/AI相关/Skill/案例",
+                  "cwd": "/Users/chenwei/Documents/wei_note/40_知识库/Python编程",
                   "focus": false,
                   "profile": {
                     "args": [
@@ -46,53 +46,11 @@
               },
               "pinned": true,
               "icon": "terminal",
-              "title": "终端：chenwei@chenweideMacBook-Pro:~/Documents/wei_note/01_Areas/技术学习/AI相关/Skill/案例"
+              "title": "终端：chenwei@chenweideMacBook-Pro:~/Documents/wei_note/40_知识库/Python编程"
             }
           },
           {
-            "id": "5446dc5e7b0d5a52",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/chenwei/Documents/wei_note/01_Areas/技术学习/前端开发/vue",
-                  "focus": false,
-                  "profile": {
-                    "args": [
-                      "--login"
-                    ],
-                    "executable": "/bin/zsh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "终端：chenwei@chenweideMacBook-Pro:~/Documents/wei_note/01_Areas/技术学习/前端开发/vue"
-            }
-          },
-          {
-            "id": "96d7ebb2936a43f4",
+            "id": "6a1252fcddc684cc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -130,11 +88,11 @@
               },
               "pinned": true,
               "icon": "terminal",
-              "title": "终端：OC | Daily planner: OrbitOS start-my-day s..."
+              "title": "终端：OpenCode"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -284,6 +242,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "864271ed41546211",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
         ],
         "currentTab": 5
@@ -294,6 +262,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -302,47 +271,49 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "obsidian42-brat:BRAT": false,
+      "claudian:Open Claudian": false
     }
   },
-  "active": "96d7ebb2936a43f4",
+  "active": "6a1252fcddc684cc",
   "lastOpenFiles": [
-    "50_资源/Newsletters/2026-02-11-摘要.md",
+    "40_知识库/Python编程/MOC-Python编程.md",
+    "40_知识库/工具",
     "10_日记/2026-02-11.md",
+    "00_收件箱/AI学习.md",
+    "50_资源/images",
+    "40_知识库/工具/Markdown_速查表.md",
+    "00_收件箱/小想法.md",
+    "40_知识库",
     "README.md",
+    "99_系统/模板/Project_Template.md",
     "99_系统/模板/Content_Template.md",
-    "99_系统/模板/Daily_Note.md",
-    "50_资源/Newsletters",
-    "CLAUDE.md",
-    "AGENTS.md",
-    "。opencode/skills/parse-knowledge/SKILL.md",
-    "。opencode/skills/ask/SKILL.md",
-    "。opencode/skills/start-my-day/SKILL.md",
-    "。opencode/skills/research/SKILL.md",
-    "。opencode/skills/obsidian-markdown/SKILL.md",
-    "。opencode/skills/archive/SKILL.md",
-    "。opencode/skills/ai-products/TEMPLATE.md",
-    "。opencode/skills/ai-newsletters/TEMPLATE.md",
-    "。opencode/skills/ai-newsletters/SKILL.md",
-    "。opencode/skills/kickoff/SKILL.md",
-    "。opencode/skills/obsidian-bases/SKILL.md",
-    "。opencode/skills/json-canvas/SKILL.md",
-    "。opencode/skills/brainstorm/SKILL.md",
-    "。opencode/skills/ai-products/SKILL.md",
-    "。opencode/skills/start-my-day",
-    "。opencode/skills/research",
-    "。opencode/skills/parse-knowledge",
-    "。opencode/skills/obsidian-markdown",
-    "。opencode/skills/obsidian-bases",
-    "。opencode/skills/kickoff",
-    "。opencode/skills/json-canvas",
-    "。opencode/skills/brainstorm",
-    "。opencode/skills/ask",
-    "opencode/skills/start-my-day/SKILL.md",
-    "opencode/skills/research/SKILL.md",
-    "opencode/skills/kickoff/SKILL.md",
-    "opencode/skills/obsidian-bases/SKILL.md",
-    "opencode/skills/parse-knowledge/SKILL.md",
+    "99_系统/数据库/Knowledge.base",
+    "99_系统/提示词/Health_Sympton.md",
+    "99_系统/提示词/Health_General.md",
+    "99_系统/提示词/Finance_Debt.md",
+    "99_系统/提示词/Finance_Crypto.md",
+    "40_知识库/Python编程/README.md",
+    "40_知识库/Python编程/04-速查与资源/04-速查-资源汇总.md",
+    "40_知识库/Python编程/04-速查与资源/04-速查-项目实践.md",
+    "40_知识库/Python编程/04-速查与资源/04-速查-进阶知识.md",
+    "40_知识库/Python编程/04-速查与资源/04-速查-核心知识点.md",
+    "40_知识库/Python编程/03-专业方向/03-方向C-机器学习.md",
+    "40_知识库/Python编程/03-专业方向/03-方向C-数据分析.md",
+    "40_知识库/Python编程/03-专业方向/03-方向B-网络爬虫.md",
+    "40_知识库/Python编程/03-专业方向/03-方向A-工程化实践.md",
+    "40_知识库/Python编程/03-专业方向/03-方向A-Web开发-Django全栈.md",
+    "40_知识库/Python编程/02-应用阶段/02-应用-Python-UV包管理工具.md",
+    "40_知识库/Python编程/02-应用阶段/02-应用-数据库与SQL.md",
+    "40_知识库/Python编程/02-应用阶段/02-应用-进阶与Linux.md",
+    "40_知识库/Python编程/02-应用阶段/02-应用-文件操作与常用库.md",
+    "40_知识库/Python编程/04-速查与资源",
+    "40_知识库/Python编程/03-专业方向",
+    "40_知识库/Python编程/02-应用阶段",
+    "40_知识库/Python编程/01-基础阶段",
+    "40_知识库/Python编程/00-导航与规划",
+    "30_研究/未命名",
     "50_资源/Screenshot.png",
     "40_知识库/前端开发/React/03-资源/images/3.png",
     "40_知识库/前端开发/React/03-资源/images/6.png",

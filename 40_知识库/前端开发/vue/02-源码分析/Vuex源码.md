@@ -752,7 +752,7 @@ function vuexInit () {
 
 ## Vuex状态变迁
 
-![Vuex状态变迁](../img/52.png)
+![Vuex状态变迁](40_知识库/前端开发/vue/img/52.png)
 
 > 为了便于理解，这里只涉及单模块的全局store
 
@@ -919,4 +919,4 @@ dispatch(_type, _payload) {
 
 ## Vuex流程图
 
-![Vuex流程图](../img/53.png)
+![Vuex流程图](40_知识库/前端开发/vue/img/53.png)

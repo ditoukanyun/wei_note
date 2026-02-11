@@ -15,7 +15,7 @@ parent: "[[React-源码-核心]]"
 
 整体流程图
 
-![loop](../03-资源/images/5.png)
+![loop](40_知识库/前端开发/React/03-资源/images/5.png)
 
 ## scheduleCallback
 
@@ -94,7 +94,7 @@ function scheduleCallback(
 - 当已经到达开始时间时，那么当前任务被添加到任务队列中
   - 如果当前不在计划执行回调的定时器并且不在冲刷工作中，那么标记当前可以计划回调和冲刷任务，如果不在宏任务回调执行中，那么标记执行中，并设置一个宏任务回调
 
-![scheduleCallback](../03-资源/images/4.png)
+![scheduleCallback](40_知识库/前端开发/React/03-资源/images/4.png)
 
 ## setHostTimeout
 
@@ -309,7 +309,7 @@ function shouldBreak() {
 
 ## 全流程
 
-![scheduler](../03-资源/images/6.png)
+![scheduler](40_知识库/前端开发/React/03-资源/images/6.png)
 
 ## 0.23.0 最新源码解读
 

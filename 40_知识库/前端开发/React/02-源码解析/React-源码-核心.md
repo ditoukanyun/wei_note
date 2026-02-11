@@ -247,7 +247,7 @@ function jsxDEV(type, config, maybeKey, source, self) {
 
 这里只需要知道传给render函数的是调用`ReactElement()`的结果就行
 
-![jsx](../03-资源/images/1.png)
+![jsx](40_知识库/前端开发/React/03-资源/images/1.png)
 
 ## ReactElement做了什么
 
@@ -350,7 +350,7 @@ function createRoot(container, options) {
 
 创建调用链路如下
 
-![createRoot](../03-资源/images/2.png)
+![createRoot](40_知识库/前端开发/React/03-资源/images/2.png)
 
 最终`createRoot`创建的就是`ReactDOMRoot`的一个实例，然后把`FiberRootNode`实例挂载到`this._internalRoot`上
 

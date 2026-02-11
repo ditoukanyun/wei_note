@@ -1,3 +1,24 @@
+---
+title: Python进阶与Linux
+description: Python高级特性 - 生成器、迭代器、装饰器、并发编程、Linux基础（Day31-35）
+date: 2026-02-10
+tags:
+  - python
+  - advanced
+  - generators
+  - iterators
+  - concurrency
+  - linux
+category: 应用阶段
+status: active
+aliases:
+  - Python进阶
+  - Linux基础
+  - Day31-35
+parent: "[[00-导航-Python编程导航]]"
+up: "[[00-MOC-知识地图]]"
+---
+
 # Python进阶与Linux (Day 31-35)
 
 > 深入理解Python高级特性，掌握Linux操作系统基础
@@ -835,4 +856,4 @@ echo "部署完成!"
 
 ---
 
-**下一步**: [[Python数据库与SQL]] → 学习MySQL数据库操作
+**下一步**: [[02-应用-数据库与SQL|数据库与SQL]] → 学习MySQL数据库操作

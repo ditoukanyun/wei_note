@@ -537,20 +537,20 @@ function createElm (
 
 #### patch更新dom流程
 
-![patch更新流程](../img/47.png)
+![patch更新流程](40_知识库/前端开发/vue/img/47.png)
 
 #### patch对比流程
 
-![patch对比流程](../img/48.png)
+![patch对比流程](40_知识库/前端开发/vue/img/48.png)
 
 #### createElm创建dom过程
 
-![createElm创建真实dom](../img/49.png)
+![createElm创建真实dom](40_知识库/前端开发/vue/img/49.png)
 
 #### patchVnode过程
 
-![patchVnode过程](../img/50.png)
+![patchVnode过程](40_知识库/前端开发/vue/img/50.png)
 
 #### updateChildren过程
 
-![updateChildren过程](../img/51.png)
+![updateChildren过程](40_知识库/前端开发/vue/img/51.png)

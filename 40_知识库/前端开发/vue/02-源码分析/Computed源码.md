@@ -278,4 +278,4 @@ function createGetterInvoker(fn) {
 
 ### Computed过程示意图
 
-![Computed过程示意图](../img/45.png)
+![Computed过程示意图](40_知识库/前端开发/vue/img/45.png)

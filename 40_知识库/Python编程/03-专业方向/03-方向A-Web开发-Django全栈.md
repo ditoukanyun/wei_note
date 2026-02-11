@@ -1,3 +1,25 @@
+---
+title: Django全栈Web开发
+description: Django框架完整教程 - ORM、视图、模板、RESTful API、项目实战（Day46-60）
+date: 2026-02-10
+tags:
+  - python
+  - django
+  - web-development
+  - rest-api
+  - orm
+  - fullstack
+category: 专业方向
+status: active
+direction: Web开发
+aliases:
+  - Django
+  - Web开发
+  - Day46-60
+parent: "[[00-导航-Python编程导航]]"
+up: "[[00-MOC-知识地图]]"
+---
+
 # Python Web开发 (Day 46-60)
 
 > 掌握Django框架，开发完整的Web应用程序
@@ -638,4 +660,4 @@ class Article(models.Model):
 
 ---
 
-**下一步**: [[Python网络爬虫]] → 学习数据采集技术
+**下一步**: [[03-方向B-网络爬虫|网络爬虫]] → 学习数据采集技术
