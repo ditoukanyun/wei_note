@@ -1,8 +1,16 @@
 ---
-
+title: "Docker 基础"
+date: 2024-01-15
+tags: [docker, 容器化, 安装, 基础命令]
+category: 知识库/前端开发/docker
+status: active
+parent: "[[README|Docker MOC]]"
+aliases: [Docker入门, Docker安装指南]
 ---
 
 # Docker 基础
+
+> 本笔记包含 Docker 的安装指南、基础命令和常用操作。更多高级主题请参考 [[docker-网络|网络配置]]、[[docker-compose|Docker Compose]] 和 [[docker-swarm|Swarm 集群]]。
 
 docker 官网：https://docs.docker.com/
 
@@ -10,17 +18,17 @@ docker hub：https://hub.docker.com/
 
 命令大全
 
-![3897e595d1b96778119fb4cbc4a03237](3897e595d1b96778119fb4cbc4a03237.jpeg)
+![docker-命令大全](img/docker-命令大全.jpeg)
 
 docker 架构
 
-![img](u=793314303,480081697&fm=26&fmt=auto&gp=0.jpg)
+![docker-架构图-1](img/docker-架构图-1.jpg)
 
-![img](u=3203744075,640969770&fm=26&fmt=auto&gp=0.jpg)
+![docker-架构图-2](img/docker-架构图-2.jpg)
 
 docker 与虚拟机
 
-![img](u=3228263636,3385059830&fm=26&fmt=auto&gp=0.jpg)
+![docker-vs-虚拟机](img/docker-vs-虚拟机.jpg)
 
 ## Linux 安装 docker
 
@@ -355,13 +363,13 @@ docker run -it --name="centos-2" --volumes-form 数据卷容器 centos # 从数�
 
 构建过程
 
-![img](u=154294889,2458362410&fm=26&fmt=auto&gp=0.jpg)
+![dockerfile-构建过程](img/dockerfile-构建过程.jpg)
 
 指令大全
 
-![img](u=4079674949,3803452519&fm=26&fmt=auto&gp=0.jpg)
+![dockerfile-指令大全-1](img/dockerfile-指令大全-1.jpg)
 
-![img](u=769446589,570851016&fm=26&fmt=auto&gp=0.jpg)
+![dockerfile-指令大全-2](img/dockerfile-指令大全-2.jpg)
 
 Dockerfile 文件内容，命令大写
 
@@ -401,7 +409,7 @@ CMD /bin/bash
 docker build -t 5102/centos-1:1.0 .
 ```
 
-![img](u=158836981,2597373737&fm=26&fmt=auto&gp=0.jpg)
+![docker-构建输出](img/docker-构建输出.jpg)
 
 登录 docker hub
 
@@ -429,7 +437,7 @@ docker push [地址] user/images:tag # 标准命名规范
 
 ## docker 网络
 
-![img](u=3630699700,3656329070&fm=26&fmt=auto&gp=0.jpg)
+![docker-网络架构](img/docker-网络架构.jpg)
 
 查看 linux 网络
 
@@ -566,7 +574,7 @@ cluster nodes
 
 命令大全
 
-![img](u=2578426430,2552683020&fm=26&fmt=auto&gp=0.jpg)
+![docker-compose-命令](img/docker-compose-命令.jpg)
 
 步骤：
 
@@ -735,9 +743,9 @@ networks:
 
 ## Swarm 集群
 
-![img](u=3303271561,3348384133&fm=26&fmt=auto&gp=0.jpg)
+![docker-swarm-架构](img/docker-swarm-架构.jpg)
 
-![img](1.jpeg)
+![docker-swarm-架构图](img/docker-swarm-架构图.jpeg)
 
 manager 管理节点（3 >=）可使用管理命令
 
@@ -775,7 +783,7 @@ docker swarm join-token manager
 添加工作节点（生成的 token）
 
 ```shell
-docker swarm join --token SWMTKN-1-5z8j3yfzdp7ggweaj9ate7hnsr88nkm0sn9s5hho4nlt9v01aq-712dmhuuba5b34hrjahk1ewx7 192.168.31.201:2377
+docker swarm join --token <YOUR_SWARM_TOKEN> <MANAGER_IP>:2377
 ```
 
 查看节点
@@ -839,7 +847,7 @@ overlay：不同网络负载均衡
 docker service rm nginx-1
 ```
 
-![img](u=1916380254,3481616416&fm=26&fmt=auto&gp=0.jpg)
+![docker-swarm-概念](img/docker-swarm-概念.jpg)
 
 概念
 
