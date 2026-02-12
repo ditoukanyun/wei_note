@@ -15,3 +15,5 @@ source: start-my-day
 - [ ] 确定具体的学习领域（机器学习、深度学习、NLP、CV等）
 - [ ] 寻找合适的学习资源和课程
 - [ ] 制定学习计划和时间安排
+- [ ] 学习ai 开发 https://ai-sdk.dev/
+- [ ] 学习LangChain和LangGraph

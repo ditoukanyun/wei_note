@@ -4,81 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "f257081cf050728a",
-        "type": "split",
+        "id": "86b073907e2cbeb5",
+        "type": "tabs",
         "children": [
           {
-            "id": "358728594f872543",
-            "type": "tabs",
-            "dimension": 55.8252427184466,
-            "children": [
-              {
-                "id": "f8f22b98409c11f0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "40_知识库/前端开发/docker/docker-基础.md",
-                    "mode": "source",
-                    "source": false
+            "id": "36a93cafa6645381",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/chenwei/Documents/wei_note/",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "executable": "/bin/zsh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
                   },
-                  "icon": "lucide-file",
-                  "title": "docker-基础"
+                  "serial": null
                 }
-              }
-            ]
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "终端：OpenCode"
+            }
           },
           {
-            "id": "86b073907e2cbeb5",
-            "type": "tabs",
-            "dimension": 44.1747572815534,
-            "children": [
-              {
-                "id": "36a93cafa6645381",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/Users/chenwei/Documents/wei_note/",
-                      "focus": false,
-                      "profile": {
-                        "args": [
-                          "--login"
-                        ],
-                        "executable": "/bin/zsh",
-                        "followTheme": true,
-                        "name": "",
-                        "platforms": {
-                          "darwin": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": null
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "终端：chenwei@chenweideMacBook-Pro:~/Documents/wei_note"
-                }
-              }
-            ]
+            "id": "cfbafdcdeb5210b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30_研究/SoftwareEngineering/LangChain/LangChain-Study-Plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LangChain-Study-Plan"
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -244,7 +230,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 528.5
+    "width": 424.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,11 +248,44 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "f8f22b98409c11f0",
+  "active": "cfbafdcdeb5210b0",
   "lastOpenFiles": [
-    "40_知识库/前端开发/docker/README.md",
-    "README.md",
-    "40_知识库/前端开发/docker/docker-基础.md",
+    "30_研究/SoftwareEngineering/LangChain/LangChain 快速开始.md",
+    "90_计划/归档/Plan_2026-02-12_Research_LangChain_快速开始.md",
+    "40_知识库/AI相关/LangChain/Checkpointer.md",
+    "40_知识库/AI相关/LangChain/Store.md",
+    "30_研究/SoftwareEngineering/LangChain/examples/simple_chat.py",
+    "30_研究/SoftwareEngineering/LangChain/examples/hello_world.py",
+    "40_知识库/软件工程/LangChain/Tool.md",
+    "40_知识库/软件工程/LangChain/PromptTemplate.md",
+    "40_知识库/软件工程/LangChain/LLM.md",
+    "40_知识库/软件工程/LangChain/Agent.md",
+    "30_研究/SoftwareEngineering/LangChain/examples/README.md",
+    "40_知识库/软件工程/LangChain/快速开始.md",
+    "40_知识库/软件工程/LangChain",
+    "40_知识库/软件工程",
+    "90_计划/Plan_2026-02-12_Research_LangChain_快速开始.md",
+    "40_知识库/AI_ML/LangChain-Memory.md",
+    "40_知识库/AI_ML/LangChain_Memory.md",
+    "30_研究/SoftwareEngineering/LangChain_Memory/examples/memory_management_advanced.py",
+    "30_研究/SoftwareEngineering/LangChain_Memory/examples/long_term_memory_demo.py",
+    "30_研究/SoftwareEngineering/LangChain_Memory/examples/short_term_memory_demo.py",
+    "30_研究/SoftwareEngineering/LangChain_Memory/LangChain_Memory.md",
+    "30_研究/SoftwareEngineering/LangChain_Memory/examples/README.md",
+    "30_研究/SoftwareEngineering/LangChain_Memory/examples",
+    "30_研究/SoftwareEngineering/LangChain_Memory",
+    "90_计划/Plan_2026-02-12_Research_LangChain_Memory.md",
+    "10_日记/2026-02-11.md",
+    "40_知识库/AI_ML/LangChain-Middleware.md",
+    "30_研究/SoftwareEngineering/LangChain/LangChain-Study-Plan.md",
+    "40_知识库/AI_ML/LangChain-Agents.md",
+    "30_研究/SoftwareEngineering/LangChain/LangChain.md",
+    "40_知识库/AI_ML/LangChain-Prompts.md",
+    "10_日记/2026-02-12.md",
+    "40_知识库/AI_ML/LangChain-Retrieval.md",
+    "90_计划/Plan_2026-02-12_Research_LangChain.md",
+    "90_计划/归档/Plan_2026-02-12_Research_LangChain.md",
+    "30_研究/SoftwareEngineering/LangChain/examples/04-memory-conversation.py",
     "40_知识库/前端开发/docker/img/docker-swarm-架构图.jpeg",
     "40_知识库/前端开发/docker/img/docker-swarm-概念.jpg",
     "40_知识库/前端开发/docker/img/docker-swarm-架构.jpg",
@@ -277,38 +296,6 @@
     "40_知识库/前端开发/docker/img/dockerfile-指令大全-1.jpg",
     "40_知识库/前端开发/docker/img/dockerfile-构建过程.jpg",
     "40_知识库/前端开发/docker/img/docker-vs-虚拟机.jpg",
-    "40_知识库/前端开发/docker/base.md",
-    "40_知识库/前端开发/React/状态管理/状态管理工具对比.md",
-    "40_知识库/前端开发/React/状态管理/Zustand.md",
-    "90_计划/归档/Plan_2026-02-11_Research_前端状态管理工具.md",
-    "00_收件箱/小想法.md",
-    "20_项目/Python持续学习/Python持续学习.md",
-    "20_项目/Python持续学习.md",
-    "20_项目/Python持续学习",
-    "99_系统/归档/收件箱/2026/02/小想法.md",
-    "99_系统/归档/收件箱/2026/02",
-    "99_系统/归档/收件箱/2026",
-    "99_系统/归档/收件箱",
-    "99_系统/归档",
-    "90_计划/归档/Plan_2026-02-11_Kickoff_Python持续学习.md",
-    "90_计划/Plan_2026-02-11_Kickoff_Python持续学习.md",
-    "40_知识库/前端开发/React/01-核心概念/React 18 新特性.md",
-    "30_研究/SoftwareEngineering/Zustand/Zustand.md",
-    "40_知识库/前端开发/React/状态管理/状态持久化.md",
-    "40_知识库/前端开发/React/状态管理/中间件模式.md",
-    "00_收件箱/AI学习.md",
-    "30_研究/SoftwareEngineering/TanStack-Query/TanStack-Query.md",
-    "40_知识库/前端开发/前端开发 MOC.md",
-    "30_研究/SoftwareEngineering/Redux/Redux.md",
-    "React MOC.md",
-    "40_知识库/前端开发/React/状态管理/状态管理 MOC.md",
-    "90_计划/Plan_2026-02-11_Research_前端状态管理工具.md",
-    "90_计划/归档",
-    "40_知识库/前端开发/React/状态管理/Valtio.md",
-    "30_研究/SoftwareEngineering/TanStack-Query",
-    "30_研究/SoftwareEngineering/Redux",
-    "40_知识库/前端开发/React/状态管理",
-    "30_研究/SoftwareEngineering/Zustand",
     "未命名 1.canvas",
     "未命名 2.canvas",
     "未命名 3.canvas",

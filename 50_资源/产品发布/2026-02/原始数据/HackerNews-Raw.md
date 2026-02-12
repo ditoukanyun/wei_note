@@ -1,0 +1,6 @@
+- Show HN: I'm an airline pilot – I built interactive graphs/globes of my flights | https://jameshard.ing/pilot | points: 1539
+- Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game | https://airma.sh/ | points: 1535
+- Show HN: Boring Report, a news app that uses AI to desensationalize the news | https://www.boringreport.org/ | points: 1166
+- Show HN: New AI edits images based on text instructions | https://github.com/brycedrennan/imaginAIry/blob/master/README.md | points: 1098
+- Show HN: I built an AI that turns GitHub codebases into easy tutorials | https://github.com/The-Pocket/Tutorial-Codebase-Knowledge | points: 923
+- Show HN: I built an AI that turns GitHub codebases into easy tutorials | https://github.com/The-Pocket/Tutorial-Codebase-Knowledge

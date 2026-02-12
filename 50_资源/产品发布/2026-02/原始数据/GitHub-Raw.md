@@ -1,0 +1,2 @@
+- The-Pocket/Tutorial-Codebase-Knowledge | https://github.com/The-Pocket/Tutorial-Codebase-Knowledge
+- imaginAIry by brycedrennan | https://github.com/brycedrennan/imaginAIry

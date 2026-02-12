@@ -1,0 +1,11 @@
+- 2026-02-12: 抽取自 Product Hunt 的 AI 相关条目
+- Doraverse-3 — All-in-One AI for Meetings | https://www.producthunt.com/products/doraverse-3 | Discussion: https://www.producthunt.com/products/doraverse-3?utm_campaign=producthunt-atom-posts-feed&utm_medium=rss-feed&utm_source=producthunt-atom-posts-feed
+- Migma AI | https://www.producthunt.com/products/migma-ai | Discussion: https://www.producthunt.com/products/migma-ai?utm_campaign=producthunt-atom-posts-feed&utm_medium=rss-feed&utm_source=producthunt-atom-posts-feed
+- Nolain OCR | https://www.producthunt.com/products/nolain-ocr | Discussion: https://www.producthunt.com/products/nolain-ocr?utm_campaign=producthunt-atom-posts-feed&utm_medium=rss-feed&utm_source=producthunt-atom-posts-feed
+- The Genesis | https://www.producthunt.com/products/the-genesis | Discussion: https://www.producthunt.com/products/the-genesis?utm_campaign=producthunt-atom-posts-feed&utm_medium=rss-feed&utm_source=producthunt-atom-posts-feed
+- JumprAI | https://www.producthunt.com/products/jumprai | Discussion: https://www.producthunt.com/products/jumprai?utm_campaign=producthunt-atom-posts-feed&utm_medium=rss-feed&utm_source=producthunt-atom-posts-feed
+- Doraverse-3 — All-in-One AI for Meetings | https://www.producthunt.com/products/doraverse-3 | Discussion: https://www.producthunt.com/products/doraverse-3?utm_campaign=producthunt-atom-posts-feed&utm_medium=rss-feed&utm_source=producthunt-atom-posts-feed
+- Migma AI | https://www.producthunt.com/products/migma-ai | Discussion: https://www.producthunt.com/products/migma-ai?utm_campaign=producthunt-atom-posts-feed&utm_medium=rss-feed&utm_source=producthunt-atom-posts-feed
+- Nolain OCR | https://www.producthunt.com/products/nolain-ocr | Discussion: https://www.producthunt.com/products/nolain-ocr?utm_campaign=producthunt-atom-posts-feed&utm_medium=rss-feed&utm_source=producthunt-atom-posts-feed
+- The Genesis | https://www.producthunt.com/products/the-genesis | Discussion: https://www.producthunt.com/products/the-genesis?utm_campaign=producthunt-atom-posts-feed&utm_medium=rss-feed&utm_source=producthunt-atom-posts-feed
+- JumprAI | https://www.producthunt.com/products/jumprai | Discussion: https://www.producthunt.com/products/jumprai?utm_campaign=producthunt-atom-posts-feed&utm_medium=rss-feed&utm_source=producthunt-atom-posts-feed

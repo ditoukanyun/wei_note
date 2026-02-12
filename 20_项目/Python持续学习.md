@@ -28,6 +28,13 @@ Python作为一门通用编程语言，在数据科学、AI、Web开发、自动
 - [ ] Web项目实战：开发1个完整Web应用
 
 ### 阶段3: AI/ML方向（2周，3.18-3.31）
+- [x] **预习**: [[LangChain]] 框架研究（提前完成）
+  - [[LangChain-Agents]] - 智能代理
+  - [[LangChain-Chains]] - 链式工作流
+  - [[LangChain-Memory]] - 记忆系统
+  - [[LangChain-Retrieval]] - RAG检索
+  - [[LangChain-Prompts]] - 提示词管理
+  - 4个实践示例代码
 - [ ] [[03-方向C-数据分析]] - NumPy, Pandas基础
 - [ ] [[03-方向C-机器学习]] - Scikit-learn入门
 - [ ] 结合Web开发，实现AI服务API
@@ -56,6 +63,7 @@ Python作为一门通用编程语言，在数据科学、AI、Web开发、自动
 - [[02-应用-Python-UV包管理工具]] - 现代Python工作流
 - [[03-方向A-Web开发-Django全栈]] - Web开发
 - [[03-方向C-机器学习]] - AI/ML入门
+- [[LangChain]] - AI应用开发框架（已研究）
 
 ### 外部资源
 - Real Python教程
@@ -67,3 +75,7 @@ Python作为一门通用编程语言，在数据科学、AI、Web开发、自动
 
 ## 进展
 - 2026-02-11: 项目启动，制定学习计划
+- 2026-02-12: 完成 [[LangChain]] 框架深入研究
+  - 创建主笔记和5个原子概念笔记
+  - 编写4个实践示例代码
+  - 为阶段3的AI/ML方向提前打好基础
