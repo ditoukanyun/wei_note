@@ -1,0 +1,32 @@
+# Quartz
+public/
+.quartz-cache/
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/graph.json
+.obsidian/plugins/
+.obsidian/themes/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
