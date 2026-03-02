@@ -7,46 +7,46 @@ publish: true
 
 # 📰 新闻精选 | 2026-02-28
 
-> 生成时间: 2026/02/28 11:29
+> 生成时间: 2026/02/28 21:11
 > 来源: 知乎、微博、Hacker News、GitHub、Product Hunt 等
 
 ## 🇨🇳 国内新闻
 
 ### 知乎热榜
 
-- [巴基斯坦与阿富汗此次开战会带来哪些影响？双方矛盾有何历史渊源？](https://www.zhihu.com/question/2010818098232520758)
-- [网友在江西误闯红灯，才发现当地红灯的倒计时是绿色数字，各地的红绿灯指示方式有统一标准吗？如何避免误判？](https://www.zhihu.com/question/2010046985521094881)
-- [山东一试管婴儿出生右脚缺 4 趾产检未发现，为什么会出现这种情况？涉事医院和医生要承担哪些责任？](https://www.zhihu.com/question/2010249299271897533)
-- [美使馆建议相关人员撤离以色列，若要离开务必「今天离开」，释放出什么信号？这次真的要打起来了吗？](https://www.zhihu.com/question/2010812735596750717)
-- [为什么刘邦、李渊统一天下只用了 7 年，而曹操统一北方却用了 34 年？差异在哪里？](https://www.zhihu.com/question/40709242)
+- [伊朗首都德黑兰市中心发生爆炸，以色列宣布袭击伊朗，现场局势如何？哪些信息值得关注？](https://www.zhihu.com/question/2011084115043172797)
+- [贵州一白人女婿吃砂糖橘皮肤变黄，网友调侃「吃成本地人」，真的是吃出来的吗？哪些成分让皮肤变了色？](https://www.zhihu.com/question/2010023229314524909)
+- [如何评价 DeepSeek 发布新论文，提出一个名为「DualPath」的创新推理系统？有哪些亮点？](https://www.zhihu.com/question/2010670686461452529)
+- [伊朗军队正在对美国中东地区的军事基地实施打击，战火会蔓延至其他国家吗？中东各国有何反应？](https://www.zhihu.com/question/2011129557315511537)
+- [公司宣布降薪 20%，同事因房贷压力拒绝接受，结果领导说不接受可以选择走人，这种情况该如何应对？](https://www.zhihu.com/question/2010410594956747526)
 
 ### 微博热搜
 
-- [2026考研国家线发布](https://s.weibo.com/weibo?q=%232026%E8%80%83%E7%A0%94%E5%9B%BD%E5%AE%B6%E7%BA%BF%E5%8F%91%E5%B8%83%23&t=31&band_rank=1&Refer=top)
-- [国家线 砍一刀](https://s.weibo.com/weibo?q=%E5%9B%BD%E5%AE%B6%E7%BA%BF%20%E7%A0%8D%E4%B8%80%E5%88%80&t=31&band_rank=2&Refer=top)
-- [国家水网覆盖率超八成](https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%AE%B6%E6%B0%B4%E7%BD%91%E8%A6%86%E7%9B%96%E7%8E%87%E8%B6%85%E5%85%AB%E6%88%90%23&t=31&band_rank=3&Refer=top)
-- [小米超跑](https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E8%B6%85%E8%B7%91&t=31&band_rank=4&Refer=top)
-- [考研查分](https://s.weibo.com/weibo?q=%E8%80%83%E7%A0%94%E6%9F%A5%E5%88%86&t=31&band_rank=5&Refer=top)
+- [以色列宣布袭击伊朗](https://s.weibo.com/weibo?q=%23%E4%BB%A5%E8%89%B2%E5%88%97%E5%AE%A3%E5%B8%83%E8%A2%AD%E5%87%BB%E4%BC%8A%E6%9C%97%23&t=31&band_rank=1&Refer=top)
+- [山姆520元巧克力降到99元](https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%86520%E5%85%83%E5%B7%A7%E5%85%8B%E5%8A%9B%E9%99%8D%E5%88%B099%E5%85%83%23&t=31&band_rank=2&Refer=top)
+- [2025我国完成92次宇航发射](https://s.weibo.com/weibo?q=%232025%E6%88%91%E5%9B%BD%E5%AE%8C%E6%88%9092%E6%AC%A1%E5%AE%87%E8%88%AA%E5%8F%91%E5%B0%84%23&t=31&band_rank=3&Refer=top)
+- [伊朗一小学遭袭51人死60人伤](https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E4%B8%80%E5%B0%8F%E5%AD%A6%E9%81%AD%E8%A2%AD51%E4%BA%BA%E6%AD%BB60%E4%BA%BA%E4%BC%A4%23&t=31&band_rank=4&Refer=top)
+- [TOP专辑秒切](https://s.weibo.com/weibo?q=TOP%E4%B8%93%E8%BE%91%E7%A7%92%E5%88%87&t=31&band_rank=5&Refer=top)
 
 ### 36氪
 
-- [新版《人体生物监测质量保证规范》国家标准实施](https://www.36kr.com/newsflashes/3702376258417033)
-- [深圳：购买新能源乘用车补贴车价的12%](https://www.36kr.com/newsflashes/3702346097553539)
-- [老铺黄金2026年首轮涨价20%至30%，去年三次调价累计涨超45%](https://www.36kr.com/newsflashes/3702342592213129)
-- [LV中国公司换帅](https://www.36kr.com/newsflashes/3702294752670086)
-- [浙江新增2款已完成备案的生成式人工智能服务](https://www.36kr.com/newsflashes/3702290493370496)
+- [淘宝闪购开源食安治理AI大模型“白泽”](https://www.36kr.com/newsflashes/3702711337431170)
+- [南京娃哈哈宏振饮用水公司近日注销](https://www.36kr.com/newsflashes/3702683288334468)
+- [星河动力公布火箭舱段对接专利](https://www.36kr.com/newsflashes/3702677783785858)
+- [DeepSeek服务出现访问异常](https://www.36kr.com/newsflashes/3702673025151107)
+- [京东：希望今年外卖市场份额达到30%](https://www.36kr.com/newsflashes/3702670108176521)
 
 ### IT之家
 
-- [26.7 万玩家同时在线：《生化危机：安魂曲》游戏打破该系列在 Steam 首发人数纪录](https://www.ithome.com/0/924/471.htm)
-- [奇瑞 iCAR V27 技术发布会 3 月 3 日举行，预计本季度上市](https://www.ithome.com/0/924/470.htm)
-- [2025 年我国研究与试验发展（R&D）经费支出逼近 4 万亿元，同比增长 8.1%](https://www.ithome.com/0/924/469.htm)
-- [Counterpoint：智能手机 2026 年出货恐锐减 12.4%，迎来最严重收缩](https://www.ithome.com/0/924/467.htm)
-- [《毁灭战士》游戏迎最特殊“玩家”，约 20 万活体脑细胞操控](https://www.ithome.com/0/924/466.htm)
+- [消息称 Meta 自研芯片梦受挫：最先进芯片项目夭折，靠合作寻求替代方案](https://www.ithome.com/0/924/683.htm)
+- [AOC 22B35HM2 办公显示器开售：21.5 英寸 1080P 120Hz VA 面板，429 元](https://www.ithome.com/0/924/682.htm)
+- [开发者复活经典 UNIX 桌面环境 CDE，重现 20 世纪 90 年代交互设计](https://www.ithome.com/0/924/677.htm)
+- [达尔优推出听界 A3/Pro 无线游戏耳机新品，199~229 元](https://www.ithome.com/0/924/670.htm)
+- [韦德布什证券分析师帕切特：微软下一代 Xbox 主机“已死”，原因在于 XGP](https://www.ithome.com/0/924/669.htm)
 
 ### 少数派
 
-- [AI 十字路口：当机器学会「思考」，我们应该知道什么？](https://sspai.com/post/106285)
+- [年度征文｜AI 十字路口：当机器学会「思考」，我们应该知道什么？](https://sspai.com/post/106285)
 - [新玩意 236｜少数派的编辑们最近买了啥？](https://sspai.com/post/106451)
 - [本周看什么 | 最近值得一看的 8 部作品](https://sspai.com/post/106352)
 - [OpenClaw：高强度使用两周，这个 AI 工具颠覆了我的工作流](https://sspai.com/post/106232)
@@ -55,24 +55,24 @@ publish: true
 ### Solidot
 
 - [探索AI与GPU开发的无限可能，加入 NVIDIA 开发者计划，开启你的加速之旅！](https://www.solidot.org/story?sid=83412)
-- [让你压力山大的人也会增加你的生物年龄](https://www.solidot.org/story?sid=83636)
-- [内存短缺可能杀死入门级 PC](https://www.solidot.org/story?sid=83635)
+- [OpenAI 与五角大楼达成合作，用户纷纷取消 ChatGPT 订阅](https://www.solidot.org/story?sid=83642)
+- [伊朗再次全面断网](https://www.solidot.org/story?sid=83641)
 
 ### 澎湃新闻
 
-- [FIBA就不当措辞向中国球迷致歉，未在涉事原账号同步声明](https://www.thepaper.cn/newsDetail_forward_32667322)
+- [直播丨美以“先发制人”袭击伊朗，中东将走向何方？专家解读](https://www.thepaper.cn/newsDetail_forward_32672222)
 - [专访｜打击伊核设施“刺激”特朗普军事冒进，以色列欲再推美国动武](https://www.thepaper.cn/newsDetail_forward_32667369)
-- [多个行业协会整治乱设“大师”称号问题](https://www.thepaper.cn/newsDetail_forward_32666947)
+- [以色列宣布袭击伊朗，全国进入紧急状态](https://www.thepaper.cn/newsDetail_forward_32671966)
 
 ## 🌍 国际新闻
 
 ### GitHub Trending
 
-- [ruvnet /      wifi-densepose](https://github.com/ruvnet/wifi-densepose)
-- [bytedance /      deer-flow](https://github.com/bytedance/deer-flow)
-- [moonshine-ai /      moonshine](https://github.com/moonshine-ai/moonshine)
-- [muratcankoylan /      Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)
-- [obra /      superpowers](https://github.com/obra/superpowers)
+- [moeru-ai /      airi](https://github.com/moeru-ai/airi)
+- [anthropics /      claude-code](https://github.com/anthropics/claude-code)
+- [tukaani-project /      xz](https://github.com/tukaani-project/xz)
+- [Shubhamsaboo /      awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
+- [ruvnet /      ruflo](https://github.com/ruvnet/ruflo)
 
 ---
 
@@ -80,4 +80,4 @@ publish: true
 - 国内新闻: 31 条
 - 国际新闻: 5 条
 - 总计: 36 条
-- 生成时间: 2026/02/28 11:29
+- 生成时间: 2026/02/28 21:11
