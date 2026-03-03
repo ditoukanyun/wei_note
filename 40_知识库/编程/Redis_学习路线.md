@@ -46,12 +46,12 @@ ps -aux | grep redis
 
 ### 阶段三：命令操作（2-3天）
 
-| 数据类型 | 核心命令 |
-|----------|----------|
-| **String** | SET、GET、INCR、DECR、EXPIRE |
-| **Hash** | HSET、HGET、HGETALL、HDEL |
-| **List** | LPUSH、RPUSH、LPOP、RPOP、LRANGE |
-| **Set** | SADD、SMEMBERS、SISMEMBER、SREM |
+| 数据类型          | 核心命令                         |
+| ------------- | ---------------------------- |
+| **String**    | SET、GET、INCR、DECR、EXPIRE     |
+| **Hash**      | HSET、HGET、HGETALL、HDEL       |
+| **List**      | LPUSH、RPUSH、LPOP、RPOP、LRANGE |
+| **Set**       | SADD、SMEMBERS、SISMEMBER、SREM |
 | **SortedSet** | ZADD、ZRANGE、ZREVRANGE、ZSCORE |
 
 **选择数据库：**
