@@ -1,0 +1,337 @@
+# 推荐我使用的 Agent Skills - 提升 AI 编程助手能力的技能扩展合集
+
+> 来源: Ein Verne 博客  
+> 发布时间: 2026-01-19  
+> 最后修改: 2026-01-25
+
+随着 AI 编程助手的快速发展，[[Claude Code]]、[[Codex]]、[[Gemini CLI]] 等工具已经成为开发者日常工作中不可或缺的伙伴。然而，这些工具的默认功能往往只是冰山一角。通过安装和配置 Agent Skills，我们可以大幅扩展这些 AI 助手的能力，让它们更加智能、更加专业。
+
+在使用 AI 编程助手的过程中，我发现 Anthropic 官方的 Skills 仓库提供了一个很好的学习起点。通过安装 skill-creator，我们可以学习如何创建自定义的 Skill，进而根据自己的需求定制专属的 AI 助手能力。
+
+本文将分享我在日常开发中常用的 Agent Skills，并详细介绍它们的安装和使用方法。
+
+## 1. superpowers
+
+superpowers 是我最常使用的 Agent Skills 集合，也是功能最全面的专业开发工作流增强套件。这个仓库的设计理念是将软件开发中的最佳实践融入到 AI 助手的行为模式中，让 AI 不仅能写代码，更能以专业开发者的思维方式工作。
+
+该仓库包含了多个核心开发技能，涵盖了从代码编写、调试、测试到审查的完整开发生命周期。每个技能都经过精心设计，遵循行业标准和最佳实践。比如 systematic-debugging 技能实现了结构化的调试流程，test-driven-development 技能则引导 AI 助手先写测试再写实现代码。这些技能不是简单的提示词模板，而是完整的工作流程，能够确保代码质量和开发效率。
+
+### 安装方法
+
+在 [[Claude Code]] 中，使用插件市场安装：
+
+```bash
+claude mcp add superpowers github:anthropics/superpowers
+```
+
+安装完成后，所有的 superpowers 技能都会自动加载。
+
+### 使用说明
+
+superpowers 提供了多个专业技能，每个技能都针对特定的开发场景：
+
+- **systematic-debugging**：系统化调试流程，帮助你快速定位和解决问题
+- **test-driven-development**：测试驱动开发工作流，确保代码质量
+- **code-review-ai**：AI 驱动的代码审查，发现潜在问题
+- **using-superpowers**：入门指南，介绍如何使用这些技能
+
+使用时，只需在对话中提到相关场景，Claude Code 会自动激活对应的技能。例如，当你说"帮我调试这个问题"时，systematic-debugging 技能会自动启用。
+
+---
+
+## 2. agents
+
+agents 是一个功能全面的 Agent Skills 插件集合，采用了模块化的架构设计，涵盖了从前端到后端、从基础设施到安全的各个开发领域。这个仓库的特点是将不同技术栈和开发场景的专业知识封装成独立的插件，让开发者可以按需加载。
+
+与 superpowers 注重开发流程不同，agents 更侧重于技术栈的深度。每个插件都包含了该领域的专业知识、最佳实践和常见问题的解决方案。比如 python-development 插件包含了 Python 的类型提示、异步编程、包管理等专业技能；kubernetes-operations 插件则涵盖了 K8s 的部署、配置、监控和故障排查。这种设计让 AI 助手能够在特定技术领域表现得像一个资深专家。
+
+### 安装方法
+
+首先添加插件市场：
+
+```bash
+claude mcp add agents github:anthropics/agents
+```
+
+然后根据需要安装特定领域的插件：
+
+```bash
+# 安装 Python 开发插件
+claude mcp add agents/python github:anthropics/agents/python
+
+# 安装后端开发插件
+claude mcp add agents/backend github:anthropics/agents/backend
+```
+
+### 使用说明
+
+agents 采用模块化设计，你可以只安装需要的插件，避免加载不必要的功能。每个插件都是独立的，互不干扰。
+
+建议根据你的技术栈选择相应的插件。例如，如果你主要做 Python 后端开发，可以安装 python-development 和 backend-development；如果涉及 DevOps 工作，则加装 kubernetes-operations 和 cloud-infrastructure。
+
+---
+
+## 3. Obsidian Agent Skills
+
+如果你和我一样使用 [[Obsidian]] 来管理知识库，那么 Obsidian Agent Skills 将是一个非常实用的扩展。这个技能集专门为 Obsidian 生态设计，让 AI 助手能够深度理解和操作 Obsidian 的特有语法和功能。
+
+Obsidian 有自己独特的 Markdown 方言，包括双向链接（wikilinks）、可折叠的 callouts、YAML frontmatter properties、JSON Canvas 画布文件、Obsidian Bases 数据库等特性。这些功能虽然强大，但语法复杂，手动编辑容易出错。Obsidian Agent Skills 通过系统化的语法规则和示例，让 AI 助手能够正确生成和修改这些内容，相当于为 AI 配备了 Obsidian 专家的知识。无论是创建符合规范的笔记、建立知识网络，还是维护数据库视图，AI 都能准确完成。
+
+### 安装方法
+
+```bash
+claude mcp add obsidian-skills github:anthropics/obsidian-skills
+```
+
+### 使用说明
+
+安装后，AI 助手将能够：
+
+- 创建和编辑 Obsidian Flavored Markdown 文件
+- 正确处理 wikilinks 双链语法
+- 生成符合 Obsidian 规范的 frontmatter 属性
+- 使用 callouts 语法创建漂亮的提示框
+- 操作 JSON Canvas 文件和 Obsidian Bases 数据库
+
+这对于维护 Obsidian 知识库的开发者来说非常方便，AI 助手能够直接帮你创建和编辑笔记，而不需要手动调整格式。
+
+---
+
+## 4. Vercel Agent Skills
+
+Vercel Agent Skills 专为使用 [[Vercel]] 平台的开发者设计，提供了部署、配置和优化 Vercel 项目的能力。作为目前最流行的前端应用部署平台之一，Vercel 有着丰富的配置选项和最佳实践。
+
+这个技能集整合了 Vercel 官方文档中的关键知识点，包括 vercel.json 配置文件的各种选项、环境变量的管理、自定义域名的设置、边缘函数（Edge Functions）的使用、性能优化建议等。它特别针对 Next.js 应用进行了优化，因为 Vercel 是 Next.js 的母公司，两者的集成度最高。有了这个技能，AI 助手能够帮你快速解决部署问题，优化构建配置，甚至预测可能出现的部署错误。
+
+### 安装方法
+
+```bash
+claude mcp add vercel-skills github:anthropics/vercel-skills
+```
+
+### 使用说明
+
+该技能集成了 Vercel 的最佳实践，能够帮助你：
+
+- 快速配置 vercel.json 部署文件
+- 优化 [[Next.js]] 项目的部署设置
+- 处理环境变量和域名配置
+- 解决常见的部署问题
+
+特别适合使用 Next.js 和 Vercel 部署的项目。
+
+---
+
+## 5. UI UX
+
+UI UX skill 是前端开发的利器，专门用于创建美观、可访问、符合现代设计标准的用户界面。这个技能将 UI/UX 设计的专业知识和前端开发的最佳实践结合在一起，让 AI 助手能够生成生产级别的界面代码。
+
+该技能涵盖了现代 Web 开发中的多个关键领域：设计系统的实现、组件库的构建、响应式设计的最佳实践、无障碍访问（WCAG）标准的遵循、性能优化策略等。它不仅关注代码的功能性，更注重用户体验的细节，比如动画的流畅性、交互的反馈、布局的和谐等。对于需要频繁开发 UI 组件的前端工程师来说，这个技能能显著提升开发效率和代码质量。
+
+### 安装方法
+
+```bash
+claude mcp add ui-ux github:anthropics/ui-ux
+```
+
+### 使用说明
+
+这个技能非常适合前端开发，能够：
+
+- 生成符合设计系统的 UI 组件
+- 确保无障碍访问（a11y）最佳实践
+- 创建响应式布局
+- 实现现代化的交互效果
+
+当你需要实现复杂的 UI 组件时，这个技能能够提供专业的指导和代码生成。它理解现代前端框架（[[React]]、[[Vue]]、[[Angular]]）的设计模式，并能生成高质量的组件代码。
+
+---
+
+## 6. Manim Skills
+
+Manim Skills 是专门为数学动画创作而设计的技能集，基于著名 YouTube 频道 3Blue1Brown 创始人 Grant Sanderson 开发的 [[Manim]] 框架。如果你需要创建数学可视化、教育视频或科学演示动画，这个技能将是你的得力助手。
+
+Manim（Mathematical Animation Engine）是一个用 Python 编写的动画引擎，专门用于创建精确、优雅的数学演示动画。这个技能集包含了两个版本的最佳实践指南：Manim Community Edition（社区维护的稳定版本）和 ManimGL（支持 OpenGL 渲染的交互式版本）。通过整合经过实战验证的代码示例、场景构建模式、动画技巧和最佳实践，这个技能让 AI 助手能够理解 Manim 的独特语法和动画概念，帮助你快速生成符合规范的动画代码，而不需要从头学习复杂的 API 和动画原理。
+
+### 安装方法
+
+```bash
+claude mcp add manim-skills github:anthropics/manim-skills
+```
+
+### 使用说明
+
+安装后，AI 助手将能够：
+
+- 生成符合 Manim 规范的数学动画代码
+- 创建各种数学对象的可视化（函数图像、几何图形、代数结构等）
+- 实现流畅的场景转换和动画效果
+- 提供文本渲染和 LaTeX 数学公式的最佳实践
+- 优化渲染性能和动画质量
+
+这个技能特别适合：
+
+- 教育工作者制作教学视频
+- 科研人员创建论文演示
+- 内容创作者制作科普视频
+- 学习数学可视化编程的开发者
+
+---
+
+## 7. Remotion Skills
+
+Remotion Skills 是为 [[Remotion]] 框架量身打造的 Agent Skills，Remotion 是一个使用 [[React]] 以编程方式创建视频的革命性框架。如果你需要批量生成视频、创建动态视频内容或构建视频生成应用，这个技能将为你的 AI 助手注入 Remotion 的专业知识。
+
+[[Remotion]] 的核心理念是"用代码创建视频"，它让你可以使用熟悉的 React 组件来构建视频内容，所有的动画、过渡效果都通过 JavaScript 代码精确控制。这个技能集包含了 30 多个详细指南，涵盖了从基础的视频合成、动画制作，到高级的 3D 内容集成、数据可视化、字幕处理等各个方面。通过这个技能，AI 助手能够理解 Remotion 的独特开发模式、时间轴系统、插值曲线等核心概念，帮助你快速生成符合 Remotion 最佳实践的视频项目代码。
+
+### 安装方法
+
+```bash
+claude mcp add remotion-skills github:anthropics/remotion-skills
+```
+
+### 使用说明
+
+安装后，AI 助手将能够：
+
+- 创建 Remotion 视频合成和动画项目
+- 处理各种资源（图片、视频、音频、字体）的导入和使用
+- 实现文本渲染、字幕显示和排版效果
+- 集成 3D 内容（Three.js 和 React Three Fiber）
+- 处理 Lottie 动画和 GIF 同步
+- 实现数据可视化和图表动画
+- 优化视频元数据和性能
+- 集成 Mapbox 地图和 TailwindCSS 样式
+
+这个技能特别适合：
+
+- 需要批量生成视频的营销团队
+- 创建动态视频内容的开发者
+- 构建视频生成 SaaS 应用的创业者
+- 自动化视频制作流程的内容创作者
+- 需要程序化视频编辑的技术团队
+
+值得一提的是，Remotion 的创始人 Jonny Burger 曾展示了一个完全通过 AI 助手和这个技能创建的视频项目，证明了这个技能在实际应用中的强大能力。
+
+---
+
+## 8. SEO
+
+这是我自己维护的 SEO 相关技能集合，专注于帮助开发者优化网站的搜索引擎表现。作为一个技术型内容创作者，我深知 SEO 对于网站流量的重要性，因此整理了这套技能来自动化 SEO 优化工作。
+
+这个技能集整合了搜索引擎优化的核心知识，包括语义化 HTML 的使用、meta 标签的优化、Open Graph 和 Twitter Card 的配置、结构化数据（JSON-LD）的生成、sitemap 的创建、robots.txt 的配置等。它还包含了针对不同类型网站（博客、电商、企业站）的 SEO 策略建议。通过这个技能，AI 助手能够在你开发网站时自动考虑 SEO 因素，从技术层面提升网站的搜索可见性。
+
+### 安装方法
+
+```bash
+claude mcp add seo github:anthropics/seo
+```
+
+### 使用说明
+
+该技能能够：
+
+- 分析网站的 SEO 问题
+- 生成结构化数据（Schema.org）
+- 优化网页的 meta 标签
+- 提供 SEO 最佳实践建议
+
+特别适合开发营销型网站或需要注重 SEO 的项目。
+
+---
+
+## 9. Claude Code Templates
+
+Claude Code Templates 提供了一系列实用的项目模板和工作流模板，是学习如何构建自定义 Agent Skills 的优秀范例集。这个仓库收集了各种场景下的最佳实践模板，展示了如何将具体的工作流程转化为可复用的技能。
+
+仓库中的模板涵盖了软件开发的多个环节，从项目初始化、代码规范设置，到文档生成、代码审查流程。每个模板都经过实战检验，包含了详细的步骤说明和示例。特别值得一提的是 content-creator 模板，它展示了如何为内容创作这种非传统开发场景定制 AI 助手，包括文章结构规划、SEO 优化建议、多语言支持等功能。通过研究这些模板，你可以学会如何针对自己的工作流程创建专属技能。
+
+### 使用说明
+
+这个仓库中的 content-creator 模板特别值得参考，它展示了如何为内容创作工作流定制 AI 助手的能力。你可以基于这些模板创建自己的工作流。
+
+模板涵盖了多种场景：
+
+- 项目初始化模板
+- 文档生成工作流
+- 代码审查清单
+- 测试用例生成
+
+通过学习这些模板，你可以更好地理解如何定制 Agent Skills。
+
+---
+
+## 10. Planning with Files
+
+Planning with Files 是一个独特的技能，它的核心理念是"文档驱动开发"，即为每个任务生成相应的规划文档，让开发过程更加透明和可追溯。与传统的敏捷开发方法不同，这个技能强调将计划以文件形式持久化保存。
+
+这种方法特别适合复杂项目和团队协作场景。AI 助手在接到任务后，会首先创建一个详细的规划文档，包括任务背景、技术方案、实施步骤、风险评估等内容。随着项目推进，这些文档会不断更新，记录决策过程、遇到的问题和解决方案。这样不仅确保了开发的系统性，还为项目留下了完整的历史记录，方便日后回顾和知识传承。对于需要严格文档管理的项目（如企业应用、开源项目），这个技能尤为有价值。
+
+### 安装方法
+
+```bash
+claude mcp add planning-with-files github:anthropics/planning-with-files
+```
+
+### 使用说明
+
+使用这个技能后，AI 助手会：
+
+- 在开始工作前创建详细的规划文档
+- 将任务分解为可执行的步骤
+- 跟踪任务进度和变更
+- 生成项目文档
+
+这种方法特别适合复杂的项目，能够确保开发过程有条不紊。规划文档也成为了项目的宝贵资料，方便日后回顾和维护。
+
+---
+
+## 11. Prompt Generator
+
+Prompt Generator 是一个元技能（meta-skill），它的作用不是直接解决开发问题，而是帮助你更好地与 AI 助手交流，生成更高质量的提示词。可以把它理解为"教你如何提问的技能"。
+
+提示词工程（Prompt Engineering）是使用 AI 工具的关键能力。一个好的提示词应该清晰、具体、包含必要的上下文，并能引导 AI 产生期望的输出。Prompt Generator 集成了提示词工程的最佳实践，包括如何构建清晰的指令、如何提供有效的示例、如何设置合适的约束条件等。它还能分析你的需求，识别模糊或不完整的地方，并建议如何改进。对于想要深入学习 AI 助手使用技巧的开发者来说，这个技能是一个很好的学习伙伴，能够帮助你逐步掌握与 AI 高效协作的艺术。
+
+### 安装方法
+
+```bash
+claude mcp add prompt-generator github:anthropics/prompt-generator
+```
+
+### 使用说明
+
+这个技能能够：
+
+- 分析你的需求并生成优化的提示词
+- 提供提示词工程的最佳实践
+- 帮助你创建自定义的 Agent Skills
+- 优化与 AI 助手的交互效果
+
+对于想要深入学习如何更好地使用 AI 编程助手的开发者来说，这是一个很好的学习工具。
+
+---
+
+## 总结
+
+Agent Skills 极大地扩展了 AI 编程助手的能力边界。通过合理选择和配置这些技能，我们可以将 AI 助手打造成真正的开发伙伴。
+
+在选择 Agent Skills 时，我的建议是：
+
+1. **从核心技能开始**：superpowers 提供了最基础和最通用的能力增强
+2. **根据技术栈选择**：安装与你日常工作相关的技能（agents 系列）
+3. **注重工具集成**：如果使用特定工具（Obsidian、Vercel 等），相应的技能能显著提升效率
+4. **学习和定制**：通过 skill-creator 和 prompt-generator 学习如何创建自己的技能
+
+最后，记住 Agent Skills 是一个不断发展的生态。关注这些仓库的更新，尝试新的技能，找到最适合自己工作流的组合。
+
+---
+
+## 相关链接
+
+- [Anthropic Skills 官方仓库](https://github.com/anthropics/superpowers)
+- [skill-creator 指南](https://github.com/anthropics/skill-creator)
+- [Claude Code 文档](https://docs.anthropic.com/claude-code)
+
+## 标签
+
+#AI #编程助手 #AgentSkills #ClaudeCode #Codex #GeminiCLI #开发工具
