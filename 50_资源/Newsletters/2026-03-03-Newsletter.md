@@ -7,42 +7,42 @@ publish: true
 
 # 📰 新闻精选 | 2026-03-03
 
-> 生成时间: 2026/03/03 09:01
+> 生成时间: 2026/03/03 14:01
 > 来源: 知乎、微博、Hacker News、GitHub、Product Hunt 等
 
 ## 🇨🇳 国内新闻
 
 ### 知乎热榜
 
-- [王毅同伊朗外长通电话，称中方已敦促美以立即停止军事行动，避免紧张事态进一步升级，有哪些信息值得关注？](https://www.zhihu.com/question/2011905421657526738)
 - [美以袭击伊朗已超 60 小时，当前局势如何？有哪些值得关注的信息？](https://www.zhihu.com/question/2011946515493512924)
-- [美以袭击伊朗导致国际油价飙升，会影响我们吗？如果油价长期高位，除了油车车主，还有哪些人或领域被波及？](https://www.zhihu.com/question/2011847289061262741)
-- [伊朗货币兑人民币近一年贬值约 96%，对普通人来说这是不是时代的尘埃落在肩上？](https://www.zhihu.com/question/2011836421929918474)
+- [伊朗称霍尔木兹海峡已关闭，将打击所有试图通过的船只，有什么深层目的？霍尔木兹海峡有多重要？](https://www.zhihu.com/question/2012081333808100744)
+- [比亚迪宣布将召开颠覆性技术发布会，可能涉及哪些方面的技术？是否会重塑行业竞争门槛？](https://www.zhihu.com/question/2011788981294081499)
 - [2026 年全国两会，你最关心哪些话题？有哪些新期待？](https://www.zhihu.com/question/2011165277530907842)
+- [演员王劲松遭 AI 盗用形象生成视频，如何界定 AI 侵权，普通人该如何防范？](https://www.zhihu.com/question/2010702851366674730)
 
 ### 微博热搜
 
 - [越来越多国家被卷入中东冲突](https://s.weibo.com/weibo?q=%23%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E5%9B%BD%E5%AE%B6%E8%A2%AB%E5%8D%B7%E5%85%A5%E4%B8%AD%E4%B8%9C%E5%86%B2%E7%AA%81%23&t=31&band_rank=1&Refer=top)
-- [元宵节](https://s.weibo.com/weibo?q=%E5%85%83%E5%AE%B5%E8%8A%82&t=31&band_rank=2&Refer=top)
-- [骏马闹元宵贺卡](https://s.weibo.com/weibo?q=%23%E9%AA%8F%E9%A9%AC%E9%97%B9%E5%85%83%E5%AE%B5%E8%B4%BA%E5%8D%A1%23&t=31&band_rank=3&Refer=top)
-- [伊朗发起第13轮攻击](https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%8F%91%E8%B5%B7%E7%AC%AC13%E8%BD%AE%E6%94%BB%E5%87%BB%23&t=31&band_rank=4&Refer=top)
-- [30多岁男子总觉脚冷险遭截肢](https://s.weibo.com/weibo?q=%2330%E5%A4%9A%E5%B2%81%E7%94%B7%E5%AD%90%E6%80%BB%E8%A7%89%E8%84%9A%E5%86%B7%E9%99%A9%E9%81%AD%E6%88%AA%E8%82%A2%23&t=31&band_rank=5&Refer=top)
+- [油价调整](https://s.weibo.com/weibo?q=%E6%B2%B9%E4%BB%B7%E8%B0%83%E6%95%B4&t=31&band_rank=2&Refer=top)
+- [90秒看懂全国两会重要知识点](https://s.weibo.com/weibo?q=%2390%E7%A7%92%E7%9C%8B%E6%87%82%E5%85%A8%E5%9B%BD%E4%B8%A4%E4%BC%9A%E9%87%8D%E8%A6%81%E7%9F%A5%E8%AF%86%E7%82%B9%23&t=31&band_rank=3&Refer=top)
+- [刘文祥麻辣烫暂停新合作](https://s.weibo.com/weibo?q=%23%E5%88%98%E6%96%87%E7%A5%A5%E9%BA%BB%E8%BE%A3%E7%83%AB%E6%9A%82%E5%81%9C%E6%96%B0%E5%90%88%E4%BD%9C%23&t=31&band_rank=4&Refer=top)
+- [伊朗发布袭击美军基地画面](https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%8F%91%E5%B8%83%E8%A2%AD%E5%87%BB%E7%BE%8E%E5%86%9B%E5%9F%BA%E5%9C%B0%E7%94%BB%E9%9D%A2%23&t=31&band_rank=5&Refer=top)
 
 ### 36氪
 
-- [一汽解放：公司在柴油发电机组和燃气发电机组均有技术储备和产品布局](https://www.36kr.com/newsflashes/3706502606188672)
-- [中信建投：首个国家级人形机器人标准体系发布，聚焦优质环节把握确定性和灵巧手等核心变化](https://www.36kr.com/newsflashes/3706484492513669)
-- [两市融资余额增加45.78亿元](https://www.36kr.com/newsflashes/3706504593863047)
-- [韩国将密切关注市场动态，必要时将采取措施](https://www.36kr.com/newsflashes/3706484033581186)
-- [内生因素主导，中国债市运行节奏平稳](https://www.36kr.com/newsflashes/3706483190788480)
+- [汇川技术、苏州国资等在苏州成立产教融合科技发展公司](https://www.36kr.com/newsflashes/3706800818991239)
+- [现货黄金日内转跌，最新报5321.24美元/盎司](https://www.36kr.com/newsflashes/3706804064842115)
+- [恒生科技指数跌幅扩大至2%](https://www.36kr.com/newsflashes/3706803113062788)
+- [花旗警告：若油价居高不下，韩国今年GDP增长将减少0.45个百分点](https://www.36kr.com/newsflashes/3706800400314499)
+- [海南省财金集团增资至240亿](https://www.36kr.com/newsflashes/3706756709691520)
 
 ### IT之家
 
-- [《魔兽世界：至暗之夜》DLC 上线，微星发布联名限量 RTX 5070 显卡](https://www.ithome.com/0/925/244.htm)
-- [鸿蒙智行尚界 Z7 轿跑 SKU 曝光，提供 MAX、MAX+、Ultra 三版本](https://www.ithome.com/0/925/242.htm)
-- [英特尔 Arc Pro B70 旗舰工作站显卡实锤：预估 32GB 显存、32 个 Xe2 核心](https://www.ithome.com/0/925/241.htm)
-- [华为李鹏：泛在智能体应用将孕育十万亿美元级新产业空间](https://www.ithome.com/0/925/240.htm)
-- [前微软 Xbox 女高管回忆称因拒穿浴袍惨遭调职，斯宾塞英雄救场](https://www.ithome.com/0/925/239.htm)
+- [消息称摩托罗拉第 2 季度发布 razr 70+ 折叠手机：12GB+512GB，非洲紫 / 山景绿颜色](https://www.ithome.com/0/925/402.htm)
+- [联想 ThinkBook 14+ / 16+ 锐龙 AI 9 H 465 / HX 470 款预售，8499 / 8999 元](https://www.ithome.com/0/925/401.htm)
+- [三星开始面向 Galaxy S26 系列等手机 / 平板推送 3 月安全更新，共修复 67 个漏洞](https://www.ithome.com/0/925/400.htm)
+- [火狐 Firefox 浏览器 149 Beta 版首次默认启用窗口分栏浏览功能，正式版预计 3 月 24 日发布](https://www.ithome.com/0/925/397.htm)
+- [漫步者推出 MK12 无线领夹麦克风：139 元，满电续航 15 小时](https://www.ithome.com/0/925/395.htm)
 
 ### 少数派
 
@@ -55,29 +55,21 @@ publish: true
 ### Solidot
 
 - [【重磅推荐】2026 年度 NVIDIA 创业企业展示现已启动招募！](https://www.solidot.org/story?sid=83412)
+- [左撇子的演化优势](https://www.solidot.org/story?sid=83662)
 - [NIST 限制外国科学家进入其实验室](https://www.solidot.org/story?sid=83661)
-- [亚马逊 AWS 中东数据中心遭遇火灾和断电](https://www.solidot.org/story?sid=83660)
 
 ### 澎湃新闻
 
-- [十四届全国人大四次会议将于3月4日12时举行新闻发布会](https://www.thepaper.cn/newsDetail_forward_32682871)
-- [两会前瞻｜政协委员赴京参会前夕，多省市政协召开行前会](https://www.thepaper.cn/newsDetail_forward_32682836)
+- [“十五五”开局之年！2026全国两会看点前瞻](https://www.thepaper.cn/newsDetail_forward_32685894)
 - [财晓得｜9块9包月！华莱士掀桌式挺进咖啡赛道，下的是什么大棋](https://www.thepaper.cn/newsDetail_forward_32659634)
+- [王毅同伊朗外长阿拉格齐通电话：中方已敦促美以立即停止军事行动](https://www.thepaper.cn/newsDetail_forward_32685305)
 
 ## 🌍 国际新闻
-
-### GitHub Trending
-
-- [ruvnet /      wifi-densepose](https://github.com/ruvnet/wifi-densepose)
-- [moeru-ai /      airi](https://github.com/moeru-ai/airi)
-- [anthropics /      prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)
-- [ruvnet /      ruflo](https://github.com/ruvnet/ruflo)
-- [alibaba /      OpenSandbox](https://github.com/alibaba/OpenSandbox)
 
 ---
 
 **统计信息**
 - 国内新闻: 31 条
-- 国际新闻: 5 条
-- 总计: 36 条
-- 生成时间: 2026/03/03 09:01
+- 国际新闻: 0 条
+- 总计: 31 条
+- 生成时间: 2026/03/03 14:01
