@@ -1,0 +1,479 @@
+# Redis 缓存问题实战解决方案
+
+> 缓存穿透、击穿、雪崩的实际案例与应对方案
+> 整理时间: 2026-03-03
+
+---
+
+## 📌 场景背景
+
+假设你在开发一个**电商平台商品详情页**，每天有100万PV，商品数据存储在MySQL，使用Redis做缓存。
+
+```
+用户请求 → 查Redis缓存 → 有则返回 → 无则查MySQL → 写入Redis → 返回
+```
+
+---
+
+## 问题一：缓存穿透 (Cache Penetration)
+
+### 🔴 问题描述
+
+**攻击者或异常请求，查询一个不存在的商品ID（比如id=-1或id=99999999）**
+
+```
+请求: GET /product/99999999
+       ↓
+Redis: 不存在 (nil)
+       ↓
+MySQL: 不存在
+       ↓
+返回: 空结果
+       ↓
+【每次请求都打到MySQL，Redis形同虚设】
+```
+
+**后果**：
+- 大量请求绕过Redis直接查MySQL
+- MySQL压力剧增，可能被打挂
+- 严重时数据库宕机，服务不可用
+
+### ✅ 解决方案
+
+#### 方案1：缓存空值（推荐简单场景）
+
+```java
+public Product getProduct(Long id) {
+    // 1. 查Redis
+    String key = "product:" + id;
+    String json = redisTemplate.opsForValue().get(key);
+    
+    // 2. 缓存命中，直接返回
+    if (json != null) {
+        // 如果是空值标记，直接返回null
+        if ("{}".equals(json)) {
+            return null;
+        }
+        return JSON.parseObject(json, Product.class);
+    }
+    
+    // 3. 查MySQL
+    Product product = productMapper.selectById(id);
+    
+    // 4. 写入Redis（不管有没有，都缓存）
+    if (product != null) {
+        redisTemplate.opsForValue().set(key, JSON.toJSONString(product), 30, TimeUnit.MINUTES);
+    } else {
+        // 缓存空值，设置短过期时间（比如5分钟）
+        redisTemplate.opsForValue().set(key, "{}", 5, TimeUnit.MINUTES);
+    }
+    
+    return product;
+}
+```
+
+**优点**：简单有效  
+**缺点**：缓存了大量空值，占用内存
+
+---
+
+#### 方案2：布隆过滤器（推荐生产环境）
+
+```java
+@Component
+public class BloomFilterConfig {
+    
+    @Autowired
+    private RedissonClient redissonClient;
+    
+    // 初始化布隆过滤器
+    public void initBloomFilter() {
+        RBloomFilter<Long> bloomFilter = redissonClient.getBloomFilter("product:bloom");
+        // 预计元素数量100万，误判率0.01
+        bloomFilter.tryInit(1000000L, 0.01);
+        
+        // 加载所有商品ID到过滤器
+        List<Long> productIds = productMapper.selectAllIds();
+        for (Long id : productIds) {
+            bloomFilter.add(id);
+        }
+    }
+}
+
+@Service
+public class ProductService {
+    
+    @Autowired
+    private RBloomFilter<Long> bloomFilter;
+    
+    public Product getProduct(Long id) {
+        // 1. 布隆过滤器检查
+        if (!bloomFilter.contains(id)) {
+            // 肯定不存在，直接返回null，不打MySQL
+            return null;
+        }
+        
+        // 2. 查Redis（可能存在，也可能误判）
+        String key = "product:" + id;
+        String json = redisTemplate.opsForValue().get(key);
+        if (json != null) {
+            return JSON.parseObject(json, Product.class);
+        }
+        
+        // 3. 查MySQL
+        Product product = productMapper.selectById(id);
+        if (product != null) {
+            redisTemplate.opsForValue().set(key, JSON.toJSONString(product), 30, TimeUnit.MINUTES);
+        }
+        
+        return product;
+    }
+}
+```
+
+**优点**：内存占用小，查询快O(1)  
+**缺点**：有一定误判率（可配置），不能删除元素
+
+---
+
+## 问题二：缓存击穿 (Cache Breakdown)
+
+### 🔴 问题描述
+
+**一个热点商品（比如iPhone 15），缓存突然过期，大量请求同时打到MySQL**
+
+```
+时间线:
+10:00:00  缓存过期
+10:00:01  请求1: 查Redis→无→查MySQL【执行中...】
+10:00:01  请求2: 查Redis→无→查MySQL【执行中...】
+10:00:01  请求3: 查Redis→无→查MySQL【执行中...】
+...       1000个请求同时打向MySQL
+
+【MySQL瞬间压力暴增，可能被打挂】
+```
+
+**后果**：
+- 单个热点Key失效，导致数据库瞬时高并发
+- 数据库连接池被打满，服务不可用
+- 比穿透更隐蔽，难以预防
+
+### ✅ 解决方案
+
+#### 方案1：互斥锁（分布式锁）
+
+```java
+@Service
+public class ProductService {
+    
+    @Autowired
+    private RedissonClient redissonClient;
+    
+    public Product getProduct(Long id) {
+        String key = "product:" + id;
+        String lockKey = "lock:product:" + id;
+        
+        // 1. 查Redis
+        String json = redisTemplate.opsForValue().get(key);
+        if (json != null) {
+            return JSON.parseObject(json, Product.class);
+        }
+        
+        // 2. 获取分布式锁
+        RLock lock = redissonClient.getLock(lockKey);
+        try {
+            // 尝试获取锁，最多等待10秒，锁持有30秒
+            boolean isLocked = lock.tryLock(10, 30, TimeUnit.SECONDS);
+            if (!isLocked) {
+                // 获取锁失败，直接返回或重试
+                return null;
+            }
+            
+            // 3. 双重检查（获取锁后，可能其他线程已写入缓存）
+            json = redisTemplate.opsForValue().get(key);
+            if (json != null) {
+                return JSON.parseObject(json, Product.class);
+            }
+            
+            // 4. 查MySQL
+            Product product = productMapper.selectById(id);
+            
+            // 5. 写入Redis
+            if (product != null) {
+                redisTemplate.opsForValue().set(key, JSON.toJSONString(product), 30, TimeUnit.MINUTES);
+            }
+            
+            return product;
+            
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            return null;
+        } finally {
+            // 6. 释放锁
+            if (lock.isHeldByCurrentThread()) {
+                lock.unlock();
+            }
+        }
+    }
+}
+```
+
+**优点**：有效防止并发查库  
+**缺点**：加锁有性能损耗，可能阻塞用户
+
+---
+
+#### 方案2：热点Key永不过期（推荐）
+
+```java
+@Service
+public class ProductService {
+    
+    // 缓存预热：启动时加载热点商品
+    @PostConstruct
+    public void preloadHotProducts() {
+        // 假设iPhone 15是热点商品
+        List<Long> hotProductIds = Arrays.asList(1001L, 1002L, 1003L);
+        
+        for (Long id : hotProductIds) {
+            Product product = productMapper.selectById(id);
+            if (product != null) {
+                String key = "product:" + id;
+                // 热点商品不设过期时间！
+                redisTemplate.opsForValue().set(key, JSON.toJSONString(product));
+            }
+        }
+    }
+    
+    // 异步更新缓存（定时任务或监听binlog）
+    @Scheduled(fixedRate = 60000) // 每分钟更新
+    public void refreshHotProducts() {
+        List<Long> hotProductIds = Arrays.asList(1001L, 1002L, 1003L);
+        
+        for (Long id : hotProductIds) {
+            Product product = productMapper.selectById(id);
+            if (product != null) {
+                String key = "product:" + id;
+                redisTemplate.opsForValue().set(key, JSON.toJSONString(product));
+            }
+        }
+    }
+}
+```
+
+**优点**：简单有效，无锁竞争  
+**缺点**：需要维护热点Key列表，占用更多内存
+
+---
+
+## 问题三：缓存雪崩 (Cache Avalanche)
+
+### 🔴 问题描述
+
+**大量缓存同时过期，或Redis宕机，导致所有请求打到MySQL**
+
+```
+场景1 - 同时过期:
+10:00:00  product:1001 过期
+10:00:00  product:1002 过期
+10:00:00  product:1003 过期
+...       1000个商品同时过期
+
+场景2 - Redis宕机:
+Redis服务器挂了 → 所有请求查不到缓存 → 全部打到MySQL
+
+【MySQL瞬间被压垮】
+```
+
+**后果**：
+- 比击穿更严重，是大面积Key失效
+- 数据库几乎必挂，服务完全不可用
+- 恢复困难，可能引发连锁反应
+
+### ✅ 解决方案
+
+#### 方案1：过期时间加随机值（最简单）
+
+```java
+public void setProductCache(Product product) {
+    String key = "product:" + product.getId();
+    String json = JSON.toJSONString(product);
+    
+    // 基础过期时间30分钟 + 随机0-10分钟
+    int random = new Random().nextInt(600); // 0-600秒
+    long expireTime = 30 * 60 + random;
+    
+    redisTemplate.opsForValue().set(key, json, expireTime, TimeUnit.SECONDS);
+}
+```
+
+**优点**：简单，分散过期时间  
+**缺点**：不能完全避免，Redis宕机仍雪崩
+
+---
+
+#### 方案2：多级缓存
+
+```
+用户请求 → Caffeine本地缓存(L1) → Redis(L2) → MySQL
+```
+
+```java
+@Service
+public class ProductService {
+    
+    // 本地缓存（Caffeine）
+    private LoadingCache<Long, Product> localCache = Caffeine.newBuilder()
+        .maximumSize(1000)  // 最多1000个
+        .expireAfterWrite(5, TimeUnit.MINUTES)  // 5分钟过期
+        .build(this::loadFromRedis);
+    
+    private Product loadFromRedis(Long id) {
+        // 查Redis
+        String key = "product:" + id;
+        String json = redisTemplate.opsForValue().get(key);
+        if (json != null) {
+            return JSON.parseObject(json, Product.class);
+        }
+        // Redis也没有，查MySQL
+        return productMapper.selectById(id);
+    }
+    
+    public Product getProduct(Long id) {
+        // 1. 先查本地缓存
+        Product product = localCache.get(id);
+        if (product != null) {
+            return product;
+        }
+        
+        // 2. 本地缓存未命中，查Redis/MySQL（loadFromRedis方法）
+        product = loadFromRedis(id);
+        if (product != null) {
+            localCache.put(id, product);
+        }
+        
+        return product;
+    }
+}
+```
+
+**优点**：Redis挂了还有本地缓存兜底  
+**缺点**：本地缓存数据可能不一致，需要控制大小
+
+---
+
+#### 方案3：熔断降级（最后防线）
+
+```java
+@Component
+public class ProductService {
+    
+    private CircuitBreaker circuitBreaker;
+    
+    @PostConstruct
+    public void init() {
+        circuitBreaker = CircuitBreaker.ofDefaults("productService");
+    }
+    
+    public Product getProduct(Long id) {
+        String key = "product:" + id;
+        
+        // 1. 查Redis
+        String json = redisTemplate.opsForValue().get(key);
+        if (json != null) {
+            return JSON.parseObject(json, Product.class);
+        }
+        
+        // 2. 使用熔断器保护MySQL
+        return circuitBreaker.executeSupplier(() -> {
+            Product product = productMapper.selectById(id);
+            if (product != null) {
+                redisTemplate.opsForValue().set(key, JSON.toJSONString(product), 30, TimeUnit.MINUTES);
+            }
+            return product;
+        });
+    }
+}
+```
+
+**熔断器配置**（Resilience4j）：
+```yaml
+resilience4j:
+  circuitbreaker:
+    instances:
+      productService:
+        failureRateThreshold: 50      # 失败率达到50%熔断
+        waitDurationInOpenState: 30s  # 熔断后30秒尝试恢复
+        slidingWindowSize: 100        # 统计最近100次调用
+```
+
+**优点**：MySQL压力过大时自动熔断，保护数据库  
+**缺点**：熔断期间返回降级数据或错误
+
+---
+
+## 📊 三种问题对比
+
+| 问题 | 原因 | 特点 | 主要解决方案 |
+|------|------|------|-------------|
+| **穿透** | 查询不存在的数据 | 每次请求都打到MySQL | 布隆过滤器、缓存空值 |
+| **击穿** | 热点Key过期 | 单个Key，并发查库 | 互斥锁、热点Key永不过期 |
+| **雪崩** | 大量Key同时过期 | 大面积失效，影响最大 | 随机过期时间、多级缓存、熔断 |
+
+---
+
+## 🛡️ 完整防护架构
+
+```
+用户请求
+   ↓
+┌─────────────────────────────────────┐
+│  第1层：参数校验（防非法请求）        │
+│  例如：id必须>0                       │
+└─────────────────────────────────────┘
+   ↓
+┌─────────────────────────────────────┐
+│  第2层：布隆过滤器（防穿透）          │
+│  不存在直接返回                       │
+└─────────────────────────────────────┘
+   ↓
+┌─────────────────────────────────────┐
+│  第3层：本地缓存Caffeine（防雪崩）    │
+│  过期时间5分钟                        │
+└─────────────────────────────────────┘
+   ↓
+┌─────────────────────────────────────┐
+│  第4层：Redis（主缓存）               │
+│  过期时间30分钟+随机值                │
+│  热点Key永不过期                      │
+└─────────────────────────────────────┘
+   ↓
+┌─────────────────────────────────────┐
+│  第5层：分布式锁（防击穿）            │
+│  只有一个线程查MySQL                  │
+└─────────────────────────────────────┘
+   ↓
+┌─────────────────────────────────────┐
+│  第6层：熔断器（最后防线）            │
+│  MySQL压力过大时熔断                  │
+└─────────────────────────────────────┘
+   ↓
+  MySQL
+```
+
+---
+
+## 📝 学习检查清单
+
+- [ ] 理解穿透、击穿、雪崩的区别
+- [ ] 手写布隆过滤器代码
+- [ ] 手写分布式锁（Redisson）代码
+- [ ] 配置多级缓存（Caffeine + Redis）
+- [ ] 配置熔断器（Resilience4j）
+- [ ] 压测验证防护效果
+
+---
+
+## 标签
+
+#Redis #缓存 #缓存穿透 #缓存击穿 #缓存雪崩 #布隆过滤器 #分布式锁 #高并发
