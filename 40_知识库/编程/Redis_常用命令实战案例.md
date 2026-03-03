@@ -1,0 +1,372 @@
+# Redis 常用命令实战案例
+
+> 基于实际开发场景的 Redis 命令使用指南
+> 整理时间: 2026-03-03
+
+---
+
+## 1. String 字符串操作
+
+### 核心命令
+- `SET key value` - 设置值
+- `GET key` - 获取值
+- `INCR key` - 自增1
+- `DECR key` - 自减1
+- `EXPIRE key seconds` - 设置过期时间
+
+### 实战案例
+
+#### 📌 案例1: 用户登录Token存储
+```bash
+# 用户登录成功后，存储Token，有效期30分钟
+SET user:token:1001 "eyJhbGciOiJIUzI1NiIs..." EX 1800
+
+# 验证Token是否有效
+GET user:token:1001
+
+# Token续期（延长30分钟）
+EXPIRE user:token:1001 1800
+```
+
+#### 📌 案例2: 商品库存计数
+```bash
+# 初始化商品库存
+SET product:stock:1001 1000
+
+# 用户下单，库存减1
+DECR product:stock:1001
+# 返回: 999
+
+# 库存补货，增加100
+INCRBY product:stock:1001 100
+# 返回: 1099
+
+# 查询当前库存
+GET product:stock:1001
+```
+
+#### 📌 案例3: 短信验证码（带过期时间）
+```bash
+# 发送验证码，5分钟有效
+SET sms:code:13800138000 "123456" EX 300
+
+# 验证时获取
+GET sms:code:13800138000
+# 如果过期返回: (nil)
+```
+
+---
+
+## 2. Hash 哈希操作
+
+### 核心命令
+- `HSET key field value` - 设置字段值
+- `HGET key field` - 获取字段值
+- `HGETALL key` - 获取所有字段
+- `HDEL key field` - 删除字段
+
+### 实战案例
+
+#### 📌 案例1: 存储用户信息
+```bash
+# 存储用户1001的信息
+HSET user:1001 id 1001
+HSET user:1001 name "张三"
+HSET user:1001 age 25
+HSET user:1001 email "zhangsan@example.com"
+
+# 或者一次性设置多个字段
+HMSET user:1001 id 1001 name "张三" age 25 email "zhangsan@example.com"
+
+# 获取用户姓名
+HGET user:1001 name
+# 返回: "张三"
+
+# 获取用户全部信息
+HGETALL user:1001
+# 返回: 
+# 1) "id"
+# 2) "1001"
+# 3) "name"
+# 4) "张三"
+# 5) "age"
+# 6) "25"
+# 7) "email"
+# 8) "zhangsan@example.com"
+
+# 修改用户年龄
+HSET user:1001 age 26
+
+# 删除用户邮箱字段
+HDEL user:1001 email
+```
+
+#### 📌 案例2: 存储商品信息
+```bash
+# 存储商品SKU信息
+HSET product:sku:2001 name "iPhone 15"
+HSET product:sku:2001 price 5999
+HSET product:sku:2001 stock 100
+HSET product:sku:2001 category "手机"
+
+# 获取商品价格
+HGET product:sku:2001 price
+```
+
+---
+
+## 3. List 列表操作
+
+### 核心命令
+- `LPUSH key value` - 左侧插入（队列头部）
+- `RPUSH key value` - 右侧插入（队列尾部）
+- `LPOP key` - 左侧弹出
+- `RPOP key` - 右侧弹出
+- `LRANGE key start stop` - 获取范围元素
+
+### 实战案例
+
+#### 📌 案例1: 最新消息列表（时间线）
+```bash
+# 用户1001发布了新动态，ID为msg001
+LPUSH user:1001:timeline "msg001"
+LPUSH user:1001:timeline "msg002"
+LPUSH user:1001:timeline "msg003"
+
+# 获取用户最近10条动态
+LRANGE user:1001:timeline 0 9
+# 返回: ["msg003", "msg002", "msg001"]
+
+# 只保留最近50条，删除旧的
+LTRIM user:1001:timeline 0 49
+```
+
+#### 📌 案例2: 秒杀队列（生产者-消费者）
+```bash
+# 用户抢购，加入队列（生产者）
+LPUSH seckill:queue "{\"userId\":1001,\"productId\":2001,\"time\":\"2026-03-03 10:00:00\"}"
+LPUSH seckill:queue "{\"userId\":1002,\"productId\":2001,\"time\":\"2026-03-03 10:00:01\"}"
+LPUSH seckill:queue "{\"userId\":1003,\"productId\":2001,\"time\":\"2026-03-03 10:00:02\"}"
+
+# 系统处理订单，从队列取出（消费者）
+RPOP seckill:queue
+# 返回: 最早进入队列的用户订单
+```
+
+#### 📌 案例3: 最近浏览商品
+```bash
+# 用户浏览商品，记录到列表
+LPUSH user:1001:recent:products "2001"
+LPUSH user:1001:recent:products "2002"
+LPUSH user:1001:recent:products "2003"
+
+# 如果商品已存在，先删除再添加（去重+置顶）
+LREM user:1001:recent:products 0 "2001"
+LPUSH user:1001:recent:products "2001"
+
+# 只保留最近20个
+LTRIM user:1001:recent:products 0 19
+
+# 获取最近浏览
+LRANGE user:1001:recent:products 0 9
+```
+
+---
+
+## 4. Set 集合操作
+
+### 核心命令
+- `SADD key member` - 添加成员
+- `SMEMBERS key` - 获取所有成员
+- `SISMEMBER key member` - 判断是否成员
+- `SREM key member` - 移除成员
+- `SINTER key1 key2` - 交集
+- `SUNION key1 key2` - 并集
+- `SDIFF key1 key2` - 差集
+
+### 实战案例
+
+#### 📌 案例1: 用户标签系统
+```bash
+# 给用户1001打标签
+SADD user:1001:tags "VIP"
+SADD user:1001:tags "活跃"
+SADD user:1001:tags "高消费"
+
+# 给用户1002打标签
+SADD user:1002:tags "VIP"
+SADD user:1002:tags "沉默"
+
+# 查询用户1001的所有标签
+SMEMBERS user:1001:tags
+# 返回: ["VIP", "活跃", "高消费"]
+
+# 判断用户1001是否是VIP
+SISMEMBER user:1001:tags "VIP"
+# 返回: 1 (是)
+
+# 移除用户1001的"高消费"标签
+SREM user:1001:tags "高消费"
+```
+
+#### 📌 案例2: 共同好友（交集）
+```bash
+# 用户1001的好友
+SADD user:1001:friends 1002 1003 1004 1005
+
+# 用户1002的好友
+SADD user:1002:friends 1001 1003 1006 1007
+
+# 获取1001和1002的共同好友
+SINTER user:1001:friends user:1002:friends
+# 返回: ["1003"]
+
+# 获取1001可能认识的人（1002的好友中，1001还没有的）
+SDIFF user:1002:friends user:1001:friends
+# 返回: ["1001", "1006", "1007"] (除去1001自己)
+```
+
+#### 📌 案例3: 抽奖活动（随机抽取）
+```bash
+# 收集参与用户
+SADD lottery:participants 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010
+
+# 随机抽取3个中奖用户
+SRANDMEMBER lottery:participants 3
+# 返回: 随机3个用户ID
+
+# 抽取中奖用户并移除（不重复中奖）
+SPOP lottery:participants 3
+```
+
+---
+
+## 5. SortedSet 有序集合
+
+### 核心命令
+- `ZADD key score member` - 添加成员（带分数）
+- `ZRANGE key start stop` - 按分数升序获取
+- `ZREVRANGE key start stop` - 按分数降序获取
+- `ZSCORE key member` - 获取成员分数
+- `ZINCRBY key increment member` - 增加分数
+
+### 实战案例
+
+#### 📌 案例1: 排行榜（积分排行）
+```bash
+# 添加用户积分
+ZADD leaderboard 1000 "user:1001"
+ZADD leaderboard 2500 "user:1002"
+ZADD leaderboard 1800 "user:1003"
+ZADD leaderboard 3200 "user:1004"
+ZADD leaderboard 900  "user:1005"
+
+# 获取积分最高的前3名
+ZREVRANGE leaderboard 0 2 WITHSCORES
+# 返回: ["user:1004", "3200", "user:1002", "2500", "user:1003", "1800"]
+
+# 获取用户1001的排名
+ZREVRANK leaderboard "user:1001"
+# 返回: 3 (第4名，从0开始)
+
+# 获取用户1001的积分
+ZSCORE leaderboard "user:1001"
+# 返回: "1000"
+
+# 用户1001完成任务，积分增加500
+ZINCRBY leaderboard 500 "user:1001"
+```
+
+#### 📌 案例2: 延时任务队列
+```bash
+# 添加延时任务，score为执行时间戳
+ZADD delay:queue 1709452800 "task:send_email:001"
+ZADD delay:queue 1709456400 "task:send_sms:002"
+ZADD delay:queue 1709460000 "task:clean_data:003"
+
+# 获取当前时间前需要执行的任务（当前时间戳假设为1709452800）
+ZRANGEBYSCORE delay:queue 0 1709452800
+
+# 执行任务后移除
+ZREM delay:queue "task:send_email:001"
+```
+
+#### 📌 案例3: 滑动窗口限流
+```bash
+# 记录用户请求时间戳
+ZADD rate:limit:user:1001 1709452800 "req:001"
+ZADD rate:limit:user:1001 1709452805 "req:002"
+ZADD rate:limit:user:1001 1709452810 "req:003"
+
+# 只保留最近60秒的请求（滑动窗口）
+ZREMRANGEBYSCORE rate:limit:user:1001 0 1709452740
+
+# 统计最近60秒请求次数
+ZCARD rate:limit:user:1001
+```
+
+---
+
+## 6. 综合案例：电商系统
+
+### 场景：双11活动页面
+
+```bash
+# 1. 存储活动配置（String）
+SET activity:double11:name "双11狂欢节"
+SET activity:double11:start_time "2026-11-11 00:00:00"
+SET activity:double11:status "1" EX 86400
+
+# 2. 存储用户信息（Hash）
+HMSET user:1001 id 1001 name "张三" level "VIP" points 5000
+
+# 3. 商品库存（String + DECR）
+SET product:1001:stock 100
+DECR product:1001:stock  # 下单减库存
+
+# 4. 购物车（Hash）
+HSET cart:1001 product:1001 2  # 商品1001，数量2
+HSET cart:1001 product:1002 1
+
+# 5. 排行榜（SortedSet）
+ZADD double11:sales 99999 "product:1001"
+ZADD double11:sales 88888 "product:1002"
+ZREVRANGE double11:sales 0 9  # Top10热销
+
+# 6. 最近浏览（List）
+LPUSH user:1001:recent product:1001
+LPUSH user:1001:recent product:1002
+LTRIM user:1001:recent 0 19
+
+# 7. 优惠券领取（Set）
+SADD coupon:1001:received 1 2 3  # 用户已领取的优惠券
+SISMEMBER coupon:1001:received 1  # 判断是否已领取
+```
+
+---
+
+## 7. 常用技巧总结
+
+| 技巧 | 命令 | 场景 |
+|------|------|------|
+| 分布式锁 | `SET lock:key value NX EX 30` | 防重复提交 |
+| 原子计数 | `INCR` / `DECR` | 库存、点赞 |
+| 批量操作 | `MGET` / `MSET` | 减少网络往返 |
+| 管道操作 | Pipeline | 批量写入加速 |
+| 键空间通知 | `EXPIRE` + 监听 | 过期提醒 |
+
+---
+
+## 8. 性能优化建议
+
+1. **控制Key的长度** - 建议不超过100字节
+2. **设置过期时间** - 避免内存无限增长
+3. **批量操作** - 使用 MGET/MSET 替代多次 GET/SET
+4. **避免大Key** - Hash、List、Set 元素不宜过多
+5. **连接池** - 使用连接池管理连接，避免频繁创建
+
+---
+
+## 标签
+
+#Redis #缓存 #实战案例 #数据库 #后端开发
