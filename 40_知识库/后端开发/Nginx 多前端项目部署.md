@@ -194,6 +194,125 @@ sudo killall -HUP mDNSResponder
 
 ---
 
+## 反向代理与负载均衡
+
+### 反向代理 (Reverse Proxy)
+
+**作用：** 用户请求先到 Nginx，Nginx 再转发到后端服务器，用户不知道真正的服务器是谁。
+
+```
+用户请求 → Nginx（反向代理）→ 后端服务器 → 返回给用户
+```
+
+**基础配置：**
+```nginx
+server {
+    listen 80;
+    server_name api.moss.cn;
+    
+    location / {
+        proxy_pass http://localhost:8080;
+        
+        # 转发真实 IP
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $host;
+    }
+}
+```
+
+### 负载均衡 (Load Balancer)
+
+**作用：** 将流量分摊到多台服务器，避免单点过载。
+
+```
+                    ┌─→ 服务器 A
+用户请求 → Nginx ──┼─→ 服务器 B
+                    └─→ 服务器 C
+```
+
+**配置示例：**
+```nginx
+# 定义后端服务器组
+upstream backend {
+    server 192.168.1.10:8080 weight=5;
+    server 192.168.1.11:8080 weight=3;
+    server 192.168.1.12:8080 backup;
+}
+
+server {
+    listen 80;
+    
+    location / {
+        proxy_pass http://backend;
+    }
+}
+```
+
+### 负载均衡算法
+
+| 算法 | 说明 | 配置 |
+|-----|------|------|
+| 轮询 | 依次分配（默认） | 无需配置 |
+| 权重 | 按权重比例分配 | `weight=5` |
+| IP 哈希 | 同 IP 访问同一台 | `ip_hash;` |
+| 最少连接 | 分配给连接最少的服务器 | `least_conn;` |
+
+### 实际应用场景
+
+**前后端分离：**
+```nginx
+server {
+    listen 80;
+    server_name moss.cn;
+    
+    # 前端
+    location / {
+        root /var/www/frontend/dist;
+        try_files $uri $uri/ /index.html;
+    }
+    
+    # API 反向代理
+    location /api/ {
+        proxy_pass http://localhost:8080/;
+    }
+}
+```
+
+**微服务网关：**
+```nginx
+upstream user-service {
+    server 10.0.1.10:8080;
+    server 10.0.1.11:8080;
+}
+
+upstream order-service {
+    server 10.0.2.10:8080;
+    server 10.0.2.11:8080;
+}
+
+server {
+    location /user/ {
+        proxy_pass http://user-service/;
+    }
+    
+    location /order/ {
+        proxy_pass http://order-service/;
+    }
+}
+```
+
+### 反向代理 vs 负载均衡
+
+| 特性 | 反向代理 | 负载均衡 |
+|-----|---------|---------|
+| 核心作用 | 隐藏后端服务器 | 分摊流量压力 |
+| 服务器数量 | 通常 1 台 | 多台 |
+| 主要目的 | 安全、统一入口 | 性能、高可用 |
+| 关系 | 基础功能 | 反向代理的扩展 |
+
+---
+
 ## HTTPS 配置（Let's Encrypt）
 
 ```bash
