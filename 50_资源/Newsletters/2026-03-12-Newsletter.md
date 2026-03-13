@@ -7,42 +7,42 @@ publish: true
 
 # 📰 新闻精选 | 2026-03-12
 
-> 生成时间: 2026/03/12 09:01
+> 生成时间: 2026/03/12 18:01
 > 来源: 知乎、微博、Hacker News、GitHub、Product Hunt 等
 
 ## 🇨🇳 国内新闻
 
 ### 知乎热榜
 
-- [国防部回应日本部署射程约 1000 公里远程导弹，正告日方「敢侵犯必迎头痛击」，如何解读日方意图？](https://www.zhihu.com/question/2015161588936565933)
-- [中国成功研发世界最强 T1200 级超高强度碳纤维并实现百吨级量产，这对我国有何意义？](https://www.zhihu.com/question/2014993230404531730)
-- [委员提出「允许护士给患者开药」的建议，此建议是否可行？如果不行是否有折中方案？](https://www.zhihu.com/question/2014397823790051346)
-- [政协委员建议劳动者退休后养老待遇应平等，这一提议回应了哪些现实痛点？靠什么落地？](https://www.zhihu.com/question/2014997656175337956)
-- [亲历撤侨行动是怎样一种体验？](https://www.zhihu.com/question/30021903)
+- [代表建议避免青少年过早使用 AI ，不允许青少年使用 AI 做作业，如何看待此建议？日常生活中应如何实现？](https://www.zhihu.com/question/2015022862625415833)
+- [代表建议增设元宵、重阳为法定节假日，推行法定假日「顺延补休」，出于哪些考量？若施行将产生哪些影响？](https://www.zhihu.com/question/2015097023762756959)
+- [黑龙江体育局发布公示，王濛申报破格晋升国家级教练，意味着什么？若其出任主帅，能带领国家队走出低谷吗？](https://www.zhihu.com/question/2015161059279856700)
+- [海南一块「工业辣椒，禁止食用」提示牌火了，专家称此辣椒辣度远超普通辣椒，这是种什么辣椒？它到底有多辣？](https://www.zhihu.com/question/2010755617250355164)
+- [我国学前教育毛入园率 92.9%，高中教育毛入学率 92%，义务教育达高收入国家平均水平，如何解读该数据？](https://www.zhihu.com/question/2013558967935137344)
 
 ### 微博热搜
 
-- [委员回应年轻人天天熬夜行不行](https://s.weibo.com/weibo?q=%23%E5%A7%94%E5%91%98%E5%9B%9E%E5%BA%94%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%A4%A9%E5%A4%A9%E7%86%AC%E5%A4%9C%E8%A1%8C%E4%B8%8D%E8%A1%8C%23&t=31&band_rank=1&Refer=top)
-- [塞尔维亚战机挂中国导弹亮相](https://s.weibo.com/weibo?q=%23%E5%A1%9E%E5%B0%94%E7%BB%B4%E4%BA%9A%E6%88%98%E6%9C%BA%E6%8C%82%E4%B8%AD%E5%9B%BD%E5%AF%BC%E5%BC%B9%E4%BA%AE%E7%9B%B8%23&t=31&band_rank=2&Refer=top)
-- [解读国家账本看数字背后](https://s.weibo.com/weibo?q=%23%E8%A7%A3%E8%AF%BB%E5%9B%BD%E5%AE%B6%E8%B4%A6%E6%9C%AC%E7%9C%8B%E6%95%B0%E5%AD%97%E8%83%8C%E5%90%8E%23&t=31&band_rank=3&Refer=top)
-- [王濛拟被破格晋升](https://s.weibo.com/weibo?q=%E7%8E%8B%E6%BF%9B%E6%8B%9F%E8%A2%AB%E7%A0%B4%E6%A0%BC%E6%99%8B%E5%8D%87&t=31&band_rank=4&Refer=top)
-- [代表说农民交的公粮就等于交了社保](https://s.weibo.com/weibo?q=%23%E4%BB%A3%E8%A1%A8%E8%AF%B4%E5%86%9C%E6%B0%91%E4%BA%A4%E7%9A%84%E5%85%AC%E7%B2%AE%E5%B0%B1%E7%AD%89%E4%BA%8E%E4%BA%A4%E4%BA%86%E7%A4%BE%E4%BF%9D%23&t=31&band_rank=5&Refer=top)
+- [十四届全国人大四次会议闭幕会](https://s.weibo.com/weibo?q=%23%E5%8D%81%E5%9B%9B%E5%B1%8A%E5%85%A8%E5%9B%BD%E4%BA%BA%E5%A4%A7%E5%9B%9B%E6%AC%A1%E4%BC%9A%E8%AE%AE%E9%97%AD%E5%B9%95%E4%BC%9A%23&t=31&band_rank=1&Refer=top)
+- [司法部将在全国统一推行扫码入企](https://s.weibo.com/weibo?q=%23%E5%8F%B8%E6%B3%95%E9%83%A8%E5%B0%86%E5%9C%A8%E5%85%A8%E5%9B%BD%E7%BB%9F%E4%B8%80%E6%8E%A8%E8%A1%8C%E6%89%AB%E7%A0%81%E5%85%A5%E4%BC%81%23&t=31&band_rank=2&Refer=top)
+- [3月12日两会日程](https://s.weibo.com/weibo?q=%233%E6%9C%8812%E6%97%A5%E4%B8%A4%E4%BC%9A%E6%97%A5%E7%A8%8B%23&t=31&band_rank=3&Refer=top)
+- [建议禁止流量月底清零](https://s.weibo.com/weibo?q=%23%E5%BB%BA%E8%AE%AE%E7%A6%81%E6%AD%A2%E6%B5%81%E9%87%8F%E6%9C%88%E5%BA%95%E6%B8%85%E9%9B%B6%23&t=31&band_rank=4&Refer=top)
+- [第3场部长通道](https://s.weibo.com/weibo?q=%23%E7%AC%AC3%E5%9C%BA%E9%83%A8%E9%95%BF%E9%80%9A%E9%81%93%23&t=31&band_rank=5&Refer=top)
 
 ### 36氪
 
-- [LG新能源将推出新型电池，发力储能市场](https://www.36kr.com/newsflashes/3719249552946822)
-- [市场消息：洛杉矶国际机场批准提高网约车费用后，优步和Lyft的车费或将上涨](https://www.36kr.com/newsflashes/3719247120119168)
-- [两市融资余额增加54.22亿元](https://www.36kr.com/newsflashes/3719243395331716)
-- [日元逼近年内低点，策略师预计官方干预的门槛已变高](https://www.36kr.com/newsflashes/3719242323719811)
-- [Joby Aviation首架量产型电动空中出租车开始试飞](https://www.36kr.com/newsflashes/3719236184241799)
+- [中国银河旗下公司在哈尔滨成立股权投资合伙企业](https://www.36kr.com/newsflashes/3719742785418884)
+- [南向资金今日净买入中国海洋石油12.38亿港元](https://www.36kr.com/newsflashes/3719775031473538)
+- [国家工业信息安全发展研究中心发布工业领域OpenClaw应用的风险预警通报](https://www.36kr.com/newsflashes/3719773823137413)
+- [沪电股份 ：AI芯片配套高端印制电路板扩产项目预期在2026年下半年开始试产](https://www.36kr.com/newsflashes/3719768156616066)
+- [证监会同意天海电子深市主板IPO注册](https://www.36kr.com/newsflashes/3719758976366209)
 
 ### IT之家
 
-- [微信独立自有 AI 模型曝光：可接入小程序生态，年内落地](https://www.ithome.com/0/928/203.htm)
-- [微软官宣下一代 Xbox 主机 Helix：AI 画质革命，开发机 2027 年交付](https://www.ithome.com/0/928/202.htm)
-- [苹果回应有人购买 iPhone 后换屏退货赚差价：拆修可检测到，官网直营店均为全新正品](https://www.ithome.com/0/928/201.htm)
-- [美国网友热议：航班上到底能不能戴苹果 Vision Pro 头显？](https://www.ithome.com/0/928/199.htm)
-- [险企发力探索“车电分离”模式车险，从试点走向全面推广仍需时间](https://www.ithome.com/0/928/198.htm)
+- [七彩虹 2026 款 iGame M15 Origo 游戏本搭载 Ultra 9 386H，整机释放 160W](https://www.ithome.com/0/928/478.htm)
+- [初探追觅旗舰手机：搭载第五代骁龙 8 至尊版处理器、预装努比亚星云 AIOS 系统](https://www.ithome.com/0/928/476.htm)
+- [国家工业信息安全发展研究中心发布工业领域 OpenClaw 应用的风险预警通报](https://www.ithome.com/0/928/473.htm)
+- [全国人大代表陈莉娜建议禁止流量月底清零，全面清理霸王条款](https://www.ithome.com/0/928/472.htm)
+- [欧洲电子游戏年龄分级制度即将迎来重大改革：开箱游戏将被评为 PEGI 16 级](https://www.ithome.com/0/928/471.htm)
 
 ### 少数派
 
@@ -55,29 +55,21 @@ publish: true
 ### Solidot
 
 - [【重磅推荐】2026 年度 NVIDIA 创业企业展示现已启动招募！](https://www.solidot.org/story?sid=83412)
-- [为节省燃料亚洲多国下令公务员在家远程办公](https://www.solidot.org/story?sid=83738)
-- [亚马逊要求资深工程师批准 AI 辅助的代码变更](https://www.solidot.org/story?sid=83737)
+- [Google 完成对以色列安全公司 Wiz 的收购](https://www.solidot.org/story?sid=83746)
+- [瑞士电子投票试点因无法解密 2048 张选票而暂停](https://www.solidot.org/story?sid=83745)
 
 ### 澎湃新闻
 
 - [十五五，十五问｜补齐农村养老服务短板，关键在哪](https://www.thepaper.cn/newsDetail_forward_32747797)
-- [对话樊芸代表：从“管理”到“服务”，物业转型实现的是“双赢”](https://www.thepaper.cn/newsDetail_forward_32742612)
-- [夹杂争议的历史之夜，阿德巴约单场83分“刷”新科比纪录](https://www.thepaper.cn/newsDetail_forward_32746639)
+- [“鉴抄”风波中，不愿“沉默”的人](https://www.thepaper.cn/newsDetail_forward_32747590)
+- [美国贸易代表：将对16个贸易伙伴发起301调查](https://www.thepaper.cn/newsDetail_forward_32752869)
 
 ## 🌍 国际新闻
-
-### GitHub Trending
-
-- [msitarzewski /      agency-agents](https://github.com/msitarzewski/agency-agents)
-- [666ghj /      MiroFish](https://github.com/666ghj/MiroFish)
-- [promptfoo /      promptfoo](https://github.com/promptfoo/promptfoo)
-- [obra /      superpowers](https://github.com/obra/superpowers)
-- [fishaudio /      fish-speech](https://github.com/fishaudio/fish-speech)
 
 ---
 
 **统计信息**
 - 国内新闻: 31 条
-- 国际新闻: 5 条
-- 总计: 36 条
-- 生成时间: 2026/03/12 09:01
+- 国际新闻: 0 条
+- 总计: 31 条
+- 生成时间: 2026/03/12 18:01
