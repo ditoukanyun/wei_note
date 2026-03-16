@@ -2,6 +2,7 @@
 name: ai-newsletters
 description: Curate AI newsletter content with smart deduplication and ranking. Use when user invokes /ai-newsletters or when /start-my-day needs newsletter content.
 ---
+
 # AI Newsletter Curation
 
 Fetch, deduplicate, and rank AI newsletter content into a daily digest.
@@ -41,6 +42,7 @@ Fetch, deduplicate, and rank AI newsletter content into a daily digest.
 **Manual invocation**: Display full digest with all sections.
 
 **From /start-my-day**: Return condensed list:
+
 ```
 **内容机会 (5):**
 - [标题] - [角度]
@@ -53,3 +55,35 @@ Fetch, deduplicate, and rank AI newsletter content into a daily digest.
 - One feed down: Continue with other, note in digest
 - Both down: Use yesterday's archive with warning
 - Empty feeds: Create minimal digest noting "今日无新内容"
+
+## Robust Fetch Strategy
+
+**Retry Logic:**
+
+1. First attempt: Direct WebFetch on RSS URLs
+2. If fails: Try alternative user-agent headers
+3. If still fails: Check if cached raw data exists from yesterday, use as fallback
+4. Never give up immediately - always try multiple approaches
+
+**Common Issues & Fixes:**
+
+- RSS timeout: Increase timeout to 60s, retry once
+- Rate limiting: Wait 5s, retry with different approach
+- XML parsing errors: Extract items manually via regex on raw text
+- Empty items: Check if feed structure changed, adapt parsing
+
+**Success Criteria:**
+
+- At least one feed must return valid items
+- Items must have title and link at minimum
+- Description can be empty (not critical)
+
+## Implementation Notes
+
+When fetching RSS:
+
+1. Use `webfetch` tool with `format: "text"` to get raw XML
+2. Parse XML to extract `<item>` elements
+3. For each item, extract: `<title>`, `<link>`, `<pubDate>`, `<description>`
+4. Handle CDATA sections in descriptions
+5. Skip sponsor items (contain "Sponsor" in title)
