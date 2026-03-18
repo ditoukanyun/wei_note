@@ -5,7 +5,7 @@
 
 ## 发现的上下文
 - 相关领域: AI/ML
-- 现有笔记: 40_知识库/AI_ML/LangChain-Memory.md
+- 现有笔记: 40_知识库/AI/AI_ML/LangChain-Memory.md
 - 相关项目: Python持续学习
 
 ## 研究策略
@@ -17,5 +17,5 @@
 
 ## 输出结构
 - 主笔记: 30_研究/SoftwareEngineering/LangChain_Memory/LangChain_Memory.md
-- 原子概念: 40_知识库/AI_ML/LangChain_Memory.md
+- 原子概念: 40_知识库/AI/AI_ML/LangChain_Memory.md
 - 示例/资源: 30_研究/SoftwareEngineering/LangChain_Memory/examples/（如需要）

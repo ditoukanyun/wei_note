@@ -175,7 +175,7 @@ graph LR
 ### 内部链接
 - [[后端开发 MOC]] - Python后端开发路线
 - [[通用技能 MOC]] - 编程通用能力
-- [[AI相关/MOC-RAG]] - AI与Python应用
+- [[AI/AI相关/RAG技术/MOC-RAG|MOC-RAG]] - AI与Python应用
 
 ### 外部资源
 - [Python官方文档](https://docs.python.org/zh-cn/3/)
