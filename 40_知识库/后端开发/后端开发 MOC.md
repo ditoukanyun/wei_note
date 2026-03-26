@@ -20,6 +20,21 @@
 - [[集群部署]]
 - [[微服务]]
 
+## ☕ Java
+
+### 核心基础
+- [[Java核心/Java核心 MOC|Java 核心 MOC]]
+- [[Java核心/Java 集合框架]]
+- [[Java核心/Java 泛型]]
+- [[Java核心/Java IO与NIO]]
+- [[Java核心/Java 反射]]
+- [[Java核心/Java Stream API]]
+
+### 框架
+- [[Spring 框架]]
+- [[Spring Boot]]
+- [[MyBatis]]
+
 ## 🐍 Python
 
 ### Web 框架
