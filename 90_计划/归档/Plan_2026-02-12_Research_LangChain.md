@@ -24,7 +24,7 @@ status: draft
 
 ### 现有笔记
 - [[03-方向C-机器学习]] - Python 机器学习方向笔记
-- [[AI相关/RAG技术/MOC-RAG]] - RAG 技术知识体系（与 LangChain 密切相关）
+- [[AI/AI相关/RAG技术/MOC-RAG]] - RAG 技术知识体系（与 LangChain 密切相关）
 - [[Claude-Code-Skills-保姆级入门教程]] - AI 工具使用经验
 
 ### 相关项目
@@ -73,7 +73,7 @@ status: draft
 │   └── 04-memory-conversation.py
 └── LangChain-Architecture.canvas   # 架构图（可选）
 
-40_知识库/AI_ML/
+40_知识库/AI/AI_ML/
 ├── LangChain-Chains.md             # 原子概念：Chains
 ├── LangChain-Agents.md             # 原子概念：Agents
 ├── LangChain-Memory.md             # 原子概念：Memory

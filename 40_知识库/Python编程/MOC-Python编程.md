@@ -135,7 +135,7 @@ aliases:
 |:-------|:-----|
 | [[后端开发 MOC]] | Python 后端开发路线 |
 | [[通用技能 MOC]] | 编程通用能力 |
-| [[AI相关/MOC-RAG]] | AI 与 Python 应用 |
+| [[AI/AI相关/RAG技术/MOC-RAG|MOC-RAG]] | AI 与 Python 应用 |
 
 ---
 

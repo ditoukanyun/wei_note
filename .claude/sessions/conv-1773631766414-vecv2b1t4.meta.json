@@ -1,0 +1,19 @@
+{
+  "id": "conv-1773631766414-vecv2b1t4",
+  "title": "hei",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1773631766415,
+  "updatedAt": 1773631998933,
+  "lastResponseAt": 1773631934202,
+  "sessionId": "7a83e8ec-fce9-43f5-9d18-8901729a0b88",
+  "sdkSessionId": "7a83e8ec-fce9-43f5-9d18-8901729a0b88",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 28402,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 28402,
+    "percentage": 14
+  }
+}

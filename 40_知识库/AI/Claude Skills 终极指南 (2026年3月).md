@@ -1,0 +1,252 @@
+---
+title: "Claude Skills 终极指南 (2026年3月)"
+source: "https://x.com/aiedge_/status/2036815449225298369"
+author: "AI Edge by @milesdeutscher"
+published: 2026-03-25
+created: 2026-03-26
+description: "AI Edge by @milesdeutscher 发布，涵盖 Claude Skills 的完整构建、优化和实战应用指南"
+tags:
+  - "clippings"
+  - "Claude"
+  - "AI"
+  - "效率工具"
+---
+
+这个月我在 **𝕏** 上发布了 200 多条内容。如果你只打算采纳其中一条建议，那就是这个。
+
+**Claude Skills 是 2026 年最大的生产力解锁工具**，也是整个 Claude 生态中性价比最高的功能。
+
+设置一次，它会随着你每天使用 Claude 自动产生复利效应。
+
+过去三个月，我在内容创作和业务运营的每个核心工作流中都运行着 Skills。我每天必用，无一例外。我甚至强制要求公司每个部门都要构建自己的 Skills。
+
+这份指南涵盖所有内容：什么是 Skills、如何构建、如何优化、刚发布的新功能、实际工作流等等。
+
+这是我希望刚开始使用 Claude Skills 时就能拥有的完整指南。
+
+---
+
+## Claude Skills 是什么？
+
+一句话：**Claude Skills 是预加载的指令集，以 Markdown 文件形式保存。**
+
+在任何 Claude 对话或项目中，你可以调用一个 Skill，Claude 会立即按照你创建的指令执行。无需重新解释、无需重复提示、无需每次新开对话都复制粘贴上下文。
+
+**可以这样理解：** 现在每次新开 Claude 对话，你都从零开始。Claude 对你一无所知——你的风格、你的标准、你喜欢的工作方式。Skill 改变了这一点。它将 Claude 需要知道的一切打包成一个可重复使用的文件，随时按需调用。
+
+一个实际例子：想象一个「品牌调性 Skill」，包含你公司的所有信息（语气、风格、受众、核心信息、优秀文案示例）。不必每次都解释一遍，你只需要说：
+
+> 「嘿 Claude，用我的品牌调性 Skill 写一篇关于 [X] 的 LinkedIn 帖子。」
+
+可能性真的是无限的。写作 Skill、研究 Skill、语法检查器、 outreach 模板 Skill……任何可重复的任务，只要上下文和指令重要，都可以做成 Skill。
+
+---
+
+## 如何构建和使用 Skills
+
+构建一个 Skill 只需不到 30 分钟，而且你只需做一次，就能创造一个永恒的效率资产。
+
+构建过程再简单不过了。
+
+### 第一步：启用 Skill-Creator
+
+前往「自定义 → Skills」，确保启用了「Skill-Creator」。
+
+这是 Anthropic 提供的一个「构建 Skills 的 Skill」。
+
+![启用 Skill-Creator](../../50_资源/images/claude-skills-01-skill-creator.jpg)
+
+*启用 Skill-Creator*
+
+### 第二步：提示 Claude
+
+启用后，你可以告诉 Claude：「我想为 [工作流] 构建一个 Skill，帮我完成它。」
+
+![提示 Claude](../../50_资源/images/claude-skills-02-prompting.jpg)
+
+*提示 Claude*
+
+**以下是从零构建第一个 Skill 的模板提示词：**
+
+```
+你正在构建一个 Claude Skill —— 一个 Markdown 格式的可复用指令集。
+
+我的 Skill 用于：[描述任务 —— 例如写 X 类文章、检查语法、研究主题]
+
+以下是 Claude 需要做好的上下文：
+- 我的名字/品牌：[名称]
+- 我的受众：[你为谁而写]
+- 我的语气和声音：[你希望 Claude 听起来怎样]
+- 我的标准：[好的输出长什么样]
+- 要避免什么：[常见错误、禁用词汇、绝不使用的格式]
+
+使用这些上下文，编写一份完整的 SKILL.md 文件：
+1. 开头用一句话描述 Skill 的功能
+2. 定义 Skill 激活时 Claude 扮演的角色
+3. 列出 Claude 必须遵守的具体规则
+4. 包含至少一个优秀输出的示例
+5. 结尾是 Claude 在回复前运行的质量检查清单
+
+格式化为可直接保存并上传到 Claude 项目的标准 Markdown 文件。
+```
+
+### 第三步：保存 Skills
+
+Claude 完成 Skill 构建后，会输出一个 zip 和/或 Markdown 文件。点击「复制到 Skills」将新 Skill 保存到你的 Anthropic 账户。
+
+我也喜欢把 Skills 下载到笔记本电脑（放在专用文件夹中），但这是可选的。
+
+![保存 Skills](../../50_资源/images/claude-skills-03-saving.jpg)
+
+*保存 Skills*
+
+返回「自定义 → Skills → 我的 Skills」，确保你的新 Skill 已存在并已启用。
+
+### 第四步：使用你的 Skill
+
+现在，你只需提示 Claude 使用你的 Skill：「为 [X] 使用我的 [X] Skill。」
+
+示例提示：
+
+![使用 Skills](../../50_资源/images/claude-skills-04-using.jpg)
+
+*使用 Skills*
+
+就这样！
+
+---
+
+## 如何构建优质的 Skills
+
+任何人都能构建 Claude Skills，但很少有人能构建出真正有用的优质 Skills。
+
+以下是基于数月经验的技巧：
+
+1. **反向提问**：告诉 Claude：「我想构建 [X] Skill，问我 10-50 个能帮助你构建的问题。」
+2. **反向构建**：告诉 Claude：「基于你对我的了解，什么 Skills 对我有帮助？」
+3. **上下文**：提供的上下文越多，效果越好。投喂 PDF、附加文档——任何你有的东西。
+4. **历史对话即素材**：用你现有的对话作为上下文。（例如，用这次对话的所有内容转成 Skill）—— 我的「语法检查器」Skill 就是这样做的，它立刻就知道了我想要的一切，因为我们已经聊了三个月。
+5. **迭代**：把 Claude 的第一版 Skill 输出当作草稿。阅读整个文件，写下你想改的地方，然后提示 Claude 做这些修改。我经常创建 3 个版本的 Skill 才得到 100% 满意的结果。
+6. **包含真实示例**：提升 Skill 输出质量最快的方法，就是粘贴一段完美输出的示例。Skill 文件中的一个强示例，胜过十条指令。
+7. **QC**：每个 Skill 结尾加上一个简短的检查清单。3-5 个让 Claude 在输出前自我审查的问题：语气是否匹配？是否避开了禁用词？格式是否正确？
+8. **人工审核**：尽管听起来痛苦，**务必**人工审核 Skills。是的，这需要几分钟的手动劳动，但换来的是一个从此为你节省时间的 Skill。
+
+---
+
+## Claude Skills 2.0
+
+Anthropic 在 3 月份对 Skills 框架进行了一次重大更新。
+
+有三个值得了解的重要更新：
+
+### 1. 内置评估和测试
+
+在此更新之前，没有可靠的方法知道你的 Skill 是否真的有效。你会构建一个，试几次，觉得看起来还行，就继续了。如果后来出了问题（比如模型更新后），你可能直到交付物出错才发现。
+
+Skills 2.0 修复了这个问题。在将 Skill 保存到账户之前，你已经知道输出会是什么样。你写几个真实提示（你实际会问 Claude 做的事），Claude 运行两次：一次加载你的 Skill，一次不加载。两个输出都会根据你定义的断言进行评分，然后在一个查看器中展示，你可以审查实际输出并留下反馈。
+
+### 2. A/B 测试
+
+A/B 测试允许你用相同的提示比较同一 Skill 的两个版本。修改了你的品牌调性 Skill，想知道是否真的改进了输出？
+
+现在你可以运行 A/B 测试。
+
+### 3. 触发优化
+
+一个在错误时间触发或从不触发的 Skill，无论里面的指令多好，都是个坏 Skill。Skills 2.0 包含一个自动化流程，重写并测试 Skill 描述的不同版本，直到找到可靠触发的版本。这消除了你说「嘿用 [X] Skill…」时 Skill 不触发的问题。
+
+**使用这些新功能**：打开加载了你的 Skill 的 Claude 对话，告诉 Claude 你想做什么。
+
+**示例**：「对这个 Skill 运行评估。」「对这两个版本进行 A/B 测试。」「优化我的触发描述。」
+
+![Claude Skills 2.0 总结](../../50_资源/images/claude-skills-05-summary.jpg)
+
+*Claude Skills 2.0 总结*
+
+---
+
+## 实际工作流和超级提示词
+
+现在你知道如何构建和优化 Skill 了，以下是一些展示实际可能性的工作流示例。
+
+把这些图片复制到任何 LLM 中，让它生成文字来测试这些提示词。
+
+### 1. 品牌调性 —— 用于创建声音/语气/写作风格
+
+![品牌调性 Skill](../../50_资源/images/claude-skills-06-brand-voice.jpg)
+
+*品牌调性 Skill*
+
+### 2. PDF 生成器 —— 将任何文本转换为格式良好的 PDF
+
+![PDF 生成器](../../50_资源/images/claude-skills-07-pdf-generator.jpg)
+
+*PDF 生成器*
+
+### 3. 文档总结器 —— 一个简单 Skill，几秒钟内总结任何文本
+
+![文档总结器](../../50_资源/images/claude-skills-08-summarizer.jpg)
+
+*文档总结器*
+
+**其他可构建的工作流：**
+
+- **ELI5**：一个用简单术语解释复杂主题的 Skill（只需粘贴主题/文章/文本并触发 Skill）。
+- **求职申请 Skill**：了解你的简历、经验，以及你喜欢如何定位自己。即时定制求职信。
+- **学习 Skill**：你最适合如何吸收信息、什么类比对你有效、你在某主题上的当前知识水平。
+- **健身健康 Skill**：你的目标、限制和偏好。
+
+---
+
+## Skills 相关工具
+
+帮助你使用 Claude Skills 构建的工具：
+
+1. **Claude Skills 文档** — Anthropic 官方文档
+   - https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
+
+2. **SkillsMSP** — 一个拥有 50 万+ Claude Skills 的市场
+   - https://skillsmp.com/
+   - *部分文件可能包含恶意内容 — 仅从已验证/可靠的创作者处下载*
+
+3. **Awesome Claude Skills** — 精选的实用 Claude Skills 列表
+   - https://github.com/ComposioHQ/awesome-claude-skills
+
+4. **Claude Skills 完整指南 (Anthropic 官方)**
+   - https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf
+
+---
+
+## 结语
+
+Claude Skills 毫无疑问是我最喜欢的 Anthropic 功能。我和我的团队痴迷于构建和部署它们——它真的改变了我们的工作方式。
+
+**记住：** 如果你只采纳我 3 月份内容中的一条建议，就是这个。
+
+**我的建议**：现在就让 Claude 反向提示你，为你构建一个有用的 Skill。
+
+我在这里涵盖的一切都来自真实的手动使用经验——我已经在我的三家公司的每个核心工作流中运行 Skills 好几个月了。
+
+---
+
+> 💡 **实战心得：Claude Skills 用得好不好，差距全在构建环节**
+>
+> 8 条实战验证的高质量 Skill 构建心法：
+>
+> 1. **反向提问** — 别急着写指令，先让 Claude 问你 50 个问题。它比你更清楚该收集什么信息
+> 2. **反向构建** — 让 Claude 根据对你的了解推荐该建什么 Skill，比自己拍脑袋想准得多
+> 3. **疯狂喂上下文** — PDF、文档、笔记，能塞的全塞。上下文的厚度决定输出的上限
+> 4. **历史对话即素材** — 跟 Claude 聊了仨月的写作偏好？直接转成 Skill，比从零写强十倍
+> 5. **第一版永远是草稿** — 至少迭代三版，逐条读逐条改，别指望一步到位
+> 6. **一个好范例 > 十条规则** — 在 Skill 里贴一段完美的输出示例，效果立竿见影
+> 7. **结尾加自检清单** — 写 3-5 个问题让 Claude 输出前自我审查：语气对不对？踩没踩禁区？格式到位没？
+> 8. **永远人工过一遍** — 花几分钟手动审核，换来的是此后每天省下的时间
+>
+> **核心逻辑**：Skill 是「一次投入、持续复利」的资产。花 30 分钟构建，之后每次对话自动生效，再也不用重复解释上下文。
+>
+> 大多数人觉得 Skill 不好用，不是 Claude 的问题，是上下文没喂够、没给范例、没迭代。
+
+---
+
+description: "AI Edge by @milesdeutscher ⚡ | 让你掌握 AI 先机。突发新闻 • 实用指南 • 智能洞察 • 技巧与更多 | 你的一站式 AI 中心。"
+tup

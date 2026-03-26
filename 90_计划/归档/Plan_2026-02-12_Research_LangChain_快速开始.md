@@ -18,11 +18,11 @@
 - 30_研究/SoftwareEngineering/LangChain/LangChain-Study-Plan.md
 - 30_研究/SoftwareEngineering/LangChain_Memory/LangChain_Memory.md
 - 30_研究/SoftwareEngineering/LangChain_Memory/examples/README.md
-- 40_知识库/AI_ML/LangChain-Prompts.md
-- 40_知识库/AI_ML/LangChain-Chains.md
-- 40_知识库/AI_ML/LangChain-Agents.md
-- 40_知识库/AI_ML/LangChain-Retrieval.md
-- 40_知识库/AI_ML/LangChain-Middleware.md
+- 40_知识库/AI/AI_ML/LangChain-Prompts.md
+- 40_知识库/AI/AI_ML/LangChain-Chains.md
+- 40_知识库/AI/AI_ML/LangChain-Agents.md
+- 40_知识库/AI/AI_ML/LangChain-Retrieval.md
+- 40_知识库/AI/AI_ML/LangChain-Middleware.md
 
 ## 研究策略
 - [ ] 阅读 LangChain 官方文档（Python 版本）并记录要点
@@ -33,7 +33,7 @@
 
 ## 输出结构
 - 主笔记: 30_研究/SoftwareEngineering/LangChain/LangChain 快速开始.md
-- 原子概念: 40_知识库/软件工程/LangChain/快速开始.md
+- 原子概念: 40_知识库/AI/LangChain_软件工程/快速开始.md
 - 示例/资源: 30_研究/SoftwareEngineering/LangChain/examples/
 
 ## 澄清问题

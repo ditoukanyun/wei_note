@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(ssh -T git@github.com 2>&1 || true)",
+      "Bash(env | grep -i proxy || echo \"无环境代理\")",
+      "Bash(git config:*)",
+      "Bash(GIT_SSH_COMMAND=\"ssh -o ProxyCommand=none\" git push)",
+      "Bash(grep -v \"^$\")",
+      "Bash(networksetup -getsocksfirewallproxy Wi-Fi 2>/dev/null || echo \"无法获取代理设置\")",
+      "Bash(networksetup -setsocksfirewallproxystate Wi-Fi off && git push && networksetup -setsocksfirewallproxystate Wi-Fi on)",
+      "Bash(networksetup -setsocksfirewallproxystate Wi-Fi off && git pull --no-rebase && git push)",
+      "Bash(git pull:*)"
+    ]
+  }
+}
