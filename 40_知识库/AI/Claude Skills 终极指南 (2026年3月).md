@@ -54,9 +54,17 @@ tags:
 
 这是 Anthropic 提供的一个「构建 Skills 的 Skill」。
 
+![启用 Skill-Creator](../../50_资源/images/claude-skills-01-skill-creator.jpg)
+
+*启用 Skill-Creator*
+
 ### 第二步：提示 Claude
 
 启用后，你可以告诉 Claude：「我想为 [工作流] 构建一个 Skill，帮我完成它。」
+
+![提示 Claude](../../50_资源/images/claude-skills-02-prompting.jpg)
+
+*提示 Claude*
 
 **以下是从零构建第一个 Skill 的模板提示词：**
 
@@ -88,6 +96,10 @@ Claude 完成 Skill 构建后，会输出一个 zip 和/或 Markdown 文件。�
 
 我也喜欢把 Skills 下载到笔记本电脑（放在专用文件夹中），但这是可选的。
 
+![保存 Skills](../../50_资源/images/claude-skills-03-saving.jpg)
+
+*保存 Skills*
+
 返回「自定义 → Skills → 我的 Skills」，确保你的新 Skill 已存在并已启用。
 
 ### 第四步：使用你的 Skill
@@ -95,6 +107,10 @@ Claude 完成 Skill 构建后，会输出一个 zip 和/或 Markdown 文件。�
 现在，你只需提示 Claude 使用你的 Skill：「为 [X] 使用我的 [X] Skill。」
 
 示例提示：
+
+![使用 Skills](../../50_资源/images/claude-skills-04-using.jpg)
+
+*使用 Skills*
 
 就这样！
 
@@ -143,6 +159,10 @@ A/B 测试允许你用相同的提示比较同一 Skill 的两个版本。修改
 
 **示例**：「对这个 Skill 运行评估。」「对这两个版本进行 A/B 测试。」「优化我的触发描述。」
 
+![Claude Skills 2.0 总结](../../50_资源/images/claude-skills-05-summary.jpg)
+
+*Claude Skills 2.0 总结*
+
 ---
 
 ## 实际工作流和超级提示词
@@ -153,9 +173,21 @@ A/B 测试允许你用相同的提示比较同一 Skill 的两个版本。修改
 
 ### 1. 品牌调性 —— 用于创建声音/语气/写作风格
 
+![品牌调性 Skill](../../50_资源/images/claude-skills-06-brand-voice.jpg)
+
+*品牌调性 Skill*
+
 ### 2. PDF 生成器 —— 将任何文本转换为格式良好的 PDF
 
+![PDF 生成器](../../50_资源/images/claude-skills-07-pdf-generator.jpg)
+
+*PDF 生成器*
+
 ### 3. 文档总结器 —— 一个简单 Skill，几秒钟内总结任何文本
+
+![文档总结器](../../50_资源/images/claude-skills-08-summarizer.jpg)
+
+*文档总结器*
 
 **其他可构建的工作流：**
 
@@ -217,3 +249,4 @@ Claude Skills 毫无疑问是我最喜欢的 Anthropic 功能。我和我的团�
 ---
 
 description: "AI Edge by @milesdeutscher ⚡ | 让你掌握 AI 先机。突发新闻 • 实用指南 • 智能洞察 • 技巧与更多 | 你的一站式 AI 中心。"
+tup

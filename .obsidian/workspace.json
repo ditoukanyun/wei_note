@@ -10,7 +10,7 @@
           {
             "id": "9f6a735daa6859d7",
             "type": "tabs",
-            "dimension": 62.5531914893617,
+            "dimension": 43.69933677229182,
             "children": [
               {
                 "id": "44a91e9fb7b3e8b4",
@@ -50,12 +50,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "40_知识库/AI/一文搞懂.claude文件夹配置.md",
+                    "file": "40_知识库/AI/Claude Skills 终极指南 (2026年3月).md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "一文搞懂.claude文件夹配置"
+                  "title": "Claude Skills 终极指南 (2026年3月)"
                 }
               },
               {
@@ -74,7 +74,7 @@
           {
             "id": "e97f8d63b0ac736f",
             "type": "tabs",
-            "dimension": 37.4468085106383,
+            "dimension": 56.30066322770818,
             "children": [
               {
                 "id": "eb27220458a9a1c7",
@@ -115,7 +115,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "终端：✳ Claude Code"
+                  "title": "终端：✳ Convert images to local assets"
                 }
               }
             ]
@@ -294,12 +294,21 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "dffc51cac11e412a",
+  "active": "eb27220458a9a1c7",
   "lastOpenFiles": [
+    "50_资源/images/claude-skills-08-summarizer.jpg",
+    "50_资源/images/claude-skills-07-pdf-generator.jpg",
+    "50_资源/images/claude-skills-06-brand-voice.jpg",
+    "50_资源/images/claude-skills-05-summary.jpg",
+    "50_资源/images/claude-skills-04-using.jpg",
+    "50_资源/images/claude-skills-03-saving.jpg",
+    "50_资源/images/claude-skills-02-prompting.jpg",
+    "50_资源/images/claude-skills-01-skill-creator.jpg",
+    "50_资源/images/test.jpg",
     "40_知识库/AI/Claude Skills 终极指南 (2026年3月).md",
+    "40_知识库/AI/一文搞懂.claude文件夹配置.md",
     "Clippings/Claude Skills Ultimate Guide (March 2026).md",
     "40_知识库/AI/Skills.md",
-    "40_知识库/AI/一文搞懂.claude文件夹配置.md",
     "40_知识库/后端开发/Java核心/Java 反射.md",
     "40_知识库/后端开发/Java核心/Java 泛型.md",
     "40_知识库/后端开发/Java核心/Java 集合框架.md",
@@ -323,7 +332,6 @@
     "40_知识库/AI/LangChain_软件工程/Tool.md",
     "40_知识库/AI/LangChain_软件工程/LLM.md",
     "40_知识库/AI/LangChain_软件工程/PromptTemplate.md",
-    "40_知识库/AI/LangChain_软件工程/Agent.md",
     "40_知识库/AI/LangChain_软件工程",
     "40_知识库/AI/AI相关/向量数据库",
     "40_知识库/AI/AI相关/Skill",
@@ -334,14 +342,6 @@
     "40_知识库/AI/AI相关",
     "quartz/static/icon.png",
     "quartz/static/og-image.png",
-    "docs/images/social-image-preview-light.png",
-    "docs/images/social-image-preview-dark.png",
-    "docs/images/quartz-layout-tablet.png",
-    "docs/images/quartz-layout-mobile.png",
-    "docs/images/quartz-layout-desktop.png",
-    "docs/images/quartz transform pipeline.png",
-    "docs/images/github-quick-setup.png",
-    "docs/images/github-init-repo-options.png",
     "未命名 1.canvas",
     "未命名 2.canvas",
     "未命名 3.canvas",
