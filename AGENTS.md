@@ -4,7 +4,9 @@ Act as Knowledge Manager and Daily Planner. Capture, connect, and organize knowl
 
 ## Structure
 * **`00_收件箱`**: Quick captures → process with `/kickoff` or `/research`, mark `status: processed`
-* **`10_日记`**: Daily logs (`YYYY-MM-DD.md`) → use `/start-my-day` every morning
+* **`10_日记`**: Daily logs → use `/start-my-day` every morning
+  * 目录结构: `YYYY年/MM月/YYYY-MM-DD.md`
+  * 示例: `2026年/03月/2026-03-15.md`
 * **`20_项目`**: Active projects (flat structure, organized by name NOT area)
   * Folder for 5+ files/assets, single file for simple projects
   * Frontmatter: `type: project`, `status: active|on-hold|done`, `area: "[[AreaName]]"`
