@@ -7,7 +7,7 @@ publish: true
 
 # 📰 新闻精选 | 2026-04-07
 
-> 生成时间: 2026/04/07 14:01
+> 生成时间: 2026/04/07 18:01
 > 来源: 知乎、微博、Hacker News、GitHub、Product Hunt 等
 
 ## 🇨🇳 国内新闻
@@ -15,34 +15,34 @@ publish: true
 ### 知乎热榜
 
 - [研究称午睡时间超过 1 小时死亡风险增加 30%，这是真的吗？午睡怎么睡、睡多久才是最科学的？](https://www.zhihu.com/question/2022303887835619414)
+- [猪一生都被关在猪圈里，但为什么没有抑郁症的表现行为？](https://www.zhihu.com/question/48551274)
 - [广州明确传统早茶食品必须 24 小时现制，新规 5 月施行，对此你怎么看？现制是早茶的灵魂吗？](https://www.zhihu.com/question/2023420406791422348)
-- [美国「阿耳忒弥斯 2 号」载人绕月任务打破人类与地球最远距离，有何意义？](https://www.zhihu.com/question/2024675619682747882)
-- [兽用麻醉药被未成年人盯上，多家电商平台均有卖，商家的免责声明真能免责吗？药物滥用链条上各方该如何担责？](https://www.zhihu.com/question/2023811326082905221)
-- [卷帘大将为何只是打破了个琉璃盏就被贬下凡？](https://www.zhihu.com/question/22726426)
+- [苏林当选越南国家主席，对越南有何影响？](https://www.zhihu.com/question/2024793993666372137)
+- [如何看待 Citrini 实地调研霍尔木兹海峡，得出「公开数据漏报了 50% 真实通行量」的结论？](https://www.zhihu.com/question/2024797950254085912)
 
 ### 微博热搜
 
-- [5月放假12天](https://s.weibo.com/weibo?q=%235%E6%9C%88%E6%94%BE%E5%81%8712%E5%A4%A9%23&t=31&band_rank=1&Refer=top)
-- [郭艾伦否认被骗](https://s.weibo.com/weibo?q=%23%E9%83%AD%E8%89%BE%E4%BC%A6%E5%90%A6%E8%AE%A4%E8%A2%AB%E9%AA%97%23&t=31&band_rank=2&Refer=top)
-- [非法薅羊毛12万网警出手](https://s.weibo.com/weibo?q=%23%E9%9D%9E%E6%B3%95%E8%96%85%E7%BE%8A%E6%AF%9B12%E4%B8%87%E7%BD%91%E8%AD%A6%E5%87%BA%E6%89%8B%23&t=31&band_rank=3&Refer=top)
+- [十日终焉](https://s.weibo.com/weibo?q=%E5%8D%81%E6%97%A5%E7%BB%88%E7%84%89&t=31&band_rank=1&Refer=top)
+- [国家继续出手调控油价](https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%AE%B6%E7%BB%A7%E7%BB%AD%E5%87%BA%E6%89%8B%E8%B0%83%E6%8E%A7%E6%B2%B9%E4%BB%B7%23&t=31&band_rank=2&Refer=top)
+- [天舟十号飞行任务标识正式发布](https://s.weibo.com/weibo?q=%23%E5%A4%A9%E8%88%9F%E5%8D%81%E5%8F%B7%E9%A3%9E%E8%A1%8C%E4%BB%BB%E5%8A%A1%E6%A0%87%E8%AF%86%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%23&t=31&band_rank=3&Refer=top)
 - [曝某牛奶直播间涉黄涉低俗](https://s.weibo.com/weibo?q=%23%E6%9B%9D%E6%9F%90%E7%89%9B%E5%A5%B6%E7%9B%B4%E6%92%AD%E9%97%B4%E6%B6%89%E9%BB%84%E6%B6%89%E4%BD%8E%E4%BF%97%23&t=31&band_rank=4&Refer=top)
-- [妻子的浪漫旅行嘉宾阵容](https://s.weibo.com/weibo?q=%23%E5%A6%BB%E5%AD%90%E7%9A%84%E6%B5%AA%E6%BC%AB%E6%97%85%E8%A1%8C%E5%98%89%E5%AE%BE%E9%98%B5%E5%AE%B9%23&t=31&band_rank=5&Refer=top)
+- [39岁男子考研落榜举报复试第一考生](https://s.weibo.com/weibo?q=%2339%E5%B2%81%E7%94%B7%E5%AD%90%E8%80%83%E7%A0%94%E8%90%BD%E6%A6%9C%E4%B8%BE%E6%8A%A5%E5%A4%8D%E8%AF%95%E7%AC%AC%E4%B8%80%E8%80%83%E7%94%9F%23&t=31&band_rank=5&Refer=top)
 
 ### 36氪
 
-- [利安隆：目前润滑油添加剂尚未扩产](https://www.36kr.com/newsflashes/3756347346322179)
-- [欣天科技：公司射频产品主要应用于通信基站端，并非手机端](https://www.36kr.com/newsflashes/3756345389482501)
-- [大商所乙二醇期货涨停](https://www.36kr.com/newsflashes/3756336775266825)
-- [震安科技：目前暂未与华为、比亚迪、大疆等企业开展深度合作](https://www.36kr.com/newsflashes/3756333397033729)
-- [“首形科技”获新一轮数亿元A1轮融资](https://www.36kr.com/newsflashes/3756322503394057)
+- [ST中珠：陈旭因工作调整辞任董事长](https://www.36kr.com/newsflashes/3756580383474440)
+- [长源东谷：拟购买襄阳康豪机电工程100%股权，股票复牌](https://www.36kr.com/newsflashes/3756567880925959)
+- [金杯汽车、自变量机器人在沈阳成立合资公司](https://www.36kr.com/newsflashes/3756567061414408)
+- [金龙汽车：3月客车销售量3088辆，同比下降33.45%](https://www.36kr.com/newsflashes/3756554444374533)
+- [宁德时代旗下公司在呼和浩特成立新科技公司](https://www.36kr.com/newsflashes/3756550916621065)
 
 ### IT之家
 
-- [曜越推出 LB360 Ultra ARGB Sync 水冷：3.95" 480p 方屏，单体风扇](https://www.ithome.com/0/936/514.htm)
-- [单发成本约 10 英镑：英国官宣提前 5 年部署 DragonFire 高能激光武器](https://www.ithome.com/0/936/512.htm)
-- [沙特增持日本游戏巨头卡普空股份，持股比例提升至 6.04%](https://www.ithome.com/0/936/509.htm)
-- [一男子在高铁旁“黑飞”无人机吊鱼：操作失误导致鱼筐挂上接触网，最终被行拘 5 日](https://www.ithome.com/0/936/504.htm)
-- [日本团队训练大鼠神经元，可实时执行 AI 计算任务](https://www.ithome.com/0/936/502.htm)
+- [开发者不满微软 MSRC 安全部门响应流程，公开披露 Windows 本地提权零日漏洞](https://www.ithome.com/0/936/682.htm)
+- [HiCar 互联来了：华为畅享 90 Pro Max 手机获鸿蒙 HarmonyOS 6.0.0.138 SP23 升级](https://www.ithome.com/0/936/679.htm)
+- [20 年老牌网站 360doc 个人图书馆宣布 5 月 1 日停止服务](https://www.ithome.com/0/936/677.htm)
+- [Xteink X4 黑白墨水屏阅读器上市：内置磁吸功能可贴在苹果 iPhone 背面，69 美元](https://www.ithome.com/0/936/676.htm)
+- [消息称《艾尔登法环》电影目标 2027 年上映，尼克 · 奥弗曼有望加盟](https://www.ithome.com/0/936/675.htm)
 
 ### 少数派
 
@@ -55,14 +55,14 @@ publish: true
 ### Solidot
 
 - [【重磅推荐】2026 年度 NVIDIA 创业企业展示现已启动招募！](https://www.solidot.org/story?sid=83855)
-- [德国公开俄罗斯勒索软件组织 REvil 头目的身份](https://www.solidot.org/story?sid=83970)
-- [Chrome 148 将延迟加载视频和音频以改进性能](https://www.solidot.org/story?sid=83969)
+- [日本越来越多的家庭没有电视](https://www.solidot.org/story?sid=83975)
+- [调查显示俄罗斯 46% 的用户曾用过 VPN](https://www.solidot.org/story?sid=83974)
 
 ### 澎湃新闻
 
-- [春假联动下“最夯清明假期”收官：北京广州西安酒店入住增长三成，海南淡季翻红](https://www.thepaper.cn/newsDetail_forward_32912902)
 - [富华国际集团荣誉主席陈丽华逝世，享年85岁](https://www.thepaper.cn/newsDetail_forward_32915370)
-- [外媒：美伊停火协议或将于6日生效](https://www.thepaper.cn/newsDetail_forward_32912019)
+- [春假联动下“最夯清明假期”收官：北京广州西安酒店入住增长三成，海南淡季翻红](https://www.thepaper.cn/newsDetail_forward_32912902)
+- [伊朗回应美方提议：拒绝临时停火，强调永久停战](https://www.thepaper.cn/newsDetail_forward_32913714)
 
 ## 🌍 国际新闻
 
@@ -80,4 +80,4 @@ publish: true
 - 国内新闻: 31 条
 - 国际新闻: 5 条
 - 总计: 36 条
-- 生成时间: 2026/04/07 14:01
+- 生成时间: 2026/04/07 18:01
