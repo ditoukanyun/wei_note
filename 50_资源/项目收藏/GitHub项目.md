@@ -313,3 +313,49 @@ harness-engineering/
 ---
 
 *记录时间: 2026-04-07*
+
+## Khazix Skills - Agent Skills 与 Prompt 工具箱
+
+- **链接**: https://github.com/KKKKhazix/khazix-skills
+- **标签**: #AI工具 #AgentSkills #Prompt #研究工作流 #写作工作流
+
+### 简介
+卡兹克开源的个人 AI 方法论仓库，分为两部分：
+- **Prompts**：可直接复制到 AI 对话中使用
+- **Skills**：符合 Agent Skills 标准的结构化技能，可安装到 Claude Code、Codex、OpenClaw 等工具
+
+### 核心内容
+
+| 模块 | 说明 |
+|------|------|
+| **横纵分析法（Prompt）** | 纵向时间线 + 横向竞争格局分析，适合深度研究 |
+| **hv-analysis（Skill）** | 自动联网收集信息并生成结构化研究输出 |
+| **khazix-writer（Skill）** | 面向公众号长文写作，包含风格规则与自检机制 |
+
+### 安装方式
+
+#### Agent 对话安装
+
+```text
+安装这个 skill：https://github.com/KKKKhazix/khazix-skills
+```
+
+#### 手动安装
+
+- 在 Releases 下载 `.skill` 文件
+- 放入对应目录：
+  - Claude Code: `~/.claude/skills/`
+  - OpenClaw: `~/.openclaw/skills/`
+  - Codex: `~/.agents/skills/`
+
+### 个人备注
+
+挺好用，尤其适合把“研究 + 写作”沉淀成可复用流程。
+
+### 相关笔记
+
+- [[Khazix Skills]]
+
+---
+
+*记录时间: 2026-04-15*
