@@ -14,7 +14,12 @@
       "Bash(networksetup -setsocksfirewallproxystate Wi-Fi off && git pull --no-rebase && git push)",
       "Bash(git pull:*)",
       "WebSearch",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(ln -s \"前端开发/browser/Chrome开发调试.md\" \"40_知识库/Chrome开发调试.md\")",
+      "Bash(ln -s \"AI/Claude/Claude Code 配置详解.md\" \"40_知识库/Claude Code 配置详解.md\")",
+      "Bash(ln -s \"AI/Claude/Claude-Platform-Managed-Agents.md\" \"40_知识库/Claude-Platform-Managed-Agents.md\")",
+      "Bash(ln -s \"后端开发/SpringBoot/Lombok_注解详解.md\" \"40_知识库/Lombok_注解详解.md\")",
+      "Bash(ln -s \"通用技能/UI-UX-Pro-Max-Skill.md\" \"40_知识库/UI-UX-Pro-Max-Skill.md\")"
     ]
   }
 }

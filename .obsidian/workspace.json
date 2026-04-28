@@ -10,7 +10,7 @@
           {
             "id": "9f6a735daa6859d7",
             "type": "tabs",
-            "dimension": 52.34042553191489,
+            "dimension": 26.170212765957444,
             "children": [
               {
                 "id": "44a91e9fb7b3e8b4",
@@ -35,7 +35,7 @@
           {
             "id": "e97f8d63b0ac736f",
             "type": "tabs",
-            "dimension": 47.65957446808511,
+            "dimension": 73.82978723404256,
             "children": [
               {
                 "id": "eb27220458a9a1c7",
@@ -76,11 +76,11 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "终端：✳ Claude Code"
+                  "title": "终端：✳ Organize knowledge base documents"
                 }
               },
               {
-                "id": "aefc3442c549eb32",
+                "id": "1939a087db77783e",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -118,7 +118,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "终端：opencode"
+                  "title": "终端：✳ 提取 SpringBoot 知识笔记"
                 }
               }
             ]
@@ -297,44 +297,44 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "eb27220458a9a1c7",
+  "active": "abec079c1e07854b",
   "lastOpenFiles": [
-    "50_资源/实用技巧/90%的人不知道支付宝可以买 Apple 礼品卡订阅 AI  还能免税.md",
-    "40_知识库/AI/AI战略/Why Your “AI-First” Strategy Is Probably Wrong  为什么你的“人工智能优先”策略可能是错误的.md",
-    "40_知识库/AI/AI工程实践/Thin Harness, Fat Skills   单薄的装备，厚重的技能.md",
-    "40_知识库/AI/Claude/搞懂缓存机制，从Gemma4到Claude Code省80%Token.md",
-    "40_知识库/AI/Claude/Claude Skills Ultimate Guide (March 2026).md",
+    "40_知识库/后端开发/BFF.md",
+    "40_知识库/后端开发/CQRS.md",
+    "40_知识库/后端开发/Event Sourcing.md",
+    "40_知识库/后端开发/Nginx 多前端项目部署.md",
+    "40_知识库/后端开发/Feature Flag.md",
+    "40_知识库/DevOps/Docker/Docker_常用命令.md",
+    "40_知识库/通用技能/UI-UX-Pro-Max-Skill.md",
+    "40_知识库/后端开发/SpringBoot/Lombok_注解详解.md",
+    "40_知识库/AI/Claude/Claude-Platform-Managed-Agents.md",
+    "40_知识库/AI/Claude/Claude Code 配置详解.md",
+    "40_知识库/前端开发/browser/Chrome开发调试.md",
+    "docs/retro/2026-04-28-springboot-atomic-concepts.md",
+    "40_知识库/后端开发/熔断器.md",
+    "40_知识库/后端开发/最终一致性.md",
+    "40_知识库/后端开发/稳定哈希.md",
+    "40_知识库/后端开发/灰度发布.md",
+    "40_知识库/后端开发/领域事件.md",
+    "40_知识库/后端开发/Snapshot.md",
+    "40_知识库/后端开发/Transactional Outbox.md",
+    "40_知识库/后端开发/Saga.md",
+    "90_计划/Plan_2026-04-28_整理知识库软链接.md",
+    "docs/retro/2026-04-28-springboot-32-35-knowledge-extraction.md",
+    "40_知识库/后端开发/SpringBoot/35-SpringBoot-FeatureFlag与灰度发布.md",
+    "40_知识库/后端开发/SpringBoot/34-SpringBoot-事件溯源与快照.md",
+    "40_知识库/后端开发/SpringBoot/33-SpringBoot-CQRS读模型.md",
+    "40_知识库/后端开发/SpringBoot/32-SpringBoot-Saga补偿事务.md",
+    "docs/retro",
+    "40_知识库/后端开发/SpringBoot",
     "50_资源/实用技巧",
     "40_知识库/AI/AI战略",
     "40_知识库/AI/AI工程实践",
     "40_知识库/AI/Claude",
-    "35_理财/投资日志/日志模板.md",
-    "35_理财/持仓记录/持仓模板.md",
-    "50_资源/AI工具/Khazix Skills.md",
-    "35_理财/README.md",
-    "35_理财/投资研究/未来5-10年风口行业布局.md",
     "35_理财/收益分析",
     "35_理财/持仓记录",
     "35_理财/投资研究",
     "35_理财/投资日志",
-    "35_理财",
-    "30_研究/投资研究/未来5-10年风口行业布局.md",
-    "30_研究/投资研究",
-    "40_知识库/UI-UX-Pro-Max-Skill.md",
-    "Clippings/Thin Harness, Fat Skills   单薄的装备，厚重的技能.md",
-    "Clippings/Claude Skills Ultimate Guide (March 2026).md",
-    "Clippings/搞懂缓存机制，从Gemma4到Claude Code省80%Token.md",
-    "Clippings/90%的人不知道支付宝可以买 Apple 礼品卡订阅 AI  还能免税.md",
-    "Clippings/Why Your “AI-First” Strategy Is Probably Wrong  为什么你的“人工智能优先”策略可能是错误的.md",
-    "40_知识库/AI/Harness Engineering（驾驭工程）.md",
-    "40_知识库/AI/AI-Coding-50-工作法.md",
-    "50_资源/工具/UI-UX-Pro-Max-Skill.md",
-    "50_资源/Newsletters/2026-04-09-Newsletter.md",
-    "10_日记/2026-04-10.md",
-    "40_知识库/Claude-Platform-Managed-Agents.md",
-    "50_资源/OpenSandbox.md",
-    "README.md",
-    "50_资源/Newsletters/Project Glasswing - AI网络安全倡议.md",
     "50_资源/images/claude-skills-08-summarizer.jpg",
     "50_资源/images/claude-skills-07-pdf-generator.jpg",
     "50_资源/images/claude-skills-06-brand-voice.jpg",

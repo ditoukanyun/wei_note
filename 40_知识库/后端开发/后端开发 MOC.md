@@ -32,7 +32,7 @@
 
 ### 框架
 - [[Spring 框架]]
-- [[Spring Boot]]
+- [[SpringBoot/SpringBoot 学习计划|SpringBoot 学习计划]]
 - [[MyBatis]]
 
 ## 🐍 Python
@@ -80,6 +80,22 @@
 - [[缓存系统]]
 - [[搜索引擎]]
 - [[定时任务]]
+
+### 分布式一致性与事件驱动
+- [[Saga]]
+- [[Transactional Outbox]]
+- [[最终一致性]]
+- [[领域事件]]
+- [[CQRS]]
+- [[Event Sourcing]]
+- [[Snapshot]]
+
+### 流量治理与发布策略
+- [[熔断器]]
+- [[BFF]]
+- [[Feature Flag]]
+- [[灰度发布]]
+- [[稳定哈希]]
 
 ## ☁️ 云服务
 
