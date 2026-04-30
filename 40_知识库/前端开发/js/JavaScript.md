@@ -1,3 +1,10 @@
+---
+area: [[前端开发]]
+tags:
+  - 前端开发
+  - js
+created: 2026-04-30
+---
 # JavaScript基础
 
 ## 一、js 介绍

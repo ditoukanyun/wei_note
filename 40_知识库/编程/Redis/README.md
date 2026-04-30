@@ -1,3 +1,11 @@
+---
+area: [[编程]]
+tags:
+  - 编程
+  - Redis
+  - moc
+created: 2026-04-30
+---
 # Redis 学习资料汇总
 
 > Redis 从入门到实战的完整学习资料

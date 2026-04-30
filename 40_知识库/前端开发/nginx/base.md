@@ -1,3 +1,10 @@
+---
+area: [[前端开发]]
+tags:
+  - 前端开发
+  - nginx
+created: 2026-04-30
+---
 # nginx 基础
 
 ## Docker 启动 Nginx

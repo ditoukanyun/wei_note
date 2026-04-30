@@ -1,3 +1,10 @@
+---
+area: [[前端开发]]
+tags:
+  - 前端开发
+  - algorithm
+created: 2026-04-30
+---
 # 动态规划
 
 - 是求解决策过程(decision process)最优化的数学方法

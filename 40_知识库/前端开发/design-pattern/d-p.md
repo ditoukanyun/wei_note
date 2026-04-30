@@ -1,3 +1,10 @@
+---
+area: [[前端开发]]
+tags:
+  - 前端开发
+  - design-pattern
+created: 2026-04-30
+---
 
 # JS设计模式
 

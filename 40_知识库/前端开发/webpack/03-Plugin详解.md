@@ -1,3 +1,10 @@
+---
+area: [[前端开发]]
+tags:
+  - 前端开发
+  - webpack
+created: 2026-04-30
+---
 # Plugin 详解
 
 ## 1. Plugin 是什么？

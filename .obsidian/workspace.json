@@ -10,7 +10,7 @@
           {
             "id": "9f6a735daa6859d7",
             "type": "tabs",
-            "dimension": 26.170212765957444,
+            "dimension": 19.398642095053344,
             "children": [
               {
                 "id": "44a91e9fb7b3e8b4",
@@ -35,7 +35,7 @@
           {
             "id": "e97f8d63b0ac736f",
             "type": "tabs",
-            "dimension": 73.82978723404256,
+            "dimension": 80.60135790494665,
             "children": [
               {
                 "id": "eb27220458a9a1c7",
@@ -76,18 +76,18 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "终端：✳ Organize knowledge base documents"
+                  "title": "终端：✳ 整理知识库内容"
                 }
               },
               {
-                "id": "1939a087db77783e",
+                "id": "a8e8eaf4a1ed48e6",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
                     "terminal:terminal": {
-                      "cwd": "/Users/chenwei/Documents/wei_note/",
+                      "cwd": "/Users/chenwei/Documents/wei_note/40_知识库/编程",
                       "focus": false,
                       "profile": {
                         "args": [
@@ -118,10 +118,11 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "终端：✳ 提取 SpringBoot 知识笔记"
+                  "title": "终端：✳ 整理后端开发知识点"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal"
@@ -297,8 +298,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "abec079c1e07854b",
+  "active": "a8e8eaf4a1ed48e6",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "AGENTS.md",
+    "docs/retro/2026-04-30-后端知识点整理.md",
+    "docs/retro/2026-04-30-knowledge-base-frontmatter.md",
     "40_知识库/后端开发/BFF.md",
     "40_知识库/后端开发/CQRS.md",
     "40_知识库/后端开发/Event Sourcing.md",
@@ -321,10 +326,6 @@
     "40_知识库/后端开发/Saga.md",
     "90_计划/Plan_2026-04-28_整理知识库软链接.md",
     "docs/retro/2026-04-28-springboot-32-35-knowledge-extraction.md",
-    "40_知识库/后端开发/SpringBoot/35-SpringBoot-FeatureFlag与灰度发布.md",
-    "40_知识库/后端开发/SpringBoot/34-SpringBoot-事件溯源与快照.md",
-    "40_知识库/后端开发/SpringBoot/33-SpringBoot-CQRS读模型.md",
-    "40_知识库/后端开发/SpringBoot/32-SpringBoot-Saga补偿事务.md",
     "docs/retro",
     "40_知识库/后端开发/SpringBoot",
     "50_资源/实用技巧",

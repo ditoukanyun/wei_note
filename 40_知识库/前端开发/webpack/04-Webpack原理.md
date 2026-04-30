@@ -1,3 +1,10 @@
+---
+area: [[前端开发]]
+tags:
+  - 前端开发
+  - webpack
+created: 2026-04-30
+---
 # Webpack 原理详解
 
 ## 1. Webpack 构建流程
