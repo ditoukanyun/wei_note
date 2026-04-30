@@ -67,37 +67,57 @@ created: 2026-04-30
 
 ### 构建工具
 - [[Webpack]]
-- [[Vite]]
+- [[Vite 原理与插件机制总览]]
 - [[Rollup]]
 
-### 代码规范
+### 代码规范与类型系统
 - [[ESLint]]
 - [[Prettier]]
-- [[TypeScript]]
+- [[TypeScript 工程实践总览]]
 
 ### 测试
+- [[前端测试体系总览]]
 - [[Jest]]
 - [[Cypress]]
 - [[React Testing Library]]
 
+## 🚀 现代前端框架
+
+- [[Next.js App Router 总览]]
+- [[React 基础]]
+- [[Hooks]]
+- [[React/状态管理/状态管理 MOC|状态管理]]
+
 ## 🎯 性能优化
 
+- [[Web Vitals 与前端性能监控总览]]
 - [[加载优化]]
 - [[渲染优化]]
 - [[代码分割]]
 - [[缓存策略]]
 
+## 🔐 前端安全
+
+- [[前端安全总览：XSS、CSRF 与 CSP]]
+- [[认证授权总览：Session、JWT、OAuth2 与 OIDC]]
+
 ## 📚 学习路径
 
 1. **初级阶段**：HTML/CSS/JS 基础
-2. **中级阶段**：框架学习 + 项目实战
-3. **高级阶段**：工程化 + 性能优化 + 架构设计
+2. **中级阶段**：框架学习 + TypeScript + 项目实战
+3. **高级阶段**：工程化 + 测试 + 性能优化 + 安全 + 架构设计
+
+## 🔗 与后端开发的连接
+
+- [[认证授权总览：Session、JWT、OAuth2 与 OIDC]]
+- [[云原生部署总览：Docker、Kubernetes 与 CI-CD]]
+- [[可观测性总览：日志、指标与链路追踪]]
 
 ## 🔗 相关资源
 
-- [[02_Resources/技术资源/前端/优质文章收藏|优质文章]]
-- [[02_Resources/技术资源/前端/常用代码片段|代码片段]]
-- [[02_Resources/学习资源/课程/前端课程|学习课程]]
+- [[50_资源/项目收藏/GitHub项目|GitHub 项目]]
+- [[50_资源/工具/UI-UX-Pro-Max-Skill|UI/UX 工具]]
+- [[50_资源/Docker命令集|Docker 命令集]]
 
 ---
 
@@ -105,6 +125,6 @@ created: 2026-04-30
 
 ```dataview
 table file.mtime as "更新时间", status as "状态"
-from "01_Areas/技术学习/前端开发"
+from "40_知识库/前端开发"
 sort file.mtime desc
 ```
