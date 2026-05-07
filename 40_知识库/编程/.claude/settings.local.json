@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(git *)",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "Read(//Users/chenwei/Documents/wei_note/**)",
+      "Read(//Users/chenwei/Documents/wei_note/docs/**)",
+      "Bash(npm --prefix \"/Users/chenwei/Documents/wei_note/.worktrees/learning-overviews\" install)",
+      "Bash(grep -E \"总览.*\\\\.md$\")",
+      "Bash(npm *)"
     ]
   }
 }

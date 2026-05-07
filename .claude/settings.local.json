@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Skill(update-config)"
+      "Skill(update-config)",
+      "Bash(claude plugin *)",
+      "Bash(claude *)",
+      "Read(//Users/chenwei/.claude/plugins/**)",
+      "Read(//Users/chenwei/.claude/plugins/cache/claude-plugins-official/superpowers/**)"
     ]
   }
 }

@@ -2,8 +2,11 @@
   "permissions": {
     "allow": [
       "Read",
+      "Read(/Users/chenwei/Documents/wei_note/**)",
       "Edit",
+      "Edit(/Users/chenwei/Documents/wei_note/**)",
       "Write",
+      "Write(/Users/chenwei/Documents/wei_note/**)",
       "Skill(*)",
       "Bash(ls:*)",
       "Bash(find:*)",
@@ -43,9 +46,10 @@
       "Bash(curl *)",
       "Bash(xargs:*)",
       "Bash(pip *)",
-      "Bash(pip3 *)"
+      "Bash(pip3 *)",
+      "claude *"
     ],
-    "defaultMode": "dontAsk"
+    "defaultMode": "default"
   },
   "language": "zh-CN",
   "respectGitignore": true,

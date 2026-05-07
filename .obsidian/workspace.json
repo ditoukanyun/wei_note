@@ -10,7 +10,7 @@
           {
             "id": "9f6a735daa6859d7",
             "type": "tabs",
-            "dimension": 19.398642095053344,
+            "dimension": 68.97568165070007,
             "children": [
               {
                 "id": "44a91e9fb7b3e8b4",
@@ -35,50 +35,8 @@
           {
             "id": "e97f8d63b0ac736f",
             "type": "tabs",
-            "dimension": 80.60135790494665,
+            "dimension": 31.02431834929993,
             "children": [
-              {
-                "id": "eb27220458a9a1c7",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/Users/chenwei/Documents/wei_note",
-                      "focus": false,
-                      "profile": {
-                        "args": [
-                          "--login"
-                        ],
-                        "executable": "/bin/zsh",
-                        "followTheme": true,
-                        "name": "",
-                        "platforms": {
-                          "darwin": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": null
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "终端：✳ 整理知识库内容"
-                }
-              },
               {
                 "id": "a8e8eaf4a1ed48e6",
                 "type": "leaf",
@@ -118,11 +76,10 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "终端：✳ 整理后端开发知识点"
+                  "title": "终端：✳ 删除 worktree 工作区"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal"
@@ -182,7 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 419.5
   },
   "right": {
     "id": "0f26c52a54286f6f",
@@ -298,54 +255,54 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "a8e8eaf4a1ed48e6",
+  "active": "abec079c1e07854b",
   "lastOpenFiles": [
-    "CLAUDE.md",
-    "AGENTS.md",
-    "docs/retro/2026-04-30-后端知识点整理.md",
-    "docs/retro/2026-04-30-knowledge-base-frontmatter.md",
-    "40_知识库/后端开发/BFF.md",
-    "40_知识库/后端开发/CQRS.md",
-    "40_知识库/后端开发/Event Sourcing.md",
-    "40_知识库/后端开发/Nginx 多前端项目部署.md",
-    "40_知识库/后端开发/Feature Flag.md",
-    "40_知识库/DevOps/Docker/Docker_常用命令.md",
-    "40_知识库/通用技能/UI-UX-Pro-Max-Skill.md",
-    "40_知识库/后端开发/SpringBoot/Lombok_注解详解.md",
-    "40_知识库/AI/Claude/Claude-Platform-Managed-Agents.md",
-    "40_知识库/AI/Claude/Claude Code 配置详解.md",
-    "40_知识库/前端开发/browser/Chrome开发调试.md",
-    "docs/retro/2026-04-28-springboot-atomic-concepts.md",
-    "40_知识库/后端开发/熔断器.md",
-    "40_知识库/后端开发/最终一致性.md",
-    "40_知识库/后端开发/稳定哈希.md",
-    "40_知识库/后端开发/灰度发布.md",
-    "40_知识库/后端开发/领域事件.md",
-    "40_知识库/后端开发/Snapshot.md",
-    "40_知识库/后端开发/Transactional Outbox.md",
-    "40_知识库/后端开发/Saga.md",
-    "90_计划/Plan_2026-04-28_整理知识库软链接.md",
-    "docs/retro/2026-04-28-springboot-32-35-knowledge-extraction.md",
-    "docs/retro",
-    "40_知识库/后端开发/SpringBoot",
-    "50_资源/实用技巧",
-    "40_知识库/AI/AI战略",
-    "40_知识库/AI/AI工程实践",
-    "40_知识库/AI/Claude",
-    "35_理财/收益分析",
-    "35_理财/持仓记录",
-    "35_理财/投资研究",
-    "35_理财/投资日志",
-    "50_资源/images/claude-skills-08-summarizer.jpg",
-    "50_资源/images/claude-skills-07-pdf-generator.jpg",
-    "50_资源/images/claude-skills-06-brand-voice.jpg",
-    "50_资源/images/claude-skills-05-summary.jpg",
-    "50_资源/images/claude-skills-04-using.jpg",
-    "50_资源/images/claude-skills-03-saving.jpg",
-    "50_资源/images/claude-skills-02-prompting.jpg",
-    "50_资源/images/claude-skills-01-skill-creator.jpg",
-    "50_资源/images/test.jpg",
-    "quartz/static/icon.png",
+    "50_资源/Newsletters/2026-05-07-Newsletter.md",
+    "50_资源/Newsletters/2026-05-06-Newsletter.md",
+    "40_知识库/后端开发/Elasticsearch/Elasticsearch 基础概念.md",
+    "40_知识库/后端开发/SpringBoot/17-SpringBoot-WebSocket聊天.md",
+    "40_知识库/后端开发/Elasticsearch/Elasticsearch 搜索体系总览.md",
+    "浏览器.md",
+    "40_知识库/前端开发/前端性能/Web Vitals 与前端性能监控总览.md",
+    "40_知识库/前端开发/前端测试/前端测试体系总览.md",
+    "40_知识库/前端开发/前端安全/前端安全总览：XSS、CSRF 与 CSP.md",
+    "public/40_知识库/前端开发/React/03-资源/images/1.png",
+    "public/40_知识库/前端开发/React/03-资源/images/4.png",
+    "public/40_知识库/前端开发/React/03-资源/images/6.png",
+    "public/40_知识库/前端开发/React/03-资源/images/5.png",
+    "public/40_知识库/前端开发/React/03-资源/images/3.png",
+    "public/40_知识库/前端开发/React/03-资源/images/2.png",
+    "public/40_知识库/前端开发/network/img/9.png",
+    "public/40_知识库/前端开发/network/img/8.png",
+    "public/40_知识库/前端开发/network/img/7.png",
+    "public/40_知识库/前端开发/network/img/6.png",
+    "public/40_知识库/前端开发/vue/02-源码分析/生命周期源码.html",
+    "public/40_知识库/前端开发/vue/02-源码分析/Vue-Router源码.html",
+    "public/40_知识库/前端开发/vue/02-源码分析/index.html",
+    "public/40_知识库/前端开发/vue/02-源码分析/Watch源码.html",
+    "public/40_知识库/前端开发/vue/02-源码分析/Vuex源码.html",
+    "public/40_知识库/前端开发/vue/02-源码分析/Patch源码.html",
+    "public/40_知识库/前端开发/vue/02-源码分析/Computed源码.html",
+    "public/40_知识库/前端开发/vue/03-基础知识点/组件通信.html",
+    "public/40_知识库/前端开发/vue/03-基础知识点/Vue重点知识.html",
+    "public/40_知识库/前端开发/vue/03-基础知识点/index.html",
+    "node_modules/pixi.js/README.md",
+    "node_modules/mathjax-full/README.md",
+    "node_modules/mathjax-full/CONTRIBUTING.md",
+    "node_modules/rxjs/README.md",
+    "node_modules/rxjs/CODE_OF_CONDUCT.md",
+    "node_modules/rxjs/CHANGELOG.md",
+    "node_modules/typescript/SECURITY.md",
+    "node_modules/typescript/README.md",
+    "node_modules/@img/sharp-libvips-darwin-arm64/README.md",
+    "node_modules/speech-rule-engine/README.md",
+    "node_modules/speech-rule-engine/bin/README.md",
+    "node_modules/flexsearch/README.md",
+    "node_modules/flexsearch/CHANGELOG.md",
+    "node_modules/colorjs.io/README.md",
+    "node_modules/@esbuild/darwin-arm64/README.md",
+    "node_modules/rehype-citation/README.md",
+    "node_modules/sass/README.md",
     "未命名 1.canvas",
     "未命名 2.canvas",
     "未命名 3.canvas",
