@@ -5,7 +5,6 @@ tags: [vue, frontend, moc]
 category: MOC
 status: active
 ---
-
 # Vue 知识库索引
 
 > Vue 是一套用于构建用户界面的**渐进式框架**，被设计为可以自底向上逐层应用。核心库只关注视图层，易于上手，便于与第三方库或既有项目整合。
@@ -57,14 +56,14 @@ status: active
 ## 🔧 源码分析
 
 ### 核心模块
-- [[02-源码分析/source-live|生命周期源码分析]] - 从 new Vue() 到 mounted 全过程
-- [[02-源码分析/source-computed|Computed 源码分析]] - 计算属性缓存与惰性求值
-- [[02-源码分析/source-watch|Watch 源码分析]] - 侦听器实现与深度监听
-- [[02-源码分析/source-patch|Patch 源码分析]] - DOM 更新与 Diff 算法
+- [[生命周期源码|生命周期源码分析]] - 从 new Vue() 到 mounted 全过程
+- [[Computed源码|Computed 源码分析]] - 计算属性缓存与惰性求值
+- [[Watch源码|Watch 源码分析]] - 侦听器实现与深度监听
+- [[Patch源码|Patch 源码分析]] - DOM 更新与 Diff 算法
 
 ### 生态工具
-- [[02-源码分析/source-router|Vue Router 源码分析]] - 路由实现与导航守卫
-- [[02-源码分析/source-vuex|Vuex 源码分析]] - 状态管理原理
+- [[Vue-Router源码|Vue Router 源码分析]] - 路由实现与导航守卫
+- [[Vuex源码|Vuex 源码分析]] - 状态管理原理
 
 ---
 
@@ -132,12 +131,12 @@ graph TD
 3. [[Vue面试知识体系|面试知识体系]]
 
 **高级**（深入源码实现）
-1. [[02-源码分析/source-live|生命周期源码]]
-2. [[02-源码分析/source-computed|Computed源码]]
-3. [[02-源码分析/source-watch|Watch源码]]
-4. [[02-源码分析/source-patch|Patch源码]]
-5. [[02-源码分析/source-router|Router源码]]
-6. [[02-源码分析/source-vuex|Vuex源码]]
+1. [[生命周期源码]]
+2. [[Computed源码]]
+3. [[Watch源码]]
+4. [[Patch源码]]
+5. [[Vue-Router源码|Router源码]]
+6. [[Vuex源码]]
 
 ---
 
@@ -151,7 +150,7 @@ graph TD
 
 > [!note] 最近更新
 > - [[Vue面试知识体系|Vue面试知识体系]] - 2025-02-11 整理完成
-> - [[02-源码分析/source-vuex|Vuex源码分析]] - 2025-02-11 整理完成
+> - [[Vuex源码|Vuex源码分析]] - 2025-02-11 整理完成
 
 ---
 

@@ -5,7 +5,6 @@ tags: [前端框架, 状态管理, React, 概念]
 category: 前端开发
 status: active
 ---
-
 # Redux
 
 ## 定义
@@ -23,6 +22,19 @@ Redux 是一个用于 JavaScript 应用的可预测状态容器。它通过**单
 | **Reducer** | 根据 Action 和旧 State 计算新 State 的**纯函数** | 银行柜员 |
 | **Dispatch** | 发送 Action 到 Store 的唯一方法 | 提交单据的窗口 |
 | **Selector** | 从 Store 中提取特定数据的函数 | 余额查询机 |
+
+## 数据流
+
+```mermaid
+flowchart LR
+    A["用户交互/异步结果"] --> B["dispatch action"]
+    B --> C["reducer 计算新 state"]
+    C --> D["store 保存状态"]
+    D --> E["selector 提取数据"]
+    E --> F["React 组件重新渲染"]
+```
+
+Redux 的价值在于让状态变化可追踪：任何变化都应该能回答“发生了什么 action”“旧状态是什么”“新状态是什么”。这适合复杂协作场景，但也意味着团队要接受更明确的结构约束。
 
 ## 现代 Redux (Redux Toolkit)
 
@@ -150,6 +162,34 @@ const usersSlice = createSlice({
 - 项目规模较小，追求开发速度。
 - 厌恶繁琐的配置和样板代码。
 - 需要一个简单的全局状态，不想引入复杂的概念。
+
+## 适合放进 Redux 的状态
+
+- 跨多个页面共享、且更新规则复杂的客户端状态。
+- 需要时间旅行调试、审计或回放的状态变化。
+- 多个模块同时读写、需要统一约束的工作流状态。
+- 权限、布局、草稿、复杂编辑器状态等非服务器缓存数据。
+
+不适合放入 Redux 的状态：
+
+- 从接口读取的列表、详情和分页缓存，优先交给 [[TanStack-Query]]。
+- 只影响单个组件的输入框、展开收起和 hover 状态。
+- 可以从 URL、Props 或现有状态推导出来的数据。
+
+## 实践检查清单
+
+- Slice 是否围绕业务领域或页面流程拆分，而不是按组件拆分。
+- Reducer 是否保持纯函数，不直接发请求、不读时间、不访问浏览器 API。
+- Selector 是否封装派生计算，避免组件到处理解 Store 结构。
+- 异步逻辑是否有清晰的 pending、fulfilled、rejected 状态。
+- 是否用 Redux Toolkit 和 Immer 降低不可变更新样板代码。
+
+## 常见误区
+
+- 把 Redux 当全局变量，任何组件想共享就往里塞。
+- 在 Reducer 里执行副作用，破坏可预测性。
+- Store 结构直接跟接口响应结构绑定，后端变更导致前端全局震荡。
+- 用 Redux 管理服务器状态，却没有缓存失效、重试和重新验证策略。
 
 ## 相关概念
 

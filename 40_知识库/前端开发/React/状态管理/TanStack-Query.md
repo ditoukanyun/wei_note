@@ -5,7 +5,6 @@ tags: [前端框架, 状态管理, React, 服务器状态, 数据获取]
 category: 前端开发
 status: active
 ---
-
 # TanStack Query (React Query)
 
 ## 定义
@@ -37,6 +36,23 @@ status: active
 
 ### 3. Mutation (变更)
 用于创建/更新/删除数据或执行服务器副作用的操作。
+
+## 查询生命周期
+
+```mermaid
+stateDiagram-v2
+    [*] --> pending
+    pending --> success: 请求成功
+    pending --> error: 请求失败
+    success --> stale: 超过 staleTime
+    stale --> fetching: 重新聚焦/重连/重新挂载
+    fetching --> success: 后台刷新成功
+    fetching --> error: 后台刷新失败
+    success --> inactive: 无组件订阅
+    inactive --> [*]: 超过 gcTime
+```
+
+理解这个生命周期后，`staleTime`、`gcTime`、后台刷新、窗口聚焦刷新就不再是零散配置，而是围绕“数据何时陈旧、何时回收、何时重新验证”的策略选择。
 
 ## 核心 Hooks
 
@@ -134,6 +150,37 @@ function TodoList() {
 3.  **用户体验**: 窗口聚焦自动刷新、网络重连刷新、后台更新。
 4.  **DevTools**: 强大的调试工具，可视化查看缓存状态。
 
+## 参数选择
+
+- `queryKey`：必须包含所有影响结果的参数，例如分页、筛选、用户 ID。
+- `staleTime`：数据在多长时间内被认为新鲜。变化慢的数据可以更长，交易、库存等数据应更短。
+- `gcTime`：无订阅后缓存保留多久。列表页来回切换可适当延长。
+- `retry`：只对短暂故障重试，业务错误、权限错误和参数错误不应反复重试。
+- `enabled`：依赖参数未准备好时关闭查询，避免发出无效请求。
+
+## 案例：订单列表
+
+订单列表通常由 URL 查询参数、页面筛选状态和服务器状态共同决定：
+
+```tsx
+const query = useQuery({
+  queryKey: ["orders", { page, status, keyword }],
+  queryFn: () => fetchOrders({ page, status, keyword }),
+  staleTime: 30_000,
+});
+```
+
+当 `page`、`status` 或 `keyword` 变化时，Query Key 变化，TanStack Query 会自动请求新数据。这样前端不需要手动维护“当前列表数据属于哪个筛选条件”。
+
+## 实践检查清单
+
+- Query Key 是否稳定、完整、可序列化。
+- 接口错误是否被分成认证失败、权限不足、参数错误、服务异常等语义。
+- Mutation 成功后是否精确失效相关 Query，而不是全局刷新。
+- 乐观更新是否有回滚快照，失败时能恢复旧缓存。
+- 与 [[前后端接口契约]] 和 [[OpenAPI 与类型生成]] 是否打通，避免手写类型漂移。
+- 是否避免把 Query 数据复制进 [[Zustand]] 或 [[Redux]]。
+
 ## 高级示例：乐观更新 (Optimistic Updates)
 
 在服务器响应之前立即更新 UI，如果失败则回滚。
@@ -169,3 +216,5 @@ const mutation = useMutation({
 ## 相关笔记
 - [[Zustand]]: 推荐配合使用的轻量级客户端状态库
 - [[React-源码-Hooks]]: React Hooks 机制基础
+- [[Stale-While-Revalidate]]
+- [[前后端接口契约]]

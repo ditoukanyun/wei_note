@@ -20,6 +20,7 @@ created: 2026-04-30
 ### 进阶
 - [[Git Flow]]
 - [[Trunk Based]]
+- [[Git Worktree 并行开发]]
 - [[Rebase]]
 - [[Cherry Pick]]
 

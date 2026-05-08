@@ -7,7 +7,6 @@ status: active
 parent: "[[README|Docker MOC]]"
 aliases: [Docker入门, Docker安装指南]
 ---
-
 # Docker 基础
 
 > 本笔记包含 Docker 的安装指南、基础命令和常用操作。更多高级主题请参考 [[docker-网络|网络配置]]、[[docker-compose|Docker Compose]] 和 [[docker-swarm|Swarm 集群]]。
@@ -166,7 +165,7 @@ docker run 镜像id /bin/bash # 使用指定镜像创建容器
 --name='name' # 指定名称
 -d # 后台启动
 -it # 交互式
--p [[ip:]outport:]inport # 端口指定
+-p [ip:]outport:inport # 端口指定
 -P # 随机端口
 ```
 
@@ -300,7 +299,7 @@ docker pull nginx
 ```shell
 docker run -d -it --name="nginx-1" -p 8080:80 nginx # 后台运行nginx，指定外部8080端口映射内部80端口，添加-it不会自动退出
 # 选项
--p [[ip:]外部port:]内部port # 端口指定
+-p [ip:]外部port:内部port # 端口指定
 ```
 
 ### docker 可视化管理后台 portainer

@@ -7,111 +7,73 @@ created: 2026-04-30
 ---
 # 🎨 前端开发 MOC
 
-> 前端开发技术栈的知识地图，包含 HTML/CSS、JavaScript、框架等内容。
+> 前端开发技术栈的知识地图。当前主线是“基础能力 → 框架生态 → 工程化 → 质量与跨端协作”。
 
-## 🌐 HTML & CSS
+## 基础层
 
-### 基础
-- [[HTML 语义化]]
-- [[CSS 布局]]
-- [[Flexbox]]
-- [[Grid]]
+- [[html/00-HTML-MOC|HTML 知识地图]]
+- [[css/MOC|CSS 知识地图]]
+- [[js/JavaScript|JavaScript]]
+- [[Prototype]]
+- [[PromiseState]]
+- [[PromiseResult]]
+- [[browser/Browser|浏览器运行机制]]
+- [[network/net|网络基础]]
+- [[algorithm/README|前端算法]]
 
-### 进阶
-- [[CSS 架构]]
-- [[响应式设计]]
-- [[CSS 动画]]
-- [[CSS 预处理器]]
+## 框架与状态
 
-## 📜 JavaScript
-
-### 基础
-- [[ES6+ 新特性]]
-- [[闭包]]
-- [[原型链]]
-- [[异步编程]]
-
-### 进阶
-- [[设计模式]]
-- [[性能优化]]
-- [[内存管理]]
-- [[模块化]]
-
-## ⚛️ React 生态
-
-### 核心概念
+- [[React/README|React 知识地图]]
 - [[React 基础]]
-- [[Hooks]]
-- [[React/状态管理/状态管理 MOC|状态管理]]
-- [[路由]]
+- [[React Hooks]]
+- [[React/01-核心概念/React 18 新特性|React 18 新特性]]
+- [[React/02-源码解析/React-源码-Hooks|React Hooks 源码]]
+- [[React/状态管理/状态管理 MOC|React 状态管理 MOC]]
+- [[vue/00-MOC/MOC-Vue|Vue 知识地图]]
+- [[vue/01-核心概念/响应式原理|Vue 响应式原理]]
+- [[Next.js/Next.js App Router 总览|Next.js App Router 总览]]
 
-### 工程化
-- [[Next.js]]
-- [[构建工具]]
-- [[测试]]
-- [[部署]]
+## 前端架构
 
-## 🟢 Vue 生态
-
-### 核心概念
-- [[Vue 基础]]
-- [[组合式 API]]
-- [[状态管理]]
-- [[路由]]
-
-### 工程化
-- [[Nuxt.js]]
-- [[Vite]]
-
-## 🛠 工程化工具
-
-### 构建工具
-- [[Webpack]]
-- [[Vite 原理与插件机制总览]]
-- [[Rollup]]
-
-### 代码规范与类型系统
-- [[ESLint]]
-- [[Prettier]]
+- [[组件设计与状态边界]]
+- [[不可变性]]
+- [[设计系统总览]]
+- [[Web 可访问性 A11y]]
 - [[TypeScript 工程实践总览]]
+- [[前后端接口契约]]
+- [[OpenAPI 与类型生成]]
 
-### 测试
+## 工程化
+
+- [[Vite 原理与插件机制总览]]
+- [[webpack/README|Webpack 知识地图]]
+- [[包管理与依赖治理]]
 - [[前端测试体系总览]]
-- [[Jest]]
-- [[Cypress]]
-- [[React Testing Library]]
+- [[docker/docker-基础|前端 Docker 基础]]
+- [[nginx/base|Nginx 基础]]
+- [[CI-CD 流水线]]
 
-## 🚀 现代前端框架
-
-- [[Next.js App Router 总览]]
-- [[React 基础]]
-- [[Hooks]]
-- [[React/状态管理/状态管理 MOC|状态管理]]
-
-## 🎯 性能优化
+## 质量与安全
 
 - [[Web Vitals 与前端性能监控总览]]
-- [[加载优化]]
-- [[渲染优化]]
-- [[代码分割]]
-- [[缓存策略]]
-
-## 🔐 前端安全
-
 - [[前端安全总览：XSS、CSRF 与 CSP]]
 - [[认证授权总览：Session、JWT、OAuth2 与 OIDC]]
-
-## 📚 学习路径
-
-1. **初级阶段**：HTML/CSS/JS 基础
-2. **中级阶段**：框架学习 + TypeScript + 项目实战
-3. **高级阶段**：工程化 + 测试 + 性能优化 + 安全 + 架构设计
-
-## 🔗 与后端开发的连接
-
-- [[认证授权总览：Session、JWT、OAuth2 与 OIDC]]
-- [[云原生部署总览：Docker、Kubernetes 与 CI-CD]]
 - [[可观测性总览：日志、指标与链路追踪]]
+
+## 与后端开发的连接
+
+- [[RESTful API 设计]]
+- [[API 版本管理]]
+- [[BFF]]
+- [[缓存系统总览]]
+- [[云原生部署总览：Docker、Kubernetes 与 CI-CD]]
+
+## 学习路径
+
+1. **基础阶段**：HTML/CSS/JavaScript + 浏览器 + 网络。
+2. **应用阶段**：React/Vue + TypeScript + 状态管理 + 组件设计。
+3. **工程阶段**：构建工具 + 测试 + 包管理 + CI/CD + 部署。
+4. **架构阶段**：性能、安全、可访问性、接口契约和跨团队协作。
 
 ## 🔗 相关资源
 
