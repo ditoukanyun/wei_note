@@ -39,6 +39,18 @@ flowchart TD
 
 前端 `localhost:5173` 调用 `api.example.com` 时，浏览器会检查 API 响应头。即使服务端返回 200，CORS 头不允许该来源，浏览器也不会把响应交给前端代码。
 
+## 排查要点
+
+CORS 是浏览器安全机制，不是服务端接口权限本身。用 Postman 或 curl 能请求成功，并不代表浏览器页面也能读取响应。排查时要看浏览器 Network 面板中的预检请求、正式请求和响应头，而不是只看后端日志里的状态码。
+
+携带 Cookie 时要特别注意：`Access-Control-Allow-Origin` 不能是 `*`，前端请求也要显式设置 credentials，Cookie 本身还要满足 `SameSite` 和 `Secure` 等策略。跨域失败经常是多项配置共同造成的。
+
+## 常见误区
+
+- 把 CORS 当作后端鉴权，误以为配置允许来源就等于安全。
+- 只处理正式请求，忘记放行 `OPTIONS` 预检请求。
+- 看到接口返回 200 就忽略浏览器拦截行为。
+
 ## 相关概念
 - [[前端安全总览：XSS、CSRF 与 CSP]]
 - [[HTTP/HTTPS]]

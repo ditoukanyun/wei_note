@@ -33,6 +33,12 @@ flowchart LR
 
 移动端登录后拿到短期 Access Token 和长期 Refresh Token。接口只接受 Access Token；过期后使用 Refresh Token 换新。账号禁用或登出时，需要让 Refresh Token 失效，否则用户仍可持续换取新凭证。
 
+## 设计边界
+
+JWT 适合无状态校验和跨服务声明传递，但“无状态”会带来吊销困难。Access Token 应短期有效，Refresh Token 应能在服务端失效，并配合密钥轮换、设备管理和异常登录检测。权限频繁变化的系统，不应把长期权限完整塞进 Token。
+
+Token 只应保存必要声明，不要放敏感信息。即使 Payload 经过 Base64 编码，也不是加密，任何拿到 Token 的人都能解码查看内容。
+
 ## 常见误区
 
 - 认为 JWT 无状态就不需要任何服务端失效机制。

@@ -31,17 +31,17 @@
                 }
               },
               {
-                "id": "5ca31c8a23d1e909",
+                "id": "d0381e5d8332d37c",
                 "type": "leaf",
                 "state": {
                   "type": "split-diff-view",
                   "state": {
-                    "aFile": "40_知识库/Python编程/00-导航与规划/00-导航-Python编程导航.md",
-                    "bFile": "40_知识库/Python编程/00-导航与规划/00-导航-Python编程导航.md",
+                    "aFile": "40_知识库/AI/parse-knowledge.md",
+                    "bFile": "40_知识库/AI/parse-knowledge.md",
                     "aRef": ""
                   },
                   "icon": "diff",
-                  "title": "Diff: 00-导航-Python编程导航  (Working Tree)"
+                  "title": "Diff: parse-knowledge  (Working Tree)"
                 }
               }
             ],
@@ -91,7 +91,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "终端：✳ 删除 worktree 工作区"
+                  "title": "终端：chenwei@chenweideMacBook-Pro:~/Documents/wei_note/40_知识库/编程"
                 }
               }
             ]
@@ -203,7 +203,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -239,7 +239,7 @@
             }
           },
           {
-            "id": "abec079c1e07854b",
+            "id": "aba1da60900fb5db",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -270,8 +270,9 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "5ca31c8a23d1e909",
+  "active": "d0381e5d8332d37c",
   "lastOpenFiles": [
+    "50_资源/Newsletters/2026-05-09-Newsletter.md",
     "40_知识库/后端开发/API设计/RESTful API 设计.md",
     "40_知识库/后端开发/API设计/API 版本管理.md",
     "40_知识库/后端开发/云原生与部署/云原生部署总览：Docker、Kubernetes 与 CI-CD.md",
@@ -297,7 +298,6 @@
     "40_知识库/AI/AI工程实践.md",
     "40_知识库/AI/Claude Platform Documentation.md",
     "40_知识库/AI/04-领域.md",
-    "40_知识库/通用技能/TOSE.sh.md",
     "40_知识库/通用技能/网络/SSL",
     "40_知识库/通用技能/网络/TCP",
     "40_知识库/通用技能/网络/HTTP",
