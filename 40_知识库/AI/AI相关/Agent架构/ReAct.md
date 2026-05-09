@@ -3,7 +3,6 @@ created: 2025-03-02
 area: "[[AI相关]]"
 tags: [ai, agent, architecture, llm]
 ---
-
 # ReAct
 
 ## 定义
@@ -103,3 +102,15 @@ Available tools:
 
 - 论文：_ReAct: Synergizing Reasoning and Acting in Language Models_ (Yao et al., 2022)
 - LangChain ReAct Agent文档
+
+## 实践检查清单
+
+- 是否为每个工具写清输入、输出和失败条件。
+- 是否限制最大迭代次数，避免无限循环。
+- 是否记录 Thought、Action、Observation 以便复盘。
+- 是否区分需要搜索、计算、代码执行和用户确认的步骤。
+- 是否在关键行动前做状态检查，而不是盲目继续调用工具。
+
+## 案例
+
+排查线上接口异常时，ReAct Agent 可以先思考可能原因，再查询日志，观察错误码后决定是否继续查数据库、配置或最近发布记录。它的优势是每一步都能根据观察结果调整路径，适合信息不完整的探索任务。

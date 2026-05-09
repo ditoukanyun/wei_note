@@ -7,7 +7,6 @@ tags:
   - NIO
   - 文件操作
 ---
-
 # Java IO 与 NIO
 
 Java IO 分为两大体系：
@@ -309,3 +308,21 @@ new InputStreamReader(new FileInputStream("file.txt"), StandardCharsets.UTF_8)
 > [!info] 相关链接
 > - [[Java 集合框架]]
 > - [[Java 反射]]
+
+## 实践检查清单
+
+- 文本读写是否显式指定字符编码。
+- 文件、流、Channel 是否使用 try-with-resources 关闭。
+- 大文件是否避免一次性读入内存。
+- 阻塞 IO、NIO、异步 IO 的选择是否匹配并发模型。
+- 序列化输入是否来自可信来源，避免反序列化安全风险。
+
+## 案例
+
+导入 2GB 日志文件时，不应使用 `Files.readAllLines` 一次性加载。更稳妥的方式是使用 `BufferedReader` 或 `Files.lines` 流式处理，并在每批处理后记录进度，方便失败恢复。
+
+## 常见误区
+
+- 使用系统默认编码，部署到不同系统后出现乱码。
+- 手动关闭资源遗漏异常分支，导致文件句柄泄漏。
+- 用 Java 原生序列化做跨服务协议，带来兼容性和安全问题。

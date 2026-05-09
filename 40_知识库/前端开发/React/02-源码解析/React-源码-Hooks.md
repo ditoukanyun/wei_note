@@ -6,7 +6,6 @@ category: 源码解析
 status: active
 parent: "[[React-源码-核心]]"
 ---
-
 # React Hooks 源码解析
 
 基于 react 18.2.x 源码进行分析
@@ -1156,3 +1155,26 @@ function basicStateReducer<S>(state: S, action: BasicStateAction<S>): S {
 ```
 
 update阶段用的就是updateReducer与useState的update阶段用的是同一个函数
+
+## Hooks 调用流程
+
+```mermaid
+flowchart TD
+    A["函数组件渲染"] --> B["按顺序调用 Hook"]
+    B --> C["mount/update dispatcher 分发"]
+    C --> D["读写 Fiber 上的 Hook 链表"]
+    D --> E["生成更新队列"]
+    E --> F["调度重新渲染"]
+```
+
+## 实践检查清单
+
+- 是否理解 Hook 必须按相同顺序调用的原因。
+- useState 和 useReducer 是否共享更新队列模型。
+- 是否能区分 mount 阶段和 update 阶段的 dispatcher。
+- effect 的创建、清理和依赖比较是否能串起来。
+- 调试 Hook 问题时是否能回到 Fiber 与 Hook 链表结构。
+
+## 案例
+
+如果组件在条件语句中调用 Hook，下一次渲染时 Hook 链表顺序可能变化，React 就无法把状态和调用位置对应起来。这也是 Hooks 规则要求“只在顶层调用”的源码层原因。

@@ -927,3 +927,28 @@ dispatch(_type, _payload) {
 ## Vuex流程图
 
 ![Vuex流程图](40_知识库/前端开发/vue/img/53.png)
+
+## Vuex 数据流
+
+```mermaid
+flowchart LR
+    A["组件 dispatch"] --> B["Action"]
+    B --> C["commit"]
+    C --> D["Mutation"]
+    D --> E["State 更新"]
+    E --> F["组件重新渲染"]
+```
+
+## 源码阅读检查清单
+
+- 是否区分 `dispatch` 和 `commit` 的职责。
+- Action 是否用于异步流程，Mutation 是否保持同步修改。
+- State 是否是唯一事实来源。
+- 插件和订阅器是否理解为状态变化的旁路观察。
+- 模块化时 namespace 如何影响 action/mutation 查找。
+
+## 常见误区
+
+- 在 Mutation 中执行异步逻辑，导致状态变化不可追踪。
+- 组件直接修改 State，绕过 Mutation。
+- 把服务端缓存和所有 UI 状态都塞进 Vuex，造成 Store 膨胀。

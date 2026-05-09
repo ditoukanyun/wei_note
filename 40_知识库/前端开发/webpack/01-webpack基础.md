@@ -18,7 +18,6 @@ Webpack 是一种用于构建 JavaScript 应用程序的**静态模块打包器(
 - **扩展功能**：通过社区丰富的 `plugin` 可以实现多种强大的功能，例如代码分割、代码混淆、代码压缩、按需加载等
 
 ---
-
 ## 2. 核心概念
 
 ### Entry（入口）
@@ -241,3 +240,31 @@ module.exports = merge(common, {
   }
 }
 ```
+
+## 实践流程
+
+```mermaid
+flowchart LR
+  A[配置入口和输出] --> B[配置 Loader]
+  B --> C[配置 Plugin]
+  C --> D[区分开发和生产]
+  D --> E[分析构建产物]
+```
+
+## 实践检查清单
+
+- 开发配置是否关注 HMR、source map 和启动速度。
+- 生产配置是否关注压缩、代码分割、缓存和 source map 安全。
+- Loader 是否限制 include/exclude，避免处理无关文件。
+- 文件名是否使用 contenthash 支持长期缓存。
+- 是否定期使用 bundle analyzer 检查体积变化。
+
+## 案例
+
+后台项目开发环境可使用 `eval-source-map` 和 dev server；生产环境改用独立 CSS、压缩、contenthash 和 splitChunks，并把 source map 上传到监控平台而不是公开暴露。
+
+## 常见误区
+
+- 开发和生产共用一套配置，导致速度和安全都不理想。
+- 所有资源都打进一个 bundle，首屏加载过慢。
+- 修改缓存策略后没有验证浏览器是否能正确更新版本。

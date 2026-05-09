@@ -209,3 +209,31 @@ public class Application {
 3. **依赖注入**：`@RequiredArgsConstructor` + `final` 字段，优于 `@Autowired`
 4. **@Builder**：多参数对象创建首选，链式调用可读性强
 5. **@Slf4j**：几乎每个类都该加，替代手动声明 Logger
+
+## 实践流程
+
+```mermaid
+flowchart LR
+  A[识别样板代码] --> B[选择注解组合]
+  B --> C[编译查看生成行为]
+  C --> D[运行测试]
+  D --> E[沉淀团队规范]
+```
+
+## 实践检查清单
+
+- DTO、Entity、Service 是否使用不同 Lombok 组合。
+- JPA Entity 是否避免直接使用 `@Data`。
+- 构造器注入是否优先使用 `@RequiredArgsConstructor`。
+- `@Builder` 是否和无参构造、序列化框架兼容。
+- IDE 和 CI 是否都启用注解处理。
+
+## 案例
+
+Service 类使用 `@RequiredArgsConstructor` 加 `final` 依赖，可以避免字段注入，也让测试构造依赖更清晰。
+
+## 常见误区
+
+- 看到样板代码就无脑加 `@Data`。
+- 不了解 equals/hashCode 对实体对象的影响。
+- 本地可运行，CI 因 annotation processing 配置缺失而失败。

@@ -6,7 +6,6 @@ difficulty: 中级
 category: 前端
 status: 学习中
 ---
-
 # React 18 新特性
 
 ## 🎯 学习目标
@@ -810,3 +809,25 @@ root.render(<AppWithCallback />);
 - [[React Hooks]]
 - [[React 性能优化]]
 - [[React 项目实战]]
+
+## 使用流程
+
+```mermaid
+flowchart TD
+    A["升级到 React 18"] --> B["启用 createRoot"]
+    B --> C["验证自动批处理"]
+    C --> D["按场景引入并发能力"]
+    D --> E["用性能工具确认收益"]
+```
+
+## 实践检查清单
+
+- 是否已经从旧 root API 迁移到 createRoot。
+- 自动批处理是否影响了依赖同步更新的旧逻辑。
+- useTransition 是否用于非紧急更新，而不是所有更新。
+- Suspense、SSR 和数据获取库的边界是否清楚。
+- 性能优化是否用 Profiler 或用户体验指标验证。
+
+## 案例
+
+搜索框联想列表可以把输入框更新视为紧急更新，把大列表过滤和渲染放进 transition。这样用户输入保持响应，列表结果可以稍后更新，但仍需要处理 `isPending`，让用户知道后台正在刷新。

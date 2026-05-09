@@ -19,7 +19,6 @@ Loader 是 webpack 的核心概念之一，它负责将**非 JavaScript 文件**
 - **无状态**：不应该在 loader 中保存状态
 
 ---
-
 ## 2. 常见 Loader 及作用
 
 ### 2.1 JavaScript 相关
@@ -351,3 +350,31 @@ module: {
 }
 // 每个文件只会匹配 oneOf 中的一个 loader
 ```
+
+## 实践流程
+
+```mermaid
+flowchart LR
+  A[匹配资源文件] --> B[按 use 从右到左执行 Loader]
+  B --> C[转换为 JS 模块]
+  C --> D[进入依赖图]
+  D --> E[输出构建产物]
+```
+
+## 实践检查清单
+
+- Loader 是否只做文件转换，复杂构建流程交给 Plugin。
+- `test`、`include`、`exclude` 是否限制匹配范围。
+- 多个 Loader 的执行顺序是否正确。
+- 是否开启缓存，并确认缓存失效条件合理。
+- 自定义 Loader 是否处理 source map 和异步回调。
+
+## 案例
+
+处理 Sass 文件时，执行顺序通常是 `sass-loader` 编译 Sass，`css-loader` 解析 CSS 依赖，`style-loader` 注入页面。配置顺序写反会导致构建失败或结果不符合预期。
+
+## 常见误区
+
+- 把 Loader 和 Plugin 职责混用。
+- Loader 处理范围过大，把 `node_modules` 也全部编译。
+- 自定义 Loader 有副作用，导致增量构建不稳定。

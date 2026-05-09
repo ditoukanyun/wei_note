@@ -5,7 +5,6 @@ tags: [React, 源码, JSX, Fiber, 渲染]
 category: 源码解析
 status: active
 ---
-
 # React 核心源码解析
 
 基于 React 18.2.x 源码分析
@@ -1674,3 +1673,31 @@ function onCommitRoot(root, eventPriority) {
   }
 }
 ```
+
+## 实践流程
+
+```mermaid
+flowchart LR
+  A[触发更新] --> B[创建或复用 Fiber]
+  B --> C[Render 阶段计算变更]
+  C --> D[Commit 阶段应用副作用]
+  D --> E[触发布局和被动 Effect]
+```
+
+## 实践检查清单
+
+- 阅读源码时是否区分 render 阶段和 commit 阶段。
+- 是否理解 Fiber 是可中断工作单元，而不是普通组件实例。
+- 性能排查是否结合 Profiler，而不是只看源码推断。
+- Effect 问题是否区分 layout effect 和 passive effect 的时机。
+- 是否避免依赖内部实现细节编写业务代码。
+
+## 案例
+
+组件更新后 DOM 已经提交，`useLayoutEffect` 会在浏览器绘制前同步执行，适合读取布局；`useEffect` 更适合订阅、请求和日志等不阻塞绘制的副作用。
+
+## 常见误区
+
+- 把 Fiber 树等同于真实 DOM 树。
+- 认为 render 阶段一定会提交到页面，忽略并发渲染可能被丢弃。
+- 用源码细节解释所有业务性能问题，忽略状态边界和渲染成本。

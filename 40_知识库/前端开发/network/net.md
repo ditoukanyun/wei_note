@@ -663,4 +663,34 @@ https握手过程
 
 大致过程如上，最终获得的对称密钥是服务器对应每个客户端共有的，对于每个不同的客户端其对称密钥也都不同
 
+## 实践流程：排查前端网络问题
+
+```mermaid
+flowchart LR
+  A[请求失败或变慢] --> B[确认 URL、方法、状态码]
+  B --> C[查看 DNS/TCP/TLS/TTFB/下载耗时]
+  C --> D[检查缓存、重定向、压缩]
+  D --> E[检查 CORS、Cookie、鉴权头]
+  E --> F[对照服务端日志和网关日志]
+```
+
+## 案例：本地正常，线上跨域失败
+
+如果本地代理正常而线上失败，优先看浏览器控制台的 CORS 报错和 Network 面板里的预检请求。常见原因是服务端只允许了业务请求方法，却没有正确响应 `OPTIONS`；或者 `Access-Control-Allow-Origin` 使用了 `*`，同时又需要携带 Cookie，导致浏览器拒绝响应。排查时要同时核对 `Origin`、`Access-Control-Allow-Credentials`、允许的方法和允许的请求头。
+
+## 检查清单
+
+- 先看状态码：网络失败、4xx、5xx、重定向循环是不同问题。
+- 慢请求要拆成 DNS、连接、TLS、TTFB、下载和阻塞时间。
+- 缓存问题同时检查 `Cache-Control`、`ETag`、`Last-Modified` 和强制刷新结果。
+- Cookie 问题要检查 `Domain`、`Path`、`SameSite`、`Secure`、`HttpOnly`。
+- HTTPS 问题要检查证书链、域名匹配、过期时间和 TLS 版本。
+- 与 [[Browser]] 联动复习时，把协议、缓存、安全和渲染阻塞放在同一条链路里看。
+
+## 常见误区
+
+- 误以为服务端返回 200 就代表前端能读到响应；CORS 不通过时浏览器仍会拦截。
+- 误以为 Cookie 没发一定是前端代码问题；浏览器策略和服务端 Set-Cookie 属性也会拦截。
+- 误把 HTTPS 理解成只做非对称加密；握手后主体数据主要依赖协商出的对称密钥。
+
 <Vssue title="网络 issue" />

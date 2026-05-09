@@ -9,7 +9,6 @@ category: 技术学习
 status: active
 parent: "[[MOC]]"
 ---
-
 # CSS基础
 
 ## 书写方式
@@ -471,3 +470,15 @@ parent: "[[MOC]]"
 [推荐文章](https://juejin.im/post/6844904185847087111)
 
 <Vssue title="CSS issue" />
+
+## 实践检查清单
+
+- 是否能解释盒模型、层叠、继承和优先级。
+- 布局是否优先用 Flex/Grid，而不是大量绝对定位。
+- 是否为不同屏幕宽度设计响应式断点。
+- 动画是否避免引发布局抖动，优先使用 transform 和 opacity。
+- 全局样式、组件样式和工具类是否边界清晰。
+
+## 案例
+
+实现一个卡片列表时，可以用 Grid 控制列数和间距，用媒体查询调整移动端单列布局，用 CSS 变量维护主题色，用 hover/focus 状态补充交互反馈。这样比单独堆 margin 和 width 更容易维护。

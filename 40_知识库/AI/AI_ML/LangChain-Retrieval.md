@@ -4,7 +4,6 @@ created: 2026-02-12
 area: "[[AI_ML]]"
 tags: [langchain, retrieval, rag, ai, llm, vector-database]
 ---
-
 # LangChain Retrieval
 
 Retrieval（检索）是 LangChain 中实现 [[RAG-技术概述|RAG]]（Retrieval-Augmented Generation，检索增强生成）的核心组件，让 LLM 能够访问外部数据源。
@@ -406,3 +405,21 @@ LangChain 的 Retrieval 组件实现了 [[RAG-技术概述|RAG 架构]] 中的�
 - [[FAISS]] - Facebook AI Similarity Search
 - [[Pinecone]] - 托管向量数据库
 - [[Chroma]] - 开源向量数据库
+
+## 实践检查清单
+
+- 文档切分策略是否用真实问题集验证，而不是只凭经验设 chunk size。
+- Embedding 模型是否匹配语言、领域和成本约束。
+- 检索是否结合 metadata 过滤，避免召回过期或无权限内容。
+- 是否加入重排序、阈值过滤或多路召回来提升质量。
+- 是否记录 query、召回文档、相似度和最终答案，便于评估。
+
+## 案例
+
+企业制度问答中，检索阶段应按部门、文档版本和生效日期过滤，再把候选结果交给模型生成。否则模型可能引用已废止制度或用户无权查看的文档。
+
+## 常见误区
+
+- 只看向量库能否返回结果，不评估答案是否引用正确证据。
+- chunk 重叠过大，导致上下文重复且成本上升。
+- 检索和生成失败没有日志，无法知道问题出在召回还是模型。

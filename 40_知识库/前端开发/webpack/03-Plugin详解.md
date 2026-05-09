@@ -18,7 +18,6 @@ Plugin 是 webpack 的扩展机制，通过监听 webpack 构建过程中发布�
 - **生命周期干预**：可在构建各阶段介入
 
 ---
-
 ## 2. 常见 Plugin 及作用
 
 ### 2.1 HTML 生成
@@ -439,3 +438,31 @@ class ConsoleClearPlugin {
 
 module.exports = ConsoleClearPlugin;
 ```
+
+## 实践流程
+
+```mermaid
+flowchart LR
+  A[明确扩展目标] --> B[选择 Compiler 或 Compilation 钩子]
+  B --> C[读取或修改构建上下文]
+  C --> D[输出资源或统计信息]
+  D --> E[验证 dev 和 build]
+```
+
+## 实践检查清单
+
+- Plugin 是否只处理构建生命周期任务，而不是文件内容转换。
+- 钩子选择是否尽量靠近真实需求，避免过早或过晚执行。
+- 异步钩子是否正确调用 callback 或返回 Promise。
+- 是否处理错误和 warning，并给出可定位信息。
+- 是否在最小示例项目中验证不同模式下的行为。
+
+## 案例
+
+需要在构建完成后上传 source map，应使用构建后期钩子读取输出资源并上传；如果只是把 Sass 转 CSS，则应使用 Loader，而不是 Plugin。
+
+## 常见误区
+
+- 在 Plugin 中做大量同步 IO，拖慢构建。
+- 异步钩子忘记结束，导致构建卡住。
+- Plugin 修改产物但没有更新 source map 或 hash。

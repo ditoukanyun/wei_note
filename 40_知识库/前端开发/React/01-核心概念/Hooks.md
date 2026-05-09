@@ -18,3 +18,32 @@ Hooks 是 [[React Hooks]] 的简称，指 React 函数组件中用于接入状�
 - [[React Hooks]]
 - [[React 基础]]
 - [[React-源码-Hooks]]
+
+## 使用流程
+
+```mermaid
+flowchart TD
+  A[组件需要能力] --> B{能力类型}
+  B -->|状态| C[useState/useReducer]
+  B -->|副作用| D[useEffect]
+  B -->|引用| E[useRef]
+  B -->|缓存| F[useMemo/useCallback]
+```
+
+## 实践检查清单
+
+- Hook 是否只在组件顶层或自定义 Hook 顶层调用。
+- 依赖数组是否完整，避免闭包过期。
+- 副作用是否有清理逻辑，例如订阅、定时器和请求取消。
+- 自定义 Hook 是否隐藏复用逻辑，而不是隐藏业务副作用。
+- 缓存 Hook 是否有真实性能收益。
+
+## 案例
+
+窗口尺寸监听适合封装成 `useWindowSize`，内部用 `useEffect` 订阅 resize，并在清理函数中移除监听。组件只消费宽高结果，不关心订阅细节。
+
+## 常见误区
+
+- 条件语句中调用 Hook，破坏调用顺序。
+- 依赖数组为了消除警告随意留空。
+- 为所有函数都加 `useCallback`，增加复杂度却没有收益。

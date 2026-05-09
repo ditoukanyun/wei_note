@@ -7,7 +7,6 @@ status: active
 parent: "[[MOC-RAG]]"
 aliases: [RAG检索, 向量搜索, Rerank]
 ---
-
 # RAG实时检索与重排序
 
 > **父级**：[[MOC-RAG]]  

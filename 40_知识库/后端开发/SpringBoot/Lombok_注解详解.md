@@ -3,7 +3,6 @@ type: wiki
 tags: [java, lombok, 工具库]
 created: 2026-03-17
 ---
-
 # Lombok 注解详解
 
 Lombok 是一个 Java 库，通过注解在编译期自动生成样板代码（getter/setter/构造器等），减少代码冗余。
@@ -241,3 +240,59 @@ public class UserService {
 
 - [[Java_开发规范]]
 - [[Spring_Boot_常用配置]]
+
+## 实践流程
+
+```mermaid
+flowchart LR
+  A[识别样板代码] --> B[选择 Lombok 注解]
+  B --> C[检查生成代码语义]
+  C --> D[运行编译和测试]
+  D --> E[在团队规范中固定用法]
+```
+
+## 实践检查清单
+
+- Entity、DTO、Service 是否使用不同注解组合。
+- 是否避免在 JPA Entity 上滥用 `@Data` 导致 equals/toString 问题。
+- 构造器注入是否优先使用 `@RequiredArgsConstructor`。
+- Builder 是否和无参构造、序列化框架兼容。
+- IDE 和 CI 是否都启用 annotation processing。
+
+## 案例
+
+Spring Service 中使用 `@RequiredArgsConstructor` 注入 `final` 依赖，比字段注入更清晰，也方便测试替换依赖。
+
+## 常见误区
+
+- 在所有类上无脑使用 `@Data`。
+- 调试时不知道方法由 Lombok 生成。
+- 本地 IDE 可编译，CI 未启用注解处理导致失败。
+
+## 实践流程
+
+```mermaid
+flowchart LR
+  A[识别样板代码] --> B[选择 Lombok 注解]
+  B --> C[检查生成代码语义]
+  C --> D[运行编译和测试]
+  D --> E[在团队规范中固定用法]
+```
+
+## 实践检查清单
+
+- Entity、DTO、Service 是否使用不同注解组合。
+- 是否避免在 JPA Entity 上滥用 `@Data` 导致 equals/toString 问题。
+- 构造器注入是否优先使用 `@RequiredArgsConstructor`。
+- Builder 是否和无参构造、序列化框架兼容。
+- IDE 和 CI 是否都启用 annotation processing。
+
+## 案例
+
+Spring Service 中使用 `@RequiredArgsConstructor` 注入 `final` 依赖，比字段注入更清晰，也方便测试替换依赖。
+
+## 常见误区
+
+- 在所有类上无脑使用 `@Data`。
+- 调试时不知道方法由 Lombok 生成。
+- 本地 IDE 可编译，CI 未启用注解处理导致失败。

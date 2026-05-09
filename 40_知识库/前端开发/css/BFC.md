@@ -10,7 +10,6 @@ category: 技术学习
 status: active
 parent: "[[MOC]]"
 ---
-
 # BFC、浮动、清除浮动
 
 ## 什么是BFC
@@ -481,3 +480,25 @@ BFC就是页面上的一个隔离的独立容器，容器里面的子元素不�
 缺点：ie6-7不支持伪元素：after，**使用zoom:1触发hasLayout（ie独有）**
 
 <Vssue title="CSS issue" />
+
+## BFC 判断流程
+
+```mermaid
+flowchart TD
+    A["出现布局异常"] --> B{"是否与浮动、外边距、包裹有关？"}
+    B -->|是| C["检查是否需要创建 BFC"]
+    C --> D["选择 overflow / flow-root / flex / grid"]
+    D --> E["验证副作用"]
+```
+
+## 实践检查清单
+
+- 是否清楚 BFC 解决的是布局上下文问题，不是万能布局方案。
+- 创建 BFC 的方式是否带来滚动裁剪等副作用。
+- 清除浮动时是否优先使用更语义化的 clearfix 或 flow-root。
+- margin 折叠问题是否能通过 BFC 或结构调整解决。
+- 是否能在 DevTools 中观察元素尺寸和浮动影响。
+
+## 案例
+
+左侧图片浮动、右侧正文环绕时，如果父容器高度塌陷，可以让父容器创建 BFC 包裹浮动内容。现代项目中可优先考虑 `display: flow-root`，语义比 `overflow: hidden` 更清楚。

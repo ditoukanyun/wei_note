@@ -25,3 +25,34 @@ created: 2026-04-30
 - 理解网络协议可以帮助我们判断网络请求与响应的情况，判断在何种情况下使用什么样的协议，来达到预期效果
 - 对网络传输过程的了解，可以帮助我们更好的理解数据的传送、数据的处理
 - 了解网络还能对网络安全有一定的认识，从而保障用户在网络上传送数据的安全性
+
+## 前端请求链路
+
+```mermaid
+sequenceDiagram
+    participant B as 浏览器
+    participant DNS as DNS
+    participant CDN as CDN/Nginx
+    participant API as 后端 API
+
+    B->>DNS: 解析域名
+    DNS-->>B: 返回 IP
+    B->>CDN: 建立连接并请求资源
+    CDN-->>B: 返回 HTML/JS/CSS
+    B->>API: 发起接口请求
+    API-->>B: 返回 JSON 响应
+```
+
+## 学习重点
+
+- DNS、TCP、TLS、HTTP 的基本流程。
+- 浏览器缓存、CDN 缓存和接口缓存的区别。
+- CORS、Cookie、Token、CSRF 的安全边界。
+- HTTP 状态码、请求头、响应头和调试方法。
+
+## 检查清单
+
+- 遇到接口失败时，是否能区分 DNS、连接、TLS、CORS、HTTP 状态码和业务错误。
+- 是否理解 GET/POST/PUT/DELETE 的语义差异。
+- 是否知道 Cookie 的 SameSite、Secure、HttpOnly 对安全的影响。
+- 是否能用浏览器 Network 面板定位慢请求。

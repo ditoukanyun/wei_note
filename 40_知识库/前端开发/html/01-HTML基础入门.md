@@ -10,7 +10,6 @@ aliases:
   - HTML入门
 parent: "[[00-HTML-MOC|HTML知识地图]]"
 ---
-
 # HTML基础入门
 
 > [!info] 什么是HTML

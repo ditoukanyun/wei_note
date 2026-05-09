@@ -6,7 +6,6 @@ category: 源码解析
 status: active
 parent: "[[React-源码-核心]]"
 ---
-
 # Scheduler 调度器源码解读
 
 对 React Scheduler 异步调度器源码进行解读
@@ -907,3 +906,21 @@ export {
   forceFrameRate as unstable_forceFrameRate,
 };
 ```
+
+## 实践检查清单
+
+- 阅读 Scheduler 时先区分任务优先级、任务队列和时间切片三个概念。
+- 调试渲染卡顿时结合 Profiler，而不是只从源码推断。
+- 关注 `shouldYield`、`MessageChannel` 和任务过期时间如何影响让出主线程。
+- 不要依赖 `unstable_` API 编写业务逻辑，它们可能随版本变化。
+- 对比浏览器宏任务、微任务和渲染时机，理解 Scheduler 为什么使用 MessageChannel。
+
+## 案例
+
+当列表渲染导致输入框卡顿时，Scheduler 的时间切片可以让 React 在适当时机让出主线程。但如果单个组件渲染本身非常重，仍需要拆分组件、虚拟列表或减少同步计算。
+
+## 常见误区
+
+- 认为 Scheduler 能自动解决所有性能问题。
+- 混淆 React 优先级和浏览器事件循环优先级。
+- 只看源码函数名，不结合实际渲染场景理解调度动机。

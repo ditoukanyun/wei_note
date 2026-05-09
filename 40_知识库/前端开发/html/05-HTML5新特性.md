@@ -11,7 +11,6 @@ aliases:
   - 新特性
 parent: "[[00-HTML-MOC|HTML知识地图]]"
 ---
-
 # HTML5新特性
 
 > [!abstract] HTML5概览

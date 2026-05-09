@@ -29,8 +29,23 @@
                   "icon": "file-text",
                   "title": "更新日志"
                 }
+              },
+              {
+                "id": "5ca31c8a23d1e909",
+                "type": "leaf",
+                "state": {
+                  "type": "split-diff-view",
+                  "state": {
+                    "aFile": "40_知识库/Python编程/00-导航与规划/00-导航-Python编程导航.md",
+                    "bFile": "40_知识库/Python编程/00-导航与规划/00-导航-Python编程导航.md",
+                    "aRef": ""
+                  },
+                  "icon": "diff",
+                  "title": "Diff: 00-导航-Python编程导航  (Working Tree)"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "e97f8d63b0ac736f",
@@ -255,8 +270,19 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "dffc51cac11e412a",
+  "active": "5ca31c8a23d1e909",
   "lastOpenFiles": [
+    "40_知识库/后端开发/API设计/RESTful API 设计.md",
+    "40_知识库/后端开发/API设计/API 版本管理.md",
+    "40_知识库/后端开发/云原生与部署/云原生部署总览：Docker、Kubernetes 与 CI-CD.md",
+    "40_知识库/后端开发/云原生与部署/CI-CD 自动化部署流程.md",
+    "40_知识库/后端开发/云原生与部署/Docker.md",
+    "40_知识库/后端开发/云原生与部署/Docker Compose 搭建本地开发环境.md",
+    "40_知识库/后端开发/云原生与部署/Kubernetes 部署 SpringBoot 应用.md",
+    "40_知识库/后端开发/云原生与部署/Nginx 反向代理与 HTTPS 配置.md",
+    "40_知识库/后端开发/SpringBoot/11-SpringBoot-异常处理与日志追踪.md",
+    "40_知识库/后端开发/可观测性/可观测性总览：日志、指标与链路追踪.md",
+    "40_知识库/后端开发/可观测性/告警规则与故障排查流程.md",
     "40_知识库/后端开发/认证授权/JWT 登录认证完整流程.md",
     "40_知识库/后端开发/认证授权/认证授权总览：Session、JWT、OAuth2 与 OIDC.md",
     "40_知识库/后端开发/认证授权/OAuth2 与 OIDC 核心概念.md",
@@ -272,17 +298,6 @@
     "40_知识库/AI/Claude Platform Documentation.md",
     "40_知识库/AI/04-领域.md",
     "40_知识库/通用技能/TOSE.sh.md",
-    "40_知识库/通用技能/GoClaw.sh.md",
-    "40_知识库/通用技能/ClaudeKit.cc.md",
-    "40_知识库/DevOps/Docker/Docker启动PostgreSQL.md",
-    "40_知识库/DevOps/Docker/Docker启动Nginx.md",
-    "40_知识库/DevOps/Docker/Docker启动MySQL.md",
-    "40_知识库/交易/交易心理建设.md",
-    "40_知识库/交易/ETF-T0-交易指南.md",
-    "40_知识库/交易/条件单使用技巧.md",
-    "40_知识库/通用技能/02_Resources/学习资源/视频教程/编程教程.md",
-    "40_知识库/通用技能/02_Resources/学习资源/书籍/技术书籍.md",
-    "40_知识库/通用技能/开发工具/抓包分析.md",
     "40_知识库/通用技能/网络/SSL",
     "40_知识库/通用技能/网络/TCP",
     "40_知识库/通用技能/网络/HTTP",

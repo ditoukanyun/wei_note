@@ -24,6 +24,24 @@ created: 2026-05-08
 
 `Promise.resolve(1).then(x => x + 1)` 中，第一个 Promise 的结果是 `1`，后续 Promise 的结果是 `2`。
 
+## 状态流转
+
+```mermaid
+flowchart LR
+    A["pending"] --> B["fulfilled: value"]
+    A --> C["rejected: reason"]
+    B --> D["then 返回新 Promise"]
+    C --> E["catch 返回新 Promise"]
+```
+
+## 检查清单
+
+- 是否区分 Promise 状态和结果值。
+- then/catch 回调返回普通值、Promise、抛错时，新 PromiseResult 如何变化。
+- async 函数返回值是否会被包装成 Promise。
+- await 捕获的是 fulfilled value 还是 rejected reason。
+- 是否避免直接依赖浏览器 DevTools 中的内部字段名。
+
 ## 相关概念
 
 - [[PromiseState]]

@@ -9,7 +9,6 @@ category: 技术学习
 status: active
 parent: "[[MOC]]"
 ---
-
 # 实现水平&垂直居中
 
 ## 水平居中
@@ -637,3 +636,27 @@ fit-content就是实现元素收缩效果的同时，保持原本的block水平�
 [推荐文章](https://juejin.im/post/6844903491891118087)
 
 <Vssue title="CSS issue" />
+
+## 居中方案选择流程
+
+```mermaid
+flowchart TD
+    A["需要居中"] --> B{"是一维还是二维？"}
+    B -->|一维| C["text-align / margin auto / flex"]
+    B -->|二维| D["flex / grid / absolute + transform"]
+    C --> E["检查是否定宽定高"]
+    D --> E
+    E --> F["验证响应式和内容变化"]
+```
+
+## 实践检查清单
+
+- 文本、行内元素和块级元素是否区分处理。
+- 是否知道元素宽高是否固定。
+- 是否优先使用 Flex/Grid 处理现代布局。
+- 绝对定位方案是否会脱离文档流影响后续元素。
+- 动态内容、多行文本和移动端是否仍然居中。
+
+## 案例
+
+登录页按钮组水平垂直居中时，父容器使用 `display: flex; align-items: center; justify-content: center;` 最直接；若弹窗自身需要相对视口居中，fixed + transform 也可用，但要注意移动端键盘和可滚动内容。

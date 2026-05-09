@@ -20,6 +20,32 @@ SpringBoot Actuator 监控实践是通过 Actuator 端点暴露健康状态、�
 - 生产环境需要保护敏感端点。
 - 自定义业务指标通过 [[Micrometer]] 注册。
 
+## 接入流程
+
+```mermaid
+flowchart TD
+    A["引入 Actuator"] --> B["开启 health/metrics/prometheus"]
+    B --> C["配置安全访问"]
+    C --> D["Prometheus 抓取"]
+    D --> E["Grafana 展示和告警"]
+```
+
+## 实践检查清单
+
+- 生产环境是否只暴露必要端点。
+- health 是否区分存活和就绪。
+- prometheus 端点是否能被 Prometheus 抓取。
+- 是否补充业务指标，而不只看 JVM 指标。
+- 告警是否围绕错误率、延迟和资源饱和度设计。
+
+## 案例
+
+订单服务可以通过 Micrometer 记录下单成功数、失败数和支付回调耗时，再在 Grafana 中按业务维度观察。这样比只看 CPU 和内存更接近真实用户影响。
+
+## 安全边界
+
+Actuator 端点可能暴露环境、配置、线程、健康细节等敏感信息。生产环境应最小化暴露端点，并通过内网、认证或网关策略限制访问。
+
 ## 相关概念
 
 - [[Spring Boot Actuator]]

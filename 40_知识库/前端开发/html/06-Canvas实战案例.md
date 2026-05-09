@@ -11,7 +11,6 @@ aliases:
   - Canvas实战
 parent: "[[00-HTML-MOC|HTML知识地图]]"
 ---
-
 # Canvas实战案例：原生JS画板
 
 > [!abstract] 项目简介

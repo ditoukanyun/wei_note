@@ -11,7 +11,6 @@ aliases:
   - HTML进阶
 parent: "[[00-HTML-MOC|HTML知识地图]]"
 ---
-
 # HTML特殊属性
 
 > [!abstract] 本章重点

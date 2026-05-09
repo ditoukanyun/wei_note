@@ -10,7 +10,6 @@ category: 技术学习
 status: active
 parent: "[[MOC]]"
 ---
-
 # Bootstrap
 
 - 开源框架，web 前端框架
@@ -131,3 +130,25 @@ parent: "[[MOC]]"
 - .disabled 为下拉菜单 li 元素添加此类，则会禁用此项
 
 <Vssue title="CSS issue" />
+
+## 使用流程
+
+```mermaid
+flowchart TD
+    A["确认页面结构"] --> B["选择容器和栅格"]
+    B --> C["组合组件类名"]
+    C --> D["补充响应式断点"]
+    D --> E["按项目主题覆盖变量或样式"]
+```
+
+## 实践检查清单
+
+- 是否理解 container、row、col 的嵌套规则。
+- 栅格列数是否在不同断点下符合设计稿。
+- 表单、按钮、下拉菜单是否保留可访问性语义。
+- 自定义样式是否避免直接污染 Bootstrap 全局类。
+- 是否明确 Bootstrap 适合快速搭建，不等于完整设计系统。
+
+## 案例
+
+后台管理页可以用 container-fluid 承载全宽布局，用 row/col-md-* 划分筛选区和表格区，用 form-horizontal 对齐表单字段。若项目已经有自研组件库，则应谨慎混用 Bootstrap，避免样式优先级冲突。

@@ -6,7 +6,6 @@ category: 知识库/前端开发/docker
 status: active
 aliases: [容器技术, Docker技术]
 ---
-
 # Docker
 
 > Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的 Linux 或 Windows 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。

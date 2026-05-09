@@ -4,7 +4,6 @@ category: 工具配置
 created: 2026-03-23
 source: "[Twitter @PeterJia298766](https://x.com/PeterJia298766/status/2035688806784147542)"
 ---
-
 # Claude Code 配置详解
 
 > 大多数人用 Claude Code，根本没打开过 `.claude/` 文件夹。
@@ -83,6 +82,24 @@ source: "[Twitter @PeterJia298766](https://x.com/PeterJia298766/status/203568880
 > Agent 质量越来越是**环境设计问题**，不是提示词问题。
 >
 > 把 `.claude/` 配好，就是把 Claude 变成真正懂你项目的队友。
+
+## 配置流程
+
+```mermaid
+flowchart TD
+    A["初始化项目上下文"] --> B["精简 CLAUDE.md"]
+    B --> C["配置权限边界"]
+    C --> D["沉淀 rules 和命令"]
+    D --> E["定期清理过期说明"]
+```
+
+## 实践检查清单
+
+- CLAUDE.md 是否写项目特有规则，而不是泛泛而谈。
+- 权限 allow/deny 是否覆盖危险命令和敏感文件。
+- 项目级配置和个人级配置是否边界清楚。
+- 常用工作流是否抽成命令或规则，减少重复提示。
+- 配置变更后是否用真实任务验证 Agent 行为。
 
 ---
 

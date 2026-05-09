@@ -5,7 +5,6 @@ tags: [前端框架, 状态管理, React, 概念, Proxy]
 category: 前端开发
 status: active
 ---
-
 # Valtio
 
 ## 定义
@@ -263,3 +262,25 @@ const expensiveState = derive({
 - [Valtio 官方文档](https://valtio.pmnd.rs/)
 - [GitHub](https://github.com/pmndrs/valtio)
 - [Proxy API MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+
+## 使用流程
+
+```mermaid
+flowchart TD
+    A["定义 proxy 状态"] --> B["组件用 useSnapshot 订阅"]
+    B --> C["直接修改 proxy"]
+    C --> D["Valtio 追踪变更"]
+    D --> E["触发相关组件更新"]
+```
+
+## 实践检查清单
+
+- 是否理解 proxy 是可变写法，snapshot 是只读快照。
+- 是否避免在渲染中直接修改 proxy。
+- 状态对象是否按领域拆分，避免全局大对象。
+- 持久化状态是否有版本和迁移策略。
+- 是否评估团队对可变响应式模型的接受度。
+
+## 案例
+
+画布编辑器可以用 Valtio 保存节点、缩放、选中元素和编辑状态。组件读取 snapshot 渲染，交互事件直接修改 proxy，写法自然，但要保持修改入口可追踪。

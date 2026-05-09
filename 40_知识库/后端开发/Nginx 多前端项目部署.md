@@ -15,7 +15,6 @@ created: 2026-04-30
 - **路径区分**：`moss.cn/blog/`、`moss.cn/admin/`
 
 ---
-
 ## 方案一：子域名区分（推荐）
 
 ### 原理
@@ -330,6 +329,29 @@ sudo apt install certbot python3-certbot-nginx
 # 申请证书
 sudo certbot --nginx -d blog.moss.cn -d admin.moss.cn
 ```
+
+## 部署流程
+
+```mermaid
+flowchart TD
+    A["规划域名或路径"] --> B["构建各前端项目"]
+    B --> C["配置 Nginx root/alias"]
+    C --> D["配置 API 反向代理"]
+    D --> E["启用 HTTPS 和缓存"]
+    E --> F["验证刷新、跳转和回滚"]
+```
+
+## 实践检查清单
+
+- 多项目是使用子域名、子路径还是独立端口。
+- SPA history 路由是否配置 fallback。
+- 静态资源缓存是否使用 hash 文件名配合长缓存。
+- API 代理是否正确传递真实 IP、Host 和协议。
+- 证书续期、访问日志和错误日志是否可观测。
+
+## 案例
+
+同一台服务器部署官网、管理后台和移动 H5 时，可以用不同子域名隔离配置，也可以用路径前缀部署。若使用路径前缀，需要前端构建时配置 base path，避免静态资源路径错误。
 
 ---
 

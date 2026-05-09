@@ -194,3 +194,22 @@ teardown () {
 ### Watch过程示意图
 
 ![Watch过程示意图](40_知识库/前端开发/vue/img/46.png)
+
+## Watch 执行流程
+
+```mermaid
+flowchart TD
+    A["创建 watcher"] --> B["读取表达式并收集依赖"]
+    B --> C["依赖数据变化"]
+    C --> D["调度 watcher 更新"]
+    D --> E["执行回调"]
+    E --> F["必要时 teardown 解绑"]
+```
+
+## 实践检查清单
+
+- 是否区分 computed watcher、render watcher 和 user watcher。
+- immediate、deep、sync 等选项是否理解执行时机。
+- 深度监听是否会带来额外遍历成本。
+- 组件销毁时 watcher 是否正确解绑。
+- 回调中是否避免再次触发同一依赖造成循环更新。

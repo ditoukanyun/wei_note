@@ -4,7 +4,6 @@ created: 2026-02-12
 area: "[[AI_ML]]"
 tags: [langchain, prompts, ai, llm, prompt-engineering]
 ---
-
 # LangChain Prompts
 
 Prompts（提示词）是 LLM 应用的核心，LangChain 提供了强大的工具来管理和优化提示词。
@@ -488,3 +487,31 @@ def test_prompt_variations(variations, test_cases):
 - [[LangChain-Memory]] - 动态提示词中的记忆集成
 - [[Prompt Engineering]] - 提示词工程技巧
 - [[LangSmith]] - 提示词监控和优化
+
+## 实践流程
+
+```mermaid
+flowchart LR
+  A[定义任务和输出格式] --> B[编写 PromptTemplate]
+  B --> C[准备测试样例]
+  C --> D[运行模型和解析输出]
+  D --> E[用评测结果迭代]
+```
+
+## 实践检查清单
+
+- 提示词是否区分系统约束、用户输入和外部上下文。
+- 输出格式是否能被程序稳定解析。
+- 是否用真实样例测试正常、边界和攻击性输入。
+- 是否记录提示词版本、模型版本和评测结果。
+- 是否避免在提示词中暴露密钥、隐私和内部规则。
+
+## 案例
+
+客服工单分类 Prompt 应给出固定类别、JSON 输出格式和少量示例，再用历史工单评测准确率。分类不确定时应输出 `unknown`，而不是强行猜测。
+
+## 常见误区
+
+- 只凭一次交互效果判断提示词好坏。
+- 把所有规则写进一个超长提示词，模型难以遵守。
+- 没有输出解析和兜底，模型格式稍变就导致程序失败。

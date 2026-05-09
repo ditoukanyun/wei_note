@@ -19,7 +19,6 @@ aliases:
 parent: "[[00-导航-Python编程导航]]"
 up: "[[00-MOC-知识地图]]"
 ---
-
 # Python Web开发 (Day 46-60)
 
 > 掌握Django框架，开发完整的Web应用程序
@@ -659,5 +658,36 @@ class Article(models.Model):
 ```
 
 ---
+
+## Django 请求流程图
+
+```mermaid
+sequenceDiagram
+    participant B as 浏览器/客户端
+    participant U as URLConf
+    participant V as View
+    participant M as Model
+    participant DB as Database
+
+    B->>U: HTTP 请求
+    U->>V: 路由匹配
+    V->>M: 查询或写入模型
+    M->>DB: SQL 操作
+    DB-->>M: 返回数据
+    M-->>V: 模型对象
+    V-->>B: HTML 或 JSON 响应
+```
+
+## 实践检查清单
+
+- Model 是否表达清楚领域对象和关系。
+- View 是否只处理请求编排，复杂业务是否下沉到 Service。
+- API 是否有序列化器、权限、分页和错误处理。
+- 查询是否使用 `select_related`、`prefetch_related` 控制 N+1。
+- 部署前是否配置环境变量、静态资源、数据库迁移和日志。
+
+## 案例延伸
+
+博客系统完成 CRUD 后，可以继续补登录、作者权限、评论审核、搜索、缓存和部署。这样能从“能跑 Demo”过渡到“接近真实项目”的完整闭环。
 
 **下一步**: [[03-方向B-网络爬虫|网络爬虫]] → 学习数据采集技术

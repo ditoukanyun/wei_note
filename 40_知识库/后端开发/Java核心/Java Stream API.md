@@ -7,23 +7,31 @@ tags:
   - 函数式编程
   - Lambda
 ---
-
 # Java Stream API
 
 Stream API 是 Java 8 引入的函数式数据处理框架，以声明式方式处理集合数据，代码简洁、可读性强、易于并行化。
 
 ## Stream 处理流程
 
+```mermaid
+flowchart LR
+    A["数据源"] --> B["中间操作 filter/map/sorted"]
+    B --> C["惰性组合 Pipeline"]
+    C --> D["终端操作 collect/reduce/count"]
+    D --> E["产生结果"]
 ```
-数据源 → 中间操作（链式调用）→ 终端操作
 
 例如：
-list.stream()           // 数据源
-    .filter(...)        // 中间操作
-    .map(...)           // 中间操作
-    .sorted(...)        // 中间操作
-    .collect(...);      // 终端操作
+
+```java
+list.stream()
+    .filter(...)
+    .map(...)
+    .sorted(...)
+    .collect(...);
 ```
+
+中间操作是惰性的，只有终端操作触发时才真正遍历数据。
 
 ## Stream 特点
 
@@ -219,6 +227,14 @@ stats.getMax();       // 最大值
 stats.getAverage();   // 平均值
 ```
 
+## 实践检查清单
+
+- Stream 链是否表达清晰的数据转换，而不是为了函数式而函数式。
+- 是否避免在 `map`、`filter` 中修改外部可变状态。
+- 数据量很大时是否评估 Stream 和普通循环的性能差异。
+- `parallelStream` 是否确认任务 CPU 密集、无共享状态、数据可拆分。
+- 收集到 Map 时是否处理 key 冲突。
+
 ## 并行流
 
 ### 何时使用并行流？
@@ -321,7 +337,6 @@ int sum = numbers.stream().mapToInt(Integer::intValue).sum();
 ```
 
 ---
-
 > [!info] 相关链接
 > - [[Java 集合框架]]
 > - [[Java 泛型]]

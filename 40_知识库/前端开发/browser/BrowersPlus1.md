@@ -617,4 +617,33 @@ GPU硬件加速包括：Canvas2D，布局合成, CSS3转换（transitions），C
 
 [深入了解现代Web浏览器](https://developers.google.com/web/updates/2018#inside_look_at_modern_web_browser_part_1)
 
+## 实践流程：减少重排与重绘
+
+```mermaid
+flowchart LR
+  A[发现动画卡顿或滚动掉帧] --> B[Performance 录制]
+  B --> C[识别 Layout/Paint/Composite 开销]
+  C --> D[合并 DOM 读写]
+  D --> E[优先使用 transform/opacity]
+  E --> F[复测帧率与长任务]
+```
+
+## 案例：列表批量更新导致布局抖动
+
+一个常见问题是循环里一边修改元素尺寸，一边读取 `offsetWidth` 或 `getBoundingClientRect()`。浏览器为了返回准确布局，会被迫提前执行样式计算和布局，形成多次强制同步布局。更稳妥的做法是先集中读取布局，再集中写入样式；或者把新节点放入 `DocumentFragment`，批量完成后一次性插入。
+
+## 检查清单
+
+- DOM 读写分离：先读布局，再统一写样式。
+- 批量更新节点时优先使用 `DocumentFragment`、虚拟列表或一次性替换。
+- 动画优先使用 `transform` 和 `opacity`，减少触发布局的属性。
+- 对频繁变化的元素谨慎使用 `will-change`，避免长期占用合成资源。
+- 和 [[Browser]] 一起看时，把“解析、布局、绘制、合成”当成完整链路理解。
+
+## 常见误区
+
+- 误以为隐藏元素都不会触发布局；`visibility: hidden` 仍然占据布局空间。
+- 误以为 GPU 加速一定更快；合成层过多会增加内存和管理成本。
+- 误以为只要减少 DOM 数量就能解决性能问题；读写顺序和样式复杂度同样关键。
+
 <Vssue title="浏览器 issue" />

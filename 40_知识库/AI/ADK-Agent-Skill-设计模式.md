@@ -12,7 +12,6 @@ authors:
   - Shubham Saboo
   - Lavin IGam
 ---
-
 # 5种 ADK Agent Skill 设计模式
 
 > 本文整理自 Google Cloud Tech 发布的技术文章，介绍了每个 ADK 开发者都应该了解的 5 种 Agent Skill 设计模式。

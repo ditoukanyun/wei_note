@@ -4,7 +4,6 @@ created: 2026-02-12
 area: "[[AI_ML]]"
 tags: [langchain, agents, ai, llm]
 ---
-
 # LangChain Agents
 
 Agents（代理）是 LangChain 的核心组件，它让 LLM 能够**自主决定采取什么行动**，而不是按照预定义的流程执行。
@@ -124,6 +123,33 @@ result = agent_executor.invoke({"input": "复杂问题"})
 - **Structured Chat**：支持多输入工具的对话代理
 - **OpenAI Functions**：利用 OpenAI 的函数调用能力
 - **Plan-and-Execute**：先制定计划再执行
+
+## Agent 执行流程
+
+```mermaid
+flowchart TD
+    A["用户目标"] --> B["LLM 理解任务"]
+    B --> C["选择工具"]
+    C --> D["调用工具"]
+    D --> E["观察结果"]
+    E --> F{"是否完成？"}
+    F -->|否| C
+    F -->|是| G["生成最终回答"]
+```
+
+## 实践检查清单
+
+- 工具名称和 docstring 是否清楚表达用途和参数。
+- Agent 是否有最大迭代次数和停止条件。
+- 工具异常是否被捕获并返回可理解信息。
+- 是否记录工具调用轨迹，方便调试和审计。
+- 高风险工具是否需要人工确认或权限限制。
+
+## 常见误区
+
+- 给 Agent 太多相似工具，导致选择不稳定。
+- 工具返回信息过长，挤占上下文窗口。
+- 只看最终回答，不检查工具调用是否正确。
 
 ## 相关概念
 

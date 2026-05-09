@@ -4,7 +4,6 @@ created: 2026-03-16
 tags: [docker, devops, 容器化]
 area: "[[DevOps]]"
 ---
-
 # Docker 常用命令
 
 ## 镜像管理
@@ -132,3 +131,21 @@ docker-compose up -d --build
 - [[Docker启动Nginx]]
 - [[Docker启动MySQL]]
 - [[Docker启动PostgreSQL]]
+
+## 实践检查清单
+
+- 操作容器前先确认当前环境、容器名和镜像版本，避免误删生产资源。
+- 删除容器和数据卷前确认数据是否已经备份。
+- 排查问题时优先看 `docker ps`、`docker logs`、`docker inspect` 和 `docker stats`。
+- 多容器项目优先使用 Compose 固化命令，减少手工步骤漂移。
+- 常用命令可以沉淀到项目 README 或脚本中，但不要把危险清理命令设为默认动作。
+
+## 案例
+
+本地调试后端服务连接 Redis 时，先用 `docker ps` 确认 Redis 容器运行，再用 `docker logs redis` 查看启动错误，最后用 `docker inspect` 检查端口映射和网络。这样比反复重启应用更快定位问题。
+
+## 常见误区
+
+- 把容器当虚拟机长期手工修改，导致镜像和运行态不一致。
+- 不理解数据卷，删除容器后误以为数据一定还在。
+- 使用 `latest` 镜像标签，重建环境时得到不可预期版本。

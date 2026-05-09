@@ -5,7 +5,6 @@ tags: [前端框架, 状态管理, React, 概念, 原子化]
 category: 前端开发
 status: active
 ---
-
 # Recoil
 
 ## 定义
@@ -215,3 +214,25 @@ const countAtom = atom(0)
 - [Recoil 官方文档](https://recoiljs.org/)
 - [GitHub](https://github.com/facebookexperimental/Recoil)
 - [Why I Switched from Recoil to Jotai](https://blog.bitsrc.io/why-i-switched-from-recoil-to-jotai-8a1e66c4b4da)
+
+## 使用流程
+
+```mermaid
+flowchart TD
+    A["定义 atom key"] --> B["组件订阅 atom"]
+    B --> C["用 selector 派生数据"]
+    C --> D["按页面或领域组织状态"]
+    D --> E["评估实验性风险"]
+```
+
+## 实践检查清单
+
+- atom key 是否全局唯一且便于定位。
+- selector 是否只做派生计算，避免隐藏副作用。
+- 是否明确 Recoil 的维护状态和生产风险。
+- 是否有迁移到 Jotai/Zustand 的备选路径。
+- 状态拆分是否真的减少重渲染，而不是增加心智负担。
+
+## 案例
+
+图编辑器可以用 Recoil atom 管理节点、边和选中状态，再用 selector 派生当前选区统计信息。若团队更重视长期稳定性，同样的模型也可以迁移到 Jotai。

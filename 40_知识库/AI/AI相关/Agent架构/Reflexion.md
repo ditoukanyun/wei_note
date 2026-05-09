@@ -3,7 +3,6 @@ created: 2025-03-02
 area: "[[AI相关]]"
 tags: [ai, agent, reflection, learning]
 ---
-
 # Reflexion
 
 ## 定义
@@ -186,3 +185,26 @@ def generate_reflection(history, error):
 ## 参考资料
 
 - 论文：_Reflexion: Language Agents with Verbal Reinforcement Learning_ (Shinn et al., 2023)
+
+## 反思流程
+
+```mermaid
+flowchart TD
+    A["执行任务"] --> B{"是否失败或低质量？"}
+    B -->|否| C["记录成功模式"]
+    B -->|是| D["生成反思"]
+    D --> E["写入记忆"]
+    E --> F["下次任务检索应用"]
+```
+
+## 实践检查清单
+
+- 反思是否具体到错误行动，而不是泛泛说“下次更仔细”。
+- 是否记录任务背景、失败原因和替代策略。
+- 反思是否能在后续类似任务中被检索到。
+- 是否定期清理过时或错误经验。
+- 是否区分模型推测和可验证事实。
+
+## 案例
+
+代码 Agent 修复测试失败后，如果发现原因是没有先运行最小复现，应记录“遇到失败测试先复现，再改实现，再跑相关测试”的经验。后续类似任务检索到这条反思，就能减少盲改。

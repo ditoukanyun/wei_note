@@ -9,7 +9,6 @@ source: https://mp.weixin.qq.com/s/TxQZca1mY46usqK08t7hNQ
 aliases: [Claude Code 入门, Skills 教程]
 priority: high
 ---
-
 # Claude Code + Skills 保姆级入门教程
 
 > [!info] 文章信息
@@ -511,3 +510,30 @@ AI 会一步步指导下载安装，过程中可能会问 yes or no，按 yes �
 - [Claude 中文社区](https://claudecn.com/)
 - [Skills Marketplace](https://skillsmp.com/)
 
+## 实践流程
+
+```mermaid
+flowchart LR
+  A[安装 Claude Code] --> B[配置模型和 API]
+  B --> C[安装或创建 Skill]
+  C --> D[在真实任务中调用]
+  D --> E[复盘并迭代 Skill]
+```
+
+## 实践检查清单
+
+- 安装后是否能在终端和编辑器中稳定启动。
+- API Key 是否安全存储，不写入仓库。
+- Skill 是否有明确触发场景和输出格式。
+- 第一次使用是否从低风险任务开始。
+- 是否把常用流程沉淀成项目命令或 Skill。
+
+## 案例
+
+新手可以先创建“项目代码阅读” Skill，让 Claude 按固定步骤输出目录结构、入口文件、运行命令和风险点；确认效果稳定后再扩展到修改代码。
+
+## 常见误区
+
+- 一开始就让 Claude 修改大量文件，没有建立上下文。
+- Skill 没有范例，输出每次都不稳定。
+- 把 API Key 写进教程笔记或配置仓库。

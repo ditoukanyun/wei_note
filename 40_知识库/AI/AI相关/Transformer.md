@@ -3,7 +3,6 @@ created: 2025-03-02
 area: "[[AI相关]]"
 tags: [ai, llm, deep-learning, transformer]
 ---
-
 # Transformer
 
 ## 定义
@@ -295,3 +294,15 @@ h1   h2   h3   h4
 2. **动手实现**：用PyTorch从零实现一个简化版Transformer
 3. **可视化理解**：看注意力权重的可视化，理解模型在看什么
 4. **对比学习**：对比RNN/LSTM和Transformer的差异
+
+## 实践检查清单
+
+- 是否能解释 self-attention、multi-head attention 和 feed-forward 的职责。
+- 是否理解位置编码解决的是什么问题。
+- 是否能区分 Encoder-only、Decoder-only 和 Encoder-Decoder 架构。
+- 是否知道训练和推理时 attention mask 的作用。
+- 是否能说明长上下文下 O(n²) 复杂度带来的成本。
+
+## 案例
+
+GPT 属于 Decoder-only Transformer，适合按 token 自回归生成；BERT 属于 Encoder-only Transformer，适合理解和分类；T5 使用 Encoder-Decoder，更接近文本到文本转换框架。

@@ -74,7 +74,6 @@ webpack 构建过程可以划分为三个阶段：
 ```
 
 ---
-
 ## 2. HMR（热模块替换）原理
 
 ### 2.1 什么是 HMR
@@ -415,3 +414,31 @@ module.exports = {
 | 预加载 | `webpackPrefetch` | 提前加载资源 |
 | HTTP 缓存 | `contenthash` | 利用浏览器缓存 |
 | Gzip 压缩 | `compression-webpack-plugin` | 减少传输体积 |
+
+## 实践流程
+
+```mermaid
+flowchart LR
+  A[读取配置] --> B[创建 Compiler]
+  B --> C[构建模块依赖图]
+  C --> D[生成 Chunk]
+  D --> E[优化并输出资源]
+```
+
+## 实践检查清单
+
+- 是否理解 Loader 负责转换文件，Plugin 负责扩展生命周期。
+- 是否通过 stats 或 analyzer 查看模块、chunk 和体积。
+- 缓存、代码分割和 Tree Shaking 是否用真实构建结果验证。
+- 动态导入是否形成合理 chunk，而不是碎片过多。
+- 构建慢时是否先定位瓶颈，再使用缓存或多线程。
+
+## 案例
+
+首屏包过大时，先用 analyzer 找出大依赖，再通过动态导入拆分路由级 chunk；如果公共依赖重复进入多个 chunk，再调整 splitChunks。
+
+## 常见误区
+
+- 只改配置不看构建产物，优化效果不可验证。
+- 为小项目引入复杂多线程和 DLL，反而增加维护成本。
+- 认为 Tree Shaking 能删除所有无用代码，忽略副作用标记。

@@ -7,7 +7,6 @@ status: active
 parent: "[[MOC-RAG]]"
 aliases: [RAG代码, RAG实现, RAG实战]
 ---
-
 # RAG代码示例合集
 
 > **父级**：[[MOC-RAG]]  
@@ -627,3 +626,30 @@ def build_langchain_rag(documents_path, embedding_model='all-MiniLM-L6-v2'):
 - [FAISS GitHub](https://github.com/facebookresearch/faiss)
 - [LangChain文档](https://python.langchain.com/)
 - [原文：RAG技术深度解析](https://juejin.cn/post/7501543492502683700)
+
+## 代码落地流程
+
+```mermaid
+flowchart LR
+    A["准备文档"] --> B["切分 Chunk"]
+    B --> C["生成 Embedding"]
+    C --> D["写入向量库"]
+    D --> E["检索 TopK"]
+    E --> F["拼接上下文"]
+    F --> G["LLM 生成答案"]
+    G --> H["返回来源"]
+```
+
+## 工程检查清单
+
+- 示例代码是否处理空文档、编码错误和加载失败。
+- Chunk 大小、重叠和 TopK 是否可配置。
+- 是否返回来源文档，方便核查答案。
+- 是否区分离线索引构建和在线查询链路。
+- 是否记录检索结果、生成答案、延迟和错误。
+
+## 常见误区
+
+- 示例能跑就认为 RAG 可用，没有评估召回率和答案忠实度。
+- 把所有文档一次性塞进 Prompt，而不是先检索。
+- 没有持久化向量库，服务重启后需要重新构建。

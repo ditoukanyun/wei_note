@@ -1215,3 +1215,21 @@ beforeCreate () {
 ## VueRouter流程图
 
 ![VueRouter流程图](40_知识库/前端开发/vue/img/54.png)
+
+## 路由执行流程
+
+```mermaid
+flowchart TD
+    A["URL 变化或 push"] --> B["匹配路由记录"]
+    B --> C["执行导航守卫"]
+    C --> D["更新 current route"]
+    D --> E["RouterView 渲染组件"]
+```
+
+## 实践检查清单
+
+- 是否理解 hash 和 history 模式的差异。
+- 是否知道 RouterView 如何根据 matched 渲染嵌套路由。
+- 导航守卫是否处理鉴权、重定向和取消。
+- 动态路由参数变化时组件是否正确响应。
+- 部署 history 模式时服务端是否配置 fallback。

@@ -124,3 +124,21 @@ git worktree prune
 ## 参考资料
 
 - Git 官方文档：`git help worktree`
+
+## 实践检查清单
+
+- 创建 worktree 前是否确认基线分支最新。
+- 每个 worktree 是否使用独立分支和清晰目录名。
+- 是否避免在不同 worktree 中修改同一大文件，减少冲突。
+- 删除 worktree 前是否确认改动已提交、推送或明确放弃。
+- 是否定期 `git worktree list` 和 `git worktree prune` 清理废弃目录。
+
+## 案例
+
+当前功能分支正在重构，线上突然需要修登录问题。可以保留当前 worktree 不动，另开 `../repo-hotfix-login`，从主分支拉出 hotfix 分支修复并发布，避免在半成品目录里来回 stash。
+
+## 常见误区
+
+- 把 worktree 建在仓库内部，造成嵌套和工具扫描混乱。
+- 同一个任务开太多 worktree，最后忘记哪个目录有未提交改动。
+- 删除目录而不使用 `git worktree remove`，留下损坏记录。

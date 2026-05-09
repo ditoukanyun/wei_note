@@ -5,7 +5,6 @@ tags: [前端框架, 状态管理, React, 概念, 原子化]
 category: 前端开发
 status: active
 ---
-
 # Jotai
 
 ## 定义
@@ -288,3 +287,25 @@ const userAtom = atomWithQuery(get => ({
 - [Jotai 官方文档](https://jotai.org/)
 - [GitHub](https://github.com/pmndrs/jotai)
 - [Jotai 生态系统](https://jotai.org/docs/extensions)
+
+## 使用流程
+
+```mermaid
+flowchart TD
+    A["定义基础 atom"] --> B["定义派生 atom"]
+    B --> C["组件按需订阅"]
+    C --> D["用 utils 扩展持久化或异步"]
+    D --> E["按领域拆分文件"]
+```
+
+## 实践检查清单
+
+- atom 是否保持小而清晰。
+- 派生 atom 是否替代了重复同步状态。
+- localStorage 持久化是否考虑版本和默认值。
+- 与 React Query 结合时是否区分服务器状态和 UI 状态。
+- atom 文件是否按业务领域组织，避免散落。
+
+## 案例
+
+主题色、侧栏展开、当前编辑对象和临时筛选条件适合用 Jotai 管理；远程用户列表更适合交给 TanStack Query，再把当前选中 ID 放在 atom 中。

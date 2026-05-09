@@ -60,3 +60,30 @@ created: 2026-04-30
 3. String.fromCodePoint()
 
 <Vssue title="JavaScript issue" />
+
+## 实践流程
+
+```mermaid
+flowchart LR
+  A[明确查找、截取或转换] --> B[选择 String API]
+  B --> C[处理 Unicode 和大小写]
+  C --> D[验证边界索引]
+```
+
+## 实践检查清单
+
+- 是否区分 `slice`、`substring` 和 `substr` 的行为差异。
+- 正则匹配是否需要全局匹配、捕获组或迭代器。
+- 用户输入处理是否先 trim 和 normalize。
+- 多语言文本是否考虑 Unicode code point，而不是只看长度。
+- 替换逻辑是否只替换首个还是全部匹配。
+
+## 案例
+
+处理搜索关键词时，通常先 `trim` 去除空白，再统一大小写或 normalize，最后再做包含匹配或正则匹配。
+
+## 常见误区
+
+- 用 `length` 判断用户可见字符数，忽略 emoji 和组合字符。
+- 以为字符串 `replace` 默认替换全部。
+- 直接拼接用户输入到正则，造成转义问题。

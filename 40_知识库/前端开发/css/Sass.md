@@ -10,7 +10,6 @@ category: 技术学习
 status: active
 parent: "[[MOC]]"
 ---
-
 # Sass
 
 - sass是css的预处理器，通过sass语法编写scss，再处理成css代码，其中sass加入了多种css不具备的语法，使得在开发中更加便利、高效
@@ -1089,3 +1088,25 @@ css
 - 安装ruby之后，安装sass`gem install sass`，安装compass`gem install compass`
 
 <Vssue title="CSS issue" />
+
+## 使用流程
+
+```mermaid
+flowchart TD
+    A["定义变量和混入"] --> B["按组件拆分 SCSS"]
+    B --> C["编译为 CSS"]
+    C --> D["接入构建工具"]
+    D --> E["检查产物体积和覆盖关系"]
+```
+
+## 实践检查清单
+
+- 变量是否用于主题、间距、颜色等稳定设计 token。
+- mixin 是否解决重复模式，而不是隐藏复杂样式。
+- 嵌套层级是否控制在合理深度。
+- partial 文件和入口文件是否组织清楚。
+- 是否理解 Sass 预处理能力与运行时 CSS 变量的区别。
+
+## 案例
+
+组件库可以用 Sass 变量管理主题色和尺寸，用 mixin 生成按钮尺寸变体，用 partial 拆分表单、弹窗和布局样式。运行时需要动态换肤时，则应结合 CSS 变量，而不是只依赖 Sass 编译期变量。

@@ -19,7 +19,6 @@ aliases:
 parent: "[[00-导航-Python编程导航]]"
 up: "[[00-MOC-知识地图]]"
 ---
-
 # Python数据库与SQL (Day 36-45)
 
 > 掌握关系型数据库MySQL和SQL语言，学会用Python操作数据库

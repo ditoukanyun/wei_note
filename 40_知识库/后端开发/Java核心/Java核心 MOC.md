@@ -5,7 +5,6 @@ tags:
   - Java
   - MOC
 ---
-
 # Java 核心 MOC
 
 Java 核心知识体系索引。

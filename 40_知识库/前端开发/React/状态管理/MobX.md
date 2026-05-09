@@ -5,7 +5,6 @@ tags: [前端框架, 状态管理, React, 概念, 响应式编程]
 category: 前端开发
 status: active
 ---
-
 # MobX
 
 ## 定义
@@ -243,3 +242,25 @@ const MyComponent = observer(() => {
 
 - 官方文档：https://mobx.js.org/
 - GitHub：https://github.com/mobxjs/mobx
+
+## 状态更新流程
+
+```mermaid
+flowchart TD
+    A["observable 状态"] --> B["组件或 computed 读取"]
+    B --> C["建立依赖关系"]
+    C --> D["action 修改状态"]
+    D --> E["自动通知观察者更新"]
+```
+
+## 实践检查清单
+
+- 是否用 action 包裹业务状态修改。
+- observable 对象边界是否清楚，避免到处可变。
+- computed 是否只表达派生数据。
+- observer 组件是否只订阅必要状态。
+- 是否能通过日志或 devtools 追踪状态变化来源。
+
+## 案例
+
+复杂表单编辑器可以用 MobX store 保存字段、校验状态和保存进度，组件通过 observer 自动响应变化。优势是写法接近可变对象，代价是需要严格约束修改入口。

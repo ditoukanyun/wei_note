@@ -286,3 +286,21 @@ function createGetterInvoker(fn) {
 ### Computed过程示意图
 
 ![Computed过程示意图](40_知识库/前端开发/vue/img/45.png)
+
+## Computed 执行流程
+
+```mermaid
+flowchart TD
+    A["创建 computed watcher"] --> B["首次读取触发求值"]
+    B --> C["收集依赖并缓存结果"]
+    C --> D["依赖变化标记 dirty"]
+    D --> E["下次读取重新计算"]
+```
+
+## 实践检查清单
+
+- computed 是否只表达派生数据，而不是执行副作用。
+- 是否理解 lazy watcher 和 dirty 标记的关系。
+- getter 内部依赖是否都能被响应式系统追踪。
+- 是否避免在 computed 中修改自身依赖导致循环。
+- SSR 场景是否理解缓存策略差异。

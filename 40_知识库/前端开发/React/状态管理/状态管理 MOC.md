@@ -5,7 +5,6 @@ tags: [moc, React, 状态管理]
 category: 前端开发
 status: active
 ---
-
 # 状态管理 MOC
 
 > React 状态管理技术栈的知识地图。
@@ -58,20 +57,15 @@ status: active
 ## 工具选型指南
 
 ### 快速决策树
-```
-需要服务器状态缓存？
-├── 是 → TanStack Query ⭐
-└── 否 → 继续
 
-应用规模？
-├── 小型（< 10 个共享状态）→ useState + Context 或 Valtio
-├── 中型 → Zustand ⭐
-└── 大型（复杂交互、多人协作）→ Redux Toolkit
-
-编程风格偏好？
-├── 函数式/原子化 → Jotai
-├── 响应式/OOP → MobX
-└── 直接修改/Vue 风格 → Valtio
+```mermaid
+flowchart TD
+    A["需要服务器状态缓存？"] -->|是| B["TanStack Query"]
+    A -->|否| C["共享状态规模？"]
+    C -->|小型| D["useState + Context"]
+    C -->|中型| E["Zustand"]
+    C -->|大型/强规范| F["Redux Toolkit"]
+    C -->|原子化偏好| G["Jotai"]
 ```
 
 ### 组合推荐
@@ -102,6 +96,25 @@ status: active
    - 使用选择器避免不必要重渲染
    - 原子化状态实现细粒度更新
    - 服务器状态使用 Stale-While-Revalidate 策略
+
+## 场景示例
+
+后台订单管理页可以这样拆：
+
+- 筛选条件、当前 Tab：URL 状态或轻量客户端状态。
+- 订单列表、订单详情：[[TanStack-Query]] 管理服务器状态。
+- 侧边栏展开、主题、用户偏好：[[Zustand]] 管理客户端全局状态。
+- 复杂批量编辑草稿：按业务复杂度选择局部状态或 [[Redux]]。
+
+这样可以避免把接口数据、UI 开关和表单草稿全部塞进一个 Store。
+
+## 检查清单
+
+- 是否先区分客户端状态、服务器状态、表单状态和 URL 状态。
+- 是否避免把 API 响应复制进全局 Store。
+- 是否为共享状态设计选择器，降低重渲染范围。
+- 是否只持久化必要状态，避免保存敏感信息。
+- 是否让状态工具服务业务复杂度，而不是为了技术栈统一而过度引入。
 
 ## 相关 MOC
 

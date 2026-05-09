@@ -109,7 +109,6 @@ docker-compose exec nginx nginx -s reload
 ```
 
 ---
-
 ## 配置语法
 
 ```sh
@@ -151,3 +150,31 @@ location /{
 ```
 
 goaccess 日志查看工具
+
+## 实践流程
+
+```mermaid
+flowchart LR
+  A[编写 nginx.conf] --> B[校验配置]
+  B --> C[启动或重载 Nginx]
+  C --> D[验证静态和代理路径]
+  D --> E[观察访问日志和错误日志]
+```
+
+## 实践检查清单
+
+- 修改配置后是否先运行 `nginx -t`。
+- 静态资源、反向代理和缓存规则是否分开配置。
+- 代理是否传递 Host、X-Real-IP 和 X-Forwarded-*。
+- HTTPS、压缩、缓存和日志路径是否符合环境要求。
+- 是否保留回滚配置，避免重载后服务不可用。
+
+## 案例
+
+前端 SPA 部署到 Nginx 时，静态资源可以长缓存，`index.html` 应短缓存；同时需要配置路由 fallback，避免刷新深层路径 404。
+
+## 常见误区
+
+- 修改配置后直接 reload，没有先测试语法。
+- `alias` 和 `root` 混用，导致路径解析错误。
+- 代理缓存 key 设计不当，不同用户拿到相同响应。

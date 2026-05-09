@@ -561,3 +561,22 @@ function createElm (
 #### updateChildren过程
 
 ![updateChildren过程](40_知识库/前端开发/vue/img/51.png)
+
+## Patch 执行流程
+
+```mermaid
+flowchart TD
+    A["新旧 VNode"] --> B{"是否同节点？"}
+    B -->|否| C["创建新节点并替换"]
+    B -->|是| D["patchVnode 更新属性和子节点"]
+    D --> E["updateChildren 双端比较"]
+    E --> F["插入、移动、删除 DOM"]
+```
+
+## 实践检查清单
+
+- 是否理解 VNode、真实 DOM 和组件实例的关系。
+- 列表渲染是否使用稳定且唯一的 key。
+- 是否知道 patchVnode 和 updateChildren 分别处理什么。
+- 是否能解释双端 Diff 为什么能减少移动次数。
+- 是否避免在列表中使用 index 作为 key 导致状态错乱。

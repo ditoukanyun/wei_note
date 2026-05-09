@@ -8,26 +8,41 @@ tags:
   - Set
   - Map
 ---
-
 # Java 集合框架
 
 集合框架是 Java 中最常用的数据结构体系，理解其设计思想和使用场景至关重要。
 
 ## 集合框架体系结构
 
+```mermaid
+flowchart TD
+    A["Collection"] --> B["List"]
+    A --> C["Set"]
+    A --> D["Queue"]
+    B --> B1["ArrayList"]
+    B --> B2["LinkedList"]
+    C --> C1["HashSet"]
+    C --> C2["TreeSet"]
+    C --> C3["LinkedHashSet"]
+    D --> D1["ArrayDeque"]
+    D --> D2["PriorityQueue"]
+    M["Map"] --> M1["HashMap"]
+    M --> M2["TreeMap"]
+    M --> M3["LinkedHashMap"]
+    M --> M4["ConcurrentHashMap"]
 ```
-                    Collection（接口）
-                   /      |       \
-              List      Set      Queue
-             /  |  \      |        |
-       ArrayList LinkedList HashSet  PriorityQueue
-       Vector    Stack    TreeSet   ArrayDeque
-       
-                    Map（接口）
-                   /       \
-              HashMap    TreeMap
-              LinkedHashMap
-              ConcurrentHashMap
+
+## 选型流程
+
+```mermaid
+flowchart TD
+    A["需要保存一组数据"] --> B{"是否键值对？"}
+    B -->|是| C["Map"]
+    B -->|否| D{"是否要求唯一？"}
+    D -->|是| E["Set"]
+    D -->|否| F{"是否按顺序/索引访问？"}
+    F -->|是| G["List"]
+    F -->|否| H["Queue/Deque"]
 ```
 
 ## 选择集合的决策指南
@@ -274,7 +289,6 @@ List<String> immutable = List.of("a", "b", "c");
 ```
 
 ---
-
 > [!info] 相关链接
 > - [[Java 泛型]]
 > - [[Java Stream API]]

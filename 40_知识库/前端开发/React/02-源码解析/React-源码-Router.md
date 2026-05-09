@@ -5,7 +5,6 @@ tags: [React, Router, 路由, 源码, 5.x]
 category: 源码解析
 status: active
 ---
-
 # React Router 5.x 源码分析
 
 通过在 React Router 源码中分析底层原理
@@ -900,3 +899,31 @@ Router中通过阻止a标签的跳转行为，并根据跳转路径重新生成l
 3. React Router更加精炼，没有过多的花样，源码实现简洁明了
 
 库没有好坏只有更适合
+
+## 实践流程
+
+```mermaid
+flowchart LR
+  A[用户点击链接] --> B[拦截默认跳转]
+  B --> C[更新 history 或 hash]
+  C --> D[匹配路由配置]
+  D --> E[渲染对应组件]
+```
+
+## 实践检查清单
+
+- 是否区分 BrowserRouter 和 HashRouter 的部署要求。
+- SPA 深层路径刷新时服务端是否回退到 `index.html`。
+- 路由参数、查询参数和 location state 是否边界清晰。
+- 路由懒加载是否有 loading 和 error 状态。
+- 权限路由是否由服务端授权兜底，前端路由守卫只做体验控制。
+
+## 案例
+
+后台系统使用 BrowserRouter 时，访问 `/orders/123` 刷新页面会请求服务器同一路径。Nginx 需要配置 fallback 到 `index.html`，再由 React Router 在前端匹配订单详情组件。
+
+## 常见误区
+
+- 以为前端路由权限能替代后端接口鉴权。
+- 部署时忘记配置 history fallback，刷新子路由 404。
+- 路由配置和业务模块耦合过深，后续拆分困难。

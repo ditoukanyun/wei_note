@@ -218,3 +218,31 @@ Everything I covered here comes from real hands-on use - I have been running Ski
 If that's the style of content you want on your feed, be sure to follow me at [@aiedge\_](https://x.com/@aiedge_). I am posting three articles a week covering the hottest topics in AI.
 
 Lastly, if you can, please Like/Repost this article so others can find it 💙
+
+## 实践流程
+
+```mermaid
+flowchart LR
+  A[Find repeatable workflow] --> B[Collect context and examples]
+  B --> C[Write SKILL.md]
+  C --> D[Test on real tasks]
+  D --> E[Iterate and publish]
+```
+
+## 实践检查清单
+
+- Skill 是否针对一个明确且重复的任务。
+- 是否包含输入、步骤、输出格式和验收标准。
+- 是否提供优秀输出样例。
+- 是否经过真实任务测试，而不是只写说明。
+- 是否说明适用边界和人工审核点。
+
+## 案例
+
+A document summarizer Skill should define acceptable input types, summary structure, citation expectations, and failure behavior when the document is too long or low quality.
+
+## 常见误区
+
+- Building a broad “do everything” Skill.
+- No examples, only abstract instructions.
+- Publishing before testing on several real cases.

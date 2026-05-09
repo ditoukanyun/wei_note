@@ -20,7 +20,6 @@ parent: "[[00-导航-Python编程导航]]"
 up: "[[00-MOC-知识地图]]"
 source: https://juejin.cn/post/7444548883646709796
 ---
-
 > 官方文档: [docs.astral.sh/uv](https://docs.astral.sh/uv/)
 > GitHub: [github.com/astral-sh/uv](https://github.com/astral-sh/uv)
 > 作者: [Astral](https://astral.sh/) (Ruff 的创造者)
@@ -705,6 +704,31 @@ UV 通过 Rust 的高性能实现和现代化的工具设计，彻底改变了 P
 随着 UV 生态的不断完善，它正在成为 Python 包管理的事实标准，值得每一位 Python 开发者学习和使用。
 
 ---
+
+## UV 工作流
+
+```mermaid
+flowchart LR
+    A["创建项目"] --> B["uv init"]
+    B --> C["uv add 依赖"]
+    C --> D["生成 uv.lock"]
+    D --> E["uv run 执行命令"]
+    E --> F["CI 中 uv sync"]
+```
+
+## 迁移检查清单
+
+- 是否确认项目依赖都来自 PyPI 或兼容索引。
+- 是否提交 `uv.lock`，保证团队环境一致。
+- 是否把旧的 `pip install -r requirements.txt` 替换为 `uv sync` 或兼容命令。
+- CI 缓存是否包含 UV 缓存目录。
+- 是否保留回退方案，避免一次性迁移阻塞发布。
+
+## 常见误区
+
+- 只把 UV 当成更快的 pip，没利用 lockfile 和项目管理能力。
+- 不提交锁文件，导致团队环境仍不一致。
+- 把全局 Python 环境和项目虚拟环境混用。
 
 > [!tip] 学习资源
 > - [UV 官方文档](https://docs.astral.sh/uv/)

@@ -24,3 +24,31 @@ Vite 依赖预构建是开发启动时用 esbuild 把 CommonJS 或多文件依�
 - [[Vite 原理与插件机制总览]]
 - [[模块化]]
 - [[包管理与依赖治理]]
+
+## 工作流程
+
+```mermaid
+flowchart LR
+  A[扫描源码导入] --> B[识别第三方依赖]
+  B --> C[esbuild 预构建]
+  C --> D[缓存到 node_modules/.vite]
+  D --> E[浏览器按 ESM 加载]
+```
+
+## 实践检查清单
+
+- 依赖升级后是否清理 Vite 缓存验证问题。
+- CommonJS 依赖是否能被正确转换为 ESM。
+- monorepo 或 linked package 是否需要配置 `optimizeDeps`。
+- 预构建慢时是否定位大依赖和重复依赖。
+- 开发与生产构建差异是否用测试覆盖。
+
+## 案例
+
+本地启动时某个 CommonJS 包报导出错误，可以尝试把它显式加入 `optimizeDeps.include`，或排除后让插件转换，再验证 HMR 和生产构建是否都正常。
+
+## 常见误区
+
+- 把开发环境预构建问题误认为生产打包问题。
+- 修改依赖版本后不清理缓存，排查方向被旧产物干扰。
+- 盲目 include 所有依赖，导致启动变慢。

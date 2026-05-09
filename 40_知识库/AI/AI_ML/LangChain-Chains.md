@@ -4,7 +4,6 @@ created: 2026-02-12
 area: "[[AI_ML]]"
 tags: [langchain, chains, ai, llm]
 ---
-
 # LangChain Chains
 
 Chains（链）是将多个组件组合成可复用工作流的方式。虽然现在 LangChain 更推荐使用 [[LangChain-Agents|Agents]]，但理解 Chains 有助于掌握组件组合的概念。
@@ -194,3 +193,21 @@ agent = create_agent(
 - [[LangChain-Prompts]] - 提示词管理
 - [[LangChain-Models]] - 模型接口
 - [[LangChain-Retrieval]] - 检索增强 Chain
+
+## 使用流程
+
+```mermaid
+flowchart TD
+    A["确定固定流程"] --> B["定义 Prompt"]
+    B --> C["连接模型和解析器"]
+    C --> D["补充错误处理"]
+    D --> E["评估输出质量"]
+```
+
+## 实践检查清单
+
+- 流程是否足够固定，不需要动态选择工具。
+- 输入和输出结构是否可验证。
+- 是否配置流式输出、重试、回退和缓存。
+- 是否有样例数据用于回归测试。
+- 当 Chain 开始需要决策时，是否考虑迁移到 Agent 或 LangGraph。

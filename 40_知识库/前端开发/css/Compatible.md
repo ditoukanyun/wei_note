@@ -10,7 +10,6 @@ category: 技术学习
 status: active
 parent: "[[MOC]]"
 ---
-
 # 浏览器兼容
 
 - 这里主要列出一些关于浏览器css兼容性问题以及解决方法(hack)
@@ -111,3 +110,25 @@ parent: "[[MOC]]"
 描述：ie中可以使用showModalDialog和showModelessDialog打开模态和非模态窗口;Firefox下则不能
 
 > hack 直接使用window.open(pageURL,name,parameters)方式打开新窗口
+
+## 兼容性处理流程
+
+```mermaid
+flowchart TD
+    A["发现兼容问题"] --> B["确认浏览器和版本"]
+    B --> C["定位 CSS/DOM/API 差异"]
+    C --> D["选择标准写法或降级方案"]
+    D --> E["在目标浏览器回归验证"]
+```
+
+## 实践检查清单
+
+- 是否先确认项目真实需要支持的浏览器范围。
+- 是否优先使用标准 API 和渐进增强，而不是堆 hack。
+- CSS 兼容是否通过 Autoprefixer、Browserslist 等工具管理。
+- JS API 是否有 polyfill 或降级分支。
+- 兼容修复是否有测试页面或截图记录。
+
+## 案例
+
+如果旧浏览器不支持某个 CSS 特性，应先判断它是否影响核心功能。核心功能需要降级实现，视觉增强可以接受差异；这样能避免为了少数浏览器把主路径代码写得过度复杂。

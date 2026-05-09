@@ -7,7 +7,6 @@ tags:
   - 动态代理
   - 注解
 ---
-
 # Java 反射
 
 反射是 Java 的核心特性，允许程序在运行时检查和操作类、方法、字段等。
@@ -284,3 +283,25 @@ field.setAccessible(true);
 > - [[Java 泛型]]
 > - [[Java Stream API]]
 > - [[Spring 框架]]
+
+## 使用流程
+
+```mermaid
+flowchart TD
+    A["获取 Class"] --> B["读取字段、方法或构造器"]
+    B --> C["必要时设置访问权限"]
+    C --> D["调用或创建对象"]
+    D --> E["处理异常和性能影响"]
+```
+
+## 实践检查清单
+
+- 是否真的需要反射，能否用接口、泛型或 Lambda 替代。
+- 是否限制 `setAccessible(true)` 的使用范围。
+- 反射调用是否发生在高频路径。
+- 是否处理 ClassNotFound、NoSuchMethod、IllegalAccess 等异常。
+- 框架扫描时是否缓存反射结果。
+
+## 案例
+
+Spring 读取注解、创建 Bean、注入字段和调用生命周期方法时会使用反射。业务代码通常不应频繁直接反射调用，除非是在框架、插件系统或通用序列化工具中。

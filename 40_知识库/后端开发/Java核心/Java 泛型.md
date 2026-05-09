@@ -6,7 +6,6 @@ tags:
   - 泛型
   - 类型安全
 ---
-
 # Java 泛型
 
 泛型是 Java 5 引入的特性，提供了编译时类型安全检测机制。
@@ -245,3 +244,25 @@ List<List<String>> list = new ArrayList<>();
 > [!info] 相关链接
 > - [[Java 集合框架]]
 > - [[Java Stream API]]
+
+## 使用流程
+
+```mermaid
+flowchart TD
+    A["识别类型变化点"] --> B["声明类型参数"]
+    B --> C["限制边界 extends/super"]
+    C --> D["在集合、方法或类中复用"]
+    D --> E["编译期检查类型安全"]
+```
+
+## 实践检查清单
+
+- 是否避免使用原始类型 Raw Type。
+- 泛型参数命名是否表达含义。
+- 读数据优先考虑 `extends`，写数据优先考虑 `super`。
+- 是否理解类型擦除导致运行期拿不到完整泛型信息。
+- 是否用泛型方法减少重复重载。
+
+## 案例
+
+通用分页结果可以定义为 `PageResult<T>`，用户列表返回 `PageResult<UserDTO>`，订单列表返回 `PageResult<OrderDTO>`。这样分页字段复用，业务数据类型仍保持编译期安全。
