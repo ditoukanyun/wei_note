@@ -60,3 +60,11 @@ Playwright 脚本要像用户一样操作页面，但断言要像工程师一样
 - 把 E2E 当作所有测试的主力，导致反馈慢、失败难定位。
 - 用固定等待替代明确等待条件。
 - 测试只验证按钮点击成功，没有断言后端状态或用户可见结果。
+
+## 掘金文章补充
+
+掘金文章《前端E2E测试既实用，也简单》给了一个最小 Playwright 接入路径：安装 `@playwright/test`，安装浏览器，配置 `playwright.config.ts`，在 `package.json` 增加 `test:e2e` 和报告命令，再编写关键路径测试。配置里可以指定 `testDir`、`baseURL`、浏览器、超时、截图、视频、HTML reporter，以及 `webServer` 自动启动预览服务。
+
+工程实践上，失败证据比脚本数量更重要：CI 中建议保留失败截图、视频或 trace；本地调试时用 Playwright Inspector 或 Trace Viewer 还原点击、网络、DOM 快照和时间线。E2E 适合覆盖登录、权限、创建、发布等业务闭环，不适合把所有表单边界条件都塞进去。
+
+来源：[前端E2E测试既实用，也简单](https://juejin.cn/post/7520417630173659147)

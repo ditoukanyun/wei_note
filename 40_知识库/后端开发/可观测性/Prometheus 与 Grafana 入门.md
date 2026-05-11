@@ -56,6 +56,14 @@ flowchart TD
 
 Grafana 面板应服务排障路径。首页展示症状指标，二级面板再展开依赖、资源和业务细节，避免所有信息混在一屏。
 
+## 掘金文章补充
+
+掘金文章《使用 Prometheus & Grafana 监控你的 Spring Boot 应用》给出了一条最小接入链路：Spring Boot 引入 Actuator 和 `micrometer-registry-prometheus`，应用暴露 `/actuator/prometheus`，Prometheus 配置 `scrape_configs` 定时抓取，Grafana 添加 Prometheus 数据源后创建 Dashboard。
+
+落地时要特别关注标签：`application`、`instance`、`env` 这类标签要稳定，否则面板和告警很难复用。Dashboard 可以先复用社区模板，再逐步加入业务指标，例如订单成功率、支付回调耗时、队列积压和错误码分布。
+
+来源：[使用 Prometheus & Grafana 监控你的 Spring Boot 应用](https://juejin.cn/post/6844904033493188621)
+
 ## 相关概念
 
 - [[Prometheus]]

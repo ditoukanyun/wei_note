@@ -59,3 +59,11 @@ flowchart LR
 - 类型是否表达了业务不变量，而不只是让编译器暂时通过。
 - API 类型、组件 Props 和页面状态是否有清晰边界。
 - 复杂类型是否真的减少错误，还是把简单代码变成难读抽象。
+
+## 掘金文章补充
+
+掘金文章《react typescript 备忘清单》给了 React Props 的常用类型边界：`children` 通常用 `React.ReactNode`，单个 JSX 元素可用 `JSX.Element`，样式可用 `React.CSSProperties`，表单事件可用 `React.FormEventHandler<HTMLInputElement>` 或更具体的事件类型。封装原生按钮、输入框时，可以用 `React.ComponentPropsWithoutRef<"button">` 继承原生属性；需要透传 ref 时再使用 `ComponentPropsWithRef`。
+
+Props 设计时应避免模糊对象类型：`object` 表示任意非原始值，`{}` 允许除 `null/undefined` 外的很多值，都不适合表达具体业务对象。更稳的做法是用明确字段、联合字面量、`Record<string, T>` 或泛型表达输入边界。`Function` 也不推荐作为回调类型，应写出参数和返回值，例如 `(id: number) => void`。
+
+来源：[react typescript 备忘清单](https://juejin.cn/post/7166502182684983327)

@@ -49,6 +49,14 @@ flowchart TD
 - 在服务端组件里访问 `window`、localStorage 或浏览器事件。
 - 没有区分数据缓存、路由缓存和浏览器缓存。
 
+## 掘金文章补充
+
+掘金《Next.js Caching》文章对 RSC 渲染链路的补充很有用：服务端会把服务器组件树渲染成 RSC Payload，再结合客户端组件 JavaScript 引用生成可用于首屏展示的 HTML。客户端随后用 RSC Payload 做协调更新，再 hydrate 客户端组件。
+
+这解释了为什么 RSC 页面可以减少客户端 JS，但不是“没有客户端运行时”。客户端组件仍需要 JS hydrate；Router Cache 也会在客户端缓存按路由段拆分的 RSC Payload。设计组件边界时，应把读取数据和组装结构留在服务端，把事件、浏览器 API、本地状态和第三方交互组件放进较小的客户端边界。
+
+来源：[【Next.js】Caching](https://juejin.cn/post/7474019962719780890)
+
 ## 相关概念
 
 - [[Next.js App Router 总览]]

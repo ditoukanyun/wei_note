@@ -466,3 +466,11 @@ flowchart LR
 - 在 Plugin 中做大量同步 IO，拖慢构建。
 - 异步钩子忘记结束，导致构建卡住。
 - Plugin 修改产物但没有更新 source map 或 hash。
+
+## 掘金文章补充
+
+掘金文章《loader和plugin区别》把 Plugin 定位为构建生命周期的事件监听与处理器。Plugin 通过 `apply(compiler)` 注册钩子，既可以在编译前后读取上下文，也可以在 emit 阶段操作资源、生成 HTML、压缩代码、注入环境变量或处理热更新。
+
+判断是否该写 Plugin，可以看需求是否跨文件、跨资源或依赖构建阶段。如果只是把一个文件从 A 格式转换为 B 格式，用 Loader；如果要影响构建流程、读取统计信息、生成额外资源或修改输出资产，用 Plugin。
+
+来源：[loader和plugin区别](https://juejin.cn/post/7521602463461834787)

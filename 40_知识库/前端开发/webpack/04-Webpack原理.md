@@ -442,3 +442,11 @@ flowchart LR
 - 只改配置不看构建产物，优化效果不可验证。
 - 为小项目引入复杂多线程和 DLL，反而增加维护成本。
 - 认为 Tree Shaking 能删除所有无用代码，忽略副作用标记。
+
+## 掘金文章补充
+
+掘金文章《webpack的构建流程》用更简洁的方式概括了主线：webpack 从 `entry` 出发递归解析依赖模块，对每个模块按 `module.rules` 调用对应 Loader 做转换，转换后继续分析它依赖的模块，最终形成 chunk，再把 chunk 转成输出文件。Plugin 会在整个构建过程中监听生命周期，完成 HTML 生成、压缩、热更新、资源处理等扩展任务。
+
+这个视角适合排查构建问题：模块无法解析时先看入口和依赖路径；语法或资源转换失败时看 Loader 链；输出文件异常时看 chunk、optimization 和 plugin；开发热更新异常时再看 devServer、HMR 客户端和框架刷新机制。
+
+来源：[webpack的构建流程](https://juejin.cn/post/7288963208408252477)

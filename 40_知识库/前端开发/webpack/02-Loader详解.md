@@ -378,3 +378,11 @@ flowchart LR
 - 把 Loader 和 Plugin 职责混用。
 - Loader 处理范围过大，把 `node_modules` 也全部编译。
 - 自定义 Loader 有副作用，导致增量构建不稳定。
+
+## 掘金文章补充
+
+掘金文章《loader和plugin区别》强调 Loader 的本质是模块转换器，主要在编译阶段处理单个文件内容，输入源文件，输出 webpack 能继续处理的模块。典型例子是 `babel-loader` 转换 JS，`css-loader` 解析 CSS 依赖，`sass-loader` 把 Sass 编译成 CSS。
+
+Loader 的执行顺序是理解配置的关键：普通 `use` 数组按从右到左执行，前一个 Loader 的输出会交给下一个 Loader。排查样式构建时，先按“预处理语言 -> CSS 解析 -> 注入或抽离”的顺序检查，而不是只看配置是否存在。
+
+来源：[loader和plugin区别](https://juejin.cn/post/7521602463461834787)

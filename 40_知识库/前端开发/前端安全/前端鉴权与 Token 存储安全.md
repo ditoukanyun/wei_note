@@ -69,6 +69,14 @@ sequenceDiagram
 - XSS 防护是否和 [[CSP 内容安全策略]]、输入输出转义一起设计。
 - 退出登录是否同时清理前端状态和服务端会话或刷新凭证。
 
+## 掘金文章补充
+
+掘金文章《web端安全问题有哪些？》再次强调：`localStorage` 存 Token 的主要风险是 XSS 后脚本可直接读取；安全优先时更推荐 HttpOnly Cookie，并配合 `SameSite`、`Secure`、CSRF Token 或 Origin/Referer 校验。若业务必须把 Access Token 放在前端可读位置，应缩短有效期、减少权限范围，并建立刷新、撤销和异常设备审计。
+
+还要避免把“前端隐藏入口”误认为授权。前端可以拦路由、隐藏按钮、优化 401/403 体验，但每个敏感 API 都需要服务端鉴权和资源级授权，尤其是导出、支付、审批、删除等操作。
+
+来源：[web端安全问题有哪些？](https://juejin.cn/post/7584320417307394099)
+
 ## 相关概念
 
 - [[认证授权总览：Session、JWT、OAuth2 与 OIDC]]

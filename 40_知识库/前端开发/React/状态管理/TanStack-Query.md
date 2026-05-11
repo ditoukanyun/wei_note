@@ -181,6 +181,16 @@ const query = useQuery({
 - 与 [[前后端接口契约]] 和 [[OpenAPI 与类型生成]] 是否打通，避免手写类型漂移。
 - 是否避免把 Query 数据复制进 [[Zustand]] 或 [[Redux]]。
 
+## 掘金文章补充
+
+掘金文章《为什么我推荐前端项目都应该使用 TanStack Query 管理接口请求》把演进路径讲得很清楚：从 `useEffect + useState` 手写请求，到自封装 `useRequest` 管理 `data/loading/error`，再到用 TanStack Query 统一托管请求生命周期。它解决的不是“如何发请求”，而是缓存、去重、重试、失效、跨组件刷新、Mutation 状态和错误处理的一整套服务器状态问题。
+
+文章中的业务场景值得沉淀：A 组件展示用户信息，B 组件在远处触发刷新时，不需要事件总线或全局状态，只要 `queryClient.invalidateQueries({ queryKey: ['userInfo'] })` 即可让所有订阅该 Query Key 的组件重新获取。写操作则用 `useMutation`，提交中状态绑定按钮，成功后精确失效列表 Query。
+
+默认缓存策略要谨慎。把所有 GET 请求都缓存五分钟能减少请求，但不适合库存、订单状态、权限等实时性强的数据；字典、配置、低频列表更适合较长 `staleTime`。
+
+来源：[为什么我推荐前端项目都应该使用 TanStack Query 管理接口请求](https://juejin.cn/post/7610979696307601417)
+
 ## 高级示例：乐观更新 (Optimistic Updates)
 
 在服务器响应之前立即更新 UI，如果失败则回滚。

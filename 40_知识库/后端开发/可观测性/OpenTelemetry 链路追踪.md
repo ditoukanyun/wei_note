@@ -59,3 +59,11 @@ Trace Context 传播是链路追踪成败的关键。HTTP、RPC、消息队列�
 - 只接入入口服务，跨服务调用没有上下文传播。
 - 给 Span 添加过多高基数字段，例如完整用户输入，导致存储成本失控。
 - 把链路追踪当日志系统使用，忽略指标告警和日志细节。
+
+## 掘金补充
+
+掘金文章《使用 Prometheus & Grafana 监控你的 Spring Boot 应用》虽然重点是指标监控，不是 Trace，但能补齐可观测性落地链路：Spring Boot 通过 Actuator 暴露 `/actuator/prometheus`，Micrometer 负责把应用指标转换成 Prometheus 可抓取格式，Prometheus 定时采集，Grafana 负责可视化。
+
+这和 OpenTelemetry 的关系是：Trace 负责解释单次请求链路，Metric 负责发现趋势和异常，Log 负责保留上下文细节。实际建设时应先让服务名、实例、环境等标签一致，再把 TraceId 写入日志，并用仪表盘把 RED 指标、JVM 指标、接口延迟和错误率串起来。
+
+来源：[使用 Prometheus & Grafana 监控你的 Spring Boot 应用](https://juejin.cn/post/6844904033493188621)

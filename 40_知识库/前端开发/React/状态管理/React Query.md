@@ -50,6 +50,14 @@ flowchart TD
 
 复盘时优先检查查询键、缓存时长和失效范围，这三项通常决定页面数据是否可信，也决定用户看到的是新数据还是旧缓存。
 
+## 掘金文章补充
+
+掘金 TanStack Query 文章补充了一个实践判断：查询和变更应分工明确。`useQuery` 管读取、缓存和重新验证；`useMutation` 管新增、修改、删除等副作用。按钮禁用、提交中提示、成功后刷新、失败后提示都应围绕 mutation 状态设计，而不是在组件里散落多个 `useState`。
+
+当接口参数较多时，Query Key 就是比 `useEffect deps` 更显式的请求身份。分页、筛选、关键字、用户 ID 都应该进入 Query Key，否则缓存会把不同查询结果混在一起。
+
+来源：[为什么我推荐前端项目都应该使用 TanStack Query 管理接口请求](https://juejin.cn/post/7610979696307601417)
+
 ## 相关概念
 
 - [[TanStack-Query]]

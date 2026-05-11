@@ -58,3 +58,11 @@ flowchart LR
 - 这个页面是否依赖用户身份、Cookie、Header 或实时数据。
 - 缓存失效后是否能解释数据何时更新、谁触发更新、用户会看到什么。
 - 部署环境是否已经覆盖日志、错误上报、环境变量和运行时兼容性验证。
+
+## 掘金文章补充
+
+掘金文章《【Next.js】Caching》把 App Router 缓存拆成四层：Request Memoization、Data Cache、Full Route Cache 和 Router Cache。Request Memoization 是 React 渲染期间对相同 GET `fetch` 的去重，只在一次服务端组件树渲染生命周期内有效；Data Cache 是 Next.js 服务端持久缓存，可通过 `revalidate`、`revalidatePath`、`revalidateTag` 控制；Full Route Cache 缓存静态渲染结果；Router Cache 是客户端内存里的 RSC Payload 缓存，用于加速导航。
+
+认证页面要特别小心：一旦读取 Cookie、Header 或用户身份，页面通常不应被当作公共静态结果缓存。可以用 `cache: 'no-store'`、`revalidate = 0`、`dynamic = 'force-dynamic'` 或按用户隔离的服务端逻辑控制缓存边界。博客、文档、营销页可以利用 Data Cache/ISR；用户中心、订单、权限页则优先保证隔离和实时性。
+
+来源：[【Next.js】Caching](https://juejin.cn/post/7474019962719780890)
