@@ -7,6 +7,8 @@ tags:
   - List
   - Set
   - Map
+area: [[后端开发]]
+created: 2026-03-26
 ---
 # Java 集合框架
 

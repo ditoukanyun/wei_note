@@ -2,6 +2,7 @@
 type: wiki
 tags: [mysql, sql, 数据库]
 created: 2026-03-17
+area: [[后端开发]]
 ---
 # MySQL JOIN 详解
 

@@ -8,6 +8,8 @@ tags:
   - 缓存
   - 高并发
 module: 24-SpringBoot-cache-patterns
+area: [[后端开发]]
+created: 2026-04-28
 ---
 # SpringBoot 缓存治理模式
 

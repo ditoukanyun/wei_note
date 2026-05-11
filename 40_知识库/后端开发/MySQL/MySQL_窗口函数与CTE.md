@@ -2,6 +2,7 @@
 type: wiki
 tags: [mysql, 窗口函数, cte, sql]
 created: 2026-03-18
+area: [[后端开发]]
 ---
 # MySQL 窗口函数与 CTE
 ## 窗口函数（MySQL 8.0+）

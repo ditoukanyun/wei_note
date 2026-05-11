@@ -6,6 +6,8 @@ category: 知识库/前端开发/docker
 status: active
 parent: "[[README|Docker MOC]]"
 aliases: [Docker入门, Docker安装指南]
+area: [[前端开发]]
+created: 2024-01-15
 ---
 # Docker 基础
 

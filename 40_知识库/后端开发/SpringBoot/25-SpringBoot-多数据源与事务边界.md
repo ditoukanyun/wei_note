@@ -8,6 +8,8 @@ tags:
   - 事务
   - 读写分离
 module: 25-SpringBoot-multi-datasource-tx
+area: [[后端开发]]
+created: 2026-04-28
 ---
 # SpringBoot 多数据源与事务边界
 

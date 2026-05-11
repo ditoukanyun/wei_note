@@ -8,6 +8,8 @@ tags:
   - swagger
   - sdk
 module: 26-SpringBoot-openapi-client-sdk
+area: [[后端开发]]
+created: 2026-04-28
 ---
 # SpringBoot OpenAPI 与客户端 SDK
 

@@ -8,6 +8,8 @@ tags:
 category: 技术学习
 status: active
 parent: "[[MOC]]"
+area: [[前端开发]]
+created: 2026-02-10
 ---
 # 实现水平&垂直居中
 

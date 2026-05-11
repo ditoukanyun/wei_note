@@ -6,6 +6,8 @@ category: 领域
 status: active
 parent: "[[MOC-RAG]]"
 aliases: [RAG原理, RAG架构, RAG流程]
+area: [[AI]]
+created: 2025-02-10
 ---
 # RAG核心原理与流程解析
 

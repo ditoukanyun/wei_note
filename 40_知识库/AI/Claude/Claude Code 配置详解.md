@@ -3,6 +3,8 @@ topic: Claude Code
 category: 工具配置
 created: 2026-03-23
 source: "[Twitter @PeterJia298766](https://x.com/PeterJia298766/status/2035688806784147542)"
+area: [[AI]]
+tags: []
 ---
 # Claude Code 配置详解
 

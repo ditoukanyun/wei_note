@@ -19,6 +19,7 @@ area: "[[开发工具]]"
 parent: "[[00-导航-Python编程导航]]"
 up: "[[00-MOC-知识地图]]"
 source: https://juejin.cn/post/7444548883646709796
+created: 2025-02-11
 ---
 > 官方文档: [docs.astral.sh/uv](https://docs.astral.sh/uv/)
 > GitHub: [github.com/astral-sh/uv](https://github.com/astral-sh/uv)

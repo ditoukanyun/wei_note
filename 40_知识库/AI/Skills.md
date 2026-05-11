@@ -4,6 +4,7 @@ type: concept
 category: AI/Agents
 tags: [AI, Agent, OpenClaw, plugin, extension]
 aliases: [技能, 插件, 能力模块]
+area: [[AI]]
 ---
 # Skills
 

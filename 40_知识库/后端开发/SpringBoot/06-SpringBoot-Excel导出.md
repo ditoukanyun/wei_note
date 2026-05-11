@@ -7,6 +7,8 @@ tags:
   - easyexcel
   - excel
 module: 06-SpringBoot-excel-export
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot Excel 导出（EasyExcel）
 

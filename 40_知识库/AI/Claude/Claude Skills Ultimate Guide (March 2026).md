@@ -8,6 +8,7 @@ created: 2026-03-26
 description: "AI Edge by @milesdeutscher ⚡ | Giving you the edge on AI. Breaking news • Practical guides • Smart insights • Tips & more  | Your go-to hub for everything AI."
 tags:
   - "clippings"
+area: [[AI]]
 ---
 I posted on **𝕏** 200+ times this month. If you only implement ONE thing from all my content in March, make it this.
 

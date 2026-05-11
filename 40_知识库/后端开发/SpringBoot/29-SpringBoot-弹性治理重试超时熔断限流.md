@@ -9,6 +9,8 @@ tags:
   - 熔断
   - 限流
 module: 29-SpringBoot-resilience-retry-timeout
+area: [[后端开发]]
+created: 2026-04-28
 ---
 # SpringBoot 弹性治理：重试、超时、熔断与限流
 

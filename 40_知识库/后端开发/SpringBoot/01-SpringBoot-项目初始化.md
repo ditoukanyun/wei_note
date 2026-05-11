@@ -6,6 +6,8 @@ tags:
   - java
   - 初始化
 module: 01-SpringBoot-init
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot 项目初始化与基本配置
 

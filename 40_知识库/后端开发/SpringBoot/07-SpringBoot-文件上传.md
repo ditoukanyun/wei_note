@@ -6,6 +6,8 @@ tags:
   - java
   - 文件上传
 module: 07-SpringBoot-file-upload
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot 文件上传
 

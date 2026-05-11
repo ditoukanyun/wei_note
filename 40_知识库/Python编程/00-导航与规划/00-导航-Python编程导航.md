@@ -10,6 +10,8 @@ status: active
 aliases:
   - Python
   - Python学习
+area: [[Python编程]]
+created: 2026-02-10
 ---
 # 🐍 Python编程 - 学习导航
 

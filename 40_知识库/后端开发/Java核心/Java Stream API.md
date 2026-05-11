@@ -6,6 +6,8 @@ tags:
   - Stream
   - 函数式编程
   - Lambda
+area: [[后端开发]]
+created: 2026-03-26
 ---
 # Java Stream API
 

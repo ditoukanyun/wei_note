@@ -13,6 +13,8 @@ status: active
 aliases:
   - Python编程索引
   - Python学习入口
+area: [[Python编程]]
+created: 2026-02-10
 ---
 # 🐍 Python 编程 - 知识库主索引
 

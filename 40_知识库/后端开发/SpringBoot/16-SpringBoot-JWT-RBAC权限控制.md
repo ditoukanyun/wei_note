@@ -9,6 +9,8 @@ tags:
   - rbac
   - 权限控制
 module: 16-SpringBoot-jwt-rbac-authz
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot JWT RBAC 权限控制
 

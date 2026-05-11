@@ -2,6 +2,7 @@
 type: wiki
 created: 2025-02-12
 tags: [langchain, memory, langgraph]
+area: [[AI]]
 ---
 # Checkpointer（检查点器）
 

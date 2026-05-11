@@ -8,6 +8,7 @@ created: 2026-04-14
 description: "Steve Yegge says people using AI coding agents are '10x to 100x as productive as engineers using Cursor and chat today, and roughly 1000x as..."
 tags:
   - "clippings"
+area: [[AI]]
 ---
 Steve Yegge 说，使用 AI 编程代理的人的生产力"是当今使用 Cursor 和聊天工具的工程师的 10 到 100 倍，大约是 2005 年 Google 工程师的 1000 倍。"
 

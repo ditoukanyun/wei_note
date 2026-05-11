@@ -8,6 +8,8 @@ tags:
   - token
   - 登录
 module: 14-SpringBoot-redis-token-login
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot Redis Token 登录
 

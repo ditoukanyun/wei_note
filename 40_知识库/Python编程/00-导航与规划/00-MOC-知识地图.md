@@ -15,6 +15,8 @@ aliases:
   - 知识地图
   - 学习地图
 parent: "[[00-导航-Python编程导航]]"
+area: [[Python编程]]
+created: 2026-02-10
 ---
 # 🗺️ Python编程 MOC
 

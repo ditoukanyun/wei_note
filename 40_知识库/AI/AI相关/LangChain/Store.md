@@ -2,6 +2,7 @@
 type: wiki
 created: 2025-02-12
 tags: [langchain, memory, storage]
+area: [[AI]]
 ---
 # Store（长期记忆存储）
 

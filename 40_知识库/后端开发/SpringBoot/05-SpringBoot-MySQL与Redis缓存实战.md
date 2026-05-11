@@ -8,6 +8,8 @@ tags:
   - redis
   - 缓存
 module: 05-SpringBoot-mysql-redis
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot MySQL + Redis 缓存实战
 

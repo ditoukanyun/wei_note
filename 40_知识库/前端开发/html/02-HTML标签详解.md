@@ -9,6 +9,8 @@ aliases:
   - HTML标签
   - HTML元素
 parent: "[[00-HTML-MOC|HTML知识地图]]"
+area: [[前端开发]]
+created: 2026-02-10
 ---
 # HTML标签详解
 

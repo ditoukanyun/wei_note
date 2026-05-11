@@ -8,6 +8,8 @@ tags:
   - traceId
   - MDC
 module: 11-SpringBoot-exception-log-trace
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot 异常处理与日志追踪
 

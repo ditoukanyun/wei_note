@@ -8,6 +8,8 @@ tags:
   - micrometer
   - prometheus
 module: 23-SpringBoot-observability-metrics
+area: [[后端开发]]
+created: 2026-04-28
 ---
 # SpringBoot 可观测性与业务指标
 

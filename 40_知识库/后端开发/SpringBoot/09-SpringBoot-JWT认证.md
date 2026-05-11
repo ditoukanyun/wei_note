@@ -7,6 +7,8 @@ tags:
   - jwt
   - 认证
 module: 09-SpringBoot-jwt-auth
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot JWT 认证
 

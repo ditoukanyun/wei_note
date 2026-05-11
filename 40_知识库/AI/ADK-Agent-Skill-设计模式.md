@@ -11,6 +11,8 @@ source: Google Cloud Tech
 authors:
   - Shubham Saboo
   - Lavin IGam
+area: [[AI]]
+created: 2026-03-19
 ---
 # 5种 ADK Agent Skill 设计模式
 

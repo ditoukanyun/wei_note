@@ -2,6 +2,7 @@
 type: wiki
 tags: [java, lombok, 工具库]
 created: 2026-03-17
+area: [[Lombok_注解详解]]
 ---
 # Lombok 注解详解
 

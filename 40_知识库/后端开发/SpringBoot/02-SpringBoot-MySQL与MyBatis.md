@@ -7,6 +7,8 @@ tags:
   - mysql
   - mybatis
 module: 02-SpringBoot-mysql
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot 集成 MySQL 与 MyBatis
 

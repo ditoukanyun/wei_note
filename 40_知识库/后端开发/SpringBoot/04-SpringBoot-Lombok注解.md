@@ -6,6 +6,8 @@ tags:
   - java
   - lombok
 module: 04-SpringBoot-lombok
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot 集成 Lombok
 

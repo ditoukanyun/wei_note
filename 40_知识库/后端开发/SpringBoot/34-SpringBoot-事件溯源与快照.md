@@ -8,6 +8,8 @@ tags:
   - 快照
   - 事件流
 module: 34-SpringBoot-event-sourcing-snapshot
+area: [[后端开发]]
+created: 2026-04-28
 ---
 # SpringBoot 事件溯源与快照
 

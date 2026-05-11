@@ -7,6 +7,8 @@ tags:
   - 定时任务
   - schedule
 module: 10-SpringBoot-schedule-async
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot 定时任务
 

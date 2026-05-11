@@ -4,6 +4,7 @@ type: concept
 category: AI/Models
 tags: [AI, LLM, local-model, open-source]
 aliases: [本地大模型, 本地AI]
+area: [[AI]]
 ---
 # Ollama
 

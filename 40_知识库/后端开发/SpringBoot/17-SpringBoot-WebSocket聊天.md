@@ -8,6 +8,8 @@ tags:
   - stomp
   - 聊天
 module: 17-SpringBoot-websocket-chat
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot WebSocket 聊天
 

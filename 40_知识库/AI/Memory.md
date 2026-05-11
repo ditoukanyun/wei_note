@@ -4,6 +4,7 @@ type: concept
 category: AI/Agents
 tags: [AI, Agent, memory, context, persistence]
 aliases: [记忆, 记忆系统, 上下文]
+area: [[AI]]
 ---
 # Memory
 

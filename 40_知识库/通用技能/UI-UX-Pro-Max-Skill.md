@@ -8,6 +8,8 @@ tags:
   - 资源库
 source: "[[GitHub - UI UX Pro Max Skill]]"
 url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+area: [[UI-UX-Pro-Max-Skill]]
+created: 2026-05-11
 ---
 # UI UX Pro Max Skill
 

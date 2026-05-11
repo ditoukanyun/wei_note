@@ -8,6 +8,8 @@ tags:
   - 幂等性
   - idempotency
 module: 18-SpringBoot-idempotency
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot 接口幂等性
 

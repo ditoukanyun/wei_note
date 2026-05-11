@@ -4,6 +4,8 @@ date: 2022-10-07
 tags: [React, 源码, JSX, Fiber, 渲染]
 category: 源码解析
 status: active
+area: [[前端开发]]
+created: 2022-10-07
 ---
 # React 核心源码解析
 

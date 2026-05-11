@@ -8,6 +8,8 @@ tags:
   - resilience4j
   - 降级
 module: 28-SpringBoot-openfeign-fallback
+area: [[后端开发]]
+created: 2026-04-28
 ---
 # SpringBoot OpenFeign 与降级
 

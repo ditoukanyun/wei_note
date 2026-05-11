@@ -5,6 +5,8 @@ tags: [RAG, 知识库, 大模型, 人工智能, MOC]
 category: 领域
 status: active
 aliases: [RAG知识库, RAG技术导航]
+area: [[AI]]
+created: 2025-02-10
 ---
 # RAG技术知识库
 

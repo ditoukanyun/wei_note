@@ -5,6 +5,8 @@ tags:
   - Java
   - 泛型
   - 类型安全
+area: [[后端开发]]
+created: 2026-03-26
 ---
 # Java 泛型
 

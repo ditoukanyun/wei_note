@@ -6,6 +6,8 @@ category: 领域
 status: active
 parent: "[[MOC-RAG]]"
 aliases: [RAG检索, 向量搜索, Rerank]
+area: [[AI]]
+created: 2025-02-10
 ---
 # RAG实时检索与重排序
 

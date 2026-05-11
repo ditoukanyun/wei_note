@@ -8,6 +8,7 @@ created: 2026-04-14
 description: "99% of our production code is written by AI. Last Tuesday, we shipped a new feature at 10 AM, A/B tested it by noon, and killed it by 3 PM b..."
 tags:
   - "clippings"
+area: [[AI]]
 ---
 ![图像](https://pbs.twimg.com/media/HFwEJl_bEAAPyc8?format=jpg&name=large)
 

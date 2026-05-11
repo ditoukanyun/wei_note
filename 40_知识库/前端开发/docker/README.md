@@ -5,6 +5,8 @@ tags: [docker, 容器化, 前端开发]
 category: 知识库/前端开发/docker
 status: active
 aliases: [容器技术, Docker技术]
+area: [[前端开发]]
+created: 2024-01-15
 ---
 # Docker
 

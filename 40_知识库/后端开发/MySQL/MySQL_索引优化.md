@@ -2,6 +2,7 @@
 type: wiki
 tags: [mysql, 索引, 性能优化]
 created: 2026-03-18
+area: [[后端开发]]
 ---
 # MySQL 索引优化
 

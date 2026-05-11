@@ -8,6 +8,8 @@ author: sky陈天
 source: https://mp.weixin.qq.com/s/TxQZca1mY46usqK08t7hNQ
 aliases: [Claude Code 入门, Skills 教程]
 priority: high
+area: [[AI]]
+created: 2025-02-11
 ---
 # Claude Code + Skills 保姆级入门教程
 

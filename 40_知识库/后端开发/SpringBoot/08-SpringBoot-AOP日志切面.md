@@ -7,6 +7,8 @@ tags:
   - aop
   - 日志
 module: 08-SpringBoot-aop-log
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot AOP 日志切面
 

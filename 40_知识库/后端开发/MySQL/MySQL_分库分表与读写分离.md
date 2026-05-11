@@ -2,6 +2,7 @@
 type: wiki
 tags: [mysql, 分库分表, 读写分离, 架构]
 created: 2026-03-18
+area: [[后端开发]]
 ---
 # MySQL 分库分表与读写分离
 ## 什么时候考虑拆分

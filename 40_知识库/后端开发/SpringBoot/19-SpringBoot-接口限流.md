@@ -8,6 +8,8 @@ tags:
   - 限流
   - rate-limit
 module: 19-SpringBoot-rate-limit
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot 接口限流
 

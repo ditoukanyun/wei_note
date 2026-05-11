@@ -9,6 +9,8 @@ aliases:
   - HTML基础
   - HTML入门
 parent: "[[00-HTML-MOC|HTML知识地图]]"
+area: [[前端开发]]
+created: 2026-02-10
 ---
 # HTML基础入门
 

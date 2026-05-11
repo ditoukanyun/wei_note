@@ -5,6 +5,8 @@ tags: [React, Scheduler, 调度器, 源码, 异步]
 category: 源码解析
 status: active
 parent: "[[React-源码-核心]]"
+area: [[前端开发]]
+created: 2022-10-07
 ---
 # Scheduler 调度器源码解读
 

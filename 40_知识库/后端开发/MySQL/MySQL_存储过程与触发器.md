@@ -2,6 +2,7 @@
 type: wiki
 tags: [mysql, 存储过程, 触发器]
 created: 2026-03-18
+area: [[后端开发]]
 ---
 # MySQL 存储过程与触发器
 ## 存储过程

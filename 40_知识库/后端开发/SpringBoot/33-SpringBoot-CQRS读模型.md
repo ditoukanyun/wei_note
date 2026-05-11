@@ -8,6 +8,8 @@ tags:
   - 读写分离
   - 领域事件
 module: 33-SpringBoot-cqrs-read-model
+area: [[后端开发]]
+created: 2026-04-28
 ---
 # SpringBoot CQRS 读模型
 

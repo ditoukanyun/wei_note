@@ -4,6 +4,8 @@ date: 2026-02-11
 tags: [前端框架, 状态管理, React, 服务器状态, 数据获取]
 category: 前端开发
 status: active
+area: [[前端开发]]
+created: 2026-02-11
 ---
 # TanStack Query (React Query)
 

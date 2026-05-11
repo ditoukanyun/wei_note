@@ -8,6 +8,8 @@ tags:
   - springcloud
   - 灰度发布
 module: 27-SpringBoot-gateway-routing
+area: [[后端开发]]
+created: 2026-04-28
 ---
 # SpringBoot Gateway 路由
 

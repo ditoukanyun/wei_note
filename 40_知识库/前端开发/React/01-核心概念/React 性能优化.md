@@ -12,6 +12,8 @@ status: completed
 reference:
   - https://juejin.cn/post/6908895801116721160
   - https://vercel.com/engineering/react-best-practices
+area: [[前端开发]]
+created: 2026-02-10
 ---
 # React 性能优化完全指南
 

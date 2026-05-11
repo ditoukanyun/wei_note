@@ -8,6 +8,8 @@ tags:
   - api聚合
   - 降级
 module: 30-SpringBoot-bff-aggregation
+area: [[后端开发]]
+created: 2026-04-28
 ---
 # SpringBoot BFF 聚合接口
 

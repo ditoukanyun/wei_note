@@ -6,6 +6,8 @@ category: 领域
 status: active
 parent: "[[MOC-RAG]]"
 aliases: [RAG优化, HyDE, 高级RAG, RAG进阶]
+area: [[AI]]
+created: 2025-02-10
 ---
 # RAG高级优化策略
 

@@ -10,6 +10,8 @@ tags:
 aliases:
   - ETF T0交易清单
   - 日内交易检查清单
+area: [[交易]]
+created: 2025-02-24
 ---
 # ETF T+0 交易检查清单
 

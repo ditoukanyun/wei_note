@@ -9,6 +9,8 @@ tags:
   - 补偿机制
   - 超时取消
 module: 20-SpringBoot-order-create-pay
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot 订单创建与支付
 

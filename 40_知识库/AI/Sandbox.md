@@ -4,6 +4,7 @@ type: concept
 category: AI/Agents
 tags: [AI, Agent, security, sandbox, isolation]
 aliases: [沙盒, 沙箱, 隔离环境]
+area: [[AI]]
 ---
 # Sandbox
 

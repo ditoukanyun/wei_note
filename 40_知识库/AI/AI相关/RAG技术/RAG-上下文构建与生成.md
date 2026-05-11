@@ -6,6 +6,8 @@ category: 领域
 status: active
 parent: "[[MOC-RAG]]"
 aliases: [RAG生成, 提示构建, Prompt Engineering]
+area: [[AI]]
+created: 2025-02-10
 ---
 # RAG上下文构建与生成
 

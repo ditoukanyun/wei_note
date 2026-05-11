@@ -10,6 +10,8 @@ tags:
   - 企业部署
 source: "[[Claude Platform Documentation]]"
 url: https://platform.claude.com/docs/en/managed-agents/overview
+area: [[AI]]
+created: 2026-05-11
 ---
 # Claude Platform Managed Agents
 

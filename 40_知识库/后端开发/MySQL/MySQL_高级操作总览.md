@@ -2,6 +2,7 @@
 type: wiki
 tags: [mysql, sql, 数据库, 高级]
 created: 2026-03-18
+area: [[后端开发]]
 ---
 # MySQL 高级操作总览
 ## 已整理专题

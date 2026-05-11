@@ -6,6 +6,8 @@ category: 领域
 status: active
 parent: "[[MOC-RAG]]"
 aliases: [RAG索引, 文档向量化, 向量数据库构建]
+area: [[AI]]
+created: 2025-02-10
 ---
 # RAG数据预处理与索引
 

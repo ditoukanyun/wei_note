@@ -8,6 +8,8 @@ tags:
   - 补偿事务
   - 最终一致性
 module: 32-SpringBoot-saga-compensation
+area: [[后端开发]]
+created: 2026-04-28
 ---
 # SpringBoot Saga 补偿事务
 

@@ -18,6 +18,8 @@ aliases:
   - Day36-45
 parent: "[[00-导航-Python编程导航]]"
 up: "[[00-MOC-知识地图]]"
+area: [[Python编程]]
+created: 2026-02-10
 ---
 # Python数据库与SQL (Day 36-45)
 

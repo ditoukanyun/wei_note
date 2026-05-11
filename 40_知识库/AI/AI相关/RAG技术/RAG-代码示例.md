@@ -6,6 +6,8 @@ category: 领域
 status: active
 parent: "[[MOC-RAG]]"
 aliases: [RAG代码, RAG实现, RAG实战]
+area: [[AI]]
+created: 2025-02-10
 ---
 # RAG代码示例合集
 

@@ -8,6 +8,8 @@ tags:
   - 灰度发布
   - 稳定哈希
 module: 35-SpringBoot-feature-flag-gray-release
+area: [[后端开发]]
+created: 2026-04-28
 ---
 # SpringBoot Feature Flag 与灰度发布
 

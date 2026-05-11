@@ -10,6 +10,8 @@ aliases:
   - Canvas画板
   - Canvas实战
 parent: "[[00-HTML-MOC|HTML知识地图]]"
+area: [[前端开发]]
+created: 2026-02-10
 ---
 # Canvas实战案例：原生JS画板
 

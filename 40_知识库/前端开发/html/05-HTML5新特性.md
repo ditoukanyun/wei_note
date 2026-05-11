@@ -10,6 +10,8 @@ aliases:
   - HTML5
   - 新特性
 parent: "[[00-HTML-MOC|HTML知识地图]]"
+area: [[前端开发]]
+created: 2026-02-10
 ---
 # HTML5新特性
 

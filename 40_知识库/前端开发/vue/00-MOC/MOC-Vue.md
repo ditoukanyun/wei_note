@@ -4,6 +4,8 @@ date: 2025-02-11
 tags: [vue, frontend, moc]
 category: MOC
 status: active
+area: [[前端开发]]
+created: 2025-02-11
 ---
 # Vue 知识库索引
 

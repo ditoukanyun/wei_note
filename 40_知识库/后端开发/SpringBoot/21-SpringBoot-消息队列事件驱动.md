@@ -9,6 +9,8 @@ tags:
   - 重试
   - 死信
 module: 21-SpringBoot-mq-event-driven
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot 消息队列事件驱动
 

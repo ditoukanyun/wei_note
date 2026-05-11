@@ -8,6 +8,8 @@ tags:
   - 灰度发布
   - 兼容性
 module: 22-SpringBoot-api-versioning
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot API 版本管理
 

@@ -2,6 +2,7 @@
 type: wiki
 tags: [mysql, 事务, 锁, 并发]
 created: 2026-03-18
+area: [[后端开发]]
 ---
 # MySQL 事务与锁
 

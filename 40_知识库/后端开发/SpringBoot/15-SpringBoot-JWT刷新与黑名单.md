@@ -9,6 +9,8 @@ tags:
   - 刷新令牌
   - 黑名单
 module: 15-SpringBoot-jwt-refresh-blacklist
+area: [[后端开发]]
+created: 2026-04-20
 ---
 # SpringBoot JWT 刷新与黑名单
 

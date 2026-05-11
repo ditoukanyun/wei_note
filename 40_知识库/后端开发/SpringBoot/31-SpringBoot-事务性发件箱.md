@@ -8,6 +8,8 @@ tags:
   - 事件驱动
   - 最终一致性
 module: 31-SpringBoot-transactional-outbox
+area: [[后端开发]]
+created: 2026-04-28
 ---
 # SpringBoot 事务性发件箱
 

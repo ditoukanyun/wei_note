@@ -4,6 +4,7 @@ type: concept
 category: AI/Agents
 tags: [AI, Agent, LLM, automation]
 aliases: [智能代理, AI代理, Agentic AI]
+area: [[AI]]
 ---
 # AI Agent
 

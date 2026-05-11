@@ -11,6 +11,8 @@ aliases:
 status: 已完成
 priority: 高
 description: HTML超文本标记语言的完整学习指南，包含基础语法、标签详解、HTML5新特性及实战案例
+area: [[前端开发]]
+created: 2026-02-10
 ---
 # HTML 完全学习指南
 
