@@ -146,6 +146,320 @@ private void triggerHotRefresh(Long id) {
 
 `hotRefreshInProgress` 保证同一热点 key 同一时间只有一个刷新任务。
 
+## 初学者学习路线
+
+- 先把这个案例当成“最小可运行样例”，目标是理解 SpringBoot 缓存治理模式 的主流程。
+- 先运行 README 里的启动命令和 curl，再带着现象回到代码里找入口。
+- 每读一个类都问三件事：它由谁调用、它依赖谁、它改变了什么状态。
+
+## 代码导读
+
+下面的代码片段来自案例源码，并额外补了中文教学注释。阅读时先看注释理解职责，再回到完整源码核对细节。
+
+### 接口入口：Controller 如何接收请求
+
+源码位置：`src/main/java/com/cloud/controller/CachePatternsController.java`
+
+Controller 是 HTTP 世界和 Java 代码世界之间的边界：路径、请求参数、返回值都在这里集中出现。
+
+```java
+// 文件：com/cloud/controller/CachePatternsController.java
+// 学习重点：Controller 是 HTTP 世界和 Java 代码世界之间的边界：路径、请求参数、返回值都在这里集中出现。
+// @RestController 表示这个类的返回值会直接写到 HTTP 响应体里，常用于 JSON API。
+@RestController
+// 类级别路径是这一组接口的共同前缀。
+@RequestMapping("/api/cache-patterns")
+public class CachePatternsController {
+
+    private final CachePatternsService cachePatternsService;
+
+    // 构造器注入：依赖从 Spring 容器传入，代码更容易测试，也避免隐藏依赖。
+    public CachePatternsController(CachePatternsService cachePatternsService) {
+        this.cachePatternsService = cachePatternsService;
+    }
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @GetMapping
+    public ApiResult<Map<String, Object>> moduleInfo() {
+        Map<String, Object> info = new LinkedHashMap<>();
+        info.put("module", "24-SpringBoot-cache-patterns");
+        info.put("desc", "缓存穿透/击穿/雪崩与热点 key 逻辑过期演示");
+        info.put("metrics", cachePatternsService.metrics().toMap());
+        return ApiResult.success(info);
+    }
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @GetMapping("/product/{id}")
+    public ResponseEntity<ApiResult<Product>> getProduct(@PathVariable Long id) {
+        Optional<Product> product = cachePatternsService.getProduct(id);
+        if (product.isEmpty()) {
+            return ResponseEntity.status(404).body(ApiResult.fail(404, "商品不存在"));
+        }
+        return ResponseEntity.ok(ApiResult.success(product.get()));
+    }
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @GetMapping("/hot/{id}")
+    public ResponseEntity<ApiResult<Product>> getHotProduct(@PathVariable Long id) {
+        Optional<Product> product = cachePatternsService.getHotProduct(id);
+        if (product.isEmpty()) {
+            return ResponseEntity.status(404).body(ApiResult.fail(404, "商品不存在"));
+        }
+        return ResponseEntity.ok(ApiResult.success(product.get()));
+    }
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @PostMapping("/hot/{id}/mark")
+    public ApiResult<Map<String, Object>> markHotKey(@PathVariable Long id) {
+        cachePatternsService.markHotKey(id);
+        Map<String, Object> data = new LinkedHashMap<>();
+        data.put("hotKeyId", id);
+        data.put("marked", true);
+        return ApiResult.success(data);
+    }
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @DeleteMapping("/cache")
+    public ApiResult<Map<String, Object>> clearCache() {
+        cachePatternsService.clearCache();
+        Map<String, Object> data = new LinkedHashMap<>();
+        data.put("cleared", true);
+        return ApiResult.success(data);
+    }
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @GetMapping("/metrics")
+    public ApiResult<Map<String, Long>> metrics() {
+        return ApiResult.success(cachePatternsService.metrics().toMap());
+    }
+}
+```
+
+关键点拆解：
+
+- 先把 README 里的 curl 路径和这里的 `@RequestMapping` / `@GetMapping` / `@PostMapping` 对上。
+- Controller 不应该堆复杂业务逻辑；看到它调用 Service，就说明职责分层是清楚的。
+- 读完代码后，回到“生产差距”检查：安全、异常、监控、容量、测试是否都补齐。
+
+### 业务核心：Service 如何组织规则
+
+源码位置：`src/main/java/com/cloud/service/CachePatternsService.java`
+
+Service 承载业务规则，初学者要重点看它如何校验输入、调用依赖、返回结果。
+
+```java
+// 文件：com/cloud/service/CachePatternsService.java
+// 学习重点：Service 承载业务规则，初学者要重点看它如何校验输入、调用依赖、返回结果。
+// @Service 表示这是业务层 Bean，会被 Spring 自动扫描并注入。
+@Service
+public class CachePatternsService {
+
+    private final InMemoryProductStore productStore;
+    private final long baseTtlSeconds;
+    private final long ttlJitterSeconds;
+    private final long nullTtlSeconds;
+    private final long hotLogicalExpireSeconds;
+    private final long lockWaitMs;
+
+    private final ConcurrentMap<Long, CachedProduct> cache = new ConcurrentHashMap<>();
+    private final ConcurrentMap<Long, ReentrantLock> rebuildLocks = new ConcurrentHashMap<>();
+    private final Set<Long> hotKeys = ConcurrentHashMap.newKeySet();
+    private final Set<Long> hotRefreshInProgress = ConcurrentHashMap.newKeySet();
+    private final ExecutorService refreshExecutor = Executors.newFixedThreadPool(2);
+
+    private final CacheMetrics metrics = new CacheMetrics();
+
+    public CachePatternsService(InMemoryProductStore productStore,
+                                @Value("${demo.cache.base-ttl-seconds:30}") long baseTtlSeconds,
+                                @Value("${demo.cache.ttl-jitter-seconds:10}") long ttlJitterSeconds,
+                                @Value("${demo.cache.null-ttl-seconds:10}") long nullTtlSeconds,
+                                @Value("${demo.cache.hot-logical-expire-seconds:30}") long hotLogicalExpireSeconds,
+                                @Value("${demo.cache.lock-wait-ms:50}") long lockWaitMs) {
+        this.productStore = productStore;
+        this.baseTtlSeconds = baseTtlSeconds;
+        this.ttlJitterSeconds = ttlJitterSeconds;
+        this.nullTtlSeconds = nullTtlSeconds;
+        this.hotLogicalExpireSeconds = hotLogicalExpireSeconds;
+        this.lockWaitMs = lockWaitMs;
+    }
+
+    public Optional<Product> getProduct(Long id) {
+        validateId(id);
+        long now = System.currentTimeMillis();
+        CacheReadResult cached = readCache(id, now, true);
+        if (cached.hit()) {
+            return cached.product();
+        }
+
+        metrics.incCacheMiss();
+        if (!productStore.exists(id)) {
+            cacheNullValue(id, now);
+            return Optional.empty();
+        }
+        return loadWithMutex(id, false);
+    }
+
+    public Optional<Product> getHotProduct(Long id) {
+        validateId(id);
+        if (!hotKeys.contains(id)) {
+            return getProduct(id);
+        }
+        long now = System.currentTimeMillis();
+        CachedProduct cached = cache.get(id);
+        if (cached == null || cached.isExpired(now)) {
+            metrics.incCacheMiss();
+            return loadWithMutex(id, true);
+        }
+
+        metrics.incCacheHit();
+        if (cached.isNullValue()) {
+            metrics.incNullCacheHit();
+            return Optional.empty();
+        }
+
+        if (cached.isLogicalExpired(now)) {
+            triggerHotRefresh(id);
+        }
+        return Optional.of(cached.getProduct());
+    }
+
+    public void markHotKey(Long id) {
+        validateId(id);
+        hotKeys.add(id);
+    }
+
+    public CacheMetrics metrics() {
+        return metrics;
+    }
+
+    public void clearCache() {
+        cache.clear();
+        hotRefreshInProgress.clear();
+    }
+
+    @PreDestroy
+    public void shutdown() {
+        refreshExecutor.shutdownNow();
+    }
+
+    private Optional<Product> loadWithMutex(Long id, boolean hotMode) {
+        ReentrantLock lock = rebuildLocks.computeIfAbsent(id, key -> new ReentrantLock());
+        if (!lock.tryLock()) {
+            metrics.incBreakdownLockWait();
+            sleepSafely(lockWaitMs);
+            CacheReadResult retryRead = readCache(id, System.currentTimeMillis(), true);
+            if (retryRead.hit()) {
+                return retryRead.product();
+            }
+            lock.lock();
+        }
+
+        try {
+            CacheReadResult doubleCheck = readCache(id, System.currentTimeMillis(), true);
+    // ... 省略其余辅助代码，完整实现以源码为准。
+}
+```
+
+关键点拆解：
+
+- Service 的 public 方法通常就是一个用例，例如创建、查询、刷新、投递、同步。
+- 先看输入校验，再看调用了哪些依赖，最后看返回对象。
+- 读完代码后，回到“生产差距”检查：安全、异常、监控、容量、测试是否都补齐。
+
+### 关键类：GlobalExceptionHandler
+
+源码位置：`src/main/java/com/cloud/exception/GlobalExceptionHandler.java`
+
+这是案例链路中的关键类，读它可以把 README 的概念落到具体代码。
+
+```java
+// 文件：com/cloud/exception/GlobalExceptionHandler.java
+// 学习重点：这是案例链路中的关键类，读它可以把 README 的概念落到具体代码。
+// @RestController 表示这个类的返回值会直接写到 HTTP 响应体里，常用于 JSON API。
+@RestControllerAdvice
+public class GlobalExceptionHandler {
+
+    private static final Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);
+
+    @ExceptionHandler(IllegalArgumentException.class)
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    public ApiResult<Void> handleIllegalArgumentException(IllegalArgumentException ex) {
+        return ApiResult.fail(400, ex.getMessage());
+    }
+
+    @ExceptionHandler(Exception.class)
+    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+    public ApiResult<Void> handleException(Exception ex) {
+        log.error("Unhandled exception", ex);
+        return ApiResult.fail(500, "系统异常，请稍后重试");
+    }
+}
+```
+
+关键点拆解：
+
+- 先看这个类暴露了哪些 public 方法，再看它依赖了哪些对象。
+- 读完代码后，回到“生产差距”检查：安全、异常、监控、容量、测试是否都补齐。
+
+### 关键类：CachedProduct
+
+源码位置：`src/main/java/com/cloud/model/CachedProduct.java`
+
+这是案例链路中的关键类，读它可以把 README 的概念落到具体代码。
+
+```java
+// 文件：com/cloud/model/CachedProduct.java
+// 学习重点：这是案例链路中的关键类，读它可以把 README 的概念落到具体代码。
+public class CachedProduct {
+
+    private final Product product;
+    private final boolean nullValue;
+    private final long expireAtMillis;
+    private final long logicalExpireAtMillis;
+
+    // 构造器注入：依赖从 Spring 容器传入，代码更容易测试，也避免隐藏依赖。
+    public CachedProduct(Product product, boolean nullValue, long expireAtMillis, long logicalExpireAtMillis) {
+        this.product = product;
+        this.nullValue = nullValue;
+        this.expireAtMillis = expireAtMillis;
+        this.logicalExpireAtMillis = logicalExpireAtMillis;
+    }
+
+    public Product getProduct() {
+        return product;
+    }
+
+    public boolean isNullValue() {
+        return nullValue;
+    }
+
+    public boolean isExpired(long nowMillis) {
+        return nowMillis >= expireAtMillis;
+    }
+
+    public boolean isLogicalExpired(long nowMillis) {
+        return logicalExpireAtMillis > 0 && nowMillis >= logicalExpireAtMillis;
+    }
+}
+```
+
+关键点拆解：
+
+- 先看这个类暴露了哪些 public 方法，再看它依赖了哪些对象。
+- 读完代码后，回到“生产差距”检查：安全、异常、监控、容量、测试是否都补齐。
+
+## 运行时调用链
+
+- 从 README 的接口或测试名称开始，先定位入口类。
+- 找 Controller、Runner、Listener 或 AutoConfiguration 作为第一阅读点。
+- 沿着构造器注入的依赖继续进入 Service、Repository 或扩展点类。
+
+## 初学者常见误区
+
+- 只把接口跑通，却没有回到代码理解 Controller、Service、Repository 的分工。
+- 把内存 Map、模拟客户端、固定配置当成生产实现。
+- 只看 happy path，忽略参数错误、外部系统失败、并发和重复请求。
+
 ## API 接口
 
 | 方法 | 路径 | 说明 |
@@ -168,6 +482,12 @@ curl -X POST "http://localhost:8104/api/cache-patterns/hot/2/mark"
 curl "http://localhost:8104/api/cache-patterns/hot/2"
 curl "http://localhost:8104/api/cache-patterns/metrics"
 ```
+
+## 生产差距
+
+这个示例适合帮助初学者理解 缓存治理模式 的核心机制，但生产项目不能只停留在“能跑通”。真实落地时至少要补齐：统一鉴权、参数边界校验、异常响应、结构化日志、监控指标、自动化测试、配置隔离和容量评估。
+
+如果模块涉及数据库、缓存、消息、网关、认证或外部服务，还要进一步考虑连接池、超时、重试、幂等、事务边界、数据一致性和故障告警。学习时可以先记住主流程，再用这些生产差距反向检查自己是否真正理解了案例。
 
 ## 要点总结
 

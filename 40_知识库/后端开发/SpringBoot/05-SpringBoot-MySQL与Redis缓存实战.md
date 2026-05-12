@@ -430,6 +430,464 @@ member → score
 > 数据库排序需要 `SELECT product_id, COUNT(*) FROM orders GROUP BY product_id ORDER BY count DESC`，全表扫描，性能差。
 > ZSet 的排序由 Redis 内部跳表实现，O(log N) 复杂度，实时性高。
 
+## 初学者学习路线
+
+- 先把这个案例当成“最小可运行样例”，目标是理解 SpringBoot MySQL + Redis 缓存实战 的主流程。
+- 先运行 README 里的启动命令和 curl，再带着现象回到代码里找入口。
+- 每读一个类都问三件事：它由谁调用、它依赖谁、它改变了什么状态。
+
+## 代码导读
+
+下面的代码片段来自案例源码，并额外补了中文教学注释。阅读时先看注释理解职责，再回到完整源码核对细节。
+
+### 接口入口：Controller 如何接收请求
+
+源码位置：`src/main/java/com/cloud/controller/CacheDemoController.java`
+
+Controller 是 HTTP 世界和 Java 代码世界之间的边界：路径、请求参数、返回值都在这里集中出现。
+
+```java
+// 文件：com/cloud/controller/CacheDemoController.java
+// 学习重点：Controller 是 HTTP 世界和 Java 代码世界之间的边界：路径、请求参数、返回值都在这里集中出现。
+// @RestController 表示这个类的返回值会直接写到 HTTP 响应体里，常用于 JSON API。
+@RestController
+// 类级别路径是这一组接口的共同前缀。
+@RequestMapping("/api/cache")
+@RequiredArgsConstructor
+public class CacheDemoController {
+
+    private final ProductService productService;
+    private final OrderService orderService;
+
+    // ==================== 商品相关 API ====================
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @GetMapping("/product/{id}")
+    public ResponseEntity<Product> getProduct(@PathVariable Long id) {
+        Product product = productService.getProductById(id);
+        return product != null ? ResponseEntity.ok(product) : ResponseEntity.notFound().build();
+    }
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @GetMapping("/products")
+    public ResponseEntity<List<Product>> getProductList() {
+        return ResponseEntity.ok(productService.getProductList());
+    }
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @PostMapping("/product")
+    public ResponseEntity<Product> createProduct(@RequestBody Product product) {
+        return ResponseEntity.ok(productService.createProduct(product));
+    }
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @PutMapping("/product/{id}")
+    public ResponseEntity<Void> updateProduct(@PathVariable Long id, @RequestBody Product product) {
+        product.setId(id);
+        productService.updateProduct(product);
+        return ResponseEntity.ok().build();
+    }
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @DeleteMapping("/product/{id}")
+    public ResponseEntity<Void> deleteProduct(@PathVariable Long id) {
+        productService.deleteProduct(id);
+        return ResponseEntity.ok().build();
+    }
+
+    // ==================== 订单相关 API ====================
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @GetMapping("/order/{id}")
+    public ResponseEntity<Order> getOrder(@PathVariable Long id) {
+        Order order = orderService.getOrderById(id);
+        return order != null ? ResponseEntity.ok(order) : ResponseEntity.notFound().build();
+    }
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @GetMapping("/orders/user/{userId}")
+    public ResponseEntity<List<Order>> getUserOrders(@PathVariable Long userId) {
+        return ResponseEntity.ok(orderService.getOrdersByUserId(userId));
+    }
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @PostMapping("/order")
+    public ResponseEntity<Order> createOrder(
+            @RequestParam Long userId,
+            @RequestParam Long productId,
+            @RequestParam Integer quantity) {
+        return ResponseEntity.ok(orderService.createOrder(userId, productId, quantity));
+    }
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @PostMapping("/order/{orderId}/pay")
+    public ResponseEntity<Void> payOrder(@PathVariable Long orderId) {
+        orderService.payOrder(orderId);
+        return ResponseEntity.ok().build();
+    }
+
+    // ==================== 缓存演示 API ====================
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @GetMapping("/hot-products")
+    public ResponseEntity<List<Long>> getHotProducts() {
+        return ResponseEntity.ok(orderService.getHotProducts());
+    }
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @DeleteMapping("/clear")
+    public ResponseEntity<Map<String, Object>> clearAllCache() {
+        productService.clearAllCache();
+        Map<String, Object> result = new HashMap<>();
+        result.put("message", "All cache cleared");
+        return ResponseEntity.ok(result);
+    }
+
+    // 方法级别映射说明具体 HTTP 动词和子路径。
+    @GetMapping
+    public ResponseEntity<Map<String, Object>> getAllApis() {
+        Map<String, Object> apis = new HashMap<>();
+        apis.put("module", "05-SpringBoot-mysql-redis");
+        apis.put("desc", "MySQL + Redis 经典缓存场景：旁路缓存、缓存穿透、热榜和缓存一致性");
+        
+        Map<String, String> productApis = new HashMap<>();
+        productApis.put("GET /api/cache/product/{id}", "查询商品（演示缓存穿透、击穿、雪崩防护）");
+        productApis.put("GET /api/cache/products", "查询商品列表");
+        productApis.put("POST /api/cache/product", "创建商品");
+        productApis.put("PUT /api/cache/product/{id}", "更新商品（演示延时双删）");
+        productApis.put("DELETE /api/cache/product/{id}", "删除商品");
+        
+        Map<String, String> orderApis = new HashMap<>();
+        orderApis.put("GET /api/cache/order/{id}", "查询订单");
+        orderApis.put("GET /api/cache/orders/user/{userId}", "查询用户订单列表");
+        orderApis.put("POST /api/cache/order", "创建订单（演示事务+缓存一致性）");
+        orderApis.put("POST /api/cache/order/{orderId}/pay", "支付订单");
+        
+        Map<String, String> cacheApis = new HashMap<>();
+        cacheApis.put("GET /api/cache/hot-products", "热销商品榜");
+        cacheApis.put("DELETE /api/cache/clear", "清空所有缓存");
+        
+        apis.put("商品管理", productApis);
+    // ... 省略其余辅助代码，完整实现以源码为准。
+}
+```
+
+关键点拆解：
+
+- 先把 README 里的 curl 路径和这里的 `@RequestMapping` / `@GetMapping` / `@PostMapping` 对上。
+- Controller 不应该堆复杂业务逻辑；看到它调用 Service，就说明职责分层是清楚的。
+- 读完代码后，回到“生产差距”检查：安全、异常、监控、容量、测试是否都补齐。
+
+### 业务核心：Service 如何组织规则
+
+源码位置：`src/main/java/com/cloud/service/OrderService.java`
+
+Service 承载业务规则，初学者要重点看它如何校验输入、调用依赖、返回结果。
+
+```java
+// 文件：com/cloud/service/OrderService.java
+// 学习重点：Service 承载业务规则，初学者要重点看它如何校验输入、调用依赖、返回结果。
+@Slf4j
+// @Service 表示这是业务层 Bean，会被 Spring 自动扫描并注入。
+@Service
+@RequiredArgsConstructor
+public class OrderService {
+
+    private final OrderMapper orderMapper;
+    private final ProductMapper productMapper;
+    private final RedisTemplate<String, Object> redisTemplate;
+    
+    private static final String ORDER_KEY_PREFIX = "order:id:";
+    private static final String ORDER_USER_KEY_PREFIX = "order:user:";
+    private static final String HOT_PRODUCT_KEY_PREFIX = "product:hot:";
+    
+    private final Random random = new Random();
+
+    /**
+     * 查询订单（带缓存）
+     */
+    public Order getOrderById(Long id) {
+        String cacheKey = ORDER_KEY_PREFIX + id;
+        Order order = (Order) redisTemplate.opsForValue().get(cacheKey);
+        
+        if (order != null) {
+            log.info("Order cache hit: {}", id);
+            return order;
+        }
+        
+        order = orderMapper.selectById(id);
+        if (order != null) {
+            long ttl = 20 + random.nextInt(10);
+            redisTemplate.opsForValue().set(cacheKey, order, ttl, TimeUnit.MINUTES);
+        }
+        
+        return order;
+    }
+
+    /**
+     * 查询用户订单列表
+     */
+    public List<Order> getOrdersByUserId(Long userId) {
+        String cacheKey = ORDER_USER_KEY_PREFIX + userId;
+        
+        @SuppressWarnings("unchecked")
+        List<Order> orders = (List<Order>) redisTemplate.opsForValue().get(cacheKey);
+        
+        if (orders != null) {
+            return orders;
+        }
+        
+        orders = orderMapper.selectByUserId(userId);
+        
+        long ttl = 15 + random.nextInt(5);
+        redisTemplate.opsForValue().set(cacheKey, orders, ttl, TimeUnit.MINUTES);
+        
+        return orders;
+    }
+
+    /**
+     * 创建订单（事务 + 库存扣减 + 缓存更新）
+     */
+    @Transactional
+    public Order createOrder(Long userId, Long productId, Integer quantity) {
+        // 1. 查询商品
+        Product product = productMapper.selectById(productId);
+        if (product == null || product.getStock() < quantity) {
+            throw new RuntimeException("商品不存在或库存不足");
+        }
+        
+        // 2. 扣减库存
+        int affected = productMapper.updateStock(productId, quantity);
+        if (affected == 0) {
+            throw new RuntimeException("库存扣减失败");
+        }
+        
+        // 3. 创建订单
+        Order order = new Order();
+        order.setOrderNo(generateOrderNo());
+        order.setUserId(userId);
+        order.setProductId(productId);
+        order.setQuantity(quantity);
+        order.setTotalAmount(product.getPrice().multiply(new BigDecimal(quantity)));
+        order.setStatus(0);
+        order.setCreateTime(LocalDateTime.now());
+        
+        orderMapper.insert(order);
+        
+        // 4. 删除相关缓存
+        deleteOrderCache(userId);
+        
+        // 5. 更新热销商品排行榜
+        updateHotProducts(productId);
+        
+        log.info("Order created: {}, user: {}, product: {}", 
+            order.getOrderNo(), userId, productId);
+        
+        return order;
+    }
+
+    /**
+     * 支付订单
+     */
+    @Transactional
+    public void payOrder(Long orderId) {
+        Order order = orderMapper.selectById(orderId);
+        if (order == null || order.getStatus() != 0) {
+    // ... 省略其余辅助代码，完整实现以源码为准。
+}
+```
+
+关键点拆解：
+
+- Service 的 public 方法通常就是一个用例，例如创建、查询、刷新、投递、同步。
+- 先看输入校验，再看调用了哪些依赖，最后看返回对象。
+- 读完代码后，回到“生产差距”检查：安全、异常、监控、容量、测试是否都补齐。
+
+### 业务核心：Service 如何组织规则
+
+源码位置：`src/main/java/com/cloud/service/ProductService.java`
+
+Service 承载业务规则，初学者要重点看它如何校验输入、调用依赖、返回结果。
+
+```java
+// 文件：com/cloud/service/ProductService.java
+// 学习重点：Service 承载业务规则，初学者要重点看它如何校验输入、调用依赖、返回结果。
+@Slf4j
+// @Service 表示这是业务层 Bean，会被 Spring 自动扫描并注入。
+@Service
+@RequiredArgsConstructor
+public class ProductService {
+
+    private final ProductMapper productMapper;
+    private final RedisTemplate<String, Object> redisTemplate;
+    private final ObjectMapper objectMapper;
+    
+    private static final String PRODUCT_KEY_PREFIX = "product:id:";
+    private static final String PRODUCT_LIST_KEY = "product:list";
+    private static final String PRODUCT_CATEGORY_KEY_PREFIX = "product:category:";
+    private static final String PRODUCT_NULL_KEY_PREFIX = "product:null:";
+    private static final String PRODUCT_LOCK_KEY_PREFIX = "product:lock:";
+    
+    private static final long CACHE_TTL = 30;
+    private static final long NULL_CACHE_TTL = 5;
+    private static final long LOCK_WAIT_TIME = 100;
+    private static final long LOCK_LEASE_TIME = 10;
+    
+    private final Random random = new Random();
+
+    /**
+     * Cache-Aside 模式 + 防穿透 + 防击穿 + 防雪崩
+     */
+    public Product getProductById(Long id) {
+        String cacheKey = PRODUCT_KEY_PREFIX + id;
+        
+        // 1. 先查缓存
+        Product product = getFromCache(cacheKey, Product.class);
+        if (product != null) {
+            log.info("Cache hit for product: {}", id);
+            return product;
+        }
+        
+        // 2. 检查是否缓存了空值（防穿透）
+        String nullKey = PRODUCT_NULL_KEY_PREFIX + id;
+        Boolean hasNull = redisTemplate.hasKey(nullKey);
+        if (Boolean.TRUE.equals(hasNull)) {
+            log.info("Null value cached for product: {}, avoiding DB query", id);
+            return null;
+        }
+        
+        // 3. 防击穿：热点数据加分布式锁
+        String lockKey = PRODUCT_LOCK_KEY_PREFIX + id;
+        boolean locked = tryLock(lockKey);
+        
+        try {
+            if (!locked) {
+                // 没拿到锁，等一下再查缓存
+                Thread.sleep(LOCK_WAIT_TIME);
+                product = getFromCache(cacheKey, Product.class);
+                if (product != null) {
+                    return product;
+                }
+            }
+            
+            // 4. 查数据库
+            product = productMapper.selectById(id);
+            
+            if (product == null) {
+                // 防穿透：缓存空值
+                redisTemplate.opsForValue().set(nullKey, "null", NULL_CACHE_TTL, TimeUnit.MINUTES);
+                return null;
+            }
+            
+            // 5. 写入缓存（防雪崩：随机过期时间）
+            long ttl = CACHE_TTL + random.nextInt(10);
+            setCache(cacheKey, product, ttl);
+            
+            return product;
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            throw new RuntimeException("Interrupted while waiting for cache", e);
+        } finally {
+            if (locked) {
+                unlock(lockKey);
+            }
+        }
+    }
+
+    /**
+     * 获取商品列表（带缓存）
+     */
+    public List<Product> getProductList() {
+        String cacheKey = PRODUCT_LIST_KEY;
+        
+        @SuppressWarnings("unchecked")
+        List<Product> products = (List<Product>) redisTemplate.opsForValue().get(cacheKey);
+        
+        if (products != null) {
+            log.info("Cache hit for product list");
+            return products;
+        }
+        
+        products = productMapper.selectAll();
+        
+        long ttl = CACHE_TTL + random.nextInt(10);
+        redisTemplate.opsForValue().set(cacheKey, products, ttl, TimeUnit.MINUTES);
+        
+        return products;
+    }
+
+    /**
+     * 延时双删策略：更新数据时保证缓存一致性
+    // ... 省略其余辅助代码，完整实现以源码为准。
+}
+```
+
+关键点拆解：
+
+- Service 的 public 方法通常就是一个用例，例如创建、查询、刷新、投递、同步。
+- 先看输入校验，再看调用了哪些依赖，最后看返回对象。
+- 读完代码后，回到“生产差距”检查：安全、异常、监控、容量、测试是否都补齐。
+
+### 配置类：Spring 如何注册基础设施
+
+源码位置：`src/main/java/com/cloud/config/RedisConfig.java`
+
+配置类负责把基础设施对象注册到 Spring 容器，后续请求或启动流程才会用到它们。
+
+```java
+// 文件：com/cloud/config/RedisConfig.java
+// 学习重点：配置类负责把基础设施对象注册到 Spring 容器，后续请求或启动流程才会用到它们。
+// @Configuration 表示这里会声明或注册 Spring 基础设施。
+@Configuration
+public class RedisConfig {
+
+    // @Bean 的返回对象会进入 Spring 容器，之后可以被其他类注入使用。
+    @Bean
+    public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory connectionFactory) {
+        RedisTemplate<String, Object> template = new RedisTemplate<>();
+        template.setConnectionFactory(connectionFactory);
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.registerModule(new JavaTimeModule());
+        objectMapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
+        objectMapper.activateDefaultTyping(
+            LaissezFaireSubTypeValidator.instance,
+            ObjectMapper.DefaultTyping.NON_FINAL,
+            JsonTypeInfo.As.PROPERTY
+        );
+
+        GenericJackson2JsonRedisSerializer jsonSerializer = 
+            new GenericJackson2JsonRedisSerializer(objectMapper);
+        StringRedisSerializer stringSerializer = new StringRedisSerializer();
+
+        template.setKeySerializer(stringSerializer);
+        template.setHashKeySerializer(stringSerializer);
+        template.setValueSerializer(jsonSerializer);
+        template.setHashValueSerializer(jsonSerializer);
+
+        template.afterPropertiesSet();
+        return template;
+    }
+}
+```
+
+关键点拆解：
+
+- 配置类的重点不是业务规则，而是“把谁注册到容器、在什么条件下注册”。
+- 读完代码后，回到“生产差距”检查：安全、异常、监控、容量、测试是否都补齐。
+
+## 运行时调用链
+
+1. RedisConfig：启动时注册配置、Bean 或扩展点
+2. CacheDemoController：接收 HTTP 请求并转换成 Java 方法调用
+3. OrderService：执行案例的核心业务规则
+
+## 初学者常见误区
+
+- 只把接口跑通，却没有回到代码理解 Controller、Service、Repository 的分工。
+- 把内存 Map、模拟客户端、固定配置当成生产实现。
+- 只看 happy path，忽略参数错误、外部系统失败、并发和重复请求。
+
 ## API 接口
 
 | 方法 | 路径 | 说明 |
@@ -445,6 +903,12 @@ member → score
 | POST | `/api/cache/order/{orderId}/pay` | 支付订单 |
 | GET | `/api/cache/hot-products` | 热销榜 |
 | DELETE | `/api/cache/clear` | 清空缓存 |
+
+## 生产差距
+
+这个示例适合帮助初学者理解 MySQL + Redis 缓存实战 的核心机制，但生产项目不能只停留在“能跑通”。真实落地时至少要补齐：统一鉴权、参数边界校验、异常响应、结构化日志、监控指标、自动化测试、配置隔离和容量评估。
+
+如果模块涉及数据库、缓存、消息、网关、认证或外部服务，还要进一步考虑连接池、超时、重试、幂等、事务边界、数据一致性和故障告警。学习时可以先记住主流程，再用这些生产差距反向检查自己是否真正理解了案例。
 
 ## 要点总结
 
