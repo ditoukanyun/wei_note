@@ -4,81 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "4baa706298026d0c",
-        "type": "split",
+        "id": "e97f8d63b0ac736f",
+        "type": "tabs",
         "children": [
           {
-            "id": "9f6a735daa6859d7",
-            "type": "tabs",
-            "dimension": 80.21338506304558,
-            "children": [
-              {
-                "id": "44a91e9fb7b3e8b4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Clippings/深度拆解：AI Agent Harness 的构造【译】.md",
-                    "mode": "source",
-                    "source": false
+            "id": "a8e8eaf4a1ed48e6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/chenwei/Documents/wei_note/40_知识库/编程",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "executable": "/bin/zsh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
                   },
-                  "icon": "lucide-file",
-                  "title": "深度拆解：AI Agent Harness 的构造【译】"
+                  "serial": null
                 }
-              }
-            ]
-          },
-          {
-            "id": "e97f8d63b0ac736f",
-            "type": "tabs",
-            "dimension": 19.786614936954415,
-            "children": [
-              {
-                "id": "a8e8eaf4a1ed48e6",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/Users/chenwei/Documents/wei_note/40_知识库/编程",
-                      "focus": false,
-                      "profile": {
-                        "args": [
-                          "--login"
-                        ],
-                        "executable": "/bin/zsh",
-                        "followTheme": true,
-                        "name": "",
-                        "platforms": {
-                          "darwin": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": null
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "终端：chenwei@chenweideMacBook-Pro:~/Documents/wei_note/40_知识库/编程"
-                }
-              }
-            ]
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "终端：chenwei@chenweideMacBook-Pro:~/Documents/wei_note/40_知识库/编程"
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -251,34 +222,37 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "44a91e9fb7b3e8b4",
+  "active": "dffc51cac11e412a",
   "lastOpenFiles": [
-    "Clippings/AI 时代到底该怎么管一个工程团队.md",
+    "50_资源/文章剪藏/文章剪藏 MOC.md",
+    "50_资源/文章剪藏/AI/AI 时代到底该怎么管一个工程团队.md",
+    "50_资源/文章剪藏/AI/科普一下：大模型Token的收费逻辑！.md",
+    "50_资源/文章剪藏/AI/深度拆解：AI Agent Harness 的构造【译】.md",
+    "50_资源/文章剪藏/通用技能/3 个命令 7 个步骤，学会 git worktree 并行开发.md",
+    "50_资源/文章剪藏/通用技能",
+    "50_资源/文章剪藏/AI",
+    "50_资源/文章剪藏",
+    "40_知识库/AI/Prompt 缓存.md",
+    "40_知识库/AI/KV Cache.md",
+    "40_知识库/AI/Prefill 与 Decode.md",
+    "40_知识库/AI/LLM Token 成本.md",
+    "50_资源/项目收藏/GitHub项目.md",
+    "50_资源/AI工具/Khazix Skills.md",
+    "50_资源/AI工具/Hermes Agent.md",
+    "Clippings/科普一下：大模型Token的收费逻辑！.md",
     "Clippings/深度拆解：AI Agent Harness 的构造【译】.md",
-    "40_知识库/后端开发/SpringBoot/96-SpringBoot-ApplicationEventMulticaster.md",
-    "50_资源/Newsletters/2026-05-12-Newsletter.md",
-    "40_知识库/后端开发/SpringBoot/97-SpringBoot-ResourceLoader.md",
-    "40_知识库/后端开发/SpringBoot/70-SpringBoot-自定义Starter模式.md",
-    "40_知识库/后端开发/SpringBoot/69-SpringBoot-WebMVC扩展点.md",
-    "40_知识库/后端开发/SpringBoot/66-SpringBoot-应用生命周期事件.md",
-    "40_知识库/后端开发/SpringBoot/64-SpringBoot-数据归档与保留.md",
-    "40_知识库/后端开发/SpringBoot/54-SpringBoot-通知中心.md",
-    "40_知识库/后端开发/SpringBoot/53-SpringBoot-工作流审批.md",
-    "40_知识库/后端开发/SpringBoot/52-SpringBoot-CDC增量同步.md",
-    "40_知识库/后端开发/SpringBoot/50-SpringBoot-规则引擎决策表.md",
-    "40_知识库/后端开发/SpringBoot/46-SpringBoot-分布式锁与定时任务.md",
-    "40_知识库/后端开发/SpringBoot/30-SpringBoot-BFF聚合接口.md",
-    "40_知识库/后端开发/SpringBoot/28-SpringBoot-OpenFeign与降级.md",
-    "40_知识库/后端开发/SpringBoot/95-SpringBoot-自定义Condition.md",
-    "40_知识库/后端开发/SpringBoot/94-SpringBoot-ApplicationAvailability.md",
-    "40_知识库/后端开发/SpringBoot/93-SpringBoot-ResolvableType.md",
-    "40_知识库/后端开发/SpringBoot/92-SpringBoot-SpringFactoriesLoader.md",
-    "40_知识库/后端开发/SpringBoot/91-SpringBoot-ObjectProvider.md",
-    "40_知识库/后端开发/SpringBoot/90-SpringBoot-FactoryBean.md",
-    "40_知识库/后端开发/SpringBoot/89-SpringBoot-ImportBeanDefinitionRegistrar.md",
-    "40_知识库/后端开发/SpringBoot/88-SpringBoot-DeferredImportSelector.md",
-    "40_知识库/后端开发/SpringBoot/87-SpringBoot-BootstrapRegistry.md",
-    "40_知识库/后端开发/SpringBoot/86-SpringBoot-SpringApplicationRunListener.md",
+    "Clippings/3 个命令 7 个步骤，学会 git worktree 并行开发.md",
+    "Clippings/AI 时代到底该怎么管一个工程团队.md",
+    "50_资源/Newsletters/2026-05-13-Newsletter.md",
+    "40_知识库/AI/AI 代码评审.md",
+    "40_知识库/AI/代码即事实来源.md",
+    "40_知识库/AI/JIT Planning.md",
+    "40_知识库/AI/AI 时代工程管理.md",
+    "40_知识库/AI/Agent 护栏.md",
+    "40_知识库/AI/验证循环.md",
+    "40_知识库/AI/上下文工程.md",
+    "40_知识库/AI/Agent 工具层.md",
+    "40_知识库/AI/编排循环.md",
     "99_系统/规范",
     "40_知识库/通用技能/网络/SSL",
     "40_知识库/通用技能/网络/TCP",
@@ -286,9 +260,6 @@
     "40_知识库/AI/AI相关/LangGraph",
     "40_知识库/AI/AI相关/Prompt Engineering",
     "40_知识库/通用技能/02_Resources/学习资源/视频教程",
-    "40_知识库/通用技能/02_Resources/学习资源/书籍",
-    "40_知识库/通用技能/02_Resources/学习资源",
-    "40_知识库/通用技能/02_Resources",
     "public/40_知识库/前端开发/React/03-资源/images/1.png",
     "public/40_知识库/前端开发/React/03-资源/images/4.png",
     "public/40_知识库/前端开发/React/03-资源/images/6.png",

@@ -6,12 +6,15 @@ tags:
   - 并行开发
   - 开发效率
 created: 2026-05-07
+source: "[[3 个命令 7 个步骤，学会 git worktree 并行开发]]"
 ---
 # Git Worktree 并行开发
 
 ## 定义
 
 `git worktree` 允许同一个 Git 仓库同时检出多个工作目录。每个目录可以在不同分支上独立开发、运行、测试，适合并行处理多个需求、修复线上问题、对比方案，避免频繁 `stash` 和来回切分支。
+
+它解决的是“物理隔离”的问题：`branch` 是逻辑版本线，`worktree` 是真实工作目录。AI 编程场景下，一个仓库可以同时给多个 Agent 或多个开发任务提供独立目录，减少上下文互相污染。
 
 ## 3 个核心命令
 
@@ -102,6 +105,27 @@ git worktree prune
 - 当前分支改到一半，临时需要修线上问题。
 - 需要长期保留一个测试分支或版本对照目录。
 - 想在不同目录中分别运行不同依赖、环境变量或服务端口。
+- 让多个 AI 编程会话并行处理不同任务，每个会话只接触自己的工作目录。
+- 对同一个技术方案生成多个 PR 原型，再用真实代码影响范围做比较。
+
+## AI 编程中的使用模式
+
+```mermaid
+flowchart LR
+  A[主仓库 main] --> B[worktree: feature-a]
+  A --> C[worktree: hotfix-1]
+  A --> D[worktree: experiment-b]
+  B --> E[独立 Agent 会话]
+  C --> F[独立 Agent 会话]
+  D --> G[独立 Agent 会话]
+```
+
+推荐做法：
+
+- 每个 AI 任务使用独立分支和独立 worktree。
+- 任务完成后通过 PR、diff 或测试结果汇总，而不是直接互相覆盖文件。
+- 避免多个 worktree 同时修改同一批大文件，否则合并成本会抵消并行收益。
+- 长时间运行的任务要定期 `git status` 和 `git worktree list`，防止忘记半成品目录。
 
 ## 注意事项
 
@@ -109,6 +133,21 @@ git worktree prune
 - 每个 worktree 是独立工作目录，但共享同一个 `.git` 对象库，磁盘占用通常比完整克隆更小。
 - 删除 worktree 前先确认改动已经提交、推送或明确丢弃。
 - 建议把 worktree 目录放在主仓库旁边，例如 `../repo-feature-x`，避免嵌套在仓库内部。
+- `.env`、`node_modules` 等未被 Git 管理的文件不会自动跟随 worktree，需要单独处理。
+
+## 非 Git 文件处理
+
+- `.env`：可以软链接到主仓库的本地环境文件，但要确认不同任务是否需要不同配置。
+
+```bash
+ln -s ../repo/.env ../repo-feature-a/.env
+```
+
+- `node_modules`：建议在每个 worktree 中重新安装依赖，尤其是前端项目和 monorepo，避免版本、构建缓存和平台产物互相干扰。
+
+```bash
+pnpm install
+```
 
 ## 记忆口诀
 
@@ -124,6 +163,7 @@ git worktree prune
 ## 参考资料
 
 - Git 官方文档：`git help worktree`
+- [[3 个命令 7 个步骤，学会 git worktree 并行开发]]
 
 ## 实践检查清单
 

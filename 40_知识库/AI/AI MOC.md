@@ -25,6 +25,9 @@ AI 目录的主线是“模型基础 -> Prompt 与上下文 -> RAG 与向量检�
 
 ## 模型与基础概念
 
+- [[LLM Token 成本]]
+- [[Prefill 与 Decode]]
+- [[KV Cache]]
 - [[AI相关/Transformer|Transformer]]
 - [[AI相关/Transformer/Attention Mechanism|Attention Mechanism]]
 - [[AI相关/Transformer/GPT|GPT]]
@@ -34,6 +37,8 @@ AI 目录的主线是“模型基础 -> Prompt 与上下文 -> RAG 与向量检�
 ## Prompt 与上下文
 
 - [[Prompt 工程指南]]
+- [[上下文工程]]
+- [[Prompt 缓存]]
 - [[AI相关/Prompt Engineering|Prompt Engineering]]
 - [[AI相关/Prompt Engineering/Chain-of-Thought|Chain-of-Thought]]
 - [[短期记忆]]
@@ -56,6 +61,11 @@ AI 目录的主线是“模型基础 -> Prompt 与上下文 -> RAG 与向量检�
 ## Agent 与工具调用
 
 - [[AI Agent]]
+- [[AI Agent Harness]]
+- [[编排循环]]
+- [[Agent 工具层]]
+- [[Agent 护栏]]
+- [[验证循环]]
 - [[AI相关/Agent架构/ReAct|ReAct]]
 - [[AI相关/Agent架构/Plan-and-Execute|Plan-and-Execute]]
 - [[AI相关/Agent架构/Reflexion|Reflexion]]
@@ -70,6 +80,10 @@ AI 目录的主线是“模型基础 -> Prompt 与上下文 -> RAG 与向量检�
 
 - [[AI Coding 最佳实践]]
 - [[AI-Coding-50-工作法]]
+- [[AI 时代工程管理]]
+- [[JIT Planning]]
+- [[代码即事实来源]]
+- [[AI 代码评审]]
 - [[AI 编程工具对比]]
 - [[AI工具对比]]
 - [[Claude Skills 终极指南 (2026年3月)]]

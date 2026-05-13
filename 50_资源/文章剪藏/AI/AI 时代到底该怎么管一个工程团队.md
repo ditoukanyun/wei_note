@@ -1,5 +1,6 @@
 ---
 title: "AI 时代到底该怎么管一个工程团队"
+type: resource
 source: "https://x.com/dotey/status/2054086398328656383"
 author:
   - "[[@dotey]]"
@@ -8,6 +9,14 @@ created: 2026-05-12
 description: "Fiona Fung 在 Anthropic 大会上讲了 28 分钟，聊了聊 AI 时代到底该怎么管一个工程团队。她做这套幻灯片时，Anthropic 还没有推出 Routines 功能。三周后，Routines 上线了。这是一个让 Claude Code 在云端按计划自动跑任务..."
 tags:
   - "clippings"
+status: processed
+processed: 2026-05-13
+knowledge:
+  - "[[AI 时代工程管理]]"
+  - "[[JIT Planning]]"
+  - "[[代码即事实来源]]"
+  - "[[AI 代码评审]]"
+  - "[[验证循环]]"
 ---
 ![图像](https://pbs.twimg.com/media/HIGRrjhWYAA1kVW?format=jpg&name=large)
 

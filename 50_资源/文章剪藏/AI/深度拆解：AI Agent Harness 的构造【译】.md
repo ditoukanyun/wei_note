@@ -1,5 +1,6 @@
 ---
 title: "深度拆解：AI Agent Harness 的构造【译】"
+type: resource
 source: "https://x.com/dotey/status/2053601852261110201"
 author:
   - "[[@dotey]]"
@@ -8,6 +9,15 @@ created: 2026-05-12
 description: "Akshay    阿卡什@akshay_pachaar·4月6日 文章The Anatomy of an Agent Harness 特工脊甲的解剖A deep dive into what Anthropic, OpenAI, Perplexity and LangChain..."
 tags:
   - "clippings"
+status: processed
+processed: 2026-05-13
+knowledge:
+  - "[[AI Agent Harness]]"
+  - "[[编排循环]]"
+  - "[[Agent 工具层]]"
+  - "[[上下文工程]]"
+  - "[[验证循环]]"
+  - "[[Agent 护栏]]"
 ---
 ![图像](https://pbs.twimg.com/media/HH_SeVYXMAA0-k4?format=jpg&name=large)
 

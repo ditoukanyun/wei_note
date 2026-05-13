@@ -1,5 +1,6 @@
 ---
 title: "3 个命令 7 个步骤，学会 git worktree 并行开发"
+type: resource
 source: "https://juejin.cn/post/7633718886635356210"
 author:
   - "[[双越AI_club]]"
@@ -8,6 +9,10 @@ created: 2026-05-07
 description: "大家好，我是双越。wangEditor 作者，前百度 滴滴 资深前端工程师，慕课网金牌讲师，PMP，前端面试派 作者。本文介绍 git worktree 的概念和应用，AI 编程+并行开发，会用到～大家好，我是双越。wangEditorhttps://www.wangeditor.com/ 作者，前百度 滴滴 资深前端"
 tags:
   - "clippings"
+status: processed
+processed: 2026-05-13
+knowledge:
+  - "[[Git Worktree 并行开发]]"
 ---
 大家好，我是双越。 [wangEditor](https://link.juejin.cn/?target=https%3A%2F%2Fwww.wangeditor.com%2F "https://www.wangeditor.com/") 作者，前百度 滴滴 资深前端工程师，慕课网金牌讲师，PMP， [前端面试派](https://link.juejin.cn/?target=https%3A%2F%2Fwww.mianshipai.com%2F "https://www.mianshipai.com/") 作者。
 
