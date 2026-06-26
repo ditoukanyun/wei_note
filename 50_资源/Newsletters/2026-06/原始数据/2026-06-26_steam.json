@@ -1,0 +1,51 @@
+{
+  "source": "steam",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "title": "Counter-Strike 2",
+      "id": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "pubDate": 1782436478483,
+      "extra": {
+        "info": "618,149"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/3678970/TBH_Task_Bar_Hero/",
+      "title": "TBH: Task Bar Hero",
+      "id": "https://store.steampowered.com/app/3678970/TBH_Task_Bar_Hero/",
+      "pubDate": 1782436478483,
+      "extra": {
+        "info": "451,439"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/570/Dota_2/",
+      "title": "Dota 2",
+      "id": "https://store.steampowered.com/app/570/Dota_2/",
+      "pubDate": 1782436478483,
+      "extra": {
+        "info": "348,554"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/4704690/MECCHA_CHAMELEON/",
+      "title": "MECCHA CHAMELEON",
+      "id": "https://store.steampowered.com/app/4704690/MECCHA_CHAMELEON/",
+      "pubDate": 1782436478483,
+      "extra": {
+        "info": "136,384"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/2676230/FiveM/",
+      "title": "FiveM",
+      "id": "https://store.steampowered.com/app/2676230/FiveM/",
+      "pubDate": 1782436478483,
+      "extra": {
+        "info": "125,601"
+      }
+    }
+  ]
+}

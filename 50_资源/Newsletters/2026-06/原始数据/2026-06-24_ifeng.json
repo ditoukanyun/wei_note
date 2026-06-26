@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8uD5bKbqZrZ",
+      "url": "https://news.ifeng.com/c/8uD5bKbqZrZ",
+      "title": "中方投下赞成票，安理会通过决议",
+      "extra": {
+        "date": "2026-06-24 07:37:40"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uCQOeFgRPk",
+      "url": "https://news.ifeng.com/c/8uCQOeFgRPk",
+      "title": "王毅谈美伊冲突的启示",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uCYTHnxqNN",
+      "url": "https://news.ifeng.com/c/8uCYTHnxqNN",
+      "title": "国际海事组织宣布：启动霍尔木兹海峡滞留海员疏散计划",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uClVTnMwCW",
+      "url": "https://news.ifeng.com/c/8uClVTnMwCW",
+      "title": "美参议院通过决议，旨在限制特朗普对伊战争权力",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uD0JRmKyCB",
+      "url": "https://news.ifeng.com/c/8uD0JRmKyCB",
+      "title": "泽连斯基发出“最后通牒”，俄罗斯和白俄罗斯密集回应",
+      "extra": {}
+    }
+  ]
+}

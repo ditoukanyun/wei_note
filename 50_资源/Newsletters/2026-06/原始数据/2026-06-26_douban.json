@@ -1,0 +1,51 @@
+{
+  "source": "douban",
+  "count": 5,
+  "items": [
+    {
+      "id": "36576765",
+      "title": "双喜",
+      "url": "https://movie.douban.com/subject/36576765",
+      "extra": {
+        "info": "2025 / 中国台湾 / 剧情 喜剧 爱情",
+        "hover": "2025 / 中国台湾 / 剧情 喜剧 爱情 / 许承杰 / 刘冠廷 余香凝"
+      }
+    },
+    {
+      "id": "36217763",
+      "title": "我的妈耶",
+      "url": "https://movie.douban.com/subject/36217763",
+      "extra": {
+        "info": "2026 / 中国大陆 / 剧情 喜剧 家庭",
+        "hover": "2026 / 中国大陆 / 剧情 喜剧 家庭 / 肖麓西 / 马思纯 白客"
+      }
+    },
+    {
+      "id": "37076696",
+      "title": "今天应该很高兴",
+      "url": "https://movie.douban.com/subject/37076696",
+      "extra": {
+        "info": "2025 / 加拿大 中国香港 / 剧情",
+        "hover": "2025 / 加拿大 中国香港 / 剧情 / 杨永光 / 黄秋生 李绮虹"
+      }
+    },
+    {
+      "id": "38423461",
+      "title": "心门之外",
+      "url": "https://movie.douban.com/subject/38423461",
+      "extra": {
+        "info": "2025 / 德国 / 剧情 爱情 同性",
+        "hover": "2025 / 德国 / 剧情 爱情 同性 / 马克斯·赫格沃尔德 / Linus Moog 奥雷尔·克卢格"
+      }
+    },
+    {
+      "id": "37165384",
+      "title": "长尾豹马修",
+      "url": "https://movie.douban.com/subject/37165384",
+      "extra": {
+        "info": "2026 / 法国 比利时 / 喜剧 家庭 冒险",
+        "hover": "2026 / 法国 比利时 / 喜剧 家庭 冒险 / 菲利普·拉肖 / 菲利普·拉肖 贾梅尔·杜布兹"
+      }
+    }
+  ]
+}

@@ -1,0 +1,934 @@
+{
+  "date": "2026-06-26",
+  "startedAt": "2026-06-26T01:09:42.263Z",
+  "usage": {
+    "status": 0,
+    "signal": null,
+    "stdout": "Usage: newsnow <source> [options]\n       newsnow list [--json | --output json] [--pretty]\n       newsnow schema [--pretty]\n\nCommands:\n  list          List all available sources\n  schema        Print machine-readable JSON Schema for this CLI\n  <source>      Fetch news from the given source\n\nOptions:\n  --json            Output as JSON\n  --output json     Alias for --json\n  --pretty          Pretty-print JSON output\n  --fields f1,f2    Filter output fields (JSON mode only)\n  --limit N         Limit number of items returned\n\nSources: 66 available. Run \"newsnow list\" to see all.",
+    "stderr": ""
+  },
+  "sourceCount": 66,
+  "results": [
+    {
+      "source": "36kr",
+      "category": "36kr",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1399,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "36kr-quick",
+      "category": "36kr",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1405,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "36kr-renqi",
+      "category": "36kr",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1255,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "baidu",
+      "category": "baidu",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 3374,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "bilibili",
+      "category": "bilibili",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1701,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "bilibili-hot-search",
+      "category": "bilibili",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1712,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "bilibili-hot-video",
+      "category": "bilibili",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 3487,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "bilibili-ranking",
+      "category": "bilibili",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 3341,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "cankaoxiaoxi",
+      "category": "cankaoxiaoxi",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1488,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "chongbuluo",
+      "category": "chongbuluo",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1400,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "chongbuluo-hot",
+      "category": "chongbuluo",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1404,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "chongbuluo-latest",
+      "category": "chongbuluo",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 2746,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "cls",
+      "category": "cls",
+      "envVars": [],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "stdoutBytes": 0,
+      "stderrBytes": 209,
+      "error": "{\"error\":\"Fetch failed for \\\"cls\\\": [GET] \\\"https://www.cls.cn/nodeapi/updateTelegraphList?appName=CailianpressWeb&os=web&sv=7.7.5&sign=9c11221af4f6b47b253098a8b9957b8f\\\": 404 Not Found\",\"code\":\"FETCH_ERROR\"}"
+    },
+    {
+      "source": "cls-depth",
+      "category": "cls",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1100,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "cls-hot",
+      "category": "cls",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 978,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "cls-telegraph",
+      "category": "cls",
+      "envVars": [],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "stdoutBytes": 0,
+      "stderrBytes": 219,
+      "error": "{\"error\":\"Fetch failed for \\\"cls-telegraph\\\": [GET] \\\"https://www.cls.cn/nodeapi/updateTelegraphList?appName=CailianpressWeb&os=web&sv=7.7.5&sign=9c11221af4f6b47b253098a8b9957b8f\\\": 404 Not Found\",\"code\":\"FETCH_ERROR\"}"
+    },
+    {
+      "source": "coolapk",
+      "category": "coolapk",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1269,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "douban",
+      "category": "douban",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1648,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "douyin",
+      "category": "douyin",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 741,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "fastbull",
+      "category": "fastbull",
+      "envVars": [],
+      "status": "empty",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 56,
+      "stderrBytes": 0,
+      "itemCount": 0
+    },
+    {
+      "source": "fastbull-express",
+      "category": "fastbull",
+      "envVars": [],
+      "status": "empty",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 64,
+      "stderrBytes": 0,
+      "itemCount": 0
+    },
+    {
+      "source": "fastbull-news",
+      "category": "fastbull",
+      "envVars": [],
+      "status": "empty",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 61,
+      "stderrBytes": 0,
+      "itemCount": 0
+    },
+    {
+      "source": "freebuf",
+      "category": "freebuf",
+      "envVars": [],
+      "status": "empty",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 55,
+      "stderrBytes": 0,
+      "itemCount": 0
+    },
+    {
+      "source": "gelonghui",
+      "category": "gelonghui",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1487,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "ghxi",
+      "category": "ghxi",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 2413,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "github",
+      "category": "github",
+      "envVars": [],
+      "status": "timeout",
+      "exitCode": null,
+      "signal": "SIGTERM",
+      "stdoutBytes": 0,
+      "stderrBytes": 0,
+      "error": "spawnSync npx ETIMEDOUT",
+      "retry": {
+        "attemptedAt": "2026-06-26T01:13:31.796Z",
+        "exitCode": null,
+        "signal": "SIGTERM",
+        "stdoutBytes": 0,
+        "stderrBytes": 0,
+        "status": "timeout",
+        "error": "spawnSync npx ETIMEDOUT"
+      }
+    },
+    {
+      "source": "github-trending-today",
+      "category": "github",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 2094,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "hackernews",
+      "category": "hackernews",
+      "envVars": [],
+      "status": "timeout",
+      "exitCode": null,
+      "signal": "SIGTERM",
+      "stdoutBytes": 0,
+      "stderrBytes": 0,
+      "error": "spawnSync npx ETIMEDOUT",
+      "retry": {
+        "attemptedAt": "2026-06-26T01:13:46.809Z",
+        "exitCode": null,
+        "signal": "SIGTERM",
+        "stdoutBytes": 0,
+        "stderrBytes": 0,
+        "status": "timeout",
+        "error": "spawnSync npx ETIMEDOUT"
+      }
+    },
+    {
+      "source": "hupu",
+      "category": "hupu",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1165,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "ifeng",
+      "category": "ifeng",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1134,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "iqiyi-hot-ranklist",
+      "category": "iqiyi",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 4244,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "ithome",
+      "category": "ithome",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1317,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "jin10",
+      "category": "jin10",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 2949,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "juejin",
+      "category": "juejin",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 991,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "kaopu",
+      "category": "kaopu",
+      "envVars": [],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "stdoutBytes": 0,
+      "stderrBytes": 198,
+      "error": "{\"error\":\"Fetch failed for \\\"kaopu\\\": [GET] \\\"https://kaopustorage.blob.core.windows.net/news-prod/news_list_hans_0.json\\\": <no response> Was there a typo in the url or port?\",\"code\":\"FETCH_ERROR\"}",
+      "retry": {
+        "attemptedAt": "2026-06-26T01:13:47.617Z",
+        "exitCode": 2,
+        "signal": null,
+        "stdoutBytes": 0,
+        "stderrBytes": 198,
+        "status": "nonzero",
+        "error": "{\"error\":\"Fetch failed for \\\"kaopu\\\": [GET] \\\"https://kaopustorage.blob.core.windows.net/news-prod/news_list_hans_0.json\\\": <no response> Was there a typo in the url or port?\",\"code\":\"FETCH_ERROR\"}"
+      }
+    },
+    {
+      "source": "kuaishou",
+      "category": "kuaishou",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1706,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "linuxdo",
+      "category": "linuxdo",
+      "envVars": [],
+      "status": "timeout",
+      "exitCode": null,
+      "signal": "SIGTERM",
+      "stdoutBytes": 0,
+      "stderrBytes": 0,
+      "error": "spawnSync npx ETIMEDOUT",
+      "retry": {
+        "attemptedAt": "2026-06-26T01:14:02.628Z",
+        "exitCode": null,
+        "signal": "SIGTERM",
+        "stdoutBytes": 0,
+        "stderrBytes": 0,
+        "status": "timeout",
+        "error": "spawnSync npx ETIMEDOUT"
+      }
+    },
+    {
+      "source": "linuxdo-hot",
+      "category": "linuxdo",
+      "envVars": [],
+      "status": "timeout",
+      "exitCode": null,
+      "signal": "SIGTERM",
+      "stdoutBytes": 0,
+      "stderrBytes": 0,
+      "error": "spawnSync npx ETIMEDOUT",
+      "retry": {
+        "attemptedAt": "2026-06-26T01:14:17.641Z",
+        "exitCode": null,
+        "signal": "SIGTERM",
+        "stdoutBytes": 0,
+        "stderrBytes": 0,
+        "status": "timeout",
+        "error": "spawnSync npx ETIMEDOUT"
+      }
+    },
+    {
+      "source": "linuxdo-latest",
+      "category": "linuxdo",
+      "envVars": [],
+      "status": "timeout",
+      "exitCode": null,
+      "signal": "SIGTERM",
+      "stdoutBytes": 0,
+      "stderrBytes": 0,
+      "error": "spawnSync npx ETIMEDOUT",
+      "retry": {
+        "attemptedAt": "2026-06-26T01:14:32.649Z",
+        "exitCode": null,
+        "signal": "SIGTERM",
+        "stdoutBytes": 0,
+        "stderrBytes": 0,
+        "status": "timeout",
+        "error": "spawnSync npx ETIMEDOUT"
+      }
+    },
+    {
+      "source": "mktnews",
+      "category": "mktnews",
+      "envVars": [],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "stdoutBytes": 0,
+      "stderrBytes": 138,
+      "error": "{\"error\":\"Fetch failed for \\\"mktnews\\\": [GET] \\\"https://api.mktnews.net/api/flash?type=0&limit=50\\\": 403 Forbidden\",\"code\":\"FETCH_ERROR\"}",
+      "retry": {
+        "attemptedAt": "2026-06-26T01:14:34.008Z",
+        "exitCode": 2,
+        "signal": null,
+        "stdoutBytes": 0,
+        "stderrBytes": 138,
+        "status": "nonzero",
+        "error": "{\"error\":\"Fetch failed for \\\"mktnews\\\": [GET] \\\"https://api.mktnews.net/api/flash?type=0&limit=50\\\": 403 Forbidden\",\"code\":\"FETCH_ERROR\"}"
+      }
+    },
+    {
+      "source": "mktnews-flash",
+      "category": "mktnews",
+      "envVars": [],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "stdoutBytes": 0,
+      "stderrBytes": 144,
+      "error": "{\"error\":\"Fetch failed for \\\"mktnews-flash\\\": [GET] \\\"https://api.mktnews.net/api/flash?type=0&limit=50\\\": 403 Forbidden\",\"code\":\"FETCH_ERROR\"}",
+      "retry": {
+        "attemptedAt": "2026-06-26T01:14:36.762Z",
+        "exitCode": 2,
+        "signal": null,
+        "stdoutBytes": 0,
+        "stderrBytes": 144,
+        "status": "nonzero",
+        "error": "{\"error\":\"Fetch failed for \\\"mktnews-flash\\\": [GET] \\\"https://api.mktnews.net/api/flash?type=0&limit=50\\\": 403 Forbidden\",\"code\":\"FETCH_ERROR\"}"
+      }
+    },
+    {
+      "source": "nowcoder",
+      "category": "nowcoder",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 980,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "pcbeta-windows",
+      "category": "pcbeta",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 2892,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "pcbeta-windows11",
+      "category": "pcbeta",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 2652,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "producthunt",
+      "category": "producthunt",
+      "envVars": [
+        "PRODUCTHUNT_API_TOKEN"
+      ],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "stdoutBytes": 0,
+      "stderrBytes": 100,
+      "error": "{\"error\":\"Fetch failed for \\\"producthunt\\\": PRODUCTHUNT_API_TOKEN is not set\",\"code\":\"FETCH_ERROR\"}"
+    },
+    {
+      "source": "qqvideo-tv-hotsearch",
+      "category": "qqvideo",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1280,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "smzdm",
+      "category": "smzdm",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 2841,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "solidot",
+      "category": "solidot",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1061,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "sputniknewscn",
+      "category": "sputniknewscn",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1340,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "sspai",
+      "category": "sspai",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 826,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "steam",
+      "category": "steam",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1398,
+      "stderrBytes": 0,
+      "error": "spawnSync npx ETIMEDOUT",
+      "retry": {
+        "attemptedAt": "2026-06-26T01:14:38.500Z",
+        "exitCode": 0,
+        "signal": null,
+        "stdoutBytes": 1398,
+        "stderrBytes": 0,
+        "itemCount": 5,
+        "status": "success"
+      },
+      "itemCount": 5
+    },
+    {
+      "source": "tencent-hot",
+      "category": "tencent",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 2763,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "thepaper",
+      "category": "thepaper",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1411,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "tieba",
+      "category": "tieba",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1565,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "toutiao",
+      "category": "toutiao",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1860,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "v2ex",
+      "category": "v2ex",
+      "envVars": [],
+      "status": "timeout",
+      "exitCode": null,
+      "signal": "SIGTERM",
+      "stdoutBytes": 0,
+      "stderrBytes": 0,
+      "error": "spawnSync npx ETIMEDOUT",
+      "retry": {
+        "attemptedAt": "2026-06-26T01:14:53.513Z",
+        "exitCode": null,
+        "signal": "SIGTERM",
+        "stdoutBytes": 0,
+        "stderrBytes": 0,
+        "status": "timeout",
+        "error": "spawnSync npx ETIMEDOUT"
+      }
+    },
+    {
+      "source": "v2ex-share",
+      "category": "v2ex",
+      "envVars": [],
+      "status": "timeout",
+      "exitCode": null,
+      "signal": "SIGTERM",
+      "stdoutBytes": 0,
+      "stderrBytes": 0,
+      "error": "spawnSync npx ETIMEDOUT",
+      "retry": {
+        "attemptedAt": "2026-06-26T01:15:08.521Z",
+        "exitCode": null,
+        "signal": "SIGTERM",
+        "stdoutBytes": 0,
+        "stderrBytes": 0,
+        "status": "timeout",
+        "error": "spawnSync npx ETIMEDOUT"
+      }
+    },
+    {
+      "source": "wallstreetcn",
+      "category": "wallstreetcn",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1344,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "wallstreetcn-hot",
+      "category": "wallstreetcn",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1009,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "wallstreetcn-news",
+      "category": "wallstreetcn",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1198,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "wallstreetcn-quick",
+      "category": "wallstreetcn",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 1350,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "weibo",
+      "category": "weibo",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 2536,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "xueqiu",
+      "category": "xueqiu",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 850,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "xueqiu-hotstock",
+      "category": "xueqiu",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 859,
+      "stderrBytes": 0,
+      "itemCount": 5
+    },
+    {
+      "source": "zaobao",
+      "category": "zaobao",
+      "envVars": [],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "stdoutBytes": 0,
+      "stderrBytes": 248,
+      "error": "{\"error\":\"Fetch failed for \\\"zaobao\\\": [GET] \\\"https://www.zaochenbao.com/realtime/\\\": <no response> The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\",\"code\":\"FETCH_ERROR\"}",
+      "retry": {
+        "attemptedAt": "2026-06-26T01:15:09.747Z",
+        "exitCode": 2,
+        "signal": null,
+        "stdoutBytes": 0,
+        "stderrBytes": 248,
+        "status": "nonzero",
+        "error": "{\"error\":\"Fetch failed for \\\"zaobao\\\": [GET] \\\"https://www.zaochenbao.com/realtime/\\\": <no response> The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\",\"code\":\"FETCH_ERROR\"}"
+      }
+    },
+    {
+      "source": "zhihu",
+      "category": "zhihu",
+      "envVars": [],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "stdoutBytes": 17656,
+      "stderrBytes": 0,
+      "retry": {
+        "attemptedAt": "2026-06-26T01:15:10.882Z",
+        "exitCode": 0,
+        "signal": null,
+        "stdoutBytes": 8193,
+        "stderrBytes": 0,
+        "status": "invalid-json",
+        "error": "Bad control character in string literal in JSON at position 3568 (line 46 column 571)",
+        "stdoutPreview": "{\n  \"source\": \"zhihu\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"2052883811151745057\",\n      \"title\": \"疑似小米员工发文《置身米内》，将雷军比作项羽，有哪些看点？\",\n      \"extra\": {\n        \"info\": \"995 万热度\",\n        \"hover\": \"置身 X 内已经成为一种流行的形式了。\"\n      },\n      \"url\": \"https://www.zhihu.com/question/2052883811151745057\"\n    },\n    {\n      \"id\": \"2053447637047818182\",\n      \"title\": \"世界杯小组赛 E 组，厄瓜多尔 2-1 逆转德国，小组第三出线，如何评价本场比赛？\",\n      \"extra\": {\n        \"info\": \"720 万热度\",\n        \"hover\": \"相关问题为什么德国足球再也培养不出来绍尔和戴斯勒这种天才年轻球员了"
+      },
+      "itemCount": 5
+    }
+  ],
+  "finishedAt": "2026-06-26T01:16:04.797Z",
+  "counts": {
+    "success": 48,
+    "nonzero": 7,
+    "empty": 4,
+    "timeout": 7
+  },
+  "retrySummary": [
+    {
+      "source": "github",
+      "status": "timeout",
+      "retryStatus": "timeout"
+    },
+    {
+      "source": "hackernews",
+      "status": "timeout",
+      "retryStatus": "timeout"
+    },
+    {
+      "source": "kaopu",
+      "status": "nonzero",
+      "retryStatus": "nonzero"
+    },
+    {
+      "source": "linuxdo",
+      "status": "timeout",
+      "retryStatus": "timeout"
+    },
+    {
+      "source": "linuxdo-hot",
+      "status": "timeout",
+      "retryStatus": "timeout"
+    },
+    {
+      "source": "linuxdo-latest",
+      "status": "timeout",
+      "retryStatus": "timeout"
+    },
+    {
+      "source": "mktnews",
+      "status": "nonzero",
+      "retryStatus": "nonzero"
+    },
+    {
+      "source": "mktnews-flash",
+      "status": "nonzero",
+      "retryStatus": "nonzero"
+    },
+    {
+      "source": "steam",
+      "status": "success",
+      "retryStatus": "success"
+    },
+    {
+      "source": "v2ex",
+      "status": "timeout",
+      "retryStatus": "timeout"
+    },
+    {
+      "source": "v2ex-share",
+      "status": "timeout",
+      "retryStatus": "timeout"
+    },
+    {
+      "source": "zaobao",
+      "status": "nonzero",
+      "retryStatus": "nonzero"
+    },
+    {
+      "source": "zhihu",
+      "status": "invalid-json",
+      "retryStatus": "invalid-json"
+    }
+  ]
+}

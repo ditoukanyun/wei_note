@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8u1SmIfGdcH",
+      "url": "https://news.ifeng.com/c/8u1SmIfGdcH",
+      "title": "以色列，大麻烦来了",
+      "extra": {
+        "date": "2026-06-17 07:33:04"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8u1TiMA0imn",
+      "url": "https://news.ifeng.com/c/8u1TiMA0imn",
+      "title": "伊朗副外长披露美伊谅解备忘录细节",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8u0Fs4boOMX",
+      "url": "https://news.ifeng.com/c/8u0Fs4boOMX",
+      "title": "由中国起草，安理会一致通过这一决议",
+      "extra": {}
+    },
+    {
+      "id": "https://v.ifeng.com/c/8tyNCvcMxI6",
+      "url": "https://v.ifeng.com/c/8tyNCvcMxI6",
+      "title": "美国勒令伊朗队立刻离境，为何此时突然变脸？",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8u1SdELcNgi",
+      "url": "https://news.ifeng.com/c/8u1SdELcNgi",
+      "title": "特朗普：关我们啥事？就是卖卖武器",
+      "extra": {}
+    }
+  ]
+}

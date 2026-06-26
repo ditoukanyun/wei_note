@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5254035",
+      "title": "汉得信息(300170.SZ)：公司已有订单采购英伟达的AI Factory相关软件产品",
+      "id": "/news/5254035",
+      "extra": {
+        "date": 1781745160977,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5254034",
+      "title": "云南锗业(002428.SZ)：近期受上游原材料价格上涨的影响，光纤级四氯化锗产品价格相应有所上涨",
+      "id": "/news/5254034",
+      "extra": {
+        "date": 1781745040978,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5254033",
+      "title": "中国城市基础设施(02349.HK)短暂停牌",
+      "id": "/news/5254033",
+      "extra": {
+        "date": 1781744980978,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5254032",
+      "title": "意华股份(002897.SZ)：公司高速IO连接器、高速线束模组等产品可用于国产算力和超节点",
+      "id": "/news/5254032",
+      "extra": {
+        "date": 1781744920978,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5254031",
+      "title": "意华股份(002897.SZ)：224G高速连接器产品目前处于开发阶段",
+      "id": "/news/5254031",
+      "extra": {
+        "date": 1781744920978,
+        "info": "公司信息"
+      }
+    }
+  ]
+}

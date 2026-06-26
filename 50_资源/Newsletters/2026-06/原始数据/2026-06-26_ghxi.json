@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/fing.html",
+      "url": "https://www.ghxi.com/fing.html",
+      "title": "Android Fing(网络工具) v12.13.0 去广告版",
+      "extra": {
+        "hover": "Fing帮助全球3500万用户查清楚：•谁连接了我的WiFi？•是否有人偷连了我的WiFi和宽带？•我的WiFi被修改了吗？我的网络安全吗？•为什么Netflix变得卡顿了？•网络...",
+        "date": 1782382217859
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/chromium.html",
+      "url": "https://www.ghxi.com/chromium.html",
+      "title": "Chromium v151.0.7913.0 绿色版",
+      "extra": {
+        "hover": "Chromium为Chrome的实验开发版本，各种新功能首先会在Chromium上使用。 并且Chromium是开源项目，以BSD许可证等多重自由版权发行。Chromium的开发可...",
+        "date": 1782382217859
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/zwdzjszjb.html",
+      "url": "https://www.ghxi.com/zwdzjszjb.html",
+      "title": "植物大战僵尸 v3.17 杂交版",
+      "extra": {
+        "hover": "植物大战杂交版是一款由B站UP主 @潜艇伟伟迷 基于原版植物大战僵尸魔改的塔防类游戏。这款游戏在保留原有游戏精髓的基础上，进行了大胆的创新和尝试。UP主将不同的植物进行了杂交，使得...",
+        "date": 1782382217860
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/photoo.html",
+      "url": "https://www.ghxi.com/photoo.html",
+      "title": "Android Photoo(相册管理工具) v3.3",
+      "extra": {
+        "hover": "Photoo 是一款 Android 原生的极简照片整理工具。滑动卡片就能快速整理相册——左滑删除，右滑收藏，上滑保留。还有一系列\"该有的全都有\"的功能：相册分析生成专属摄影画像、...",
+        "date": 1782382217860
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/xnviewmp.html",
+      "url": "https://www.ghxi.com/xnviewmp.html",
+      "title": "XnView MP(图片管理) 1.11.2 官方免费版",
+      "extra": {
+        "hover": "XnView MP 是一款多功能且功能强大的照片查看器，图像管理，图像缩放。 XnView是最稳定、易用和全面的照片编辑器之一。支持所有常见的图片和图形格式（JPEG、TIFF、P...",
+        "date": 1782382217860
+      }
+    }
+  ]
+}

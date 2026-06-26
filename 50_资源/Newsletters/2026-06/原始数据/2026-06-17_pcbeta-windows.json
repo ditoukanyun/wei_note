@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073413-1-1.html",
+      "title": "🔥Windows 10 LTSC 21H2 19044.7417 繁中/简中/英文 纯净珍藏版【度盘+夸盘+123】",
+      "url": "https://bbs.pcbeta.com/viewthread-2073413-1-1.html",
+      "pubDate": 1781616789000,
+      "extra": {
+        "hover": "特别说明：每个镜像均包含以下两个版本，安装时可根据需求选择：\r\n  • Windows 10 Enterprise LTSC （标准 LTSC）\r\n  • Windows 10 IoT Enterprise LTSC （IoT 版本，10年生命周期）\r\n   适用场景：全新安装、Home / Pro（含 OEM）转换 LTSC、覆盖安装、原地升级、系统功 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073373-1-1.html",
+      "title": "集成声卡找不到，为什么能发声",
+      "url": "https://bbs.pcbeta.com/viewthread-2073373-1-1.html",
+      "pubDate": 1781586138000,
+      "extra": {
+        "hover": "情况：电脑待机恢复时，风扇狂转，主板温度比平时高10度左右。检查时，发现声音输出变为显示器音频输出，主板集成声卡死活找不到（恢复bios出厂设置，重刷bios都无效），安装主板声卡驱动时提示设备未连接或损坏。从主板声卡后置接口接入音箱无声音。声卡坏了？\r\n想到显 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073340-1-1.html",
+      "title": "最近网上都没有最新的爱奇艺和腾讯视频PC版去广告版下载了",
+      "url": "https://bbs.pcbeta.com/viewthread-2073340-1-1.html",
+      "pubDate": 1781542034000,
+      "extra": {
+        "hover": "如题所示，一直找不到"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073220-1-1.html",
+      "title": "苹果垃圾桶使用什么系统好",
+      "url": "https://bbs.pcbeta.com/viewthread-2073220-1-1.html",
+      "pubDate": 1781427564000,
+      "extra": {
+        "hover": "有使用苹果垃圾桶的坛友吗，能否推荐适应这老机子的系统"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073164-1-1.html",
+      "title": "六翼神的LTSC2728 精简版07.24版本有没有收藏的呀 求分享",
+      "url": "https://bbs.pcbeta.com/viewthread-2073164-1-1.html",
+      "pubDate": 1781353396000,
+      "extra": {
+        "hover": "之前的帖子，大家都在说六翼神的系统，于是我翻了好多个帖子，都说0724的2728不错，我想下载下来试试，有没有收藏的，能否分享一下，谢谢！！！"
+      }
+    }
+  ]
+}

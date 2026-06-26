@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073045-1-1.html",
+      "title": "怎么删除语言",
+      "url": "https://bbs.pcbeta.com/viewthread-2073045-1-1.html",
+      "pubDate": 1781224484000,
+      "extra": {
+        "hover": "俄版系统我添加中文后，会有语言选择项。有没有删除语言的工具只保留我需要的语言"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073032-1-1.html",
+      "title": "求一张壁纸",
+      "url": "https://bbs.pcbeta.com/viewthread-2073032-1-1.html",
+      "pubDate": 1781192689000,
+      "extra": {
+        "hover": "如题 ，看着养眼，百度找不到，望有的分享一下"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073028-1-1.html",
+      "title": "📁推荐一款计算机取证&数据恢复工具（十六进制编辑器）",
+      "url": "https://bbs.pcbeta.com/viewthread-2073028-1-1.html",
+      "pubDate": 1781190694000,
+      "extra": {
+        "hover": "全球知名软件，功能覆盖：取证搜集、数据恢复、文件分析与编辑、底层数据处理、安全报告。可修复硬盘/内存卡损坏导致的数据丢失，编辑Hex与ASCII编码，多文件搜索替换。即开即用，效率极高。🔗：https://pan.quark.cn/s/e27d8a148f0f\r\n🔗：https://pan.xunlei.com/s/VOur ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2072978-1-1.html",
+      "title": "请教如何关闭Windows 10自动更新问题！",
+      "url": "https://bbs.pcbeta.com/viewthread-2072978-1-1.html",
+      "pubDate": 1781142625000,
+      "extra": {
+        "hover": "我2009年组装了一台台式电脑，内存2G，安装了WIN10和WIN7双系统。2018年买了DELL电脑，组装电脑就不用了。去年和今年又用过，现在发现WIN10已经自动更新到22H2了，使用起来非常卡。我卸载了所有更新恢复到了2004版本。想关闭更新，从网上搜索到“彻底永久关闭win10那该 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2072972-1-1.html",
+      "title": "想问个长期存在心里关于系统启动的问题",
+      "url": "https://bbs.pcbeta.com/viewthread-2072972-1-1.html",
+      "pubDate": 1781136207000,
+      "extra": {
+        "hover": "如题。在msconfig-常规/启动选择，有时候系统刚安装完，默认是“正常启动”；有时候装完系统又默认是“有选择的启动”，如果尝试手动修改成“正常启动”，会提示需要重启，但重启后再次打开msconfig，又变成“有选择的启动”了~~~\r\n因为对日常使用毫无影响，所以一直没放 ..."
+      }
+    }
+  ]
+}

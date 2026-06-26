@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073500-1-1.html",
+      "title": "帮忙指教一下适合装哪个系统版本",
+      "url": "https://bbs.pcbeta.com/viewthread-2073500-1-1.html",
+      "pubDate": 1781703152000,
+      "extra": {
+        "hover": "很多年的笔记本，请教一下适合装哪个系统版本？"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073476-1-1.html",
+      "title": "现在Win10最终版的官方镜像是哪个，哪里能下载呀",
+      "url": "https://bbs.pcbeta.com/viewthread-2073476-1-1.html",
+      "pubDate": 1781685253000,
+      "extra": {
+        "hover": "端午准备重装下系统，现在Win10官方发布的最终版版号是什么呀？听说Win10 19045.3208是Win10最流畅的版本，到底有没有这回事？谢谢大家"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073460-1-1.html",
+      "title": "那个win10  完美支持ultra9 大小核 调度的  求教",
+      "url": "https://bbs.pcbeta.com/viewthread-2073460-1-1.html",
+      "pubDate": 1781673313000,
+      "extra": {
+        "hover": "那个win10  完美支持ultra9 大小核 调度的  求教  谢谢有经验的大佬告知一下 谢谢\r\n\r\n配置如下"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073457-1-1.html",
+      "title": "🔥Windows 10 LTSC 1809 17763.8880 繁中/简中/英文 纯净珍藏版【度盘+夸盘+123】",
+      "url": "https://bbs.pcbeta.com/viewthread-2073457-1-1.html",
+      "pubDate": 1781667331000,
+      "extra": {
+        "hover": "特别说明：每个镜像均包含以下两个版本，安装时可根据需求选择：\r\n  • Windows 10 Enterprise LTSC （标准 LTSC）\r\n  • Windows 10 Enterprise N LTSC （不含特定媒体功能 版本，面向欧洲市场）\r\n   适用场景：全新安装、Home / Pro（含 OEM）转换 LTSC、覆盖安装、原地 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073446-1-1.html",
+      "title": "笔记本12代 i5-12450H安装LTSC的请教",
+      "url": "https://bbs.pcbeta.com/viewthread-2073446-1-1.html",
+      "pubDate": 1781660641000,
+      "extra": {
+        "hover": "笔记本12代 i5-12450H 是安装2021LTSC还是WIN11的LTSC呢   21LTSC能发挥全部下性能吗"
+      }
+    }
+  ]
+}

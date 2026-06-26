@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-quick",
+  "count": 5,
+  "items": [
+    {
+      "id": 3123097,
+      "title": "港交所文件显示，自动驾驶公司Momenta通过港交所上市聆讯。中金公司和德意志银行为联席保荐人。",
+      "extra": {
+        "date": 1782176650000
+      },
+      "url": "https://wallstreetcn.com/livenews/3123097"
+    },
+    {
+      "id": 3123096,
+      "title": "富时中国A50指数期货盘初跌0.06%，上一交易日夜盘收跌0.01%。",
+      "extra": {
+        "date": 1782176490000
+      },
+      "url": "https://wallstreetcn.com/livenews/3123096"
+    },
+    {
+      "id": 3123095,
+      "title": "商品期货开盘，沥青、焦炭、氧化铝、液化气、丙烯主力合约跌超2%，沪锡、沪银、纸浆、LU燃油、不锈钢、原油、燃料油、BR橡胶跌超1%。20号胶涨超1%。",
+      "extra": {
+        "date": 1782176427000
+      },
+      "url": "https://wallstreetcn.com/livenews/3123095"
+    },
+    {
+      "id": 3123092,
+      "title": "日本财务大臣片山皋月：与贝森特就七国集团会议进行了后续谈话。\n\n美国和日本在外汇政策上越来越趋于一致。\n\n通话将近一个小时。",
+      "extra": {
+        "date": 1782176249000
+      },
+      "url": "https://wallstreetcn.com/livenews/3123092"
+    },
+    {
+      "id": 3123091,
+      "title": "日本财务大臣片山皋月：周一已与美国财长贝森特通话。\n\n重申美日有关外汇的协议。\n\n通话还提及霍尔木兹海峡和伊朗。",
+      "extra": {
+        "date": 1782176057000
+      },
+      "url": "https://wallstreetcn.com/livenews/3123091"
+    }
+  ]
+}

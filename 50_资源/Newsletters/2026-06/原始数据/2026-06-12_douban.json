@@ -1,0 +1,51 @@
+{
+  "source": "douban",
+  "count": 5,
+  "items": [
+    {
+      "id": "36680492",
+      "title": "大濛",
+      "url": "https://movie.douban.com/subject/36680492",
+      "extra": {
+        "info": "2025 / 中国台湾 / 剧情",
+        "hover": "2025 / 中国台湾 / 剧情 / 陈玉勋 / 方郁婷 柯炜林"
+      }
+    },
+    {
+      "id": "37233517",
+      "title": "杀木池",
+      "url": "https://movie.douban.com/subject/37233517",
+      "extra": {
+        "info": "2026 / 韩国 / 惊悚 恐怖",
+        "hover": "2026 / 韩国 / 惊悚 恐怖 / 李相玟 / 金惠奫 李钟圆"
+      }
+    },
+    {
+      "id": "38407729",
+      "title": "单程夜航",
+      "url": "https://movie.douban.com/subject/38407729",
+      "extra": {
+        "info": "2026 / 美国 / 剧情",
+        "hover": "2026 / 美国 / 剧情 / 约翰·特拉沃尔塔 / 克拉克·肖特韦尔 凯莉·B·埃维斯顿"
+      }
+    },
+    {
+      "id": "37067461",
+      "title": "女士优先",
+      "url": "https://movie.douban.com/subject/37067461",
+      "extra": {
+        "info": "2026 / 美国 / 喜剧 爱情",
+        "hover": "2026 / 美国 / 喜剧 爱情 / 西娅·夏罗克 / 萨莎·拜伦·科恩 裴淳华"
+      }
+    },
+    {
+      "id": "36367195",
+      "title": "家弑服务",
+      "url": "https://movie.douban.com/subject/36367195",
+      "extra": {
+        "info": "2025 / 美国 / 剧情 悬疑 惊悚",
+        "hover": "2025 / 美国 / 剧情 悬疑 惊悚 / 保罗·费格 / 西德尼·斯维尼 阿曼达·塞弗里德"
+      }
+    }
+  ]
+}

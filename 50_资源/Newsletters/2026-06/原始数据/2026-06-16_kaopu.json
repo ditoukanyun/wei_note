@@ -1,0 +1,56 @@
+{
+  "source": "kaopu",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.yicai.com/news/103101217.html",
+      "title": "受电信增值税新规影响，一上市公司预计净利减少600余万",
+      "pubDate": "2026-03-24T03:21:37.827997Z",
+      "extra": {
+        "hover": "部分电信业务增值税税率从6%提高至9%",
+        "info": "第一财经"
+      },
+      "url": "https://www.yicai.com/news/103101217.html"
+    },
+    {
+      "id": "https://www.yicai.com/news/103101225.html",
+      "title": "人社部副部长：“十五五”期间，中国16-24岁青年就业规模逐年增加",
+      "pubDate": "2026-03-24T03:19:37.828806Z",
+      "extra": {
+        "hover": "人社部将着力加强大龄劳动者权益保障",
+        "info": "第一财经"
+      },
+      "url": "https://www.yicai.com/news/103101225.html"
+    },
+    {
+      "id": "https://cn.nytimes.com/usa/20260324/laguardia-airport-air-canada-plane-crash/",
+      "title": "纽约拉瓜迪亚机场客机与消防车相撞，目前我们所知的",
+      "pubDate": "2026-03-24T03:15:53Z",
+      "extra": {
+        "hover": "一架加拿大航空支线航班与跑道上的消防车相撞，导致飞机机长和副驾驶死亡，数十人受伤。拉瓜迪亚机场是美国重要的区域枢纽之一，事故将影响支线和美国国内旅客出行。                    Dak...",
+        "info": "纽约时报"
+      },
+      "url": "https://cn.nytimes.com/usa/20260324/laguardia-airport-air-canada-plane-crash/"
+    },
+    {
+      "id": "http://cn.nikkei.com/industry/manufacturing/61885-2026-03-24-10-59-51.html",
+      "title": "日本板硝子将筹资3000亿日元推进业务重建",
+      "pubDate": "2026-03-24T03:12:53Z",
+      "extra": {
+        "hover": "日本经济新闻（中文版：日经中文网）3月23日获悉，玻璃制造商日本板硝子已基本决定通过从银行团和投资基金的增资等方式，获得总额3000亿日元的支援，将股票私有化。作为主业的玻璃业务增长乏力，加之过去实施...",
+        "info": "日经"
+      },
+      "url": "http://cn.nikkei.com/industry/manufacturing/61885-2026-03-24-10-59-51.html"
+    },
+    {
+      "id": "https://www.zaobao.com.sg/news/china/story20260324-8781293",
+      "title": "陆委会咨委：大陆将台海“内水化”企图影响台地方选举",
+      "pubDate": "2026-03-24T03:08:00Z",
+      "extra": {
+        "hover": "台湾政府的大陆委员会咨询委员认为，中国大陆透过常态化执法将台海“内水化”，展现对台具管辖权，并可能提升对台灰带侵扰力度，企图影响台湾今年底的地方选举。",
+        "info": "联合早报"
+      },
+      "url": "https://www.zaobao.com.sg/news/china/story20260324-8781293"
+    }
+  ]
+}

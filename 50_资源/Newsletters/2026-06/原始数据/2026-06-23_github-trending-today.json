@@ -1,0 +1,51 @@
+{
+  "source": "github-trending-today",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/calesthio/OpenMontage",
+      "title": "calesthio /      OpenMontage",
+      "id": "/calesthio/OpenMontage",
+      "extra": {
+        "info": "✰ 12,078",
+        "hover": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio."
+      }
+    },
+    {
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "title": "palmier-io /      palmier-pro",
+      "id": "/palmier-io/palmier-pro",
+      "extra": {
+        "info": "✰ 7,369",
+        "hover": "macOS video editor built for AI"
+      }
+    },
+    {
+      "url": "https://github.com/jamiepine/voicebox",
+      "title": "jamiepine /      voicebox",
+      "id": "/jamiepine/voicebox",
+      "extra": {
+        "info": "✰ 32,250",
+        "hover": "The open-source AI voice studio. Clone, dictate, create."
+      }
+    },
+    {
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "title": "mukul975 /      Anthropic-Cybersecurity-Skills",
+      "id": "/mukul975/Anthropic-Cybersecurity-Skills",
+      "extra": {
+        "info": "✰ 18,703",
+        "hover": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0"
+      }
+    },
+    {
+      "url": "https://github.com/penpot/penpot",
+      "title": "penpot /      penpot",
+      "id": "/penpot/penpot",
+      "extra": {
+        "info": "✰ 52,867",
+        "hover": "Penpot: The open-source design tool for design and code collaboration"
+      }
+    }
+  ]
+}

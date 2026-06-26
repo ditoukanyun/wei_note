@@ -1,0 +1,51 @@
+{
+  "source": "steam",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "title": "Counter-Strike 2",
+      "id": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "pubDate": 1781571946743,
+      "extra": {
+        "info": "614,011"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/3678970/TBH_Task_Bar_Hero/",
+      "title": "TBH: Task Bar Hero",
+      "id": "https://store.steampowered.com/app/3678970/TBH_Task_Bar_Hero/",
+      "pubDate": 1781571946743,
+      "extra": {
+        "info": "482,545"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/570/Dota_2/",
+      "title": "Dota 2",
+      "id": "https://store.steampowered.com/app/570/Dota_2/",
+      "pubDate": 1781571946743,
+      "extra": {
+        "info": "297,125"
+      }
+    },
+    {
+      "url": "https://steamcommunity.com/app/2694490",
+      "title": "Path of Exile 2",
+      "id": "https://steamcommunity.com/app/2694490",
+      "pubDate": 1781571946744,
+      "extra": {
+        "info": "147,462"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "title": "Bongo Cat",
+      "id": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "pubDate": 1781571946744,
+      "extra": {
+        "info": "140,890"
+      }
+    }
+  ]
+}

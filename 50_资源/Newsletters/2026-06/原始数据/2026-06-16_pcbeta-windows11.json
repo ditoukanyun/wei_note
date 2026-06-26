@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows11",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073355-1-1.html",
+      "title": "开始菜单6列和8列会来回随机变吗？",
+      "url": "https://bbs.pcbeta.com/viewthread-2073355-1-1.html",
+      "pubDate": 1781570255000,
+      "extra": {
+        "hover": "Windows 11 IoT 企业版 LTSC\r\n25H2-26200.8655\r\n\r\n\r\n有时候是8列，有时候开机又变成6列，电脑设置没有任何调整，这个有相关的设置选项吗 ？"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073354-1-1.html",
+      "title": "无线mesh组网的效果到底怎么样？ 延迟高吗？",
+      "url": "https://bbs.pcbeta.com/viewthread-2073354-1-1.html",
+      "pubDate": 1781569581000,
+      "extra": {
+        "hover": "路由器A和路由器B 距离6米左右，无法拉网线过去。\r\n\r\n无线组网稳定吗？延迟高吗？"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073351-1-1.html",
+      "title": "外媒测试 Win11 低延迟配置(LLP)，开始菜单等交互响应提速且更省电(windowslatest))",
+      "url": "https://bbs.pcbeta.com/viewthread-2073351-1-1.html",
+      "pubDate": 1781568642000,
+      "extra": {
+        "hover": "科技媒体 Windows Latest 于 6 月 14 日发布博文，测试指出 Windows 11 系统开启“低延迟配置”后，反而能提升设备的续航表现。\r\n\r\n“低延迟配置”（Low Latency Profile）是 Windows 11 的性能优化方案，其原理是在极短时间内提高 CPU 频率以加快 PC 运行速度，让系统弹 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073348-1-1.html",
+      "title": "安全启动很牛？",
+      "url": "https://bbs.pcbeta.com/viewthread-2073348-1-1.html",
+      "pubDate": 1781566822000,
+      "extra": {
+        "hover": "病毒不能伪造数字签名启动吗？？？"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073346-1-1.html",
+      "title": "ASUS Z170-P，PK 仍然停留在 UEFI CA 2011 版本，以后会有影响么？",
+      "url": "https://bbs.pcbeta.com/viewthread-2073346-1-1.html",
+      "pubDate": 1781563053000,
+      "extra": {
+        "hover": "ASUS Z170-P，PK 仍然停留在 UEFI CA 2011 版本，以后会有影响么？\r\n\r\nASUS 早就不再更新老旧主板的 BIOS 了"
+      }
+    }
+  ]
+}

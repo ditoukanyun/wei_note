@@ -1,0 +1,46 @@
+{
+  "source": "xueqiu-hotstock",
+  "count": 5,
+  "items": [
+    {
+      "id": "SPCX",
+      "url": "https://xueqiu.com/s/SPCX",
+      "title": "SpaceX",
+      "extra": {
+        "info": "-16.4324% NASDAQ"
+      }
+    },
+    {
+      "id": "MU",
+      "url": "https://xueqiu.com/s/MU",
+      "title": "美光科技",
+      "extra": {
+        "info": "6.8246% NASDAQ"
+      }
+    },
+    {
+      "id": "SZ300604",
+      "url": "https://xueqiu.com/s/SZ300604",
+      "title": "长川科技",
+      "extra": {
+        "info": "1.66% SZ"
+      }
+    },
+    {
+      "id": "GOOGL",
+      "url": "https://xueqiu.com/s/GOOGL",
+      "title": "谷歌A",
+      "extra": {
+        "info": "-4.986% NASDAQ"
+      }
+    },
+    {
+      "id": "SH603986",
+      "url": "https://xueqiu.com/s/SH603986",
+      "title": "兆易创新",
+      "extra": {
+        "info": "9.65% SH"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8tcasAQNcQf",
+      "url": "https://news.ifeng.com/c/8tcasAQNcQf",
+      "title": "中方敦促以色列：立即全面撤军",
+      "extra": {
+        "date": "2026-06-02 07:56:33"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8tcZUHIhU1k",
+      "url": "https://news.ifeng.com/c/8tcZUHIhU1k",
+      "title": "美伊谈判将崩盘？专家：伊朗手握多个反制筹码",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8tcMlz5MRuF",
+      "url": "https://news.ifeng.com/c/8tcMlz5MRuF",
+      "title": "特朗普称美伊或于1周内达成协议，谈判出现“小插曲”",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8tc3G5LPI4C",
+      "url": "https://news.ifeng.com/c/8tc3G5LPI4C",
+      "title": "伊朗向以色列发出最新警告",
+      "extra": {}
+    },
+    {
+      "id": "https://v.ifeng.com/c/8tc8qFgK2cc",
+      "url": "https://v.ifeng.com/c/8tc8qFgK2cc",
+      "title": "伊朗将启动包括曼德海峡在内的其他战线，将引发什么后果？",
+      "extra": {}
+    }
+  ]
+}

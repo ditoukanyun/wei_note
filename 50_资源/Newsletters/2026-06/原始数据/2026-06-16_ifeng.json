@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8tyip7MPHMe",
+      "url": "https://news.ifeng.com/c/8tyip7MPHMe",
+      "title": "中方作出了贡献推动重开霍尔木兹海峡？外交部回应",
+      "extra": {
+        "date": "2026-06-15 15:41:50"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8tz3NOrbrqg",
+      "url": "https://news.ifeng.com/c/8tz3NOrbrqg",
+      "title": "万斯：霍尔木兹海峡将长期开放、免费通行",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8tyu4XVxrh4",
+      "url": "https://news.ifeng.com/c/8tyu4XVxrh4",
+      "title": "录音显示美军仍在执行对伊朗海上封锁",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8tyud0EKGZe",
+      "url": "https://news.ifeng.com/c/8tyud0EKGZe",
+      "title": "美伊达成协议后，首艘能源运输船通过霍尔木兹海峡",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8tytt5KRDcq",
+      "url": "https://news.ifeng.com/c/8tytt5KRDcq",
+      "title": "打脸马克龙？特朗普就数字服务税发难",
+      "extra": {}
+    }
+  ]
+}

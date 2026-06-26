@@ -1,0 +1,46 @@
+{
+  "source": "baidu",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.baidu.com/s?wd=C%E7%BD%97%E5%9B%9E%E5%BA%94%E8%91%A1%E8%90%84%E7%89%99%E7%88%86%E5%86%B7%E6%88%98%E5%B9%B3",
+      "title": "C罗回应葡萄牙爆冷战平",
+      "url": "https://www.baidu.com/s?wd=C%E7%BD%97%E5%9B%9E%E5%BA%94%E8%91%A1%E8%90%84%E7%89%99%E7%88%86%E5%86%B7%E6%88%98%E5%B9%B3",
+      "extra": {
+        "hover": "6月18日，2026世界杯小组赛K组首轮，葡萄牙1-1爆冷战平民主刚果。41岁的C罗首发出场但全场0射正。赛后采访C罗回应称“我们什么都不缺，足球就是这样”。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E8%AF%B8%E7%A5%9E%E9%BB%84%E6%98%8F%E5%8F%AA%E6%9C%89C%E7%BD%97%E5%90%AC%E8%BF%9B%E5%8E%BB%E4%BA%86",
+      "title": "诸神黄昏只有C罗听进去了",
+      "url": "https://www.baidu.com/s?wd=%E8%AF%B8%E7%A5%9E%E9%BB%84%E6%98%8F%E5%8F%AA%E6%9C%89C%E7%BD%97%E5%90%AC%E8%BF%9B%E5%8E%BB%E4%BA%86",
+      "extra": {
+        "hover": "6月18日，41岁的C罗在世界杯首秀中全场0射正、触球仅25次，葡萄牙1-1战平民主刚果。网友调侃：诸神黄昏有C罗听进去了。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%A7%8B%E6%B2%BB%E7%90%86%E6%B2%99%E6%BC%A0%E4%BA%86",
+      "title": "中国机器人开始治理沙漠了",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%A7%8B%E6%B2%BB%E7%90%86%E6%B2%99%E6%BC%A0%E4%BA%86",
+      "extra": {
+        "hover": "中国机器人开始治理沙漠了！谁能想到，沙漠里居然开进了“插秧机”，欢迎进入治沙2.0时代！"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E4%B9%89%E4%B9%8C%E2%80%9C%E5%92%A9%E8%A5%BF%E2%80%9D%E6%8C%82%E4%BB%B6%E7%81%AB%E5%87%BA%E5%9C%88",
+      "title": "义乌“咩西”挂件火出圈",
+      "url": "https://www.baidu.com/s?wd=%E4%B9%89%E4%B9%8C%E2%80%9C%E5%92%A9%E8%A5%BF%E2%80%9D%E6%8C%82%E4%BB%B6%E7%81%AB%E5%87%BA%E5%9C%88",
+      "extra": {
+        "hover": "2026年美加墨世界杯期间，义乌制造的“咩西GOAT”小羊挂件凭借创意设计火爆出圈。该产品将阿根廷队蓝白球衣与谐音“梅西”的山羊形象结合，成为球迷情绪消费的代表作，反映义乌从代工转向原创IP的产业升级。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%8F%B2%E4%B8%8A0%E5%88%860%E8%BF%9B%E7%90%83%E5%8F%AA%E5%89%A9%E5%9B%BD%E8%B6%B3%E5%92%8C%E5%8D%B0%E5%B0%BC",
+      "title": "世界杯史上0分0进球只剩国足和印尼",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%8F%B2%E4%B8%8A0%E5%88%860%E8%BF%9B%E7%90%83%E5%8F%AA%E5%89%A9%E5%9B%BD%E8%B6%B3%E5%92%8C%E5%8D%B0%E5%B0%BC",
+      "extra": {
+        "hover": "在与葡萄牙的世界杯小组赛首轮，民主刚果在半场结束前完成破门，维萨打入了民主刚果队史世界杯首球。而在民主刚果取得世界杯首球后，世界杯历史出战却0球0分的队伍，就只剩中国和印尼。"
+      }
+    }
+  ]
+}

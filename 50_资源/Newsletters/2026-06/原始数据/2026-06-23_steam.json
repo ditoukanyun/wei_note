@@ -1,0 +1,51 @@
+{
+  "source": "steam",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "title": "Counter-Strike 2",
+      "id": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "pubDate": 1782176727251,
+      "extra": {
+        "info": "597,502"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/3678970/TBH_Task_Bar_Hero/",
+      "title": "TBH: Task Bar Hero",
+      "id": "https://store.steampowered.com/app/3678970/TBH_Task_Bar_Hero/",
+      "pubDate": 1782176727251,
+      "extra": {
+        "info": "440,097"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/570/Dota_2/",
+      "title": "Dota 2",
+      "id": "https://store.steampowered.com/app/570/Dota_2/",
+      "pubDate": 1782176727251,
+      "extra": {
+        "info": "317,486"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/4704690/MECCHA_CHAMELEON/",
+      "title": "MECCHA CHAMELEON",
+      "id": "https://store.steampowered.com/app/4704690/MECCHA_CHAMELEON/",
+      "pubDate": 1782176727252,
+      "extra": {
+        "info": "156,554"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "title": "Bongo Cat",
+      "id": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "pubDate": 1782176727252,
+      "extra": {
+        "info": "141,783"
+      }
+    }
+  ]
+}

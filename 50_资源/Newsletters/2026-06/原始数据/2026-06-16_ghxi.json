@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/iobitsmartdefrag.html",
+      "url": "https://www.ghxi.com/iobitsmartdefrag.html",
+      "title": "IObit SmartDefrag(智能磁盘整理) v11.4.0.508 特别版",
+      "extra": {
+        "hover": "IObit SmartDefrag Pro 中文版智能磁盘整理工具是一款免费且强大的碎片整理工具。采用业界先进的 ExpressDefrag 技术，碎片整理速度非常快，而且还能够对...",
+        "date": 1781521450212
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/microsoftedgeportable.html",
+      "url": "https://www.ghxi.com/microsoftedgeportable.html",
+      "title": "Microsoft Edge v149.0.4022.69 便携增强版",
+      "extra": {
+        "hover": "新版本Microsoft Edge，基于谷歌Chromium内核，支持全局翻译、阅读模式、第三方扩展插件以及人声语音朗读等各种功能，微软计划对Edge浏览器定期更新，如每日、每周和...",
+        "date": 1781521450212
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/microsoftedge.html",
+      "url": "https://www.ghxi.com/microsoftedge.html",
+      "title": "Microsoft Edge v149.0.4022.69 离线安装包",
+      "extra": {
+        "hover": "微软终于在浏览器上认输了？在用 Edge 取代多年的 IE 之后，如今 Edge 也低下了头颅，承认了 Chrome 的胜利。 Microsoft Edge 浏览器在 2015 年...",
+        "date": 1781521450212
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/colortxt.html",
+      "url": "https://www.ghxi.com/colortxt.html",
+      "title": "彩读(ColorTxt) v2.6.5",
+      "extra": {
+        "hover": "彩读 是一款会给内容上色的本地 TXT 小说阅读器，带给你不一样的阅读体验！（也支持打开常见的电子书格式，如 .epub）。还有章节识别、空行压缩、行首缩进、语音朗读、AI 阅读助...",
+        "date": 1781517850213
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/hypersnap.html",
+      "url": "https://www.ghxi.com/hypersnap.html",
+      "title": "HyperSnap v10.0.3 修改便携版",
+      "extra": {
+        "hover": "Hypersnap汉化中文版 老牌优秀屏幕截图工具，果核剥壳独家便携。老牌优秀的屏幕截图工具，全新界面，不仅能抓取标准桌面程序，还能抓取 DirectX, 3Dfx Glide的 ...",
+        "date": 1781514250213
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows11",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073920-1-1.html",
+      "title": "2026 年 6 月 23 日 — KB5095093 (操作系统内部版本 26200.8737 和 26100.8737) 预览版",
+      "url": "https://bbs.pcbeta.com/viewthread-2073920-1-1.html",
+      "pubDate": 1782257894000,
+      "extra": {
+        "hover": "https://support.microsoft.com/zh-cn/topic/2026-年-6-月-23-日-kb5095093-操作系统内部版本-26200-8737-和-26100-8737-预览版-0e2a20f2-cf9e-46f8-9f08-e6996220882d#id0ebbn=normal_rollout"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073906-1-1.html",
+      "title": "Win11系统就是彻头彻尾的半成品",
+      "url": "https://bbs.pcbeta.com/viewthread-2073906-1-1.html",
+      "pubDate": 1782221629000,
+      "extra": {
+        "hover": "之前用的12代测试版cpu，以为是cpu性能不行，系统UI才会产生各种延迟，右键菜单延迟，打开我的电脑延迟。每一个点击都感觉有迟滞感。\r\n现在cpu升级到270K Plus，结果没有任何改善，没有任何改善！！！！系统更新到26H1，完全没有感觉比25H2有多少改善。\r\n\r\n与Win10的那种丝 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073905-1-1.html",
+      "title": "第一个Win11 26H2",
+      "url": "https://bbs.pcbeta.com/viewthread-2073905-1-1.html",
+      "pubDate": 1782219586000,
+      "extra": {
+        "hover": "第一个显示26H2的版本，版本号26300.8697。大家可以自行下载体验。\r\n\r\n\r\n\r\n链接：https://pan.quark.cn/s/8a153f41f5ba 提取码：UdQR"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073900-1-1.html",
+      "title": "老显卡真撑不住了~",
+      "url": "https://bbs.pcbeta.com/viewthread-2073900-1-1.html",
+      "pubDate": 1782217343000,
+      "extra": {
+        "hover": "1060 3G咸鱼二手显卡带2K 27寸160赫兹显示器真的不行了，玩老游戏都百分百，显存也是90多~今天换了5060 8G显卡机箱前面加了3个14cm的风扇，效果开高，然后玩了游戏，在室温30多度下玩游戏，CPUGPU都是50多度，效果挺好~ ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073896-1-1.html",
+      "title": "较长时间不用电脑，你会让电脑睡眠 / 休眠吗？",
+      "url": "https://bbs.pcbeta.com/viewthread-2073896-1-1.html",
+      "pubDate": 1782213945000,
+      "extra": {
+        "hover": "我自己是不会让电脑睡眠/休眠的，较长时间不用的话直接关机，回来用的时候再开机。\r\n\r\n但发现喜欢用睡眠/休眠功能的人还真不少啊~"
+      }
+    }
+  ]
+}

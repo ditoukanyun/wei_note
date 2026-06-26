@@ -1,0 +1,46 @@
+{
+  "source": "xueqiu",
+  "count": 5,
+  "items": [
+    {
+      "id": "MU",
+      "url": "https://xueqiu.com/s/MU",
+      "title": "美光科技",
+      "extra": {
+        "info": "-13.18% NASDAQ"
+      }
+    },
+    {
+      "id": "SPCX",
+      "url": "https://xueqiu.com/s/SPCX",
+      "title": "SpaceX",
+      "extra": {
+        "info": "0.9767% NASDAQ"
+      }
+    },
+    {
+      "id": "01810",
+      "url": "https://xueqiu.com/s/01810",
+      "title": "小米集团-W",
+      "extra": {
+        "info": "-0.09% HK"
+      }
+    },
+    {
+      "id": "NVDA",
+      "url": "https://xueqiu.com/s/NVDA",
+      "title": "英伟达",
+      "extra": {
+        "info": "-4.1265% NASDAQ"
+      }
+    },
+    {
+      "id": "SNDK",
+      "url": "https://xueqiu.com/s/SNDK",
+      "title": "闪迪",
+      "extra": {
+        "info": "-13.6397% NASDAQ"
+      }
+    }
+  ]
+}

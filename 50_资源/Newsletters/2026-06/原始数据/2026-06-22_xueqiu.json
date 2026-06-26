@@ -1,0 +1,46 @@
+{
+  "source": "xueqiu",
+  "count": 5,
+  "items": [
+    {
+      "id": "SH601318",
+      "url": "https://xueqiu.com/s/SH601318",
+      "title": "中国平安",
+      "extra": {
+        "info": "-6.41% SH"
+      }
+    },
+    {
+      "id": "SZ000933",
+      "url": "https://xueqiu.com/s/SZ000933",
+      "title": "神火股份",
+      "extra": {
+        "info": "-3.3% SZ"
+      }
+    },
+    {
+      "id": "SZ300319",
+      "url": "https://xueqiu.com/s/SZ300319",
+      "title": "麦捷科技",
+      "extra": {
+        "info": "20.02% SZ"
+      }
+    },
+    {
+      "id": "SZ002384",
+      "url": "https://xueqiu.com/s/SZ002384",
+      "title": "东山精密",
+      "extra": {
+        "info": "6.26% SZ"
+      }
+    },
+    {
+      "id": "PM",
+      "url": "https://xueqiu.com/s/PM",
+      "title": "菲利普莫里斯",
+      "extra": {
+        "info": "-0.5796% NYSE"
+      }
+    }
+  ]
+}

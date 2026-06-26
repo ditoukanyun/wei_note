@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8uGLx4GEgzJ",
+      "url": "https://news.ifeng.com/c/8uGLx4GEgzJ",
+      "title": "污蔑中国抽走“梯子”，美媒翻车了",
+      "extra": {
+        "date": "2026-06-25 23:53:54"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uFtfSi0LYE",
+      "url": "https://news.ifeng.com/c/8uFtfSi0LYE",
+      "title": "美最高法院裁决支持特朗普强硬移民政策",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uFWghMqyBu",
+      "url": "https://news.ifeng.com/c/8uFWghMqyBu",
+      "title": "东风-17发射画面“震惊美军”，国防部回应",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uGETZsdV7Q",
+      "url": "https://news.ifeng.com/c/8uGETZsdV7Q",
+      "title": "2名中国公民在委内瑞拉地震中遇难",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uGRmA8GDdn",
+      "url": "https://news.ifeng.com/c/8uGRmA8GDdn",
+      "title": "联合国已经启动紧急响应，援助委内瑞拉",
+      "extra": {}
+    }
+  ]
+}

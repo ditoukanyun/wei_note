@@ -1,0 +1,46 @@
+{
+  "source": "kuaishou",
+  "count": 5,
+  "items": [
+    {
+      "id": "西班牙0比0佛得角",
+      "title": "西班牙0比0佛得角",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E8%A5%BF%E7%8F%AD%E7%89%990%E6%AF%940%E4%BD%9B%E5%BE%97%E8%A7%92",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    },
+    {
+      "id": "沙特1比1战平乌拉圭",
+      "title": "沙特1比1战平乌拉圭",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E6%B2%99%E7%89%B91%E6%AF%941%E6%88%98%E5%B9%B3%E4%B9%8C%E6%8B%89%E5%9C%AD",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    },
+    {
+      "id": "全国已收获夏粮小麦2.95亿亩",
+      "title": "全国已收获夏粮小麦2.95亿亩",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E5%85%A8%E5%9B%BD%E5%B7%B2%E6%94%B6%E8%8E%B7%E5%A4%8F%E7%B2%AE%E5%B0%8F%E9%BA%A62.95%E4%BA%BF%E4%BA%A9",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "中央气象发布强对流天气黄色预警",
+      "title": "中央气象发布强对流天气黄色预警",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E4%B8%AD%E5%A4%AE%E6%B0%94%E8%B1%A1%E5%8F%91%E5%B8%83%E5%BC%BA%E5%AF%B9%E6%B5%81%E5%A4%A9%E6%B0%94%E9%BB%84%E8%89%B2%E9%A2%84%E8%AD%A6",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    },
+    {
+      "id": "世界杯伊朗vs新西兰",
+      "title": "世界杯伊朗vs新西兰",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E4%B8%96%E7%95%8C%E6%9D%AF%E4%BC%8A%E6%9C%97vs%E6%96%B0%E8%A5%BF%E5%85%B0",
+      "extra": {
+        "icon": null
+      }
+    }
+  ]
+}

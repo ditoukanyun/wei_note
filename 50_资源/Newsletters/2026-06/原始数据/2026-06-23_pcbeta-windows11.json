@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows11",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073846-1-1.html",
+      "title": "挺奇怪的每次从睡眠里唤醒的时候总是数字键盘灯不亮",
+      "url": "https://bbs.pcbeta.com/viewthread-2073846-1-1.html",
+      "pubDate": 1782175150000,
+      "extra": {
+        "hover": "挺奇怪的每次从睡眠里唤醒的时候总是数字键盘灯不亮"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073842-1-1.html",
+      "title": "我也来凑热闹分享一套指针！",
+      "url": "https://bbs.pcbeta.com/viewthread-2073842-1-1.html",
+      "pubDate": 1782171465000,
+      "extra": {
+        "hover": "这套指针，我觉得挺好看的。。有玻璃那种穿透的效果。。\r\n\r\n感谢原作者的分享！！"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073837-1-1.html",
+      "title": "Win11 24H2 / 25H2 ---> 26H2 的升级流程",
+      "url": "https://bbs.pcbeta.com/viewthread-2073837-1-1.html",
+      "pubDate": 1782167982000,
+      "extra": {
+        "hover": "Win11 24H2 / 25H2 ---&gt; 26H2 的升级流程"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073833-1-1.html",
+      "title": "整合CA 2023安全启动证书一些体会",
+      "url": "https://bbs.pcbeta.com/viewthread-2073833-1-1.html",
+      "pubDate": 1782145019000,
+      "extra": {
+        "hover": "在WIn10 22H2里面整合6月CA2023(kb5094154)补丁之后(其实微软月度累积补丁本身就包含CA 2023,所以kb5094154整合与否都没关系)\r\n1、Windows\\\\Boot\\\\EFI\\\\bootmgfw.efi 版本还是CA2011\r\n2、Windows\\\\Boot\\\\EFI_EX\\\\bootmgfw_EX.efi 版本才是CA2023\r\n3、用https://bbs.pcbeta.com/fo ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073830-1-1.html",
+      "title": "关于启动excel提示非默认程序的问题",
+      "url": "https://bbs.pcbeta.com/viewthread-2073830-1-1.html",
+      "pubDate": 1782139370000,
+      "extra": {
+        "hover": "在用系统为windows 11,默认程序设置中excel为所有表格的默认项，但是桌面单独启动excel程序却始终显示为\r\n\r\n非默认程序，请问如何解决？"
+      }
+    }
+  ]
+}

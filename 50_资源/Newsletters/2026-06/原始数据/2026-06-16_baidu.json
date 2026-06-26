@@ -1,0 +1,46 @@
+{
+  "source": "baidu",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%BC%80%E8%B5%9B%E4%BB%A5%E6%9D%A5%E6%9C%80%E5%A4%A7%E5%86%B7%E9%97%A8%E8%AF%9E%E7%94%9F",
+      "title": "世界杯开赛以来最大冷门诞生",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%BC%80%E8%B5%9B%E4%BB%A5%E6%9D%A5%E6%9C%80%E5%A4%A7%E5%86%B7%E9%97%A8%E8%AF%9E%E7%94%9F",
+      "extra": {
+        "hover": "6月16日，2026美加墨世界杯H组爆出开赛以来最大冷门，世界排名第67位的佛得角0比0逼平夺冠热门西班牙。西班牙全场控球率高达74%、狂轰27脚射门仍颗粒无收，40岁门将沃齐尼亚完成7次扑救力保球门不失，帮助球队拿到队史首个世界杯积分。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E4%BD%9B%E5%BE%97%E8%A7%92%E7%88%86%E5%86%B7%E9%80%BC%E5%B9%B3%E8%A5%BF%E7%8F%AD%E7%89%99",
+      "title": "佛得角爆冷逼平西班牙",
+      "url": "https://www.baidu.com/s?wd=%E4%BD%9B%E5%BE%97%E8%A7%92%E7%88%86%E5%86%B7%E9%80%BC%E5%B9%B3%E8%A5%BF%E7%8F%AD%E7%89%99",
+      "extra": {
+        "hover": "北京时间6月16日，2026年美加墨世界杯继续进行。在H组的比赛中，西班牙队0-0战平佛得角队。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E2%80%9C%E5%85%AD%E5%BC%A0%E7%BD%91%E2%80%9D%E4%B8%BA%E6%96%B0%E5%9F%BA%E5%BB%BA%E5%BC%BA%E7%AD%8B%E5%81%A5%E9%AA%A8",
+      "title": "“六张网”为新基建强筋健骨",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%85%AD%E5%BC%A0%E7%BD%91%E2%80%9D%E4%B8%BA%E6%96%B0%E5%9F%BA%E5%BB%BA%E5%BC%BA%E7%AD%8B%E5%81%A5%E9%AA%A8",
+      "extra": {
+        "hover": "近期，中央有关会议接连部署水网、新型电网、算力网、新一代通信网、城市地下管网、物流网建设。这一重大部署，涵盖传统基建升级与新型基建布局，是“十五五”规划纲要中构建现代化基础设施体系23项工程的重要组成部分，也是强基础、补短板、增后劲的重要举措。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%86%9B%E4%B8%80B52%E8%BD%B0%E7%82%B8%E6%9C%BA%E5%9D%A0%E6%AF%81%E8%87%B48%E6%AD%BB",
+      "title": "美军一B52轰炸机坠毁致8死",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%86%9B%E4%B8%80B52%E8%BD%B0%E7%82%B8%E6%9C%BA%E5%9D%A0%E6%AF%81%E8%87%B48%E6%AD%BB",
+      "extra": {
+        "hover": "当地时间6月15日上午，美国空军一架B-52轰炸机在加利福尼亚州南部坠毁，机上8人全部死亡，现场冒出滚滚黑烟。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%EF%BC%9A%E4%BC%8A%E6%9C%97vs%E6%96%B0%E8%A5%BF%E5%85%B0",
+      "title": "世界杯：伊朗vs新西兰",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%EF%BC%9A%E4%BC%8A%E6%9C%97vs%E6%96%B0%E8%A5%BF%E5%85%B0",
+      "extra": {
+        "hover": "6月16日9:00，2026美加墨世界杯小组赛G组第一轮伊朗vs新西兰。"
+      }
+    }
+  ]
+}

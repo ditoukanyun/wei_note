@@ -1,0 +1,337 @@
+{
+  "count": 66,
+  "sources": [
+    {
+      "name": "36kr",
+      "category": "36kr",
+      "envVars": []
+    },
+    {
+      "name": "36kr-quick",
+      "category": "36kr",
+      "envVars": []
+    },
+    {
+      "name": "36kr-renqi",
+      "category": "36kr",
+      "envVars": []
+    },
+    {
+      "name": "baidu",
+      "category": "baidu",
+      "envVars": []
+    },
+    {
+      "name": "bilibili",
+      "category": "bilibili",
+      "envVars": []
+    },
+    {
+      "name": "bilibili-hot-search",
+      "category": "bilibili",
+      "envVars": []
+    },
+    {
+      "name": "bilibili-hot-video",
+      "category": "bilibili",
+      "envVars": []
+    },
+    {
+      "name": "bilibili-ranking",
+      "category": "bilibili",
+      "envVars": []
+    },
+    {
+      "name": "cankaoxiaoxi",
+      "category": "cankaoxiaoxi",
+      "envVars": []
+    },
+    {
+      "name": "chongbuluo",
+      "category": "chongbuluo",
+      "envVars": []
+    },
+    {
+      "name": "chongbuluo-hot",
+      "category": "chongbuluo",
+      "envVars": []
+    },
+    {
+      "name": "chongbuluo-latest",
+      "category": "chongbuluo",
+      "envVars": []
+    },
+    {
+      "name": "cls",
+      "category": "cls",
+      "envVars": []
+    },
+    {
+      "name": "cls-depth",
+      "category": "cls",
+      "envVars": []
+    },
+    {
+      "name": "cls-hot",
+      "category": "cls",
+      "envVars": []
+    },
+    {
+      "name": "cls-telegraph",
+      "category": "cls",
+      "envVars": []
+    },
+    {
+      "name": "coolapk",
+      "category": "coolapk",
+      "envVars": []
+    },
+    {
+      "name": "douban",
+      "category": "douban",
+      "envVars": []
+    },
+    {
+      "name": "douyin",
+      "category": "douyin",
+      "envVars": []
+    },
+    {
+      "name": "fastbull",
+      "category": "fastbull",
+      "envVars": []
+    },
+    {
+      "name": "fastbull-express",
+      "category": "fastbull",
+      "envVars": []
+    },
+    {
+      "name": "fastbull-news",
+      "category": "fastbull",
+      "envVars": []
+    },
+    {
+      "name": "freebuf",
+      "category": "freebuf",
+      "envVars": []
+    },
+    {
+      "name": "gelonghui",
+      "category": "gelonghui",
+      "envVars": []
+    },
+    {
+      "name": "ghxi",
+      "category": "ghxi",
+      "envVars": []
+    },
+    {
+      "name": "github",
+      "category": "github",
+      "envVars": []
+    },
+    {
+      "name": "github-trending-today",
+      "category": "github",
+      "envVars": []
+    },
+    {
+      "name": "hackernews",
+      "category": "hackernews",
+      "envVars": []
+    },
+    {
+      "name": "hupu",
+      "category": "hupu",
+      "envVars": []
+    },
+    {
+      "name": "ifeng",
+      "category": "ifeng",
+      "envVars": []
+    },
+    {
+      "name": "iqiyi-hot-ranklist",
+      "category": "iqiyi",
+      "envVars": []
+    },
+    {
+      "name": "ithome",
+      "category": "ithome",
+      "envVars": []
+    },
+    {
+      "name": "jin10",
+      "category": "jin10",
+      "envVars": []
+    },
+    {
+      "name": "juejin",
+      "category": "juejin",
+      "envVars": []
+    },
+    {
+      "name": "kaopu",
+      "category": "kaopu",
+      "envVars": []
+    },
+    {
+      "name": "kuaishou",
+      "category": "kuaishou",
+      "envVars": []
+    },
+    {
+      "name": "linuxdo",
+      "category": "linuxdo",
+      "envVars": []
+    },
+    {
+      "name": "linuxdo-hot",
+      "category": "linuxdo",
+      "envVars": []
+    },
+    {
+      "name": "linuxdo-latest",
+      "category": "linuxdo",
+      "envVars": []
+    },
+    {
+      "name": "mktnews",
+      "category": "mktnews",
+      "envVars": []
+    },
+    {
+      "name": "mktnews-flash",
+      "category": "mktnews",
+      "envVars": []
+    },
+    {
+      "name": "nowcoder",
+      "category": "nowcoder",
+      "envVars": []
+    },
+    {
+      "name": "pcbeta-windows",
+      "category": "pcbeta",
+      "envVars": []
+    },
+    {
+      "name": "pcbeta-windows11",
+      "category": "pcbeta",
+      "envVars": []
+    },
+    {
+      "name": "producthunt",
+      "category": "producthunt",
+      "envVars": [
+        "PRODUCTHUNT_API_TOKEN"
+      ]
+    },
+    {
+      "name": "qqvideo-tv-hotsearch",
+      "category": "qqvideo",
+      "envVars": []
+    },
+    {
+      "name": "smzdm",
+      "category": "smzdm",
+      "envVars": []
+    },
+    {
+      "name": "solidot",
+      "category": "solidot",
+      "envVars": []
+    },
+    {
+      "name": "sputniknewscn",
+      "category": "sputniknewscn",
+      "envVars": []
+    },
+    {
+      "name": "sspai",
+      "category": "sspai",
+      "envVars": []
+    },
+    {
+      "name": "steam",
+      "category": "steam",
+      "envVars": []
+    },
+    {
+      "name": "tencent-hot",
+      "category": "tencent",
+      "envVars": []
+    },
+    {
+      "name": "thepaper",
+      "category": "thepaper",
+      "envVars": []
+    },
+    {
+      "name": "tieba",
+      "category": "tieba",
+      "envVars": []
+    },
+    {
+      "name": "toutiao",
+      "category": "toutiao",
+      "envVars": []
+    },
+    {
+      "name": "v2ex",
+      "category": "v2ex",
+      "envVars": []
+    },
+    {
+      "name": "v2ex-share",
+      "category": "v2ex",
+      "envVars": []
+    },
+    {
+      "name": "wallstreetcn",
+      "category": "wallstreetcn",
+      "envVars": []
+    },
+    {
+      "name": "wallstreetcn-hot",
+      "category": "wallstreetcn",
+      "envVars": []
+    },
+    {
+      "name": "wallstreetcn-news",
+      "category": "wallstreetcn",
+      "envVars": []
+    },
+    {
+      "name": "wallstreetcn-quick",
+      "category": "wallstreetcn",
+      "envVars": []
+    },
+    {
+      "name": "weibo",
+      "category": "weibo",
+      "envVars": []
+    },
+    {
+      "name": "xueqiu",
+      "category": "xueqiu",
+      "envVars": []
+    },
+    {
+      "name": "xueqiu-hotstock",
+      "category": "xueqiu",
+      "envVars": []
+    },
+    {
+      "name": "zaobao",
+      "category": "zaobao",
+      "envVars": []
+    },
+    {
+      "name": "zhihu",
+      "category": "zhihu",
+      "envVars": []
+    }
+  ]
+}

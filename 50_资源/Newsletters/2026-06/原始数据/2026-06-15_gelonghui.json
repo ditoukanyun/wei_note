@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5251617",
+      "title": "瑞威资管(01835.HK)6月15日起短暂停牌",
+      "id": "/news/5251617",
+      "extra": {
+        "date": 1781485340312,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5251616",
+      "title": "浦江中国(01417.HK)6月15日起短暂停牌",
+      "id": "/news/5251616",
+      "extra": {
+        "date": 1781485340312,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5251615",
+      "title": "百川股份(002455.SZ)：公司TMP产能为7万吨/年",
+      "id": "/news/5251615",
+      "extra": {
+        "date": 1781485340312,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5251614",
+      "title": "惠康科技(001237.SZ)：泰国整体产能规划为400万台制冷设备产品",
+      "id": "/news/5251614",
+      "extra": {
+        "date": 1781485220312,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5251613",
+      "title": "温州宏丰(300283.SZ)：公司目前与宇树、智元暂无业务往来",
+      "id": "/news/5251613",
+      "extra": {
+        "date": 1781485160313,
+        "info": "公司信息"
+      }
+    }
+  ]
+}

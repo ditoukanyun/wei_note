@@ -1,0 +1,51 @@
+{
+  "source": "github-trending-today",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "title": "palmier-io /      palmier-pro",
+      "id": "/palmier-io/palmier-pro",
+      "extra": {
+        "info": "✰ 5,152",
+        "hover": "macOS video editor built for AI"
+      }
+    },
+    {
+      "url": "https://github.com/calesthio/OpenMontage",
+      "title": "calesthio /      OpenMontage",
+      "id": "/calesthio/OpenMontage",
+      "extra": {
+        "info": "✰ 8,737",
+        "hover": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio."
+      }
+    },
+    {
+      "url": "https://github.com/chopratejas/headroom",
+      "title": "chopratejas /      headroom",
+      "id": "/chopratejas/headroom",
+      "extra": {
+        "info": "✰ 44,404",
+        "hover": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server."
+      }
+    },
+    {
+      "url": "https://github.com/tursodatabase/turso",
+      "title": "tursodatabase /      turso",
+      "id": "/tursodatabase/turso",
+      "extra": {
+        "info": "✰ 20,803",
+        "hover": "Turso is an in-process SQL database, compatible with SQLite."
+      }
+    },
+    {
+      "url": "https://github.com/penpot/penpot",
+      "title": "penpot /      penpot",
+      "id": "/penpot/penpot",
+      "extra": {
+        "info": "✰ 52,242",
+        "hover": "Penpot: The open-source design tool for design and code collaboration"
+      }
+    }
+  ]
+}

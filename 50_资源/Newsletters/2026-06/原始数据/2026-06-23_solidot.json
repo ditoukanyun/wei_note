@@ -1,0 +1,36 @@
+{
+  "source": "solidot",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.solidot.org/story?sid=84518",
+      "title": "免费领取价值30/90美金的NVIDIA DLI自学课程并测试获得证书",
+      "id": "/story?sid=84518",
+      "pubDate": 1780910280000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84647",
+      "title": "回顾对 AUR 的攻击",
+      "id": "/story?sid=84647",
+      "pubDate": 1782139620000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84646",
+      "title": "HPV 疫苗将 30 岁前死于宫颈癌的风险降至几乎为零",
+      "id": "/story?sid=84646",
+      "pubDate": 1782131400000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84645",
+      "title": "Anthropic 对特定功能访问要求身份验证",
+      "id": "/story?sid=84645",
+      "pubDate": 1782126120000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84644",
+      "title": "Linux 7.2 内核完全移除 strncpy 函数 ",
+      "id": "/story?sid=84644",
+      "pubDate": 1782125700000
+    }
+  ]
+}

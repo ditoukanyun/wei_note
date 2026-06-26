@@ -1,0 +1,46 @@
+{
+  "source": "36kr-quick",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.36kr.com/newsflashes/3869311059514627",
+      "title": "安森美半导体70亿美元收购Synaptics",
+      "id": "/newsflashes/3869311059514627",
+      "extra": {
+        "date": 1782436005781
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3869310289646594",
+      "title": "瑞典能源公司Orrön Energy宣布达成战略交易，将设立北欧领先独立发电企业",
+      "id": "/newsflashes/3869310289646594",
+      "extra": {
+        "date": 1782436005781
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3869281709806594",
+      "title": "曹操出行与K2集团达成战略合作，计划年内于阿布扎比投放首批Robotaxi车辆",
+      "id": "/newsflashes/3869281709806594",
+      "extra": {
+        "date": 1782435645781
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3869301848069127",
+      "title": "深交所：港股通标的证券名单调入领益智造",
+      "id": "/newsflashes/3869301848069127",
+      "extra": {
+        "date": 1782435465781
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3869282496730113",
+      "title": "中金：黄金牛市尚未结束，转机可能已经不远",
+      "id": "/newsflashes/3869282496730113",
+      "extra": {
+        "date": 1782435045781
+      }
+    }
+  ]
+}

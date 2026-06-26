@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows11",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073763-1-1.html",
+      "title": "现在你们的Onedrive能打开吗？",
+      "url": "https://bbs.pcbeta.com/viewthread-2073763-1-1.html",
+      "pubDate": 1782086706000,
+      "extra": {
+        "hover": "我25H2和26H1点上去都没反应，时间8:00。"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073761-1-1.html",
+      "title": "最早的 Windows NT 3.5",
+      "url": "https://bbs.pcbeta.com/viewthread-2073761-1-1.html",
+      "pubDate": 1782085822000,
+      "extra": {
+        "hover": "最早的 Windows NT 3.5"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073752-1-1.html",
+      "title": "【鼠标指针】【高清版】Capitaine HiDPI Cursors v1.0",
+      "url": "https://bbs.pcbeta.com/viewthread-2073752-1-1.html",
+      "pubDate": 1782055171000,
+      "extra": {
+        "hover": "源地址：https://github.com/hervad/capitaine-cursors-w11-hidpi\r\n\r\n这些光标包含7个嵌入的分辨率层（32px到128px）在每个文件中。Windows 11会自动选择与您的显示缩放匹配的精确分辨率—没有拉伸，没有模糊。\r\n\r\n\r\n\r\n\r\n\r\n ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073749-1-1.html",
+      "title": "寻求一个“极致简约”的potplayer托盘图标！",
+      "url": "https://bbs.pcbeta.com/viewthread-2073749-1-1.html",
+      "pubDate": 1782051472000,
+      "extra": {
+        "hover": "如上图，希望把任务栏默认的黄色图标变成 极简约的 三角标（最好是蓝色或紫色，黄色亦可）。。\r\n\r\n\r\n之前一直用的下面这位大佬的“蓝色标”，可现在没有更新了，据原作者说也没用potplayer了。。\r\n\r\n\r\n上面的蓝色版，我一直用了好几年呢！以前的potplayer版本，只需要将“ ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073744-1-1.html",
+      "title": "server2022/2025【Jun 2026】",
+      "url": "https://bbs.pcbeta.com/viewthread-2073744-1-1.html",
+      "pubDate": 1782040075000,
+      "extra": {
+        "hover": "2022：\r\n\r\nD0CB1B299F4E473878F1159263F0F888937DE2BB3F02BDEE95D08C68BFD2A909\r\n\r\nhttps://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Server_STD_CORE_2022_2108.58_64Bit_ChnSimp_DC_STD_MLF_X24-33140.ISO?t=a280aaa3-f565-4bee-8a50-e13b372bbfb6&amp;P1= ."
+      }
+    }
+  ]
+}

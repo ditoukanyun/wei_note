@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/qfsrf.html",
+      "url": "https://www.ghxi.com/qfsrf.html",
+      "title": "清风输入法(WindInput) v0.13.1-alpha",
+      "extra": {
+        "hover": "清风输入法 是一款轻量、快速、可定制的开源中文输入法。支持五笔 86、五笔拼音混输，同时提供全拼和双拼输入。完美支持高分辨率和多显示器环境，界面清晰锐利。并且内置设置工具，所有配置...",
+        "date": 1782212665502
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/billddesk.html",
+      "url": "https://www.ghxi.com/billddesk.html",
+      "title": "BilldDesk(远程连接) v0.539.0",
+      "extra": {
+        "hover": "BilldDesk 远程桌面控制，目前实现了类似 ToDesk、向日葵等远程桌面的功能。‌是一款基于Vue3、WebRTC、Nodejs和Electron技术开发的开源远程桌面控制...",
+        "date": 1782212665502
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/mozillafirefox.html",
+      "url": "https://www.ghxi.com/mozillafirefox.html",
+      "title": "火狐浏览器 152.0.2 正式版",
+      "extra": {
+        "hover": "火狐浏览器比起谷歌，占用内存小很多，本地化更完善，程序员调试的神器，也是极客首选！谷歌支持的插件，火狐也大部分支持。完善的国内账号服务，能做到三端互通！ Mozilla Firef...",
+        "date": 1782209065502
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/scrcpyfand.html",
+      "url": "https://www.ghxi.com/scrcpyfand.html",
+      "title": "Android Scrcpy for Android(手机连接工具) v0.4.2",
+      "extra": {
+        "hover": "Scrcpy for Android 是一款手机控制手机的工具，通过 ADB Wireless 连接的 Android 设备镜像视频与音频，并允许使用触摸屏与键盘鼠标进行控制。不需...",
+        "date": 1782209065503
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/mp3tag.html",
+      "url": "https://www.ghxi.com/mp3tag.html",
+      "title": "Mp3tag(音乐标签编辑器) v3.35 便携汉化版",
+      "extra": {
+        "hover": "Mp3tag是一个功能强大且易于使用的工具，用于编辑音频文件的元数据。 它支持批量标签编辑ID3v1，ID3v2.3，ID3v2.4，iTunes MP4，WMA，Vorbis评论...",
+        "date": 1782209065503
+      }
+    }
+  ]
+}

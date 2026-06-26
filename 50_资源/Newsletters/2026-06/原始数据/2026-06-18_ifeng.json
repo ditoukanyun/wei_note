@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8u2tzPSA7C4",
+      "url": "https://news.ifeng.com/c/8u2tzPSA7C4",
+      "title": "美国公布与伊朗达成的谅解备忘录正式文本",
+      "extra": {
+        "date": "2026-06-18 05:06:37"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8u2tb6kUsML",
+      "url": "https://news.ifeng.com/c/8u2tb6kUsML",
+      "title": "伊朗方面披露美伊谅解备忘录文本内容",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8u2LtfGOR1T",
+      "url": "https://news.ifeng.com/c/8u2LtfGOR1T",
+      "title": "哈马斯高官：决不向美以移交武器",
+      "extra": {}
+    },
+    {
+      "id": "https://v.ifeng.com/c/8u3B5EM0Jqc",
+      "url": "https://v.ifeng.com/c/8u3B5EM0Jqc",
+      "title": "特朗普对记者大喊：我们签了，在凡尔赛宫里签的",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8u3AJ4a0eEd",
+      "url": "https://news.ifeng.com/c/8u3AJ4a0eEd",
+      "title": "伊朗学者：霍尔木兹海峡不会再回到从前",
+      "extra": {}
+    }
+  ]
+}

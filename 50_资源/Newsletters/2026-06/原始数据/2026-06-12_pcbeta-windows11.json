@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows11",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073037-1-1.html",
+      "title": "完美升级到 UEFI CA 2023 的界面",
+      "url": "https://bbs.pcbeta.com/viewthread-2073037-1-1.html",
+      "pubDate": 1781218560000,
+      "extra": {
+        "hover": "完美升级到 UEFI CA 2023 的界面"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073036-1-1.html",
+      "title": "[2026/6/12]Win11_25H2_26200.8653 官方 ESD 直链下载",
+      "url": "https://bbs.pcbeta.com/viewthread-2073036-1-1.html",
+      "pubDate": 1781199082000,
+      "extra": {
+        "hover": "简体中文商业版\r\n\r\n\r\n简体中文消费者版\r\n\r\n\r\n家庭中文版（品牌机预装）\r\n\r\n\r\n繁体中文商业版\r\n\r\n\r\n繁体中文消费者版\r\n\r\n\r\n英文商业版\r\n\r\n\r\n英文消费者版\r\n\r\n\r\n附件：原始products文件"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073029-1-1.html",
+      "title": "📁推荐一款计算机取证&数据恢复工具（十六进制编辑器）",
+      "url": "https://bbs.pcbeta.com/viewthread-2073029-1-1.html",
+      "pubDate": 1781190800000,
+      "extra": {
+        "hover": "全球知名软件，功能覆盖：取证搜集、数据恢复、文件分析与编辑、底层数据处理、安全报告。可修复硬盘/内存卡损坏导致的数据丢失，编辑Hex与ASCII编码，多文件搜索替换。即开即用，效率极高。🔗：https://pan.quark.cn/s/e27d8a148f0f\r\n🔗：https://pan.xunlei.com/s/VOur ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073024-1-1.html",
+      "title": "新版Win11在OOBE期间无法跳过联网？",
+      "url": "https://bbs.pcbeta.com/viewthread-2073024-1-1.html",
+      "pubDate": 1781187617000,
+      "extra": {
+        "hover": "系统的版本号是26300.8493，按照老办法输入OOBE\\\\BYPASSNRO没有反应了。\r\n\r\n还有没有其他的办法，离线新建账户的方法也不行了，直接闪退然后重新回到OOBE开始界面。"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073017-1-1.html",
+      "title": "如果把IPTV穿透到其他电视上？",
+      "url": "https://bbs.pcbeta.com/viewthread-2073017-1-1.html",
+      "pubDate": 1781176690000,
+      "extra": {
+        "hover": "广电的宽带，赠送有有线电视， 但是只能用在1台电视上。\r\n\r\n家里有俩电视，路由器怎么设置，通过网线，2个电视都可以播放？\r\n\r\n是有线电视直播的，有很多台。"
+      }
+    }
+  ]
+}

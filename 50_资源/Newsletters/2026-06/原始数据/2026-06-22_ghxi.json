@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/andvivaldi.html",
+      "url": "https://www.ghxi.com/andvivaldi.html",
+      "title": "Android Vivaldi浏览器 v8.0.4045.49",
+      "extra": {
+        "hover": "vivaldi浏览器安卓版是一款基于谷歌Chromium的浏览器，由Vivaldi Technologies AS开发。这款浏览器的便携之处在于其高度自定义化、多标签页管理、快速命...",
+        "date": 1781831130387
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/qqgfb.html",
+      "url": "https://www.ghxi.com/qqgfb.html",
+      "title": "QQ v9.9.31.260528 新架构正式版",
+      "extra": {
+        "hover": "QQ，是腾讯QQ的简称，是腾讯公司推出的一款基于互联网的即时通信软件。QQ覆盖了Windows、macOS、iPadOS、Android、iOS、Windows Phone、Lin...",
+        "date": 1781831130387
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/anddlg.html",
+      "url": "https://www.ghxi.com/anddlg.html",
+      "title": "Android 多邻国 v6.84.2 高级版",
+      "extra": {
+        "hover": "多邻国Duolingo是一款零基础轻松学习多国语言的软件，每天只需几分钟,人人都可免费使用多邻国的网站和移动应用学习超过 30 种的外语。小口小口啃外语,科学又有趣。实用日常英语对...",
+        "date": 1781831130387
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/chromium.html",
+      "url": "https://www.ghxi.com/chromium.html",
+      "title": "Chromium v151.0.7899.0 绿色版",
+      "extra": {
+        "hover": "Chromium为Chrome的实验开发版本，各种新功能首先会在Chromium上使用。 并且Chromium是开源项目，以BSD许可证等多重自由版权发行。Chromium的开发可...",
+        "date": 1781831130388
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/quarkpc.html",
+      "url": "https://www.ghxi.com/quarkpc.html",
+      "title": "夸克 (QuarkPC) 电脑版 v6.9.1.868",
+      "extra": {
+        "hover": "夸克PC版 是一款基于chromium开发浏览器，并且封装了electron的功能。 夸克浏览器PC版采用了简洁、清新的界面设计，让用户能够轻松上手。同时，它还支持多种网络协议，能...",
+        "date": 1781831130388
+      }
+    }
+  ]
+}

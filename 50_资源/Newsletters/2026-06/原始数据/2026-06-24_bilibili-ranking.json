@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-ranking",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV1oTjk6xEea",
+      "title": "我发誓这是我看过最震撼的漫展爬台变装演唱！！",
+      "url": "https://www.bilibili.com/video/BV1oTjk6xEea",
+      "pubDate": 1781947800000,
+      "extra": {
+        "info": "夏旬Natsuki · 593w+观看 · 68w+点赞",
+        "hover": "let it go翻唱漫展Live现场版",
+        "icon": "http://i0.hdslb.com/bfs/archive/c937405b0e26e4652af142f494911c0cf97d0f26.jpg"
+      }
+    },
+    {
+      "id": "BV1fJjE6FEqW",
+      "title": "《崩坏：因缘精灵》进化PV：直至遇见它",
+      "url": "https://www.bilibili.com/video/BV1fJjE6FEqW",
+      "pubDate": 1782100800000,
+      "extra": {
+        "info": "崩坏因缘精灵 · 256w+观看 · 19w+点赞",
+        "hover": "「利尔它，你的名字是怎么来的？难道『它』是指精灵？！」\n\n*游戏研发中，非最终品质。\n\n—————————————\n缘起精灵，系于你我。《崩坏：因缘精灵》「进化测试」定档7月9日，招募正式开始！填写问卷或持续关注《崩坏：因缘精灵》官方账号与社区动态，更多测试资格持续掉落中~",
+        "icon": "http://i2.hdslb.com/bfs/archive/29e4ee8844cb4d82aefa07d1011ad4438da2c9c3.jpg"
+      }
+    },
+    {
+      "id": "BV1X37c6vEcB",
+      "title": "“终有一天，我会成为MAJOR冠军！”——NIKO圆梦科隆Major！",
+      "url": "https://www.bilibili.com/video/BV1X37c6vEcB",
+      "pubDate": 1782078868000,
+      "extra": {
+        "info": "AYCS2 · 307w+观看 · 17w+点赞",
+        "hover": "-",
+        "icon": "http://i2.hdslb.com/bfs/archive/1bdd25e9721279f6870ec585223314be1d06890f.jpg"
+      }
+    },
+    {
+      "id": "BV1g7jJ6nE1E",
+      "title": "“入室抢劫般的队友”",
+      "url": "https://www.bilibili.com/video/BV1g7jJ6nE1E",
+      "pubDate": 1781955576000,
+      "extra": {
+        "info": "胡胡不胡o · 384w+观看 · 24w+点赞",
+        "hover": "轻松绷不住嘿嘿",
+        "icon": "http://i2.hdslb.com/bfs/archive/9b3e18bf8311f44867bcc78534904eb86d1072c4.jpg"
+      }
+    },
+    {
+      "id": "BV1QSjm6wEBT",
+      "title": "【NiKo】谢谢你们❤️",
+      "url": "https://www.bilibili.com/video/BV1QSjm6wEBT",
+      "pubDate": 1782231642000,
+      "extra": {
+        "info": "FLC_NiKo · 90w+观看 · 19w+点赞",
+        "hover": "",
+        "icon": "http://i1.hdslb.com/bfs/archive/5eba21c7f44eca57653f834c2e5f479dcd041341.jpg"
+      }
+    }
+  ]
+}

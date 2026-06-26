@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3775357,
+      "title": "报道：三星或宣布90万亿韩元股票回购计划，用于支付员工奖金",
+      "extra": {
+        "date": 1782262592000
+      },
+      "url": "https://wallstreetcn.com/articles/3775357"
+    },
+    {
+      "id": 3775349,
+      "title": "高盛再谈AI热潮现状：在投资周期见顶之前，“强劲盈利将压倒估值忧虑”，波动性会进一步上升",
+      "extra": {
+        "date": 1782262488000
+      },
+      "url": "https://wallstreetcn.com/articles/3775349"
+    },
+    {
+      "id": 3775352,
+      "title": "全球芯片股灾的暴风眼：韩股暴跌背后的“各种鬼故事”",
+      "extra": {
+        "date": 1782262240000
+      },
+      "url": "https://wallstreetcn.com/articles/3775352"
+    },
+    {
+      "id": 3775351,
+      "title": "亚洲股市反弹，韩股领涨，三星或宣布股份回购计划，股价一度大涨逾10%",
+      "extra": {
+        "date": 1782261801000
+      },
+      "url": "https://wallstreetcn.com/articles/3775351"
+    },
+    {
+      "id": 3775350,
+      "title": "韩国引爆“黑色星期二”，全球芯片股大牛市遭“当头棒喝”，只是“技术性调整”吗？",
+      "extra": {
+        "date": 1782261784000
+      },
+      "url": "https://wallstreetcn.com/articles/3775350"
+    }
+  ]
+}

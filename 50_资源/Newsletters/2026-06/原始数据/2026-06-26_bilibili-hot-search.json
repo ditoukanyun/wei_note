@@ -1,0 +1,46 @@
+{
+  "source": "bilibili-hot-search",
+  "count": 5,
+  "items": [
+    {
+      "id": "FaZe宣布下放broky",
+      "title": "FaZe宣布下放broky",
+      "url": "https://search.bilibili.com/all?keyword=FaZe%E5%AE%A3%E5%B8%83%E4%B8%8B%E6%94%BEbroky",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "今天是国际禁毒日",
+      "title": "今天是国际禁毒日",
+      "url": "https://search.bilibili.com/all?keyword=%E4%BB%8A%E5%A4%A9%E6%98%AF%E5%9B%BD%E9%99%85%E7%A6%81%E6%AF%92%E6%97%A5",
+      "extra": {
+        "icon": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
+      }
+    },
+    {
+      "id": "日本1-1瑞典",
+      "title": "日本1-1瑞典",
+      "url": "https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC1-1%E7%91%9E%E5%85%B8",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+      }
+    },
+    {
+      "id": "2名中国公民在委地震中遇难",
+      "title": "2名中国公民在委地震中遇难",
+      "url": "https://search.bilibili.com/all?keyword=2%E5%90%8D%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E5%9C%A8%E5%A7%94%E5%9C%B0%E9%9C%87%E4%B8%AD%E9%81%87%E9%9A%BE",
+      "extra": {
+        "icon": ""
+      }
+    },
+    {
+      "id": "Steam夏促史低游戏盘点",
+      "title": "Steam夏促史低游戏盘点",
+      "url": "https://search.bilibili.com/all?keyword=Steam%E5%A4%8F%E4%BF%83%E5%8F%B2%E4%BD%8E%E6%B8%B8%E6%88%8F%E7%9B%98%E7%82%B9",
+      "extra": {
+        "icon": ""
+      }
+    }
+  ]
+}

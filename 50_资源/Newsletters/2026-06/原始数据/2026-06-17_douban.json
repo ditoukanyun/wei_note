@@ -1,0 +1,51 @@
+{
+  "source": "douban",
+  "count": 5,
+  "items": [
+    {
+      "id": "36916000",
+      "title": "诺曼底72小时",
+      "url": "https://movie.douban.com/subject/36916000",
+      "extra": {
+        "info": "2026 / 英国 法国 美国 / 剧情 战争",
+        "hover": "2026 / 英国 法国 美国 / 剧情 战争 / 安东尼·马拉斯 / 安德鲁·斯科特 布兰登·费舍"
+      }
+    },
+    {
+      "id": "36680492",
+      "title": "大濛",
+      "url": "https://movie.douban.com/subject/36680492",
+      "extra": {
+        "info": "2025 / 中国台湾 / 剧情",
+        "hover": "2025 / 中国台湾 / 剧情 / 陈玉勋 / 方郁婷 柯炜林"
+      }
+    },
+    {
+      "id": "37030720",
+      "title": "泡泡糖女孩",
+      "url": "https://movie.douban.com/subject/37030720",
+      "extra": {
+        "info": "2026 / 新加坡 / 剧情",
+        "hover": "2026 / 新加坡 / 剧情 / 洪玉桔 / 王宣静 王雪萁"
+      }
+    },
+    {
+      "id": "37516907",
+      "title": "木挽町复仇记",
+      "url": "https://movie.douban.com/subject/37516907",
+      "extra": {
+        "info": "2026 / 日本 / 剧情 历史 古装",
+        "hover": "2026 / 日本 / 剧情 历史 古装 / 源孝志 / 柄本佑 渡边谦"
+      }
+    },
+    {
+      "id": "36217763",
+      "title": "我的妈耶",
+      "url": "https://movie.douban.com/subject/36217763",
+      "extra": {
+        "info": "2026 / 中国大陆 / 剧情 喜剧 家庭",
+        "hover": "2026 / 中国大陆 / 剧情 喜剧 家庭 / 肖麓西 / 马思纯 白客"
+      }
+    }
+  ]
+}

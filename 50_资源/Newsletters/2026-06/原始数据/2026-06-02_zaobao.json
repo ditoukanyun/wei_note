@@ -1,0 +1,5 @@
+{
+  "source": "zaobao",
+  "error": "Fetch failed for \"zaobao\": [GET] \"https://www.zaochenbao.com/realtime/\": <no response> The socket connection was closed unexpectedly.",
+  "code": "FETCH_ERROR"
+}

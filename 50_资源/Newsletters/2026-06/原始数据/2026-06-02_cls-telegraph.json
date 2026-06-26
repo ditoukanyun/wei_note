@@ -1,0 +1,5 @@
+{
+  "source": "cls-telegraph",
+  "error": "Fetch failed for \"cls-telegraph\": [GET] \"https://www.cls.cn/nodeapi/updateTelegraphList?appName=CailianpressWeb&os=web&sv=7.7.5&sign=9c11221af4f6b47b253098a8b9957b8f\": 404 Not Found",
+  "code": "FETCH_ERROR"
+}

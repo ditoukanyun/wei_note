@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/loc/timeline/event/8r727OWpK5W",
+      "url": "https://news.ifeng.com/loc/timeline/event/8r727OWpK5W",
+      "title": "美伊谈判丨特朗普：和平协议达成，开放霍尔木兹海峡",
+      "extra": {
+        "date": "2026-06-15 08:45:28"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8ty8TUpM239",
+      "url": "https://news.ifeng.com/c/8ty8TUpM239",
+      "title": "伊媒披露伊美谅解备忘录详情",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8txGeQ5OLJm",
+      "url": "https://news.ifeng.com/c/8txGeQ5OLJm",
+      "title": "伊朗披露美伊谈判备忘录细节",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8tyBtl2SPi7",
+      "url": "https://news.ifeng.com/c/8tyBtl2SPi7",
+      "title": "凤凰记者：美国最后关头做出让步",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8ty4eC83hua",
+      "url": "https://news.ifeng.com/c/8ty4eC83hua",
+      "title": "现货黄金飙涨重回4300美元，国际油价暴跌5%",
+      "extra": {}
+    }
+  ]
+}

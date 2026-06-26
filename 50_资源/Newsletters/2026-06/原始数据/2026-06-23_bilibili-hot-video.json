@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-hot-video",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV19Kjf6cEh8",
+      "title": "【泰拉瑞亚】32位计算机电路 RISC-V CPU 348KHz",
+      "url": "https://www.bilibili.com/video/BV19Kjf6cEh8",
+      "pubDate": 1782063994000,
+      "extra": {
+        "info": "混乱沉睡 · 109w+观看 · 9w+点赞",
+        "hover": "在原版泰拉瑞亚中使用电路制作的 RISC-V 32 位计算机。\n模块化的计算机系统：简单、灵活、开放的高性能与高密度电路。\n\nCPU：CS100C\n位宽：32 位\n结构：哈佛结构\n指令集：RV32IMC\n大小：359 × 197 格\n逻辑门/灯：11,187/21,905 个\n频率：348 KHz（最大）\nROM：2,688 KB（最大）\nRAM：480 KB（最大）\n\n————————项目地址————————\nhttps://github.com/yfdyzjt/TerrariaWiringComput",
+        "icon": "http://i0.hdslb.com/bfs/archive/751337b64ce9f1f12d3979dbe8e54d4c29c91459.jpg"
+      }
+    },
+    {
+      "id": "BV1Qg7c6KE9V",
+      "title": "《后悔の保安》",
+      "url": "https://www.bilibili.com/video/BV1Qg7c6KE9V",
+      "pubDate": 1782100800000,
+      "extra": {
+        "info": "伤心欲茄222 · 312w+观看 · 23w+点赞",
+        "hover": "-",
+        "icon": "http://i0.hdslb.com/bfs/archive/212c2d91a9cd193c0394ddb4757b5b9fa498c675.jpg"
+      }
+    },
+    {
+      "id": "BV1te7u6XEDj",
+      "title": "历史之王！梅西梅开二度！18球荣膺世界杯历史金靴！阿根廷2比0奥地利！",
+      "url": "https://www.bilibili.com/video/BV1te7u6XEDj",
+      "pubDate": 1782154866000,
+      "extra": {
+        "info": "巅峰球迷汇 · 35w+观看 · 9195点赞",
+        "hover": "历史之王！失点?失良机？梅西世界波18球荣膺世界杯历史金靴！阿根廷2比0奥地利！",
+        "icon": "http://i2.hdslb.com/bfs/archive/bad5225275091591c17ff44f52a7ab7dbfcea7ed.jpg"
+      }
+    },
+    {
+      "id": "BV1RwjP6LEKw",
+      "title": "【剧情】心间错（2026）12【 朱正廷 / 哈妮克孜 】",
+      "url": "https://www.bilibili.com/video/BV1RwjP6LEKw",
+      "pubDate": 1781928006000,
+      "extra": {
+        "info": "迷影社 · 44w+观看 · 1318点赞",
+        "hover": "坚定唯物主义的凡人书生白山君，一朝闯入千年大妖柳扶风的地盘“阴阳渡”，殊不知他们早在百年前就结契同心。一段偶然的对抗路相恋，发生在既定的宿命轨道之上，唯有同心，才得圆满。",
+        "icon": "http://i1.hdslb.com/bfs/archive/375a32eb32f19e73cfe2e80e042376dadbea835d.png"
+      }
+    },
+    {
+      "id": "BV19Q7c6MEGd",
+      "title": "为什么要有女朋友",
+      "url": "https://www.bilibili.com/video/BV19Q7c6MEGd",
+      "pubDate": 1782124200000,
+      "extra": {
+        "info": "叶玲秋雨 · 55w+观看 · 7w+点赞",
+        "hover": "为什么要有女朋友？\n她或许会让原本简单的生活多出一点麻烦，多等一会儿，多花一点钱，多让一步，多牵挂一个人\n但也是因为她，普通的日子开始有了回应，在你难过的时候给予温暖，孤单的房间开始像家，在你累一天回到家的时候给你准备晚餐。温暖每一件小事在她的参与下都变成美好的回忆\n原来在她面前不需要变得完美，而是包容你的不完美，共进退，让你觉得就算多花心思依然觉得很值得\n...................\n上周生了一星期的病，这是几年来最严重的一次病，2天持续高烧39度要见太奶了，4天下不了床但得去医院打针，感觉得",
+        "icon": "http://i1.hdslb.com/bfs/archive/bc8cea1d92987e28da5f6565f67bee6348114e25.jpg"
+      }
+    }
+  ]
+}

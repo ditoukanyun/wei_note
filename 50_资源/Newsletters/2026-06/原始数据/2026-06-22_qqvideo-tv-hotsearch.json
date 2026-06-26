@@ -1,0 +1,51 @@
+{
+  "source": "qqvideo-tv-hotsearch",
+  "count": 5,
+  "items": [
+    {
+      "id": "mzc00200mxo428o",
+      "title": "莫离",
+      "url": "https://v.qq.com/x/cover/mzc00200mxo428o.html",
+      "pubDate": "2026-06-22",
+      "extra": {
+        "hover": "白鹿丞磊疯爽开局救赎虐恋"
+      }
+    },
+    {
+      "id": "mzc00200whxf2zp",
+      "title": "问心2",
+      "url": "https://v.qq.com/x/cover/mzc00200whxf2zp.html",
+      "pubDate": "2026-06-22",
+      "extra": {
+        "hover": "原班人马回归再问人心"
+      }
+    },
+    {
+      "id": "mzc002009g0nh88",
+      "title": "主角",
+      "url": "https://v.qq.com/x/cover/mzc002009g0nh88.html",
+      "pubDate": "2026-06-22",
+      "extra": {
+        "hover": "张艺谋监制！命运共振大剧"
+      }
+    },
+    {
+      "id": "mzc00200376netq",
+      "title": "爱情有烟火",
+      "url": "https://v.qq.com/x/cover/mzc00200376netq.html",
+      "pubDate": "2026-06-22",
+      "extra": {
+        "hover": "檀健次王楚然心动合租"
+      }
+    },
+    {
+      "id": "mzc002006w8m6hk",
+      "title": "问心",
+      "url": "https://v.qq.com/x/cover/mzc002006w8m6hk.html",
+      "pubDate": "2026-06-22",
+      "extra": {
+        "hover": "赵又廷毛晓彤医院众生相"
+      }
+    }
+  ]
+}

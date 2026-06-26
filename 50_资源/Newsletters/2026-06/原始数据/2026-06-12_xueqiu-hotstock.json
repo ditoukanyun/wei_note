@@ -1,0 +1,46 @@
+{
+  "source": "xueqiu-hotstock",
+  "count": 5,
+  "items": [
+    {
+      "id": "MU",
+      "url": "https://xueqiu.com/s/MU",
+      "title": "美光科技",
+      "extra": {
+        "info": "11.66% NASDAQ"
+      }
+    },
+    {
+      "id": "SNDK",
+      "url": "https://xueqiu.com/s/SNDK",
+      "title": "闪迪",
+      "extra": {
+        "info": "14.5007% NASDAQ"
+      }
+    },
+    {
+      "id": "SZ300054",
+      "url": "https://xueqiu.com/s/SZ300054",
+      "title": "鼎龙股份",
+      "extra": {
+        "info": "6.25% SZ"
+      }
+    },
+    {
+      "id": "SH688146",
+      "url": "https://xueqiu.com/s/SH688146",
+      "title": "中船特气",
+      "extra": {
+        "info": "19.79% SH"
+      }
+    },
+    {
+      "id": "NVDA",
+      "url": "https://xueqiu.com/s/NVDA",
+      "title": "英伟达",
+      "extra": {
+        "info": "2.2203% NASDAQ"
+      }
+    }
+  ]
+}

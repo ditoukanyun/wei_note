@@ -4,67 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e97f8d63b0ac736f",
+        "id": "2d6b17c7ff359f0c",
         "type": "tabs",
         "children": [
           {
-            "id": "a8e8eaf4a1ed48e6",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/chenwei/Documents/wei_note/40_知识库/编程",
-                  "focus": false,
-                  "profile": {
-                    "args": [
-                      "--login"
-                    ],
-                    "executable": "/bin/zsh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "终端：chenwei@chenweideMacBook-Pro:~/Documents/wei_note/40_知识库/编程"
-            }
-          },
-          {
-            "id": "ea688d60f3f2c584",
+            "id": "7a7a71da6e7b4f5d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "50_资源/Newsletters/2026-05/2026-05-19-Newsletter.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-05-19-Newsletter"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -237,10 +190,44 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "ea688d60f3f2c584",
+  "active": "7a7a71da6e7b4f5d",
   "lastOpenFiles": [
-    "50_资源/Newsletters/2026-05/2026-05-18-Newsletter.md",
-    "50_资源/Newsletters/2026-05/2026-05-19-Newsletter.md",
+    "50_资源/Newsletters/2026-06/2026-06-26-Newsletter.md",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-26_newsnow-log.md",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-26_zhihu.json",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-26_steam.json",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-26_newsnow-summary.json",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-26_xueqiu-hotstock.json",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-26_xueqiu.json",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-26_weibo.json",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-26_wallstreetcn-quick.json",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-26_wallstreetcn-news.json",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-26_wallstreetcn-hot.json",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-26_wallstreetcn.json",
+    "40_知识库/后端开发/认证授权/单点登录 SSO 实践.md",
+    "Clippings/Loops explained Claude, GPT, Mira and what actually worksloop解释道：Claude， GPT， Mira以及实际的工作原理.md",
+    "50_资源/Newsletters/2026-06/2026-06-24-Newsletter.md",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-24_newsnow-log.md",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-23_newsnow-log.md",
+    "50_资源/Newsletters/2026-06/2026-06-23-Newsletter.md",
+    "Clippings/A harness for every task dynamic workflows in Claude Code 每个任务的控制：Claude Code中的动态工作流.md",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-15_newsnow-log.md",
+    "50_资源/Newsletters/2026-06/2026-06-15-Newsletter.md",
+    "Clippings/订阅 ChatGPT Plus 全流程：美区礼品卡两种买法 + 充值 + 订阅避坑，花十几刀亲测跑通.md",
+    "Clippings/Loops What Every AI Engineer Needs to Know in 2026循环：2026年每个人工智能工程师需要知道的事情.md",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-11_newsnow-log.md",
+    "50_资源/Newsletters/2026-06/2026-06-11-Newsletter.md",
+    "Clippings/Loop Engineering.   循环工程。.md",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-10_newsnow-log.md",
+    "50_资源/Newsletters/2026-06/2026-06-10-Newsletter.md",
+    "Clippings/Building cloud agent infrastructure what's different, and what we learned 构建云代理基础设施：有什么不同，我们学到了什么.md",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-08_newsnow-log.md",
+    "50_资源/Newsletters/2026-06/2026-06-08-Newsletter.md",
+    "Clippings/A guide to goal    达到目标的指南.md",
+    "50_资源/Newsletters/2026-06/2026-06-04-Newsletter.md",
+    "50_资源/Newsletters/2026-06/原始数据/2026-06-05_newsnow-log.md",
+    "50_资源/Newsletters/2026-06/2026-06-05-Newsletter.md",
+    "40_知识库/AI/AI工程实践/Sub2API.md",
     "50_资源/头像设计/小陈AI简笔头像/png/小陈-极简印章-深色-v2.png",
     "50_资源/头像设计/小陈AI简笔头像/png/小陈-极简印章-黑白-v2.png",
     "50_资源/头像设计/小陈AI简笔头像/png/小陈-极简印章-v2.png",
@@ -251,40 +238,6 @@
     "50_资源/头像设计/小陈AI简笔头像/小陈-极简印章-黑白-v2.svg",
     "50_资源/头像设计/小陈AI简笔头像/小陈-极简印章-v2.svg",
     "50_资源/头像设计/小陈AI简笔头像/png/小陈-AI结对编程.png",
-    "40_知识库/后端开发/消息队列/RocketMQ Docker 本地启动.md",
-    "50_资源/头像设计/小陈AI简笔头像/png",
-    "50_资源/头像设计/小陈AI简笔头像/说明.md",
-    "50_资源/头像设计/小陈AI简笔头像",
-    "50_资源/头像设计",
-    "40_知识库/后端开发/消息队列/消息队列总览：RabbitMQ、Kafka 与可靠消息.md",
-    "40_知识库/后端开发/SpringBoot/78-SpringBoot-Runner执行顺序.md",
-    "40_知识库/后端开发/SpringBoot/74-SpringBoot-BeanFactoryPostProcessor.md",
-    "40_知识库/后端开发/SpringBoot/72-SpringBoot-FailureAnalyzer.md",
-    "40_知识库/后端开发/SpringBoot/70-SpringBoot-自定义Starter模式.md",
-    "40_知识库/后端开发/SpringBoot/69-SpringBoot-WebMVC扩展点.md",
-    "40_知识库/后端开发/SpringBoot/57-SpringBoot-网关认证策略.md",
-    "40_知识库/后端开发/SpringBoot/48-SpringBoot-搜索索引同步.md",
-    "40_知识库/后端开发/SpringBoot/47-SpringBoot-对象存储预签名URL.md",
-    "40_知识库/后端开发/SpringBoot/46-SpringBoot-分布式锁与定时任务.md",
-    "40_知识库/后端开发/SpringBoot/45-SpringBoot-Testcontainers集成测试.md",
-    "40_知识库/后端开发/SpringBoot/44-SpringBoot-批量导入导出.md",
-    "40_知识库/后端开发/SpringBoot/43-SpringBoot-动态配置刷新.md",
-    "40_知识库/后端开发/SpringBoot/37-SpringBoot-审计轨迹.md",
-    "40_知识库/后端开发/MySQL/MySQL_事务与锁.md",
-    "50_资源/Newsletters/2026-05/2026-05-15-Newsletter.md",
-    "40_知识库/前端开发/前端测试/前端测试金字塔.md",
-    "40_知识库/AI/一文搞懂.claude文件夹配置.md",
-    "50_资源/Newsletters/2026-05/2026-05-14-Newsletter.md",
-    "50_资源/英语学习/初中生活词拆解动画.mp4",
-    "50_资源/英语学习/生成初中生活词拆解动画.mjs",
-    "50_资源/英语学习",
-    "docs/superpowers/plans/2026-05-14-初中生活词拆解动画.md",
-    "docs/superpowers/specs/2026-05-14-初中生活词拆解动画-design.md",
-    "50_资源/Newsletters/2026-05/2026-05.md",
-    "50_资源/Newsletters/专题",
-    "50_资源/Newsletters/2026-05",
-    "50_资源/Newsletters/2026-04",
-    "50_资源/文章剪藏/通用技能",
     "未命名 1.canvas",
     "未命名 2.canvas",
     "未命名 3.canvas",

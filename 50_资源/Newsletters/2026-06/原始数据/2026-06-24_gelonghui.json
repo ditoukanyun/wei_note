@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5256718",
+      "title": "英力股份(300956.SZ)：当前AIPC相关订单体量相比一季度业务持平",
+      "id": "/news/5256718",
+      "extra": {
+        "date": 1782262944734,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5256717",
+      "title": "英力股份(300956.SZ)：AI服务器目前仅开展前期调研储备，尚未开始大额投入，暂无落地订单",
+      "id": "/news/5256717",
+      "extra": {
+        "date": 1782262884734,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5256716",
+      "title": "华亿金控(08123.HK)今早复牌",
+      "id": "/news/5256716",
+      "extra": {
+        "date": 1782262824734,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5256715",
+      "title": "怡达股份(300721.SZ)：珠海怡达年产2.5万吨项目正在开展安全评价等相关手续报批工作，尚未启动建设",
+      "id": "/news/5256715",
+      "extra": {
+        "date": 1782262764734,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5256714",
+      "title": "怡达股份(300721.SZ)：公司积极推进湿电子化学品的客户认证工作",
+      "id": "/news/5256714",
+      "extra": {
+        "date": 1782262704735,
+        "info": "公司信息"
+      }
+    }
+  ]
+}

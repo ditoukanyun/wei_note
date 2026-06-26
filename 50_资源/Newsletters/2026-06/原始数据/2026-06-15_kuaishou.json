@@ -1,0 +1,46 @@
+{
+  "source": "kuaishou",
+  "count": 5,
+  "items": [
+    {
+      "id": "美伊达成和平协议",
+      "title": "美伊达成和平协议",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E7%BE%8E%E4%BC%8A%E8%BE%BE%E6%88%90%E5%92%8C%E5%B9%B3%E5%8D%8F%E8%AE%AE",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "18岁女孩去世捐献器官救下5人",
+      "title": "18岁女孩去世捐献器官救下5人",
+      "url": "https://www.kuaishou.com/search/video?searchKey=18%E5%B2%81%E5%A5%B3%E5%AD%A9%E5%8E%BB%E4%B8%96%E6%8D%90%E7%8C%AE%E5%99%A8%E5%AE%98%E6%95%91%E4%B8%8B5%E4%BA%BA",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    },
+    {
+      "id": "前5月国家铁路发送货物16.7亿吨",
+      "title": "前5月国家铁路发送货物16.7亿吨",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E5%89%8D5%E6%9C%88%E5%9B%BD%E5%AE%B6%E9%93%81%E8%B7%AF%E5%8F%91%E9%80%81%E8%B4%A7%E7%89%A916.7%E4%BA%BF%E5%90%A8",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "陕西山西多地有震感",
+      "title": "陕西山西多地有震感",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E9%99%95%E8%A5%BF%E5%B1%B1%E8%A5%BF%E5%A4%9A%E5%9C%B0%E6%9C%89%E9%9C%87%E6%84%9F",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    },
+    {
+      "id": "荷兰2比2遭日本两度追平",
+      "title": "荷兰2比2遭日本两度追平",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E8%8D%B7%E5%85%B02%E6%AF%942%E9%81%AD%E6%97%A5%E6%9C%AC%E4%B8%A4%E5%BA%A6%E8%BF%BD%E5%B9%B3",
+      "extra": {
+        "icon": null
+      }
+    }
+  ]
+}

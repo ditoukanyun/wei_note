@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8tt5oJT4pDG",
+      "url": "https://news.ifeng.com/c/8tt5oJT4pDG",
+      "title": "特朗普再次180度大转弯，全世界都目瞪口呆",
+      "extra": {
+        "date": "2026-06-12 07:00:21"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8tt1H0RgCkY",
+      "url": "https://news.ifeng.com/c/8tt1H0RgCkY",
+      "title": "伊朗阿巴斯港传出爆炸声",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8tso5G96e80",
+      "url": "https://news.ifeng.com/c/8tso5G96e80",
+      "title": "特朗普称美伊协议进入最后定稿阶段，有望本周末签署",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8tsig3GUtRk",
+      "url": "https://news.ifeng.com/c/8tsig3GUtRk",
+      "title": "特朗普称取消打击伊朗行动",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8tt66wlKzuT",
+      "url": "https://news.ifeng.com/c/8tt66wlKzuT",
+      "title": "伊媒：已故最高领袖葬礼推迟举行",
+      "extra": {}
+    }
+  ]
+}

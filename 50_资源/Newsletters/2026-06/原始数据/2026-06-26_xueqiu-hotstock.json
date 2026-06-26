@@ -1,0 +1,46 @@
+{
+  "source": "xueqiu-hotstock",
+  "count": 5,
+  "items": [
+    {
+      "id": "MU",
+      "url": "https://xueqiu.com/s/MU",
+      "title": "美光科技",
+      "extra": {
+        "info": "15.7414% NASDAQ"
+      }
+    },
+    {
+      "id": "SNDK",
+      "url": "https://xueqiu.com/s/SNDK",
+      "title": "闪迪",
+      "extra": {
+        "info": "21.9665% NASDAQ"
+      }
+    },
+    {
+      "id": "AAPL",
+      "url": "https://xueqiu.com/s/AAPL",
+      "title": "苹果",
+      "extra": {
+        "info": "-6.12% NASDAQ"
+      }
+    },
+    {
+      "id": "GLW",
+      "url": "https://xueqiu.com/s/GLW",
+      "title": "康宁",
+      "extra": {
+        "info": "10.78% NYSE"
+      }
+    },
+    {
+      "id": "SZ000725",
+      "url": "https://xueqiu.com/s/SZ000725",
+      "title": "京东方A",
+      "extra": {
+        "info": "null% SZ"
+      }
+    }
+  ]
+}

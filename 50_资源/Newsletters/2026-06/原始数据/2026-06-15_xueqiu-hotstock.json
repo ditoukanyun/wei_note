@@ -1,0 +1,46 @@
+{
+  "source": "xueqiu-hotstock",
+  "count": 5,
+  "items": [
+    {
+      "id": "SH600160",
+      "url": "https://xueqiu.com/s/SH600160",
+      "title": "巨化股份",
+      "extra": {
+        "info": "3.39% SH"
+      }
+    },
+    {
+      "id": "SH601127",
+      "url": "https://xueqiu.com/s/SH601127",
+      "title": "赛力斯",
+      "extra": {
+        "info": "1.42% SH"
+      }
+    },
+    {
+      "id": "SZ002384",
+      "url": "https://xueqiu.com/s/SZ002384",
+      "title": "东山精密",
+      "extra": {
+        "info": "3.11% SZ"
+      }
+    },
+    {
+      "id": "SZ300136",
+      "url": "https://xueqiu.com/s/SZ300136",
+      "title": "信维通信",
+      "extra": {
+        "info": "-2.44% SZ"
+      }
+    },
+    {
+      "id": "07709",
+      "url": "https://xueqiu.com/s/07709",
+      "title": "XL二南方海力士",
+      "extra": {
+        "info": "14.97% HK"
+      }
+    }
+  ]
+}

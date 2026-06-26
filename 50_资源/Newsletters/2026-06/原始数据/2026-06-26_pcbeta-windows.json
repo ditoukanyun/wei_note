@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074049-1-1.html",
+      "title": "[2026.6.25]WIN10.1809.17763.8880[IT工坊]轻度精简优化版 Win10.LTSC2019",
+      "url": "https://bbs.pcbeta.com/viewthread-2074049-1-1.html",
+      "pubDate": 1782385688000,
+      "extra": {
+        "hover": "保留了IIS、Hyper-V、UWF等功能 支持开关Windows功能\r\n保留了IE、NET3.5 、NET4.8、Windows Media Player等\r\n集成了VC运行库、Intel RST VMD驱动等\r\n不支持更新\r\n\r\n在虚拟机中空载测试 进程34左右 内存600MB左右\r\n\r\n\r\n\r\n系统安装方法：\r\n可参考在PE下用CoolInstall、CGI、WinNTSet ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073985-1-1.html",
+      "title": "问下大家win10用的什么输入法  给我推荐推荐没有广告的",
+      "url": "https://bbs.pcbeta.com/viewthread-2073985-1-1.html",
+      "pubDate": 1782304871000,
+      "extra": {
+        "hover": "之前一直用系统自带，但是lol吵架的时候打不出字真的烦死，跟吃了苍蝇一样 ，给我推荐推荐三方的 静默无广告的呗~~~兼容的好的是不是只有搜狗了  （魔兽里可以打字的）"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073965-1-1.html",
+      "title": "求 fch1993 大佬的 [简体中文]Windows 10 1809 17763.4131 22in1镜像",
+      "url": "https://bbs.pcbeta.com/viewthread-2073965-1-1.html",
+      "pubDate": 1782291857000,
+      "extra": {
+        "hover": "原帖：https://bbs.pcbeta.com/viewthread-1962055-1-1.html 已失效。\r\n\r\n请好心人分享一下，最好是 移动云盘 或 天翼云盘，非常感谢！"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073955-1-1.html",
+      "title": "极简黑白风鼠标指针主题，视觉清爽！",
+      "url": "https://bbs.pcbeta.com/viewthread-2073955-1-1.html",
+      "pubDate": 1782288023000,
+      "extra": {
+        "hover": "近期自用频率极高的一套鼠标指针主题，黑白极简风搭配大圆点视觉效果，看着很清爽完全不累眼。各状态图标区分明显，点击反馈清晰不拖沓，用起来非常舒服。安装教程已和主题一起打好包，简单几步就能轻松替换掉系统自带的呆板指针。喜欢的话别忘了回帖支持一下，抱走记得 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073941-1-1.html",
+      "title": "哪位有原版的19045.7058 windows10？",
+      "url": "https://bbs.pcbeta.com/viewthread-2073941-1-1.html",
+      "pubDate": 1782279116000,
+      "extra": {
+        "hover": "想跑本地大模型，搜了一下豆包，说原版的19045.7058 windows10最好，准备更新个系统，请问哪位能帮忙找个链接啊？找A大的没找到地址。"
+      }
+    }
+  ]
+}

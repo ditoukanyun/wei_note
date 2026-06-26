@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-ranking",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV1oTjk6xEea",
+      "title": "我发誓这是我看过最震撼的漫展爬台变装演唱！！",
+      "url": "https://www.bilibili.com/video/BV1oTjk6xEea",
+      "pubDate": 1781947800000,
+      "extra": {
+        "info": "夏旬Natsuki · 452w+观看 · 53w+点赞",
+        "hover": "let it go翻唱漫展Live现场版",
+        "icon": "http://i0.hdslb.com/bfs/archive/c937405b0e26e4652af142f494911c0cf97d0f26.jpg"
+      }
+    },
+    {
+      "id": "BV1Cvjk6TEB3",
+      "title": "🎨要看看这样的视频才有力气讨生活【三角洲】",
+      "url": "https://www.bilibili.com/video/BV1Cvjk6TEB3",
+      "pubDate": 1781926200000,
+      "extra": {
+        "info": "牧牧川 · 377w+观看 · 27w+点赞",
+        "hover": "这期真的好难剪T T！！感觉还是有很多不足的地方...力竭！！\n但还是希望能传达出想传达的！！\n看得开心的话给个赞叭！蟹蟹爹地妈咪！\n\n感谢老大的观看！=͟͟͞͞( •̀д•́)>\n\n感化度：101％！",
+        "icon": "http://i1.hdslb.com/bfs/archive/9c3b114670250931e6264389d05a263039d091d9.jpg"
+      }
+    },
+    {
+      "id": "BV17BjB6UEeP",
+      "title": "一坨泥巴也来跳迈克尔·杰克逊《顫栗》？",
+      "url": "https://www.bilibili.com/video/BV17BjB6UEeP",
+      "pubDate": 1781868799000,
+      "extra": {
+        "info": "宅叔飞飞 · 342w+观看 · 37w+点赞",
+        "hover": "老艺术家在坚持手搓，定格动画，耗时15天，拍摄了762张照片，1秒24帧的定格动画。致敬永远的King of Pop，迈克尔·杰克逊。",
+        "icon": "http://i0.hdslb.com/bfs/archive/8c7d6784a5fe4aa117f1c0c53696dadb050b0d1d.jpg"
+      }
+    },
+    {
+      "id": "BV15Qj66mE5z",
+      "title": "快乐 童年",
+      "url": "https://www.bilibili.com/video/BV15Qj66mE5z",
+      "pubDate": 1781875232000,
+      "extra": {
+        "info": "榴莲阿呀 · 413w+观看 · 24w+点赞",
+        "hover": "没有锁的门 却锁住了一生",
+        "icon": "http://i1.hdslb.com/bfs/archive/fd70d470e4de0758969faf57cfd3f789c6e5e222.jpg"
+      }
+    },
+    {
+      "id": "BV14VjF6HEGT",
+      "title": "宇 宙 级 免 责 声 明",
+      "url": "https://www.bilibili.com/video/BV14VjF6HEGT",
+      "pubDate": 1781780400000,
+      "extra": {
+        "info": "龙大人不喷火 · 512w+观看 · 32w+点赞",
+        "hover": "原曲：江南",
+        "icon": "http://i0.hdslb.com/bfs/archive/4089372d9471271137ac3ce69091a7ac0faf36f4.jpg"
+      }
+    }
+  ]
+}

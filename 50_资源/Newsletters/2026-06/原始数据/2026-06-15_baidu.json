@@ -1,0 +1,46 @@
+{
+  "source": "baidu",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.baidu.com/s?wd=%E7%BE%8E%E4%BC%8A%E8%BE%BE%E6%88%90%E5%92%8C%E5%B9%B3%E5%8D%8F%E8%AE%AE",
+      "title": "美伊达成和平协议",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E4%BC%8A%E8%BE%BE%E6%88%90%E5%92%8C%E5%B9%B3%E5%8D%8F%E8%AE%AE",
+      "extra": {
+        "hover": ""
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E8%8D%B7%E5%85%B02%E6%AF%942%E6%97%A5%E6%9C%AC",
+      "title": "荷兰2比2日本",
+      "url": "https://www.baidu.com/s?wd=%E8%8D%B7%E5%85%B02%E6%AF%942%E6%97%A5%E6%9C%AC",
+      "extra": {
+        "hover": "北京时间6月15日，2026年美加墨世界杯进行F组首轮角逐，荷兰队对阵日本队。最终，荷兰2-2战平日本。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E5%9C%B0%E4%B8%8B%E7%AE%A1%E7%BD%91%E7%84%95%E6%96%B0+%E4%BD%A0%E7%9A%84%E5%9F%8E%E5%B8%82%E5%B0%86%E8%BF%8E%E5%93%AA%E4%BA%9B%E6%94%B9%E5%8F%98",
+      "title": "地下管网焕新 你的城市将迎哪些改变",
+      "url": "https://www.baidu.com/s?wd=%E5%9C%B0%E4%B8%8B%E7%AE%A1%E7%BD%91%E7%84%95%E6%96%B0+%E4%BD%A0%E7%9A%84%E5%9F%8E%E5%B8%82%E5%B0%86%E8%BF%8E%E5%93%AA%E4%BA%9B%E6%94%B9%E5%8F%98",
+      "extra": {
+        "hover": "“十五五”期间，全国将继续建设改造城市地下管网约77万公里。在加快地下管网物理翻新的同时，一张能感知会预警的“网”也在加快织就。无数传感器化作地下之眼，实时监测管线动态，AI与智能预警系统则变身城市神经中枢，隐患初现便能主动预警，以深藏地底的守护夯实安全根基，让城市的“里子”更扎实。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E7%BE%8E%E4%BC%8A%E7%A1%AE%E8%AE%A4%E8%BE%BE%E6%88%90%E5%8D%8F%E8%AE%AE+%E5%9B%BD%E9%99%85%E6%B2%B9%E4%BB%B7%E6%98%BE%E8%91%97%E4%B8%8B%E8%B7%8C",
+      "title": "美伊确认达成协议 国际油价显著下跌",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E4%BC%8A%E7%A1%AE%E8%AE%A4%E8%BE%BE%E6%88%90%E5%8D%8F%E8%AE%AE+%E5%9B%BD%E9%99%85%E6%B2%B9%E4%BB%B7%E6%98%BE%E8%91%97%E4%B8%8B%E8%B7%8C",
+      "extra": {
+        "hover": "由于美国和伊朗确认达成协议及霍尔木兹海峡预计很快重新开放，国际原油期货14日在开始新一周交易后价格显著走低。截至美东时间14日下午6时15分，纽约商品交易所7月交货的轻质原油期货价格最低降至每桶80.25美元，跌幅达5.45%。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E5%9B%BD%E4%B9%92%E5%8D%95%E6%89%93%E5%85%A8%E5%86%9B%E8%A6%86%E6%B2%A1",
+      "title": "国乒单打全军覆没",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E4%B9%92%E5%8D%95%E6%89%93%E5%85%A8%E5%86%9B%E8%A6%86%E6%B2%A1",
+      "extra": {
+        "hover": "北京时间6月14日凌晨，2026年萨格勒布站WTT常规挑战赛，国乒男单9人、女单11人无人晋级决赛，全队0冠收官。"
+      }
+    }
+  ]
+}

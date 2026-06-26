@@ -1,0 +1,46 @@
+{
+  "source": "xueqiu-hotstock",
+  "count": 5,
+  "items": [
+    {
+      "id": "SPCX",
+      "url": "https://xueqiu.com/s/SPCX",
+      "title": "SpaceX",
+      "extra": {
+        "info": "4.8312% NASDAQ"
+      }
+    },
+    {
+      "id": "MU",
+      "url": "https://xueqiu.com/s/MU",
+      "title": "美光科技",
+      "extra": {
+        "info": "-6.1793% NASDAQ"
+      }
+    },
+    {
+      "id": "SZ300757",
+      "url": "https://xueqiu.com/s/SZ300757",
+      "title": "罗博特科",
+      "extra": {
+        "info": "2.1% SZ"
+      }
+    },
+    {
+      "id": "NVDA",
+      "url": "https://xueqiu.com/s/NVDA",
+      "title": "英伟达",
+      "extra": {
+        "info": "-2.3723% NASDAQ"
+      }
+    },
+    {
+      "id": "SZ002384",
+      "url": "https://xueqiu.com/s/SZ002384",
+      "title": "东山精密",
+      "extra": {
+        "info": "4.07% SZ"
+      }
+    }
+  ]
+}

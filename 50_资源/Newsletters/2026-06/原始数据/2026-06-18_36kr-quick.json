@@ -1,0 +1,46 @@
+{
+  "source": "36kr-quick",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.36kr.com/newsflashes/3857986636453129",
+      "title": "中国5月Swift人民币在全球支付中占比 2.75%",
+      "id": "/newsflashes/3857986636453129",
+      "extra": {
+        "date": 1781744826082
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3857975094760713",
+      "title": "潮州三环（集团）股份有限公司通过港交所上市聆讯",
+      "id": "/newsflashes/3857975094760713",
+      "extra": {
+        "date": 1781744166082
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3857974790460677",
+      "title": "云南锗业：光纤级四氯化锗产品价格有所上涨",
+      "id": "/newsflashes/3857974790460677",
+      "extra": {
+        "date": 1781744106082
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3857972304385280",
+      "title": "中信证券：全国大部地区气温偏高概率提升，高温天气有望对饮料需求形成催化",
+      "id": "/newsflashes/3857972304385280",
+      "extra": {
+        "date": 1781743986082
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3857967815693576",
+      "title": "两市融资余额增加280.12亿元",
+      "id": "/newsflashes/3857967815693576",
+      "extra": {
+        "date": 1781743686082
+      }
+    }
+  ]
+}

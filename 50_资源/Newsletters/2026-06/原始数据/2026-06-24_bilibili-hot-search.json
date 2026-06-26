@@ -1,0 +1,46 @@
+{
+  "source": "bilibili-hot-search",
+  "count": 5,
+  "items": [
+    {
+      "id": "如何评价C罗梅开二度",
+      "title": "如何评价C罗梅开二度",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7C%E7%BD%97%E6%A2%85%E5%BC%80%E4%BA%8C%E5%BA%A6",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "葡萄牙5-0乌兹别克斯坦",
+      "title": "葡萄牙5-0乌兹别克斯坦",
+      "url": "https://search.bilibili.com/all?keyword=%E8%91%A1%E8%90%84%E7%89%995-0%E4%B9%8C%E5%85%B9%E5%88%AB%E5%85%8B%E6%96%AF%E5%9D%A6",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "NiKo希望也能在中国夺冠",
+      "title": "NiKo希望也能在中国夺冠",
+      "url": "https://search.bilibili.com/all?keyword=NiKo%E5%B8%8C%E6%9C%9B%E4%B9%9F%E8%83%BD%E5%9C%A8%E4%B8%AD%E5%9B%BD%E5%A4%BA%E5%86%A0",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "英格兰0-0闷平加纳",
+      "title": "英格兰0-0闷平加纳",
+      "url": "https://search.bilibili.com/all?keyword=%E8%8B%B1%E6%A0%BC%E5%85%B00-0%E9%97%B7%E5%B9%B3%E5%8A%A0%E7%BA%B3",
+      "extra": {
+        "icon": ""
+      }
+    },
+    {
+      "id": "迪班萨当选状元",
+      "title": "迪班萨当选状元",
+      "url": "https://search.bilibili.com/all?keyword=%E8%BF%AA%E7%8F%AD%E8%90%A8%E5%BD%93%E9%80%89%E7%8A%B6%E5%85%83",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+      }
+    }
+  ]
+}

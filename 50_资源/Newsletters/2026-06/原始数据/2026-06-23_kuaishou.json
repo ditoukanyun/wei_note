@@ -1,0 +1,46 @@
+{
+  "source": "kuaishou",
+  "count": 5,
+  "items": [
+    {
+      "id": "法国3比0伊拉克",
+      "title": "法国3比0伊拉克",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E6%B3%95%E5%9B%BD3%E6%AF%940%E4%BC%8A%E6%8B%89%E5%85%8B",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    },
+    {
+      "id": "姆巴佩左脚世界波",
+      "title": "姆巴佩左脚世界波",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%B7%A6%E8%84%9A%E4%B8%96%E7%95%8C%E6%B3%A2",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "端午节假期666.7万人次出入境",
+      "title": "端午节假期666.7万人次出入境",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E7%AB%AF%E5%8D%88%E8%8A%82%E5%81%87%E6%9C%9F666.7%E4%B8%87%E4%BA%BA%E6%AC%A1%E5%87%BA%E5%85%A5%E5%A2%83",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "警方通报13岁女孩称遭男子强奸",
+      "title": "警方通报13岁女孩称遭男子强奸",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A513%E5%B2%81%E5%A5%B3%E5%AD%A9%E7%A7%B0%E9%81%AD%E7%94%B7%E5%AD%90%E5%BC%BA%E5%A5%B8",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    },
+    {
+      "id": "超强台风“米克拉”来了",
+      "title": "超强台风“米克拉”来了",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E2%80%9C%E7%B1%B3%E5%85%8B%E6%8B%89%E2%80%9D%E6%9D%A5%E4%BA%86",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    }
+  ]
+}

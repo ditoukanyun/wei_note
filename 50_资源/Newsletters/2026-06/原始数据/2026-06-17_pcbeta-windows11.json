@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows11",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073432-1-1.html",
+      "title": "Windows Server MVS (MSDN) 简繁中镜像 - 2026 年 6 月",
+      "url": "https://bbs.pcbeta.com/viewthread-2073432-1-1.html",
+      "pubDate": 1781655815000,
+      "extra": {
+        "hover": "由于官方已停止支持，不再提供“Windows Server 半年通道 - 版本 23H2”的新版镜像。\r\n\r\n以下链接将于 2026/06/17 18:20 (GMT+8) 开始陆续失效，请尽快下载......\r\n校验值可在 https://msdn.rg-adguard.net/ 查询。\r\n\r\nMVS 每月更新镜像的版本号一般都与当月补丁星期二的推送 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073422-1-1.html",
+      "title": "仅上市几天的 SpaceX 的市值，就一举超越 MSFT 了？",
+      "url": "https://bbs.pcbeta.com/viewthread-2073422-1-1.html",
+      "pubDate": 1781649978000,
+      "extra": {
+        "hover": "仅上市几天的 SpaceX 的市值，就一举超越 MSFT 了？\r\n这个真的是坐了超级火箭！"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073420-1-1.html",
+      "title": "微软终于取消了Windows 11更新时的持续重启(pureinfotech)",
+      "url": "https://bbs.pcbeta.com/viewthread-2073420-1-1.html",
+      "pubDate": 1781648389000,
+      "extra": {
+        "hover": "微软正朝着制造 Windows 11 破坏性更小。在实验频道发布 Windows 11 26300.8687 中，该公司宣布了一种新的统一更新体验，旨在减少用户每月遇到的重启次数。\r\n\r\n即将到来的变化现在将协调驱动程序。通过 Windows Update 提供 . NET、Firmware 和每月质量更新，允许同时安装 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073418-1-1.html",
+      "title": "这个很好",
+      "url": "https://bbs.pcbeta.com/viewthread-2073418-1-1.html",
+      "pubDate": 1781626655000,
+      "extra": {
+        "hover": "处理器：AMD Ryzen7 7840HS with Radeon 780M Graphics 八核\r\n内存：  32GB  LPDDR5 6400MHz(8GB×4)\r\n显卡：  AMD RadeonT 780M(4GB/联想)\r\n磁盘：  UMIS RPEYJ1T24MKN2QWY(1024GB)\r\n声卡：  Realtek High Definition Audio\r\n            AMD High Definition Audio Device\r\n ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073417-1-1.html",
+      "title": "超越亚马逊和微软！上市4天的SpaceX成为全球第四大上市公司(mydrivers.com)",
+      "url": "https://bbs.pcbeta.com/viewthread-2073417-1-1.html",
+      "pubDate": 1781625289000,
+      "extra": {
+        "hover": "马斯克旗下太空探索技术公司（SpaceX，股票代码SPCX）上市第4天继续狂飙，夜盘股价飙升超19%至229.85美元，总市值突破3万亿美元。SpaceX也一举超越亚马逊（约2.66万亿美元）和微软（约2.97万亿美元），升至全球上市公司市值第四位，仅次于英伟达、Alphabet和苹果。\r\n\r\n据 ..."
+      }
+    }
+  ]
+}

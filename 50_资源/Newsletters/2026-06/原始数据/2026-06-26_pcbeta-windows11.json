@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows11",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074065-1-1.html",
+      "title": "23H2会自动升级25H2吗 不想升级怎么操作",
+      "url": "https://bbs.pcbeta.com/viewthread-2074065-1-1.html",
+      "pubDate": 1782402242000,
+      "extra": {
+        "hover": "说说方法 ~~~"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074061-1-1.html",
+      "title": "随启-便携软件启动器-写了个启动器，适合 RAMOS 和便携软件党",
+      "url": "https://bbs.pcbeta.com/viewthread-2074061-1-1.html",
+      "pubDate": 1782395330000,
+      "extra": {
+        "hover": "AnyLaunch 随启\r\n便携软件启动器 · 双击 Ctrl 唤出 · 即用即走[hr]一、为什么会有这个工具？\r\n我平时玩 RAMOS，系统每次重启都是全新的，所以软件都放在便携目录里。时间一长，一堆绿色软件、单文件散落在各个文件夹，每次找起来很烦。于是就写了个启动器凑合用，最近整 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074060-1-1.html",
+      "title": "老笔记本，系统已经更新CA 2023了，手动更新了一个2022年的bios，系统无法启动了",
+      "url": "https://bbs.pcbeta.com/viewthread-2074060-1-1.html",
+      "pubDate": 1782395190000,
+      "extra": {
+        "hover": "如题，一台联想Y9000X 2020更新bios（bios是2022年的）之后，系统无法启动，关安全启动后才能正常启动系统，对于这种情况，各位大佬有没有什么办法？"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074059-1-1.html",
+      "title": "投票啦！！！LTSC、专业版、专业工作站版、论坛大神DIY版、哪个系统最受欢迎",
+      "url": "https://bbs.pcbeta.com/viewthread-2074059-1-1.html",
+      "pubDate": 1782394920000,
+      "extra": {
+        "hover": "先说我自己  笔记本用WIN11 25H2专业版原版系统\r\n个人娱乐电脑 WIN11 25H2专业版原版系统\r\n服务器  server 2019"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074057-1-1.html",
+      "title": "25H2 和 26H1 怎么选，听听大家意见",
+      "url": "https://bbs.pcbeta.com/viewthread-2074057-1-1.html",
+      "pubDate": 1782393094000,
+      "extra": {
+        "hover": "新买的联想拯救者笔记本，到手后准备换系统，在6月份的ISO中，25H2和26H1装哪个好？？装好后肯定是关闭更新不打补丁了，准备长期用的，这俩哪个版本稳定一些适合长期用，听听大伙儿意见。。。。\r\n ..."
+      }
+    }
+  ]
+}

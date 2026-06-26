@@ -1,0 +1,46 @@
+{
+  "source": "xueqiu",
+  "count": 5,
+  "items": [
+    {
+      "id": "SPCX",
+      "url": "https://xueqiu.com/s/SPCX",
+      "title": "SpaceX",
+      "extra": {
+        "info": "19.6024% NASDAQ"
+      }
+    },
+    {
+      "id": "MU",
+      "url": "https://xueqiu.com/s/MU",
+      "title": "美光科技",
+      "extra": {
+        "info": "10.8373% NASDAQ"
+      }
+    },
+    {
+      "id": "NVDA",
+      "url": "https://xueqiu.com/s/NVDA",
+      "title": "英伟达",
+      "extra": {
+        "info": "3.5382% NASDAQ"
+      }
+    },
+    {
+      "id": "WDC",
+      "url": "https://xueqiu.com/s/WDC",
+      "title": "西部数据",
+      "extra": {
+        "info": "16.0954% NASDAQ"
+      }
+    },
+    {
+      "id": "SZ300014",
+      "url": "https://xueqiu.com/s/SZ300014",
+      "title": "亿纬锂能",
+      "extra": {
+        "info": "1.91% SZ"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-hot-video",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV1rvjb6fEKU",
+      "title": "什么叫人类最强的去当魔王是为了平衡战力？",
+      "url": "https://www.bilibili.com/video/BV1rvjb6fEKU",
+      "pubDate": 1782026099000,
+      "extra": {
+        "info": "Mr-Ferret · 76w+观看 · 5w+点赞",
+        "hover": "-",
+        "icon": "http://i2.hdslb.com/bfs/archive/8042679d5e89cf7eb377c7a1f277dc696d63f7ca.jpg"
+      }
+    },
+    {
+      "id": "BV1g7jJ6nE1E",
+      "title": "“入室抢劫般的队友”",
+      "url": "https://www.bilibili.com/video/BV1g7jJ6nE1E",
+      "pubDate": 1781955576000,
+      "extra": {
+        "info": "胡胡不胡o · 96w+观看 · 6w+点赞",
+        "hover": "轻松绷不住嘿嘿",
+        "icon": "http://i2.hdslb.com/bfs/archive/9b3e18bf8311f44867bcc78534904eb86d1072c4.jpg"
+      }
+    },
+    {
+      "id": "BV1JKjH6iE6y",
+      "title": "多少年了，人们还记得你真实的样子吗？",
+      "url": "https://www.bilibili.com/video/BV1JKjH6iE6y",
+      "pubDate": 1781965957000,
+      "extra": {
+        "info": "何大爷课堂 · 301w+观看 · 19w+点赞",
+        "hover": "-",
+        "icon": "http://i1.hdslb.com/bfs/archive/ce0fa067f5c90abd4ceb01108697be8f556ecd57.jpg"
+      }
+    },
+    {
+      "id": "BV1k2jq6WEUG",
+      "title": "【独家】牧神记 第88集 祸根",
+      "url": "https://www.bilibili.com/video/BV1k2jq6WEUG",
+      "pubDate": 1782010802000,
+      "extra": {
+        "info": "哔哩哔哩国创 · 206w+观看 · 2w+点赞",
+        "hover": "阅尽千文见百态，祸根万种皆由心。",
+        "icon": "http://i1.hdslb.com/bfs/archive/1d9334dee45ec7ac2aab26e8560860ebfc796fdb.png"
+      }
+    },
+    {
+      "id": "BV1PyjZ6jEc1",
+      "title": "来自Major冠军的信息：中国粉丝们，你们是这成功的一部分",
+      "url": "https://www.bilibili.com/video/BV1PyjZ6jEc1",
+      "pubDate": 1782070680000,
+      "extra": {
+        "info": "IEM成都 · 62w+观看 · 8w+点赞",
+        "hover": "",
+        "icon": "http://i0.hdslb.com/bfs/archive/b8bcc4897c74fb3389c187ade722f33aa86faad3.jpg"
+      }
+    }
+  ]
+}

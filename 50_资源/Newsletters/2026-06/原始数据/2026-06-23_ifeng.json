@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8uAPychsbfV",
+      "url": "https://news.ifeng.com/c/8uAPychsbfV",
+      "title": "斯塔默为何要宣布辞职？",
+      "extra": {
+        "date": "2026-06-22 16:46:52"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uAd6iAgSzs",
+      "url": "https://news.ifeng.com/c/8uAd6iAgSzs",
+      "title": "一图看懂：10年有6位英国首相辞职，他们都是谁？",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uASwuIqJQf",
+      "url": "https://news.ifeng.com/c/8uASwuIqJQf",
+      "title": "王毅会见伊朗最高国家安全委员会副秘书",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uAT9PSWX8z",
+      "url": "https://news.ifeng.com/c/8uAT9PSWX8z",
+      "title": "美伊18小时逆转大戏的舞台内外",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8u8tDRAoBuA",
+      "url": "https://news.ifeng.com/c/8u8tDRAoBuA",
+      "title": "伊朗议长：霍尔木兹海峡将按伊方制定的机制进行管理",
+      "extra": {}
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "source": "solidot",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.solidot.org/story?sid=84518",
+      "title": "免费领取价值30/90美金的NVIDIA DLI自学课程并测试获得证书",
+      "id": "/story?sid=84518",
+      "pubDate": 1780910280000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84555",
+      "title": "东亚最高的树",
+      "id": "/story?sid=84555",
+      "pubDate": 1781195040000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84553",
+      "title": "科技巨头大举借债",
+      "id": "/story?sid=84553",
+      "pubDate": 1781193120000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84552",
+      "title": "游荡在 Fedora 项目的可疑 AI 智能体",
+      "id": "/story?sid=84552",
+      "pubDate": 1781191800000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84551",
+      "title": "OpenAI 称中国关联账户试图煽动美国反数据中心情绪 ",
+      "id": "/story?sid=84551",
+      "pubDate": 1781168700000
+    }
+  ]
+}

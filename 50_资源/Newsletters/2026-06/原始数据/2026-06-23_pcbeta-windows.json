@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073798-1-1.html",
+      "title": "安装不了系统",
+      "url": "https://bbs.pcbeta.com/viewthread-2073798-1-1.html",
+      "pubDate": 1782110384000,
+      "extra": {
+        "hover": "兄弟们，我的电脑是联系来酷14pro，现在系统坏了一直进不去，开机就进入bios。\r\n所以准备重装，使用了U盘刻录的系统，但是每次进不了系统，开机就进入bios。\r\n另外我也试了安装PE，也是开机就进入bios。\r\n而且还发现一个问题，我进入bios更改secure boot更改为disable、fas ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073794-1-1.html",
+      "title": "我的世界风指针主题，手感超顺滑！",
+      "url": "https://bbs.pcbeta.com/viewthread-2073794-1-1.html",
+      "pubDate": 1782109572000,
+      "extra": {
+        "hover": ""
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073770-1-1.html",
+      "title": "【Github】A大的win10 LTSC 2019 17763.8880-移动云盘分流6.10更新",
+      "url": "https://bbs.pcbeta.com/viewthread-2073770-1-1.html",
+      "pubDate": 1782092174000,
+      "extra": {
+        "hover": "A大镜像地址：https://github.com/adavak/win_iso_build/releases/tag/Windows_10_LTSC_2019_X64_ZH-CN-17763.8880-20260609-2329\r\n\r\n移动云盘不下载分流\r\n链接: https://yun.139.com/shareweb/#/w/i/2vMBC0UwZSid5  提取码:8agd  复制内容打开中国移动云盘手机APP，操作更 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073751-1-1.html",
+      "title": "帮我看看这是哪位大神做的系统了。。太久了忘记了",
+      "url": "https://bbs.pcbeta.com/viewthread-2073751-1-1.html",
+      "pubDate": 1782052412000,
+      "extra": {
+        "hover": "zh-cn_windows_10_enterprise_ltsc_2021_x64_dvd_19044.6456-6in1\r\n\r\n这个6合一的  后边的123456每个字母代表的精简项目我忘记了- -  \r\n想找一下原贴对照下 选择安装哪个版本\r\n谢谢大佬们 ，给个原贴地址最好了 \r\n ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2073716-1-1.html",
+      "title": "❤️[2026.6.21]WIN10.LTSB2016.14393.9234[IT工坊]轻度精简 极速优化版",
+      "url": "https://bbs.pcbeta.com/viewthread-2073716-1-1.html",
+      "pubDate": 1781994001000,
+      "extra": {
+        "hover": "WIN10.LTSB2016.14393.9234轻度精简优化版 机械硬盘也能运行流畅\r\n保留了IIS、Hyper-V、UWF等功能\r\n保留了IE、NET3.5 、NET4.8.1、Windows Media Player等\r\n集成了VC运行库、Intel RST VMD驱动等\r\n不支持更新\r\n\r\n目前测试AutoCAD2020、浩辰CAD2025、Office2024、CorelDRAW2021 ..."
+      }
+    }
+  ]
+}

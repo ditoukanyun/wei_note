@@ -1,0 +1,46 @@
+{
+  "source": "36kr-quick",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.36kr.com/newsflashes/3865058547864836",
+      "title": "中航光电：兴航光电目前没有面向800G、1.6T等产品开发计划",
+      "id": "/newsflashes/3865058547864836",
+      "extra": {
+        "date": 1782176504022
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3865008753284102",
+      "title": "正浩EcoFlow发布全场景储能新品矩阵",
+      "id": "/newsflashes/3865008753284102",
+      "extra": {
+        "date": 1782176444022
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3865045514376450",
+      "title": "两市融资余额增加290.19亿元",
+      "id": "/newsflashes/3865045514376450",
+      "extra": {
+        "date": 1782175664022
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3865041050735875",
+      "title": "Meta因数据安全问题暂停追踪员工鼠标活动的AI训练项目",
+      "id": "/newsflashes/3865041050735875",
+      "extra": {
+        "date": 1782175424022
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3865040711832841",
+      "title": "中信证券：PCIe协议将成为AI时代的慢通胀环节",
+      "id": "/newsflashes/3865040711832841",
+      "extra": {
+        "date": 1782175364022
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "source": "github-trending-today",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/google-labs-code/design.md",
+      "title": "google-labs-code /      design.md",
+      "id": "/google-labs-code/design.md",
+      "extra": {
+        "info": "✰ 19,229",
+        "hover": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system."
+      }
+    },
+    {
+      "url": "https://github.com/calesthio/OpenMontage",
+      "title": "calesthio /      OpenMontage",
+      "id": "/calesthio/OpenMontage",
+      "extra": {
+        "info": "✰ 22,092",
+        "hover": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio."
+      }
+    },
+    {
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "title": "xbtlin /      ai-berkshire",
+      "id": "/xbtlin/ai-berkshire",
+      "extra": {
+        "info": "✰ 1,882",
+        "hover": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis."
+      }
+    },
+    {
+      "url": "https://github.com/mauriceboe/TREK",
+      "title": "mauriceboe /      TREK",
+      "id": "/mauriceboe/TREK",
+      "extra": {
+        "info": "✰ 6,678",
+        "hover": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more."
+      }
+    },
+    {
+      "url": "https://github.com/apple/container",
+      "title": "apple /      container",
+      "id": "/apple/container",
+      "extra": {
+        "info": "✰ 43,219",
+        "hover": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon."
+      }
+    }
+  ]
+}

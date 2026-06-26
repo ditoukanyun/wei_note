@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/microsoftedge.html",
+      "url": "https://www.ghxi.com/microsoftedge.html",
+      "title": "Microsoft Edge v149.0.4022.80 离线安装包",
+      "extra": {
+        "hover": "微软终于在浏览器上认输了？在用 Edge 取代多年的 IE 之后，如今 Edge 也低下了头颅，承认了 Chrome 的胜利。 Microsoft Edge 浏览器在 2015 年...",
+        "date": 1782126255303
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/vuescan.html",
+      "url": "https://www.ghxi.com/vuescan.html",
+      "title": "VueScan Pro(专业扫描工具) v9.8.55.04 修改版",
+      "extra": {
+        "hover": "VueScan是著名的第三方底片扫描仪驱动程序，支持市场可见绝大多数型号的底片扫描仪，可以更为灵活地控制扫描过程，更深入地发掘硬件潜力，获取色彩 完美的高质量扫描结果。VueSca...",
+        "date": 1782122655303
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/goodsync11.html",
+      "url": "https://www.ghxi.com/goodsync11.html",
+      "title": "GoodSync v12.11.4.4 便携特别版",
+      "extra": {
+        "hover": "GoodSync-著名的文件同步备份工具，GoodSync 可以在任意两台电脑或者存储设备之间进行数据和文件的同步备份工作，不仅能够同步本地硬盘里的文件，还能同步局域网指定机器之间...",
+        "date": 1782122655303
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/notepad4.html",
+      "url": "https://www.ghxi.com/notepad4.html",
+      "title": "Notepad4 v26.06r6196 绿色版",
+      "extra": {
+        "hover": "Notepad4 (Notepad2⨯2, Notepad2++) 是一款基于 Scintilla 的轻量级 Windows 文本编辑器，具有语法高亮、代码折叠、自动完成和多种编程...",
+        "date": 1782122655304
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/drawio.html",
+      "url": "https://www.ghxi.com/drawio.html",
+      "title": "【惊奇软件】Drawio v30.2.4 开源跨平台绘图软件",
+      "extra": {
+        "hover": "draw.io是一款非常不错的流程图绘制软件，支持各种各样的流程图绘制，基本上能代替Visio和亿图图示等软件了，并且软件开源跨平台，任何用户都能免费使用。 本软件是一款非常不错的...",
+        "date": 1782119055305
+      }
+    }
+  ]
+}
