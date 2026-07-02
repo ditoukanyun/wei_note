@@ -1,0 +1,46 @@
+{
+  "source": "baidu",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.baidu.com/s?wd=%E5%AE%9C%E5%AE%BE%E5%8F%91%E7%94%9F5.5%E7%BA%A7%E5%9C%B0%E9%9C%87+%E6%88%90%E9%83%BD%E9%9C%87%E6%84%9F%E6%98%8E%E6%98%BE",
+      "title": "宜宾发生5.5级地震 成都震感明显",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%9C%E5%AE%BE%E5%8F%91%E7%94%9F5.5%E7%BA%A7%E5%9C%B0%E9%9C%87+%E6%88%90%E9%83%BD%E9%9C%87%E6%84%9F%E6%98%8E%E6%98%BE",
+      "extra": {
+        "hover": "中国地震台网正式测定：6月29日0时12分，在四川宜宾市高县（北纬28.50度，东经104.69度）发生5.5级地震，震源深度6公里。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E5%AE%9C%E5%AE%BE%E5%9C%B0%E9%9C%87%E7%9E%AC%E9%97%B4%E9%B1%BC%E7%BE%A4%E4%B9%B1%E8%B7%B3",
+      "title": "宜宾地震瞬间鱼群乱跳",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%9C%E5%AE%BE%E5%9C%B0%E9%9C%87%E7%9E%AC%E9%97%B4%E9%B1%BC%E7%BE%A4%E4%B9%B1%E8%B7%B3",
+      "extra": {
+        "hover": "6月29日凌晨，四川宜宾发生5.5级地震，震中监控显示地震瞬间鱼群异常躁动，多次跃出水面。武警、消防队伍连夜集结赶赴震中开展处置。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A55%E5%B9%B4+%E5%85%85%E7%94%B5%E4%BE%9B%E7%83%AD%E4%BE%9B%E6%9A%96%E5%B0%86%E6%9C%89%E5%A4%A7%E5%8F%98%E5%8C%96",
+      "title": "未来5年 充电供热供暖将有大变化",
+      "url": "https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A55%E5%B9%B4+%E5%85%85%E7%94%B5%E4%BE%9B%E7%83%AD%E4%BE%9B%E6%9A%96%E5%B0%86%E6%9C%89%E5%A4%A7%E5%8F%98%E5%8C%96",
+      "extra": {
+        "hover": "《新型能源体系建设“十五五”规划》提出，提高民生用能电气化水平，2030年人均年生活用电量达到1500千瓦时。未来5年，老百姓用电、供热、供暖有啥变化？一起看。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E9%98%9F%E5%B7%AE%E6%97%85%E8%B4%B9%E4%BA%8F%E9%BA%BB%E4%BA%86",
+      "title": "韩国队差旅费亏麻了",
+      "url": "https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E9%98%9F%E5%B7%AE%E6%97%85%E8%B4%B9%E4%BA%8F%E9%BA%BB%E4%BA%86",
+      "extra": {
+        "hover": "韩国足协在2026年美加墨世界杯期间超规代表团、包机及顶级后勤配置投入巨额差旅费，但球队小组赛1胜2负出局，导致足协主席承诺的11亿韩元出线奖金落空，额外支出的25人差旅费及三天120万元备战费用均亏损，被韩网友嘲讽为“史上最贵公费旅游”。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E5%9B%9B%E5%B7%9D%E5%AE%9C%E5%AE%BE%E5%9C%B0%E9%9C%87%E8%87%B413%E4%BA%BA%E5%8F%97%E8%BD%BB%E5%BE%AE%E4%BC%A4",
+      "title": "四川宜宾地震致13人受轻微伤",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%9B%E5%B7%9D%E5%AE%9C%E5%AE%BE%E5%9C%B0%E9%9C%87%E8%87%B413%E4%BA%BA%E5%8F%97%E8%BD%BB%E5%BE%AE%E4%BC%A4",
+      "extra": {
+        "hover": "6月29日0时12分，四川宜宾市高县发生5.5级地震，震源深度6公里，已致13人受轻微伤并送医，紧急转移安置196人。目前抗震救灾工作有序进行。"
+      }
+    }
+  ]
+}

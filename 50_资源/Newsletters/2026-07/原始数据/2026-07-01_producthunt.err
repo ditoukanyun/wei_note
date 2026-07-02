@@ -1,0 +1,14 @@
+status: nonzero
+exitCode: 2
+signal: null
+timeoutMs: 10000
+
+stdout:
+
+
+stderr:
+{"error":"Fetch failed for \"producthunt\": PRODUCTHUNT_API_TOKEN is not set","code":"FETCH_ERROR"}
+
+
+error:
+{"error":"Fetch failed for \"producthunt\": PRODUCTHUNT_API_TOKEN is not set","code":"FETCH_ERROR"}

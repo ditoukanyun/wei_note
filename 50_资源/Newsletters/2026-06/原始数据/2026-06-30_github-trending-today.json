@@ -1,0 +1,51 @@
+{
+  "source": "github-trending-today",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "title": "simplex-chat /      simplex-chat",
+      "id": "/simplex-chat/simplex-chat",
+      "extra": {
+        "info": "✰ 16,586",
+        "hover": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!"
+      }
+    },
+    {
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "title": "msitarzewski /      agency-agents",
+      "id": "/msitarzewski/agency-agents",
+      "extra": {
+        "info": "✰ 118,886",
+        "hover": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
+      }
+    },
+    {
+      "url": "https://github.com/cupy/cupy",
+      "title": "cupy /      cupy",
+      "id": "/cupy/cupy",
+      "extra": {
+        "info": "✰ 11,825",
+        "hover": "NumPy & SciPy for GPU"
+      }
+    },
+    {
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "title": "altic-dev /      FluidVoice",
+      "id": "/altic-dev/FluidVoice",
+      "extra": {
+        "info": "✰ 4,392",
+        "hover": "FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :))"
+      }
+    },
+    {
+      "url": "https://github.com/soxoj/maigret",
+      "title": "soxoj /      maigret",
+      "id": "/soxoj/maigret",
+      "extra": {
+        "info": "✰ 34,379",
+        "hover": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "source": "xueqiu-hotstock",
+  "count": 5,
+  "items": [
+    {
+      "id": "SNDK",
+      "url": "https://xueqiu.com/s/SNDK",
+      "title": "闪迪",
+      "extra": {
+        "info": "10.89% NASDAQ"
+      }
+    },
+    {
+      "id": "GLW",
+      "url": "https://xueqiu.com/s/GLW",
+      "title": "康宁",
+      "extra": {
+        "info": "-0.1017% NYSE"
+      }
+    },
+    {
+      "id": "SZ000725",
+      "url": "https://xueqiu.com/s/SZ000725",
+      "title": "京东方A",
+      "extra": {
+        "info": "9.18% SZ"
+      }
+    },
+    {
+      "id": "CRCL",
+      "url": "https://xueqiu.com/s/CRCL",
+      "title": "Circle",
+      "extra": {
+        "info": "-17.5487% NYSE"
+      }
+    },
+    {
+      "id": "SH688146",
+      "url": "https://xueqiu.com/s/SH688146",
+      "title": "中船特气",
+      "extra": {
+        "info": "-5.41% SH"
+      }
+    }
+  ]
+}

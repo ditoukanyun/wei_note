@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8uMyNgMWxdJ",
+      "url": "https://news.ifeng.com/c/8uMyNgMWxdJ",
+      "title": "中欧举行贸易投资磋商会谈，发表联合声明",
+      "extra": {
+        "date": "2026-06-30 06:02:34"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uLwDQhgROy",
+      "url": "https://news.ifeng.com/c/8uLwDQhgROy",
+      "title": "外交部：日菲严重侵害中方海洋权益，中方绝不允许",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uMw9O941PB",
+      "url": "https://news.ifeng.com/c/8uMw9O941PB",
+      "title": "英国智库给菲律宾GDP增速“浇冷水”",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uLvDlb0GM8",
+      "url": "https://news.ifeng.com/c/8uLvDlb0GM8",
+      "title": "中国：追加1亿元！",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uLxCXhNQ8S",
+      "url": "https://news.ifeng.com/c/8uLxCXhNQ8S",
+      "title": "梅德韦杰夫列举俄罗斯面临的七大挑战",
+      "extra": {}
+    }
+  ]
+}

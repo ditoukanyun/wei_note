@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-hot-video",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV1pwTa6mEYj",
+      "title": "《最想出院の一集》",
+      "url": "https://www.bilibili.com/video/BV1pwTa6mEYj",
+      "pubDate": 1782878400000,
+      "extra": {
+        "info": "伤心欲茄222 · 269w+观看 · 21w+点赞",
+        "hover": "-",
+        "icon": "http://i2.hdslb.com/bfs/archive/00d65599811ce829e68a01d76911c7d28da6784f.jpg"
+      }
+    },
+    {
+      "id": "BV1FhTc64EHi",
+      "title": "百万英镑·拯救亚当斯",
+      "url": "https://www.bilibili.com/video/BV1FhTc64EHi",
+      "pubDate": 1782835279000,
+      "extra": {
+        "info": "猫屎花生 · 221w+观看 · 11w+点赞",
+        "hover": "",
+        "icon": "http://i0.hdslb.com/bfs/archive/b147f045b473d694b416b4f4576314537c8b5c22.jpg"
+      }
+    },
+    {
+      "id": "BV1zqTv6JELF",
+      "title": "😜\"鲁鲁逊漂流记 2\"😋",
+      "url": "https://www.bilibili.com/video/BV1zqTv6JELF",
+      "pubDate": 1782896739000,
+      "extra": {
+        "info": "沙雕Sanscul · 58w+观看 · 5w+点赞",
+        "hover": "这个简介魔了",
+        "icon": "http://i1.hdslb.com/bfs/archive/3eb05aed729e37b67a51b6ab3cc93995d8c73950.jpg"
+      }
+    },
+    {
+      "id": "BV1jsTi67EMC",
+      "title": "【vlog】我们是冠军🏆",
+      "url": "https://www.bilibili.com/video/BV1jsTi67EMC",
+      "pubDate": 1782920656000,
+      "extra": {
+        "info": "FLC_NiKo · 44w+观看 · 7w+点赞",
+        "hover": "17 次 Major。\n\n十多年的坚持。\n\n终于在科隆，我圆梦了！我是 Major 冠军🏆\n\n从第一次握住鼠标的那一刻起，我就一直梦想着这一天。\n\n而今天，它终于成为了现实。\n\n永远不要放弃。\n\n终有一天，你会实现自己的梦想。🤍",
+        "icon": "http://i1.hdslb.com/bfs/archive/55ba5a95cdee2c07f0408d38524a925e141ddb2b.jpg"
+      }
+    },
+    {
+      "id": "BV1cyjd6BEMj",
+      "title": "假如印度翻拍《火影忍者》",
+      "url": "https://www.bilibili.com/video/BV1cyjd6BEMj",
+      "pubDate": 1782900000000,
+      "extra": {
+        "info": "ByeByeBlueBerry · 31w+观看 · 1w+点赞",
+        "hover": "",
+        "icon": "http://i1.hdslb.com/bfs/archive/e0feb7dd7584325be45d3beebc6afe8f301fea1e.jpg"
+      }
+    }
+  ]
+}

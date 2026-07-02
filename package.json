@@ -10,6 +10,7 @@
     "build": "./quartz/bootstrap-cli.mjs build -d .",
     "serve": "./quartz/bootstrap-cli.mjs build -d . --serve",
     "sync": "./quartz/bootstrap-cli.mjs sync",
+    "news:daily": "node scripts/newsnow-daily.mjs",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write"
   },

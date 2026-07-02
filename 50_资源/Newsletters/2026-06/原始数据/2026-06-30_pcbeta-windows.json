@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074378-1-1.html",
+      "title": "我的WINDOWS 10电脑桌面怎么突然变成这样？",
+      "url": "https://bbs.pcbeta.com/viewthread-2074378-1-1.html",
+      "pubDate": 1782780293000,
+      "extra": {
+        "hover": "我的WINDOWS 10电脑桌面怎么突然变成这样：\r\n\r\n\r\n桌面变成黑色，鼠标在桌面空白处右键出现一个白色长条。这几天发生几次，注销后恢复正常。"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074355-1-1.html",
+      "title": "WinSpin 极简深色鼠标指针主题",
+      "url": "https://bbs.pcbeta.com/viewthread-2074355-1-1.html",
+      "pubDate": 1782739427000,
+      "extra": {
+        "hover": "🔗：https://pan.quark.cn/s/634d1ee518c4\r\n🔗：https://pan.xunlei.com/s/VOwIXDWg4DjrxT6IyH6T8aNUA1?pwd=954p#"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074330-1-1.html",
+      "title": "帮忙指教一下适合装哪个大佬的精简系统版本  多开游戏 CPU占用高",
+      "url": "https://bbs.pcbeta.com/viewthread-2074330-1-1.html",
+      "pubDate": 1782705371000,
+      "extra": {
+        "hover": "多开游戏 CPU占用高"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074293-1-1.html",
+      "title": "如何禁止win10自动下载显卡驱动",
+      "url": "https://bbs.pcbeta.com/viewthread-2074293-1-1.html",
+      "pubDate": 1782655331000,
+      "extra": {
+        "hover": "今天更新N卡驱动，控制面板卸载完重启，刚进入桌面就自动装上560.94驱动。\r\n是不是系统不管用不用得上都会自动下载驱动，怎么禁止呢？"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074214-1-1.html",
+      "title": "这个配置的电脑适合装Windows11 吗？显卡3070Ti",
+      "url": "https://bbs.pcbeta.com/viewthread-2074214-1-1.html",
+      "pubDate": 1782563510000,
+      "extra": {
+        "hover": ""
+      }
+    }
+  ]
+}

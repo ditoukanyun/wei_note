@@ -1,0 +1,4 @@
+status: timeout
+exitCode: null
+signal: SIGTERM
+error: spawnSync npx ETIMEDOUT

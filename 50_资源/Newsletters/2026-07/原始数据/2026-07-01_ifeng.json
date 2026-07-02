@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8uO5nsiagbM",
+      "url": "https://news.ifeng.com/c/8uO5nsiagbM",
+      "title": "中方点名，“特别是以色列”",
+      "extra": {
+        "date": "2026-06-30 22:34:18"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uOc5SgmL8Y",
+      "url": "https://news.ifeng.com/c/8uOc5SgmL8Y",
+      "title": "以色列逮捕一名美国公民：涉嫌从事间谍活动",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uNlbOj0m8e",
+      "url": "https://news.ifeng.com/c/8uNlbOj0m8e",
+      "title": "美国常驻北约代表：美国通过援乌，已“变现”60亿美元",
+      "extra": {}
+    },
+    {
+      "id": "https://v.ifeng.com/c/8uNtTRMWXNr",
+      "url": "https://v.ifeng.com/c/8uNtTRMWXNr",
+      "title": "美国驻印大使爆料：特朗普想早上6点给莫迪打电话",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uNw8anUS1T",
+      "url": "https://news.ifeng.com/c/8uNw8anUS1T",
+      "title": "李在明把韩国未来二三十年都赌上了",
+      "extra": {}
+    }
+  ]
+}

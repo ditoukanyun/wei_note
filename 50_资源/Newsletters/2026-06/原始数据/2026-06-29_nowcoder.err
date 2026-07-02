@@ -1,0 +1,8 @@
+status: nonzero
+exitCode: 2
+signal: null
+error: {"error":"Fetch failed for \"nowcoder\": [GET] \"https://gw-c.nowcoder.com/api/sparta/hot-search/top-hot-pc?size=20&_=1782695300390&t=\": <no response> Unable to connect. Is the computer able to access the url?","code":"FETCH_ERROR"}
+
+
+[stderr]
+{"error":"Fetch failed for \"nowcoder\": [GET] \"https://gw-c.nowcoder.com/api/sparta/hot-search/top-hot-pc?size=20&_=1782695300390&t=\": <no response> Unable to connect. Is the computer able to access the url?","code":"FETCH_ERROR"}

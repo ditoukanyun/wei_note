@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows11",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074376-1-1.html",
+      "title": "关于键盘~",
+      "url": "https://bbs.pcbeta.com/viewthread-2074376-1-1.html",
+      "pubDate": 1782777764000,
+      "extra": {
+        "hover": "很多人说磁轴键盘会取代机械键盘，是真的吗？我才刚用上机械键盘红轴，感觉就是弹性比薄膜要好，就是灯很快就坏了~薄膜就是超耐用，乱扔乱摔进水也不会坏，缺点是手感很容易变化~\r\n\r\n ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074373-1-1.html",
+      "title": "安全启动证书(UEFI CA 2011)在6月24日和27日连续两张已经失效了",
+      "url": "https://bbs.pcbeta.com/viewthread-2074373-1-1.html",
+      "pubDate": 1782773501000,
+      "extra": {
+        "hover": "安全启动证书在6月24日和27日连续两张已经失效了，Dell、HP、Lenovo、ASUS等主要9家公司发布了支持指南。\r\n\r\nASUS甚至列出了按错误代码分类的应对方法，Lenovo则列出了按机型分类的BIOS直链链接，但对于支持期已过的老旧PC，任何制造商都不会提供BIOS。\r\n\r\nDell的XPS 8910据 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074365-1-1.html",
+      "title": "特别的错误，求助",
+      "url": "https://bbs.pcbeta.com/viewthread-2074365-1-1.html",
+      "pubDate": 1782746092000,
+      "extra": {
+        "hover": "新装的Windows10专业工作站版\r\n用本站的【Windows11轻松设置1.12正式版】进行了系统配置，禁用了UCA，\r\n同时用 Dism++ 打开了 内置管理员模式\r\n\r\n\r\n\r\n结果出现奇怪的故障现象：\r\n1、从系统任意方式打开 PDF文件，都可以直接用默认关联的 Adobe Acrobat 打开；但是唯独从 微信PC ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074356-1-1.html",
+      "title": "WinSpin 极简深色鼠标指针主题",
+      "url": "https://bbs.pcbeta.com/viewthread-2074356-1-1.html",
+      "pubDate": 1782739472000,
+      "extra": {
+        "hover": "分享近期个人自用的 WinSpin 极简线框指针主题。深色背景搭配细腻线框设计，视觉质感高级且不刺眼。为了方便大家，已贴心地将主题文件与图文安装教程打包在一起，新手也能快速上手替换。需要的坛友直接自取，觉得好用欢迎回帖支持！\r\n\r\n\r\n\r\n🔗：https://pan.quark.cn/s/634d ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074352-1-1.html",
+      "title": "请转天翼云盘",
+      "url": "https://bbs.pcbeta.com/viewthread-2074352-1-1.html",
+      "pubDate": 1782733911000,
+      "extra": {
+        "hover": "请转天翼云盘，谢谢！\r\n\r\nwinsrv2012r2-data-x64-cn-home.iso\r\n下载地址: \r\nhttps://pan.baidu.com/s/1oF7f4k2ZQ1mu_n9PddYqJA \r\n提取码: g4hi"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+source: cls
+status: nonzero
+exitCode: 2
+signal: null
+timeoutMs: 10000
+error: 
+
+[stdout]
+
+
+[stderr]
+{"error":"Fetch failed for \"cls\": [GET] \"https://www.cls.cn/nodeapi/updateTelegraphList?appName=CailianpressWeb&os=web&sv=7.7.5&sign=9c11221af4f6b47b253098a8b9957b8f\": 404 Not Found","code":"FETCH_ERROR"}

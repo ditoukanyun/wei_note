@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074527-1-1.html",
+      "title": "借个人气，求个win8.1优化整合版",
+      "url": "https://bbs.pcbeta.com/viewthread-2074527-1-1.html",
+      "pubDate": 1782952937000,
+      "extra": {
+        "hover": "Win8.1区发了贴，奈何人气太低了。事情如下：历史遗留下来的老配置了，具体如图，安装过win7 win10 ltsb 2016（均为各位大佬的优化版），win7 10会偶尔卡顿2秒，官网装的驱动，偶尔卡个2s，然后装8.1试试，不光没卡顿这两三秒外，指哪打哪的感觉又回来了，觉得可能微软 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074513-1-1.html",
+      "title": "请教如何从镜像中提取Microsoft.DesktopAppInstaller_2019.125.2243.0_neutral_~_8wekyb3d8bbwe",
+      "url": "https://bbs.pcbeta.com/viewthread-2074513-1-1.html",
+      "pubDate": 1782914068000,
+      "extra": {
+        "hover": "UUP合成组件里面没有。\r\nhttps://store.rg-adguard.net/里面有太新，整合后会导致系统桌面状态下安装appx失败"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074511-1-1.html",
+      "title": "[windows10停止支持时最终版本]10.0.19045.6466",
+      "url": "https://bbs.pcbeta.com/viewthread-2074511-1-1.html",
+      "pubDate": 1782907489000,
+      "extra": {
+        "hover": "基本介绍\r\n\r\n本映像基于1945.3803家庭中文版esd文件制作，映像版本号为10.0.19045.6466；\r\n映像文件刻录至光盘后，支持bios/uefi启动；\r\n映像未引入任何第三方程序。\r\n\r\n映像特性\r\n\r\n\r\n[*]集成微软终止windows10支持时的所有更新到2025年11月（kb5171959）\r\n[*]集成.net framework ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074499-1-1.html",
+      "title": "有没有一款远程不需要对方告知识别码的",
+      "url": "https://bbs.pcbeta.com/viewthread-2074499-1-1.html",
+      "pubDate": 1782898023000,
+      "extra": {
+        "hover": "每次给客户远程重装完系统后，再进行下一步驱动安装时，都需要让客户告诉我向日葵的识别码，连接还要等客户同意，很繁琐。\r\n问：有没有一款远程单文件程序，可以不需要识别码（手动指定识别码也可以或者以当天日期为识别码），并且不需要对方点同意\r\n\r\n ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074473-1-1.html",
+      "title": "求 A大的 [简体中文]Windows 10 1809 17763.5206镜像！",
+      "url": "https://bbs.pcbeta.com/viewthread-2074473-1-1.html",
+      "pubDate": 1782870663000,
+      "extra": {
+        "hover": "哪位阿祖还保留有A大的Windows 10 LTSC_1809 17763.5206镜像，麻烦分享一下，谢谢啦！"
+      }
+    }
+  ]
+}

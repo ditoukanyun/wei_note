@@ -1,0 +1,51 @@
+{
+  "source": "steam",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "title": "Counter-Strike 2",
+      "id": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "pubDate": 1782781526081,
+      "extra": {
+        "info": "599,361"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/3678970/TBH_Task_Bar_Hero/",
+      "title": "TBH: Task Bar Hero",
+      "id": "https://store.steampowered.com/app/3678970/TBH_Task_Bar_Hero/",
+      "pubDate": 1782781526081,
+      "extra": {
+        "info": "441,894"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/570/Dota_2/",
+      "title": "Dota 2",
+      "id": "https://store.steampowered.com/app/570/Dota_2/",
+      "pubDate": 1782781526082,
+      "extra": {
+        "info": "387,420"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "title": "Bongo Cat",
+      "id": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "pubDate": 1782781526082,
+      "extra": {
+        "info": "138,686"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/2676230/FiveM/",
+      "title": "FiveM",
+      "id": "https://store.steampowered.com/app/2676230/FiveM/",
+      "pubDate": 1782781526082,
+      "extra": {
+        "info": "136,056"
+      }
+    }
+  ]
+}

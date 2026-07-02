@@ -1,0 +1,46 @@
+{
+  "source": "xueqiu-hotstock",
+  "count": 5,
+  "items": [
+    {
+      "id": "SH688110",
+      "url": "https://xueqiu.com/s/SH688110",
+      "title": "东芯股份",
+      "extra": {
+        "info": "6.17% SH"
+      }
+    },
+    {
+      "id": "SZ300666",
+      "url": "https://xueqiu.com/s/SZ300666",
+      "title": "江丰电子",
+      "extra": {
+        "info": "7.51% SZ"
+      }
+    },
+    {
+      "id": "SZ000725",
+      "url": "https://xueqiu.com/s/SZ000725",
+      "title": "京东方A",
+      "extra": {
+        "info": "3.59% SZ"
+      }
+    },
+    {
+      "id": "SH600206",
+      "url": "https://xueqiu.com/s/SH600206",
+      "title": "有研新材",
+      "extra": {
+        "info": "8.19% SH"
+      }
+    },
+    {
+      "id": "SZ300285",
+      "url": "https://xueqiu.com/s/SZ300285",
+      "title": "国瓷材料",
+      "extra": {
+        "info": "4.48% SZ"
+      }
+    }
+  ]
+}

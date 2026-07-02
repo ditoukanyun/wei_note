@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/nova.html",
+      "url": "https://www.ghxi.com/nova.html",
+      "title": "Android Nova Launcher(Nova桌面)v88200 高级版",
+      "extra": {
+        "hover": "Nova是一款老牌的桌面，用户量很大，在早期的安卓的时候就出现了，一直到了现在都还在更新。支持安卓9的特性，图标包等都不在话下。 Nova Launcher Prime额外功能： ...",
+        "date": 1782904091446
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/smartlauncher.html",
+      "url": "https://www.ghxi.com/smartlauncher.html",
+      "title": "Smart Launcher v6.6.012 专业版",
+      "extra": {
+        "hover": "Smart Launcher 如今强势归来！Smart Launcher 是一款创新的启动器，它可让您的智能手机或平板电脑更快速且易于使用。Smart Launcher 推出了什么...",
+        "date": 1782900491446
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/esearch.html",
+      "url": "https://www.ghxi.com/esearch.html",
+      "title": "eSearch识屏 · 搜索 v15.3.2 官方版",
+      "extra": {
+        "hover": "eSearch 识屏 · 搜索是一款开源跨平台的集截屏+录屏+OCR+搜索+翻译+贴图+以图搜图等实用功能于一身超级神器，拥有干净清爽的UI用户界面，操作简单易上手，提供了在线和离...",
+        "date": 1782900491446
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/potplayer.html",
+      "url": "https://www.ghxi.com/potplayer.html",
+      "title": "PotPlayer(网络播放器) v1.7.22980 绿色版",
+      "extra": {
+        "hover": "PotPlayer 是 KMPlayer 的原制作者姜龙喜（韩国）进入 Daum 公司后的新一代网络播放器。PotPlayer 的优势在于强大的内置解码器；而 KMPlayer 的...",
+        "date": 1782900491447
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/ghostdown.html",
+      "url": "https://www.ghxi.com/ghostdown.html",
+      "title": "Ghost Downloader(多线程下载器) v4.0.0 绿色版",
+      "extra": {
+        "hover": "Ghost Downloader 是一款多线程下载工具，它完全由Python语言开发而成。这款软件不仅支持高效的多线程下载技术，还具备断点续传功能，这意味着即使下载过程中遇到网络中...",
+        "date": 1782900491447
+      }
+    }
+  ]
+}

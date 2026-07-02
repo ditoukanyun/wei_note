@@ -1,0 +1,11 @@
+source: linuxdo-latest
+status: timeout
+exitCode: null
+signal: SIGTERM
+timeoutMs: 15000
+error: {"name":"Error","message":"spawnSync npx ETIMEDOUT","code":"ETIMEDOUT"}
+
+[stdout]
+
+
+[stderr]

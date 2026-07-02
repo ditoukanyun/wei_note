@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8uPyCzjbp9p",
+      "url": "https://news.ifeng.com/c/8uPyCzjbp9p",
+      "title": "霍尔木兹海峡，有了新变化",
+      "extra": {
+        "date": "2026-07-02 03:24:14"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uPiR7w5t5V",
+      "url": "https://news.ifeng.com/c/8uPiR7w5t5V",
+      "title": "王毅同鲁比奥通电话：美方务必慎之又慎对待涉台事务",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uPFngdR3ec",
+      "url": "https://news.ifeng.com/c/8uPFngdR3ec",
+      "title": "中方回应美国解除对伊单边制裁",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uP5ASVttQz",
+      "url": "https://news.ifeng.com/c/8uP5ASVttQz",
+      "title": "美伊和谈，退步原来是向前",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8uPbnXqEfkt",
+      "url": "https://news.ifeng.com/c/8uPbnXqEfkt",
+      "title": "中欧贸易战按下暂停键？欧盟留了一手",
+      "extra": {}
+    }
+  ]
+}

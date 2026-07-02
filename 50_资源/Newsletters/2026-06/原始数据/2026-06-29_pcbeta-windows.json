@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074293-1-1.html",
+      "title": "如何禁止win10自动下载显卡驱动",
+      "url": "https://bbs.pcbeta.com/viewthread-2074293-1-1.html",
+      "pubDate": 1782655331000,
+      "extra": {
+        "hover": "今天更新N卡驱动，控制面板卸载完重启，刚进入桌面就自动装上560.94驱动。\r\n是不是系统不管用不用得上都会自动下载驱动，怎么禁止呢？"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074214-1-1.html",
+      "title": "这个配置的电脑适合装Windows11 吗？显卡3070Ti",
+      "url": "https://bbs.pcbeta.com/viewthread-2074214-1-1.html",
+      "pubDate": 1782563510000,
+      "extra": {
+        "hover": ""
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074188-1-1.html",
+      "title": "我发现一个新的干掉WD的方法",
+      "url": "https://bbs.pcbeta.com/viewthread-2074188-1-1.html",
+      "pubDate": 1782539793000,
+      "extra": {
+        "hover": "PE释放完文件\r\n重命名文件  ren C:\\\\Windows\\\\System32\\\\SecurityHealthSystray.exe SecurityHealthSystray.exe.bak\r\n重命名文件  ren C:\\\\Windows\\\\system32\\\\SecurityHealthService.exe SecurityHealthService.exe.bak\r\n重命名文件  ren C:\\\\Windows\\\\System32\\\\smartscreen.exe s ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074177-1-1.html",
+      "title": "谷歌浏览器开启DNS-over-HTTPS",
+      "url": "https://bbs.pcbeta.com/viewthread-2074177-1-1.html",
+      "pubDate": 1782529964000,
+      "extra": {
+        "hover": ";开启DNS-over-HTTPS 解析器的模式, \\&quot;off\\&quot;模式会停用 DNS-over-HTTPS\r\n;\\&quot;automatic\\&quot;模式会先发送 DNS-over-HTTPS 查询；如果出错了，则可能会改为发送不安全的查询。\r\n;\\&quot;secure\\&quot;模式仅会发送 DNS-over-HTTPS 查询；如果出错了，将无法解析。\r\n[HKEY_LOCAL_MACHINE\\\\SOFTWAR ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074146-1-1.html",
+      "title": "Win10 2004 19041.1",
+      "url": "https://bbs.pcbeta.com/viewthread-2074146-1-1.html",
+      "pubDate": 1782490704000,
+      "extra": {
+        "hover": "微软从2004大版本之后到22H2都没有进行较大的系统功能更新。\r\n\r\n这是第一个2004的版本，版本号19041.1，是收藏的镜像。"
+      }
+    }
+  ]
+}

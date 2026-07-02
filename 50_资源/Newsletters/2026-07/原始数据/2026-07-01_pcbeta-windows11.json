@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows11",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074465-1-1.html",
+      "title": "请问这个故障文件 能禁止产生吗？体积巨大",
+      "url": "https://bbs.pcbeta.com/viewthread-2074465-1-1.html",
+      "pubDate": 1782865339000,
+      "extra": {
+        "hover": "今早突然看看uwf用了多少覆盖层，结果一看居然用了4G多，我记得昨晚还是不到600M的\r\nC:\\\\Windows\\\\LiveKernelReports\\\\GreLKD-20260701-0757.dmp\r\n于是看看究竟咋用的，于是发现这个文件，一个文件3.24G；我看网上还有人直接生成9G多，是在事件日志里有错误的情况下。\r\n\r\n但我 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074460-1-1.html",
+      "title": "个人觉得 AI 技术的核心指导思想，其实是数学范畴了(DeepSeek v4 Pro)",
+      "url": "https://bbs.pcbeta.com/viewthread-2074460-1-1.html",
+      "pubDate": 1782862572000,
+      "extra": {
+        "hover": ""
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074455-1-1.html",
+      "title": "Windows 11刚刚向版本26H2迈出了重要的第一步，内部人士已经可以测试塑造微软下一次重大更新的9个功能(windowscentral)",
+      "url": "https://bbs.pcbeta.com/viewthread-2074455-1-1.html",
+      "pubDate": 1782858735000,
+      "extra": {
+        "hover": "Windows 11 26H2 Insider内部版本将于6月结束，其中包括首批26H2更改、重新设计的隐私设置页面和更多桌面定制。\r\n\r\n\r\n\r\n六月即将结束，这是回顾最新情况的好时机Windows 11微软在本月下半月交付的变更。虽然没有引人注目的功能下降，但这些更新继续通过系统中一系列稳定的改 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074453-1-1.html",
+      "title": "带 Aero 主题的 Win11 26300.xxxx",
+      "url": "https://bbs.pcbeta.com/viewthread-2074453-1-1.html",
+      "pubDate": 1782858293000,
+      "extra": {
+        "hover": "带 Aero 主题的 Win11 26300.xxxx"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074449-1-1.html",
+      "title": "[2026.5月]Windows 11 25H2 永志精简版【流畅稳定纯净】",
+      "url": "https://bbs.pcbeta.com/viewthread-2074449-1-1.html",
+      "pubDate": 1782838336000,
+      "extra": {
+        "hover": "Windows 11 25H2 简体中文版 2026.05\r\n\r\n★ 更新说明：\r\n=============================================================================\r\n1、采用2026年05月商业版镜像制作。\r\n2、更新Microsoft Visual C++ 2015-2022 Redistributable – 14.51.36231.0。\r\n3、更新WinRAR v ..."
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-ranking",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV1dsTL6dEkB",
+      "title": "苗族银饰",
+      "url": "https://www.bilibili.com/video/BV1dsTL6dEkB",
+      "pubDate": 1782741600000,
+      "extra": {
+        "info": "归乡人山白 · 482w+观看 · 44w+点赞",
+        "hover": "苗家无银不成礼—苗族银饰。",
+        "icon": "http://i0.hdslb.com/bfs/archive/68f32d1fccd8feb3c70c76285b0a4d4ba37f0b5c.jpg"
+      }
+    },
+    {
+      "id": "BV1ghTF6qEmD",
+      "title": "永远怀念我们亲爱的妹爷！",
+      "url": "https://www.bilibili.com/video/BV1ghTF6qEmD",
+      "pubDate": 1782816425000,
+      "extra": {
+        "info": "陈翔六点半 · 312w+观看 · 45w+点赞",
+        "hover": "",
+        "icon": "http://i2.hdslb.com/bfs/archive/a9e63c37b99e961e06e044f241039a249477e407.jpg"
+      }
+    },
+    {
+      "id": "BV1k2KU6oEGB",
+      "title": "《原神》角色预告-「桑多涅：致新生」",
+      "url": "https://www.bilibili.com/video/BV1k2KU6oEGB",
+      "pubDate": 1782792000000,
+      "extra": {
+        "info": "原神 · 211w+观看 · 26w+点赞",
+        "hover": "事实或许客观存在，但记录是自由的，如同无论谁的人生。\n记录原理、结构、数据与假设。\n也记录欢乐、悲伤、怜惜与爱。\n \n中文CV：\n「木偶」桑多涅——洪海天\n阿兰·吉约丹——李程远\n茜特菈莉——柳知萧\n\n日文CV：\n「木偶」桑多涅——本多真梨子\n阿兰·吉约丹——早川刚史\n茜特菈莉——田野麻美\n\n《原神》bilibili服下载地址： https://www.biligame.com/detail/?id=103496",
+        "icon": "http://i0.hdslb.com/bfs/archive/67042ef4c645c2cde917b7f9cceaf032a5caa4c7.jpg"
+      }
+    },
+    {
+      "id": "BV1k37s6XE2C",
+      "title": "【乘风2026】总决赛-《想见你想见你想见你》张月&陈瑶 愿所有想念都能在我们的歌声里靠岸",
+      "url": "https://www.bilibili.com/video/BV1k37s6XE2C",
+      "pubDate": 1782569652000,
+      "extra": {
+        "info": "张月ZhangYue · 198w+观看 · 9w+点赞",
+        "hover": "",
+        "icon": "http://i1.hdslb.com/bfs/archive/bae90bb1d97429bb4248bd1aa04daf872c3ab63f.jpg"
+      }
+    },
+    {
+      "id": "BV1oQTT6KEb7",
+      "title": "致敬！中国首批缉毒警已全体退休",
+      "url": "https://www.bilibili.com/video/BV1oQTT6KEb7",
+      "pubDate": 1782646200000,
+      "extra": {
+        "info": "央视新闻 · 189w+观看 · 37w+点赞",
+        "hover": "",
+        "icon": "http://i1.hdslb.com/bfs/archive/541a2bc5d2c809499f64fa7057033297857ea5e2.jpg"
+      }
+    }
+  ]
+}

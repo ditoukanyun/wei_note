@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5261634",
+      "title": "申港控股(08631.HK)7月2日起停牌 待刊发2026年年度业绩",
+      "id": "/news/5261634",
+      "extra": {
+        "date": 1782954490640,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5261633",
+      "title": "盈证国际(08379.HK)7月2日起停牌",
+      "id": "/news/5261633",
+      "extra": {
+        "date": 1782954370640,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5261632",
+      "title": "中国重汽荣获格隆汇\"金格奖\"ESG可持续发展卓越企业",
+      "id": "/news/5261632",
+      "extra": {
+        "date": 1782954370641,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5261631",
+      "title": "民富国际(08511.HK)7月2日起停牌",
+      "id": "/news/5261631",
+      "extra": {
+        "date": 1782954370641,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5261630",
+      "title": "资本界金控(00204.HK)7月2日起短暂停牌 待刊发年度业绩",
+      "id": "/news/5261630",
+      "extra": {
+        "date": 1782954250645,
+        "info": "港股公告摘要"
+      }
+    }
+  ]
+}

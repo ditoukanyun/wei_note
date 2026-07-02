@@ -1,0 +1,51 @@
+{
+  "source": "github",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "title": "msitarzewski /      agency-agents",
+      "id": "/msitarzewski/agency-agents",
+      "extra": {
+        "info": "✰ 123,438",
+        "hover": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
+      }
+    },
+    {
+      "url": "https://github.com/usestrix/strix",
+      "title": "usestrix /      strix",
+      "id": "/usestrix/strix",
+      "extra": {
+        "info": "✰ 29,731",
+        "hover": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities."
+      }
+    },
+    {
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "title": "HKUDS /      Vibe-Trading",
+      "id": "/HKUDS/Vibe-Trading",
+      "extra": {
+        "info": "✰ 16,539",
+        "hover": "\"Vibe-Trading: Your Personal Trading Agent\""
+      }
+    },
+    {
+      "url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "title": "hasaneyldrm /      exercises-dataset",
+      "id": "/hasaneyldrm/exercises-dataset",
+      "extra": {
+        "info": "✰ 8,427",
+        "hover": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video."
+      }
+    },
+    {
+      "url": "https://github.com/facebook/astryx",
+      "title": "facebook /      astryx",
+      "id": "/facebook/astryx",
+      "extra": {
+        "info": "✰ 2,646",
+        "hover": "An open source design system that's fully customizable and agent ready"
+      }
+    }
+  ]
+}

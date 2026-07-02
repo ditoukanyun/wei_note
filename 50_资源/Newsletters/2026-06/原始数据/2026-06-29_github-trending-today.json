@@ -1,0 +1,51 @@
+{
+  "source": "github-trending-today",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "title": "simplex-chat /      simplex-chat",
+      "id": "/simplex-chat/simplex-chat",
+      "extra": {
+        "info": "✰ 15,025",
+        "hover": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!"
+      }
+    },
+    {
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "title": "ripienaar /      free-for-dev",
+      "id": "/ripienaar/free-for-dev",
+      "extra": {
+        "info": "✰ 125,241",
+        "hover": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev"
+      }
+    },
+    {
+      "url": "https://github.com/commaai/openpilot",
+      "title": "commaai /      openpilot",
+      "id": "/commaai/openpilot",
+      "extra": {
+        "info": "✰ 62,392",
+        "hover": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars."
+      }
+    },
+    {
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "title": "xbtlin /      ai-berkshire",
+      "id": "/xbtlin/ai-berkshire",
+      "extra": {
+        "info": "✰ 5,320",
+        "hover": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis."
+      }
+    },
+    {
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "title": "Robbyant /      lingbot-map",
+      "id": "/Robbyant/lingbot-map",
+      "extra": {
+        "info": "✰ 8,229",
+        "hover": "A feed-forward 3D foundation model for reconstructing scenes from streaming data"
+      }
+    }
+  ]
+}

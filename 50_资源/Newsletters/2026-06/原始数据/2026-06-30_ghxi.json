@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/fastkeys.html",
+      "url": "https://www.ghxi.com/fastkeys.html",
+      "title": "FastKeys(自动化工具) v6.07",
+      "extra": {
+        "hover": "FastKeys是一款功能强大的一体化Windows自动化软件，能够自动化包括文件扩展器、开始菜单、手势、和用户命令等，软件能够减少打字时间，输入选择字段，自动执行计算机上任何操作...",
+        "date": 1782731003715
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/mpcbe.html",
+      "url": "https://www.ghxi.com/mpcbe.html",
+      "title": "MPC-BE(媒体播放器) v1.9.0 正式版",
+      "extra": {
+        "hover": "MPC-BE播放器能够播放Windows操作系统的DVD音频和视频文件。MPC-BE播放器这个项目基于自己独立开发的原代码媒体播放器经典和媒体播放器经典家庭影院的基础上。MPC-B...",
+        "date": 1782727403715
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/bandicam.html",
+      "url": "https://www.ghxi.com/bandicam.html",
+      "title": "Bandicam v8.3.1.2537 便携特别版",
+      "extra": {
+        "hover": "Bandicam，游戏录制神器，视频录制利器，高清频录制专家，号称世界三大视频录制神器之一！Bandicam是一款由韩国开发的高清游戏及视频录制的电脑工具。它录制的视频文件不仅体积...",
+        "date": 1782727403715
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/ps2026.html",
+      "url": "https://www.ghxi.com/ps2026.html",
+      "title": "Adobe Photoshop 2026 (27.8.0.13) 特别版",
+      "extra": {
+        "hover": "Adobe图像处理软件 Photoshop 2026 正式版 (27.0版) 2025年10月发布版。Adobe Photoshop 2026(PS2026)是一款全球流行的专业图...",
+        "date": 1782727403716
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/lightroom2026.html",
+      "url": "https://www.ghxi.com/lightroom2026.html",
+      "title": "Adobe Lightroom Classic 2026 (15.4.1.1) 特别版",
+      "extra": {
+        "hover": "Adobe Lightroom Classic 15.0中文版(Adobe桌面照片编辑软件).Adobe Lightroom Classic 2026最新版(LRC2026)是一款...",
+        "date": 1782727403716
+      }
+    }
+  ]
+}

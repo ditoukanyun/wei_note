@@ -1,0 +1,46 @@
+{
+  "source": "kuaishou",
+  "count": 5,
+  "items": [
+    {
+      "id": "庆祝建党105周年",
+      "title": "庆祝建党105周年",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E5%BA%86%E7%A5%9D%E5%BB%BA%E5%85%9A105%E5%91%A8%E5%B9%B4",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "法国3比0瑞典晋级16强",
+      "title": "法国3比0瑞典晋级16强",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E6%B3%95%E5%9B%BD3%E6%AF%940%E7%91%9E%E5%85%B8%E6%99%8B%E7%BA%A716%E5%BC%BA",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "“十五五”首条特高压工程投运",
+      "title": "“十五五”首条特高压工程投运",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D%E9%A6%96%E6%9D%A1%E7%89%B9%E9%AB%98%E5%8E%8B%E5%B7%A5%E7%A8%8B%E6%8A%95%E8%BF%90",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "哈兰德绝杀破门",
+      "title": "哈兰德绝杀破门",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E5%93%88%E5%85%B0%E5%BE%B7%E7%BB%9D%E6%9D%80%E7%A0%B4%E9%97%A8",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    },
+    {
+      "id": "九年义务教育可能要延长了",
+      "title": "九年义务教育可能要延长了",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E4%B9%9D%E5%B9%B4%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E5%8F%AF%E8%83%BD%E8%A6%81%E5%BB%B6%E9%95%BF%E4%BA%86",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    }
+  ]
+}

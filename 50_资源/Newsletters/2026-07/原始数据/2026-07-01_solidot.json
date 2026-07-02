@@ -1,0 +1,36 @@
+{
+  "source": "solidot",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.solidot.org/story?sid=84518",
+      "title": "免费领取价值30/90美金的NVIDIA DLI自学课程并测试获得证书",
+      "id": "/story?sid=84518",
+      "pubDate": 1780910280000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84723",
+      "title": "Claude Code 会悄悄检查用户的系统时区是否是中国",
+      "id": "/story?sid=84723",
+      "pubDate": 1782838260000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84722",
+      "title": "小鼠实验显示单次注射 DNA 指令的减肥时效十倍于 GLP-1 药物",
+      "id": "/story?sid=84722",
+      "pubDate": 1782834720000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84721",
+      "title": "数据中心碳排放比预想的严重",
+      "id": "/story?sid=84721",
+      "pubDate": 1782828300000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84720",
+      "title": "试验显示鱼油未能改善大脑健康",
+      "id": "/story?sid=84720",
+      "pubDate": 1782827340000
+    }
+  ]
+}

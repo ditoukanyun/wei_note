@@ -1,0 +1,8 @@
+status: nonzero
+exitCode: 2
+signal: null
+error: {"error":"Fetch failed for \"v2ex\": [GET] \"https://www.v2ex.com/feed/share.json\": <no response> Unable to connect. Is the computer able to access the url?","code":"FETCH_ERROR"}
+
+
+[stderr]
+{"error":"Fetch failed for \"v2ex\": [GET] \"https://www.v2ex.com/feed/share.json\": <no response> Unable to connect. Is the computer able to access the url?","code":"FETCH_ERROR"}

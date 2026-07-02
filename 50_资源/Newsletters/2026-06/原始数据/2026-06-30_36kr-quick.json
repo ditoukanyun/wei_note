@@ -1,0 +1,46 @@
+{
+  "source": "36kr-quick",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.36kr.com/newsflashes/3874949041788167",
+      "title": "特朗普要求美国汽油零售商立即降低油价",
+      "id": "/newsflashes/3874949041788167",
+      "extra": {
+        "date": 1782781315578
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3874948574237952",
+      "title": "中信证券：配置上基本金属、原油及权益资产是下半年较具确定性的方向",
+      "id": "/newsflashes/3874948574237952",
+      "extra": {
+        "date": 1782781134578
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3874947862942726",
+      "title": "摩根士丹利上调台积电目标价",
+      "id": "/newsflashes/3874947862942726",
+      "extra": {
+        "date": 1782781014578
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3874962977625091",
+      "title": "美元兑日元站上162关口，为近40年来首次",
+      "id": "/newsflashes/3874962977625091",
+      "extra": {
+        "date": 1782781014578
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/3874947204387845",
+      "title": "政策多点布局、资本持续加码，脑机接口商业化提速",
+      "id": "/newsflashes/3874947204387845",
+      "extra": {
+        "date": 1782780774578
+      }
+    }
+  ]
+}

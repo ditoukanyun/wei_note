@@ -1,0 +1,17 @@
+source: steam
+generatedAt: 2026/07/02 09:10:19 CST
+finalStatus: timeout
+
+attempt 1
+status: timeout
+exitCode: null
+signal: SIGTERM
+timeoutMs: 10000
+error: Timed out after 10000ms
+
+attempt 2
+status: timeout
+exitCode: null
+signal: SIGTERM
+timeoutMs: 15000
+error: Timed out after 15000ms

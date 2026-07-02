@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074450-1-1.html",
+      "title": "[2026年5月]Windows 10 22H2 永志精简版【纯净流畅稳定】",
+      "url": "https://bbs.pcbeta.com/viewthread-2074450-1-1.html",
+      "pubDate": 1782838698000,
+      "extra": {
+        "hover": "Windows 10 22H2 简体中文版 2026.05\r\n\r\n★ 更新说明：\r\n=============================================================================\r\n1、补丁升级至2026年05月12日。\r\n2、UWP应用升级至最新。\r\n3、更新Microsoft Visual C++ 2015-2022 Redistributable – 14.51.36231. ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074440-1-1.html",
+      "title": "Beyond Compare v5.2.3.32296 修改版",
+      "url": "https://bbs.pcbeta.com/viewthread-2074440-1-1.html",
+      "pubDate": 1782828271000,
+      "extra": {
+        "hover": "Beyond Compare 是强大的文件及文件夹对比工具，支持快速比较文件内容、目录差异及同步，内置文件浏览器，支持 Unicode，界面改进，会话管理便捷。特色包括文件夹同步、文本比较、三方合并及改进 FTP 支持。\r\n\r\n链接自取👇\r\n\r\n🔗：https://pan.quark.cn/s/39ae28efa6d0\r\n🔗： ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074416-1-1.html",
+      "title": "共享文件出现0x80004005",
+      "url": "https://bbs.pcbeta.com/viewthread-2074416-1-1.html",
+      "pubDate": 1782810015000,
+      "extra": {
+        "hover": "共享文件其他电脑正常。有一台win10一台win11的连不上。错误都是0x80004005主机是win10系统。SMB1.0也都开启了。有没有大神帮忙看看"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074407-1-1.html",
+      "title": "想求一个 保留 IIS 的WIN10优化版本",
+      "url": "https://bbs.pcbeta.com/viewthread-2074407-1-1.html",
+      "pubDate": 1782802059000,
+      "extra": {
+        "hover": "想求一个 保留 IIS 的WIN10优化版本\r\n\r\n用不忘初心的优化WIN10 却IIS  想要个带IIS 的优化WIN10"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074378-1-1.html",
+      "title": "我的WINDOWS 10电脑桌面怎么突然变成这样？",
+      "url": "https://bbs.pcbeta.com/viewthread-2074378-1-1.html",
+      "pubDate": 1782780293000,
+      "extra": {
+        "hover": "我的WINDOWS 10电脑桌面怎么突然变成这样：\r\n\r\n\r\n桌面变成黑色，鼠标在桌面空白处右键出现一个白色长条。这几天发生几次，注销后恢复正常。"
+      }
+    }
+  ]
+}

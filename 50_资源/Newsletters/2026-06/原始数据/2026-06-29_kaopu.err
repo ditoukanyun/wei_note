@@ -1,0 +1,8 @@
+status: nonzero
+exitCode: 2
+signal: null
+error: {"error":"Fetch failed for \"kaopu\": [GET] \"https://kaopustorage.blob.core.windows.net/news-prod/news_list_hans_0.json\": <no response> Was there a typo in the url or port?","code":"FETCH_ERROR"}
+
+
+[stderr]
+{"error":"Fetch failed for \"kaopu\": [GET] \"https://kaopustorage.blob.core.windows.net/news-prod/news_list_hans_0.json\": <no response> Was there a typo in the url or port?","code":"FETCH_ERROR"}

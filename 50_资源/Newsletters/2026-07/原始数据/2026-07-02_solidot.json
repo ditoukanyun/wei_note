@@ -1,0 +1,36 @@
+{
+  "source": "solidot",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.solidot.org/story?sid=84518",
+      "title": "免费领取价值30/90美金的NVIDIA DLI自学课程并测试获得证书",
+      "id": "/story?sid=84518",
+      "pubDate": 1780910280000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84734",
+      "title": "瑞典法院判决 Google 向比价网站赔偿 15 亿美元",
+      "id": "/story?sid=84734",
+      "pubDate": 1782920100000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84733",
+      "title": "索尼 PS 从 2028 年 1 月起不再发售新游戏的光盘版",
+      "id": "/story?sid=84733",
+      "pubDate": 1782915480000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84732",
+      "title": "Godot 拒绝接受 AI 生成的代码",
+      "id": "/story?sid=84732",
+      "pubDate": 1782911640000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=84731",
+      "title": "LHC 第三次停机维护",
+      "id": "/story?sid=84731",
+      "pubDate": 1782904080000
+    }
+  ]
+}

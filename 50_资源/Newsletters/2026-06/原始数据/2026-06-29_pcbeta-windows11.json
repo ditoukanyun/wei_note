@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows11",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074304-1-1.html",
+      "title": "用了一天chromium装上插件后，基本取代firefox了，除了“访问最多”",
+      "url": "https://bbs.pcbeta.com/viewthread-2074304-1-1.html",
+      "pubDate": 1782686353000,
+      "extra": {
+        "hover": "用了一天chromium装上插件后，基本取代firefox了，除了“访问最多”和自动4排的访问最多的起始页\r\n\r\n\r\nchromium起始页设置太简单了，只有8个最近访问的快捷，没法设置数量，也没法设置成“访问最多”自动更新模式\r\n\r\n\r\n另外，firefox有一个标签文件夹叫“访问最多”，里面可以 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074299-1-1.html",
+      "title": "25H2用Refs分区装系统分享",
+      "url": "https://bbs.pcbeta.com/viewthread-2074299-1-1.html",
+      "pubDate": 1782661367000,
+      "extra": {
+        "hover": "1.用官方MediaCreationTool下载制作的U盘启动安装，也就是当前最新的25H2版本。\r\n2.安装时分区选择界面，按Shift+F10调出命令行，根据自己分区情况格式化系统盘为Refs：\r\n\r\n3.系统安装完成，在连接Wifi界面先别联网，Shift+F10调出命令行：\r\n这样可以跳过微软账户和更新，分 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074298-1-1.html",
+      "title": "Win12遥遥无期 微软不想大改系统：Win11将持续优化(mydrivers.com)",
+      "url": "https://bbs.pcbeta.com/viewthread-2074298-1-1.html",
+      "pubDate": 1782659301000,
+      "extra": {
+        "hover": "前两年的时候有关微软发布Windows 12（简称Win12）系统的爆料很多，认为微软会推出一个从头到尾全新开发的Win12，而是原生面向AI设计的。但是这一年来Win12的消息几乎消停了，微软内部可能还有人在开发这种全新的系统，但目前来看其发布时间遥遥无期，因为微软的思路已 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074297-1-1.html",
+      "title": "Windows 11文件资源管理器(explorer.exe)速度起飞！底层全面焕新(mydrivers.com)",
+      "url": "https://bbs.pcbeta.com/viewthread-2074297-1-1.html",
+      "pubDate": 1782658893000,
+      "extra": {
+        "hover": "微软已开始向Windows 11用户推出速度更快的新版文件资源管理器，无需加入Insider计划即可体验。\r\n\r\n全新的文件资源管理器优化包含在2026年6月可选更新KB5095093（Build 26200.8737）中，预计7月的累计更新就会向所有用户全面推送。\r\n\r\n值得一提的是，这次微软并没有用此前测 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074296-1-1.html",
+      "title": "【鼠标指针】折纸 Gami",
+      "url": "https://bbs.pcbeta.com/viewthread-2074296-1-1.html",
+      "pubDate": 1782658507000,
+      "extra": {
+        "hover": "很久以前喜欢美化系统保留的指针，win10、win11都能用，虽然现在不追求美化系统了，但鼠标指针还是会换成这个一直在用\r\n\r\n折纸风格的鼠标指针、共九种颜色风格：白、橙、粉、红、黄、蓝、绿、青、紫；三种尺寸：X32、X48、X64；一般情况下100%DPI推荐使用X48、大于125%DP ..."
+      }
+    }
+  ]
+}

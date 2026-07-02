@@ -1,0 +1,51 @@
+{
+  "source": "pcbeta-windows11",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074522-1-1.html",
+      "title": "求助开启UWF后，如何同时启用虚拟内存的页面文件",
+      "url": "https://bbs.pcbeta.com/viewthread-2074522-1-1.html",
+      "pubDate": 1782949436000,
+      "extra": {
+        "hover": "求助开启UWF后，如何同时启用虚拟内存的页面文件\r\n\r\n\r\n\r\n目前，不管怎么操作， 只要开启UWF保护C盘后， 重启生效， 所有页面文件，包括C盘和其他盘的，全部设置为0.\r\n\r\n我内存64G，为啥要设置虚拟内存页面文件呢，就因为通达信64位这个蠢货，不知道为啥，只要选股或则一些类似 ..."
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074521-1-1.html",
+      "title": "据说 Claude 故意封杀中国用户？",
+      "url": "https://bbs.pcbeta.com/viewthread-2074521-1-1.html",
+      "pubDate": 1782947109000,
+      "extra": {
+        "hover": ""
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074518-1-1.html",
+      "title": "win11的聚焦又失效了吗？",
+      "url": "https://bbs.pcbeta.com/viewthread-2074518-1-1.html",
+      "pubDate": 1782923424000,
+      "extra": {
+        "hover": "今天晚上全新格盘安装了11 26h1，安装完发现聚焦不能显示图片了，蓝屏的，删掉哪个setting文件，重新选回聚焦也无效"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074517-1-1.html",
+      "title": "求分享Windows 11 Insider Preview 29617.1000 原版",
+      "url": "https://bbs.pcbeta.com/viewthread-2074517-1-1.html",
+      "pubDate": 1782919901000,
+      "extra": {
+        "hover": "哪位大佬有Windows 11 Insider Preview 29617.1000 原版资源，求分享。"
+      }
+    },
+    {
+      "id": "https://bbs.pcbeta.com/viewthread-2074512-1-1.html",
+      "title": "【不忘初心】的精简版windows11无法显示heic格式图片的缩略图",
+      "url": "https://bbs.pcbeta.com/viewthread-2074512-1-1.html",
+      "pubDate": 1782908487000,
+      "extra": {
+        "hover": "安装了【不忘初心】的精简版windows11，\r\n但是在资源浏览器里面无法显示heic格式图片的缩略图。\r\n\r\n\r\n\r\n[*]Microsoft.HEIFImageExtension HEIF图片扩展安装包\r\n[*]Microsoft.HEVCVideoExtension HEVC视频扩展安装包\r\n\r\n\r\n把各种插件都安装上了，还是不能显示\r\n ..."
+      }
+    }
+  ]
+}

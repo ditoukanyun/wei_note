@@ -1,0 +1,11 @@
+source: kuaishou
+generatedAt: 2026/07/02 09:08:26 CST
+finalStatus: nonzero
+
+attempt 1
+status: nonzero
+exitCode: 2
+signal: null
+timeoutMs: 10000
+stderr:
+{"error":"Fetch failed for \"kuaishou\": undefined is not an object (evaluating 'data.defaultClient.ROOT_QUERY['visionHotRank({\"page\":\"home\"})'].id')","code":"FETCH_ERROR"}

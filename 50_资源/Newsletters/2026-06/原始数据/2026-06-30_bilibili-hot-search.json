@@ -1,0 +1,46 @@
+{
+  "source": "bilibili-hot-search",
+  "count": 5,
+  "items": [
+    {
+      "id": "德国爆冷点球大战不敌巴拉圭",
+      "title": "德国爆冷点球大战不敌巴拉圭",
+      "url": "https://search.bilibili.com/all?keyword=%E5%BE%B7%E5%9B%BD%E7%88%86%E5%86%B7%E7%82%B9%E7%90%83%E5%A4%A7%E6%88%98%E4%B8%8D%E6%95%8C%E5%B7%B4%E6%8B%89%E5%9C%AD",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+      }
+    },
+    {
+      "id": "巴西2-1绝杀日本",
+      "title": "巴西2-1绝杀日本",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B7%B4%E8%A5%BF2-1%E7%BB%9D%E6%9D%80%E6%97%A5%E6%9C%AC",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "赛博朋克边缘行者2预告片",
+      "title": "赛博朋克边缘行者2预告片",
+      "url": "https://search.bilibili.com/all?keyword=%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B%E8%BE%B9%E7%BC%98%E8%A1%8C%E8%80%852%E9%A2%84%E5%91%8A%E7%89%87",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "歌剧老师锐评歌手第6期",
+      "title": "歌剧老师锐评歌手第6期",
+      "url": "https://search.bilibili.com/all?keyword=%E6%AD%8C%E5%89%A7%E8%80%81%E5%B8%88%E9%94%90%E8%AF%84%E6%AD%8C%E6%89%8B%E7%AC%AC6%E6%9C%9F",
+      "extra": {
+        "icon": ""
+      }
+    },
+    {
+      "id": "四川宜宾地震为何震感明显",
+      "title": "四川宜宾地震为何震感明显",
+      "url": "https://search.bilibili.com/all?keyword=%E5%9B%9B%E5%B7%9D%E5%AE%9C%E5%AE%BE%E5%9C%B0%E9%9C%87%E4%B8%BA%E4%BD%95%E9%9C%87%E6%84%9F%E6%98%8E%E6%98%BE",
+      "extra": {
+        "icon": ""
+      }
+    }
+  ]
+}

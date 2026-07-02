@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-hot-video",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV1vD756jE4v",
+      "title": "【硬核拆解】汽车人到底离我们有多远？",
+      "url": "https://www.bilibili.com/video/BV1vD756jE4v",
+      "pubDate": 1782469800000,
+      "extra": {
+        "info": "GenJi是真想教会你 · 185w+观看 · 3w+点赞",
+        "hover": "人形机器人很酷，但具身智能现阶段最合适的身体，可能就是跑在路上的汽车。这期我们借来理想 L9 livis，从感知、决策、执行、连接、算力五个维度，拆解一辆智能汽车是怎么一步步变成一个\"有身体的 AI Agent\"的。看完你会明白，传统汽车正在消失，而取而代之的，可能比汽车本身更有意思",
+        "icon": "http://i1.hdslb.com/bfs/archive/1b3712272b83538efe6a188f68d25b9ce8e3631c.jpg"
+      }
+    },
+    {
+      "id": "BV1SZ7W6aEeE",
+      "title": "重庆真的是一个8D魔幻城市，谁来都得晕，太离谱了！",
+      "url": "https://www.bilibili.com/video/BV1SZ7W6aEeE",
+      "pubDate": 1782606600000,
+      "extra": {
+        "info": "峻宁峻宁 · 277w+观看 · 13w+点赞",
+        "hover": "看你能解锁多少沙雕快乐",
+        "icon": "http://i0.hdslb.com/bfs/archive/20048eed328174b94a788e710f90c55f0717f6e1.jpg"
+      }
+    },
+    {
+      "id": "BV1P4KQ6MEnj",
+      "title": "《共患难》",
+      "url": "https://www.bilibili.com/video/BV1P4KQ6MEnj",
+      "pubDate": 1782733615000,
+      "extra": {
+        "info": "李万基fit · 66w+观看 · 4w+点赞",
+        "hover": "",
+        "icon": "http://i0.hdslb.com/bfs/archive/15e37ead6d9ca08091dbd8d0ec0ef4b5ebff09a9.jpg"
+      }
+    },
+    {
+      "id": "BV1dsTL6dEkB",
+      "title": "苗族银饰",
+      "url": "https://www.bilibili.com/video/BV1dsTL6dEkB",
+      "pubDate": 1782741600000,
+      "extra": {
+        "info": "归乡人山白 · 43w+观看 · 4w+点赞",
+        "hover": "苗家无银不成礼—苗族银饰。",
+        "icon": "http://i0.hdslb.com/bfs/archive/68f32d1fccd8feb3c70c76285b0a4d4ba37f0b5c.jpg"
+      }
+    },
+    {
+      "id": "BV16SKU6REfQ",
+      "title": "网瘾賊大的阿嬷",
+      "url": "https://www.bilibili.com/video/BV16SKU6REfQ",
+      "pubDate": 1782726059000,
+      "extra": {
+        "info": "神威-狗剩 · 41w+观看 · 2w+点赞",
+        "hover": "上个版本阿伟过于超模，此版本调整了英雄平衡性，削弱了阿伟，加强了杰哥",
+        "icon": "http://i2.hdslb.com/bfs/archive/fc43c20e0acf97fbcb0b3fdc72dfcc74baf3b3b7.jpg"
+      }
+    }
+  ]
+}
