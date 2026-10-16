@@ -11,10 +11,14 @@
             "id": "7a7a71da6e7b4f5d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Clippings/使用第三方 API 时保留 Codex 远程操作和官方插件.md",
+                "bFile": "Clippings/使用第三方 API 时保留 Codex 远程操作和官方插件.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 使用第三方 API 时保留 Codex 远程操作和官方插件  (Working Tree)"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "礼品卡",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +74,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -192,6 +197,8 @@
   },
   "active": "7a7a71da6e7b4f5d",
   "lastOpenFiles": [
+    "50_资源/实用技巧/90%的人不知道支付宝可以买 Apple 礼品卡订阅 AI  还能免税.md",
+    "Clippings/使用第三方 API 时保留 Codex 远程操作和官方插件.md",
     "50_资源/Newsletters/2026-06/2026-06-30-Newsletter.md",
     "50_资源/Newsletters/2026-06/原始数据/2026-06-30_newsnow-log.md",
     "50_资源/Newsletters/2026-06/原始数据/2026-06-30_zhihu.json",
@@ -226,8 +233,6 @@
     "50_资源/Newsletters/2026-06/2026-06-10-Newsletter.md",
     "Clippings/Building cloud agent infrastructure what's different, and what we learned 构建云代理基础设施：有什么不同，我们学到了什么.md",
     "50_资源/Newsletters/2026-06/原始数据/2026-06-08_newsnow-log.md",
-    "50_资源/Newsletters/2026-06/2026-06-08-Newsletter.md",
-    "Clippings/A guide to goal    达到目标的指南.md",
     "50_资源/头像设计/小陈AI简笔头像/png/小陈-极简印章-深色-v2.png",
     "50_资源/头像设计/小陈AI简笔头像/png/小陈-极简印章-黑白-v2.png",
     "50_资源/头像设计/小陈AI简笔头像/png/小陈-极简印章-v2.png",
