@@ -1,0 +1,31 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: elasticjob-order-demo
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/orders}
+    username: ${SPRING_DATASOURCE_USERNAME:demo}
+    password: ${SPRING_DATASOURCE_PASSWORD:demo-only}
+    hikari:
+      maximum-pool-size: 6
+  sql:
+    init:
+      mode: never
+demo:
+  instance-id: ${DEMO_INSTANCE_ID:任务实例}
+  environment: 任务演示环境
+  peers: ${DEMO_PEERS:}
+  enabled: true
+  batch-size: 100
+  job:
+    enabled: true
+    namespace: ${DEMO_JOB_NAMESPACE:java-job-share}
+    cron: ${DEMO_JOB_CRON:0 0 0 * * ?}
+  zookeeper:
+    address: ${DEMO_ZOOKEEPER_ADDRESS:localhost:2181}
+logging:
+  level:
+    org.apache.zookeeper: WARN
+    org.apache.curator: WARN
+    org.quartz: WARN

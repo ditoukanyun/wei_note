@@ -1,0 +1,64 @@
+name: java-job-share
+x-app: &app
+  image: java-job-share-demo:1.0.0
+  build: .
+  restart: unless-stopped
+  environment: &env
+    JAVA_TOOL_OPTIONS: -Xms64m -Xmx256m -Duser.timezone=Asia/Shanghai -Duser.home=/tmp
+    SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/orders
+    SPRING_DATASOURCE_USERNAME: demo
+    SPRING_DATASOURCE_PASSWORD: demo-only
+    DEMO_ZOOKEEPER_ADDRESS: zookeeper:2181
+    DEMO_JOB_NAMESPACE: java-job-share
+    DEMO_PEERS: http://app-a:8080,http://app-b:8080
+  depends_on:
+    postgres: {condition: service_healthy}
+    zookeeper: {condition: service_healthy}
+services:
+  zookeeper:
+    image: zookeeper:3.9.3
+    environment: {JVMFLAGS: "-Xms64m -Xmx128m"}
+    volumes: ["zk-data:/data", "zk-log:/datalog"]
+    healthcheck:
+      test: ["CMD", "zkServer.sh", "status"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+  postgres:
+    image: postgres:16.6-alpine
+    environment:
+      POSTGRES_USER: demo
+      POSTGRES_PASSWORD: demo-only
+      POSTGRES_DB: orders
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./src/main/resources/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U demo -d orders"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+  app-a:
+    <<: *app
+    environment:
+      <<: *env
+      DEMO_INSTANCE_ID: 任务实例甲
+    ports: ["127.0.0.1:${APP_A_PORT:-8091}:8080"]
+  app-b:
+    <<: *app
+    environment:
+      <<: *env
+      DEMO_INSTANCE_ID: 任务实例乙
+    ports: ["127.0.0.1:${APP_B_PORT:-8092}:8080"]
+  verify:
+    image: python:3.12-alpine
+    profiles: [tools]
+    volumes: ["./scripts:/scripts:ro"]
+    command: ["python", "-u", "/scripts/验证定时任务.py"]
+    environment:
+      APP_A_URL: http://app-a:8080
+      APP_B_URL: http://app-b:8080
+volumes:
+  zk-data:
+  zk-log:
+  postgres-data:
