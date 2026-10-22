@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>订单补偿 · Java 分享演示台</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,"Microsoft YaHei",sans-serif;color:#172839;background:#f3f6fa;font-size:14px}
+    *{box-sizing:border-box}body{margin:0}header{padding:28px max(24px,calc((100vw - 1240px)/2));background:#123d53;color:white}
+    h1{font-size:28px;margin:5px 0 10px}header p{color:#c9dee8;margin:4px 0;line-height:1.7}.label{font-size:12px;letter-spacing:2px;color:#9fdfd2}
+    main{max-width:1288px;margin:auto;padding:22px 24px 40px}h2{font-size:19px;margin:0 0 16px}h3{margin:0 0 12px;font-size:16px}
+    .panel,.card{background:white;border:1px solid #dce4ed;border-radius:12px;padding:20px;margin-bottom:18px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{margin:0}.cards{margin-bottom:18px}.muted{color:#66788a;font-size:12px}.value{font-size:26px;font-weight:700;color:#086c65}
+    .pair{display:flex;justify-content:space-between;margin:10px 0;gap:12px}.mono{font-family:ui-monospace,monospace;font-size:12px;overflow-wrap:anywhere}
+    button,select,input{font:inherit;border:1px solid #c3d0dc;border-radius:7px;padding:9px 12px;background:white}button{cursor:pointer}button:disabled{opacity:.5;cursor:wait}
+    button.primary{background:#087e75;border-color:#087e75;color:white}button.warn{background:#fff8ed;color:#8e4d0c}.actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    input[type=number]{width:100px}input[type=checkbox]{accent-color:#087e75}table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;border-bottom:1px solid #e8edf2;padding:10px 8px;vertical-align:top}th{color:#61768b;font-weight:600;background:#f8fafc}.scroll{overflow:auto}
+    .tag{display:inline-block;border-radius:5px;padding:3px 7px;background:#e9f4f0;color:#086c65}.bad{background:#fff0eb;color:#a84726}.pending{background:#fff6e0;color:#946400}
+    .metrics{display:flex;gap:35px;flex-wrap:wrap;margin:15px 0}.metric strong{display:block;font-size:29px;margin-top:5px}#message{padding:12px 16px;background:#e9f2fa;border-radius:8px;margin-bottom:18px;min-height:42px;white-space:pre-wrap}
+    .note{padding:10px 14px;border-left:3px solid #83b8ad;background:#f3f9f7;line-height:1.7;color:#395d60;margin:12px 0 0}.error{color:#b64025}.footer{font-size:12px;color:#718191}
+    @media(max-width:850px){.grid{grid-template-columns:1fr}header{padding:24px}main{padding:16px}}
+  </style>
+</head>
+<body>
+<header><div class="label">模块 4 · 配置中心与定时任务</div><h1>订单补偿演示台</h1><p>配置发布 → 不重启刷新 → 双实例分片 → 失败恢复 → 幂等重跑</p><p>本教学页面通过真实 Nacos / ElasticJob API 操作，不是 ElasticJob 官方控制台。</p></header>
+<main>
+  <div id="message" role="status" aria-live="polite">正在连接三个实例……</div>
+  <section class="grid cards" id="cluster"></section>
+  <section class="panel">
+    <h2>① 发布动态配置</h2>
+    <div class="actions"><label>环境 <select id="target"><option value="dev">开发环境</option><option value="test">测试环境</option></select></label>
+      <label><input id="enabled" type="checkbox" checked> 开启补偿</label><label>每分片批量 <input id="batch" type="number" min="1" max="1000" value="20"></label>
+      <button class="primary" id="publish">发布到 Nacos</button><button id="refresh">刷新显示</button></div>
+    <p class="note">观察上方配置版本、刷新次数与启动标识。每个分片开始时读取一份快照；已开始的批次保持原配置。测试观察实例不注册定时任务。</p>
+  </section>
+  <section class="panel">
+    <h2>② 触发分片与失败补偿</h2>
+    <div class="actions"><button id="reset" class="warn">重置演示数据与配置</button><button id="trigger" class="primary">触发一次任务</button><button id="recover">恢复模拟依赖</button><button id="inject">重新注入故障</button></div>
+    <div class="metrics" id="summary"></div>
+    <p class="note">推荐顺序：重置 → 发布开发环境 true / 20 → 触发（11 成功、1 待补偿）→ 恢复依赖 → 再次触发（12 成功）→ 额外触发一次（流水仍为 12）。</p>
+  </section>
+  <section class="panel"><h2>③ ElasticJob 实际分片分配</h2><p class="muted">3 个逻辑分片交给 2 个开发实例。首次触发后查看分配；框架实例标识中的 IP 可与上方卡片对应。</p><div class="scroll"><table><thead><tr><th>分片</th><th>区域</th><th>框架实例标识</th><th>状态</th></tr></thead><tbody id="shards"></tbody></table></div></section>
+  <section class="panel"><h2>④ 订单状态与业务处理次数</h2><div class="scroll"><table><thead><tr><th>订单</th><th>区域</th><th>状态</th><th>尝试次数</th><th>完成实例</th><th>最近错误</th></tr></thead><tbody id="orders"></tbody></table></div></section>
+  <section class="panel"><h2>⑤ 最近的分片执行记录</h2><p class="muted">一行代表一次分片调用；同一触发通常产生 3 行。该表是本案例的业务执行记录。</p><div class="scroll"><table><thead><tr><th>时间</th><th>实例</th><th>分片 / 区域</th><th>配置 / 批量</th><th>成功 / 失败 / 跳过</th><th>状态</th></tr></thead><tbody id="runs"></tbody></table></div></section>
+  <p class="footer">页面每 2 秒更新。Nacos 原生控制台默认地址：http://localhost:8848/nacos/。所有操作仅作用于本地演示数据。</p>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const esc = value => String(value ?? '—').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+const labels = {SUCCESS:'成功',FAILED:'失败',SKIPPED:'跳过',PENDING:'待补偿',RUNNING:'执行中'};
+const tag = status => `<span class="tag ${status==='FAILED'?'bad':status==='PENDING'?'pending':''}">${esc(labels[status] || status)}</span>`;
+const time = value => value ? new Date(value).toLocaleTimeString('zh-CN',{hour12:false}) : '—';
+async function api(path, data) {
+  const options = data === undefined ? {} : {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)};
+  const response = await fetch('/api/' + path, options);
+  const body = await response.json();
+  if (!response.ok) throw new Error(body.message || '请求失败');
+  return body;
+}
+let refreshing = false;
+async function refresh() {
+  if (refreshing) return; refreshing = true;
+  try {
+    const [cluster,summary,shards,orders,runs] = await Promise.all(['cluster','summary','shards','orders','runs'].map(path => api(path)));
+    $('cluster').innerHTML = cluster.map(item => item.error ? `<article class="card error">${esc(item.instanceId)}：${esc(item.error)}</article>` : `<article class="card"><h3>${esc(item.instanceId)}</h3><div class="muted">${esc(item.environment)} · ${esc(item.namespace)} · ${esc(item.ip)}</div><div class="pair"><span>补偿开关</span><b>${item.config.snapshot.enabled?'已开启':'已关闭'}</b></div><div class="pair"><span>每分片批量</span><span class="value">${esc(item.config.snapshot.batchSize)}</span></div><div class="pair"><span>配置版本 / 刷新次数</span><span class="mono">${esc(item.config.snapshot.version)} / ${esc(item.config.refreshCount)}</span></div><div class="pair"><span>启动标识</span><span class="mono">${esc(item.bootId.slice(0,8))}</span></div><div class="muted">启动时间 ${esc(new Date(item.startedAt).toLocaleString('zh-CN',{hour12:false}))} · PID ${esc(item.pid)}</div>${item.config.lastError ? `<p class="error">${esc(item.config.lastError)}</p>`:''}</article>`).join('');
+    $('summary').innerHTML = [['总订单',summary.total],['已成功',summary.success],['待补偿',summary.pending],['业务流水',summary.effects],['运行分片',summary.running]].map(([label,value])=>`<div class="metric">${label}<strong>${esc(value)}</strong></div>`).join('');
+    $('shards').innerHTML = shards.map(item=>`<tr><td>${esc(item.item)}</td><td>${esc(['华东','华南','华北'][item.item])}</td><td class="mono">${esc(item.instanceId)}</td><td>${esc(item.status)}</td></tr>`).join('');
+    $('orders').innerHTML = orders.map(item=>`<tr><td>${esc(item.order_id)}</td><td>${esc(item.region)}</td><td>${tag(item.status)}</td><td>${esc(item.attempts)}</td><td>${esc(item.completed_by)}</td><td>${esc(item.last_error)}</td></tr>`).join('');
+    $('runs').innerHTML = runs.map(item=>`<tr><td>${esc(time(item.started_at))}</td><td>${esc(item.instance_id)}</td><td>${esc(item.shard)} / ${esc(item.region)}</td><td class="mono">${esc(item.config_version)} / ${esc(item.batch_size)}</td><td>${esc(item.success_count)} / ${esc(item.failure_count)} / ${esc(item.skipped_count)}</td><td>${tag(item.status)}</td></tr>`).join('');
+    if ($('message').textContent === '正在连接三个实例……') $('message').textContent = '服务已连接。可以先点击“重置演示数据与配置”。';
+  } finally { refreshing = false; }
+}
+async function action(button, task) {
+  button.disabled = true;
+  try { const result=await task(); $('message').textContent = result.message || '操作已完成，等待刷新。'; await refresh(); }
+  catch(error){$('message').textContent='操作失败：'+error.message;}
+  finally{button.disabled=false;}
+}
+$('publish').onclick = event => action(event.target,()=>api('config/'+$('target').value,{enabled:$('enabled').checked,batchSize:Number($('batch').value)}));
+$('trigger').onclick = event => action(event.target,()=>api('jobs/trigger',{}));
+$('recover').onclick = event => action(event.target,async()=>{await api('demo/failure',{enabled:false});return {message:'模拟依赖已恢复。请再次触发任务，补偿订单 1005。'};});
+$('inject').onclick = event => action(event.target,async()=>{await api('demo/failure',{enabled:true});return {message:'订单 1005 的故障已开启，已完成订单不会倒退为待补偿。'};});
+$('reset').onclick = event => action(event.target,async()=>{await api('demo/reset',{});await api('config/dev',{enabled:false,batchSize:100});await api('config/test',{enabled:false,batchSize:7});return {message:'订单已重置。等待上方开发实例回到 false / 100，测试实例回到 false / 7，再开始演示。'};});
+$('refresh').onclick = event => action(event.target,async()=>({message:'显示已刷新。'}));
+refresh().catch(error=>$('message').textContent='连接失败：'+error.message);
+setInterval(()=>refresh().catch(error=>console.error(error)),2000);
+</script>
+</body>
+</html>

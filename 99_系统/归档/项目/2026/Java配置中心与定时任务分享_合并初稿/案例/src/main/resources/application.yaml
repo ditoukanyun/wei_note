@@ -1,0 +1,39 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: order-compensation-demo
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/orders}
+    username: ${SPRING_DATASOURCE_USERNAME:demo}
+    password: ${SPRING_DATASOURCE_PASSWORD:demo-only}
+    hikari:
+      maximum-pool-size: 6
+  sql:
+    init:
+      mode: never
+  jackson:
+    time-zone: Asia/Shanghai
+demo:
+  instance-id: ${DEMO_INSTANCE_ID:本地实例}
+  environment: ${DEMO_ENVIRONMENT:开发环境}
+  peers: ${DEMO_PEERS:}
+  nacos:
+    address: ${DEMO_NACOS_ADDRESS:localhost:8848}
+    namespace: ${DEMO_NACOS_NAMESPACE:share-dev}
+    group: ORDER_SERVICE
+    data-id: order-service.yaml
+  job:
+    enabled: ${DEMO_JOB_ENABLED:true}
+    namespace: ${DEMO_JOB_NAMESPACE:java-share-dev}
+    # 自动任务每天凌晨触发一次，现场使用控制台手动触发，避免下一轮抢先补偿。
+    cron: ${DEMO_JOB_CRON:0 0 0 * * ?}
+  zookeeper:
+    address: ${DEMO_ZOOKEEPER_ADDRESS:localhost:2181}
+logging:
+  level:
+    root: INFO
+    com.alibaba.nacos: WARN
+    org.apache.zookeeper: WARN
+    org.apache.curator: WARN
+    org.quartz: WARN

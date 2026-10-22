@@ -8,6 +8,9 @@ created: 2026-04-30
 ---
 # Nginx 多前端项目部署指南
 
+> [!example] 真实部署案例
+> [[40_知识库/DevOps/Nginx/Nginx 多项目子路径部署实战|Nginx 多项目子路径部署实战]]记录了 2026-10-21 在现有 `wei_note` 服务器上，通过 `/game/starshift/` 和 `/game/flappy-grove/` 上线两个游戏的完整过程，包含实际目录、配置、验证和回滚方法。
+
 ## 概述
 
 一台 Nginx 服务器可以托管多个前端项目，常见有两种方式：
@@ -140,8 +143,9 @@ server {
 ```
 
 **关键点：**
-- 用 `alias` 而不是 `root`
-- `try_files` 回退到对应项目的 `index.html`
+
+- 根据文件布局选择 `root` 或 `alias`：`root` 将请求 URI 拼到根目录后；`alias` 替换匹配到的 location 路径前缀，路径部署并不要求必须使用 `alias`。
+- 上面是有前端 history 路由的 SPA 示例，HTML 路由可回退到对应项目入口；普通静态游戏和缺失资源应保留真实 404。实际采用 `root` 的子路径部署见上述实战笔记。
 
 ---
 
