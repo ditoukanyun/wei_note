@@ -55,6 +55,13 @@ services:
       DEMO_ENVIRONMENT: 测试环境
       DEMO_NACOS_NAMESPACE: share-test
     ports: ["127.0.0.1:${APP_TEST_PORT:-8083}:8080"]
+  app-cold:
+    <<: *app
+    profiles: [experiments]
+    restart: "no"
+    environment:
+      <<: *env
+      DEMO_INSTANCE_ID: 无缓存冷启动探针
   verify:
     image: python:3.12-alpine
     profiles: [tools]

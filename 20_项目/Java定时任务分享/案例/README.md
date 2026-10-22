@@ -13,7 +13,7 @@ docker compose run --rm verify
 docker compose down
 ```
 
-验证会重置演示订单。构建执行 4 项测试，覆盖并发幂等、失败恢复、事务回滚和分片范围；真实环境验证覆盖两实例与三个分片。
+验证会重置演示订单。构建执行 6 项测试，覆盖并发幂等、失败恢复、事务回滚、分片范围、分批推进和运行中拒绝重置；真实环境验证覆盖两实例与三个分片。
 
 固定版本：Java 17、Spring Boot 3.5.7、ElasticJob 3.0.4、ZooKeeper 3.9.3、PostgreSQL 16.6-alpine；Maven 构建镜像为 3.9.9，验证容器为 Python 3.12-alpine。
 
@@ -24,3 +24,11 @@ docker compose down
 页面是本案例的教学控制台，通过真实 ElasticJob API 触发。未打包官方 ElasticJob UI。
 
 Compose 项目名为 `java-job-share`，默认端口 8091 / 8092。操作与离线迁移见上级目录《ElasticJob演示手册》。
+
+扩展场景：点击“载入 750 笔扩展数据”，每个区域 250 笔、每片默认批量 100，模拟故障关闭。三轮累计成功 300、600、750，第四轮没有新增流水；“重置演示订单”恢复 12 笔基础场景。自动验证与基础验证依次执行：
+
+```bash
+docker compose run --rm verify-large
+```
+
+详见上级目录《ElasticJob扩展实验与实践》。下载过旧案例或镜像时，需要重新构建或导入此次更新后的镜像。

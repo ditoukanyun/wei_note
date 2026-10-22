@@ -1,0 +1,13 @@
+通过：任务实例就绪 http://app-a:8080
+通过：任务实例就绪 http://app-b:8080
+通过：本轮三个分片结束
+通过：第 1 轮，成功 300、待补偿 450、流水 300
+通过：本轮三个分片结束
+通过：第 2 轮，成功 600、待补偿 150、流水 600
+通过：本轮三个分片结束
+通过：第 3 轮，成功 750、待补偿 0、流水 750
+通过：本轮三个分片结束
+通过：第四轮没有新增流水，750 笔订单均只处理一次
+分批处理验证完成，已恢复 12 笔基础演示订单
+ Container java-job-share-verify-large-run-a06b40ca52d8 Creating
+ Container java-job-share-verify-large-run-a06b40ca52d8 Created

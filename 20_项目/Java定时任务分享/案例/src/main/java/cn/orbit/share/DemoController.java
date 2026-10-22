@@ -133,6 +133,13 @@ public class DemoController {
         return Map.of("message", "已重置 12 笔订单，故障注入恢复为开启");
     }
 
+    @PostMapping("/demo/large")
+    public Map<String, Object> large() {
+        requireScheduler();
+        data.seedLarge();
+        return Map.of("message", "已载入三个区域各 250 笔订单，模拟故障关闭；请逐轮触发观察积压", "total", 750);
+    }
+
     private void requireScheduler() {
         if (operations.getIfAvailable() == null) throw new IllegalStateException("当前实例未注册调度器");
     }

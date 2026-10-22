@@ -38,6 +38,7 @@ class OrderProcessorTest {
         context.registerBean(JdbcTemplate.class, () -> new JdbcTemplate(source));
         context.registerBean(PlatformTransactionManager.class, () -> new DataSourceTransactionManager(source));
         context.registerBean(OrderProcessor.class);
+        context.registerBean(DemoDataService.class);
         context.refresh();
         jdbc = context.getBean(JdbcTemplate.class);
         processor = context.getBean(OrderProcessor.class);
@@ -89,6 +90,37 @@ class OrderProcessorTest {
         assertEquals(2, service.execute(0, "华东", "pending").success());
         assertEquals(2, countEffects());
         assertEquals(0, jdbc.queryForObject("SELECT SUM(attempts) FROM compensation_order WHERE region<>'华东'", Integer.class));
+    }
+
+    @Test
+    void largeDataNeedsThreeBoundedRoundsAndCanRestoreTwelveOrders() {
+        DemoDataService data = context.getBean(DemoDataService.class);
+        data.seedLarge();
+        assertEquals(750, jdbc.queryForObject("SELECT COUNT(*) FROM compensation_order", Integer.class));
+        var service = new CompensationService(jdbc, processor, new TaskSettings(true, 100), "扩展实例");
+        String[] regions = {"华东", "华南", "华北"};
+        int[] expected = {300, 600, 750, 750};
+        for (int total : expected) {
+            for (int shard = 0; shard < regions.length; shard++) {
+                assertTrue(service.execute(shard, regions[shard], "pending").success() <= 100);
+            }
+            assertEquals(total, countEffects());
+        }
+        assertEquals(0, jdbc.queryForObject("SELECT COUNT(*) FROM compensation_order WHERE attempts<>1", Integer.class));
+        data.reset();
+        assertEquals(12, jdbc.queryForObject("SELECT COUNT(*) FROM compensation_order", Integer.class));
+        assertEquals(0, countEffects());
+        assertEquals(OrderProcessor.Result.FAILED, processor.process(1005, "恢复后的实例"));
+    }
+
+    @Test
+    void demoDataCannotBeReplacedWhileShardIsRunning() {
+        jdbc.update("INSERT INTO job_run(execution_id, instance_id, shard, region, config_version, batch_size, job_parameter, status) "
+                + "VALUES (?, '实例甲', 0, '华东', '本地配置', 100, 'pending', 'RUNNING')", UUID.randomUUID().toString());
+        DemoDataService data = context.getBean(DemoDataService.class);
+        assertThrows(IllegalStateException.class, data::seedLarge);
+        assertThrows(IllegalStateException.class, data::reset);
+        assertEquals(12, jdbc.queryForObject("SELECT COUNT(*) FROM compensation_order", Integer.class));
     }
 
     private int countEffects() { return jdbc.queryForObject("SELECT COUNT(*) FROM compensation_effect", Integer.class); }

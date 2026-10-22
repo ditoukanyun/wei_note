@@ -1,6 +1,3 @@
-验证日期：2026-10-21（北京时间）
-命令：docker compose run --rm verify
-
 通过：实例就绪 http://app-a:8080
 通过：实例就绪 http://app-b:8080
 通过：实例就绪 http://app-test:8080
@@ -12,3 +9,5 @@
 通过：非法配置保留旧快照；全部实例未重启。
 通过：恢复起点
 配置中心独立案例全部验证通过。
+ Container java-config-share-verify-run-e9763edab32e Creating
+ Container java-config-share-verify-run-e9763edab32e Created

@@ -3,6 +3,7 @@ type: reference
 created: 2026-10-21
 area: "[[后端开发]]"
 tags: [ElasticJob, Docker, 演示]
+updated: 2026-10-22
 ---
 # ElasticJob 演示手册
 
@@ -28,7 +29,7 @@ docker compose run --rm verify
 | 任务演示台 | http://localhost:8091/ |
 | 任务实例乙 | http://localhost:8092/api/runtime |
 
-构建运行 4 项业务测试。验证容器检查两个实例分片、失败补偿和额外重跑幂等，成功后恢复初始订单。
+构建运行 6 项业务测试。验证容器检查两个实例分片、失败补偿和额外重跑幂等，成功后恢复初始订单。
 
 ## 会前准备
 
@@ -127,3 +128,15 @@ docker compose up -d --no-build --pull never
 ```
 
 源码包不包含镜像，导出的镜像需要与公司电脑 CPU 架构匹配。
+
+## 可选的 750 笔分批实验
+
+另见 [[ElasticJob扩展实验与实践]]，约 8 分钟。确认没有分片运行后点击“载入 750 笔扩展数据”，该操作替换教学订单并关闭模拟故障；每片默认 100，逐轮累计成功为 300、600、750，第四轮不再新增流水。点击“重置演示订单”恢复 12 笔基础场景。
+
+自动验证命令：
+
+```bash
+docker compose run --rm verify-large
+```
+
+与基础 `verify` 依次运行。成功后恢复 12 笔订单。页面订单表最多展示 60 笔，汇总指标覆盖全量，完整订单仍可通过 `/api/orders` 查看。

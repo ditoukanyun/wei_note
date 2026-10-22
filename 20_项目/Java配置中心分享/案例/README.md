@@ -20,3 +20,5 @@ docker compose down
 代码入口：`NacosConfigClient.java` 订阅配置，`ConfigStore.java` 校验与替换快照，`ConfigController.java` 发布和使用配置。Compose 项目名为 `java-config-share`，与定时任务分享的网络、镜像和数据卷独立。
 
 详细操作、端口修改与离线迁移见上级目录《配置中心演示手册》。
+
+扩展实验见上级目录《配置中心扩展实验与实践》：停止 Nacos 后观察内存配置，再验证同一容器与全新 `app-cold` 探针的启动。探针属于 `experiments` profile，不映射宿主机端口，默认不运行。当前 SDK 接口不回退读取磁盘快照，不能将缓存文件存在等同于支持离线启动。

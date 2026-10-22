@@ -58,6 +58,14 @@ services:
     environment:
       APP_A_URL: http://app-a:8080
       APP_B_URL: http://app-b:8080
+  verify-large:
+    image: python:3.12-alpine
+    profiles: [tools]
+    volumes: ["./scripts:/scripts:ro"]
+    command: ["python", "-u", "/scripts/验证分批处理.py"]
+    environment:
+      APP_A_URL: http://app-a:8080
+      APP_B_URL: http://app-b:8080
 volumes:
   zk-data:
   zk-log:
