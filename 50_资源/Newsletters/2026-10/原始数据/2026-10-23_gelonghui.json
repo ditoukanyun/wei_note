@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5330225",
+      "title": "协创数据(300857.SZ)：公司已前瞻布局具身智能与机器人领域，推出FCloud OmniBot具身智能服务平台",
+      "id": "/news/5330225",
+      "extra": {
+        "date": 1792727667021,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5330224",
+      "title": "京东方Ａ(000725.SZ)：公司拥有完备玻璃基封装载板制造工艺能力",
+      "id": "/news/5330224",
+      "extra": {
+        "date": 1792726947021,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5330223",
+      "title": "大行评级｜大摩：料港交所第三季纯利同比跌3%，维持“增持”评级",
+      "id": "/news/5330223",
+      "extra": {
+        "date": 1792726827021,
+        "info": "大行评级"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5330222",
+      "title": "ETF午评|沪指回守3600点，算力硬件股集体下跌，创业板算力ETF、通信ETF和科创新材料ETF跌5%，创业板ETF、沪深300ETF成交额超90亿",
+      "id": "/news/5330222",
+      "extra": {
+        "date": 1792726767021,
+        "info": "A股异动"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5330221",
+      "title": "大行评级｜小摩：金沙中国第三季业绩表现疲弱，仍维持“增持”评级",
+      "id": "/news/5330221",
+      "extra": {
+        "date": 1792726647021,
+        "info": "大行评级"
+      }
+    }
+  ]
+}

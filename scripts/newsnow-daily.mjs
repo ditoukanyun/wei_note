@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { spawn } from "node:child_process"
+import { spawn, spawnSync } from "node:child_process"
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises"
 import path from "node:path"
 import { parseArgs } from "node:util"
@@ -9,6 +9,12 @@ const DEFAULT_TIMEOUT_MS = 10_000
 const RETRY_TIMEOUT_MS = 15_000
 const DEFAULT_LIMIT = 5
 const TIME_ZONE = "Asia/Shanghai"
+
+const CONCURRENCY = 6
+const ABORT_THRESHOLD = 8
+const MAX_IO_CHARS = 600
+
+const NEWSNOW_BIN = resolveNewsNowBin()
 
 const RETRY_SOURCES = new Set([
   "github",
@@ -193,8 +199,9 @@ if (!Number.isInteger(limit) || limit <= 0) {
 }
 
 const monthKey = targetDate.slice(0, 7)
-const rawDir = path.join(process.cwd(), "50_资源", "Newsletters", monthKey, "原始数据")
-const monthIndexPath = path.join(process.cwd(), "50_资源", "Newsletters", monthKey, `${monthKey}.md`)
+const newslettersDir = path.join(process.cwd(), "50_资源", "Newsletters")
+const rawDir = path.join(newslettersDir, monthKey, "原始数据")
+const monthIndexPath = path.join(newslettersDir, monthKey, `${monthKey}.md`)
 const usagePath = path.join(rawDir, `${targetDate}_newsnow-usage.txt`)
 const listPath = path.join(rawDir, `${targetDate}_newsnow-list.json`)
 const summaryPath = path.join(rawDir, `${targetDate}_newsnow-summary.json`)
@@ -223,7 +230,7 @@ try {
 
 await writeFile(listPath, normalizeLineEndings(listRun.stdout), "utf8")
 
-const previousSummary = await readPreviousSummary(rawDir, targetDate)
+const previousSummary = await readPreviousSummary(newslettersDir, targetDate)
 const previousSuccessSet = new Set(
   (previousSummary?.results ?? [])
     .filter((result) => result.status === "success")
@@ -242,6 +249,8 @@ const summary = {
     timeout: 0,
     empty: 0,
     badjson: 0,
+    skipenv: 0,
+    aborted: 0,
   },
   retries: [],
   results: [],
@@ -253,7 +262,36 @@ const summary = {
     : null,
 }
 
-for (const sourceMeta of listJson.sources ?? []) {
+const totalSources = listJson.sources?.length ?? 0
+let completedCount = 0
+const breaker = { consecutiveTimeouts: 0, tripped: false, aborted: 0 }
+
+function siteKeyOf(sourceName) {
+  return sourceName.split("-")[0]
+}
+
+function makeAbortedResult(sourceMeta) {
+  return {
+    source: sourceMeta.name,
+    category: sourceMeta.category ?? sourceMeta.name,
+    envVars: sourceMeta.envVars ?? [],
+    retried: false,
+    attempts: [],
+    status: "aborted",
+    exitCode: null,
+    signal: null,
+    timeoutMs: null,
+    count: 0,
+    sampleTitles: [],
+    error: "因连续超时触发熔断，本轮未执行抓取",
+    stderr: "",
+    stdout: "",
+    startedAt: null,
+    finishedAt: null,
+  }
+}
+
+async function processSource(sourceMeta) {
   const result = await fetchSource(sourceMeta, targetDate, rawDir, limit)
   summary.results.push(result)
   if (result.retried) {
@@ -264,7 +302,51 @@ for (const sourceMeta of listJson.sources ?? []) {
   } else {
     summary.counts.nonzero += 1
   }
+
+  if (result.status === "timeout") {
+    breaker.consecutiveTimeouts += 1
+    if (breaker.consecutiveTimeouts >= ABORT_THRESHOLD) {
+      breaker.tripped = true
+      console.error(`[熔断] 连续 ${breaker.consecutiveTimeouts} 个源超时，跳过剩余源`)
+    }
+  } else if (result.status !== "skipenv") {
+    breaker.consecutiveTimeouts = 0
+  }
+
+  completedCount += 1
+  console.error(`[${completedCount}/${totalSources}] ${result.source} -> ${result.status}${result.retried ? "（已重试）" : ""}`)
 }
+
+const chains = new Map()
+for (const sourceMeta of listJson.sources ?? []) {
+  const key = siteKeyOf(sourceMeta.name)
+  if (!chains.has(key)) {
+    chains.set(key, [])
+  }
+  chains.get(key).push(sourceMeta)
+}
+const chainQueues = [...chains.values()]
+
+async function worker() {
+  while (true) {
+    const queue = chainQueues.find((candidate) => candidate.length > 0)
+    if (!queue) {
+      return
+    }
+    const sourceMeta = queue.shift()
+    if (breaker.tripped) {
+      summary.results.push(makeAbortedResult(sourceMeta))
+      summary.counts.aborted += 1
+      breaker.aborted += 1
+      completedCount += 1
+      console.error(`[${completedCount}/${totalSources}] ${sourceMeta.name} -> aborted`)
+      continue
+    }
+    await processSource(sourceMeta)
+  }
+}
+
+await Promise.all(Array.from({ length: Math.min(CONCURRENCY, Math.max(chainQueues.length, 1)) }, () => worker()))
 
 summary.finishedAt = new Date().toISOString()
 
@@ -292,6 +374,7 @@ await writeFile(
     summaryPath,
     targetDate,
     generatedAt: formatChineseDateTime(new Date()),
+    limit,
   }),
   "utf8",
 )
@@ -303,6 +386,7 @@ console.log(
       sourceCount: summary.sourceCount,
       counts: summary.counts,
       retryCount: summary.retries.length,
+      breakerTripped: breaker.tripped,
       rawDir,
       summaryPath,
       logPath,
@@ -316,6 +400,42 @@ console.log(
 async function fetchSource(sourceMeta, date, outputDir, itemLimit) {
   const source = sourceMeta.name
   const attempts = []
+
+  const baseResult = {
+    source,
+    category: sourceMeta.category ?? source,
+    envVars: sourceMeta.envVars ?? [],
+    retried: false,
+    attempts,
+  }
+
+  const missingEnv = (sourceMeta.envVars ?? []).filter((name) => !process.env[name])
+  if (missingEnv.length > 0) {
+    const result = {
+      ...baseResult,
+      status: "skipenv",
+      exitCode: null,
+      signal: null,
+      timeoutMs: null,
+      count: 0,
+      sampleTitles: [],
+      error: `缺少环境变量: ${missingEnv.join(", ")}`,
+      stderr: "",
+      stdout: "",
+      startedAt: null,
+      finishedAt: null,
+    }
+
+    await writeFile(
+      path.join(outputDir, `${date}_${source}.err`),
+      normalizeLineEndings(
+        [`source: ${source}`, `generatedAt: ${formatChineseDateTime(new Date())}`, "status: skipenv", `缺少环境变量: ${missingEnv.join(", ")}`, ""].join("\n"),
+      ),
+      "utf8",
+    )
+
+    return result
+  }
 
   const firstRun = await runNewsNow([source, "--limit", String(itemLimit), "--json", "--pretty"], DEFAULT_TIMEOUT_MS)
   attempts.push(sanitizeRun(firstRun))
@@ -333,13 +453,7 @@ async function fetchSource(sourceMeta, date, outputDir, itemLimit) {
     finalRun = secondRun
   }
 
-  const baseResult = {
-    source,
-    category: sourceMeta.category ?? source,
-    envVars: sourceMeta.envVars ?? [],
-    retried,
-    attempts,
-  }
+  baseResult.retried = retried
 
   if (finalRun.status !== "success") {
     const result = {
@@ -414,13 +528,47 @@ async function fetchSource(sourceMeta, date, outputDir, itemLimit) {
   }
 }
 
+function resolveNewsNowBin() {
+  try {
+    const probe = spawnSync(process.platform === "win32" ? "where" : "which", ["newsnow"], {
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+    })
+    if (probe.status === 0 && probe.stdout?.trim()) {
+      return probe.stdout.trim().split(/\r?\n/)[0].trim()
+    }
+  } catch {
+    // fall through to npx
+  }
+  return null
+}
+
+function killTree(child, signal = "SIGTERM") {
+  try {
+    if (process.platform !== "win32" && child.pid) {
+      process.kill(-child.pid, signal)
+    } else {
+      child.kill(signal)
+    }
+  } catch {
+    try {
+      child.kill(signal)
+    } catch {
+      // process already gone
+    }
+  }
+}
+
 function runNewsNow(args, timeoutMs) {
   return new Promise((resolve) => {
     const startedAt = new Date().toISOString()
-    const child = spawn("npx", ["--yes", "newsnow", ...args], {
+    const command = NEWSNOW_BIN ?? "npx"
+    const commandArgs = NEWSNOW_BIN ? args : ["--yes", "newsnow", ...args]
+    const child = spawn(command, commandArgs, {
       cwd: process.cwd(),
       env: process.env,
       stdio: ["ignore", "pipe", "pipe"],
+      detached: process.platform !== "win32",
     })
 
     let stdout = ""
@@ -430,8 +578,8 @@ function runNewsNow(args, timeoutMs) {
 
     const timer = setTimeout(() => {
       timedOut = true
-      child.kill("SIGTERM")
-      setTimeout(() => child.kill("SIGKILL"), 1_000).unref()
+      killTree(child)
+      setTimeout(() => killTree(child, "SIGKILL"), 1_000).unref()
     }, timeoutMs)
 
     child.stdout.on("data", (chunk) => {
@@ -490,6 +638,13 @@ function shouldRetry(source, run) {
   return run.status === "timeout" || run.status === "nonzero"
 }
 
+function clipForSummary(text) {
+  if (typeof text !== "string" || text.length <= MAX_IO_CHARS) {
+    return text
+  }
+  return `${text.slice(0, MAX_IO_CHARS)}\n...[summary 已截断，完整输出共 ${text.length} 字符，见原始数据目录]`
+}
+
 function sanitizeRun(run) {
   return {
     status: run.status,
@@ -497,8 +652,8 @@ function sanitizeRun(run) {
     signal: run.signal,
     timeoutMs: run.timeoutMs,
     error: run.error,
-    stderr: run.stderr,
-    stdout: run.stdout,
+    stderr: clipForSummary(run.stderr),
+    stdout: clipForSummary(run.stdout),
     startedAt: run.startedAt,
     finishedAt: run.finishedAt,
   }
@@ -539,7 +694,7 @@ function buildErrorFileContent(source, attempts, finalRun) {
   return normalizeLineEndings(lines.join("\n"))
 }
 
-function buildLogMarkdown({ summary, listJson, summaryPath, targetDate, generatedAt }) {
+function buildLogMarkdown({ summary, listJson, summaryPath, targetDate, generatedAt, limit }) {
   const successes = summary.results.filter((result) => result.status === "success")
   const empties = summary.results.filter((result) => result.status === "empty")
   const failures = summary.results.filter((result) => result.status === "nonzero" || result.status === "timeout")
@@ -566,10 +721,11 @@ function buildLogMarkdown({ summary, listJson, summaryPath, targetDate, generate
     `# ${targetDate} 抓取说明`,
     "",
     `- 时间: ${generatedAt}`,
-    "- 入口命令: `npx newsnow`",
+    `- 入口命令: \`${NEWSNOW_BIN ?? "npx newsnow"}\``,
     `- 裸命令结果: ${summary.usage.stdout.includes("Usage: newsnow") ? "返回 CLI 用法说明，不直接输出新闻。" : "返回了非预期输出，请以原始日志为准。"}`,
-    `- \`npx newsnow list --json --pretty\` 结果: 共识别 ${summary.sourceCount} 个 source。`,
-    `- 本轮结果: ${summary.counts.success} 个成功返回、${summary.counts.empty} 个空结果、${summary.counts.nonzero} 个非零失败、${summary.counts.timeout} 个超时、${summary.counts.badjson} 个无效 JSON。`,
+    `- \`newsnow list --json --pretty\` 结果: 共识别 ${summary.sourceCount} 个 source。`,
+    `- 本轮结果: ${summary.counts.success} 个成功返回、${summary.counts.empty} 个空结果、${summary.counts.nonzero} 个非零失败、${summary.counts.timeout} 个超时、${summary.counts.badjson} 个无效 JSON${summary.counts.skipenv > 0 ? `、${summary.counts.skipenv} 个缺环境变量跳过` : ""}${summary.counts.aborted > 0 ? `、${summary.counts.aborted} 个熔断跳过` : ""}。`,
+    `- 抓取方式: ${CONCURRENCY} 路并发，同站源串行（如 \`bilibili*\`、\`linuxdo*\`）。`,
   ]
 
   if (diffLine) {
@@ -602,11 +758,28 @@ function buildLogMarkdown({ summary, listJson, summaryPath, targetDate, generate
     }
   }
 
+  const skipEnvs = summary.results.filter((result) => result.status === "skipenv")
+  if (skipEnvs.length > 0) {
+    lines.push("")
+    lines.push("## 缺环境变量跳过的 source")
+    lines.push("")
+    for (const result of skipEnvs) {
+      lines.push(`- \`${result.source}\`: ${result.error}`)
+    }
+  }
+
+  if (summary.counts.aborted > 0) {
+    lines.push("")
+    lines.push("## 熔断跳过的 source")
+    lines.push("")
+    lines.push(`- 连续 ${ABORT_THRESHOLD} 个源超时触发熔断，${summary.counts.aborted} 个源未执行抓取，待网络恢复后补跑。`)
+  }
+
   lines.push("")
   lines.push("## 重试与补救")
   lines.push("")
   lines.push(
-    `- 直接按单个 source 执行 \`npx newsnow <source> --limit ${DEFAULT_LIMIT} --json --pretty\`，保持“单源失败跳过、不阻塞全量轮询”的策略。`,
+    `- 直接按单个 source 执行 \`newsnow <source> --limit ${limit} --json --pretty\`，保持“单源失败跳过、不阻塞全量轮询”的策略。`,
   )
   if (summary.retries.length > 0) {
     lines.push(
@@ -658,21 +831,31 @@ function formatFailureMessage(result) {
   return normalized
 }
 
-async function readPreviousSummary(dir, date) {
-  const entries = await readdir(dir).catch(() => [])
-  const candidates = entries
-    .filter((name) => name.endsWith("_newsnow-summary.json"))
-    .map((name) => name.slice(0, 10))
-    .filter((candidateDate) => candidateDate < date)
+async function readPreviousSummary(newslettersRoot, date) {
+  const monthDirs = (await readdir(newslettersRoot).catch(() => []))
+    .filter((name) => /^\d{4}-\d{2}$/.test(name))
     .sort()
+    .reverse()
 
-  const previousDate = candidates.at(-1)
-  if (!previousDate) {
-    return null
+  for (const month of monthDirs) {
+    const dir = path.join(newslettersRoot, month, "原始数据")
+    const entries = await readdir(dir).catch(() => [])
+    const candidates = entries
+      .filter((name) => name.endsWith("_newsnow-summary.json"))
+      .map((name) => name.slice(0, 10))
+      .filter((candidateDate) => candidateDate < date)
+      .sort()
+
+    const previousDate = candidates.at(-1)
+    if (!previousDate) {
+      continue
+    }
+
+    const content = await readFile(path.join(dir, `${previousDate}_newsnow-summary.json`), "utf8")
+    return JSON.parse(content)
   }
 
-  const content = await readFile(path.join(dir, `${previousDate}_newsnow-summary.json`), "utf8")
-  return JSON.parse(content)
+  return null
 }
 
 function normalizeLineEndings(text) {

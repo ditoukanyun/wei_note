@@ -8,7 +8,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "zh-CN",
-    baseUrl: "ditoukanyun.github.io/wei_note",
+    baseUrl: "118.145.223.121/note",
     ignorePatterns: [
       ".obsidian", 
       ".agents", 

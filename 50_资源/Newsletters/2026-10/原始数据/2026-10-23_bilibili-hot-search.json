@@ -1,0 +1,46 @@
+{
+  "source": "bilibili-hot-search",
+  "count": 5,
+  "items": [
+    {
+      "id": "西藏地震已致16死54伤",
+      "title": "西藏地震已致16死54伤",
+      "url": "https://search.bilibili.com/all?keyword=%E8%A5%BF%E8%97%8F%E5%9C%B0%E9%9C%87%E5%B7%B2%E8%87%B416%E6%AD%BB54%E4%BC%A4",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "国乒男团夺得亚锦赛冠军",
+      "title": "国乒男团夺得亚锦赛冠军",
+      "url": "https://search.bilibili.com/all?keyword=%E5%9B%BD%E4%B9%92%E7%94%B7%E5%9B%A2%E5%A4%BA%E5%BE%97%E4%BA%9A%E9%94%A6%E8%B5%9B%E5%86%A0%E5%86%9B",
+      "extra": {
+        "icon": ""
+      }
+    },
+    {
+      "id": "76人逆转骑士取两连胜",
+      "title": "76人逆转骑士取两连胜",
+      "url": "https://search.bilibili.com/all?keyword=76%E4%BA%BA%E9%80%86%E8%BD%AC%E9%AA%91%E5%A3%AB%E5%8F%96%E4%B8%A4%E8%BF%9E%E8%83%9C",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "西藏7.0级地震救援进展",
+      "title": "西藏7.0级地震救援进展",
+      "url": "https://search.bilibili.com/all?keyword=%E8%A5%BF%E8%97%8F7.0%E7%BA%A7%E5%9C%B0%E9%9C%87%E6%95%91%E6%8F%B4%E8%BF%9B%E5%B1%95",
+      "extra": {
+        "icon": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
+      }
+    },
+    {
+      "id": "后会友期震撼来袭",
+      "title": "后会友期震撼来袭",
+      "url": "https://search.bilibili.com/all?keyword=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E9%9C%87%E6%92%BC%E6%9D%A5%E8%A2%AD",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+      }
+    }
+  ]
+}

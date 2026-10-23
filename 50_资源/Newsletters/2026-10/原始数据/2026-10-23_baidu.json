@@ -1,0 +1,46 @@
+{
+  "source": "baidu",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E9%82%A3%E6%9B%B2%E5%9C%B0%E9%9C%87%E5%B7%B2%E8%87%B416%E6%AD%BB65%E4%BC%A4",
+      "title": "西藏那曲地震已致16死65伤",
+      "url": "https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E9%82%A3%E6%9B%B2%E5%9C%B0%E9%9C%87%E5%B7%B2%E8%87%B416%E6%AD%BB65%E4%BC%A4",
+      "extra": {
+        "hover": ""
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=9%E5%B2%81%E5%AD%A9%E5%AD%90%E5%BC%80%E9%97%A8%E6%9D%80%E8%87%B4%E8%B7%AF%E4%BA%BA%E6%AD%BB%E4%BA%A1+%E5%8F%B8%E6%9C%BA%E8%8E%B7%E5%88%91",
+      "title": "9岁孩子开门杀致路人死亡 司机获刑",
+      "url": "https://www.baidu.com/s?wd=9%E5%B2%81%E5%AD%A9%E5%AD%90%E5%BC%80%E9%97%A8%E6%9D%80%E8%87%B4%E8%B7%AF%E4%BA%BA%E6%AD%BB%E4%BA%A1+%E5%8F%B8%E6%9C%BA%E8%8E%B7%E5%88%91",
+      "extra": {
+        "hover": "近日，山东临沂女子孙某因犯交通肇事罪被判处有期徒刑10个月，缓刑1年。此前，孙某在机动车道违规停车，让亲戚家9岁孩子下车取餐，孩子开车门时撞倒后方电动车驾驶人周某，致其抢救无效死亡。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E5%86%8D%E7%9C%8B%E8%BF%99%E6%9D%A1%E5%BE%81%E9%80%94+%E4%BE%9D%E6%97%A7%E7%83%AD%E8%A1%80%E9%9A%BE%E5%B9%B3",
+      "title": "再看这条征途 依旧热血难平",
+      "url": "https://www.baidu.com/s?wd=%E5%86%8D%E7%9C%8B%E8%BF%99%E6%9D%A1%E5%BE%81%E9%80%94+%E4%BE%9D%E6%97%A7%E7%83%AD%E8%A1%80%E9%9A%BE%E5%B9%B3",
+      "extra": {
+        "hover": "九十年前，红军战士跨天险，破重围，在绝境中踏出万里征途，把信仰焊进山河。今天，我们接续奋斗、砥砺前行，在新的长征路上奋力创造新的辉煌！"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E2%80%9C%E5%8F%8C%E5%8D%81%E4%B8%80%E2%80%9D%E5%A5%B3%E8%A3%85%E6%A8%A1%E7%89%B9%E5%8F%AF%E8%83%BD%E4%B8%8D%E6%98%AF%E4%BA%BA",
+      "title": "“双十一”女装模特可能不是人",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%8F%8C%E5%8D%81%E4%B8%80%E2%80%9D%E5%A5%B3%E8%A3%85%E6%A8%A1%E7%89%B9%E5%8F%AF%E8%83%BD%E4%B8%8D%E6%98%AF%E4%BA%BA",
+      "extra": {
+        "hover": "近日，临近“双十一”，电商平台不少女装商品使用AI生成模特图，甚至出现肢体畸形、模特“偷脸”等问题。部分商家没有真实样衣便生成图片上架，客服却称是实拍，律师指出此举可能涉嫌虚假宣传。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E5%9C%A8%E6%98%9F%E5%B7%B4%E5%85%8B%E5%BC%80%E4%BC%9A1%E5%B0%8F%E6%97%B6%E8%A2%AB%E6%8F%90%E9%86%92%E7%82%B9%E5%8D%955%E6%AC%A1",
+      "title": "在星巴克开会1小时被提醒点单5次",
+      "url": "https://www.baidu.com/s?wd=%E5%9C%A8%E6%98%9F%E5%B7%B4%E5%85%8B%E5%BC%80%E4%BC%9A1%E5%B0%8F%E6%97%B6%E8%A2%AB%E6%8F%90%E9%86%92%E7%82%B9%E5%8D%955%E6%AC%A1",
+      "extra": {
+        "hover": "目前，星巴克上海多家门店实行“消费入座”。记者发现，有顾客开会一个多小时被店员提醒点单5次，感觉像被“撵人走”，但也有顾客表示理解商业行为。星巴克回应称，门店座位为消费顾客提供，倡导友善共享，伙伴会始终秉持友善、尊重和同理心原则执行。"
+      }
+    }
+  ]
+}

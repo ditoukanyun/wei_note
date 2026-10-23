@@ -1,0 +1,51 @@
+{
+  "source": "steam",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://store.steampowered.com/app/570/Dota_2/",
+      "title": "Dota 2",
+      "id": "https://store.steampowered.com/app/570/Dota_2/",
+      "pubDate": 1792726318088,
+      "extra": {
+        "info": "552,213"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "title": "Counter-Strike 2",
+      "id": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "pubDate": 1792726318088,
+      "extra": {
+        "info": "450,493"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/",
+      "title": "PUBG: BATTLEGROUNDS",
+      "id": "https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/",
+      "pubDate": 1792726318088,
+      "extra": {
+        "info": "195,783"
+      }
+    },
+    {
+      "url": "https://steamcommunity.com/app/3393110",
+      "title": "AION 2",
+      "id": "https://steamcommunity.com/app/3393110",
+      "pubDate": 1792726318088,
+      "extra": {
+        "info": "160,110"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "title": "Bongo Cat",
+      "id": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "pubDate": 1792726318088,
+      "extra": {
+        "info": "141,014"
+      }
+    }
+  ]
+}

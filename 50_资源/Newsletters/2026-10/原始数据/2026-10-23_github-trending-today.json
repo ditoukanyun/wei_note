@@ -1,0 +1,51 @@
+{
+  "source": "github-trending-today",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/php/php-src",
+      "title": "php /      php-src",
+      "id": "/php/php-src",
+      "extra": {
+        "info": "✰ 41,238",
+        "hover": "The PHP Interpreter"
+      }
+    },
+    {
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "title": "anthropics /      knowledge-work-plugins",
+      "id": "/anthropics/knowledge-work-plugins",
+      "extra": {
+        "info": "✰ 31,704",
+        "hover": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+      }
+    },
+    {
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "title": "DietrichGebert /      ponytail",
+      "id": "/DietrichGebert/ponytail",
+      "extra": {
+        "info": "✰ 173,711",
+        "hover": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+      }
+    },
+    {
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "title": "cloudflare /      security-audit-skill",
+      "id": "/cloudflare/security-audit-skill",
+      "extra": {
+        "info": "✰ 39,812",
+        "hover": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+      }
+    },
+    {
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "title": "Graphify-Labs /      graphify",
+      "id": "/Graphify-Labs/graphify",
+      "extra": {
+        "info": "✰ 133,113",
+        "hover": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store."
+      }
+    }
+  ]
+}

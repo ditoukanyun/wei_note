@@ -1,0 +1,46 @@
+{
+  "source": "xueqiu",
+  "count": 5,
+  "items": [
+    {
+      "id": "SZ300308",
+      "url": "https://xueqiu.com/s/SZ300308",
+      "title": "中际旭创",
+      "extra": {
+        "info": "-5.76% SZ"
+      }
+    },
+    {
+      "id": "SZ300750",
+      "url": "https://xueqiu.com/s/SZ300750",
+      "title": "宁德时代",
+      "extra": {
+        "info": "3.36% SZ"
+      }
+    },
+    {
+      "id": "SZ301660",
+      "url": "https://xueqiu.com/s/SZ301660",
+      "title": "粤芯半导体-U",
+      "extra": {
+        "info": "15.95% SZ"
+      }
+    },
+    {
+      "id": "SZ300502",
+      "url": "https://xueqiu.com/s/SZ300502",
+      "title": "新易盛",
+      "extra": {
+        "info": "-7.82% SZ"
+      }
+    },
+    {
+      "id": "SZ001309",
+      "url": "https://xueqiu.com/s/SZ001309",
+      "title": "德明利",
+      "extra": {
+        "info": "1.98% SZ"
+      }
+    }
+  ]
+}

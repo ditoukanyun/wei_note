@@ -1,0 +1,19 @@
+source: zaobao
+generatedAt: 2026/10/23 11:54:32 CST
+finalStatus: nonzero
+
+attempt 1
+status: nonzero
+exitCode: 2
+signal: null
+timeoutMs: 10000
+stderr:
+{"error":"Fetch failed for \"zaobao\": [GET] \"https://www.zaochenbao.com/realtime/\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()","code":"FETCH_ERROR"}
+
+attempt 2
+status: nonzero
+exitCode: 2
+signal: null
+timeoutMs: 15000
+stderr:
+{"error":"Fetch failed for \"zaobao\": [GET] \"https://www.zaochenbao.com/realtime/\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()","code":"FETCH_ERROR"}
