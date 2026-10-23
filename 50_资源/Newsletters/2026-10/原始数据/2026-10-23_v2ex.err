@@ -1,19 +1,17 @@
 source: v2ex
-generatedAt: 2026/10/23 11:54:31 CST
-finalStatus: nonzero
+generatedAt: 2026/10/23 23:22:20 CST
+finalStatus: timeout
 
 attempt 1
-status: nonzero
-exitCode: 2
-signal: null
+status: timeout
+exitCode: null
+signal: SIGTERM
 timeoutMs: 10000
-stderr:
-{"error":"Fetch failed for \"v2ex\": [GET] \"https://www.v2ex.com/feed/programmer.json\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?","code":"FETCH_ERROR"}
+error: Timed out after 10000ms
 
 attempt 2
-status: nonzero
-exitCode: 2
-signal: null
+status: timeout
+exitCode: null
+signal: SIGTERM
 timeoutMs: 15000
-stderr:
-{"error":"Fetch failed for \"v2ex\": [GET] \"https://www.v2ex.com/feed/programmer.json\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?","code":"FETCH_ERROR"}
+error: Timed out after 15000ms

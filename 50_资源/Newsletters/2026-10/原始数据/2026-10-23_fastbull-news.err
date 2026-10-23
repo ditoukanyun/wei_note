@@ -1,0 +1,10 @@
+source: fastbull-news
+generatedAt: 2026/10/23 23:21:52 CST
+finalStatus: timeout
+
+attempt 1
+status: timeout
+exitCode: null
+signal: SIGTERM
+timeoutMs: 10000
+error: Timed out after 10000ms

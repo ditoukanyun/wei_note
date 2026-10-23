@@ -1,25 +1,35 @@
 #!/usr/bin/env python3
-"""每日新闻 Newsletter 生成器（无 LLM，模板化）。
+"""每日新闻 Newsletter 生成 + 发布（无 LLM，模板化）。
 
 流程：
 1. 运行 scripts/newsnow-daily.mjs 抓取 66 个新闻源
-2. 读取当天 summary 与各成功源 JSON
-3. 模板化生成 Newsletter markdown 到 50_资源/Newsletters/<月份>/<日期>-Newsletter.md
-4. stdout 输出适合 Telegram 阅读的摘要（由 cron no_agent 模式原样推送）
+2. 读取当天 summary 与各成功源 JSON，模板化生成 Newsletter markdown
+3. 抢救服务器端 OpenClaw 自动提交的独有文件（如有）并入仓库
+4. git 提交推送 GitHub（推送远程）
+5. 服务器 git 同步到最新（防止 OpenClaw 旧构建覆盖站点）
+6. Mac 构建 Quartz + rsync 到服务器 /note/ 路径（部署更新）
+7. stdout 输出 Telegram 摘要，含完整版站点链接
 
 设计上完全不依赖 LLM，绕开内容过滤器，保证每天稳定产出。
 """
 
 import json
+import shlex
 import subprocess
 import sys
+import urllib.parse
 from datetime import datetime
 from pathlib import Path
+from typing import List, Optional, Tuple
 from zoneinfo import ZoneInfo
 
 TIME_ZONE = ZoneInfo("Asia/Shanghai")
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR_REL = "50_资源/Newsletters"
+
+SSH_TARGET = "root@118.145.223.121"
+SERVER_REPO = "/code/wei_note"
+SITE_BASE = "http://118.145.223.121/note"
 
 SOURCE_LABELS = {
     "36kr": "36氪", "36kr-quick": "36氪快讯", "36kr-renqi": "36氪人气",
@@ -88,11 +98,100 @@ def load_json(path: Path):
         return None
 
 
-def run_collection() -> subprocess.CompletedProcess:
+def run(cmd: list[str], timeout: int = 600) -> subprocess.CompletedProcess:
     return subprocess.run(
-        ["node", str(PROJECT_ROOT / "scripts" / "newsnow-daily.mjs")],
-        cwd=PROJECT_ROOT, capture_output=True, text=True, timeout=900,
+        cmd, cwd=PROJECT_ROOT, capture_output=True, text=True, timeout=timeout,
     )
+
+
+def ssh_run(remote_cmd: str, timeout: int = 120) -> subprocess.CompletedProcess:
+    return run(["ssh", "-o", "BatchMode=yes", "-o", "ConnectTimeout=15",
+                SSH_TARGET, remote_cmd], timeout=timeout)
+
+
+def log(msg: str) -> None:
+    print(msg, file=sys.stderr)
+
+
+# ---------------------------------------------------------------------------
+# 部署链路
+# ---------------------------------------------------------------------------
+
+def rescue_server_files() -> Tuple[List[str], Optional[str]]:
+    """把服务器仓库独有（GitHub 没有）的文件抢救回本地仓库，如 OpenClaw 的自动日记。
+
+    git diff --diff-filter=A origin/main HEAD = 从 origin/main 到 HEAD 新增的文件，
+    即只存在于服务器 HEAD、GitHub 没有的文件。
+    """
+    proc = ssh_run(
+        f"cd {shlex.quote(SERVER_REPO)} && git fetch -q origin && "
+        "git diff --name-only --diff-filter=A origin/main HEAD"
+    )
+    if proc.returncode != 0:
+        return [], f"列出服务器独有文件失败: {proc.stderr.strip()[:120]}"
+
+    rescued = []
+    for rel in proc.stdout.splitlines():
+        rel = rel.strip()
+        if not rel:
+            continue
+        # git 会把非 ASCII 路径转成八进制转义，用 git 自身做路径解码最稳
+        show = ssh_run(
+            f"cd {shlex.quote(SERVER_REPO)} && "
+            f"git show \"HEAD:$(python3 -c 'import sys;print(sys.argv[1].encode().decode(\"unicode_escape\").encode(\"latin-1\").decode())' {shlex.quote(rel)})\""
+        )
+        if show.returncode != 0 or not show.stdout:
+            continue
+        try:
+            rel_decoded = (rel.encode("utf-8").decode("unicode_escape")
+                           .encode("latin-1").decode("utf-8"))
+        except Exception:
+            rel_decoded = rel
+        dest = PROJECT_ROOT / rel_decoded
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_text(show.stdout, encoding="utf-8")
+        rescued.append(rel_decoded)
+    return rescued, None
+
+
+def git_publish(date: str) -> Optional[str]:
+    run(["git", "add", "-A"])
+    commit = run(["git", "commit", "-m", f"docs: {date} 每日新闻 Newsletter 自动发布", "-q"])
+    if commit.returncode != 0 and "nothing to commit" not in (commit.stdout + commit.stderr):
+        return f"git commit 失败: {commit.stderr.strip()[:120]}"
+    push = run(["git", "push", "origin", "main"], timeout=180)
+    if push.returncode != 0:
+        return f"git push 失败: {(push.stderr or push.stdout).strip()[:120]}"
+    return None
+
+
+def server_sync() -> Optional[str]:
+    proc = ssh_run(
+        f"cd {shlex.quote(SERVER_REPO)} && git fetch -q origin && "
+        "git reset --hard origin/main -q"
+    )
+    if proc.returncode != 0:
+        return f"服务器 git 同步失败: {proc.stderr.strip()[:120]}"
+    return None
+
+
+def build_and_ship() -> Optional[str]:
+    build = run(["npm", "run", "build"], timeout=600)
+    if build.returncode != 0:
+        return f"Quartz 构建失败: {(build.stderr or build.stdout).strip()[-200:]}"
+    sync = run(["rsync", "-a", "--delete", "-e", "ssh -o BatchMode=yes",
+                "public/", f"{SSH_TARGET}:{SERVER_REPO}/public/"], timeout=600)
+    if sync.returncode != 0:
+        return f"rsync 部署失败: {sync.stderr.strip()[:120]}"
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Newsletter 生成
+# ---------------------------------------------------------------------------
+
+def run_collection() -> subprocess.CompletedProcess:
+    return run(["node", str(PROJECT_ROOT / "scripts" / "newsnow-daily.mjs")], timeout=900)
 
 
 def build_newsletter(date: str, raw_dir: Path, summary: dict,
@@ -185,7 +284,8 @@ def build_newsletter(date: str, raw_dir: Path, summary: dict,
 
 
 def build_digest(date: str, summary: dict, digest_items: list,
-                 newsletter_rel: str, generated_at: str) -> str:
+                 newsletter_rel: str, generated_at: str,
+                 deploy_status: list[str], newsletter_url: str) -> str:
     counts = summary.get("counts", {})
     stats = (f"{counts.get('success', 0)} 成功 / {counts.get('nonzero', 0)} 失败 / "
              f"{counts.get('timeout', 0)} 超时 / {counts.get('empty', 0)} 空 / "
@@ -201,7 +301,9 @@ def build_digest(date: str, summary: dict, digest_items: list,
         lines.append("（今日无可展示条目）")
         lines.append("")
     lines.append(f"📊 抓取统计：{stats}")
-    lines.append(f"📁 Newsletter：{newsletter_rel}")
+    lines.append(f"🔗 完整版：{newsletter_url}")
+    lines.extend(deploy_status)
+    lines.append(f"📁 本地文件：{newsletter_rel}")
     lines.append(f"🕐 {generated_at}")
     return "\n".join(lines)
 
@@ -216,7 +318,7 @@ def main() -> int:
     summary_path = raw_dir / f"{date}_newsnow-summary.json"
     newsletter_path = PROJECT_ROOT / RAW_DIR_REL / month_key / f"{date}-Newsletter.md"
 
-    print(f"[1/3] 运行新闻抓取（约 30-60 秒）...", file=sys.stderr)
+    log("[1/5] 运行新闻抓取（约 30-60 秒）...")
     proc = run_collection()
     if proc.returncode != 0 and not summary_path.exists():
         print("❌ 每日新闻摘要抓取失败：", proc.stderr.strip()[:300] or proc.stdout.strip()[:300])
@@ -227,7 +329,7 @@ def main() -> int:
         print(f"❌ 找不到或无法解析 summary：{summary_path}")
         return 0
 
-    print("[2/3] 读取各源数据并生成 Newsletter...", file=sys.stderr)
+    log("[2/5] 生成 Newsletter...")
     sources_data = {}
     for result in summary.get("results", []):
         if result.get("status") != "success":
@@ -239,9 +341,41 @@ def main() -> int:
     content, digest_items = build_newsletter(date, raw_dir, summary, sources_data, generated_at)
     newsletter_path.write_text(content, encoding="utf-8")
 
-    print("[3/3] 完成", file=sys.stderr)
     newsletter_rel = str(newsletter_path.relative_to(PROJECT_ROOT))
-    print(build_digest(date, summary, digest_items, newsletter_rel, generated_at))
+    newsletter_url = SITE_BASE + "/" + "/".join(
+        urllib.parse.quote(seg) for seg in newsletter_rel.removesuffix(".md").split("/")
+    ) + ".html"
+
+    # 部署链路：每步独立容错，失败记入摘要但不中断后续步骤
+    deploy_status: list[str] = []
+
+    log("[3/5] 抢救服务器独有文件 + git 推送远程...")
+    rescued, rescue_err = rescue_server_files()
+    if rescue_err:
+        deploy_status.append(f"⚠️ 服务器文件抢救: {rescue_err}")
+    elif rescued:
+        deploy_status.append(f"📥 抢救服务器独有文件 {len(rescued)} 个（如 OpenClaw 自动日记）")
+
+    err = git_publish(date)
+    if err:
+        deploy_status.append(f"⚠️ {err}")
+    else:
+        deploy_status.append("📤 已推送 GitHub")
+
+    log("[4/5] 服务器同步 + Quartz 构建部署...")
+    err = server_sync()
+    if err:
+        deploy_status.append(f"⚠️ {err}")
+
+    err = build_and_ship()
+    if err:
+        deploy_status.append(f"⚠️ {err}")
+    else:
+        deploy_status.append(f"🚀 已部署：{SITE_BASE}/")
+
+    log("[5/5] 完成")
+    print(build_digest(date, summary, digest_items, newsletter_rel, generated_at,
+                       deploy_status, newsletter_url))
     return 0
 
 
