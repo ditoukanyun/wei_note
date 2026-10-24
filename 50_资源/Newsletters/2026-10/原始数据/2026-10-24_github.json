@@ -1,0 +1,51 @@
+{
+  "source": "github",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "title": "cloudflare /      security-audit-skill",
+      "id": "/cloudflare/security-audit-skill",
+      "extra": {
+        "info": "✰ 42,724",
+        "hover": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+      }
+    },
+    {
+      "url": "https://github.com/php/php-src",
+      "title": "php /      php-src",
+      "id": "/php/php-src",
+      "extra": {
+        "info": "✰ 41,616",
+        "hover": "The PHP Interpreter"
+      }
+    },
+    {
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "title": "anthropics /      knowledge-work-plugins",
+      "id": "/anthropics/knowledge-work-plugins",
+      "extra": {
+        "info": "✰ 32,427",
+        "hover": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+      }
+    },
+    {
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "title": "NVIDIA /      OpenShell",
+      "id": "/NVIDIA/OpenShell",
+      "extra": {
+        "info": "✰ 19,005",
+        "hover": "OpenShell is the safe, private runtime for autonomous AI agents."
+      }
+    },
+    {
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "title": "Renhuai123 /      ziwei-doushu",
+      "id": "/Renhuai123/ziwei-doushu",
+      "extra": {
+        "info": "✰ 7,104",
+        "hover": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据"
+      }
+    }
+  ]
+}

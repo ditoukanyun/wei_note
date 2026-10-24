@@ -1,34 +1,38 @@
 ---
 date: 2026-10-24
+title: "📰 新闻精选 | 2026-10-24"
 type: newsletter
 tags: [news, daily]
 publish: true
 ---
-# 新闻精选 | 2026-10-24
-> 生成时间: 2026/10/24 16:29 CST
-> 来源: B站热搜、百度热搜、B站热门视频、参考消息、36氪、36氪快讯、36氪人气、财联社深度、财联社热榜、酷安、抖音热榜、豆瓣、虫部落、虫部落热帖、格隆汇、果核剥壳、虫部落最新、凤凰网资讯、虎扑、IT之家、爱奇艺热播、掘金、金十快讯、快手热榜、牛客、腾讯视频热搜、什么值得买、Solidot、俄卫星通讯社、腾讯热榜、澎湃新闻、贴吧热议、今日头条、少数派、华尔街见闻热点、华尔街见闻、华尔街见闻快讯、华尔街见闻新闻、微博热搜、知乎热榜
-> 抓取说明: 通过 `npm run news:daily` 对 66 个 source 做 6 路并发轮询抓取（同站源串行），每源默认 10 秒超时并对慢源做 15 秒窄重试，保持“单源失败跳过、不阻塞成稿”的策略；本稿由模板脚本自动生成，未经过 LLM 润色。
-> 未纳入说明: `bilibili-ranking` 抓取失败（{"error":"Fetch failed for \"bilibili-ranking\": Bilibili ranking API returned u）；`cls` 抓取失败（{"error":"Fetch failed for \"cls\": [GET] \"https://www.cls.cn/nodeapi/updateTel）；`cls-telegraph` 抓取失败（{"error":"Fetch failed for \"cls-telegraph\": [GET] \"https://www.cls.cn/nodeapi）；`freebuf` 返回空结果；`fastbull` 返回空结果；`fastbull-express` 返回空结果；`linuxdo` 抓取失败（{"error":"Fetch failed for \"linuxdo\": [GET] \"https://linux.do/latest.rss\": <）；`linuxdo-hot` 抓取失败（{"error":"Fetch failed for \"linuxdo-hot\": [GET] \"https://linux.do/top/daily.r）；`linuxdo-latest` 抓取失败（{"error":"Fetch failed for \"linuxdo-latest\": [GET] \"https://linux.do/latest.r）；`fastbull-news` 返回空结果；`mktnews` 抓取失败（{"error":"Fetch failed for \"mktnews\": [GET] \"https://api.mktnews.net/api/flas）；`mktnews-flash` 抓取失败（{"error":"Fetch failed for \"mktnews-flash\": [GET] \"https://api.mktnews.net/ap）；`pcbeta-windows` 返回空结果；`producthunt` 缺环境变量（缺少环境变量: PRODUCTHUNT_API_TOKEN）；`pcbeta-windows11` 返回空结果；`kaopu` 抓取失败（{"error":"Fetch failed for \"kaopu\": [GET] \"https://kaopustorage.blob.core.win）；`v2ex-share` 抓取失败（{"error":"Fetch failed for \"v2ex-share\": [GET] \"https://www.v2ex.com/feed/ide）；`v2ex` 抓取失败（{"error":"Fetch failed for \"v2ex\": [GET] \"https://www.v2ex.com/feed/programme）；`xueqiu` 抓取失败（{"error":"Fetch failed for \"xueqiu\": [GET] \"https://stock.xueqiu.com/v5/stock）；`xueqiu-hotstock` 抓取失败（{"error":"Fetch failed for \"xueqiu-hotstock\": [GET] \"https://stock.xueqiu.com）；`zaobao` 抓取失败（{"error":"Fetch failed for \"zaobao\": [GET] \"https://www.zaochenbao.com/realti）；`github` 超时（Timed out after 15000ms）；`github-trending-today` 超时（Timed out after 15000ms）；`hackernews` 超时（Timed out after 15000ms）；`steam` 超时（Timed out after 15000ms）。
-> 抓取日志: [[原始数据/2026-10-24_newsnow-log|2026-10-24 newsnow 日志]]
+
+> ⏱ 2026/10/24 16:45 CST 自动生成（模板渲染，未经 LLM 润色）
+>
+> 📊 45 成功 / 21 未纳入（详见抓取日志）
+>
+> ⚠️ 未纳入：`cls`、`cls-telegraph`、`freebuf`、`hackernews`、`fastbull`、`linuxdo`、`linuxdo-hot`、`linuxdo-latest`、`fastbull-express`、`pcbeta-windows`、`producthunt`、`pcbeta-windows11` 等 21 个
+>
+> 📋 抓取日志：[[原始数据/2026-10-24_newsnow-log|2026-10-24 newsnow 日志]]
 
 ## 今日速览
 
 - **微博热搜**：[秦始皇兵马俑上发现女性指纹](https://s.weibo.com/weibo?q=%23%E7%A7%A6%E5%A7%8B%E7%9A%87%E5%85%B5%E9%A9%AC%E4%BF%91%E4%B8%8A%E5%8F%91%E7%8E%B0%E5%A5%B3%E6%80%A7%E6%8C%87%E7%BA%B9%23&t=31&band_rank=1&Refer=top)
-- **知乎热榜**：[S16 全球总决赛瑞士轮首日 LPL 战队四战全败创联赛最差开局成绩，如何评价首日他们的表现？](https://www.zhihu.com/question/2097190763675309990)
+- **知乎热榜**：[如何看待泰国旅游部长称「普通游客不会遭绑架」，这类问题「只出现在中国游客」？实际情况是怎样的？](https://www.zhihu.com/question/2096553772138886771)
 - **腾讯热榜**：[白宫称俄乌同意在奥列什基暂时停火](https://view.inews.qq.com/a/20261023A0E07K00)
-- **36氪**：[周鸿祎拟转让奇飞翔艺股权](https://www.36kr.com/newsflashes/4039550110946177)
-- **IT之家**：[平安口袋银行 App 宣布将全面适配苹果 iPhone Duo 手机：支持“待机显示”模式、深度适配内外屏](https://www.ithome.com/1/017/418.htm)
+- **36氪**：[微信回应少量企业微信账号发色情链接：将进一步加大对外挂软件的打击力度](https://www.36kr.com/newsflashes/4039557172499590)
+- **IT之家**：[小鹏汽车官宣在欧洲四国实现累计销量破万，覆盖丹麦、挪威、法国、德国](https://www.ithome.com/1/017/422.htm)
+- **GitHub Trending**：[cloudflare /      security-audit-skill](https://github.com/cloudflare/security-audit-skill)
 - **澎湃新闻**：[马上评｜“独生女继承遗产后遭离婚分产”怎么会反复上热搜](https://www.thepaper.cn/newsDetail_forward_34324278)
 
 ## 综合与时政
 
 ### 百度热搜
 
-- [年轻人正在抛弃帆布鞋](https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%AD%A3%E5%9C%A8%E6%8A%9B%E5%BC%83%E5%B8%86%E5%B8%83%E9%9E%8B)
+- [秦兵马俑上发现女性指纹](https://www.baidu.com/s?wd=%E7%A7%A6%E5%85%B5%E9%A9%AC%E4%BF%91%E4%B8%8A%E5%8F%91%E7%8E%B0%E5%A5%B3%E6%80%A7%E6%8C%87%E7%BA%B9)
 - [光刻机被抢疯了](https://www.baidu.com/s?wd=%E5%85%89%E5%88%BB%E6%9C%BA%E8%A2%AB%E6%8A%A2%E7%96%AF%E4%BA%86)
 - [“蛟龙”出海记](https://www.baidu.com/s?wd=%E2%80%9C%E8%9B%9F%E9%BE%99%E2%80%9D%E5%87%BA%E6%B5%B7%E8%AE%B0)
-- [31省份2025年婚姻数据公布](https://www.baidu.com/s?wd=31%E7%9C%81%E4%BB%BD2025%E5%B9%B4%E5%A9%9A%E5%A7%BB%E6%95%B0%E6%8D%AE%E5%85%AC%E5%B8%83)
-- [豆浆机大王一个月涨了120%](https://www.baidu.com/s?wd=%E8%B1%86%E6%B5%86%E6%9C%BA%E5%A4%A7%E7%8E%8B%E4%B8%80%E4%B8%AA%E6%9C%88%E6%B6%A8%E4%BA%86120%25)
+- [苏州市委书记范波会见谷爱凌](https://www.baidu.com/s?wd=%E8%8B%8F%E5%B7%9E%E5%B8%82%E5%A7%94%E4%B9%A6%E8%AE%B0%E8%8C%83%E6%B3%A2%E4%BC%9A%E8%A7%81%E8%B0%B7%E7%88%B1%E5%87%8C)
+- [年轻人正在抛弃帆布鞋](https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%AD%A3%E5%9C%A8%E6%8A%9B%E5%BC%83%E5%B8%86%E5%B8%83%E9%9E%8B)
 
 ### 参考消息
 
@@ -72,11 +76,11 @@ publish: true
 
 ### 今日头条
 
-- [红军最小军团长唯一照片首次公开](https://www.toutiao.com/trending/7699855660117114922/)
+- [父亲突发脑梗儿子用豆包抢出救命时间](https://www.toutiao.com/trending/7700114606144032283/)
 - [苏州市委书记会见谷爱凌](https://www.toutiao.com/trending/7699845921366392874/)
 - [星夜驰援 守护生命](https://www.toutiao.com/trending/7699980351808258067/)
-- [父亲突发脑梗儿子用豆包抢出救命时间](https://www.toutiao.com/trending/7700114606144032283/)
-- [直击台风“蔷琵”实时路径](https://www.toutiao.com/trending/7699050489820332074/)
+- [红军最小军团长唯一照片首次公开](https://www.toutiao.com/trending/7699855660117114922/)
+- [乌称约950万公民流落海外](https://www.toutiao.com/trending/7699233385440460841/)
 
 ### 微博热搜
 
@@ -84,33 +88,33 @@ publish: true
 - [匡威卖不动了吗](https://s.weibo.com/weibo?q=%23%E5%8C%A1%E5%A8%81%E5%8D%96%E4%B8%8D%E5%8A%A8%E4%BA%86%E5%90%97%23&t=31&band_rank=2&Refer=top)
 - [个人账户跨省共济全国落地](https://s.weibo.com/weibo?q=%23%E4%B8%AA%E4%BA%BA%E8%B4%A6%E6%88%B7%E8%B7%A8%E7%9C%81%E5%85%B1%E6%B5%8E%E5%85%A8%E5%9B%BD%E8%90%BD%E5%9C%B0%23&t=31&band_rank=3&Refer=top)
 - [老年人摔倒后身体断崖式衰退真相](https://s.weibo.com/weibo?q=%23%E8%80%81%E5%B9%B4%E4%BA%BA%E6%91%94%E5%80%92%E5%90%8E%E8%BA%AB%E4%BD%93%E6%96%AD%E5%B4%96%E5%BC%8F%E8%A1%B0%E9%80%80%E7%9C%9F%E7%9B%B8%23&t=31&band_rank=4&Refer=top)
-- [父亲突发脑梗儿子用AI抢出救命时间](https://s.weibo.com/weibo?q=%23%E7%88%B6%E4%BA%B2%E7%AA%81%E5%8F%91%E8%84%91%E6%A2%97%E5%84%BF%E5%AD%90%E7%94%A8AI%E6%8A%A2%E5%87%BA%E6%95%91%E5%91%BD%E6%97%B6%E9%97%B4%23&t=31&band_rank=5&Refer=top)
+- [成都蓉城vs大连英博](https://s.weibo.com/weibo?q=%E6%88%90%E9%83%BD%E8%93%89%E5%9F%8Evs%E5%A4%A7%E8%BF%9E%E8%8B%B1%E5%8D%9A&t=31&band_rank=5&Refer=top)
 
 ### 知乎热榜
 
-- [S16 全球总决赛瑞士轮首日 LPL 战队四战全败创联赛最差开局成绩，如何评价首日他们的表现？](https://www.zhihu.com/question/2097190763675309990)
 - [如何看待泰国旅游部长称「普通游客不会遭绑架」，这类问题「只出现在中国游客」？实际情况是怎样的？](https://www.zhihu.com/question/2096553772138886771)
+- [S16 全球总决赛瑞士轮首日 LPL 战队四战全败创联赛最差开局成绩，如何评价首日他们的表现？](https://www.zhihu.com/question/2097190763675309990)
 - [如何评价英国拟征收看剧税，观看 YouTube 、 Netflix 等网络流媒体需每年缴纳 180 英镑？](https://www.zhihu.com/question/2096182423621059644)
 - [如何评价博主称「游戏劫持了人生最珍贵的算力，导致现实问题一个都没碰」的观点？](https://www.zhihu.com/question/2096910627998585435)
 - [听说月球在以每年四厘米的距离离开地球，这是不是真的？](https://www.zhihu.com/question/299894978)
 
 ## 财经与产业
 
-### 36氪
-
-- [周鸿祎拟转让奇飞翔艺股权](https://www.36kr.com/newsflashes/4039550110946177)
-- [工业互联网操作系统产业联盟在深成立](https://www.36kr.com/newsflashes/4039544721347717)
-- [减少重复开发和建设成本 我国启动自主实验室标准体系研制工作](https://www.36kr.com/newsflashes/4039541165200256)
-- [智元110台人形机器人同时跳舞，创吉尼斯世界纪录](https://www.36kr.com/newsflashes/4039510353007750)
-- [南方区域电力市场经营主体已超29万家](https://www.36kr.com/newsflashes/4039394416006018)
-
 ### 36氪快讯
 
+- [微信回应少量企业微信账号发色情链接：将进一步加大对外挂软件的打击力度](https://www.36kr.com/newsflashes/4039557172499590)
 - [周鸿祎拟转让奇飞翔艺股权](https://www.36kr.com/newsflashes/4039550110946177)
 - [工业互联网操作系统产业联盟在深成立](https://www.36kr.com/newsflashes/4039544721347717)
 - [减少重复开发和建设成本 我国启动自主实验室标准体系研制工作](https://www.36kr.com/newsflashes/4039541165200256)
 - [智元110台人形机器人同时跳舞，创吉尼斯世界纪录](https://www.36kr.com/newsflashes/4039510353007750)
-- [南方区域电力市场经营主体已超29万家](https://www.36kr.com/newsflashes/4039394416006018)
+
+### 36氪
+
+- [微信回应少量企业微信账号发色情链接：将进一步加大对外挂软件的打击力度](https://www.36kr.com/newsflashes/4039557172499590)
+- [周鸿祎拟转让奇飞翔艺股权](https://www.36kr.com/newsflashes/4039550110946177)
+- [工业互联网操作系统产业联盟在深成立](https://www.36kr.com/newsflashes/4039544721347717)
+- [减少重复开发和建设成本 我国启动自主实验室标准体系研制工作](https://www.36kr.com/newsflashes/4039541165200256)
+- [智元110台人形机器人同时跳舞，创吉尼斯世界纪录](https://www.36kr.com/newsflashes/4039510353007750)
 
 ### 36氪人气
 
@@ -133,8 +137,8 @@ publish: true
 - [主动ETF，帮投资者“被动抄底”？首日发行即冲150亿，摩根易方达富国三只“日光”](https://www.cls.cn/detail/2513701)
 - [国常会：要加快建设生育友好型社会](https://www.cls.cn/detail/2513857)
 - [【早报】特朗普：或对伊发动小规模“史诗怒火”；证监会：核准设立花旗证券（中国）有限公司；A股多家龙头公司发布三季报](https://www.cls.cn/detail/2514116)
-- [美股收盘：油价暴涨压制市场情绪 三大指数集体收低](https://www.cls.cn/detail/2514112)
 - [又一AI医药“卖水人”股价新高：干湿闭环后 产业迈向下一命题](https://www.cls.cn/detail/2513560)
+- [美股收盘：油价暴涨压制市场情绪 三大指数集体收低](https://www.cls.cn/detail/2514112)
 
 ### 格隆汇
 
@@ -146,19 +150,11 @@ publish: true
 
 ### 金十快讯
 
+- [乌克兰防长称“星链”及“星盾”已恢复稳定通信](https://flash.jin10.com/detail/20261024163356974800)
+- [中国地震台网自动测定：10月24日16时29分在新疆伊犁州巩留县附近发生4.5级左右地震，最终结果以正式速报为准。](https://flash.jin10.com/detail/20261024163255596800)
 - [沙特民防部门： 解除塔伊夫、吉达的危险警报。](https://flash.jin10.com/detail/20261024162905055800)
 - [沙特民防部门：延布的危险警报已解除。](https://flash.jin10.com/detail/20261024162723618800)
 - [沙特民防部门：麦加危险警报已解除。](https://flash.jin10.com/detail/20261024162655421800)
-- [内塔尼亚胡授权支持阿根廷对马岛（福克兰群岛）的主权主张](https://flash.jin10.com/detail/20261024162515927800)
-- [沙特民防部门发出多条警报](https://flash.jin10.com/detail/20261024162133563800)
-
-### 华尔街见闻热点
-
-- [油价飙升引发通胀忧虑，美股美债双双承压，苹果市值一度超英伟达，黄金周跌4%](https://wallstreetcn.com/articles/3784279)
-- [奇迹日再现！创业板暴涨超4%，“易中天”午后集体反攻，长鑫大涨6%，机器人掀涨停潮、宇树科技上市首板，恒科指涨超2%](https://wallstreetcn.com/articles/3784272)
-- [重磅信号出现：宽基ETF历史天量](https://wallstreetcn.com/articles/3784317)
-- [Kimi最强3万亿级模型来了！编程智能体测评超过GPT-6，3D建模与金融能力升级，11月4日前开放权重](https://wallstreetcn.com/articles/3784358)
-- [AI“跌倒”，美债“吃饱”！全球“资本争夺战”，市场给出答案](https://wallstreetcn.com/articles/3784376)
 
 ### 华尔街见闻
 
@@ -168,6 +164,22 @@ publish: true
 - [以色列军队在约旦河西岸展开军事行动](https://wallstreetcn.com/livenews/3185112)
 - [美国公布新一批UFO文件 神秘“黑三角”引关注](https://wallstreetcn.com/livenews/3185111)
 
+### 华尔街见闻热点
+
+- [油价飙升引发通胀忧虑，美股美债双双承压，苹果市值一度超英伟达，黄金周跌4%](https://wallstreetcn.com/articles/3784279)
+- [重磅信号出现：宽基ETF历史天量](https://wallstreetcn.com/articles/3784317)
+- [Kimi最强3万亿级模型来了！编程智能体测评超过GPT-6，3D建模与金融能力升级，11月4日前开放权重](https://wallstreetcn.com/articles/3784358)
+- [AI“跌倒”，美债“吃饱”！全球“资本争夺战”，市场给出答案](https://wallstreetcn.com/articles/3784376)
+- [美伊“一触即发”，这个周末“草木皆兵”！油价4月以来首次触及117美元，单月涨超10%](https://wallstreetcn.com/articles/3784375)
+
+### 华尔街见闻新闻
+
+- [曾经疯狂接盘，如今“弹药库”缩水51万亿韩元！韩国散户买不动了](https://wallstreetcn.com/articles/3784394)
+- [刚刚，Kimi K3.1 Pro杀进全球前四，Agent第一！](https://wallstreetcn.com/articles/3784393)
+- [高盛看到了“时代大变局”](https://wallstreetcn.com/charts/41960085)
+- [中国铜进口溢价创12年新高：减产风险会否再推铜价上行？](https://wallstreetcn.com/member/articles/3784345)
+- [“共识交易”的瓦解和新共识的诞生！高盛解答：为何机构当下都在大幅减仓AI](https://wallstreetcn.com/articles/3784388)
+
 ### 华尔街见闻快讯
 
 - [俄乌同意局部停火 三方会谈或于下月举行](https://wallstreetcn.com/livenews/3185115)
@@ -175,14 +187,6 @@ publish: true
 - [去年全国结婚登记676万对，广东结婚登记人数连续四年第一](https://wallstreetcn.com/livenews/3185113)
 - [以色列军队在约旦河西岸展开军事行动](https://wallstreetcn.com/livenews/3185112)
 - [美国公布新一批UFO文件 神秘“黑三角”引关注](https://wallstreetcn.com/livenews/3185111)
-
-### 华尔街见闻新闻
-
-- [刚刚，Kimi K3.1 Pro杀进全球前四，Agent第一！](https://wallstreetcn.com/articles/3784393)
-- [高盛看到了“时代大变局”](https://wallstreetcn.com/charts/41960085)
-- [中国铜进口溢价创12年新高：减产风险会否再推铜价上行？](https://wallstreetcn.com/member/articles/3784345)
-- [“共识交易”的瓦解和新共识的诞生！高盛解答：为何机构当下都在大幅减仓AI](https://wallstreetcn.com/articles/3784388)
-- [韩国人也加入了二创热潮](https://wallstreetcn.com/charts/41960084)
 
 ## 科技与开发者
 
@@ -196,11 +200,11 @@ publish: true
 
 ### IT之家
 
+- [小鹏汽车官宣在欧洲四国实现累计销量破万，覆盖丹麦、挪威、法国、德国](https://www.ithome.com/1/017/422.htm)
+- [小鹏副总裁澄清 00 后美女产品经理发布会“老登”用词：是对内部核心负责人调侃，不指向外部用户](https://www.ithome.com/1/017/421.htm)
+- [飞利浦推出“32E3N3800L”31.5 英寸显示器：4K 60Hz VA 面板，1399 元](https://www.ithome.com/1/017/420.htm)
+- [九号公司与米其林签署战略合作，店内将提供两轮轮胎销售等服务](https://www.ithome.com/1/017/419.htm)
 - [平安口袋银行 App 宣布将全面适配苹果 iPhone Duo 手机：支持“待机显示”模式、深度适配内外屏](https://www.ithome.com/1/017/418.htm)
-- [上市三年，五菱缤果家族累计销量突破 80 万辆](https://www.ithome.com/1/017/417.htm)
-- [网友反馈安克企业账号深夜发送黑灰产链接，官方回应“系账号遭攻击，正配合警方调查工作”](https://www.ithome.com/1/017/416.htm)
-- [华为日本首家直营综合售后服务中心开业：落地东京千代田区神田须田町，紧邻秋叶原商圈](https://www.ithome.com/1/017/414.htm)
-- [腾讯 WorkBuddy 接入模型 Kimi-K3.1-Pro，支持 100 万上下文](https://www.ithome.com/1/017/412.htm)
 
 ### 掘金
 
@@ -209,6 +213,22 @@ publish: true
 - [微信运动每天晚上 10 点推送排行榜，技术上到底有多难？](https://juejin.cn/post/7699320318288494630)
 - [潜伏 20 年没人能利用的 PHP 漏洞，AI 一周做成了武器](https://juejin.cn/post/7698999578180075547)
 - [搞钱点子之生态鱼缸](https://juejin.cn/post/7699215174621364267)
+
+### GitHub Trending
+
+- [cloudflare /      security-audit-skill](https://github.com/cloudflare/security-audit-skill)
+- [php /      php-src](https://github.com/php/php-src)
+- [anthropics /      knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)
+- [NVIDIA /      OpenShell](https://github.com/NVIDIA/OpenShell)
+- [Renhuai123 /      ziwei-doushu](https://github.com/Renhuai123/ziwei-doushu)
+
+### GitHub
+
+- [cloudflare /      security-audit-skill](https://github.com/cloudflare/security-audit-skill)
+- [php /      php-src](https://github.com/php/php-src)
+- [anthropics /      knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)
+- [NVIDIA /      OpenShell](https://github.com/NVIDIA/OpenShell)
+- [Renhuai123 /      ziwei-doushu](https://github.com/Renhuai123/ziwei-doushu)
 
 ### 牛客
 
@@ -241,16 +261,16 @@ publish: true
 - [韩立在九国盟声名远扬](https://search.bilibili.com/all?keyword=%E9%9F%A9%E7%AB%8B)
 - [大肥鱼为什么突然火了](https://search.bilibili.com/all?keyword=%E5%A4%A7%E8%82%A5%E9%B1%BC%E4%B8%BA%E4%BB%80%E4%B9%88%E7%AA%81%E7%84%B6%E7%81%AB%E4%BA%86)
 - [绝区零挽昼实机首曝](https://search.bilibili.com/all?keyword=%E7%BB%9D%E5%8C%BA%E9%9B%B6%E6%8C%BD%E6%98%BC%E5%AE%9E%E6%9C%BA%E9%A6%96%E6%9B%9D)
-- [S16 开门红温](https://search.bilibili.com/all?keyword=S16%20%E5%BC%80%E9%97%A8%E7%BA%A2%E6%B8%A9)
-- [显卡为什么还在涨价](https://search.bilibili.com/all?keyword=%E6%98%BE%E5%8D%A1%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E5%9C%A8%E6%B6%A8%E4%BB%B7)
+- [LPL首轮全败是实力问题吗](https://search.bilibili.com/all?keyword=LPL%E9%A6%96%E8%BD%AE%E5%85%A8%E8%B4%A5%E6%98%AF%E5%AE%9E%E5%8A%9B%E9%97%AE%E9%A2%98%E5%90%97)
+- [S16第二轮哪场最值得看](https://search.bilibili.com/all?keyword=S16%E7%AC%AC%E4%BA%8C%E8%BD%AE%E5%93%AA%E5%9C%BA%E6%9C%80%E5%80%BC%E5%BE%97%E7%9C%8B)
 
 ### B站热搜
 
 - [韩立在九国盟声名远扬](https://search.bilibili.com/all?keyword=%E9%9F%A9%E7%AB%8B)
 - [大肥鱼为什么突然火了](https://search.bilibili.com/all?keyword=%E5%A4%A7%E8%82%A5%E9%B1%BC%E4%B8%BA%E4%BB%80%E4%B9%88%E7%AA%81%E7%84%B6%E7%81%AB%E4%BA%86)
 - [绝区零挽昼实机首曝](https://search.bilibili.com/all?keyword=%E7%BB%9D%E5%8C%BA%E9%9B%B6%E6%8C%BD%E6%98%BC%E5%AE%9E%E6%9C%BA%E9%A6%96%E6%9B%9D)
-- [S16 开门红温](https://search.bilibili.com/all?keyword=S16%20%E5%BC%80%E9%97%A8%E7%BA%A2%E6%B8%A9)
-- [显卡为什么还在涨价](https://search.bilibili.com/all?keyword=%E6%98%BE%E5%8D%A1%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E5%9C%A8%E6%B6%A8%E4%BB%B7)
+- [LPL首轮全败是实力问题吗](https://search.bilibili.com/all?keyword=LPL%E9%A6%96%E8%BD%AE%E5%85%A8%E8%B4%A5%E6%98%AF%E5%AE%9E%E5%8A%9B%E9%97%AE%E9%A2%98%E5%90%97)
+- [S16第二轮哪场最值得看](https://search.bilibili.com/all?keyword=S16%E7%AC%AC%E4%BA%8C%E8%BD%AE%E5%93%AA%E5%9C%BA%E6%9C%80%E5%80%BC%E5%BE%97%E7%9C%8B)
 
 ### B站热门视频
 
@@ -260,6 +280,14 @@ publish: true
 - [【独家】《凡人修仙传之慕兰之战》第21集【总第197集】](https://www.bilibili.com/video/BV1ojn86vEeU)
 - [人工耳蜗里的声音，到底是什么样的？](https://www.bilibili.com/video/BV14Enb6LEDe)
 
+### B站排行榜
+
+- [《绝区零》先导演示丨挽昼](https://www.bilibili.com/video/BV1U3n46GEzY)
+- [折1万次，会坏吗？iPhone Duo深度评测](https://www.bilibili.com/video/BV1xrnz6gEVD)
+- [传统口技表演《大闹天宫》](https://www.bilibili.com/video/BV1xwnE6jEUZ)
+- [《影之刃零》最终预告](https://www.bilibili.com/video/BV1AHnB6NEhM)
+- [《原神》7.2版本PV：「坏灭肇始之时」](https://www.bilibili.com/video/BV1z9nt6aE5H)
+
 ### 酷安
 
 - [尊敬的酷安iPhone Duo机主，谁装了我们最新iOS TF版的，能不能截图让我看看初步适配了iPhone Duo的酷安是啥样的，很好奇。](https://www.coolapk.com/feed/74574455)
@@ -267,14 +295,6 @@ publish: true
 - [苹果折叠屏开售、荣耀WIN2系列登场、英伟达60系显卡被曝延期、高通陷入裁员与散热争议、一加Ace 7系列定档……本周科技圈，产品迭代的脚步很快，热点话题的更迭似乎更快。](https://www.coolapk.com/feed/74562749)
 - [#酷安夜话#  各位老哥，一定要注意自己的身体，体检有异常项的一定要关注，24岁也是体验了一把小鬼门关[受虐滑稽][受虐滑稽][受虐滑稽]](https://www.coolapk.com/feed/74560279)
 - [OriginOS 7 给我的感觉不是功能变多了，而是把截屏、卡包、日历、文件、通知、录音等等这些日常能力串了起来，生活里很多事都能通过小 V 一句话推进。大家感受一下！](https://www.coolapk.com/feed/73785409)
-
-### 抖音热榜
-
-- [中超成都蓉城vs大连英博](https://www.douyin.com/hot/2711309)
-- [各方救援力量抵达西藏](https://www.douyin.com/hot/2709139)
-- [懒人版番茄炖牛肉承包秋冬晚餐](https://www.douyin.com/hot/2709810)
-- [秋日收藏小赛](https://www.douyin.com/hot/2709026)
-- [湖人6人上双胜快船](https://www.douyin.com/hot/2711075)
 
 ### 豆瓣
 
@@ -284,15 +304,15 @@ publish: true
 - [眩晕](https://movie.douban.com/subject/38424785)
 - [登峰传奇：丹增诺盖](https://movie.douban.com/subject/36887293)
 
+### 抖音热榜
+
+- [中超成都蓉城vs大连英博](https://www.douyin.com/hot/2711309)
+- [各方救援力量抵达西藏](https://www.douyin.com/hot/2709139)
+- [台风蔷琵正在我国近海活跃](https://www.douyin.com/hot/2711397)
+- [懒人版番茄炖牛肉承包秋冬晚餐](https://www.douyin.com/hot/2709810)
+- [湖人6人上双胜快船](https://www.douyin.com/hot/2711075)
+
 ### 虫部落
-
-- [免费的两个月GPT plus会员要么？](https://www.chongbuluo.com/thread-25170-1-1.html)
-- [我不敢太高兴，可我真的很想说说这个28岁](https://www.chongbuluo.com/thread-25202-1-1.html)
-- [分享一些影视直播看电视、电影的软件、长期更新](https://www.chongbuluo.com/thread-25011-1-1.html)
-- [副业教程越多，我反而越不敢照着做](https://www.chongbuluo.com/thread-24990-1-1.html)
-- [10万个ppt模版 全部免费下载 目前最全的了](https://www.chongbuluo.com/thread-25108-1-1.html)
-
-### 虫部落热帖
 
 - [免费的两个月GPT plus会员要么？](https://www.chongbuluo.com/thread-25170-1-1.html)
 - [我不敢太高兴，可我真的很想说说这个28岁](https://www.chongbuluo.com/thread-25202-1-1.html)
@@ -307,6 +327,14 @@ publish: true
 - [拿不到工资的伙计们何去何从](https://www.chongbuluo.com/thread-25291-1-1.html)
 - [拿不到工资的伙计们何去何从](https://www.chongbuluo.com/thread-25289-1-1.html)
 - [拿不到工资的伙计们何去何从](https://www.chongbuluo.com/thread-25290-1-1.html)
+
+### 虫部落热帖
+
+- [免费的两个月GPT plus会员要么？](https://www.chongbuluo.com/thread-25170-1-1.html)
+- [我不敢太高兴，可我真的很想说说这个28岁](https://www.chongbuluo.com/thread-25202-1-1.html)
+- [分享一些影视直播看电视、电影的软件、长期更新](https://www.chongbuluo.com/thread-25011-1-1.html)
+- [副业教程越多，我反而越不敢照着做](https://www.chongbuluo.com/thread-24990-1-1.html)
+- [10万个ppt模版 全部免费下载 目前最全的了](https://www.chongbuluo.com/thread-25108-1-1.html)
 
 ### 虎扑
 
@@ -326,8 +354,8 @@ publish: true
 
 ### 快手热榜
 
-- [台风蔷琵实时路径](https://www.kuaishou.com/search/video?searchKey=%E5%8F%B0%E9%A3%8E%E8%94%B7%E7%90%B5%E5%AE%9E%E6%97%B6%E8%B7%AF%E5%BE%84)
 - [直击西藏那曲地震救援现场](https://www.kuaishou.com/search/video?searchKey=%E7%9B%B4%E5%87%BB%E8%A5%BF%E8%97%8F%E9%82%A3%E6%9B%B2%E5%9C%B0%E9%9C%87%E6%95%91%E6%8F%B4%E7%8E%B0%E5%9C%BA)
+- [台风蔷琵正在我国近海活跃](https://www.kuaishou.com/search/video?searchKey=%E5%8F%B0%E9%A3%8E%E8%94%B7%E7%90%B5%E6%AD%A3%E5%9C%A8%E6%88%91%E5%9B%BD%E8%BF%91%E6%B5%B7%E6%B4%BB%E8%B7%83)
 - [军民鱼水情](https://www.kuaishou.com/search/video?searchKey=%E5%86%9B%E6%B0%91%E9%B1%BC%E6%B0%B4%E6%83%85)
 - [第31号台风烟花已生成](https://www.kuaishou.com/search/video?searchKey=%E7%AC%AC31%E5%8F%B7%E5%8F%B0%E9%A3%8E%E7%83%9F%E8%8A%B1%E5%B7%B2%E7%94%9F%E6%88%90)
 - [李启萌跳了收起伤感的眼神](https://www.kuaishou.com/search/video?searchKey=%E6%9D%8E%E5%90%AF%E8%90%8C%E8%B7%B3%E4%BA%86%E6%94%B6%E8%B5%B7%E4%BC%A4%E6%84%9F%E7%9A%84%E7%9C%BC%E7%A5%9E)
@@ -342,16 +370,24 @@ publish: true
 
 ### 什么值得买
 
-- [内锁就是垃圾？吵完40条评论再看：LEKI用户手里其实是三种杖](https://post.smzdm.com/p/agg5ee06/)
-- [6.9K星冲上GitHub：老车机白嫖CarPlay，盒子商家还不用慌](https://post.smzdm.com/p/awwo22ep/)
-- [口子窖既不是浓香也不是酱香：它的"兼"，不是调出来的，是窖池里长出来的](https://post.smzdm.com/p/agg5een6/)
-- [1.1万赞的"剃须刀撒盐清洗"被自己评论区打脸：博朗清洁中心的三方耗材账，双11先算完再买清洁液](https://post.smzdm.com/p/ae6q224z/)
-- [易来PRO应用2.0悄然上线：窗帘、温控、浴霸都能管了，老用户第一反应却是“我的批量设置去哪了”](https://post.smzdm.com/p/ak8lwwe4/)
+- [你在网易云“下载”的歌，可能根本不是你的](https://post.smzdm.com/p/awwo22om/)
+- [黄友政0比3张本智和：国乒男队新生代接班现状与未来挑战](https://post.smzdm.com/p/a3mx5505/)
+- [金价跌破4000、杠杆炒金被清场：交行积存金的买入、提金、变现三本账——买金之前，先把这三笔账数完](https://post.smzdm.com/p/aomv33v7/)
+- [戴森双11前官宣备用机服务：送修没机用？先看清“符合条件”四个字](https://post.smzdm.com/p/aqrqvvm2/)
+- [马刺让文班错防阿门名场面盘点，这防守强度你打几分？](https://post.smzdm.com/p/agg5eeqw/)
 
 ### 贴吧热议
 
 - [丢人!LPL四队瑞士轮首日全败](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28367996&amp;topic_name=%E4%B8%A2%E4%BA%BA%21LPL%E5%9B%9B%E9%98%9F%E7%91%9E%E5%A3%AB%E8%BD%AE%E9%A6%96%E6%97%A5%E5%85%A8%E8%B4%A5)
 - [吧友养活大肥鱼,鲸鱼娘爱做梦](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28368000&amp;topic_name=%E5%90%A7%E5%8F%8B%E5%85%BB%E6%B4%BB%E5%A4%A7%E8%82%A5%E9%B1%BC%2C%E9%B2%B8%E9%B1%BC%E5%A8%98%E7%88%B1%E5%81%9A%E6%A2%A6)
-- [生死内战,TES火拼AL](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28367994&amp;topic_name=%E7%94%9F%E6%AD%BB%E5%86%85%E6%88%98%2CTES%E7%81%AB%E6%8B%BCAL)
+- [老外来华买抗癌药,上演美版药神](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28368001&amp;topic_name=%E8%80%81%E5%A4%96%E6%9D%A5%E5%8D%8E%E4%B9%B0%E6%8A%97%E7%99%8C%E8%8D%AF%2C%E4%B8%8A%E6%BC%94%E7%BE%8E%E7%89%88%E8%8D%AF%E7%A5%9E)
+- [瓦学弟开团撸友,抗吧认栽](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28368002&amp;topic_name=%E7%93%A6%E5%AD%A6%E5%BC%9F%E5%BC%80%E5%9B%A2%E6%92%B8%E5%8F%8B%2C%E6%8A%97%E5%90%A7%E8%AE%A4%E6%A0%BD)
 - [吧友中病毒写检讨,吧主严肃批阅](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28367997&amp;topic_name=%E5%90%A7%E5%8F%8B%E4%B8%AD%E7%97%85%E6%AF%92%E5%86%99%E6%A3%80%E8%AE%A8%2C%E5%90%A7%E4%B8%BB%E4%B8%A5%E8%82%83%E6%89%B9%E9%98%85)
-- [又输欧美,BLG爆冷不敌MKOI](https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28367992&amp;topic_name=%E5%8F%88%E8%BE%93%E6%AC%A7%E7%BE%8E%2CBLG%E7%88%86%E5%86%B7%E4%B8%8D%E6%95%8CMKOI)
+
+### Steam
+
+- [Counter-Strike 2](https://store.steampowered.com/app/730/CounterStrike_2/)
+- [Dota 2](https://store.steampowered.com/app/570/Dota_2/)
+- [PUBG: BATTLEGROUNDS](https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/)
+- [AION 2](https://steamcommunity.com/app/3393110)
+- [Bongo Cat](https://store.steampowered.com/app/3419430/Bongo_Cat/)

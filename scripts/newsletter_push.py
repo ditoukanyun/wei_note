@@ -232,20 +232,25 @@ def build_newsletter(date: str, raw_dir: Path, summary: dict,
     lines = [
         "---",
         f"date: {date}",
+        f'title: "📰 新闻精选 | {date}"',
         "type: newsletter",
         "tags: [news, daily]",
         "publish: true",
         "---",
-        f"# 新闻精选 | {date}",
-        f"> 生成时间: {generated_at}",
-        "> 来源: " + "、".join(unique_labels),
-        "> 抓取说明: 通过 `npm run news:daily` 对 66 个 source 做 6 路并发轮询抓取（同站源串行），"
-        "每源默认 10 秒超时并对慢源做 15 秒窄重试，保持“单源失败跳过、不阻塞成稿”的策略；"
-        "本稿由模板脚本自动生成，未经过 LLM 润色。",
+        "",
+        f"> ⏱ {generated_at} 自动生成（模板渲染，未经 LLM 润色）",
+        ">",
+        f"> 📊 {len(success)} 成功 / {len(not_included)} 未纳入（详见抓取日志）",
     ]
     if not_included:
-        lines.append("> 未纳入说明: " + "；".join(not_included) + "。")
-    lines.append(f"> 抓取日志: [[原始数据/{date}_newsnow-log|{date} newsnow 日志]]")
+        compact = [f"`{r['source']}`" for r in results if r.get("status") != "success"]
+        shown = "、".join(compact[:12])
+        if len(compact) > 12:
+            shown += f" 等 {len(compact)} 个"
+        lines.append(">")
+        lines.append(f"> ⚠️ 未纳入：{shown}")
+    lines.append(">")
+    lines.append(f"> 📋 抓取日志：[[原始数据/{date}_newsnow-log|{date} newsnow 日志]]")
     lines.append("")
 
     # 今日速览（机械提取：优先源各取第 1 条）
