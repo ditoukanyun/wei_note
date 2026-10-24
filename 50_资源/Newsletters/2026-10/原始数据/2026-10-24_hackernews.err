@@ -1,19 +1,17 @@
 source: hackernews
-generatedAt: 2026/10/24 08:00:25 CST
-finalStatus: nonzero
+generatedAt: 2026/10/24 16:28:13 CST
+finalStatus: timeout
 
 attempt 1
-status: nonzero
-exitCode: 2
-signal: null
+status: timeout
+exitCode: null
+signal: SIGTERM
 timeoutMs: 10000
-stderr:
-{"error":"Fetch failed for \"hackernews\": [GET] \"https://news.ycombinator.com\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?","code":"FETCH_ERROR"}
+error: Timed out after 10000ms
 
 attempt 2
-status: nonzero
-exitCode: 2
-signal: null
+status: timeout
+exitCode: null
+signal: SIGTERM
 timeoutMs: 15000
-stderr:
-{"error":"Fetch failed for \"hackernews\": [GET] \"https://news.ycombinator.com\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?","code":"FETCH_ERROR"}
+error: Timed out after 15000ms

@@ -8,7 +8,7 @@
       "title": "【果核视频】那些Github上的奇怪项目，AI也搞抽象了【第九期】",
       "extra": {
         "hover": "果核已经把高清视频上传到B站，大家可以跳转B站观看，体验更佳！B站：https://www.bilibili.com/video/BV1Sant62EWD/",
-        "date": 1792753224619
+        "date": 1792754868410
       }
     },
     {
@@ -17,7 +17,7 @@
       "title": "Android Lightroom CC v11.6.11 修改版",
       "extra": {
         "hover": "手机版 Lightroom 由神奇的 Adobe Photoshop 技术提供支持，让您可以在智能手机或平板电脑上制作和分享专业质量的图像。Raw HDR 功能可为您提供最佳的多功...",
-        "date": 1792753224620
+        "date": 1792751268410
       }
     },
     {
@@ -26,7 +26,7 @@
       "title": "Android Easy Notes v1.3.64.0929 VIP版",
       "extra": {
         "hover": "Easy Notes 是一款适用于Android 的全新易用的记事本、笔记本、备忘录、彩色便利贴、提醒事项、加密笔记、记事应用程序。有了这个简单的记事本应用程序，您可以使用彩色背景...",
-        "date": 1792753224620
+        "date": 1792751268411
       }
     },
     {
@@ -35,7 +35,7 @@
       "title": "Ghost Downloader(多线程下载器) v4.4.5 绿色版",
       "extra": {
         "hover": "Ghost Downloader 是一款多线程下载工具，它完全由Python语言开发而成。这款软件不仅支持高效的多线程下载技术，还具备断点续传功能，这意味着即使下载过程中遇到网络中...",
-        "date": 1792749624620
+        "date": 1792751268411
       }
     },
     {
@@ -44,7 +44,7 @@
       "title": "FluxDown(下载工具) v0.6.1 便携版",
       "extra": {
         "hover": "FluxDown 是一款Rust 驱动的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力链接及 HLS/DASH 流媒体，智能多线程加速与浏览器无缝集成。精美界...",
-        "date": 1792749624620
+        "date": 1792751268411
       }
     }
   ]

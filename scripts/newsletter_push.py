@@ -29,6 +29,10 @@ RAW_DIR_REL = "50_资源/Newsletters"
 
 SSH_TARGET = "root@118.145.223.121"
 SERVER_REPO = "/code/wei_note"
+# 站点部署到 OpenClaw 不会触碰的目录：OpenClaw 每天 ~10:30 的自动同步会
+# git clean 掉 /code/wei_note 下的 gitignore 产物（含 public/），
+# 所以 nginx 服务的目录必须放在仓库之外，避免每日被清空。
+DEPLOY_TARGET = "/srv/wei-note-site"
 SITE_BASE = "http://118.145.223.121/note"
 
 SOURCE_LABELS = {
@@ -180,7 +184,7 @@ def build_and_ship() -> Optional[str]:
     if build.returncode != 0:
         return f"Quartz 构建失败: {(build.stderr or build.stdout).strip()[-200:]}"
     sync = run(["rsync", "-a", "--delete", "-e", "ssh -o BatchMode=yes",
-                "public/", f"{SSH_TARGET}:{SERVER_REPO}/public/"], timeout=600)
+                "public/", f"{SSH_TARGET}:{DEPLOY_TARGET}/"], timeout=600)
     if sync.returncode != 0:
         return f"rsync 部署失败: {sync.stderr.strip()[:120]}"
     return None
@@ -362,11 +366,7 @@ def main() -> int:
     else:
         deploy_status.append("📤 已推送 GitHub")
 
-    log("[4/5] 服务器同步 + Quartz 构建部署...")
-    err = server_sync()
-    if err:
-        deploy_status.append(f"⚠️ {err}")
-
+    log("[4/5] Quartz 构建部署（目标 /srv/wei-note-site，不经过服务器 git 仓库）...")
     err = build_and_ship()
     if err:
         deploy_status.append(f"⚠️ {err}")
