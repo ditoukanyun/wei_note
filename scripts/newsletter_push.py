@@ -163,6 +163,12 @@ def git_publish(date: str) -> Optional[str]:
     commit = run(["git", "commit", "-m", f"docs: {date} 每日新闻 Newsletter 自动发布", "-q"])
     if commit.returncode != 0 and "nothing to commit" not in (commit.stdout + commit.stderr):
         return f"git commit 失败: {commit.stderr.strip()[:120]}"
+    # OpenClaw 也会向 GitHub 推送（如自动同步日记），先 rebase 到最新再推
+    run(["git", "fetch", "origin"], timeout=120)
+    pull = run(["git", "pull", "--rebase", "origin", "main"], timeout=180)
+    if pull.returncode != 0:
+        run(["git", "rebase", "--abort"])
+        return f"git rebase 失败（需人工处理冲突）: {(pull.stderr or pull.stdout).strip()[:120]}"
     push = run(["git", "push", "origin", "main"], timeout=180)
     if push.returncode != 0:
         return f"git push 失败: {(push.stderr or push.stdout).strip()[:120]}"

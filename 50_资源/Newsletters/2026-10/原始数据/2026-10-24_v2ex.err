@@ -1,5 +1,5 @@
 source: v2ex
-generatedAt: 2026/10/24 16:27:54 CST
+generatedAt: 2026/10/24 16:29:35 CST
 finalStatus: nonzero
 
 attempt 1
@@ -16,4 +16,4 @@ exitCode: 2
 signal: null
 timeoutMs: 15000
 stderr:
-{"error":"Fetch failed for \"v2ex\": [GET] \"https://www.v2ex.com/feed/ideas.json\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?","code":"FETCH_ERROR"}
+{"error":"Fetch failed for \"v2ex\": [GET] \"https://www.v2ex.com/feed/programmer.json\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?","code":"FETCH_ERROR"}
