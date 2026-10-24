@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3784372,
+      "title": "华尔街见闻早餐FM-Radio | 2026年10月24日",
+      "extra": {
+        "date": 1792797117000
+      },
+      "url": "https://wallstreetcn.com/articles/3784372"
+    },
+    {
+      "id": 3784369,
+      "title": "降级呼声四起，穆迪对法国“手下留情”：维持Aa3评级，但保留负面展望",
+      "extra": {
+        "date": 1792797033000
+      },
+      "url": "https://wallstreetcn.com/articles/3784369"
+    },
+    {
+      "id": 3784371,
+      "title": "古巴外长驳斥美方所谓“顺道解决古巴”言论",
+      "extra": {
+        "date": 1792795472000
+      },
+      "url": "https://wallstreetcn.com/articles/3784371"
+    },
+    {
+      "id": 3784367,
+      "title": "SK海力士放弃Solidigm美国IPO计划，分析师称NAND未来供应减少，利好美光和闪迪",
+      "extra": {
+        "date": 1792795460000
+      },
+      "url": "https://wallstreetcn.com/articles/3784367"
+    },
+    {
+      "id": 3784370,
+      "title": "Instacart寻求出售，股价涨超9%！DoorDash在潜在买家之列，Uber退出",
+      "extra": {
+        "date": 1792795447000
+      },
+      "url": "https://wallstreetcn.com/articles/3784370"
+    }
+  ]
+}

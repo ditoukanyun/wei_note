@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8xSTatTj2xC",
+      "url": "https://news.ifeng.com/c/8xSTatTj2xC",
+      "title": "这次中美合作，打破了世界纪录！",
+      "extra": {
+        "date": "2026-10-23 15:16:32"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xSRFzZ7poU",
+      "url": "https://news.ifeng.com/c/8xSRFzZ7poU",
+      "title": "美国防部公布所谓科研安全审查结果，商务部回应",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xSsXKvkiZ6",
+      "url": "https://news.ifeng.com/c/8xSsXKvkiZ6",
+      "title": "白宫称俄乌同意在奥列什基暂时停火",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xSpuURnzK6",
+      "url": "https://news.ifeng.com/c/8xSpuURnzK6",
+      "title": "美国稀土大项目，黄了",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xStQ7mt6Rr",
+      "url": "https://news.ifeng.com/c/8xStQ7mt6Rr",
+      "title": "比起特朗普，美国年轻人更喜欢美式“社会主义”？",
+      "extra": {}
+    }
+  ]
+}

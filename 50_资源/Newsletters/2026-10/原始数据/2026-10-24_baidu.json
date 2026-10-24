@@ -1,0 +1,46 @@
+{
+  "source": "baidu",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F7.0%E7%BA%A7%E5%9C%B0%E9%9C%87%E6%95%91%E6%8F%B4%E6%9C%80%E6%96%B0%E8%BF%9B%E5%B1%95",
+      "title": "西藏7.0级地震救援最新进展",
+      "url": "https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F7.0%E7%BA%A7%E5%9C%B0%E9%9C%87%E6%95%91%E6%8F%B4%E6%9C%80%E6%96%B0%E8%BF%9B%E5%B1%95",
+      "extra": {
+        "hover": "10月23日18时，西藏那曲市巴青县7.0级地震救援最新进展：经3轮全覆盖排查未发现失联人员。目前，5000余救援力量已开展安置，玛如乡51顶帐篷全部入住且部分通电，震区通信恢复至震前水平。此前，10月22日22时33分许，西藏那曲市巴青县发生7.0级地震。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=LPL%E9%A6%96%E8%BD%AE%E5%85%A8%E5%86%9B%E8%A6%86%E6%B2%A1",
+      "title": "LPL首轮全军覆没",
+      "url": "https://www.baidu.com/s?wd=LPL%E9%A6%96%E8%BD%AE%E5%85%A8%E5%86%9B%E8%A6%86%E6%B2%A1",
+      "extra": {
+        "hover": "北京时间10月24日凌晨，2026全球总决赛瑞士轮首轮，LPL四队iG、TES、BLG、AL全军覆没跌入0-1组，BLG爆冷不敌MKOI，AL不敌KC，iG、TES分别负于GEN和HLE。目前LPL四队同处0-1组，面临内战风险，再败将开启BO3。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E5%AD%90%E5%BC%9F%E5%85%B5%E6%8A%95%E5%85%A5%E8%A5%BF%E8%97%8F%E5%B7%B4%E9%9D%92%E6%8A%97%E9%9C%87%E6%95%91%E7%81%BE",
+      "title": "人民子弟兵投入西藏巴青抗震救灾",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E5%AD%90%E5%BC%9F%E5%85%B5%E6%8A%95%E5%85%A5%E8%A5%BF%E8%97%8F%E5%B7%B4%E9%9D%92%E6%8A%97%E9%9C%87%E6%95%91%E7%81%BE",
+      "extra": {
+        "hover": "10月22日22时33分许，西藏那曲市巴青县发生7.0级地震，造成重大人员伤亡，人民子弟兵第一时间投入抗震救灾。目前，抗震救灾各项工作正在紧张有序进行。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E7%8C%95%E7%8C%B4%E6%A1%83%E2%80%9C%E6%9C%80%E5%9B%A2%E7%BB%93%E7%9A%84%E6%B0%B4%E6%9E%9C%E2%80%9D",
+      "title": "猕猴桃“最团结的水果”",
+      "url": "https://www.baidu.com/s?wd=%E7%8C%95%E7%8C%B4%E6%A1%83%E2%80%9C%E6%9C%80%E5%9B%A2%E7%BB%93%E7%9A%84%E6%B0%B4%E6%9E%9C%E2%80%9D",
+      "extra": {
+        "hover": "猕猴桃被称为“最团结的水果”，要熟一起熟。近日，四川农科院专家在都江堰观摩会上解释，猕猴桃属于后熟型水果，成熟时释放乙烯，会带动整箱果实一起变软，建议消费者按软硬分类分装存放。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=S16",
+      "title": "S16",
+      "url": "https://www.baidu.com/s?wd=S16",
+      "extra": {
+        "hover": ""
+      }
+    }
+  ]
+}
