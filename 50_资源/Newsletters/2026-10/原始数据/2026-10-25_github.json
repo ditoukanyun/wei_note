@@ -1,0 +1,51 @@
+{
+  "source": "github",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "title": "cloudflare /      security-audit-skill",
+      "id": "/cloudflare/security-audit-skill",
+      "extra": {
+        "info": "✰ 44,509",
+        "hover": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+      }
+    },
+    {
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "title": "NVIDIA /      OpenShell",
+      "id": "/NVIDIA/OpenShell",
+      "extra": {
+        "info": "✰ 19,467",
+        "hover": "OpenShell is the safe, private runtime for autonomous AI agents."
+      }
+    },
+    {
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "title": "aws /      agent-toolkit-for-aws",
+      "id": "/aws/agent-toolkit-for-aws",
+      "extra": {
+        "info": "✰ 3,122",
+        "hover": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS"
+      }
+    },
+    {
+      "url": "https://github.com/Nutlope/hallmark",
+      "title": "Nutlope /      hallmark",
+      "id": "/Nutlope/hallmark",
+      "extra": {
+        "info": "✰ 32,122",
+        "hover": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+      }
+    },
+    {
+      "url": "https://github.com/luongnv89/claude-howto",
+      "title": "luongnv89 /      claude-howto",
+      "id": "/luongnv89/claude-howto",
+      "extra": {
+        "info": "✰ 44,546",
+        "hover": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value."
+      }
+    }
+  ]
+}

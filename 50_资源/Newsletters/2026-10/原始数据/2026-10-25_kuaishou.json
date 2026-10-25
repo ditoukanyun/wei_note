@@ -1,0 +1,46 @@
+{
+  "source": "kuaishou",
+  "count": 5,
+  "items": [
+    {
+      "id": "台湾光复81周年",
+      "title": "台湾光复81周年",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E5%8F%B0%E6%B9%BE%E5%85%89%E5%A4%8D81%E5%91%A8%E5%B9%B4",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "去年全国结婚登记676万对",
+      "title": "去年全国结婚登记676万对",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E5%8E%BB%E5%B9%B4%E5%85%A8%E5%9B%BD%E7%BB%93%E5%A9%9A%E7%99%BB%E8%AE%B0676%E4%B8%87%E5%AF%B9",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "各类救援车辆星夜驰援地震灾区",
+      "title": "各类救援车辆星夜驰援地震灾区",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E5%90%84%E7%B1%BB%E6%95%91%E6%8F%B4%E8%BD%A6%E8%BE%86%E6%98%9F%E5%A4%9C%E9%A9%B0%E6%8F%B4%E5%9C%B0%E9%9C%87%E7%81%BE%E5%8C%BA",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "纪念抗美援朝出国作战76周年",
+      "title": "纪念抗美援朝出国作战76周年",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E7%BA%AA%E5%BF%B5%E6%8A%97%E7%BE%8E%E6%8F%B4%E6%9C%9D%E5%87%BA%E5%9B%BD%E4%BD%9C%E6%88%9876%E5%91%A8%E5%B9%B4",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "台风数量并列21世纪最多",
+      "title": "台风数量并列21世纪最多",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E5%8F%B0%E9%A3%8E%E6%95%B0%E9%87%8F%E5%B9%B6%E5%88%9721%E4%B8%96%E7%BA%AA%E6%9C%80%E5%A4%9A",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    }
+  ]
+}

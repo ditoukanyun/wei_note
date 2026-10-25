@@ -1,0 +1,51 @@
+{
+  "source": "qqvideo-tv-hotsearch",
+  "count": 5,
+  "items": [
+    {
+      "id": "mzc002001w361jz",
+      "title": "尚公主",
+      "url": "https://v.qq.com/x/cover/mzc002001w361jz.html",
+      "pubDate": "2026-10-25",
+      "extra": {
+        "hover": "扶摇直尚险途携手破危局"
+      }
+    },
+    {
+      "id": "mzc00200803dr6b",
+      "title": "兰香如故",
+      "url": "https://v.qq.com/x/cover/mzc00200803dr6b.html",
+      "pubDate": "2026-10-25",
+      "extra": {
+        "hover": "高门跌落！婢女深宅挣生机"
+      }
+    },
+    {
+      "id": "mzc00200hsn6dio",
+      "title": "嫁金枝",
+      "url": "https://v.qq.com/x/cover/mzc00200hsn6dio.html",
+      "pubDate": "2026-10-25",
+      "extra": {
+        "hover": "钓系庶女入宫改命夺帝心"
+      }
+    },
+    {
+      "id": "mzc00200ukh13h6",
+      "title": "仿生迷踪",
+      "url": "https://v.qq.com/x/cover/mzc00200ukh13h6.html",
+      "pubDate": "2026-10-25",
+      "extra": {
+        "hover": "严浩翔欧阳娣娣撕仿生阴谋"
+      }
+    },
+    {
+      "id": "mzc00200xqdobf5",
+      "title": "美人余",
+      "url": "https://v.qq.com/x/cover/mzc00200xqdobf5.html",
+      "pubDate": "2026-10-25",
+      "extra": {
+        "hover": "李一桐撕开好命女人糖衣"
+      }
+    }
+  ]
+}
