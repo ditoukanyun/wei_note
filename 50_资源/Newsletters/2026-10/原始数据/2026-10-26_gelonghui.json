@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5331670",
+      "title": "科信技术(300565.SZ)：第三季度净利润2662.52万元 同比增长200.17%",
+      "id": "/news/5331670",
+      "extra": {
+        "date": 1792972645229,
+        "info": "A股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5331669",
+      "title": "美团-W(03690.HK)：建议发行人民币优先票据",
+      "id": "/news/5331669",
+      "extra": {
+        "date": 1792972465229,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5331668",
+      "title": "贝壳-W(02423.HK)10月23日耗资250万美元回购43.72万股",
+      "id": "/news/5331668",
+      "extra": {
+        "date": 1792972345229,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5331667",
+      "title": "新火集团(01611.HK)：数字资产管理及交易业务取得显著增长",
+      "id": "/news/5331667",
+      "extra": {
+        "date": 1792972285229,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5331666",
+      "title": "康方生物(09926.HK)：依沃西联合化疗对比度伐利尤联合化疗一线治疗晚期胆道癌HARMONi-GI1研究结果在2026 ESMO重磅发表",
+      "id": "/news/5331666",
+      "extra": {
+        "date": 1792972045229,
+        "info": "港股公告摘要"
+      }
+    }
+  ]
+}

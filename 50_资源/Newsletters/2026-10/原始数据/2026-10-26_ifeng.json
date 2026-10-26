@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8xWa5UH3Rxr",
+      "url": "https://news.ifeng.com/c/8xWa5UH3Rxr",
+      "title": "武契奇承认败选",
+      "extra": {
+        "date": "2026-10-26 04:47:54"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xW3BrgA1cB",
+      "url": "https://news.ifeng.com/c/8xW3BrgA1cB",
+      "title": "国债崩盘，法国面临降级时刻",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xVKU5lBHlV",
+      "url": "https://news.ifeng.com/c/8xVKU5lBHlV",
+      "title": "美航母重填弹药，或再袭伊朗",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xWloHz7H6W",
+      "url": "https://news.ifeng.com/c/8xWloHz7H6W",
+      "title": "特朗普：美俄乌三方会谈“很快”就会举行",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xWsLqxpE1P",
+      "url": "https://news.ifeng.com/c/8xWsLqxpE1P",
+      "title": "巴西大选突生变数：选情胶着，特朗普密切关注",
+      "extra": {}
+    }
+  ]
+}

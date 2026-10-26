@@ -1,0 +1,51 @@
+{
+  "source": "chongbuluo-latest",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.chongbuluo.com/thread-25299-1-1.html",
+      "title": "搞了个新网站",
+      "url": "https://www.chongbuluo.com/thread-25299-1-1.html",
+      "pubDate": 1792938605000,
+      "extra": {
+        "hover": "新做了个音乐视频网站， 看看情况吧，感觉现在如果用agents 的方式去做这个网站用户更愿意付费，不过我技术水平暂时不够，只能先这样了。\r\n\r\nAI音乐视频生成"
+      }
+    },
+    {
+      "id": "https://www.chongbuluo.com/thread-25298-1-1.html",
+      "title": "附近有家超市要闭店在打折 要买些什么划算啊",
+      "url": "https://www.chongbuluo.com/thread-25298-1-1.html",
+      "pubDate": 1792913582000,
+      "extra": {
+        "hover": "，"
+      }
+    },
+    {
+      "id": "https://www.chongbuluo.com/thread-25297-1-1.html",
+      "title": "光鸭云盘双11年会员还是很给给力的，108元500T果断拿下！",
+      "url": "https://www.chongbuluo.com/thread-25297-1-1.html",
+      "pubDate": 1792847665000,
+      "extra": {
+        "hover": "现在的硬盘和内存长的太多了。\r\n16T银盘已经涨到快3000元了，没有一点性价比可言。\r\n我以前买的16T机械硬盘把所有电子书，无损音乐，教程放完基本上已经不够用了。\r\n一些之前买的和收集的4K电影根本没地方放，删除了可惜，不删除没地方放。\r\n正好在小红书看见光鸭云盘的双11 ..."
+      }
+    },
+    {
+      "id": "https://www.chongbuluo.com/thread-25296-1-1.html",
+      "title": "喜马拉雅 580套 儿童音频 VIP精品专辑【宝妈必备，不伤眼睛的哄娃神器】 [32GB]",
+      "url": "https://www.chongbuluo.com/thread-25296-1-1.html",
+      "pubDate": 1792847184000,
+      "extra": {
+        "hover": "本资源为喜马拉雅580套儿童VIP音频福利合集。\r\n合集涵盖故事、国学、科普、英语等内容，音频形式不伤眼，适合路上、睡前长时间听。\r\n适合家长给孩子讲故事、做睡前陪伴，保存到夸克网盘后即可在线观看或下载。\r\n\r\n\r\n链接：htt ..."
+      }
+    },
+    {
+      "id": "https://www.chongbuluo.com/thread-25295-1-1.html",
+      "title": "空间透视盘 v1.4",
+      "url": "https://www.chongbuluo.com/thread-25295-1-1.html",
+      "pubDate": 1792831182000,
+      "extra": {
+        "hover": "先声明：代码是 AI 按我的需求写的，人负责抠底层字节、死磕实测调优。软件纯本地运行，无联网，无后台，不删你任何一个文件。\r\n\r\n\r\n【功能简介】\r\n一个基于 Windows MFT 的磁盘空间分析工具，读取卷上 $MFT 元数据，统计目 ..."
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-hot-video",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV1DiHK6tESR",
+      "title": "高启强&陈淑婷《Trouble Maker》",
+      "url": "https://www.bilibili.com/video/BV1DiHK6tESR",
+      "pubDate": 1792837178000,
+      "extra": {
+        "info": "会魔法的白气球 · 125w+观看 · 5w+点赞",
+        "hover": "本视频 为AI生成，非本人出演。",
+        "icon": "http://i2.hdslb.com/bfs/archive/786812492f8972ff6a86cd57c64ca4c8cfadf553.jpg"
+      }
+    },
+    {
+      "id": "BV1EzH56bE5k",
+      "title": "日本人吃自助不好意思多要跟我外国人有什么关系？读鸡毛空气啊，我踏麻吃吃吃！",
+      "url": "https://www.bilibili.com/video/BV1EzH56bE5k",
+      "pubDate": 1792933200000,
+      "extra": {
+        "info": "大阪流浪社长 · 44w+观看 · 2w+点赞",
+        "hover": "-",
+        "icon": "http://i0.hdslb.com/bfs/archive/d46643027d78594522d018511955665936106664.jpg"
+      }
+    },
+    {
+      "id": "BV1q5HV6dEzo",
+      "title": "愚蠢鬼",
+      "url": "https://www.bilibili.com/video/BV1q5HV6dEzo",
+      "pubDate": 1792901764000,
+      "extra": {
+        "info": "好痛の恶魔 · 58w+观看 · 5w+点赞",
+        "hover": "-",
+        "icon": "http://i2.hdslb.com/bfs/archive/c8245febde576135b40f60a77fce6602af4dee02.jpg"
+      }
+    },
+    {
+      "id": "BV17wnY6CE2R",
+      "title": "【独家】牧神记 第106集 道剑十四篇",
+      "url": "https://www.bilibili.com/video/BV17wnY6CE2R",
+      "pubDate": 1792897202000,
+      "extra": {
+        "info": "哔哩哔哩国创 · 241w+观看 · 3w+点赞",
+        "hover": "正魔圣典彼此借观，神山焚香惊见神祇",
+        "icon": "http://i2.hdslb.com/bfs/archive/f7e918d89117e017e7b542b450ba14bce5364abb.png"
+      }
+    },
+    {
+      "id": "BV1xqH36AEPX",
+      "title": "中国90%的人都听过的童年阴影BGM！20年后我终于扒出了它的真身……SCARSONG终极溯源！【互联网大冒险】",
+      "url": "https://www.bilibili.com/video/BV1xqH36AEPX",
+      "pubDate": 1792885072000,
+      "extra": {
+        "info": "黑八即幽默 · 32w+观看 · 1w+点赞",
+        "hover": "中国90%的人都听过的童年阴影BGM，20年后我终于扒出了它的真身！SCARSONG终极溯源！【互联网大冒险】",
+        "icon": "http://i2.hdslb.com/bfs/archive/d2d56158b00ec9df53a6c425dd33126e612da39a.jpg"
+      }
+    }
+  ]
+}

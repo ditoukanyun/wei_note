@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/winshun.html",
+      "url": "https://www.ghxi.com/winshun.html",
+      "title": "Win顺(WinShun) v0.13.2 便携版",
+      "extra": {
+        "hover": "Win 顺 是一款面向 Windows 10/11 的免费开源快速搜索启动器，采用 Qt 6 + C++20 编写，MIT 许可，双击 Ctrl 即可弹出搜索框，定位为 Every...",
+        "date": 1792929625193
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/ghvideo130-2.html",
+      "url": "https://www.ghxi.com/ghvideo130-2.html",
+      "title": "【果核视频】那些Github上的奇怪项目，AI也搞抽象了【第九期】",
+      "extra": {
+        "hover": "果核已经把高清视频上传到B站，大家可以跳转B站观看，体验更佳！B站：https://www.bilibili.com/video/BV1Sant62EWD/",
+        "date": 1792800025193
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/andightroom.html",
+      "url": "https://www.ghxi.com/andightroom.html",
+      "title": "Android Lightroom CC v11.6.11 修改版",
+      "extra": {
+        "hover": "手机版 Lightroom 由神奇的 Adobe Photoshop 技术提供支持，让您可以在智能手机或平板电脑上制作和分享专业质量的图像。Raw HDR 功能可为您提供最佳的多功...",
+        "date": 1792800025193
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/easynotes.html",
+      "url": "https://www.ghxi.com/easynotes.html",
+      "title": "Android Easy Notes v1.3.64.0929 VIP版",
+      "extra": {
+        "hover": "Easy Notes 是一款适用于Android 的全新易用的记事本、笔记本、备忘录、彩色便利贴、提醒事项、加密笔记、记事应用程序。有了这个简单的记事本应用程序，您可以使用彩色背景...",
+        "date": 1792800025194
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/ghostdown.html",
+      "url": "https://www.ghxi.com/ghostdown.html",
+      "title": "Ghost Downloader(多线程下载器) v4.4.5 绿色版",
+      "extra": {
+        "hover": "Ghost Downloader 是一款多线程下载工具，它完全由Python语言开发而成。这款软件不仅支持高效的多线程下载技术，还具备断点续传功能，这意味着即使下载过程中遇到网络中...",
+        "date": 1792800025194
+      }
+    }
+  ]
+}
