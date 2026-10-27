@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3784474,
+      "title": "35 岁不会写代码？这波 AI 红利，可能就轮到你了",
+      "extra": {
+        "date": 1793057380000
+      },
+      "url": "https://wallstreetcn.com/articles/3784474"
+    },
+    {
+      "id": 3784513,
+      "title": "华尔街见闻早餐FM-Radio | 2026年10月27日",
+      "extra": {
+        "date": 1793055836000
+      },
+      "url": "https://wallstreetcn.com/articles/3784513"
+    },
+    {
+      "id": 3784512,
+      "title": "英特尔宣布收购以色列独角兽Classiq，CEO陈立武：将打造全栈量子计算业务",
+      "extra": {
+        "date": 1793054630000
+      },
+      "url": "https://wallstreetcn.com/articles/3784512"
+    },
+    {
+      "id": 3784514,
+      "title": "苹果回应iPhone Duo折叠屏开裂问题：承认少量设备受影响，建议用户申请换机",
+      "extra": {
+        "date": 1793054418000
+      },
+      "url": "https://wallstreetcn.com/articles/3784514"
+    },
+    {
+      "id": 3784506,
+      "title": "单Token降价撞上Agent高消耗，Kimi K3.1 Pro上线48小时即致歉，补偿25%用量",
+      "extra": {
+        "date": 1793054019000
+      },
+      "url": "https://wallstreetcn.com/articles/3784506"
+    }
+  ]
+}

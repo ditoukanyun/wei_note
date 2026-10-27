@@ -1,0 +1,19 @@
+source: hackernews
+generatedAt: 2026/10/27 08:00:20 CST
+finalStatus: nonzero
+
+attempt 1
+status: nonzero
+exitCode: 2
+signal: null
+timeoutMs: 10000
+stderr:
+{"error":"Fetch failed for \"hackernews\": [GET] \"https://news.ycombinator.com\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?","code":"FETCH_ERROR"}
+
+attempt 2
+status: nonzero
+exitCode: 2
+signal: null
+timeoutMs: 15000
+stderr:
+{"error":"Fetch failed for \"hackernews\": [GET] \"https://news.ycombinator.com\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?","code":"FETCH_ERROR"}

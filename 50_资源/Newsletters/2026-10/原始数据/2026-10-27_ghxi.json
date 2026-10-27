@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/metatogger.html",
+      "url": "https://www.ghxi.com/metatogger.html",
+      "title": "Metatogger v7.7.4.0 绿色版 - 音频文件标签编辑器",
+      "extra": {
+        "hover": "一个标签编辑器，让您可以轻松地重新命名，标签和分类你的MP3，FLAC，OGG Vorbis格式，WMA和M4A音频文件。 Metatogger是Ogg Vorbis，FLAC，M...",
+        "date": 1793012420121
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/hydra.html",
+      "url": "https://www.ghxi.com/hydra.html",
+      "title": "Hydra v1.2.0 绿色版",
+      "extra": {
+        "hover": "Hydra Download Manager（HDM）是一款用 Rust 编写的开源高性能下载加速器，覆盖 Windows、macOS 和 Linux。核心引擎通过自适应并发把文件...",
+        "date": 1793008820121
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/operachrome.html",
+      "url": "https://www.ghxi.com/operachrome.html",
+      "title": "Opera浏览器 v138.0.6044.24 绿色便携版",
+      "extra": {
+        "hover": "Opera 是来自挪威的一个极为出色的网络浏览套件,具有速度快、节省系统资源、定制能力强、安全性高以及体积小等特点,目前已经是广受欢迎的浏览器之一。多文档接 口 (MDI)、方便的...",
+        "date": 1793008820121
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/obsstudio.html",
+      "url": "https://www.ghxi.com/obsstudio.html",
+      "title": "OBS Studio(直播工具) v33.0.0 官方版",
+      "extra": {
+        "hover": "OBS Studio是一款开源的直播客户端，允许使用本机对外进行直播，由于软件是国外的，项目在GitHub，大部分人下载慢死。果核剥壳镜像最新官方版本，提供高速下载。 OBS St...",
+        "date": 1793008820121
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/qownnotes.html",
+      "url": "https://www.ghxi.com/qownnotes.html",
+      "title": "QOwnNotes(开源Markdown笔记本) v26.10.12 绿色版",
+      "extra": {
+        "hover": "QOwnNotes是开源的记事本，具有 Markdown支持 和针对GNU / Linux，Mac OS X和Windows的待办事项列表管理器，可与Nextcloud Notes...",
+        "date": 1793008820121
+      }
+    }
+  ]
+}

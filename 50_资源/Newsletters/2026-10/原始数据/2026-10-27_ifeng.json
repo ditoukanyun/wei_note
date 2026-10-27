@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8xXmR9HIQ61",
+      "url": "https://news.ifeng.com/c/8xXmR9HIQ61",
+      "title": "外交部回应武契奇败选",
+      "extra": {
+        "date": "2026-10-26 18:45:53"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xXSzYpEc9z",
+      "url": "https://news.ifeng.com/c/8xXSzYpEc9z",
+      "title": "胡锡进：武契奇输了，这是一次深刻的政治转向",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xWmxtG7fyt",
+      "url": "https://news.ifeng.com/c/8xWmxtG7fyt",
+      "title": "印尼“火气”大，熏坏新加坡",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xXW8razcUG",
+      "url": "https://news.ifeng.com/c/8xXW8razcUG",
+      "title": "特朗普狂喷：挪威是“粪坑国家”",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xXtIcR37y6",
+      "url": "https://news.ifeng.com/c/8xXtIcR37y6",
+      "title": "20天实现惊人逆转，卢拉怎么做到的？",
+      "extra": {}
+    }
+  ]
+}
