@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5334867",
+      "title": "登云股份(002715.SZ)：第三季度净利润932.80万元",
+      "id": "/news/5334867",
+      "extra": {
+        "date": 1793145619744,
+        "info": "A股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5334866",
+      "title": "*ST棒杰(002634.SZ)：第三季度净亏损1407.57万元",
+      "id": "/news/5334866",
+      "extra": {
+        "date": 1793145499744,
+        "info": "A股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5334865",
+      "title": "群兴玩具(002575.SZ)：第三季度净亏损8.77万元",
+      "id": "/news/5334865",
+      "extra": {
+        "date": 1793145439744,
+        "info": "A股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5334864",
+      "title": "*ST步森(002569.SZ)：第三季度净利润378.78万元 同比减少21.01%",
+      "id": "/news/5334864",
+      "extra": {
+        "date": 1793145379744,
+        "info": "A股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5334863",
+      "title": "ST达华(002512.SZ)：第三季度净利润3907.55万元",
+      "id": "/news/5334863",
+      "extra": {
+        "date": 1793145319744,
+        "info": "A股公告摘要"
+      }
+    }
+  ]
+}

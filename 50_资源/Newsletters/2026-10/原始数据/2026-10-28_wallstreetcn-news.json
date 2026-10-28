@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3784620,
+      "title": "Anthropic招股书“刺激了贪婪”！CoreWeave领衔AI交易反弹",
+      "extra": {
+        "date": 1793145513000
+      },
+      "url": "https://wallstreetcn.com/articles/3784620"
+    },
+    {
+      "id": 3784619,
+      "title": "SK海力士三季报营收、营业利润双超预期，净利润意外不及预期，祭出百万亿韩元史诗级股东回报",
+      "extra": {
+        "date": 1793145053000
+      },
+      "url": "https://wallstreetcn.com/articles/3784619"
+    },
+    {
+      "id": 3784618,
+      "title": "Meta 250亿美元股票发行获5倍超额认购，超半数分配给长期投资者及现有股东",
+      "extra": {
+        "date": 1793142851000
+      },
+      "url": "https://wallstreetcn.com/articles/3784618"
+    },
+    {
+      "id": 3784616,
+      "title": "10月28日会员早报：胡塞武装称导弹击中沙特最大炼油厂 美国9月耐用品订单创五个月来最大增幅",
+      "extra": {
+        "date": 1793142822000
+      },
+      "url": "https://wallstreetcn.com/member/articles/3784616"
+    },
+    {
+      "id": 3784611,
+      "title": "比特币为何涨不动了？8.7万以上存在大量卖盘，与美股相关性提升难以独涨",
+      "extra": {
+        "date": 1793142796000
+      },
+      "url": "https://wallstreetcn.com/articles/3784611"
+    }
+  ]
+}

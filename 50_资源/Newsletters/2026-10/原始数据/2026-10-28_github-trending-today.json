@@ -1,0 +1,51 @@
+{
+  "source": "github-trending-today",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "title": "elayadesign /      ai-design-skills",
+      "id": "/elayadesign/ai-design-skills",
+      "extra": {
+        "info": "✰ 9,267",
+        "hover": ""
+      }
+    },
+    {
+      "url": "https://github.com/Nutlope/hallmark",
+      "title": "Nutlope /      hallmark",
+      "id": "/Nutlope/hallmark",
+      "extra": {
+        "info": "✰ 38,950",
+        "hover": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+      }
+    },
+    {
+      "url": "https://github.com/nightly-labs/openbot",
+      "title": "nightly-labs /      openbot",
+      "id": "/nightly-labs/openbot",
+      "extra": {
+        "info": "✰ 2,398",
+        "hover": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration."
+      }
+    },
+    {
+      "url": "https://github.com/obra/superpowers",
+      "title": "obra /      superpowers",
+      "id": "/obra/superpowers",
+      "extra": {
+        "info": "✰ 306,420",
+        "hover": "An agentic skills framework & software development methodology that works."
+      }
+    },
+    {
+      "url": "https://github.com/pbakaus/impeccable",
+      "title": "pbakaus /      impeccable",
+      "id": "/pbakaus/impeccable",
+      "extra": {
+        "info": "✰ 90,473",
+        "hover": "The design language that makes your AI harness better at design."
+      }
+    }
+  ]
+}

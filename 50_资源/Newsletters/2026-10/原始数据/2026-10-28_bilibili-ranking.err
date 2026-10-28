@@ -1,0 +1,11 @@
+source: bilibili-ranking
+generatedAt: 2026/10/28 08:00:18 CST
+finalStatus: nonzero
+
+attempt 1
+status: nonzero
+exitCode: 2
+signal: null
+timeoutMs: 10000
+stderr:
+{"error":"Fetch failed for \"bilibili-ranking\": Bilibili ranking API returned unexpected response: {\"code\":-352,\"message\":\"-352\",\"ttl\":1}","code":"FETCH_ERROR"}
