@@ -1,0 +1,51 @@
+{
+  "source": "steam",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "title": "Counter-Strike 2",
+      "id": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "pubDate": 1793232024911,
+      "extra": {
+        "info": "575,620"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/570/Dota_2/",
+      "title": "Dota 2",
+      "id": "https://store.steampowered.com/app/570/Dota_2/",
+      "pubDate": 1793232024911,
+      "extra": {
+        "info": "354,657"
+      }
+    },
+    {
+      "url": "https://steamcommunity.com/app/3393110",
+      "title": "AION 2",
+      "id": "https://steamcommunity.com/app/3393110",
+      "pubDate": 1793232024911,
+      "extra": {
+        "info": "182,593"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/1938090/Call_of_Duty/",
+      "title": "Call of Duty®",
+      "id": "https://store.steampowered.com/app/1938090/Call_of_Duty/",
+      "pubDate": 1793232024911,
+      "extra": {
+        "info": "156,825"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/2676230/FiveM/",
+      "title": "FiveM",
+      "id": "https://store.steampowered.com/app/2676230/FiveM/",
+      "pubDate": 1793232024911,
+      "extra": {
+        "info": "152,768"
+      }
+    }
+  ]
+}

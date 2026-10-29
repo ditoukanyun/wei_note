@@ -1,0 +1,46 @@
+{
+  "source": "baidu",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.baidu.com/s?wd=%E5%88%98%E5%BB%B6%E4%B8%9C%E9%80%9D%E4%B8%96",
+      "title": "刘延东逝世",
+      "url": "https://www.baidu.com/s?wd=%E5%88%98%E5%BB%B6%E4%B8%9C%E9%80%9D%E4%B8%96",
+      "extra": {
+        "hover": ""
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E5%BE%AE%E4%BF%A1%E6%96%B0%E5%8A%9F%E8%83%BD%E6%9D%A5%E4%BA%86%EF%BC%9A%E5%8F%AA%E7%94%A8%E5%8A%A8%E5%98%B4",
+      "title": "微信新功能来了：只用动嘴",
+      "url": "https://www.baidu.com/s?wd=%E5%BE%AE%E4%BF%A1%E6%96%B0%E5%8A%9F%E8%83%BD%E6%9D%A5%E4%BA%86%EF%BC%9A%E5%8F%AA%E7%94%A8%E5%8A%A8%E5%98%B4",
+      "extra": {
+        "hover": "10月27日，微信派发文称，又有新功能上线了。文章题为《一个只用动嘴的新能力》，实则为微信输入法的“AI录音笔”功能。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E5%85%A8%E9%9D%A2%E4%BB%8E%E4%B8%A5%E6%B2%BB%E5%85%9A%E4%B8%BA%E4%B8%96%E7%95%8C%E6%8F%90%E4%BE%9B%E9%87%8D%E8%A6%81%E5%80%9F%E9%89%B4",
+      "title": "全面从严治党为世界提供重要借鉴",
+      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E9%9D%A2%E4%BB%8E%E4%B8%A5%E6%B2%BB%E5%85%9A%E4%B8%BA%E4%B8%96%E7%95%8C%E6%8F%90%E4%BE%9B%E9%87%8D%E8%A6%81%E5%80%9F%E9%89%B4",
+      "extra": {
+        "hover": "国际人士持续关注中国共产党二十届五中全会，认为持之以恒推进全面从严治党，展现了中国共产党强大的组织力、执行力和生命力，不仅是中国取得巨大发展成就的关键保障，也为世界政党治理提供了重要借鉴。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E8%A5%BF%E5%AA%92%E5%B0%B1%E5%A7%86%E5%B7%B4%E4%BD%A9%E9%97%AF%E4%B8%8B%E5%A4%A7%E7%A5%B8%E7%AE%97%E4%BA%86%E7%AC%94%E8%B4%A6",
+      "title": "西媒就姆巴佩闯下大祸算了笔账",
+      "url": "https://www.baidu.com/s?wd=%E8%A5%BF%E5%AA%92%E5%B0%B1%E5%A7%86%E5%B7%B4%E4%BD%A9%E9%97%AF%E4%B8%8B%E5%A4%A7%E7%A5%B8%E7%AE%97%E4%BA%86%E7%AC%94%E8%B4%A6",
+      "extra": {
+        "hover": "姆巴佩无礼冒犯中国的事件引发关注，其“吃饭砸锅”的举动引发中国球迷强烈不满。西班牙媒体也注意到中国国内的强烈反应，有媒体称姆巴佩的错误言论“动摇了西班牙足球的根基”。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E5%AF%B9%E5%8F%B0%E6%B9%BE%E5%9C%B0%E5%8C%BA%E8%88%AA%E5%8F%B8%E5%85%B3%E9%97%AD%E9%A2%86%E7%A9%BA",
+      "title": "巴基斯坦对台湾地区航司关闭领空",
+      "url": "https://www.baidu.com/s?wd=%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E5%AF%B9%E5%8F%B0%E6%B9%BE%E5%9C%B0%E5%8C%BA%E8%88%AA%E5%8F%B8%E5%85%B3%E9%97%AD%E9%A2%86%E7%A9%BA",
+      "extra": {
+        "hover": "巴基斯坦防长阿西夫28日表示，巴基斯坦已对来自台湾地区的航空公司关闭领空，以坚持一个中国政策。彭博社称，这是全球第一个采取此类措施的国家。"
+      }
+    }
+  ]
+}

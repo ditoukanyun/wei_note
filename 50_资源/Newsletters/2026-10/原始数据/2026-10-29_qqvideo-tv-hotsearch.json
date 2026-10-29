@@ -1,0 +1,51 @@
+{
+  "source": "qqvideo-tv-hotsearch",
+  "count": 5,
+  "items": [
+    {
+      "id": "mzc002001w361jz",
+      "title": "尚公主",
+      "url": "https://v.qq.com/x/cover/mzc002001w361jz.html",
+      "pubDate": "2026-10-29",
+      "extra": {
+        "hover": "扶摇直尚险途携手破危局"
+      }
+    },
+    {
+      "id": "mzc0020029jna20",
+      "title": "铁证",
+      "url": "https://v.qq.com/x/cover/mzc0020029jna20.html",
+      "pubDate": "2026-10-29",
+      "extra": {
+        "hover": "扫黑除恶正邪博弈"
+      }
+    },
+    {
+      "id": "mzc00200803dr6b",
+      "title": "兰香如故",
+      "url": "https://v.qq.com/x/cover/mzc00200803dr6b.html",
+      "pubDate": "2026-10-29",
+      "extra": {
+        "hover": "高门跌落！婢女深宅挣生机"
+      }
+    },
+    {
+      "id": "mzc00200q4ccr05",
+      "title": "舟寒知婳意",
+      "url": "https://v.qq.com/x/cover/mzc00200q4ccr05.html",
+      "pubDate": "2026-10-29",
+      "extra": {
+        "hover": "契约婚姻邂逅专属爹系偏爱"
+      }
+    },
+    {
+      "id": "mzc00200hsn6dio",
+      "title": "嫁金枝",
+      "url": "https://v.qq.com/x/cover/mzc00200hsn6dio.html",
+      "pubDate": "2026-10-29",
+      "extra": {
+        "hover": "钓系庶女入宫改命夺帝心"
+      }
+    }
+  ]
+}

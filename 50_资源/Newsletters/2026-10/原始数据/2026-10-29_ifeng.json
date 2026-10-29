@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8xabEL09CAG",
+      "url": "https://news.ifeng.com/c/8xabEL09CAG",
+      "title": "如果共和党中期选举输了怎么办？特朗普回应",
+      "extra": {
+        "date": "2026-10-28 13:32:42"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xb1oirkFUw",
+      "url": "https://news.ifeng.com/c/8xb1oirkFUw",
+      "title": "“伟大的战士总理”，票没凑够",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xanNarKZSE",
+      "url": "https://news.ifeng.com/c/8xanNarKZSE",
+      "title": "“七条战线”、三年作战，以色列仍感不安全",
+      "extra": {}
+    },
+    {
+      "id": "https://original.ifeng.com/c/8xagHUQBnzH",
+      "url": "https://original.ifeng.com/c/8xagHUQBnzH",
+      "title": "特朗普力挺内塔尼亚胡，万斯为何不跟？",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xanNarKZSI",
+      "url": "https://news.ifeng.com/c/8xanNarKZSI",
+      "title": "特朗普：很快将安排普京与泽连斯基的会晤",
+      "extra": {}
+    }
+  ]
+}

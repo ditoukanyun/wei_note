@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5336816",
+      "title": "ST标准(600302.SH)：第三季度净亏损3041.11万元",
+      "id": "/news/5336816",
+      "extra": {
+        "date": 1793232020301,
+        "info": "A股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5336815",
+      "title": "中闽能源(600163.SH)：第三季度净利润7465.17万元 同比增长57.32%",
+      "id": "/news/5336815",
+      "extra": {
+        "date": 1793231900302,
+        "info": "A股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5336814",
+      "title": "冠城新材(600067.SH)：第三季度净利润775.91万元 同比减少87.77%",
+      "id": "/news/5336814",
+      "extra": {
+        "date": 1793231840302,
+        "info": "A股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5336813",
+      "title": "*ST九鼎(600053.SH)：第三季度净亏损4979.14万元",
+      "id": "/news/5336813",
+      "extra": {
+        "date": 1793231780302,
+        "info": "A股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5336812",
+      "title": "长华化学(301518.SZ)：第三季度净亏损2748.94万元",
+      "id": "/news/5336812",
+      "extra": {
+        "date": 1793231720302,
+        "info": "A股公告摘要"
+      }
+    }
+  ]
+}
