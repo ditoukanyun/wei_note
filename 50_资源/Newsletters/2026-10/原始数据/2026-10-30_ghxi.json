@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/smartlauncher.html",
+      "url": "https://www.ghxi.com/smartlauncher.html",
+      "title": "Smart Launcher v6.6.024 专业版",
+      "extra": {
+        "hover": "Smart Launcher 如今强势归来！Smart Launcher 是一款创新的启动器，它可让您的智能手机或平板电脑更快速且易于使用。Smart Launcher 推出了什么...",
+        "date": 1793271621210
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/winrarlh.html",
+      "url": "https://www.ghxi.com/winrarlh.html",
+      "title": "WinRAR v7.30 Beta 2 汉化版",
+      "extra": {
+        "hover": "WinRAR是一款功能强大的压缩包管理器，它是档案工具RAR在 Windows环境下的图形界面。WinRAR可用于备份数据，缩减电子邮件附件的大小，解压缩从 Internet 上下...",
+        "date": 1793268021210
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/360jsllqqjb.html",
+      "url": "https://www.ghxi.com/360jsllqqjb.html",
+      "title": "360极速浏览器清洁版 v20261027",
+      "extra": {
+        "hover": "基于360极速浏览器X 23.1.1253.64 修改的清洁版浏览器(Windows x64)。本软件基于开源 Chromium 132 源码进行了深度清洁。没有广告, 没有用户追...",
+        "date": 1793268021210
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/picline.html",
+      "url": "https://www.ghxi.com/picline.html",
+      "title": "PicLine v1.0.0.4 便携版",
+      "extra": {
+        "hover": "PicLine 是一款免费开源、免安装的 Windows 截图暂存工具。它把\"截图—取用\"连成一条短路径：截图后自动用木夹挂到屏幕上沿的绳子上，鼠标悬停即展开、离开自动收起，不挡视...",
+        "date": 1793268021210
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/wxsrf.html",
+      "url": "https://www.ghxi.com/wxsrf.html",
+      "title": "微信输入法(微信键盘) v4.0.1 正式版",
+      "extra": {
+        "hover": "在 2021 微信公开课 Pro 版的微信之夜上，张小龙透露，微信即将有自己的输入法。张小龙表示，微信原来并不想去做输入法，但收到很多用户投诉自己聊天记录被窃取，因为输入什么就会看...",
+        "date": 1793264421210
+      }
+    }
+  ]
+}

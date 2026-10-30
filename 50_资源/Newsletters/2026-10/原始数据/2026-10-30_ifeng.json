@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8xdNGeLmGMQ",
+      "url": "https://news.ifeng.com/c/8xdNGeLmGMQ",
+      "title": "10架美国军机飞抵以色列空军基地",
+      "extra": {
+        "date": "2026-10-30 04:02:57"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xcUuHOGJE4",
+      "url": "https://news.ifeng.com/c/8xcUuHOGJE4",
+      "title": "谁下令给“星链”限速？美国防部督察长拒绝调查",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xcRH1C0srh",
+      "url": "https://news.ifeng.com/c/8xcRH1C0srh",
+      "title": "美日大规模军演，重点是“夺岛”，国防部回应",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xdV8lEhnaQ",
+      "url": "https://news.ifeng.com/c/8xdV8lEhnaQ",
+      "title": "普京：俄罗斯不想与欧洲发生战争，但已做好准备",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xcWBfcc78y",
+      "url": "https://news.ifeng.com/c/8xcWBfcc78y",
+      "title": "国防部：菲方不能任由一小撮人肆意妄为在南海挑衅生事",
+      "extra": {}
+    }
+  ]
+}

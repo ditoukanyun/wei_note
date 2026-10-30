@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3784806,
+      "title": "华尔街见闻早餐FM-Radio | 2026年10月30日",
+      "extra": {
+        "date": 1793314867000
+      },
+      "url": "https://wallstreetcn.com/articles/3784806"
+    },
+    {
+      "id": 3784779,
+      "title": "微软250亿美元债券发行获4.6倍认购，但30年期利差高于评级更低的宝洁，债市消化能力趋于极限",
+      "extra": {
+        "date": 1793314867000
+      },
+      "url": "https://wallstreetcn.com/articles/3784779"
+    },
+    {
+      "id": 3784755,
+      "title": "美联储暂停加息市场押注12月，巴西卢拉逆势连任但施政约束加大，德法政治困局冲击欧洲一体化---1029宏观脱水",
+      "extra": {
+        "date": 1793314102000
+      },
+      "url": "https://wallstreetcn.com/member/articles/3784755"
+    },
+    {
+      "id": 3784804,
+      "title": "英特尔电话会：AI服务器需求持续超越供应，PC市场短期承压，2026年为投资之年",
+      "extra": {
+        "date": 1793313993000
+      },
+      "url": "https://wallstreetcn.com/articles/3784804"
+    },
+    {
+      "id": 3784808,
+      "title": "SpaceX最大单一客户曝光，Anthropic每月付款逾30亿美元，Q3营收占比超1/3",
+      "extra": {
+        "date": 1793313459000
+      },
+      "url": "https://wallstreetcn.com/articles/3784808"
+    }
+  ]
+}

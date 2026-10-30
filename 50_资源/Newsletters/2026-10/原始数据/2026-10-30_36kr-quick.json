@@ -1,0 +1,46 @@
+{
+  "source": "36kr-quick",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.36kr.com/newsflashes/4047602478627072",
+      "title": "欧盟多国承诺加快释放4260万桶储油以稳定市场",
+      "id": "/newsflashes/4047602478627072",
+      "extra": {
+        "date": 1793318400851
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4047599963798024",
+      "title": "算力超级周期扩容提速，AIDC基建迎来深度重构",
+      "id": "/newsflashes/4047599963798024",
+      "extra": {
+        "date": 1793318359851
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4047598545336585",
+      "title": "美国抵押贷款利率连续第二周下降，报7.24%",
+      "id": "/newsflashes/4047598545336585",
+      "extra": {
+        "date": 1793318179851
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4047594733517065",
+      "title": "雪佛龙重返偏远区域勘探油气",
+      "id": "/newsflashes/4047594733517065",
+      "extra": {
+        "date": 1793317939851
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4047597370718729",
+      "title": "存储器上市企业三季报成绩单亮丽",
+      "id": "/newsflashes/4047597370718729",
+      "extra": {
+        "date": 1793317759851
+      }
+    }
+  ]
+}
