@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8xeXSoKr6zM",
+      "url": "https://news.ifeng.com/c/8xeXSoKr6zM",
+      "title": "以色列，变天了？",
+      "extra": {
+        "date": "2026-10-30 21:32:47"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xf1XlqX3zZ",
+      "url": "https://news.ifeng.com/c/8xf1XlqX3zZ",
+      "title": "美媒：特朗普政府已告知盟友打击伊朗具体日期",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xeSPOLpmU4",
+      "url": "https://news.ifeng.com/c/8xeSPOLpmU4",
+      "title": "美发布罕见照片咬定是“中国航天飞机”，中国军迷认吗？",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xeUtQ6MmhY",
+      "url": "https://news.ifeng.com/c/8xeUtQ6MmhY",
+      "title": "美国盯上马来西亚稀土，砸6亿美元想绕开中国",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xeG9SuF3iC",
+      "url": "https://news.ifeng.com/c/8xeG9SuF3iC",
+      "title": "阿拉斯加上演“真假美猴王”？特朗普下令严查",
+      "extra": {}
+    }
+  ]
+}

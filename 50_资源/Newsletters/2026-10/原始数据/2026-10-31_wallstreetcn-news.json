@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3784892,
+      "title": "未来支出承诺8830亿美元压力大，亚马逊再开高达800亿融资渠道助力AI扩张",
+      "extra": {
+        "date": 1793384969000
+      },
+      "url": "https://wallstreetcn.com/articles/3784892"
+    },
+    {
+      "id": 3784891,
+      "title": "京东披露双11数据：AIPC、AI眼镜、AI工作站、AI相机等众多AI趋势产品成交额同比增长100%",
+      "extra": {
+        "date": 1793384947000
+      },
+      "url": "https://wallstreetcn.com/articles/3784891"
+    },
+    {
+      "id": 3784816,
+      "title": "美股跌幅持续扩大，科技股抛售加剧，费半跌9%，英特尔暴跌30%，美债上涨，黄金创一年新低",
+      "extra": {
+        "date": 1793384602000
+      },
+      "url": "https://wallstreetcn.com/articles/3784816"
+    },
+    {
+      "id": 3784888,
+      "title": "商务部：中瑞双方将在原协定基础上，分别对近300个税目进一步降低关税水平",
+      "extra": {
+        "date": 1793381404000
+      },
+      "url": "https://wallstreetcn.com/articles/3784888"
+    },
+    {
+      "id": 3784887,
+      "title": "科技股抛售潮蔓延至贵金属！黄金创一年新低，白银失守50美元",
+      "extra": {
+        "date": 1793381215000
+      },
+      "url": "https://wallstreetcn.com/articles/3784887"
+    }
+  ]
+}

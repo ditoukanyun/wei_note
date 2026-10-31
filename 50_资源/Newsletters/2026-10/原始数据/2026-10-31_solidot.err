@@ -1,0 +1,10 @@
+source: solidot
+generatedAt: 2026/10/31 08:00:33 CST
+finalStatus: timeout
+
+attempt 1
+status: timeout
+exitCode: null
+signal: SIGTERM
+timeoutMs: 10000
+error: Timed out after 10000ms

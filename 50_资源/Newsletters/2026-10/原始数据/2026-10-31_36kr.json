@@ -1,0 +1,46 @@
+{
+  "source": "36kr",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.36kr.com/newsflashes/4048375707007236",
+      "title": "热门中概股美股盘前多数下跌，百度跌超2%",
+      "id": "/newsflashes/4048375707007236",
+      "extra": {
+        "date": 1793368820129
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4048372528183812",
+      "title": "美股大型科技股盘前普跌，英特尔跌超25%",
+      "id": "/newsflashes/4048372528183812",
+      "extra": {
+        "date": 1793365220129
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4048361437264384",
+      "title": "三星电子拟向三星显示收购TCL华星10.16%股权，交易额超9.5亿美元",
+      "id": "/newsflashes/4048361437264384",
+      "extra": {
+        "date": 1793365220130
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4048360892594437",
+      "title": "奥精医疗：预计无法按期披露2026年第三季度报告",
+      "id": "/newsflashes/4048360892594437",
+      "extra": {
+        "date": 1793365220130
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4048360106113541",
+      "title": "工业富联：拟推不超20亿元员工持股计划",
+      "id": "/newsflashes/4048360106113541",
+      "extra": {
+        "date": 1793365220130
+      }
+    }
+  ]
+}

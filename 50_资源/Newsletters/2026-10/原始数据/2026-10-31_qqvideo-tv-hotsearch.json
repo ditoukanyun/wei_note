@@ -1,0 +1,51 @@
+{
+  "source": "qqvideo-tv-hotsearch",
+  "count": 5,
+  "items": [
+    {
+      "id": "mzc002001w361jz",
+      "title": "尚公主",
+      "url": "https://v.qq.com/x/cover/mzc002001w361jz.html",
+      "pubDate": "2026-10-31",
+      "extra": {
+        "hover": "扶摇直尚险途携手破危局"
+      }
+    },
+    {
+      "id": "mzc0020029jna20",
+      "title": "铁证",
+      "url": "https://v.qq.com/x/cover/mzc0020029jna20.html",
+      "pubDate": "2026-10-31",
+      "extra": {
+        "hover": "扫黑除恶正邪博弈"
+      }
+    },
+    {
+      "id": "mzc002002x2e65z",
+      "title": "兰香如故·花胜秋宴",
+      "url": "https://v.qq.com/x/cover/mzc002002x2e65z.html",
+      "pubDate": "2026-10-31",
+      "extra": {
+        "hover": "全员团综秋日重逢"
+      }
+    },
+    {
+      "id": "mzc002008q7p9vk",
+      "title": "北境往事",
+      "url": "https://v.qq.com/x/cover/mzc002008q7p9vk.html",
+      "pubDate": "2026-10-31",
+      "extra": {
+        "hover": "金瀚高至霆演绎黑道风云"
+      }
+    },
+    {
+      "id": "mzc00200803dr6b",
+      "title": "兰香如故",
+      "url": "https://v.qq.com/x/cover/mzc00200803dr6b.html",
+      "pubDate": "2026-10-31",
+      "extra": {
+        "hover": "高门跌落！婢女深宅挣生机"
+      }
+    }
+  ]
+}

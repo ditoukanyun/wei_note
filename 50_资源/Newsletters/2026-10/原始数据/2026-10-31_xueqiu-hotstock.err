@@ -1,0 +1,11 @@
+source: xueqiu-hotstock
+generatedAt: 2026/10/31 08:00:25 CST
+finalStatus: nonzero
+
+attempt 1
+status: nonzero
+exitCode: 2
+signal: null
+timeoutMs: 10000
+stderr:
+{"error":"Fetch failed for \"xueqiu-hotstock\": [GET] \"https://stock.xueqiu.com/v5/stock/hot_stock/list.json?size=30&_type=10&type=10\": 400 ","code":"FETCH_ERROR"}

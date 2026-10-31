@@ -1,0 +1,46 @@
+{
+  "source": "bilibili",
+  "count": 5,
+  "items": [
+    {
+      "id": "央视记者直击德国总统访华",
+      "title": "央视记者直击德国总统访华",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A4%AE%E8%A7%86%E8%AE%B0%E8%80%85%E7%9B%B4%E5%87%BB%E5%BE%B7%E5%9B%BD%E6%80%BB%E7%BB%9F%E8%AE%BF%E5%8D%8E",
+      "extra": {
+        "icon": ""
+      }
+    },
+    {
+      "id": "G2 HLE",
+      "title": "G2 vs HLE S16瑞士轮",
+      "url": "https://search.bilibili.com/all?keyword=G2%20HLE",
+      "extra": {
+        "icon": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
+      }
+    },
+    {
+      "id": "显卡价格连续三天大面积下跌",
+      "title": "显卡价格连续三天大面积下跌",
+      "url": "https://search.bilibili.com/all?keyword=%E6%98%BE%E5%8D%A1%E4%BB%B7%E6%A0%BC%E8%BF%9E%E7%BB%AD%E4%B8%89%E5%A4%A9%E5%A4%A7%E9%9D%A2%E7%A7%AF%E4%B8%8B%E8%B7%8C",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "TLAW LOS",
+      "title": "LOS战胜TLAW S16瑞士轮",
+      "url": "https://search.bilibili.com/all?keyword=TLAW%20LOS",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "星游记前传电影启动",
+      "title": "星游记前传电影启动",
+      "url": "https://search.bilibili.com/all?keyword=%E6%98%9F%E6%B8%B8%E8%AE%B0%E5%89%8D%E4%BC%A0%E7%94%B5%E5%BD%B1%E5%90%AF%E5%8A%A8",
+      "extra": {
+        "icon": ""
+      }
+    }
+  ]
+}
