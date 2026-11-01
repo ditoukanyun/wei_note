@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3784924,
+      "title": "“中选决战”在即，为避免被横扫，共和党要保“基本盘”",
+      "extra": {
+        "date": 1793447667000
+      },
+      "url": "https://wallstreetcn.com/articles/3784924"
+    },
+    {
+      "id": 41960120,
+      "title": "黄仁勋：孩子没野心，AI 只会帮他更懒",
+      "extra": {
+        "date": 1793443503000
+      },
+      "url": "https://wallstreetcn.com/charts/41960120"
+    },
+    {
+      "id": 3784923,
+      "title": "Marvell收购Lumentum：“芯片 + 光学”的首次深度闭环，“既当裁判又当运动员”与光通信的“赢家通吃”",
+      "extra": {
+        "date": 1793442058000
+      },
+      "url": "https://wallstreetcn.com/articles/3784923"
+    },
+    {
+      "id": 3784920,
+      "title": "为何10月PMI偏弱？",
+      "extra": {
+        "date": 1793439846000
+      },
+      "url": "https://wallstreetcn.com/articles/3784920"
+    },
+    {
+      "id": 3784918,
+      "title": "苹果收盘市值5.03万亿美元反超英伟达，重夺全球第一",
+      "extra": {
+        "date": 1793437824000
+      },
+      "url": "https://wallstreetcn.com/articles/3784918"
+    }
+  ]
+}

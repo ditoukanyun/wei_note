@@ -1,0 +1,46 @@
+{
+  "source": "kuaishou",
+  "count": 5,
+  "items": [
+    {
+      "id": "无锡队夺得苏超冠军",
+      "title": "无锡队夺得苏超冠军",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E6%97%A0%E9%94%A1%E9%98%9F%E5%A4%BA%E5%BE%97%E8%8B%8F%E8%B6%85%E5%86%A0%E5%86%9B",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "今天是十一月的第一天",
+      "title": "今天是十一月的第一天",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E4%BB%8A%E5%A4%A9%E6%98%AF%E5%8D%81%E4%B8%80%E6%9C%88%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "经济大省三季报释放什么新信号",
+      "title": "经济大省三季报释放什么新信号",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E7%BB%8F%E6%B5%8E%E5%A4%A7%E7%9C%81%E4%B8%89%E5%AD%A3%E6%8A%A5%E9%87%8A%E6%94%BE%E4%BB%80%E4%B9%88%E6%96%B0%E4%BF%A1%E5%8F%B7",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "11月新规这些值得关注",
+      "title": "11月新规这些值得关注",
+      "url": "https://www.kuaishou.com/search/video?searchKey=11%E6%9C%88%E6%96%B0%E8%A7%84%E8%BF%99%E4%BA%9B%E5%80%BC%E5%BE%97%E5%85%B3%E6%B3%A8",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "AI生成短剧题材广泛",
+      "title": "AI生成短剧题材广泛",
+      "url": "https://www.kuaishou.com/search/video?searchKey=AI%E7%94%9F%E6%88%90%E7%9F%AD%E5%89%A7%E9%A2%98%E6%9D%90%E5%B9%BF%E6%B3%9B",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    }
+  ]
+}

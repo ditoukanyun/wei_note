@@ -1,0 +1,2314 @@
+{
+  "date": "2026-11-01",
+  "startedAt": "2026-11-01T00:00:20.037Z",
+  "finishedAt": "2026-11-01T00:00:48.008Z",
+  "usage": {
+    "status": "success",
+    "exitCode": 0,
+    "signal": null,
+    "timeoutMs": 10000,
+    "error": null,
+    "stderr": "",
+    "stdout": "Usage: newsnow <source> [options]\n       newsnow list [--json | --output json] [--pretty]\n       newsnow schema [--pretty]\n\nCommands:\n  list          List all available sources\n  schema        Print machine-readable JSON Schema for this CLI\n  <source>      Fetch news from the given source\n\nOptions:\n  --json            Output as JSON\n  --output json     Alias for --json\n  --pretty          Pretty-print JSON output\n  --fields f1,f2    Filter output fields (JSON mode only)\n  --limit N         Limit number of items returned\n\nSources: 66 available. Run \"newsnow list\" to see all.\n",
+    "startedAt": "2026-11-01T00:00:20.039Z",
+    "finishedAt": "2026-11-01T00:00:20.141Z"
+  },
+  "sourceCount": 66,
+  "counts": {
+    "success": 43,
+    "nonzero": 12,
+    "timeout": 4,
+    "empty": 6,
+    "badjson": 0,
+    "skipenv": 1,
+    "aborted": 0
+  },
+  "retries": [
+    "hackernews",
+    "mktnews",
+    "mktnews-flash",
+    "kaopu",
+    "v2ex",
+    "v2ex-share",
+    "zaobao",
+    "linuxdo",
+    "linuxdo-hot",
+    "linuxdo-latest"
+  ],
+  "results": [
+    {
+      "source": "bilibili",
+      "category": "bilibili",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"bilibili\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"HLE BLG\",\n      \"title\": \"BLG战胜HLE晋级淘汰赛\",\n      \"url\": \"https://search.bilibili.com/all?keyword=HLE%20BLG\",\n      \"extra\": {\n        \"icon\": \"http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png\"\n      }\n    },\n    {\n      \"id\": \"中低端显卡价格持续下跌\",\n      \"title\": \"中低端显卡价格持续下跌\",\n      \"url\": \"https://search.bilibili.com/all?keyword=%E4%B8%AD%E4%BD%8E%E7%AB%AF%E6%98%BE%E5%8D%A1%E4%BB%B7%E6%A0%BC%E6%8C%81%E7%BB%AD%E4%B8%8B%E8%B7%8C\",\n      \"extra\": {\n        \"icon\": \"http://i0.hdslb\n...[summary 已截断，完整输出共 1483 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.169Z",
+          "finishedAt": "2026-11-01T00:00:20.303Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "BLG战胜HLE晋级淘汰赛",
+        "中低端显卡价格持续下跌",
+        "可控核聚变将在这代人实现"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"bilibili\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"HLE BLG\",\n      \"title\": \"BLG战胜HLE晋级淘汰赛\",\n      \"url\": \"https://search.bilibili.com/all?keyword=HLE%20BLG\",\n      \"extra\": {\n        \"icon\": \"http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png\"\n      }\n    },\n    {\n      \"id\": \"中低端显卡价格持续下跌\",\n      \"title\": \"中低端显卡价格持续下跌\",\n      \"url\": \"https://search.bilibili.com/all?keyword=%E4%B8%AD%E4%BD%8E%E7%AB%AF%E6%98%BE%E5%8D%A1%E4%BB%B7%E6%A0%BC%E6%8C%81%E7%BB%AD%E4%B8%8B%E8%B7%8C\",\n      \"extra\": {\n        \"icon\": \"http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png\"\n      }\n    },\n    {\n      \"id\": \"可控核聚变将在这代人实现\",\n      \"title\": \"可控核聚变将在这代人实现\",\n      \"url\": \"https://search.bilibili.com/all?keyword=%E5%8F%AF%E6%8E%A7%E6%A0%B8%E8%81%9A%E5%8F%98%E5%B0%86%E5%9C%A8%E8%BF%99%E4%BB%A3%E4%BA%BA%E5%AE%9E%E7%8E%B0\",\n      \"extra\": {\n        \"icon\": \"\"\n      }\n    },\n    {\n      \"id\": \"MKOI KC\",\n      \"title\": \"KC战胜MKOI S16瑞士轮\",\n      \"url\": \"https://search.bilibili.com/all?keyword=MKOI%20KC\",\n      \"extra\": {\n        \"icon\": \"http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png\"\n      }\n    },\n    {\n      \"id\": \"切尔西2-0曼联\",\n      \"title\": \"切尔西2-0曼联\",\n      \"url\": \"https://search.bilibili.com/all?keyword=%E5%88%87%E5%B0%94%E8%A5%BF2-0%E6%9B%BC%E8%81%94\",\n      \"extra\": {\n        \"icon\": \"\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.169Z",
+      "finishedAt": "2026-11-01T00:00:20.303Z"
+    },
+    {
+      "source": "bilibili-hot-search",
+      "category": "bilibili",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"bilibili-hot-search\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"HLE BLG\",\n      \"title\": \"BLG战胜HLE晋级淘汰赛\",\n      \"url\": \"https://search.bilibili.com/all?keyword=HLE%20BLG\",\n      \"extra\": {\n        \"icon\": \"http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png\"\n      }\n    },\n    {\n      \"id\": \"中低端显卡价格持续下跌\",\n      \"title\": \"中低端显卡价格持续下跌\",\n      \"url\": \"https://search.bilibili.com/all?keyword=%E4%B8%AD%E4%BD%8E%E7%AB%AF%E6%98%BE%E5%8D%A1%E4%BB%B7%E6%A0%BC%E6%8C%81%E7%BB%AD%E4%B8%8B%E8%B7%8C\",\n      \"extra\": {\n        \"icon\": \"http\n...[summary 已截断，完整输出共 1494 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.169Z",
+          "finishedAt": "2026-11-01T00:00:20.324Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "BLG战胜HLE晋级淘汰赛",
+        "中低端显卡价格持续下跌",
+        "可控核聚变将在这代人实现"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"bilibili-hot-search\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"HLE BLG\",\n      \"title\": \"BLG战胜HLE晋级淘汰赛\",\n      \"url\": \"https://search.bilibili.com/all?keyword=HLE%20BLG\",\n      \"extra\": {\n        \"icon\": \"http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png\"\n      }\n    },\n    {\n      \"id\": \"中低端显卡价格持续下跌\",\n      \"title\": \"中低端显卡价格持续下跌\",\n      \"url\": \"https://search.bilibili.com/all?keyword=%E4%B8%AD%E4%BD%8E%E7%AB%AF%E6%98%BE%E5%8D%A1%E4%BB%B7%E6%A0%BC%E6%8C%81%E7%BB%AD%E4%B8%8B%E8%B7%8C\",\n      \"extra\": {\n        \"icon\": \"http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png\"\n      }\n    },\n    {\n      \"id\": \"可控核聚变将在这代人实现\",\n      \"title\": \"可控核聚变将在这代人实现\",\n      \"url\": \"https://search.bilibili.com/all?keyword=%E5%8F%AF%E6%8E%A7%E6%A0%B8%E8%81%9A%E5%8F%98%E5%B0%86%E5%9C%A8%E8%BF%99%E4%BB%A3%E4%BA%BA%E5%AE%9E%E7%8E%B0\",\n      \"extra\": {\n        \"icon\": \"\"\n      }\n    },\n    {\n      \"id\": \"MKOI KC\",\n      \"title\": \"KC战胜MKOI S16瑞士轮\",\n      \"url\": \"https://search.bilibili.com/all?keyword=MKOI%20KC\",\n      \"extra\": {\n        \"icon\": \"http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png\"\n      }\n    },\n    {\n      \"id\": \"切尔西2-0曼联\",\n      \"title\": \"切尔西2-0曼联\",\n      \"url\": \"https://search.bilibili.com/all?keyword=%E5%88%87%E5%B0%94%E8%A5%BF2-0%E6%9B%BC%E8%81%94\",\n      \"extra\": {\n        \"icon\": \"\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.169Z",
+      "finishedAt": "2026-11-01T00:00:20.324Z"
+    },
+    {
+      "source": "baidu",
+      "category": "baidu",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"baidu\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"https://www.baidu.com/s?wd=%E5%A4%9A%E5%9C%B0%E5%B0%8F%E5%AD%A6%E8%80%81%E5%B8%88%E8%BD%AC%E5%B2%97%E6%95%99%E4%B8%AD%E5%AD%A6\",\n      \"title\": \"多地小学老师转岗教中学\",\n      \"url\": \"https://www.baidu.com/s?wd=%E5%A4%9A%E5%9C%B0%E5%B0%8F%E5%AD%A6%E8%80%81%E5%B8%88%E8%BD%AC%E5%B2%97%E6%95%99%E4%B8%AD%E5%AD%A6\",\n      \"extra\": {\n        \"hover\": \"近期，多地在小学老师出现“富余”而中学老师存在缺口的情况下，通过将部分老师转岗至初中任教，解决小学老师过剩而中学师资不足的矛盾。\"\n      }\n    },\n    {\n      \"id\": \"https://www.baidu.com/s?wd=31%E7%9C%81%E4%BB%BD%E5%B1%85%E6%B0%91%E6%B6%88%E8%B4%B9%E6%A6%9C%E\n...[summary 已截断，完整输出共 2397 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.169Z",
+          "finishedAt": "2026-11-01T00:00:20.357Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "多地小学老师转岗教中学",
+        "31省份居民消费榜：谁最能花钱",
+        "多领域见证中国经济活力"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"baidu\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"https://www.baidu.com/s?wd=%E5%A4%9A%E5%9C%B0%E5%B0%8F%E5%AD%A6%E8%80%81%E5%B8%88%E8%BD%AC%E5%B2%97%E6%95%99%E4%B8%AD%E5%AD%A6\",\n      \"title\": \"多地小学老师转岗教中学\",\n      \"url\": \"https://www.baidu.com/s?wd=%E5%A4%9A%E5%9C%B0%E5%B0%8F%E5%AD%A6%E8%80%81%E5%B8%88%E8%BD%AC%E5%B2%97%E6%95%99%E4%B8%AD%E5%AD%A6\",\n      \"extra\": {\n        \"hover\": \"近期，多地在小学老师出现“富余”而中学老师存在缺口的情况下，通过将部分老师转岗至初中任教，解决小学老师过剩而中学师资不足的矛盾。\"\n      }\n    },\n    {\n      \"id\": \"https://www.baidu.com/s?wd=31%E7%9C%81%E4%BB%BD%E5%B1%85%E6%B0%91%E6%B6%88%E8%B4%B9%E6%A6%9C%EF%BC%9A%E8%B0%81%E6%9C%80%E8%83%BD%E8%8A%B1%E9%92%B1\",\n      \"title\": \"31省份居民消费榜：谁最能花钱\",\n      \"url\": \"https://www.baidu.com/s?wd=31%E7%9C%81%E4%BB%BD%E5%B1%85%E6%B0%91%E6%B6%88%E8%B4%B9%E6%A6%9C%EF%BC%9A%E8%B0%81%E6%9C%80%E8%83%BD%E8%8A%B1%E9%92%B1\",\n      \"extra\": {\n        \"hover\": \"最新发布的《中国统计年鉴2026》披露2025年31省份居民人均消费支出数据。2025年全国人均消费支出29476元，同比增长4.4%，仅7个东部沿海省份超全国平均线。分析显示，消费金额最高的京沪两地消费倾向反而最低，呈“高收入、低倾向”；甘肃等中西部省份因刚性支出占比高，消费倾向较高。\"\n      }\n    },\n    {\n      \"id\": \"https://www.baidu.com/s?wd=%E5%A4%9A%E9%A2%86%E5%9F%9F%E8%A7%81%E8%AF%81%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%B4%BB%E5%8A%9B\",\n      \"title\": \"多领域见证中国经济活力\",\n      \"url\": \"https://www.baidu.com/s?wd=%E5%A4%9A%E9%A2%86%E5%9F%9F%E8%A7%81%E8%AF%81%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%B4%BB%E5%8A%9B\",\n      \"extra\": {\n        \"hover\": \"本周，一组经济数据新鲜出炉，海洋经济彰显发展韧性，绿色电力保障更加充足，消费品以旧换新激活内需潜力，多点协同发力，尽显中国经济发展活力。\"\n      }\n    },\n    {\n      \"id\": \"https://www.baidu.com/s?wd=DeepSeek%E9%87%8D%E7%A3%85%E5%8F%91%E5%B8%83%EF%BC%9AAI%E5%BC%80%E5%A7%8B%E6%8C%87%E6%8C%A5AI%E5%B9%B2%E6%B4%BB\",\n      \"title\": \"DeepSeek重磅发布：AI开始指挥AI干活\",\n      \"url\": \"https://www.baidu.com/s?wd=DeepSeek%E9%87%8D%E7%A3%85%E5%8F%91%E5%B8%83%EF%BC%9AAI%E5%BC%80%E5%A7%8B%E6%8C%87%E6%8C%A5AI%E5%B9%B2%E6%B4%BB\",\n      \"extra\": {\n        \"hover\": \"近日，DeepSeek Harness团队发文介绍Super-agent架构。该架构由Router统筹和Worker执行组成，使AI能持续在线、多任务并行，并基于群聊等外部事件主动响应，在后台静默修复Bug。此前传统Agent受单会话限制，难以多任务并行。\"\n      }\n    },\n    {\n      \"id\": \"https://www.baidu.com/s?wd=%E5%9B%BD%E4%B9%92%E7%94%B7%E5%8D%95%E5%85%A8%E9%83%A8%E5%87%BA%E5%B1%80\",\n      \"title\": \"国乒男单全部出局\",\n      \"url\": \"https://www.baidu.com/s?wd=%E5%9B%BD%E4%B9%92%E7%94%B7%E5%8D%95%E5%85%A8%E9%83%A8%E5%87%BA%E5%B1%80\",\n      \"extra\": {\n        \"hover\": \"11月1日，2026WTT蒙彼利埃冠军赛男单四强出炉，国乒男单已全部出局，连续三届无缘该赛事冠亚军。\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.169Z",
+      "finishedAt": "2026-11-01T00:00:20.357Z"
+    },
+    {
+      "source": "36kr-renqi",
+      "category": "36kr",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"36kr-renqi\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://36kr.com/p/4049055297436164\",\n      \"title\": \"刚刚，国行 Apple 智能官宣，但满血 SiriAI 还得等\",\n      \"id\": \"4049055297436164\",\n      \"extra\": {\n        \"info\": \"爱范儿\"\n      }\n    },\n    {\n      \"url\": \"https://36kr.com/p/4022650519949184\",\n      \"title\": \"拆解顶级高手的产出法则：工作不是马拉松，而是一场场蓄谋已久的短跑冲刺\",\n      \"id\": \"4022650519949184\",\n      \"extra\": {\n        \"info\": \"神译局\"\n      }\n    },\n    {\n      \"url\": \"https://36kr.com/p/4049021975886084\",\n      \"title\": \"Claude套餐大升级！Max 20x 升级为 Ultra，5 小时限额直接取消\",\n      \"id\": \"4049021975886084\",\n     \n...[summary 已截断，完整输出共 1069 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.168Z",
+          "finishedAt": "2026-11-01T00:00:20.450Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "刚刚，国行 Apple 智能官宣，但满血 SiriAI 还得等",
+        "拆解顶级高手的产出法则：工作不是马拉松，而是一场场蓄谋已久的短跑冲刺",
+        "Claude套餐大升级！Max 20x 升级为 Ultra，5 小时限额直接取消"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"36kr-renqi\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://36kr.com/p/4049055297436164\",\n      \"title\": \"刚刚，国行 Apple 智能官宣，但满血 SiriAI 还得等\",\n      \"id\": \"4049055297436164\",\n      \"extra\": {\n        \"info\": \"爱范儿\"\n      }\n    },\n    {\n      \"url\": \"https://36kr.com/p/4022650519949184\",\n      \"title\": \"拆解顶级高手的产出法则：工作不是马拉松，而是一场场蓄谋已久的短跑冲刺\",\n      \"id\": \"4022650519949184\",\n      \"extra\": {\n        \"info\": \"神译局\"\n      }\n    },\n    {\n      \"url\": \"https://36kr.com/p/4049021975886084\",\n      \"title\": \"Claude套餐大升级！Max 20x 升级为 Ultra，5 小时限额直接取消\",\n      \"id\": \"4049021975886084\",\n      \"extra\": {\n        \"info\": \"新智元\"\n      }\n    },\n    {\n      \"url\": \"https://36kr.com/p/4048457242835463\",\n      \"title\": \"DeepSeek，怎么就变成了一条「大肥鱼」\",\n      \"id\": \"4048457242835463\",\n      \"extra\": {\n        \"info\": \"极客公园\"\n      }\n    },\n    {\n      \"url\": \"https://36kr.com/p/4049089058126344\",\n      \"title\": \"9点1氪丨币安遭黑客攻击，致其30亿美元资产被冻结；“张雪机车”商标回归张雪；美股收盘纳指重挫700点，英伟达市值蒸发1.4万亿元\",\n      \"id\": \"4049089058126344\",\n      \"extra\": {\n        \"info\": \"8点1氪\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.168Z",
+      "finishedAt": "2026-11-01T00:00:20.450Z"
+    },
+    {
+      "source": "bilibili-ranking",
+      "category": "bilibili",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"bilibili-ranking\\\": Bilibili ranking API returned unexpected response: {\\\"code\\\":-352,\\\"message\\\":\\\"-352\\\",\\\"ttl\\\":1}\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:20.324Z",
+          "finishedAt": "2026-11-01T00:00:20.451Z"
+        }
+      ],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "{\"error\":\"Fetch failed for \\\"bilibili-ranking\\\": Bilibili ranking API returned unexpected response: {\\\"code\\\":-352,\\\"message\\\":\\\"-352\\\",\\\"ttl\\\":1}\",\"code\":\"FETCH_ERROR\"}",
+      "stderr": "{\"error\":\"Fetch failed for \\\"bilibili-ranking\\\": Bilibili ranking API returned unexpected response: {\\\"code\\\":-352,\\\"message\\\":\\\"-352\\\",\\\"ttl\\\":1}\",\"code\":\"FETCH_ERROR\"}\n",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:20.324Z",
+      "finishedAt": "2026-11-01T00:00:20.451Z"
+    },
+    {
+      "source": "bilibili-hot-video",
+      "category": "bilibili",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"bilibili-hot-video\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"BV1vVxi68EWD\",\n      \"title\": \" 【独家】《凡人修仙传之慕兰之战》第22集【总第198集】\",\n      \"url\": \"https://www.bilibili.com/video/BV1vVxi68EWD\",\n      \"pubDate\": 1793415602000,\n      \"extra\": {\n        \"info\": \"哔哩哔哩国创 · 484w+观看 · 11w+点赞\",\n        \"hover\": \"每周六中午11:00，bilibili独家呈现\",\n        \"icon\": \"http://i2.hdslb.com/bfs/archive/cc03ebb7fd75c07015d845af4bb2a5f78f7e3db5.jpg\"\n      }\n    },\n    {\n      \"id\": \"BV1TxxC6vEo4\",\n      \"title\": \"全球笑点下降2000倍而我不变【第二集】\",\n      \"url\": \"https://www.bilibili.com/video/BV1TxxC6vEo4\",\n      \"pubDate\n...[summary 已截断，完整输出共 2286 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.303Z",
+          "finishedAt": "2026-11-01T00:00:20.455Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        " 【独家】《凡人修仙传之慕兰之战》第22集【总第198集】",
+        "全球笑点下降2000倍而我不变【第二集】",
+        "【鬼谷闲谈】沧龙：问君能有几多愁，恰似鳞龙入海流"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"bilibili-hot-video\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"BV1vVxi68EWD\",\n      \"title\": \" 【独家】《凡人修仙传之慕兰之战》第22集【总第198集】\",\n      \"url\": \"https://www.bilibili.com/video/BV1vVxi68EWD\",\n      \"pubDate\": 1793415602000,\n      \"extra\": {\n        \"info\": \"哔哩哔哩国创 · 484w+观看 · 11w+点赞\",\n        \"hover\": \"每周六中午11:00，bilibili独家呈现\",\n        \"icon\": \"http://i2.hdslb.com/bfs/archive/cc03ebb7fd75c07015d845af4bb2a5f78f7e3db5.jpg\"\n      }\n    },\n    {\n      \"id\": \"BV1TxxC6vEo4\",\n      \"title\": \"全球笑点下降2000倍而我不变【第二集】\",\n      \"url\": \"https://www.bilibili.com/video/BV1TxxC6vEo4\",\n      \"pubDate\": 1793436980000,\n      \"extra\": {\n        \"info\": \"逗比的雀巢 · 178w+观看 · 22w+点赞\",\n        \"hover\": \"这一集等于我做三个视频了...我要去睡觉了\\n不过，很多朋友不知道怎么看完整版，关注雀巢\\n搞笑人才断代，龙国岌岌可危，雀巢被推上擂台。全民嘲笑他长这么帅根本不会搞笑，樱花国笑出眼泪。下一秒，雀巢讲出核弹级地狱笑话。当雀巢获胜，全网跪了。世人终于颤栗，龙国的搞笑大王，终于诞生！\",\n        \"icon\": \"http://i2.hdslb.com/bfs/archive/b469c3f10f8498c42cd3a29741fe501fc9aad287.jpg\"\n      }\n    },\n    {\n      \"id\": \"BV1qfxB6qEjD\",\n      \"title\": \"【鬼谷闲谈】沧龙：问君能有几多愁，恰似鳞龙入海流\",\n      \"url\": \"https://www.bilibili.com/video/BV1qfxB6qEjD\",\n      \"pubDate\": 1793417100000,\n      \"extra\": {\n        \"info\": \"芳斯塔芙 · 74w+观看 · 7w+点赞\",\n        \"hover\": \"鬼谷曰：就算不说这离奇的天意，沧龙本身也是个非常奇妙的存在，一方面，它做了亿年准备，成了在森土事件中近乎唯一大范围成功下海的类群，甚至一路成为了海爬王者，这是个不可思议的奇迹。但另一方面，鳞龙的底层缺陷，森土事件短暂的窗口期又让沧龙的这次下海处处受到掣肘。更不用说那个下海时机还很不完美——之前的海爬还在，海洋也不算很富饶，更麻烦的是，当时中生代海洋革命已经到了尾声，海里到处都是善于快速游泳与灵活机动的鱼类、蛸类，这些猎物对于陆地不恒温的动物来说难度还是太高了，相对比之下，当年鱼龙面对的还是以叠甲为主的海洋\",\n        \"icon\": \"http://i0.hdslb.com/bfs/archive/c7cb0238f06c0592a32d5dbf7f5d383f255f25e2.jpg\"\n      }\n    },\n    {\n      \"id\": \"BV1q8x56uEDU\",\n      \"title\": \"1944滇缅竹林：远征军教盟军吃虎皮笋，油手把风笛吹成妖笛【AI全民制作人】\",\n      \"url\": \"https://www.bilibili.com/video/BV1q8x56uEDU\",\n      \"pubDate\": 1793158589000,\n      \"extra\": {\n        \"info\": \"墨八分钱 · 381w+观看 · 10w+点赞\",\n        \"hover\": \"\",\n        \"icon\": \"http://i0.hdslb.com/bfs/archive/aefc2d1e10fc068a04e4df1f2d96ff3a4c3f3623.jpg\"\n      }\n    },\n    {\n      \"id\": \"BV1ugxq6HEfH\",\n      \"title\": \"灭建国的超能力\",\n      \"url\": \"https://www.bilibili.com/video/BV1ugxq6HEfH\",\n      \"pubDate\": 1793367253000,\n      \"extra\": {\n        \"info\": \"抽象生活先生 · 374w+观看 · 39w+点赞\",\n        \"hover\": \"\",\n        \"icon\": \"http://i1.hdslb.com/bfs/archive/2d149e67cd059e20a3a576a85b9d068a67e693db.jpg\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.303Z",
+      "finishedAt": "2026-11-01T00:00:20.455Z"
+    },
+    {
+      "source": "cankaoxiaoxi",
+      "category": "cankaoxiaoxi",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"cankaoxiaoxi\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"3fbcc5d0e299468fa28a672fb8c423eb\",\n      \"title\": \"欧盟与加拿大宣布“结盟”\",\n      \"extra\": {\n        \"date\": 1793449609000\n      },\n      \"url\": \"https://ckxxapp.ckxx.net/pages/2026/10/31/3fbcc5d0e299468fa28a672fb8c423eb.html\"\n    },\n    {\n      \"id\": \"aebd9b30a399438e9758392180488898\",\n      \"title\": \"高市缺席G7线上会议被批失职\",\n      \"extra\": {\n        \"date\": 1793449605000\n      },\n      \"url\": \"https://ckxxapp.ckxx.net/pages/2026/10/31/aebd9b30a399438e9758392180488898.html\"\n    },\n    {\n      \"id\": \"39d8dd397fc4448ab37c5db7cf48dd08\",\n \n...[summary 已截断，完整输出共 1291 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.358Z",
+          "finishedAt": "2026-11-01T00:00:20.539Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "欧盟与加拿大宣布“结盟”",
+        "高市缺席G7线上会议被批失职",
+        "运输成本飙升推动油价上涨"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"cankaoxiaoxi\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"3fbcc5d0e299468fa28a672fb8c423eb\",\n      \"title\": \"欧盟与加拿大宣布“结盟”\",\n      \"extra\": {\n        \"date\": 1793449609000\n      },\n      \"url\": \"https://ckxxapp.ckxx.net/pages/2026/10/31/3fbcc5d0e299468fa28a672fb8c423eb.html\"\n    },\n    {\n      \"id\": \"aebd9b30a399438e9758392180488898\",\n      \"title\": \"高市缺席G7线上会议被批失职\",\n      \"extra\": {\n        \"date\": 1793449605000\n      },\n      \"url\": \"https://ckxxapp.ckxx.net/pages/2026/10/31/aebd9b30a399438e9758392180488898.html\"\n    },\n    {\n      \"id\": \"39d8dd397fc4448ab37c5db7cf48dd08\",\n      \"title\": \"运输成本飙升推动油价上涨\",\n      \"extra\": {\n        \"date\": 1793449583000\n      },\n      \"url\": \"https://ckxxapp.ckxx.net/pages/2026/10/31/39d8dd397fc4448ab37c5db7cf48dd08.html\"\n    },\n    {\n      \"id\": \"24d90f90b59d4d1a9dd737bb02579161\",\n      \"title\": \"美联储称维持利率不变 否认决定与中期选举因素相关\",\n      \"extra\": {\n        \"date\": 1793447058000\n      },\n      \"url\": \"https://ckxxapp.ckxx.net/pages/2026/10/31/24d90f90b59d4d1a9dd737bb02579161.html\"\n    },\n    {\n      \"id\": \"8f21b41adbb840b8a52363caa48cb321\",\n      \"title\": \"西方金融市场面临四重考验\",\n      \"extra\": {\n        \"date\": 1793447023000\n      },\n      \"url\": \"https://ckxxapp.ckxx.net/pages/2026/10/31/8f21b41adbb840b8a52363caa48cb321.html\"\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.358Z",
+      "finishedAt": "2026-11-01T00:00:20.539Z"
+    },
+    {
+      "source": "36kr-quick",
+      "category": "36kr",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"36kr-quick\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049556312118405\",\n      \"title\": \"禄达技术集团收购亚洲算力算网与量子计算科技有限公司55%股权\",\n      \"id\": \"/newsflashes/4049556312118405\",\n      \"extra\": {\n        \"date\": 1793440820582\n      }\n    },\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049553142551431\",\n      \"title\": \"中信证券：银行板块有望从“高股息防御资产”向“高确定性权益资产”重估，预计全年仍将演绎估值上行方向\",\n      \"id\": \"/newsflashes/4049553142551431\",\n      \"extra\": {\n        \"date\": 1793437220582\n      }\n    },\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049541789750153\"\n...[summary 已截断，完整输出共 1214 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.168Z",
+          "finishedAt": "2026-11-01T00:00:20.584Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "禄达技术集团收购亚洲算力算网与量子计算科技有限公司55%股权",
+        "中信证券：银行板块有望从“高股息防御资产”向“高确定性权益资产”重估，预计全年仍将演绎估值上行方向",
+        "三星高管会见OpenAI首席执行官，探讨人工智能转型"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"36kr-quick\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049556312118405\",\n      \"title\": \"禄达技术集团收购亚洲算力算网与量子计算科技有限公司55%股权\",\n      \"id\": \"/newsflashes/4049556312118405\",\n      \"extra\": {\n        \"date\": 1793440820582\n      }\n    },\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049553142551431\",\n      \"title\": \"中信证券：银行板块有望从“高股息防御资产”向“高确定性权益资产”重估，预计全年仍将演绎估值上行方向\",\n      \"id\": \"/newsflashes/4049553142551431\",\n      \"extra\": {\n        \"date\": 1793437220582\n      }\n    },\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049541789750153\",\n      \"title\": \"三星高管会见OpenAI首席执行官，探讨人工智能转型\",\n      \"id\": \"/newsflashes/4049541789750153\",\n      \"extra\": {\n        \"date\": 1793437220582\n      }\n    },\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049538395739272\",\n      \"title\": \"OpenAI奥特曼谈内存短缺：全球DRAM应优先供给数据中心，闲置在玩家PC里是浪费\",\n      \"id\": \"/newsflashes/4049538395739272\",\n      \"extra\": {\n        \"date\": 1793437220582\n      }\n    },\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049534176121734\",\n      \"title\": \"事关大额存单，多家外资银行密集上架\",\n      \"id\": \"/newsflashes/4049534176121734\",\n      \"extra\": {\n        \"date\": 1793437220582\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.168Z",
+      "finishedAt": "2026-11-01T00:00:20.584Z"
+    },
+    {
+      "source": "36kr",
+      "category": "36kr",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"36kr\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049556312118405\",\n      \"title\": \"禄达技术集团收购亚洲算力算网与量子计算科技有限公司55%股权\",\n      \"id\": \"/newsflashes/4049556312118405\",\n      \"extra\": {\n        \"date\": 1793440820585\n      }\n    },\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049553142551431\",\n      \"title\": \"中信证券：银行板块有望从“高股息防御资产”向“高确定性权益资产”重估，预计全年仍将演绎估值上行方向\",\n      \"id\": \"/newsflashes/4049553142551431\",\n      \"extra\": {\n        \"date\": 1793437220585\n      }\n    },\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049541789750153\",\n    \n...[summary 已截断，完整输出共 1208 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.168Z",
+          "finishedAt": "2026-11-01T00:00:20.587Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "禄达技术集团收购亚洲算力算网与量子计算科技有限公司55%股权",
+        "中信证券：银行板块有望从“高股息防御资产”向“高确定性权益资产”重估，预计全年仍将演绎估值上行方向",
+        "三星高管会见OpenAI首席执行官，探讨人工智能转型"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"36kr\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049556312118405\",\n      \"title\": \"禄达技术集团收购亚洲算力算网与量子计算科技有限公司55%股权\",\n      \"id\": \"/newsflashes/4049556312118405\",\n      \"extra\": {\n        \"date\": 1793440820585\n      }\n    },\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049553142551431\",\n      \"title\": \"中信证券：银行板块有望从“高股息防御资产”向“高确定性权益资产”重估，预计全年仍将演绎估值上行方向\",\n      \"id\": \"/newsflashes/4049553142551431\",\n      \"extra\": {\n        \"date\": 1793437220585\n      }\n    },\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049541789750153\",\n      \"title\": \"三星高管会见OpenAI首席执行官，探讨人工智能转型\",\n      \"id\": \"/newsflashes/4049541789750153\",\n      \"extra\": {\n        \"date\": 1793437220585\n      }\n    },\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049538395739272\",\n      \"title\": \"OpenAI奥特曼谈内存短缺：全球DRAM应优先供给数据中心，闲置在玩家PC里是浪费\",\n      \"id\": \"/newsflashes/4049538395739272\",\n      \"extra\": {\n        \"date\": 1793437220585\n      }\n    },\n    {\n      \"url\": \"https://www.36kr.com/newsflashes/4049534176121734\",\n      \"title\": \"事关大额存单，多家外资银行密集上架\",\n      \"id\": \"/newsflashes/4049534176121734\",\n      \"extra\": {\n        \"date\": 1793437220585\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.168Z",
+      "finishedAt": "2026-11-01T00:00:20.587Z"
+    },
+    {
+      "source": "cls",
+      "category": "cls",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"cls\\\": [GET] \\\"https://www.cls.cn/nodeapi/updateTelegraphList?appName=CailianpressWeb&os=web&sv=7.7.5&sign=9c11221af4f6b47b253098a8b9957b8f\\\": 404 Not Found\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:20.539Z",
+          "finishedAt": "2026-11-01T00:00:20.674Z"
+        }
+      ],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "{\"error\":\"Fetch failed for \\\"cls\\\": [GET] \\\"https://www.cls.cn/nodeapi/updateTelegraphList?appName=CailianpressWeb&os=web&sv=7.7.5&sign=9c11221af4f6b47b253098a8b9957b8f\\\": 404 Not Found\",\"code\":\"FETCH_ERROR\"}",
+      "stderr": "{\"error\":\"Fetch failed for \\\"cls\\\": [GET] \\\"https://www.cls.cn/nodeapi/updateTelegraphList?appName=CailianpressWeb&os=web&sv=7.7.5&sign=9c11221af4f6b47b253098a8b9957b8f\\\": 404 Not Found\",\"code\":\"FETCH_ERROR\"}\n",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:20.539Z",
+      "finishedAt": "2026-11-01T00:00:20.674Z"
+    },
+    {
+      "source": "cls-hot",
+      "category": "cls",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"cls-hot\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 2521408,\n      \"title\": \"【早报】美芯片股遭重挫，英特尔跌逾28%；原油集体走高、黄金大幅下挫；长鑫科技、贵州茅台等披露三季报\",\n      \"url\": \"https://www.cls.cn/detail/2521408\"\n    },\n    {\n      \"id\": 2521560,\n      \"title\": \"消息人士透露：特朗普正计划在美国中期选举之后恢复对伊朗的打击，打击最快可能会发生在11月4日\",\n      \"url\": \"https://www.cls.cn/detail/2521560\"\n    },\n    {\n      \"id\": 2521391,\n      \"title\": \"美股收盘：三大指数全线收跌 纳指跌近3% 英特尔创52年来最大日跌幅\",\n      \"url\": \"https://www.cls.cn/detail/2521391\"\n    },\n    {\n      \"id\": 2521638,\n      \"title\": \"暗藏风险？11家A股公司三季报有董事拒投“赞成票”\",\n      \"url\": \"https://www.cls.cn/detail/2\n...[summary 已截断，完整输出共 738 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.587Z",
+          "finishedAt": "2026-11-01T00:00:20.688Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "【早报】美芯片股遭重挫，英特尔跌逾28%；原油集体走高、黄金大幅下挫；长鑫科技、贵州茅台等披露三季报",
+        "消息人士透露：特朗普正计划在美国中期选举之后恢复对伊朗的打击，打击最快可能会发生在11月4日",
+        "美股收盘：三大指数全线收跌 纳指跌近3% 英特尔创52年来最大日跌幅"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"cls-hot\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 2521408,\n      \"title\": \"【早报】美芯片股遭重挫，英特尔跌逾28%；原油集体走高、黄金大幅下挫；长鑫科技、贵州茅台等披露三季报\",\n      \"url\": \"https://www.cls.cn/detail/2521408\"\n    },\n    {\n      \"id\": 2521560,\n      \"title\": \"消息人士透露：特朗普正计划在美国中期选举之后恢复对伊朗的打击，打击最快可能会发生在11月4日\",\n      \"url\": \"https://www.cls.cn/detail/2521560\"\n    },\n    {\n      \"id\": 2521391,\n      \"title\": \"美股收盘：三大指数全线收跌 纳指跌近3% 英特尔创52年来最大日跌幅\",\n      \"url\": \"https://www.cls.cn/detail/2521391\"\n    },\n    {\n      \"id\": 2521638,\n      \"title\": \"暗藏风险？11家A股公司三季报有董事拒投“赞成票”\",\n      \"url\": \"https://www.cls.cn/detail/2521638\"\n    },\n    {\n      \"id\": 2521497,\n      \"title\": \"官方披露：将有两名中国人登陆月球\",\n      \"url\": \"https://www.cls.cn/detail/2521497\"\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.587Z",
+      "finishedAt": "2026-11-01T00:00:20.688Z"
+    },
+    {
+      "source": "cls-depth",
+      "category": "cls",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"cls-depth\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 2521659,\n      \"title\": \"谷歌据称洽谈参与“金穹”导弹防御计划 或提供数据安全技术支持\",\n      \"pubDate\": 1793472948000,\n      \"url\": \"https://www.cls.cn/detail/2521659\"\n    },\n    {\n      \"id\": 2521654,\n      \"title\": \"AI巨头融资压力显现？OpenAI据称将融资目标下调百亿美元\",\n      \"pubDate\": 1793464944000,\n      \"url\": \"https://www.cls.cn/detail/2521654\"\n    },\n    {\n      \"id\": 2521644,\n      \"title\": \"近300位科学家参会！2026世界顶尖科学家论坛在沪开幕，首颁青年科学家奖\",\n      \"pubDate\": 1793458059000,\n      \"url\": \"https://www.cls.cn/detail/2521644\"\n    },\n    {\n      \"id\": 2521638,\n      \"title\": \"暗藏风险\n...[summary 已截断，完整输出共 888 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.584Z",
+          "finishedAt": "2026-11-01T00:00:20.741Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "谷歌据称洽谈参与“金穹”导弹防御计划 或提供数据安全技术支持",
+        "AI巨头融资压力显现？OpenAI据称将融资目标下调百亿美元",
+        "近300位科学家参会！2026世界顶尖科学家论坛在沪开幕，首颁青年科学家奖"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"cls-depth\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 2521659,\n      \"title\": \"谷歌据称洽谈参与“金穹”导弹防御计划 或提供数据安全技术支持\",\n      \"pubDate\": 1793472948000,\n      \"url\": \"https://www.cls.cn/detail/2521659\"\n    },\n    {\n      \"id\": 2521654,\n      \"title\": \"AI巨头融资压力显现？OpenAI据称将融资目标下调百亿美元\",\n      \"pubDate\": 1793464944000,\n      \"url\": \"https://www.cls.cn/detail/2521654\"\n    },\n    {\n      \"id\": 2521644,\n      \"title\": \"近300位科学家参会！2026世界顶尖科学家论坛在沪开幕，首颁青年科学家奖\",\n      \"pubDate\": 1793458059000,\n      \"url\": \"https://www.cls.cn/detail/2521644\"\n    },\n    {\n      \"id\": 2521638,\n      \"title\": \"暗藏风险？11家A股公司三季报有董事拒投“赞成票”\",\n      \"pubDate\": 1793455465000,\n      \"url\": \"https://www.cls.cn/detail/2521638\"\n    },\n    {\n      \"id\": 2521608,\n      \"title\": \"福莱新材总经理李耀邦：电子皮肤订单放量之后，第二增长曲线如何兑现？|财专访\",\n      \"pubDate\": 1793450639000,\n      \"url\": \"https://www.cls.cn/detail/2521608\"\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.584Z",
+      "finishedAt": "2026-11-01T00:00:20.741Z"
+    },
+    {
+      "source": "cls-telegraph",
+      "category": "cls",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"cls-telegraph\\\": [GET] \\\"https://www.cls.cn/nodeapi/updateTelegraphList?appName=CailianpressWeb&os=web&sv=7.7.5&sign=9c11221af4f6b47b253098a8b9957b8f\\\": 404 Not Found\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:20.674Z",
+          "finishedAt": "2026-11-01T00:00:20.780Z"
+        }
+      ],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "{\"error\":\"Fetch failed for \\\"cls-telegraph\\\": [GET] \\\"https://www.cls.cn/nodeapi/updateTelegraphList?appName=CailianpressWeb&os=web&sv=7.7.5&sign=9c11221af4f6b47b253098a8b9957b8f\\\": 404 Not Found\",\"code\":\"FETCH_ERROR\"}",
+      "stderr": "{\"error\":\"Fetch failed for \\\"cls-telegraph\\\": [GET] \\\"https://www.cls.cn/nodeapi/updateTelegraphList?appName=CailianpressWeb&os=web&sv=7.7.5&sign=9c11221af4f6b47b253098a8b9957b8f\\\": 404 Not Found\",\"code\":\"FETCH_ERROR\"}\n",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:20.674Z",
+      "finishedAt": "2026-11-01T00:00:20.780Z"
+    },
+    {
+      "source": "coolapk",
+      "category": "coolapk",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"coolapk\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 74759233,\n      \"title\": \"米果手机 17 Ultra 徕卡版 诞生～[受虐滑稽]\",\n      \"url\": \"https://www.coolapk.com/feed/74759233\",\n      \"extra\": {\n        \"info\": \"51.1万热度 4.9万讨论\"\n      }\n    },\n    {\n      \"id\": 74739914,\n      \"title\": \"Apple智能国行版本将于11月4日开放测试，12月推送正式版本\",\n      \"url\": \"https://www.coolapk.com/feed/74739914\",\n      \"extra\": {\n        \"info\": \"366.1万热度 2.9万讨论\"\n      }\n    },\n    {\n      \"id\": 73785409,\n      \"title\": \"OriginOS 7 给我的感觉不是功能变多了，而是把截屏、卡包、日历、文件、通知、录音等等这些日常能力串了起来，生活里很多事都能通过小 V 一句话推进。大家感受一下！\",\n      \"url\": \"https://www\n...[summary 已截断，完整输出共 1054 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.688Z",
+          "finishedAt": "2026-11-01T00:00:20.997Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "米果手机 17 Ultra 徕卡版 诞生～[受虐滑稽]",
+        "Apple智能国行版本将于11月4日开放测试，12月推送正式版本",
+        "OriginOS 7 给我的感觉不是功能变多了，而是把截屏、卡包、日历、文件、通知、录音等等这些日常能力串了起来，生活里很多事都能通过小 V 一句话推进。大家感受一下！"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"coolapk\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 74759233,\n      \"title\": \"米果手机 17 Ultra 徕卡版 诞生～[受虐滑稽]\",\n      \"url\": \"https://www.coolapk.com/feed/74759233\",\n      \"extra\": {\n        \"info\": \"51.1万热度 4.9万讨论\"\n      }\n    },\n    {\n      \"id\": 74739914,\n      \"title\": \"Apple智能国行版本将于11月4日开放测试，12月推送正式版本\",\n      \"url\": \"https://www.coolapk.com/feed/74739914\",\n      \"extra\": {\n        \"info\": \"366.1万热度 2.9万讨论\"\n      }\n    },\n    {\n      \"id\": 73785409,\n      \"title\": \"OriginOS 7 给我的感觉不是功能变多了，而是把截屏、卡包、日历、文件、通知、录音等等这些日常能力串了起来，生活里很多事都能通过小 V 一句话推进。大家感受一下！\",\n      \"url\": \"https://www.coolapk.com/feed/73785409\",\n      \"extra\": {}\n    },\n    {\n      \"id\": 74757829,\n      \"title\": \"这是K100proMax吗？16+512  3599不会买错了吧\",\n      \"url\": \"https://www.coolapk.com/feed/74757829\",\n      \"extra\": {\n        \"info\": \"394.2万热度 2.5万讨论\"\n      }\n    },\n    {\n      \"id\": 74744147,\n      \"title\": \"直接去抖音，3799，12期免息，不用再麻烦了[doge]\",\n      \"url\": \"https://www.coolapk.com/feed/74744147\",\n      \"extra\": {\n        \"info\": \"394.2万热度 2.5万讨论\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.688Z",
+      "finishedAt": "2026-11-01T00:00:20.997Z"
+    },
+    {
+      "source": "douban",
+      "category": "douban",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"douban\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"37446297\",\n      \"title\": \"逃出布迪秀\",\n      \"url\": \"https://movie.douban.com/subject/37446297\",\n      \"extra\": {\n        \"info\": \"2026 / 美国 / 惊悚 恐怖 奇幻\",\n        \"hover\": \"2026 / 美国 / 惊悚 恐怖 奇幻 / 加斯帕·凯利 / 德莱尼·奎因 凯莱布·威廉姆斯\"\n      }\n    },\n    {\n      \"id\": \"38208000\",\n      \"title\": \"无处安放我的双眼\",\n      \"url\": \"https://movie.douban.com/subject/38208000\",\n      \"extra\": {\n        \"info\": \"2026 / 韩国 / 剧情\",\n        \"hover\": \"2026 / 韩国 / 剧情 / 洪常秀 / 金敏喜 崔明吉\"\n      }\n    },\n    {\n      \"id\": \"36618556\",\n      \"title\": \"柳条人\",\n      \"url\": \"h\n...[summary 已截断，完整输出共 1321 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.741Z",
+          "finishedAt": "2026-11-01T00:00:21.040Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "逃出布迪秀",
+        "无处安放我的双眼",
+        "柳条人"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"douban\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"37446297\",\n      \"title\": \"逃出布迪秀\",\n      \"url\": \"https://movie.douban.com/subject/37446297\",\n      \"extra\": {\n        \"info\": \"2026 / 美国 / 惊悚 恐怖 奇幻\",\n        \"hover\": \"2026 / 美国 / 惊悚 恐怖 奇幻 / 加斯帕·凯利 / 德莱尼·奎因 凯莱布·威廉姆斯\"\n      }\n    },\n    {\n      \"id\": \"38208000\",\n      \"title\": \"无处安放我的双眼\",\n      \"url\": \"https://movie.douban.com/subject/38208000\",\n      \"extra\": {\n        \"info\": \"2026 / 韩国 / 剧情\",\n        \"hover\": \"2026 / 韩国 / 剧情 / 洪常秀 / 金敏喜 崔明吉\"\n      }\n    },\n    {\n      \"id\": \"36618556\",\n      \"title\": \"柳条人\",\n      \"url\": \"https://movie.douban.com/subject/36618556\",\n      \"extra\": {\n        \"info\": \"2026 / 美国 英国 / 剧情 爱情 奇幻\",\n        \"hover\": \"2026 / 美国 英国 / 剧情 爱情 奇幻 / 埃莉诺·威尔逊 亚历克斯·休斯顿·费希尔 / 奥利维娅·科尔曼 亚历山大·斯卡斯加德\"\n      }\n    },\n    {\n      \"id\": \"38532820\",\n      \"title\": \"死神 千年血战篇 -祸进谭-\",\n      \"url\": \"https://movie.douban.com/subject/38532820\",\n      \"extra\": {\n        \"info\": \"2026 / 日本 / 动作 动画 奇幻\",\n        \"hover\": \"2026 / 日本 / 动作 动画 奇幻 / Hikaru Murata 田口智久 / 速水奖 伊藤健太郎\"\n      }\n    },\n    {\n      \"id\": \"37508847\",\n      \"title\": \"空枪\",\n      \"url\": \"https://movie.douban.com/subject/37508847\",\n      \"extra\": {\n        \"info\": \"2026 / 中国大陆 中国香港 / 剧情 犯罪\",\n        \"hover\": \"2026 / 中国大陆 中国香港 / 剧情 犯罪 / 韩延 / 朱一龙 檀健次\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.741Z",
+      "finishedAt": "2026-11-01T00:00:21.040Z"
+    },
+    {
+      "source": "douyin",
+      "category": "douyin",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"douyin\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"2722774\",\n      \"title\": \"无锡队夺得苏超冠军\",\n      \"url\": \"https://www.douyin.com/hot/2722774\"\n    },\n    {\n      \"id\": \"2723335\",\n      \"title\": \"一条抖音告别我的2026苏超\",\n      \"url\": \"https://www.douyin.com/hot/2723335\"\n    },\n    {\n      \"id\": \"2723227\",\n      \"title\": \"这届进博会出行有了AI助手\",\n      \"url\": \"https://www.douyin.com/hot/2723227\"\n    },\n    {\n      \"id\": \"2722331\",\n      \"title\": \"我国公布首次载人登月乘组计划\",\n      \"url\": \"https://www.douyin.com/hot/2722331\"\n    },\n    {\n      \"id\": \"2722951\",\n      \"title\": \"中国石化原董事长傅成玉被查\",\n      \"url\": \"http\n...[summary 已截断，完整输出共 644 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.780Z",
+          "finishedAt": "2026-11-01T00:00:21.160Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "无锡队夺得苏超冠军",
+        "一条抖音告别我的2026苏超",
+        "这届进博会出行有了AI助手"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"douyin\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"2722774\",\n      \"title\": \"无锡队夺得苏超冠军\",\n      \"url\": \"https://www.douyin.com/hot/2722774\"\n    },\n    {\n      \"id\": \"2723335\",\n      \"title\": \"一条抖音告别我的2026苏超\",\n      \"url\": \"https://www.douyin.com/hot/2723335\"\n    },\n    {\n      \"id\": \"2723227\",\n      \"title\": \"这届进博会出行有了AI助手\",\n      \"url\": \"https://www.douyin.com/hot/2723227\"\n    },\n    {\n      \"id\": \"2722331\",\n      \"title\": \"我国公布首次载人登月乘组计划\",\n      \"url\": \"https://www.douyin.com/hot/2722331\"\n    },\n    {\n      \"id\": \"2722951\",\n      \"title\": \"中国石化原董事长傅成玉被查\",\n      \"url\": \"https://www.douyin.com/hot/2722951\"\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.780Z",
+      "finishedAt": "2026-11-01T00:00:21.160Z"
+    },
+    {
+      "source": "chongbuluo-hot",
+      "category": "chongbuluo",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"chongbuluo-hot\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-24990-1-1.html\",\n      \"url\": \"https://www.chongbuluo.com/thread-24990-1-1.html\",\n      \"title\": \"副业教程越多，我反而越不敢照着做\",\n      \"extra\": {\n        \"hover\": \"副业教程越多，我反而越不敢照着做\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25108-1-1.html\",\n      \"url\": \"https://www.chongbuluo.com/thread-25108-1-1.html\",\n      \"title\": \"10万个ppt模版 全部免费下载 目前最全的了\",\n      \"extra\": {\n        \"hover\": \"10万个ppt模版 全部免费下载 目前最全的了\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/threa\n...[summary 已截断，完整输出共 1334 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.452Z",
+          "finishedAt": "2026-11-01T00:00:21.400Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "副业教程越多，我反而越不敢照着做",
+        "10万个ppt模版 全部免费下载 目前最全的了",
+        "兄弟们，去看这本书。"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"chongbuluo-hot\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-24990-1-1.html\",\n      \"url\": \"https://www.chongbuluo.com/thread-24990-1-1.html\",\n      \"title\": \"副业教程越多，我反而越不敢照着做\",\n      \"extra\": {\n        \"hover\": \"副业教程越多，我反而越不敢照着做\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25108-1-1.html\",\n      \"url\": \"https://www.chongbuluo.com/thread-25108-1-1.html\",\n      \"title\": \"10万个ppt模版 全部免费下载 目前最全的了\",\n      \"extra\": {\n        \"hover\": \"10万个ppt模版 全部免费下载 目前最全的了\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25160-1-1.html\",\n      \"url\": \"https://www.chongbuluo.com/thread-25160-1-1.html\",\n      \"title\": \"兄弟们，去看这本书。\",\n      \"extra\": {\n        \"hover\": \"兄弟们，去看这本书。\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-24925-1-1.html\",\n      \"url\": \"https://www.chongbuluo.com/thread-24925-1-1.html\",\n      \"title\": \"邀请 GPT 桌面端使用，送 1000 额度！\",\n      \"extra\": {\n        \"hover\": \"邀请 GPT 桌面端使用，送 1000 额度！\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25215-1-1.html\",\n      \"url\": \"https://www.chongbuluo.com/thread-25215-1-1.html\",\n      \"title\": \"GitHub 最近很火的电子书，《高性价比人生指南-用最少得钱、时间和精力换回寿命、金钱和自由》\",\n      \"extra\": {\n        \"hover\": \"GitHub 最近很火的电子书，《高性价比人生指南-用最少得钱、时间和精力换回寿命、金钱和自由》\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.452Z",
+      "finishedAt": "2026-11-01T00:00:21.400Z"
+    },
+    {
+      "source": "chongbuluo-latest",
+      "category": "chongbuluo",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"chongbuluo-latest\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25319-1-1.html\",\n      \"title\": \"百年孤独（50周年纪念版） 分享给大家\",\n      \"url\": \"https://www.chongbuluo.com/thread-25319-1-1.html\",\n      \"pubDate\": 1793448340000,\n      \"extra\": {\n        \"hover\": \"《百年孤独》（50周年纪念版，范晔译本）是魔幻现实主义的不朽经典，马尔克斯凭此书获得诺贝尔文学奖。故事围绕马孔多小镇里布恩迪亚家族七代人的百年轮回展开，所有人都深陷各自的孤独，在兴衰、战乱与命运循环里挣扎。神话与现实交织，预言最终应验，小镇随风消散。它 ...\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25318-1-1.html\",\n      \"title\": \"发一个自己的网站，工具类的\",\n      \"url\": \"https://www.chongbuluo.com/thread-2\n...[summary 已截断，完整输出共 1725 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.455Z",
+          "finishedAt": "2026-11-01T00:00:21.428Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "百年孤独（50周年纪念版） 分享给大家",
+        "发一个自己的网站，工具类的",
+        "模仿虫部落做了一个论坛网站"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"chongbuluo-latest\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25319-1-1.html\",\n      \"title\": \"百年孤独（50周年纪念版） 分享给大家\",\n      \"url\": \"https://www.chongbuluo.com/thread-25319-1-1.html\",\n      \"pubDate\": 1793448340000,\n      \"extra\": {\n        \"hover\": \"《百年孤独》（50周年纪念版，范晔译本）是魔幻现实主义的不朽经典，马尔克斯凭此书获得诺贝尔文学奖。故事围绕马孔多小镇里布恩迪亚家族七代人的百年轮回展开，所有人都深陷各自的孤独，在兴衰、战乱与命运循环里挣扎。神话与现实交织，预言最终应验，小镇随风消散。它 ...\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25318-1-1.html\",\n      \"title\": \"发一个自己的网站，工具类的\",\n      \"url\": \"https://www.chongbuluo.com/thread-25318-1-1.html\",\n      \"pubDate\": 1793353546000,\n      \"extra\": {\n        \"hover\": \"极客工具箱 | 打酱油的笨小孩\\r\\n\\r\\n里面主要是一些工具，大家有需要可以去看看哈\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25317-1-1.html\",\n      \"title\": \"模仿虫部落做了一个论坛网站\",\n      \"url\": \"https://www.chongbuluo.com/thread-25317-1-1.html\",\n      \"pubDate\": 1793349545000,\n      \"extra\": {\n        \"hover\": \"在这里，没有管理员，言论自由\\r\\nhttps://www.hanyor.com/\\r\\n采用美国高防服务器\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25316-1-1.html\",\n      \"title\": \"有需要五常大米的吗？我自己家种的，保真\",\n      \"url\": \"https://www.chongbuluo.com/thread-25316-1-1.html\",\n      \"pubDate\": 1793330843000,\n      \"extra\": {\n        \"hover\": \"大米地址：五常市卫国乡卫国村\\r\\n品种：正宗稻花香米\\r\\nV：zhaofaheng1\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25315-1-1.html\",\n      \"title\": \"写了一个英语学习的小游戏欢迎大家体验\",\n      \"url\": \"https://www.chongbuluo.com/thread-25315-1-1.html\",\n      \"pubDate\": 1793256122000,\n      \"extra\": {\n        \"hover\": \"目前设计了三个玩法，滑块晋级 无限模式 羊了个羊模式，有对现有游戏的借鉴，目标是让英语学习不那么无聊，欢迎大家提建议。，wx可以直接搜索字母风暴\\r\\n   #小程序://字母风暴/Ra34CGvhCNQshJm\\r\\n ...\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.455Z",
+      "finishedAt": "2026-11-01T00:00:21.428Z"
+    },
+    {
+      "source": "chongbuluo",
+      "category": "chongbuluo",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"chongbuluo\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-24990-1-1.html\",\n      \"url\": \"https://www.chongbuluo.com/thread-24990-1-1.html\",\n      \"title\": \"副业教程越多，我反而越不敢照着做\",\n      \"extra\": {\n        \"hover\": \"副业教程越多，我反而越不敢照着做\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25108-1-1.html\",\n      \"url\": \"https://www.chongbuluo.com/thread-25108-1-1.html\",\n      \"title\": \"10万个ppt模版 全部免费下载 目前最全的了\",\n      \"extra\": {\n        \"hover\": \"10万个ppt模版 全部免费下载 目前最全的了\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25\n...[summary 已截断，完整输出共 1330 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:20.450Z",
+          "finishedAt": "2026-11-01T00:00:21.491Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "副业教程越多，我反而越不敢照着做",
+        "10万个ppt模版 全部免费下载 目前最全的了",
+        "兄弟们，去看这本书。"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"chongbuluo\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-24990-1-1.html\",\n      \"url\": \"https://www.chongbuluo.com/thread-24990-1-1.html\",\n      \"title\": \"副业教程越多，我反而越不敢照着做\",\n      \"extra\": {\n        \"hover\": \"副业教程越多，我反而越不敢照着做\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25108-1-1.html\",\n      \"url\": \"https://www.chongbuluo.com/thread-25108-1-1.html\",\n      \"title\": \"10万个ppt模版 全部免费下载 目前最全的了\",\n      \"extra\": {\n        \"hover\": \"10万个ppt模版 全部免费下载 目前最全的了\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25160-1-1.html\",\n      \"url\": \"https://www.chongbuluo.com/thread-25160-1-1.html\",\n      \"title\": \"兄弟们，去看这本书。\",\n      \"extra\": {\n        \"hover\": \"兄弟们，去看这本书。\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-24925-1-1.html\",\n      \"url\": \"https://www.chongbuluo.com/thread-24925-1-1.html\",\n      \"title\": \"邀请 GPT 桌面端使用，送 1000 额度！\",\n      \"extra\": {\n        \"hover\": \"邀请 GPT 桌面端使用，送 1000 额度！\"\n      }\n    },\n    {\n      \"id\": \"https://www.chongbuluo.com/thread-25215-1-1.html\",\n      \"url\": \"https://www.chongbuluo.com/thread-25215-1-1.html\",\n      \"title\": \"GitHub 最近很火的电子书，《高性价比人生指南-用最少得钱、时间和精力换回寿命、金钱和自由》\",\n      \"extra\": {\n        \"hover\": \"GitHub 最近很火的电子书，《高性价比人生指南-用最少得钱、时间和精力换回寿命、金钱和自由》\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:20.450Z",
+      "finishedAt": "2026-11-01T00:00:21.491Z"
+    },
+    {
+      "source": "gelonghui",
+      "category": "gelonghui",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"gelonghui\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://www.gelonghui.com/news/5340781\",\n      \"title\": \"“千万王朝 千里大汉”大汉上市发布会-深圳站\",\n      \"id\": \"/news/5340781\",\n      \"extra\": {\n        \"date\": 1793442480000,\n        \"info\": \"公司信息\"\n      }\n    },\n    {\n      \"url\": \"https://www.gelonghui.com/news/5340780\",\n      \"title\": \"汉邦科技(688755.SH)：前三季净利润6398.52万元，同比增长72.85%\",\n      \"id\": \"/news/5340780\",\n      \"extra\": {\n        \"date\": 1793421660000,\n        \"info\": \"A股公告摘要\"\n      }\n    },\n    {\n      \"url\": \"https://www.gelonghui.com/news/5340779\",\n      \"title\": \"ETF资金流|科创债ETF\n...[summary 已截断，完整输出共 1246 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:21.429Z",
+          "finishedAt": "2026-11-01T00:00:21.655Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "“千万王朝 千里大汉”大汉上市发布会-深圳站",
+        "汉邦科技(688755.SH)：前三季净利润6398.52万元，同比增长72.85%",
+        "ETF资金流|科创债ETF、公司债ETF、信用债ETF、30年国债ETF、可转债ETF、通信ETF、酒ETF等获得资金净流出"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"gelonghui\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://www.gelonghui.com/news/5340781\",\n      \"title\": \"“千万王朝 千里大汉”大汉上市发布会-深圳站\",\n      \"id\": \"/news/5340781\",\n      \"extra\": {\n        \"date\": 1793442480000,\n        \"info\": \"公司信息\"\n      }\n    },\n    {\n      \"url\": \"https://www.gelonghui.com/news/5340780\",\n      \"title\": \"汉邦科技(688755.SH)：前三季净利润6398.52万元，同比增长72.85%\",\n      \"id\": \"/news/5340780\",\n      \"extra\": {\n        \"date\": 1793421660000,\n        \"info\": \"A股公告摘要\"\n      }\n    },\n    {\n      \"url\": \"https://www.gelonghui.com/news/5340779\",\n      \"title\": \"ETF资金流|科创债ETF、公司债ETF、信用债ETF、30年国债ETF、可转债ETF、通信ETF、酒ETF等获得资金净流出\",\n      \"id\": \"/news/5340779\",\n      \"extra\": {\n        \"date\": 1793413200000,\n        \"info\": \"A股异动\"\n      }\n    },\n    {\n      \"url\": \"https://www.gelonghui.com/news/5340778\",\n      \"title\": \"ETF资金流向观察|宽基ETF单日吸金252亿元，信用债ETF净流出107亿元\",\n      \"id\": \"/news/5340778\",\n      \"extra\": {\n        \"date\": 1793413140000,\n        \"info\": \"ETF\"\n      }\n    },\n    {\n      \"url\": \"https://www.gelonghui.com/news/5340777\",\n      \"title\": \"ETF资金流|沪深300ETF、创业板ETF、科创50ETF、A500ETF等获得资金净流入\",\n      \"id\": \"/news/5340777\",\n      \"extra\": {\n        \"date\": 1793413080000,\n        \"info\": \"A股异动\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:21.429Z",
+      "finishedAt": "2026-11-01T00:00:21.655Z"
+    },
+    {
+      "source": "ghxi",
+      "category": "ghxi",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"ghxi\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"https://www.ghxi.com/serverbox.html\",\n      \"url\": \"https://www.ghxi.com/serverbox.html\",\n      \"title\": \"Server Box(Linux服务器工具箱) v1.0.1844 绿色版\",\n      \"extra\": {\n        \"hover\": \"Server Box 是一个使用 Flutter 开发的免费开源服务器管理软件，整个软件界面清新干净、占用内存也十分小，支持在线查看网络问题、进行SSH、Docker等管理，且整个...\",\n        \"date\": 1793404821746\n      }\n    },\n    {\n      \"id\": \"https://www.ghxi.com/speedtest.html\",\n      \"url\": \"https://www.ghxi.com/speedtest.html\",\n      \"title\": \"Android Speedtest(网速测试) v7.1.3 去广告版\",\n      \"extra\": {\n        \"hover\": \"安卓测速哪家强，当然是这\n...[summary 已截断，完整输出共 1698 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:21.491Z",
+          "finishedAt": "2026-11-01T00:00:21.748Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "Server Box(Linux服务器工具箱) v1.0.1844 绿色版",
+        "Android Speedtest(网速测试) v7.1.3 去广告版",
+        "Zen Browser v1.24b"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"ghxi\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"https://www.ghxi.com/serverbox.html\",\n      \"url\": \"https://www.ghxi.com/serverbox.html\",\n      \"title\": \"Server Box(Linux服务器工具箱) v1.0.1844 绿色版\",\n      \"extra\": {\n        \"hover\": \"Server Box 是一个使用 Flutter 开发的免费开源服务器管理软件，整个软件界面清新干净、占用内存也十分小，支持在线查看网络问题、进行SSH、Docker等管理，且整个...\",\n        \"date\": 1793404821746\n      }\n    },\n    {\n      \"id\": \"https://www.ghxi.com/speedtest.html\",\n      \"url\": \"https://www.ghxi.com/speedtest.html\",\n      \"title\": \"Android Speedtest(网速测试) v7.1.3 去广告版\",\n      \"extra\": {\n        \"hover\": \"安卓测速哪家强，当然是这个Speedtest最为强大了。一款好的测速软件，要的是服务器要跟上，如果服务器不好，测速就不准，很多测速软件都只有一个测速服务器，所以测试效果与真实网速是...\",\n        \"date\": 1793404821746\n      }\n    },\n    {\n      \"id\": \"https://www.ghxi.com/zenbrowser.html\",\n      \"url\": \"https://www.ghxi.com/zenbrowser.html\",\n      \"title\": \"Zen Browser v1.24b\",\n      \"extra\": {\n        \"hover\": \"Zen Browser 是一款基于Gecko的开源跨平台浏览器。可阻止跟踪器、广告和其他不需要的内容，同时提供最佳浏览体验。无论你是在处理紧急任务还是日常浏览，Zen Browse...\",\n        \"date\": 1793404821746\n      }\n    },\n    {\n      \"id\": \"https://www.ghxi.com/librewolf.html\",\n      \"url\": \"https://www.ghxi.com/librewolf.html\",\n      \"title\": \"LibreWolf浏览器 v159.0-1\",\n      \"extra\": {\n        \"hover\": \"LibreWolf 是Firefox的自定义独立版本，主要目标是隐私、安全和用户自由。LibreWolf旨在增强对跟踪和指纹技术的保护，同时还包括一些安全改进。这是通过我们面向隐私...\",\n        \"date\": 1793404821746\n      }\n    },\n    {\n      \"id\": \"https://www.ghxi.com/filee.html\",\n      \"url\": \"https://www.ghxi.com/filee.html\",\n      \"title\": \"Filee(文件转换器) v2.2.0\",\n      \"extra\": {\n        \"hover\": \"Filee 是一款免费开源的拖拽式文件格式转换器，核心玩法是按住一个修饰键（Windows 用 Ctrl、macOS 用 Option）拖住文件，光标处会弹出环形工具栏，只显示与当...\",\n        \"date\": 1793404821746\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:21.491Z",
+      "finishedAt": "2026-11-01T00:00:21.748Z"
+    },
+    {
+      "source": "freebuf",
+      "category": "freebuf",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"freebuf\",\n  \"count\": 0,\n  \"items\": []\n}\n",
+          "startedAt": "2026-11-01T00:00:21.401Z",
+          "finishedAt": "2026-11-01T00:00:22.149Z"
+        }
+      ],
+      "status": "empty",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"freebuf\",\n  \"count\": 0,\n  \"items\": []\n}\n",
+      "startedAt": "2026-11-01T00:00:21.401Z",
+      "finishedAt": "2026-11-01T00:00:22.149Z"
+    },
+    {
+      "source": "github",
+      "category": "github",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"github\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://github.com/thedotmack/claude-mem\",\n      \"title\": \"thedotmack /      claude-mem\",\n      \"id\": \"/thedotmack/claude-mem\",\n      \"extra\": {\n        \"info\": \"✰ 107,834\",\n        \"hover\": \"Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More\"\n      }\n    },\n    {\n      \"url\": \"https://github.com/mattpocock/skil\n...[summary 已截断，完整输出共 1742 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:21.656Z",
+          "finishedAt": "2026-11-01T00:00:22.306Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "thedotmack /      claude-mem",
+        "mattpocock /      skills",
+        "Donchitos /      Claude-Code-Game-Studios"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"github\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://github.com/thedotmack/claude-mem\",\n      \"title\": \"thedotmack /      claude-mem\",\n      \"id\": \"/thedotmack/claude-mem\",\n      \"extra\": {\n        \"info\": \"✰ 107,834\",\n        \"hover\": \"Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More\"\n      }\n    },\n    {\n      \"url\": \"https://github.com/mattpocock/skills\",\n      \"title\": \"mattpocock /      skills\",\n      \"id\": \"/mattpocock/skills\",\n      \"extra\": {\n        \"info\": \"✰ 308,352\",\n        \"hover\": \"Skills for Real Engineers. Straight from my .agents directory.\"\n      }\n    },\n    {\n      \"url\": \"https://github.com/Donchitos/Claude-Code-Game-Studios\",\n      \"title\": \"Donchitos /      Claude-Code-Game-Studios\",\n      \"id\": \"/Donchitos/Claude-Code-Game-Studios\",\n      \"extra\": {\n        \"info\": \"✰ 31,146\",\n        \"hover\": \"Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.\"\n      }\n    },\n    {\n      \"url\": \"https://github.com/pingdotgg/t3code\",\n      \"title\": \"pingdotgg /      t3code\",\n      \"id\": \"/pingdotgg/t3code\",\n      \"extra\": {\n        \"info\": \"✰ 35,500\",\n        \"hover\": \"\"\n      }\n    },\n    {\n      \"url\": \"https://github.com/Renhuai123/ziwei-doushu\",\n      \"title\": \"Renhuai123 /      ziwei-doushu\",\n      \"id\": \"/Renhuai123/ziwei-doushu\",\n      \"extra\": {\n        \"info\": \"✰ 12,256\",\n        \"hover\": \"紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:21.656Z",
+      "finishedAt": "2026-11-01T00:00:22.306Z"
+    },
+    {
+      "source": "hackernews",
+      "category": "hackernews",
+      "envVars": [],
+      "retried": true,
+      "attempts": [
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"hackernews\\\": [GET] \\\"https://news.ycombinator.com\\\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:22.149Z",
+          "finishedAt": "2026-11-01T00:00:22.263Z"
+        },
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 15000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"hackernews\\\": [GET] \\\"https://news.ycombinator.com\\\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:22.263Z",
+          "finishedAt": "2026-11-01T00:00:22.356Z"
+        }
+      ],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "timeoutMs": 15000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "{\"error\":\"Fetch failed for \\\"hackernews\\\": [GET] \\\"https://news.ycombinator.com\\\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?\",\"code\":\"FETCH_ERROR\"}",
+      "stderr": "{\"error\":\"Fetch failed for \\\"hackernews\\\": [GET] \\\"https://news.ycombinator.com\\\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?\",\"code\":\"FETCH_ERROR\"}\n",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:22.263Z",
+      "finishedAt": "2026-11-01T00:00:22.356Z"
+    },
+    {
+      "source": "github-trending-today",
+      "category": "github",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"github-trending-today\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://github.com/thedotmack/claude-mem\",\n      \"title\": \"thedotmack /      claude-mem\",\n      \"id\": \"/thedotmack/claude-mem\",\n      \"extra\": {\n        \"info\": \"✰ 107,834\",\n        \"hover\": \"Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More\"\n      }\n    },\n    {\n      \"url\": \"https://github.com/\n...[summary 已截断，完整输出共 1757 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:21.749Z",
+          "finishedAt": "2026-11-01T00:00:22.387Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "thedotmack /      claude-mem",
+        "mattpocock /      skills",
+        "Donchitos /      Claude-Code-Game-Studios"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"github-trending-today\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://github.com/thedotmack/claude-mem\",\n      \"title\": \"thedotmack /      claude-mem\",\n      \"id\": \"/thedotmack/claude-mem\",\n      \"extra\": {\n        \"info\": \"✰ 107,834\",\n        \"hover\": \"Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More\"\n      }\n    },\n    {\n      \"url\": \"https://github.com/mattpocock/skills\",\n      \"title\": \"mattpocock /      skills\",\n      \"id\": \"/mattpocock/skills\",\n      \"extra\": {\n        \"info\": \"✰ 308,352\",\n        \"hover\": \"Skills for Real Engineers. Straight from my .agents directory.\"\n      }\n    },\n    {\n      \"url\": \"https://github.com/Donchitos/Claude-Code-Game-Studios\",\n      \"title\": \"Donchitos /      Claude-Code-Game-Studios\",\n      \"id\": \"/Donchitos/Claude-Code-Game-Studios\",\n      \"extra\": {\n        \"info\": \"✰ 31,146\",\n        \"hover\": \"Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.\"\n      }\n    },\n    {\n      \"url\": \"https://github.com/pingdotgg/t3code\",\n      \"title\": \"pingdotgg /      t3code\",\n      \"id\": \"/pingdotgg/t3code\",\n      \"extra\": {\n        \"info\": \"✰ 35,500\",\n        \"hover\": \"\"\n      }\n    },\n    {\n      \"url\": \"https://github.com/Renhuai123/ziwei-doushu\",\n      \"title\": \"Renhuai123 /      ziwei-doushu\",\n      \"id\": \"/Renhuai123/ziwei-doushu\",\n      \"extra\": {\n        \"info\": \"✰ 12,256\",\n        \"hover\": \"紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:21.749Z",
+      "finishedAt": "2026-11-01T00:00:22.387Z"
+    },
+    {
+      "source": "ifeng",
+      "category": "ifeng",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"ifeng\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"https://news.ifeng.com/c/8xgpS5mBAAw\",\n      \"url\": \"https://news.ifeng.com/c/8xgpS5mBAAw\",\n      \"title\": \"鲁比奥嘴上说“不反华”，却又暗指中国\",\n      \"extra\": {\n        \"date\": \"2026-11-01 07:12:15\"\n      }\n    },\n    {\n      \"id\": \"https://news.ifeng.com/c/8xgiz7wxNnh\",\n      \"url\": \"https://news.ifeng.com/c/8xgiz7wxNnh\",\n      \"title\": \"伊朗军方称已制定新的“敌方目标与资产清单”\",\n      \"extra\": {}\n    },\n    {\n      \"id\": \"https://news.ifeng.com/c/8xgO681i11U\",\n      \"url\": \"https://news.ifeng.com/c/8xgO681i11U\",\n      \"title\": \"伊朗高官谈万斯来信：他们语气完全变了，是个好兆头\",\n  \n...[summary 已截断，完整输出共 982 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:22.356Z",
+          "finishedAt": "2026-11-01T00:00:22.412Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "鲁比奥嘴上说“不反华”，却又暗指中国",
+        "伊朗军方称已制定新的“敌方目标与资产清单”",
+        "伊朗高官谈万斯来信：他们语气完全变了，是个好兆头"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"ifeng\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"https://news.ifeng.com/c/8xgpS5mBAAw\",\n      \"url\": \"https://news.ifeng.com/c/8xgpS5mBAAw\",\n      \"title\": \"鲁比奥嘴上说“不反华”，却又暗指中国\",\n      \"extra\": {\n        \"date\": \"2026-11-01 07:12:15\"\n      }\n    },\n    {\n      \"id\": \"https://news.ifeng.com/c/8xgiz7wxNnh\",\n      \"url\": \"https://news.ifeng.com/c/8xgiz7wxNnh\",\n      \"title\": \"伊朗军方称已制定新的“敌方目标与资产清单”\",\n      \"extra\": {}\n    },\n    {\n      \"id\": \"https://news.ifeng.com/c/8xgO681i11U\",\n      \"url\": \"https://news.ifeng.com/c/8xgO681i11U\",\n      \"title\": \"伊朗高官谈万斯来信：他们语气完全变了，是个好兆头\",\n      \"extra\": {}\n    },\n    {\n      \"id\": \"https://news.ifeng.com/c/8xgr2AIQqKZ\",\n      \"url\": \"https://news.ifeng.com/c/8xgr2AIQqKZ\",\n      \"title\": \"波兰啊波兰，波涛正汹涌\",\n      \"extra\": {}\n    },\n    {\n      \"id\": \"https://original.ifeng.com/c/8xfozeIYWZi\",\n      \"url\": \"https://original.ifeng.com/c/8xfozeIYWZi\",\n      \"title\": \"“波兰似乎正上演一场前所未有的对抗”，美国大使回应\",\n      \"extra\": {}\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:22.356Z",
+      "finishedAt": "2026-11-01T00:00:22.412Z"
+    },
+    {
+      "source": "ithome",
+      "category": "ithome",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"ithome\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://www.ithome.com/1/020/644.htm\",\n      \"title\": \"BLG 2:0 HLE：英雄联盟 S16 全球总决赛 8 强诞生，LPL 赛区三支队伍晋级\",\n      \"id\": \"https://www.ithome.com/1/020/644.htm\",\n      \"pubDate\": 1793490797000\n    },\n    {\n      \"url\": \"https://www.ithome.com/1/020/643.htm\",\n      \"title\": \"联电 CEO 王石：成熟制程明年预计将涨价约 10%\",\n      \"id\": \"https://www.ithome.com/1/020/643.htm\",\n      \"pubDate\": 1793490365000\n    },\n    {\n      \"url\": \"https://www.ithome.com/1/020/642.htm\",\n      \"title\": \"AI 需求暴涨：英特尔火速改造多家 CPU 制造工厂，从桌面处理器改为数据中心处理器\",\n      \"id\": \"https://w\n...[summary 已截断，完整输出共 1127 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:22.412Z",
+          "finishedAt": "2026-11-01T00:00:22.557Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "BLG 2:0 HLE：英雄联盟 S16 全球总决赛 8 强诞生，LPL 赛区三支队伍晋级",
+        "联电 CEO 王石：成熟制程明年预计将涨价约 10%",
+        "AI 需求暴涨：英特尔火速改造多家 CPU 制造工厂，从桌面处理器改为数据中心处理器"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"ithome\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://www.ithome.com/1/020/644.htm\",\n      \"title\": \"BLG 2:0 HLE：英雄联盟 S16 全球总决赛 8 强诞生，LPL 赛区三支队伍晋级\",\n      \"id\": \"https://www.ithome.com/1/020/644.htm\",\n      \"pubDate\": 1793490797000\n    },\n    {\n      \"url\": \"https://www.ithome.com/1/020/643.htm\",\n      \"title\": \"联电 CEO 王石：成熟制程明年预计将涨价约 10%\",\n      \"id\": \"https://www.ithome.com/1/020/643.htm\",\n      \"pubDate\": 1793490365000\n    },\n    {\n      \"url\": \"https://www.ithome.com/1/020/642.htm\",\n      \"title\": \"AI 需求暴涨：英特尔火速改造多家 CPU 制造工厂，从桌面处理器改为数据中心处理器\",\n      \"id\": \"https://www.ithome.com/1/020/642.htm\",\n      \"pubDate\": 1793490276000\n    },\n    {\n      \"url\": \"https://www.ithome.com/1/020/641.htm\",\n      \"title\": \"IT早报 1101：苹果中国官网上线 Apple 智能介绍页面；新款小米 SU7 Ultra 无伪装实车曝光；我国首次载人登月任务乘组计划由三人组成...\",\n      \"id\": \"https://www.ithome.com/1/020/641.htm\",\n      \"pubDate\": 1793490023000\n    },\n    {\n      \"url\": \"https://www.ithome.com/1/020/640.htm\",\n      \"title\": \"特斯拉在海外推出全新奖励计划：车主邀请朋友体验 FSD 监督版，可获免费订阅或积分\",\n      \"id\": \"https://www.ithome.com/1/020/640.htm\",\n      \"pubDate\": 1793489939000\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:22.412Z",
+      "finishedAt": "2026-11-01T00:00:22.557Z"
+    },
+    {
+      "source": "hupu",
+      "category": "hupu",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"hupu\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"/643411508.html\",\n      \"title\": \"夯先生为什么能跟这么多妹子约会？\",\n      \"url\": \"https://bbs.hupu.com/643411508.html\",\n      \"mobileUrl\": \"https://bbs.hupu.com/643411508.html\"\n    },\n    {\n      \"id\": \"/643501397.html\",\n      \"title\": \"烦死了！Yandex，好像打不开了！怎么办！\",\n      \"url\": \"https://bbs.hupu.com/643501397.html\",\n      \"mobileUrl\": \"https://bbs.hupu.com/643501397.html\"\n    },\n    {\n      \"id\": \"/643497046.html\",\n      \"title\": \"张雪给团队首席工程师黄姜发信息：“我给你30万，买房首付应该够了，要求只能写你自己名字，不然我不给。” ​\",\n      \"url\": \"https://bbs.hupu.com/643497046.html\",\n      \"m\n...[summary 已截断，完整输出共 1048 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:22.307Z",
+          "finishedAt": "2026-11-01T00:00:22.613Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "夯先生为什么能跟这么多妹子约会？",
+        "烦死了！Yandex，好像打不开了！怎么办！",
+        "张雪给团队首席工程师黄姜发信息：“我给你30万，买房首付应该够了，要求只能写你自己名字，不然我不给。” ​"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"hupu\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"/643411508.html\",\n      \"title\": \"夯先生为什么能跟这么多妹子约会？\",\n      \"url\": \"https://bbs.hupu.com/643411508.html\",\n      \"mobileUrl\": \"https://bbs.hupu.com/643411508.html\"\n    },\n    {\n      \"id\": \"/643501397.html\",\n      \"title\": \"烦死了！Yandex，好像打不开了！怎么办！\",\n      \"url\": \"https://bbs.hupu.com/643501397.html\",\n      \"mobileUrl\": \"https://bbs.hupu.com/643501397.html\"\n    },\n    {\n      \"id\": \"/643497046.html\",\n      \"title\": \"张雪给团队首席工程师黄姜发信息：“我给你30万，买房首付应该够了，要求只能写你自己名字，不然我不给。” ​\",\n      \"url\": \"https://bbs.hupu.com/643497046.html\",\n      \"mobileUrl\": \"https://bbs.hupu.com/643497046.html\"\n    },\n    {\n      \"id\": \"/643496170.html\",\n      \"title\": \"烦死了！Yandex，好像打不开了！怎么办！\",\n      \"url\": \"https://bbs.hupu.com/643496170.html\",\n      \"mobileUrl\": \"https://bbs.hupu.com/643496170.html\"\n    },\n    {\n      \"id\": \"/643453097.html\",\n      \"title\": \"住手！打架不许扣屁股，文明就在你我他！！！\",\n      \"url\": \"https://bbs.hupu.com/643453097.html\",\n      \"mobileUrl\": \"https://bbs.hupu.com/643453097.html\"\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:22.307Z",
+      "finishedAt": "2026-11-01T00:00:22.613Z"
+    },
+    {
+      "source": "jin10",
+      "category": "jin10",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"jin10\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"20261101080002385800\",\n      \"title\": \"韩国10月贸易帐初值 425亿美元，预期372.4亿美元，前值由498.52亿美元修正为499.72亿美元。\",\n      \"pubDate\": 1793491202000,\n      \"url\": \"https://flash.jin10.com/detail/20261101080002385800\",\n      \"extra\": {\n        \"info\": false\n      }\n    },\n    {\n      \"id\": \"20261101080002374800\",\n      \"title\": \"韩国10月出口年率 93.7%，预期93.2%，前值由83.50%修正为83.70%。\",\n      \"pubDate\": 1793491202000,\n      \"url\": \"https://flash.jin10.com/detail/20261101080002374800\",\n      \"extra\": {\n        \"info\": false\n      }\n    },\n    {\n      \"id\": \"2026\n...[summary 已截断，完整输出共 1426 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:22.557Z",
+          "finishedAt": "2026-11-01T00:00:22.674Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "韩国10月贸易帐初值 425亿美元，预期372.4亿美元，前值由498.52亿美元修正为499.72亿美元。",
+        "韩国10月出口年率 93.7%，预期93.2%，前值由83.50%修正为83.70%。",
+        "韩国10月进口年率 36%，预期39.90%，前值26.00%。"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"jin10\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"20261101080002385800\",\n      \"title\": \"韩国10月贸易帐初值 425亿美元，预期372.4亿美元，前值由498.52亿美元修正为499.72亿美元。\",\n      \"pubDate\": 1793491202000,\n      \"url\": \"https://flash.jin10.com/detail/20261101080002385800\",\n      \"extra\": {\n        \"info\": false\n      }\n    },\n    {\n      \"id\": \"20261101080002374800\",\n      \"title\": \"韩国10月出口年率 93.7%，预期93.2%，前值由83.50%修正为83.70%。\",\n      \"pubDate\": 1793491202000,\n      \"url\": \"https://flash.jin10.com/detail/20261101080002374800\",\n      \"extra\": {\n        \"info\": false\n      }\n    },\n    {\n      \"id\": \"20261101080002368800\",\n      \"title\": \"韩国10月进口年率 36%，预期39.90%，前值26.00%。\",\n      \"pubDate\": 1793491202000,\n      \"url\": \"https://flash.jin10.com/detail/20261101080002368800\",\n      \"extra\": {\n        \"info\": false\n      }\n    },\n    {\n      \"id\": \"20261101055315876800\",\n      \"title\": \"伊朗内阁已将汽油价格和配额调整权交由一工作组负责\",\n      \"pubDate\": 1793483595000,\n      \"url\": \"https://flash.jin10.com/detail/20261101055315876800\",\n      \"extra\": {\n        \"info\": false\n      }\n    },\n    {\n      \"id\": \"20261101054420111800\",\n      \"title\": \"二十国集团外长会未就地缘和经济安全问题达成共识\",\n      \"pubDate\": 1793483060000,\n      \"url\": \"https://flash.jin10.com/detail/20261101054420111800\",\n      \"extra\": {\n        \"hover\": \"金十数据11月1日讯，为期两天的二十国集团（G20）外长会10月31日在美国南部佐治亚州首府亚特兰大结束。会议笼罩在乌克兰危机和美伊冲突的阴影下，未能就重要全球地缘和经济安全问题达成共识。（新华社）\",\n        \"info\": false\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:22.557Z",
+      "finishedAt": "2026-11-01T00:00:22.674Z"
+    },
+    {
+      "source": "iqiyi-hot-ranklist",
+      "category": "iqiyi",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"iqiyi-hot-ranklist\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 3993682943621001,\n      \"title\": \"小城良方\",\n      \"url\": \"https://www.iqiyi.com/v_eienwprun0.html\",\n      \"pubDate\": \"2026-10-21\",\n      \"extra\": {\n        \"info\": \"纯过日子，嘎嘎回血！\",\n        \"hover\": \"该剧讲述了当天才医生刘铮亮（肖战饰）遭遇人生滑铁卢，被迫返回家乡从零开始的故事。他就地集结一群“不靠谱”的人，热血操刀着“最靠谱”的事。在烟火气中以人情暖意编织市井日常，开出一剂剂疗愈心灵的人生处方。\",\n        \"tag\": \"都市;当代;内地\"\n      }\n    },\n    {\n      \"id\": 3023062267902001,\n      \"title\": \"伟大的长征\",\n      \"url\": \"https://www.iqiyi.com/v_1jm50v4hx7c.html\",\n      \"pubDate\": \"2026-10-9\",\n      \"extra\": {\n        \"info\": \"英\n...[summary 已截断，完整输出共 1911 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:22.387Z",
+          "finishedAt": "2026-11-01T00:00:22.741Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "小城良方",
+        "伟大的长征",
+        "空枪"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"iqiyi-hot-ranklist\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 3993682943621001,\n      \"title\": \"小城良方\",\n      \"url\": \"https://www.iqiyi.com/v_eienwprun0.html\",\n      \"pubDate\": \"2026-10-21\",\n      \"extra\": {\n        \"info\": \"纯过日子，嘎嘎回血！\",\n        \"hover\": \"该剧讲述了当天才医生刘铮亮（肖战饰）遭遇人生滑铁卢，被迫返回家乡从零开始的故事。他就地集结一群“不靠谱”的人，热血操刀着“最靠谱”的事。在烟火气中以人情暖意编织市井日常，开出一剂剂疗愈心灵的人生处方。\",\n        \"tag\": \"都市;当代;内地\"\n      }\n    },\n    {\n      \"id\": 3023062267902001,\n      \"title\": \"伟大的长征\",\n      \"url\": \"https://www.iqiyi.com/v_1jm50v4hx7c.html\",\n      \"pubDate\": \"2026-10-9\",\n      \"extra\": {\n        \"info\": \"英雄史诗不朽丰碑\",\n        \"hover\": \"以中央红军长征为主线，全面反映了从红军第五次反围剿失败，到红⼀、红⼆、红四方面军和红二十五军在中共中央领导下先后实施战略转移，经历了艰苦卓绝的长征，最终取得胜利的历史过程，讴歌了以毛泽东同志为代表的中国共产党⼈坚定的理想信念、百折不挠的革命精神，阐明中国革命发生发展的历史原因和历史逻辑，以及马克思主义必须和中国革命的具体实践相结合才能指导中国革命取得胜利的深刻道理。\",\n        \"tag\": \"历史革命;领袖人物\"\n      }\n    },\n    {\n      \"id\": 4938634315360700,\n      \"title\": \"空枪\",\n      \"url\": \"https://www.iqiyi.com/v_1dvhqp4jvm8.html\",\n      \"extra\": {\n        \"info\": \"朱一龙赌命疯抢2亿\",\n        \"hover\": \"世纪之交，这座遍地黄金的欲望之城正处于巨变的前夜。在这里，有人不仅要赢走一切，还想改写规则。枪声响起，他能否成为命运的主人？\",\n        \"tag\": \"剧情;犯罪;硬汉;警察;烧脑;内地;中国香港;普通话;粤语;英语;院线\"\n      }\n    },\n    {\n      \"id\": 8465757544548401,\n      \"title\": \"音乐缘计划第3季\",\n      \"url\": \"https://www.iqiyi.com/v_1ih5j1sg0w4.html\",\n      \"pubDate\": \"2026-10-30\",\n      \"extra\": {\n        \"info\": \"原创音综再进一阶\",\n        \"hover\": \"原创音综再进一阶！实力歌手与宝藏音乐人双向奔赴，从选歌、改歌到共创舞台，把原创作品真正唱进观众心里。经典模式全面焕新，更强阵容、更有梗关系、更鲜活名场面，让好歌被听见，让原创冲出下一首全民爆款！\",\n        \"tag\": \"爱奇艺出品;音乐;音乐竞演;竞演;原创音乐;流行音乐;内地\"\n      }\n    },\n    {\n      \"id\": 3888599221067600,\n      \"title\": \"敦煌英雄\",\n      \"url\": \"https://www.iqiyi.com/v_11tphiyrdq4.html\",\n      \"extra\": {\n        \"info\": \"章宇雷佳音大漠血战\",\n        \"hover\": \"大唐敦煌重镇漠州，安史之乱后沦陷守军尽殉。六十年来丝路断绝，百姓饱受匪首任光热奴役。狮子吼，唐军归 的传说，是众人仅存的念想。张佑承举义归义之火燃起，却敌众势危。狼鹞子一行小队出城求援。黄沙埋忠骨，众人拼死一搏，盼唐旗重扬漠州城头\",\n        \"tag\": \"动作;武侠;古装;热血;燃;内地;普通话;群像;院线;网络电影\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:22.387Z",
+      "finishedAt": "2026-11-01T00:00:22.741Z"
+    },
+    {
+      "source": "juejin",
+      "category": "juejin",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"juejin\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"7701591870955012111\",\n      \"title\": \"PHP Swoole 协程模型详解：协程与线程/进程、调度、常驻内存及与 Go goroutine 的异同\",\n      \"url\": \"https://juejin.cn/post/7701591870955012111\"\n    },\n    {\n      \"id\": \"7701971738456752162\",\n      \"title\": \"Service Mesh 可观测性：分布式追踪、指标与日志的统一方案\",\n      \"url\": \"https://juejin.cn/post/7701971738456752162\"\n    },\n    {\n      \"id\": \"7701870817483259958\",\n      \"title\": \"史诗级封号收入\",\n      \"url\": \"https://juejin.cn/post/7701870817483259958\"\n    },\n    {\n      \"id\": \"7701703182474248211\",\n      \"title\": \"Go-Gui:一套 无限接近 现代化UI的 G\n...[summary 已截断，完整输出共 853 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:22.613Z",
+          "finishedAt": "2026-11-01T00:00:22.780Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "PHP Swoole 协程模型详解：协程与线程/进程、调度、常驻内存及与 Go goroutine 的异同",
+        "Service Mesh 可观测性：分布式追踪、指标与日志的统一方案",
+        "史诗级封号收入"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"juejin\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"7701591870955012111\",\n      \"title\": \"PHP Swoole 协程模型详解：协程与线程/进程、调度、常驻内存及与 Go goroutine 的异同\",\n      \"url\": \"https://juejin.cn/post/7701591870955012111\"\n    },\n    {\n      \"id\": \"7701971738456752162\",\n      \"title\": \"Service Mesh 可观测性：分布式追踪、指标与日志的统一方案\",\n      \"url\": \"https://juejin.cn/post/7701971738456752162\"\n    },\n    {\n      \"id\": \"7701870817483259958\",\n      \"title\": \"史诗级封号收入\",\n      \"url\": \"https://juejin.cn/post/7701870817483259958\"\n    },\n    {\n      \"id\": \"7701703182474248211\",\n      \"title\": \"Go-Gui:一套 无限接近 现代化UI的 GPU绘制界面组件框架\",\n      \"url\": \"https://juejin.cn/post/7701703182474248211\"\n    },\n    {\n      \"id\": \"7701991107366731785\",\n      \"title\": \"最近 Android 有什么更新：Android Dev Summit 2026 技术解读\",\n      \"url\": \"https://juejin.cn/post/7701991107366731785\"\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:22.613Z",
+      "finishedAt": "2026-11-01T00:00:22.780Z"
+    },
+    {
+      "source": "fastbull",
+      "category": "fastbull",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"fastbull\",\n  \"count\": 0,\n  \"items\": []\n}\n",
+          "startedAt": "2026-11-01T00:00:20.998Z",
+          "finishedAt": "2026-11-01T00:00:22.928Z"
+        }
+      ],
+      "status": "empty",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"fastbull\",\n  \"count\": 0,\n  \"items\": []\n}\n",
+      "startedAt": "2026-11-01T00:00:20.998Z",
+      "finishedAt": "2026-11-01T00:00:22.928Z"
+    },
+    {
+      "source": "fastbull-express",
+      "category": "fastbull",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"fastbull-express\",\n  \"count\": 0,\n  \"items\": []\n}\n",
+          "startedAt": "2026-11-01T00:00:21.041Z",
+          "finishedAt": "2026-11-01T00:00:22.999Z"
+        }
+      ],
+      "status": "empty",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"fastbull-express\",\n  \"count\": 0,\n  \"items\": []\n}\n",
+      "startedAt": "2026-11-01T00:00:21.041Z",
+      "finishedAt": "2026-11-01T00:00:22.999Z"
+    },
+    {
+      "source": "fastbull-news",
+      "category": "fastbull",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"fastbull-news\",\n  \"count\": 0,\n  \"items\": []\n}\n",
+          "startedAt": "2026-11-01T00:00:21.161Z",
+          "finishedAt": "2026-11-01T00:00:23.125Z"
+        }
+      ],
+      "status": "empty",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"fastbull-news\",\n  \"count\": 0,\n  \"items\": []\n}\n",
+      "startedAt": "2026-11-01T00:00:21.161Z",
+      "finishedAt": "2026-11-01T00:00:23.125Z"
+    },
+    {
+      "source": "kuaishou",
+      "category": "kuaishou",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"kuaishou\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"无锡队夺得苏超冠军\",\n      \"title\": \"无锡队夺得苏超冠军\",\n      \"url\": \"https://www.kuaishou.com/search/video?searchKey=%E6%97%A0%E9%94%A1%E9%98%9F%E5%A4%BA%E5%BE%97%E8%8B%8F%E8%B6%85%E5%86%A0%E5%86%9B\",\n      \"extra\": {\n        \"icon\": null\n      }\n    },\n    {\n      \"id\": \"今天是十一月的第一天\",\n      \"title\": \"今天是十一月的第一天\",\n      \"url\": \"https://www.kuaishou.com/search/video?searchKey=%E4%BB%8A%E5%A4%A9%E6%98%AF%E5%8D%81%E4%B8%80%E6%9C%88%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9\",\n      \"extra\": {\n        \"icon\": null\n      }\n    },\n    {\n      \"id\": \"经\n...[summary 已截断，完整输出共 1477 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:22.741Z",
+          "finishedAt": "2026-11-01T00:00:23.706Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "无锡队夺得苏超冠军",
+        "今天是十一月的第一天",
+        "经济大省三季报释放什么新信号"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"kuaishou\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"无锡队夺得苏超冠军\",\n      \"title\": \"无锡队夺得苏超冠军\",\n      \"url\": \"https://www.kuaishou.com/search/video?searchKey=%E6%97%A0%E9%94%A1%E9%98%9F%E5%A4%BA%E5%BE%97%E8%8B%8F%E8%B6%85%E5%86%A0%E5%86%9B\",\n      \"extra\": {\n        \"icon\": null\n      }\n    },\n    {\n      \"id\": \"今天是十一月的第一天\",\n      \"title\": \"今天是十一月的第一天\",\n      \"url\": \"https://www.kuaishou.com/search/video?searchKey=%E4%BB%8A%E5%A4%A9%E6%98%AF%E5%8D%81%E4%B8%80%E6%9C%88%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9\",\n      \"extra\": {\n        \"icon\": null\n      }\n    },\n    {\n      \"id\": \"经济大省三季报释放什么新信号\",\n      \"title\": \"经济大省三季报释放什么新信号\",\n      \"url\": \"https://www.kuaishou.com/search/video?searchKey=%E7%BB%8F%E6%B5%8E%E5%A4%A7%E7%9C%81%E4%B8%89%E5%AD%A3%E6%8A%A5%E9%87%8A%E6%94%BE%E4%BB%80%E4%B9%88%E6%96%B0%E4%BF%A1%E5%8F%B7\",\n      \"extra\": {\n        \"icon\": null\n      }\n    },\n    {\n      \"id\": \"11月新规这些值得关注\",\n      \"title\": \"11月新规这些值得关注\",\n      \"url\": \"https://www.kuaishou.com/search/video?searchKey=11%E6%9C%88%E6%96%B0%E8%A7%84%E8%BF%99%E4%BA%9B%E5%80%BC%E5%BE%97%E5%85%B3%E6%B3%A8\",\n      \"extra\": {\n        \"icon\": null\n      }\n    },\n    {\n      \"id\": \"AI生成短剧题材广泛\",\n      \"title\": \"AI生成短剧题材广泛\",\n      \"url\": \"https://www.kuaishou.com/search/video?searchKey=AI%E7%94%9F%E6%88%90%E7%9F%AD%E5%89%A7%E9%A2%98%E6%9D%90%E5%B9%BF%E6%B3%9B\",\n      \"extra\": {\n        \"icon\": \"https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:22.741Z",
+      "finishedAt": "2026-11-01T00:00:23.706Z"
+    },
+    {
+      "source": "mktnews",
+      "category": "mktnews",
+      "envVars": [],
+      "retried": true,
+      "attempts": [
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"mktnews\\\": [GET] \\\"https://api.mktnews.net/api/flash?type=0&limit=50\\\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:23.125Z",
+          "finishedAt": "2026-11-01T00:00:23.659Z"
+        },
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 15000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"mktnews\\\": [GET] \\\"https://api.mktnews.net/api/flash?type=0&limit=50\\\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:23.659Z",
+          "finishedAt": "2026-11-01T00:00:24.096Z"
+        }
+      ],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "timeoutMs": 15000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "{\"error\":\"Fetch failed for \\\"mktnews\\\": [GET] \\\"https://api.mktnews.net/api/flash?type=0&limit=50\\\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\",\"code\":\"FETCH_ERROR\"}",
+      "stderr": "{\"error\":\"Fetch failed for \\\"mktnews\\\": [GET] \\\"https://api.mktnews.net/api/flash?type=0&limit=50\\\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\",\"code\":\"FETCH_ERROR\"}\n",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:23.659Z",
+      "finishedAt": "2026-11-01T00:00:24.096Z"
+    },
+    {
+      "source": "nowcoder",
+      "category": "nowcoder",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"nowcoder\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"945319845942329344\",\n      \"title\": \"家人们，终于有offer了\",\n      \"url\": \"https://www.nowcoder.com/discuss/945319845942329344\"\n    },\n    {\n      \"id\": \"ebab5838f68d438e93dce3854344897d\",\n      \"title\": \"来自一个三本计算机学生的秋招自述\",\n      \"url\": \"https://www.nowcoder.com/feed/main/detail/ebab5838f68d438e93dce3854344897d\"\n    },\n    {\n      \"id\": \"d4a3c106562348568f9f0d75378dfec4\",\n      \"title\": \"大疆硬件面试好难啊☹️\",\n      \"url\": \"https://www.nowcoder.com/feed/main/detail/d4a3c106562348568f9f0d75378dfec4\"\n    },\n    {\n      \"id\": \"ff4a50a915534d2\n...[summary 已截断，完整输出共 890 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:24.096Z",
+          "finishedAt": "2026-11-01T00:00:24.275Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "家人们，终于有offer了",
+        "来自一个三本计算机学生的秋招自述",
+        "大疆硬件面试好难啊☹️"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"nowcoder\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"945319845942329344\",\n      \"title\": \"家人们，终于有offer了\",\n      \"url\": \"https://www.nowcoder.com/discuss/945319845942329344\"\n    },\n    {\n      \"id\": \"ebab5838f68d438e93dce3854344897d\",\n      \"title\": \"来自一个三本计算机学生的秋招自述\",\n      \"url\": \"https://www.nowcoder.com/feed/main/detail/ebab5838f68d438e93dce3854344897d\"\n    },\n    {\n      \"id\": \"d4a3c106562348568f9f0d75378dfec4\",\n      \"title\": \"大疆硬件面试好难啊☹️\",\n      \"url\": \"https://www.nowcoder.com/feed/main/detail/d4a3c106562348568f9f0d75378dfec4\"\n    },\n    {\n      \"id\": \"ff4a50a915534d28b0211e0df07e34db\",\n      \"title\": \"秋招总是二面挂的一些建议\",\n      \"url\": \"https://www.nowcoder.com/feed/main/detail/ff4a50a915534d28b0211e0df07e34db\"\n    },\n    {\n      \"id\": \"945633665252438016\",\n      \"title\": \"秋招小结\",\n      \"url\": \"https://www.nowcoder.com/discuss/945633665252438016\"\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:24.096Z",
+      "finishedAt": "2026-11-01T00:00:24.275Z"
+    },
+    {
+      "source": "pcbeta-windows",
+      "category": "pcbeta",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"pcbeta-windows\",\n  \"count\": 0,\n  \"items\": []\n}\n",
+          "startedAt": "2026-11-01T00:00:24.275Z",
+          "finishedAt": "2026-11-01T00:00:24.418Z"
+        }
+      ],
+      "status": "empty",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"pcbeta-windows\",\n  \"count\": 0,\n  \"items\": []\n}\n",
+      "startedAt": "2026-11-01T00:00:24.275Z",
+      "finishedAt": "2026-11-01T00:00:24.418Z"
+    },
+    {
+      "source": "pcbeta-windows11",
+      "category": "pcbeta",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"pcbeta-windows11\",\n  \"count\": 0,\n  \"items\": []\n}\n",
+          "startedAt": "2026-11-01T00:00:24.419Z",
+          "finishedAt": "2026-11-01T00:00:24.557Z"
+        }
+      ],
+      "status": "empty",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"pcbeta-windows11\",\n  \"count\": 0,\n  \"items\": []\n}\n",
+      "startedAt": "2026-11-01T00:00:24.419Z",
+      "finishedAt": "2026-11-01T00:00:24.557Z"
+    },
+    {
+      "source": "producthunt",
+      "category": "producthunt",
+      "envVars": [
+        "PRODUCTHUNT_API_TOKEN"
+      ],
+      "retried": false,
+      "attempts": [],
+      "status": "skipenv",
+      "exitCode": null,
+      "signal": null,
+      "timeoutMs": null,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "缺少环境变量: PRODUCTHUNT_API_TOKEN",
+      "stderr": "",
+      "stdout": "",
+      "startedAt": null,
+      "finishedAt": null
+    },
+    {
+      "source": "mktnews-flash",
+      "category": "mktnews",
+      "envVars": [],
+      "retried": true,
+      "attempts": [
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"mktnews-flash\\\": [GET] \\\"https://api.mktnews.net/api/flash?type=0&limit=50\\\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:23.706Z",
+          "finishedAt": "2026-11-01T00:00:24.113Z"
+        },
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 15000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"mktnews-flash\\\": [GET] \\\"https://api.mktnews.net/api/flash?type=0&limit=50\\\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:24.113Z",
+          "finishedAt": "2026-11-01T00:00:24.568Z"
+        }
+      ],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "timeoutMs": 15000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "{\"error\":\"Fetch failed for \\\"mktnews-flash\\\": [GET] \\\"https://api.mktnews.net/api/flash?type=0&limit=50\\\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\",\"code\":\"FETCH_ERROR\"}",
+      "stderr": "{\"error\":\"Fetch failed for \\\"mktnews-flash\\\": [GET] \\\"https://api.mktnews.net/api/flash?type=0&limit=50\\\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\",\"code\":\"FETCH_ERROR\"}\n",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:24.113Z",
+      "finishedAt": "2026-11-01T00:00:24.568Z"
+    },
+    {
+      "source": "qqvideo-tv-hotsearch",
+      "category": "qqvideo",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"qqvideo-tv-hotsearch\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"mzc0020029jna20\",\n      \"title\": \"铁证\",\n      \"url\": \"https://v.qq.com/x/cover/mzc0020029jna20.html\",\n      \"pubDate\": \"2026-11-01\",\n      \"extra\": {\n        \"hover\": \"扫黑除恶正邪博弈\"\n      }\n    },\n    {\n      \"id\": \"mzc002001w361jz\",\n      \"title\": \"尚公主\",\n      \"url\": \"https://v.qq.com/x/cover/mzc002001w361jz.html\",\n      \"pubDate\": \"2026-11-01\",\n      \"extra\": {\n        \"hover\": \"扶摇直尚险途携手破危局\"\n      }\n    },\n    {\n      \"id\": \"mzc00200803dr6b\",\n      \"title\": \"兰香如故\",\n      \"url\": \"https://v.qq.com/x/cover/mzc0020080\n...[summary 已截断，完整输出共 1146 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:24.559Z",
+          "finishedAt": "2026-11-01T00:00:24.780Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "铁证",
+        "尚公主",
+        "兰香如故"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"qqvideo-tv-hotsearch\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"mzc0020029jna20\",\n      \"title\": \"铁证\",\n      \"url\": \"https://v.qq.com/x/cover/mzc0020029jna20.html\",\n      \"pubDate\": \"2026-11-01\",\n      \"extra\": {\n        \"hover\": \"扫黑除恶正邪博弈\"\n      }\n    },\n    {\n      \"id\": \"mzc002001w361jz\",\n      \"title\": \"尚公主\",\n      \"url\": \"https://v.qq.com/x/cover/mzc002001w361jz.html\",\n      \"pubDate\": \"2026-11-01\",\n      \"extra\": {\n        \"hover\": \"扶摇直尚险途携手破危局\"\n      }\n    },\n    {\n      \"id\": \"mzc00200803dr6b\",\n      \"title\": \"兰香如故\",\n      \"url\": \"https://v.qq.com/x/cover/mzc00200803dr6b.html\",\n      \"pubDate\": \"2026-11-01\",\n      \"extra\": {\n        \"hover\": \"高门跌落！婢女深宅挣生机\"\n      }\n    },\n    {\n      \"id\": \"mzc002002x2e65z\",\n      \"title\": \"兰香如故·花胜秋宴\",\n      \"url\": \"https://v.qq.com/x/cover/mzc002002x2e65z.html\",\n      \"pubDate\": \"2026-11-01\",\n      \"extra\": {\n        \"hover\": \"全员团综秋日重逢\"\n      }\n    },\n    {\n      \"id\": \"mzc00200hsn6dio\",\n      \"title\": \"嫁金枝\",\n      \"url\": \"https://v.qq.com/x/cover/mzc00200hsn6dio.html\",\n      \"pubDate\": \"2026-11-01\",\n      \"extra\": {\n        \"hover\": \"钓系庶女入宫改命夺帝心\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:24.559Z",
+      "finishedAt": "2026-11-01T00:00:24.780Z"
+    },
+    {
+      "source": "smzdm",
+      "category": "smzdm",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"smzdm\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"https://post.smzdm.com/p/az87w865/\",\n      \"title\": \"连续三届蒙彼利埃无冠亚，国乒男单这次卡在最后两分\",\n      \"url\": \"https://post.smzdm.com/p/az87w865/\",\n      \"pubDate\": 1793491064000,\n      \"extra\": {\n        \"hover\": \"北京时间11月1日凌晨，蒙彼利埃冠军赛男单1/4决赛打完。梁靖崑1比4不敌张禹珍，林诗栋3比4惜败莫雷加德，周启豪3比4负于弗朗西斯卡。三名中国选手全部止步八强，国乒男单连续三届无缘冠亚军。咪咕体育这...\"\n      }\n    },\n    {\n      \"id\": \"https://post.smzdm.com/p/a5rperol/\",\n      \"title\": \"老车大灯发黄别急换总成：晚上对墙开次灯，三种情况三种花法\",\n      \"url\": \"https://post.smzdm.com/p/a5rperol/\",\n      \"pubDate\": 1793491125000,\n      \"extra\": {\n        \"h\n...[summary 已截断，完整输出共 1801 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:24.569Z",
+          "finishedAt": "2026-11-01T00:00:24.847Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "连续三届蒙彼利埃无冠亚，国乒男单这次卡在最后两分",
+        "老车大灯发黄别急换总成：晚上对墙开次灯，三种情况三种花法",
+        "27.98万的Q6、20.59万的E5：奥迪南北分家，现在买先分清「四环」和「字母标」"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"smzdm\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"https://post.smzdm.com/p/az87w865/\",\n      \"title\": \"连续三届蒙彼利埃无冠亚，国乒男单这次卡在最后两分\",\n      \"url\": \"https://post.smzdm.com/p/az87w865/\",\n      \"pubDate\": 1793491064000,\n      \"extra\": {\n        \"hover\": \"北京时间11月1日凌晨，蒙彼利埃冠军赛男单1/4决赛打完。梁靖崑1比4不敌张禹珍，林诗栋3比4惜败莫雷加德，周启豪3比4负于弗朗西斯卡。三名中国选手全部止步八强，国乒男单连续三届无缘冠亚军。咪咕体育这...\"\n      }\n    },\n    {\n      \"id\": \"https://post.smzdm.com/p/a5rperol/\",\n      \"title\": \"老车大灯发黄别急换总成：晚上对墙开次灯，三种情况三种花法\",\n      \"url\": \"https://post.smzdm.com/p/a5rperol/\",\n      \"pubDate\": 1793491125000,\n      \"extra\": {\n        \"hover\": \"天一黑得早，老车的大灯就该被认真对待一次了。灯罩黄得像蒙了层雾，晚上开了跟没开一样——很多车主第一反应是去4S店，师傅看一眼：“总成老化，换一对，两千四起步。”先别掏钱。大多数\\\"大灯发黄\\\"，问题只在灯...\"\n      }\n    },\n    {\n      \"id\": \"https://post.smzdm.com/p/al39v38g/\",\n      \"title\": \"27.98万的Q6、20.59万的E5：奥迪南北分家，现在买先分清「四环」和「字母标」\",\n      \"url\": \"https://post.smzdm.com/p/al39v38g/\",\n      \"pubDate\": 1793491157000,\n      \"extra\": {\n        \"hover\": \"10月26日，奥迪与一汽、上汽签下新协议。四环标归一汽奥迪，AUDI字母标归上汽奥迪。争了近十年的两个奥迪，终于分清了各自的柜台。第一财经最直接的问题落在店里：现在买奥迪，买的是哪一个？先看四环这一边...\"\n      }\n    },\n    {\n      \"id\": \"https://post.smzdm.com/p/a5rperx8/\",\n      \"title\": \"2017年五六千买的蒂芙尼微笑项链，现在国内专柜11900：买蒂芙尼，先分清「涨价」和「保值」\",\n      \"url\": \"https://post.smzdm.com/p/a5rperx8/\",\n      \"pubDate\": 1793491144000,\n      \"extra\": {\n        \"hover\": \"1961年，赫本站在第五大道的蒂芙尼橱窗前，咬了一口牛角包。六十多年后，中国的蒂芙尼专柜里，一条小号微笑项链的标价是11,900元。2017年，它五六千。九年，价格翻了一倍。很多人翻出旧盒子，第一反应...\"\n      }\n    },\n    {\n      \"id\": \"https://post.smzdm.com/p/aomqlm9m/\",\n      \"title\": \"16斤大桶其实只有14斤液，洗衣凝珠是不是智商税？| 洗衣液10.31日报\",\n      \"url\": \"https://post.smzdm.com/p/aomqlm9m/\",\n      \"pubDate\": 1793491105000,\n      \"extra\": {\n        \"hover\": \" 双十一洗衣液捡漏有门道：16斤大桶其实是14斤液加2斤柔顺剂；凝珠有人回坑、眼科机构发了安全提醒，内衣和儿童液怎么挑这篇也整理了。 双十一的到手价和规格游戏 双十一首日到货晒单里，小红书用户把立白小...\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:24.569Z",
+      "finishedAt": "2026-11-01T00:00:24.847Z"
+    },
+    {
+      "source": "kaopu",
+      "category": "kaopu",
+      "envVars": [],
+      "retried": true,
+      "attempts": [
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"kaopu\\\": [GET] \\\"https://kaopustorage.blob.core.windows.net/news-prod/news_list_hans_0.json\\\": 409 Public access is not permitted on this storage account.\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:22.674Z",
+          "finishedAt": "2026-11-01T00:00:23.902Z"
+        },
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 15000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"kaopu\\\": [GET] \\\"https://kaopustorage.blob.core.windows.net/news-prod/news_list_hans_0.json\\\": 409 Public access is not permitted on this storage account.\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:23.902Z",
+          "finishedAt": "2026-11-01T00:00:25.079Z"
+        }
+      ],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "timeoutMs": 15000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "{\"error\":\"Fetch failed for \\\"kaopu\\\": [GET] \\\"https://kaopustorage.blob.core.windows.net/news-prod/news_list_hans_0.json\\\": 409 Public access is not permitted on this storage account.\",\"code\":\"FETCH_ERROR\"}",
+      "stderr": "{\"error\":\"Fetch failed for \\\"kaopu\\\": [GET] \\\"https://kaopustorage.blob.core.windows.net/news-prod/news_list_hans_0.json\\\": 409 Public access is not permitted on this storage account.\",\"code\":\"FETCH_ERROR\"}\n",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:23.902Z",
+      "finishedAt": "2026-11-01T00:00:25.079Z"
+    },
+    {
+      "source": "sputniknewscn",
+      "category": "sputniknewscn",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"sputniknewscn\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://sputniknews.cn/20261101/1073895427.html\",\n      \"title\": \"俄军10月在特别军事行动区解放39个居民点 \",\n      \"id\": \"/20261101/1073895427.html\",\n      \"extra\": {\n        \"date\": 1793489819000\n      }\n    },\n    {\n      \"url\": \"https://sputniknews.cn/20261101/1073895326.html\",\n      \"title\": \"德国多地抗议爆发冲突，法兰克福多家商铺遭砸抢 \",\n      \"id\": \"/20261101/1073895326.html\",\n      \"extra\": {\n        \"date\": 1793489523000\n      }\n    },\n    {\n      \"url\": \"https://sputniknews.cn/20261101/1073895108.html\",\n      \"title\": \"朝鲜国防科研单位进行重要武器系统威力评估试验 \",\n \n...[summary 已截断，完整输出共 1148 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:24.848Z",
+          "finishedAt": "2026-11-01T00:00:25.136Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "俄军10月在特别军事行动区解放39个居民点 ",
+        "德国多地抗议爆发冲突，法兰克福多家商铺遭砸抢 ",
+        "朝鲜国防科研单位进行重要武器系统威力评估试验 "
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"sputniknewscn\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://sputniknews.cn/20261101/1073895427.html\",\n      \"title\": \"俄军10月在特别军事行动区解放39个居民点 \",\n      \"id\": \"/20261101/1073895427.html\",\n      \"extra\": {\n        \"date\": 1793489819000\n      }\n    },\n    {\n      \"url\": \"https://sputniknews.cn/20261101/1073895326.html\",\n      \"title\": \"德国多地抗议爆发冲突，法兰克福多家商铺遭砸抢 \",\n      \"id\": \"/20261101/1073895326.html\",\n      \"extra\": {\n        \"date\": 1793489523000\n      }\n    },\n    {\n      \"url\": \"https://sputniknews.cn/20261101/1073895108.html\",\n      \"title\": \"朝鲜国防科研单位进行重要武器系统威力评估试验 \",\n      \"id\": \"/20261101/1073895108.html\",\n      \"extra\": {\n        \"date\": 1793488784000\n      }\n    },\n    {\n      \"url\": \"https://sputniknews.cn/20261101/1073885843.html\",\n      \"title\": \"加密货币交易所币安称已弥补黑客攻击造成的90%损失 \",\n      \"id\": \"/20261101/1073885843.html\",\n      \"extra\": {\n        \"date\": 1793473260000\n      }\n    },\n    {\n      \"url\": \"https://sputniknews.cn/20261101/1073894792.html\",\n      \"title\": \"伊朗国家安全委员会主席：德黑兰伊朗没有就其核学说作出新的决定 \",\n      \"id\": \"/20261101/1073894792.html\",\n      \"extra\": {\n        \"date\": 1793471891000\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:24.848Z",
+      "finishedAt": "2026-11-01T00:00:25.136Z"
+    },
+    {
+      "source": "steam",
+      "category": "steam",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"steam\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://store.steampowered.com/app/730/CounterStrike_2/\",\n      \"title\": \"Counter-Strike 2\",\n      \"id\": \"https://store.steampowered.com/app/730/CounterStrike_2/\",\n      \"pubDate\": 1793491226325,\n      \"extra\": {\n        \"info\": \"626,496\"\n      }\n    },\n    {\n      \"url\": \"https://store.steampowered.com/app/570/Dota_2/\",\n      \"title\": \"Dota 2\",\n      \"id\": \"https://store.steampowered.com/app/570/Dota_2/\",\n      \"pubDate\": 1793491226325,\n      \"extra\": {\n        \"info\": \"403,985\"\n      }\n    },\n    {\n      \"url\": \"https://st\n...[summary 已截断，完整输出共 1329 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:25.136Z",
+          "finishedAt": "2026-11-01T00:00:26.336Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "Counter-Strike 2",
+        "Dota 2",
+        "AION 2"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"steam\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"url\": \"https://store.steampowered.com/app/730/CounterStrike_2/\",\n      \"title\": \"Counter-Strike 2\",\n      \"id\": \"https://store.steampowered.com/app/730/CounterStrike_2/\",\n      \"pubDate\": 1793491226325,\n      \"extra\": {\n        \"info\": \"626,496\"\n      }\n    },\n    {\n      \"url\": \"https://store.steampowered.com/app/570/Dota_2/\",\n      \"title\": \"Dota 2\",\n      \"id\": \"https://store.steampowered.com/app/570/Dota_2/\",\n      \"pubDate\": 1793491226325,\n      \"extra\": {\n        \"info\": \"403,985\"\n      }\n    },\n    {\n      \"url\": \"https://steamcommunity.com/app/3393110\",\n      \"title\": \"AION 2\",\n      \"id\": \"https://steamcommunity.com/app/3393110\",\n      \"pubDate\": 1793491226325,\n      \"extra\": {\n        \"info\": \"179,881\"\n      }\n    },\n    {\n      \"url\": \"https://store.steampowered.com/app/2676230/FiveM/\",\n      \"title\": \"FiveM\",\n      \"id\": \"https://store.steampowered.com/app/2676230/FiveM/\",\n      \"pubDate\": 1793491226325,\n      \"extra\": {\n        \"info\": \"151,931\"\n      }\n    },\n    {\n      \"url\": \"https://store.steampowered.com/app/1938090/Call_of_Duty/\",\n      \"title\": \"Call of Duty®\",\n      \"id\": \"https://store.steampowered.com/app/1938090/Call_of_Duty/\",\n      \"pubDate\": 1793491226325,\n      \"extra\": {\n        \"info\": \"150,843\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:25.136Z",
+      "finishedAt": "2026-11-01T00:00:26.336Z"
+    },
+    {
+      "source": "tencent-hot",
+      "category": "tencent",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"tencent-hot\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"20261031A0BENB00\",\n      \"title\": \"伊朗最高领袖：要对敌方威胁立即采取有效应对措施\",\n      \"url\": \"https://view.inews.qq.com/a/20261031A0BENB00\",\n      \"extra\": {\n        \"hover\": \"当地时间10月31日，伊朗最高领袖穆杰塔巴·哈梅内伊向伊朗武装部队高级指挥官下达命令，要求立即采取不受地域限制的有效应对措施，应对任何级别和类型的威胁。他称若敌人再次发动袭击，伊朗将决定结束战争的时间与条件，并决定更新目标库。\"\n      }\n    },\n    {\n      \"id\": \"20261031A0C28A00\",\n      \"title\": \"波兰发生抗议活动：总理被指发动“政变”，总统紧急回国与法官起冲突\",\n      \"url\": \"https://view.inews.qq.com/a/20261031A0C28A00\",\n      \"extra\": {\n        \"hover\": \"10月30日晚，波兰宪法法院附近爆发抗议。事件源于执政联盟与反对党围绕法官任命的长期争议，法院官网宣布暂停\n...[summary 已截断，完整输出共 1608 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:26.337Z",
+          "finishedAt": "2026-11-01T00:00:26.535Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "伊朗最高领袖：要对敌方威胁立即采取有效应对措施",
+        "波兰发生抗议活动：总理被指发动“政变”，总统紧急回国与法官起冲突",
+        "本届美国中期选举最大“十月惊奇”出现了"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"tencent-hot\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"20261031A0BENB00\",\n      \"title\": \"伊朗最高领袖：要对敌方威胁立即采取有效应对措施\",\n      \"url\": \"https://view.inews.qq.com/a/20261031A0BENB00\",\n      \"extra\": {\n        \"hover\": \"当地时间10月31日，伊朗最高领袖穆杰塔巴·哈梅内伊向伊朗武装部队高级指挥官下达命令，要求立即采取不受地域限制的有效应对措施，应对任何级别和类型的威胁。他称若敌人再次发动袭击，伊朗将决定结束战争的时间与条件，并决定更新目标库。\"\n      }\n    },\n    {\n      \"id\": \"20261031A0C28A00\",\n      \"title\": \"波兰发生抗议活动：总理被指发动“政变”，总统紧急回国与法官起冲突\",\n      \"url\": \"https://view.inews.qq.com/a/20261031A0C28A00\",\n      \"extra\": {\n        \"hover\": \"10月30日晚，波兰宪法法院附近爆发抗议。事件源于执政联盟与反对党围绕法官任命的长期争议，法院官网宣布暂停院长及副院长职务。总统纳夫罗茨基紧急回国，31日凌晨进入法院与部分法官发生肢体推搡。反对党指责总理图斯克政府发动“政变”。\"\n      }\n    },\n    {\n      \"id\": \"20261031A094G100\",\n      \"title\": \"本届美国中期选举最大“十月惊奇”出现了\",\n      \"url\": \"https://view.inews.qq.com/a/20261031A094G100\",\n      \"extra\": {\n        \"hover\": \"美国中期选举进入倒计时，《华尔街日报》10月30日报道称，阿拉斯加州参议院选战白热化。《纽约时报》10月28日披露，民主党候选人佩尔托拉团队涉嫌招募与现任共和党参议员同名的搅局候选人分流选票，州长已下令调查，司法部10月29日扩大刑事调查并发出数十份传票。\"\n      }\n    },\n    {\n      \"id\": \"20261031A06ETE00\",\n      \"title\": \"官方披露：将有两名中国人登陆月球\",\n      \"url\": \"https://view.inews.qq.com/a/20261031A06ETE00\",\n      \"extra\": {\n        \"hover\": \"10月31日，中国载人航天工程副总设计师兼月球探测工程总设计师王翔在第七届载人航天学术大会介绍，我国计划在2030年前实现中国人登陆月球，首次载人月球探测乘组由三人组成，其中两人着陆月面，采用两枚火箭两次发射、环月轨道对接的方式。\"\n      }\n    },\n    {\n      \"id\": \"20261031A0BYAH00\",\n      \"title\": \"中国海警位中国台湾岛以东海域依法开展常态化执法巡查\",\n      \"url\": \"https://view.inews.qq.com/a/20261031A0BYAH00\",\n      \"extra\": {\n        \"hover\": \"中国海警局新闻发言人姜略10月31日表示，中国海警虎狮舰编队当天位中国台湾岛以东海域依法开展常态化执法巡查。10月以来，编队持续加强相关海域管控，保障正常航行和作业秩序，维护包括台湾同胞在内中国民众的合法权益和生命财产安全。\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:26.337Z",
+      "finishedAt": "2026-11-01T00:00:26.535Z"
+    },
+    {
+      "source": "thepaper",
+      "category": "thepaper",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"thepaper\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"34377447\",\n      \"title\": \"原中国石油化工集团公司党组书记、董事长傅成玉被查\",\n      \"url\": \"https://www.thepaper.cn/newsDetail_forward_34377447\",\n      \"mobileUrl\": \"https://m.thepaper.cn/newsDetail_forward_34377447\"\n    },\n    {\n      \"id\": \"34377443\",\n      \"title\": \"马上评｜能查村支书威胁环保博主事，也定能彻查环境污染事\",\n      \"url\": \"https://www.thepaper.cn/newsDetail_forward_34377443\",\n      \"mobileUrl\": \"https://m.thepaper.cn/newsDetail_forward_34377443\"\n    },\n    {\n      \"id\": \"34378329\",\n      \"title\": \"四川华蓥大摆荡项目事故调查报告公布\",\n      \"url\": \"https://www.thepaper.cn/ne\n...[summary 已截断，完整输出共 1164 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:26.536Z",
+          "finishedAt": "2026-11-01T00:00:26.682Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "原中国石油化工集团公司党组书记、董事长傅成玉被查",
+        "马上评｜能查村支书威胁环保博主事，也定能彻查环境污染事",
+        "四川华蓥大摆荡项目事故调查报告公布"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"thepaper\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"34377447\",\n      \"title\": \"原中国石油化工集团公司党组书记、董事长傅成玉被查\",\n      \"url\": \"https://www.thepaper.cn/newsDetail_forward_34377447\",\n      \"mobileUrl\": \"https://m.thepaper.cn/newsDetail_forward_34377447\"\n    },\n    {\n      \"id\": \"34377443\",\n      \"title\": \"马上评｜能查村支书威胁环保博主事，也定能彻查环境污染事\",\n      \"url\": \"https://www.thepaper.cn/newsDetail_forward_34377443\",\n      \"mobileUrl\": \"https://m.thepaper.cn/newsDetail_forward_34377443\"\n    },\n    {\n      \"id\": \"34378329\",\n      \"title\": \"四川华蓥大摆荡项目事故调查报告公布\",\n      \"url\": \"https://www.thepaper.cn/newsDetail_forward_34378329\",\n      \"mobileUrl\": \"https://m.thepaper.cn/newsDetail_forward_34378329\"\n    },\n    {\n      \"id\": \"34378084\",\n      \"title\": \"中国海警位中国台湾岛以东海域依法开展常态化执法巡查\",\n      \"url\": \"https://www.thepaper.cn/newsDetail_forward_34378084\",\n      \"mobileUrl\": \"https://m.thepaper.cn/newsDetail_forward_34378084\"\n    },\n    {\n      \"id\": \"34366212\",\n      \"title\": \"高温正“偷走”工时与睡眠：去年人均因热损失47.7工作小时、22.7小时睡眠\",\n      \"url\": \"https://www.thepaper.cn/newsDetail_forward_34366212\",\n      \"mobileUrl\": \"https://m.thepaper.cn/newsDetail_forward_34366212\"\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:26.536Z",
+      "finishedAt": "2026-11-01T00:00:26.682Z"
+    },
+    {
+      "source": "tieba",
+      "category": "tieba",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"tieba\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 28368656,\n      \"title\": \"战胜心魔!BLG横扫HLE晋级八强\",\n      \"url\": \"https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28368656&amp;topic_name=%E6%88%98%E8%83%9C%E5%BF%83%E9%AD%94%21BLG%E6%A8%AA%E6%89%ABHLE%E6%99%8B%E7%BA%A7%E5%85%AB%E5%BC%BA\"\n    },\n    {\n      \"id\": 28368646,\n      \"title\": \"抗吧好活!S16爆改七龙珠\",\n      \"url\": \"https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28368646&amp;topic_name=%E6%8A%97%E5%90%A7%E5%A5%BD%E6%B4%BB%21S16%E7%88%86%E6%94%B9%E4%B8%83%E9%BE%99%E7%8F%A0\"\n    },\n    {\n      \"id\": 28368643,\n  \n...[summary 已截断，完整输出共 1381 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:26.682Z",
+          "finishedAt": "2026-11-01T00:00:26.927Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "战胜心魔!BLG横扫HLE晋级八强",
+        "抗吧好活!S16爆改七龙珠",
+        "表情包大赛,16进8生死局"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"tieba\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 28368656,\n      \"title\": \"战胜心魔!BLG横扫HLE晋级八强\",\n      \"url\": \"https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28368656&amp;topic_name=%E6%88%98%E8%83%9C%E5%BF%83%E9%AD%94%21BLG%E6%A8%AA%E6%89%ABHLE%E6%99%8B%E7%BA%A7%E5%85%AB%E5%BC%BA\"\n    },\n    {\n      \"id\": 28368646,\n      \"title\": \"抗吧好活!S16爆改七龙珠\",\n      \"url\": \"https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28368646&amp;topic_name=%E6%8A%97%E5%90%A7%E5%A5%BD%E6%B4%BB%21S16%E7%88%86%E6%94%B9%E4%B8%83%E9%BE%99%E7%8F%A0\"\n    },\n    {\n      \"id\": 28368643,\n      \"title\": \"表情包大赛,16进8生死局\",\n      \"url\": \"https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28368643&amp;topic_name=%E8%A1%A8%E6%83%85%E5%8C%85%E5%A4%A7%E8%B5%9B%2C16%E8%BF%9B8%E7%94%9F%E6%AD%BB%E5%B1%80\"\n    },\n    {\n      \"id\": 28368649,\n      \"title\": \"活招牌!炒股平台拿久留美打广告\",\n      \"url\": \"https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28368649&amp;topic_name=%E6%B4%BB%E6%8B%9B%E7%89%8C%21%E7%82%92%E8%82%A1%E5%B9%B3%E5%8F%B0%E6%8B%BF%E4%B9%85%E7%95%99%E7%BE%8E%E6%89%93%E5%B9%BF%E5%91%8A\"\n    },\n    {\n      \"id\": 28368653,\n      \"title\": \"爆了!KC与MKOI老板推特对线\",\n      \"url\": \"https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28368653&amp;topic_name=%E7%88%86%E4%BA%86%21KC%E4%B8%8EMKOI%E8%80%81%E6%9D%BF%E6%8E%A8%E7%89%B9%E5%AF%B9%E7%BA%BF\"\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:26.682Z",
+      "finishedAt": "2026-11-01T00:00:26.927Z"
+    },
+    {
+      "source": "toutiao",
+      "category": "toutiao",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"toutiao\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"7701985931734335531\",\n      \"title\": \"意大利抗议者市政厅前推倒粪肥\",\n      \"url\": \"https://www.toutiao.com/trending/7701985931734335531/\",\n      \"extra\": {\n        \"icon\": \"https://p3-sign.toutiaoimg.com/top-static-files-outer/breaknews/8da32c5d-495a-4174-90b8-fe39dde53257~tplv-tt-origin:0:0.png?_iz=30575&from=sign_default&lk3s=8d617dac&x-expires=1796083200&x-signature=j8KDctBxwzqKFj7%2F2RxFOU6FINM%3D\"\n      }\n    },\n    {\n      \"id\": \"7702426053759828022\",\n      \"title\": \"高市屡次引导外国领导人向日旗鞠躬\",\n      \"url\": \"https://www.toutiao.com/trending\n...[summary 已截断，完整输出共 1957 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:26.928Z",
+          "finishedAt": "2026-11-01T00:00:27.204Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "意大利抗议者市政厅前推倒粪肥",
+        "高市屡次引导外国领导人向日旗鞠躬",
+        "以钉钉子精神加强党的作风建设"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"toutiao\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"7701985931734335531\",\n      \"title\": \"意大利抗议者市政厅前推倒粪肥\",\n      \"url\": \"https://www.toutiao.com/trending/7701985931734335531/\",\n      \"extra\": {\n        \"icon\": \"https://p3-sign.toutiaoimg.com/top-static-files-outer/breaknews/8da32c5d-495a-4174-90b8-fe39dde53257~tplv-tt-origin:0:0.png?_iz=30575&from=sign_default&lk3s=8d617dac&x-expires=1796083200&x-signature=j8KDctBxwzqKFj7%2F2RxFOU6FINM%3D\"\n      }\n    },\n    {\n      \"id\": \"7702426053759828022\",\n      \"title\": \"高市屡次引导外国领导人向日旗鞠躬\",\n      \"url\": \"https://www.toutiao.com/trending/7702426053759828022/\",\n      \"extra\": {\n        \"icon\": \"https://p3-sign.toutiaoimg.com/top-static-files-outer/breaknews/8da32c5d-495a-4174-90b8-fe39dde53257~tplv-tt-origin:0:0.png?_iz=30575&from=sign_default&lk3s=8d617dac&x-expires=1796083200&x-signature=j8KDctBxwzqKFj7%2F2RxFOU6FINM%3D\"\n      }\n    },\n    {\n      \"id\": \"7702652501522189878\",\n      \"title\": \"以钉钉子精神加强党的作风建设\",\n      \"url\": \"https://www.toutiao.com/trending/7702652501522189878/\",\n      \"extra\": {\n        \"icon\": \"\"\n      }\n    },\n    {\n      \"id\": \"7701881980828516402\",\n      \"title\": \"早田希娜被孙颖莎打哭\",\n      \"url\": \"https://www.toutiao.com/trending/7701881980828516402/\",\n      \"extra\": {\n        \"icon\": \"https://p3-sign.toutiaoimg.com/top-static-files-outer/breaknews/ee68863c-61b4-4244-b4f5-dca05d1bba6b~tplv-tt-origin:0:0.png?_iz=30575&from=sign_default&lk3s=8d617dac&x-expires=1796083200&x-signature=SbPUXlJ19pKB%2FCDSgjovToYcwHs%3D\"\n      }\n    },\n    {\n      \"id\": \"7702778990288879658\",\n      \"title\": \"央视曝光2388元蜜丸成本仅40元\",\n      \"url\": \"https://www.toutiao.com/trending/7702778990288879658/\",\n      \"extra\": {\n        \"icon\": \"https://p3-sign.toutiaoimg.com/top-static-files-outer/breaknews/8da32c5d-495a-4174-90b8-fe39dde53257~tplv-tt-origin:0:0.png?_iz=30575&from=sign_default&lk3s=8d617dac&x-expires=1796083200&x-signature=j8KDctBxwzqKFj7%2F2RxFOU6FINM%3D\"\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:26.928Z",
+      "finishedAt": "2026-11-01T00:00:27.204Z"
+    },
+    {
+      "source": "v2ex",
+      "category": "v2ex",
+      "envVars": [],
+      "retried": true,
+      "attempts": [
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"v2ex\\\": [GET] \\\"https://www.v2ex.com/feed/programmer.json\\\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:27.205Z",
+          "finishedAt": "2026-11-01T00:00:27.273Z"
+        },
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 15000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"v2ex\\\": [GET] \\\"https://www.v2ex.com/feed/create.json\\\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:27.273Z",
+          "finishedAt": "2026-11-01T00:00:27.316Z"
+        }
+      ],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "timeoutMs": 15000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "{\"error\":\"Fetch failed for \\\"v2ex\\\": [GET] \\\"https://www.v2ex.com/feed/create.json\\\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?\",\"code\":\"FETCH_ERROR\"}",
+      "stderr": "{\"error\":\"Fetch failed for \\\"v2ex\\\": [GET] \\\"https://www.v2ex.com/feed/create.json\\\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?\",\"code\":\"FETCH_ERROR\"}\n",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:27.273Z",
+      "finishedAt": "2026-11-01T00:00:27.316Z"
+    },
+    {
+      "source": "v2ex-share",
+      "category": "v2ex",
+      "envVars": [],
+      "retried": true,
+      "attempts": [
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"v2ex-share\\\": [GET] \\\"https://www.v2ex.com/feed/programmer.json\\\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:27.316Z",
+          "finishedAt": "2026-11-01T00:00:27.351Z"
+        },
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 15000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"v2ex-share\\\": [GET] \\\"https://www.v2ex.com/feed/ideas.json\\\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:27.351Z",
+          "finishedAt": "2026-11-01T00:00:27.384Z"
+        }
+      ],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "timeoutMs": 15000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "{\"error\":\"Fetch failed for \\\"v2ex-share\\\": [GET] \\\"https://www.v2ex.com/feed/ideas.json\\\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?\",\"code\":\"FETCH_ERROR\"}",
+      "stderr": "{\"error\":\"Fetch failed for \\\"v2ex-share\\\": [GET] \\\"https://www.v2ex.com/feed/ideas.json\\\": <no response> ECONNREFUSED: Unable to connect. Is the computer able to access the url?\",\"code\":\"FETCH_ERROR\"}\n",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:27.351Z",
+      "finishedAt": "2026-11-01T00:00:27.384Z"
+    },
+    {
+      "source": "wallstreetcn",
+      "category": "wallstreetcn",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"wallstreetcn\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 3191998,\n      \"title\": \"韩国10月出口同比 93.7%，预期 88.6%，前值 83.5%。\",\n      \"extra\": {\n        \"date\": 1793491200000\n      },\n      \"url\": \"https://wallstreetcn.com/livenews/3191998\"\n    },\n    {\n      \"id\": 3191997,\n      \"title\": \"韩国10月进口同比 36%，预期 40.5%，前值 26%。\",\n      \"extra\": {\n        \"date\": 1793491200000\n      },\n      \"url\": \"https://wallstreetcn.com/livenews/3191997\"\n    },\n    {\n      \"id\": 3191994,\n      \"title\": \"DeepSeek发布全新Agent架构\",\n      \"extra\": {\n        \"date\": 1793458355000\n      },\n      \"url\": \"https://wall\n...[summary 已截断，完整输出共 1008 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:27.384Z",
+          "finishedAt": "2026-11-01T00:00:27.554Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "韩国10月出口同比 93.7%，预期 88.6%，前值 83.5%。",
+        "韩国10月进口同比 36%，预期 40.5%，前值 26%。",
+        "DeepSeek发布全新Agent架构"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"wallstreetcn\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 3191998,\n      \"title\": \"韩国10月出口同比 93.7%，预期 88.6%，前值 83.5%。\",\n      \"extra\": {\n        \"date\": 1793491200000\n      },\n      \"url\": \"https://wallstreetcn.com/livenews/3191998\"\n    },\n    {\n      \"id\": 3191997,\n      \"title\": \"韩国10月进口同比 36%，预期 40.5%，前值 26%。\",\n      \"extra\": {\n        \"date\": 1793491200000\n      },\n      \"url\": \"https://wallstreetcn.com/livenews/3191997\"\n    },\n    {\n      \"id\": 3191994,\n      \"title\": \"DeepSeek发布全新Agent架构\",\n      \"extra\": {\n        \"date\": 1793458355000\n      },\n      \"url\": \"https://wallstreetcn.com/livenews/3191994\"\n    },\n    {\n      \"id\": 3191993,\n      \"title\": \"土耳其提名该国前外长为联合国秘书长候选人\",\n      \"extra\": {\n        \"date\": 1793455177000\n      },\n      \"url\": \"https://wallstreetcn.com/livenews/3191993\"\n    },\n    {\n      \"id\": 3191992,\n      \"title\": \"孟加拉国登革热疫情持续蔓延\",\n      \"extra\": {\n        \"date\": 1793454898000\n      },\n      \"url\": \"https://wallstreetcn.com/livenews/3191992\"\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:27.384Z",
+      "finishedAt": "2026-11-01T00:00:27.554Z"
+    },
+    {
+      "source": "wallstreetcn-hot",
+      "category": "wallstreetcn",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"wallstreetcn-hot\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 3784816,\n      \"title\": \"英特尔跌幅创四十年之最，纳指跌近3%，苹果市值超越英伟达，黄金一年新低，原油连涨四个月\",\n      \"url\": \"https://wallstreetcn.com/articles/3784816\"\n    },\n    {\n      \"id\": 3784902,\n      \"title\": \"雪上加霜！科技股“认清现实”的一周\",\n      \"url\": \"https://wallstreetcn.com/articles/3784902\"\n    },\n    {\n      \"id\": 3784903,\n      \"title\": \"“黑色星期五”的导火索：Anthropic只能“垃圾级”？\",\n      \"url\": \"https://wallstreetcn.com/articles/3784903\"\n    },\n    {\n      \"id\": 3784914,\n      \"title\": \"财报炸裂，但闪迪隔夜为何暴跌？\",\n      \"url\": \"https://wallstreetcn.com/articles/3784914\"\n  \n...[summary 已截断，完整输出共 740 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:27.554Z",
+          "finishedAt": "2026-11-01T00:00:27.699Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "英特尔跌幅创四十年之最，纳指跌近3%，苹果市值超越英伟达，黄金一年新低，原油连涨四个月",
+        "雪上加霜！科技股“认清现实”的一周",
+        "“黑色星期五”的导火索：Anthropic只能“垃圾级”？"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"wallstreetcn-hot\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 3784816,\n      \"title\": \"英特尔跌幅创四十年之最，纳指跌近3%，苹果市值超越英伟达，黄金一年新低，原油连涨四个月\",\n      \"url\": \"https://wallstreetcn.com/articles/3784816\"\n    },\n    {\n      \"id\": 3784902,\n      \"title\": \"雪上加霜！科技股“认清现实”的一周\",\n      \"url\": \"https://wallstreetcn.com/articles/3784902\"\n    },\n    {\n      \"id\": 3784903,\n      \"title\": \"“黑色星期五”的导火索：Anthropic只能“垃圾级”？\",\n      \"url\": \"https://wallstreetcn.com/articles/3784903\"\n    },\n    {\n      \"id\": 3784914,\n      \"title\": \"财报炸裂，但闪迪隔夜为何暴跌？\",\n      \"url\": \"https://wallstreetcn.com/articles/3784914\"\n    },\n    {\n      \"id\": 3784910,\n      \"title\": \"当前AI最紧迫的瓶颈：廉价资金正在枯竭！\",\n      \"url\": \"https://wallstreetcn.com/articles/3784910\"\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:27.554Z",
+      "finishedAt": "2026-11-01T00:00:27.699Z"
+    },
+    {
+      "source": "wallstreetcn-news",
+      "category": "wallstreetcn",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"wallstreetcn-news\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 3784924,\n      \"title\": \"“中选决战”在即，为避免被横扫，共和党要保“基本盘”\",\n      \"extra\": {\n        \"date\": 1793447667000\n      },\n      \"url\": \"https://wallstreetcn.com/articles/3784924\"\n    },\n    {\n      \"id\": 41960120,\n      \"title\": \"黄仁勋：孩子没野心，AI 只会帮他更懒\",\n      \"extra\": {\n        \"date\": 1793443503000\n      },\n      \"url\": \"https://wallstreetcn.com/charts/41960120\"\n    },\n    {\n      \"id\": 3784923,\n      \"title\": \"Marvell收购Lumentum：“芯片 + 光学”的首次深度闭环，“既当裁判又当运动员”与光通信的“赢家通吃”\",\n      \"extra\": {\n        \"date\": 1793442058000\n      },\n  \n...[summary 已截断，完整输出共 1036 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:27.700Z",
+          "finishedAt": "2026-11-01T00:00:27.939Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "“中选决战”在即，为避免被横扫，共和党要保“基本盘”",
+        "黄仁勋：孩子没野心，AI 只会帮他更懒",
+        "Marvell收购Lumentum：“芯片 + 光学”的首次深度闭环，“既当裁判又当运动员”与光通信的“赢家通吃”"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"wallstreetcn-news\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 3784924,\n      \"title\": \"“中选决战”在即，为避免被横扫，共和党要保“基本盘”\",\n      \"extra\": {\n        \"date\": 1793447667000\n      },\n      \"url\": \"https://wallstreetcn.com/articles/3784924\"\n    },\n    {\n      \"id\": 41960120,\n      \"title\": \"黄仁勋：孩子没野心，AI 只会帮他更懒\",\n      \"extra\": {\n        \"date\": 1793443503000\n      },\n      \"url\": \"https://wallstreetcn.com/charts/41960120\"\n    },\n    {\n      \"id\": 3784923,\n      \"title\": \"Marvell收购Lumentum：“芯片 + 光学”的首次深度闭环，“既当裁判又当运动员”与光通信的“赢家通吃”\",\n      \"extra\": {\n        \"date\": 1793442058000\n      },\n      \"url\": \"https://wallstreetcn.com/articles/3784923\"\n    },\n    {\n      \"id\": 3784920,\n      \"title\": \"为何10月PMI偏弱？\",\n      \"extra\": {\n        \"date\": 1793439846000\n      },\n      \"url\": \"https://wallstreetcn.com/articles/3784920\"\n    },\n    {\n      \"id\": 3784918,\n      \"title\": \"苹果收盘市值5.03万亿美元反超英伟达，重夺全球第一\",\n      \"extra\": {\n        \"date\": 1793437824000\n      },\n      \"url\": \"https://wallstreetcn.com/articles/3784918\"\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:27.700Z",
+      "finishedAt": "2026-11-01T00:00:27.939Z"
+    },
+    {
+      "source": "wallstreetcn-quick",
+      "category": "wallstreetcn",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"wallstreetcn-quick\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 3191998,\n      \"title\": \"韩国10月出口同比 93.7%，预期 88.6%，前值 83.5%。\",\n      \"extra\": {\n        \"date\": 1793491200000\n      },\n      \"url\": \"https://wallstreetcn.com/livenews/3191998\"\n    },\n    {\n      \"id\": 3191997,\n      \"title\": \"韩国10月进口同比 36%，预期 40.5%，前值 26%。\",\n      \"extra\": {\n        \"date\": 1793491200000\n      },\n      \"url\": \"https://wallstreetcn.com/livenews/3191997\"\n    },\n    {\n      \"id\": 3191994,\n      \"title\": \"DeepSeek发布全新Agent架构\",\n      \"extra\": {\n        \"date\": 1793458355000\n      },\n      \"url\": \"https:\n...[summary 已截断，完整输出共 1014 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:27.940Z",
+          "finishedAt": "2026-11-01T00:00:28.203Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "韩国10月出口同比 93.7%，预期 88.6%，前值 83.5%。",
+        "韩国10月进口同比 36%，预期 40.5%，前值 26%。",
+        "DeepSeek发布全新Agent架构"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"wallstreetcn-quick\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 3191998,\n      \"title\": \"韩国10月出口同比 93.7%，预期 88.6%，前值 83.5%。\",\n      \"extra\": {\n        \"date\": 1793491200000\n      },\n      \"url\": \"https://wallstreetcn.com/livenews/3191998\"\n    },\n    {\n      \"id\": 3191997,\n      \"title\": \"韩国10月进口同比 36%，预期 40.5%，前值 26%。\",\n      \"extra\": {\n        \"date\": 1793491200000\n      },\n      \"url\": \"https://wallstreetcn.com/livenews/3191997\"\n    },\n    {\n      \"id\": 3191994,\n      \"title\": \"DeepSeek发布全新Agent架构\",\n      \"extra\": {\n        \"date\": 1793458355000\n      },\n      \"url\": \"https://wallstreetcn.com/livenews/3191994\"\n    },\n    {\n      \"id\": 3191993,\n      \"title\": \"土耳其提名该国前外长为联合国秘书长候选人\",\n      \"extra\": {\n        \"date\": 1793455177000\n      },\n      \"url\": \"https://wallstreetcn.com/livenews/3191993\"\n    },\n    {\n      \"id\": 3191992,\n      \"title\": \"孟加拉国登革热疫情持续蔓延\",\n      \"extra\": {\n        \"date\": 1793454898000\n      },\n      \"url\": \"https://wallstreetcn.com/livenews/3191992\"\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:27.940Z",
+      "finishedAt": "2026-11-01T00:00:28.203Z"
+    },
+    {
+      "source": "weibo",
+      "category": "weibo",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"weibo\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"BLG战胜HLE\",\n      \"title\": \"BLG战胜HLE\",\n      \"url\": \"https://s.weibo.com/weibo?q=BLG%E6%88%98%E8%83%9CHLE&t=31&band_rank=1&Refer=top\",\n      \"mobileUrl\": \"https://s.weibo.com/weibo?q=BLG%E6%88%98%E8%83%9CHLE&t=31&band_rank=1&Refer=top\",\n      \"extra\": {\n        \"icon\": {\n          \"url\": \"https://simg.s.weibo.com/moter/flags/1_0.png\",\n          \"scale\": 1.5\n        }\n      }\n    },\n    {\n      \"id\": \"HLE对战BLG\",\n      \"title\": \"HLE对战BLG\",\n      \"url\": \"https://s.weibo.com/weibo?q=HLE%E5%AF%B9%E6%88%98BLG&t=31&band_rank=2&Refer=\n...[summary 已截断，完整输出共 2519 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:28.203Z",
+          "finishedAt": "2026-11-01T00:00:28.473Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "BLG战胜HLE",
+        "HLE对战BLG",
+        "新动能持续释放助力经济稳增长"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"weibo\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"BLG战胜HLE\",\n      \"title\": \"BLG战胜HLE\",\n      \"url\": \"https://s.weibo.com/weibo?q=BLG%E6%88%98%E8%83%9CHLE&t=31&band_rank=1&Refer=top\",\n      \"mobileUrl\": \"https://s.weibo.com/weibo?q=BLG%E6%88%98%E8%83%9CHLE&t=31&band_rank=1&Refer=top\",\n      \"extra\": {\n        \"icon\": {\n          \"url\": \"https://simg.s.weibo.com/moter/flags/1_0.png\",\n          \"scale\": 1.5\n        }\n      }\n    },\n    {\n      \"id\": \"HLE对战BLG\",\n      \"title\": \"HLE对战BLG\",\n      \"url\": \"https://s.weibo.com/weibo?q=HLE%E5%AF%B9%E6%88%98BLG&t=31&band_rank=2&Refer=top\",\n      \"mobileUrl\": \"https://s.weibo.com/weibo?q=HLE%E5%AF%B9%E6%88%98BLG&t=31&band_rank=2&Refer=top\",\n      \"extra\": {\n        \"icon\": {\n          \"url\": \"https://simg.s.weibo.com/moter/flags/2_0.png\",\n          \"scale\": 1.5\n        }\n      }\n    },\n    {\n      \"id\": \"新动能持续释放助力经济稳增长\",\n      \"title\": \"新动能持续释放助力经济稳增长\",\n      \"url\": \"https://s.weibo.com/weibo?q=%23%E6%96%B0%E5%8A%A8%E8%83%BD%E6%8C%81%E7%BB%AD%E9%87%8A%E6%94%BE%E5%8A%A9%E5%8A%9B%E7%BB%8F%E6%B5%8E%E7%A8%B3%E5%A2%9E%E9%95%BF%23&t=31&band_rank=3&Refer=top\",\n      \"mobileUrl\": \"https://s.weibo.com/weibo?q=%23%E6%96%B0%E5%8A%A8%E8%83%BD%E6%8C%81%E7%BB%AD%E9%87%8A%E6%94%BE%E5%8A%A9%E5%8A%9B%E7%BB%8F%E6%B5%8E%E7%A8%B3%E5%A2%9E%E9%95%BF%23&t=31&band_rank=3&Refer=top\",\n      \"extra\": {}\n    },\n    {\n      \"id\": \"阿姨被插队后买光烧饼\",\n      \"title\": \"阿姨被插队后买光烧饼\",\n      \"url\": \"https://s.weibo.com/weibo?q=%E9%98%BF%E5%A7%A8%E8%A2%AB%E6%8F%92%E9%98%9F%E5%90%8E%E4%B9%B0%E5%85%89%E7%83%A7%E9%A5%BC&t=31&band_rank=4&Refer=top\",\n      \"mobileUrl\": \"https://s.weibo.com/weibo?q=%E9%98%BF%E5%A7%A8%E8%A2%AB%E6%8F%92%E9%98%9F%E5%90%8E%E4%B9%B0%E5%85%89%E7%83%A7%E9%A5%BC&t=31&band_rank=4&Refer=top\",\n      \"extra\": {\n        \"icon\": {\n          \"url\": \"https://simg.s.weibo.com/moter/flags/1_0.png\",\n          \"scale\": 1.5\n        }\n      }\n    },\n    {\n      \"id\": \"国乒男单无缘蒙彼利埃站四强\",\n      \"title\": \"国乒男单无缘蒙彼利埃站四强\",\n      \"url\": \"https://s.weibo.com/weibo?q=%23%E5%9B%BD%E4%B9%92%E7%94%B7%E5%8D%95%E6%97%A0%E7%BC%98%E8%92%99%E5%BD%BC%E5%88%A9%E5%9F%83%E7%AB%99%E5%9B%9B%E5%BC%BA%23&t=31&band_rank=5&Refer=top\",\n      \"mobileUrl\": \"https://s.weibo.com/weibo?q=%23%E5%9B%BD%E4%B9%92%E7%94%B7%E5%8D%95%E6%97%A0%E7%BC%98%E8%92%99%E5%BD%BC%E5%88%A9%E5%9F%83%E7%AB%99%E5%9B%9B%E5%BC%BA%23&t=31&band_rank=5&Refer=top\",\n      \"extra\": {\n        \"icon\": {\n          \"url\": \"https://simg.s.weibo.com/moter/flags/1_0.png\",\n          \"scale\": 1.5\n        }\n      }\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:28.203Z",
+      "finishedAt": "2026-11-01T00:00:28.473Z"
+    },
+    {
+      "source": "sspai",
+      "category": "sspai",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"sspai\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 117725,\n      \"title\": \"备受期待的国产 3A 游戏新作：《影之刃零》游玩体验\",\n      \"url\": \"https://sspai.com/post/117725\"\n    },\n    {\n      \"id\": 116990,\n      \"title\": \"断舍离只是起点：打造能长期经营的实用主义衣柜\",\n      \"url\": \"https://sspai.com/post/116990\"\n    },\n    {\n      \"id\": 117633,\n      \"title\": \"社区速递 163 | 金豪 59 调整版钢笔与九月派友剁手清单\",\n      \"url\": \"https://sspai.com/post/117633\"\n    },\n    {\n      \"id\": 117557,\n      \"title\": \"Apple Sports：不看新闻、不聊球，只看我关心的比赛\",\n      \"url\": \"https://sspai.com/post/117557\"\n    },\n    {\n      \"id\": 117529,\n      \"title\": \"派评 | 近期值得关注\n...[summary 已截断，完整输出共 665 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:25.080Z",
+          "finishedAt": "2026-11-01T00:00:28.696Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "备受期待的国产 3A 游戏新作：《影之刃零》游玩体验",
+        "断舍离只是起点：打造能长期经营的实用主义衣柜",
+        "社区速递 163 | 金豪 59 调整版钢笔与九月派友剁手清单"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"sspai\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": 117725,\n      \"title\": \"备受期待的国产 3A 游戏新作：《影之刃零》游玩体验\",\n      \"url\": \"https://sspai.com/post/117725\"\n    },\n    {\n      \"id\": 116990,\n      \"title\": \"断舍离只是起点：打造能长期经营的实用主义衣柜\",\n      \"url\": \"https://sspai.com/post/116990\"\n    },\n    {\n      \"id\": 117633,\n      \"title\": \"社区速递 163 | 金豪 59 调整版钢笔与九月派友剁手清单\",\n      \"url\": \"https://sspai.com/post/117633\"\n    },\n    {\n      \"id\": 117557,\n      \"title\": \"Apple Sports：不看新闻、不聊球，只看我关心的比赛\",\n      \"url\": \"https://sspai.com/post/117557\"\n    },\n    {\n      \"id\": 117529,\n      \"title\": \"派评 | 近期值得关注的 App\",\n      \"url\": \"https://sspai.com/post/117529\"\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:25.080Z",
+      "finishedAt": "2026-11-01T00:00:28.696Z"
+    },
+    {
+      "source": "xueqiu",
+      "category": "xueqiu",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"xueqiu\\\": [GET] \\\"https://stock.xueqiu.com/v5/stock/hot_stock/list.json?size=30&_type=10&type=10\\\": 400 \",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:28.473Z",
+          "finishedAt": "2026-11-01T00:00:28.828Z"
+        }
+      ],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "{\"error\":\"Fetch failed for \\\"xueqiu\\\": [GET] \\\"https://stock.xueqiu.com/v5/stock/hot_stock/list.json?size=30&_type=10&type=10\\\": 400 \",\"code\":\"FETCH_ERROR\"}",
+      "stderr": "{\"error\":\"Fetch failed for \\\"xueqiu\\\": [GET] \\\"https://stock.xueqiu.com/v5/stock/hot_stock/list.json?size=30&_type=10&type=10\\\": 400 \",\"code\":\"FETCH_ERROR\"}\n",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:28.473Z",
+      "finishedAt": "2026-11-01T00:00:28.828Z"
+    },
+    {
+      "source": "xueqiu-hotstock",
+      "category": "xueqiu",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"xueqiu-hotstock\\\": [GET] \\\"https://stock.xueqiu.com/v5/stock/hot_stock/list.json?size=30&_type=10&type=10\\\": 400 \",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:28.697Z",
+          "finishedAt": "2026-11-01T00:00:29.061Z"
+        }
+      ],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "{\"error\":\"Fetch failed for \\\"xueqiu-hotstock\\\": [GET] \\\"https://stock.xueqiu.com/v5/stock/hot_stock/list.json?size=30&_type=10&type=10\\\": 400 \",\"code\":\"FETCH_ERROR\"}",
+      "stderr": "{\"error\":\"Fetch failed for \\\"xueqiu-hotstock\\\": [GET] \\\"https://stock.xueqiu.com/v5/stock/hot_stock/list.json?size=30&_type=10&type=10\\\": 400 \",\"code\":\"FETCH_ERROR\"}\n",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:28.697Z",
+      "finishedAt": "2026-11-01T00:00:29.061Z"
+    },
+    {
+      "source": "zhihu",
+      "category": "zhihu",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "success",
+          "exitCode": 0,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "",
+          "stdout": "{\n  \"source\": \"zhihu\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"2099984457524572950\",\n      \"title\": \"如何评价 Deepseek Harness 发布的 super-agent 构想？\",\n      \"extra\": {\n        \"info\": \"348 万热度\",\n        \"hover\": \"Super-agent 设计探索：迈向更自主的 Agent 系统\"\n      },\n      \"url\": \"https://www.zhihu.com/question/2099984457524572950\"\n    },\n    {\n      \"id\": \"2099856268898690006\",\n      \"title\": \"我国首次载人登月任务乘组计划由三人组成，两人着陆月球表面，哪些细节值得关注？此次任务重点在哪？\",\n      \"extra\": {\n        \"info\": \"339 万热度\",\n        \"hover\": \"10 月 31 日，第七届载人航天学术大会在北京航空航天大学举行。《环球时报》记者在本届大会上获悉，我国计划在 2030 年前实现中国人登陆月球，将采用「两次发射，一次登月」的方式实现载人登月。 中国载人\n...[summary 已截断，完整输出共 1881 字符，见原始数据目录]",
+          "startedAt": "2026-11-01T00:00:29.061Z",
+          "finishedAt": "2026-11-01T00:00:29.333Z"
+        }
+      ],
+      "status": "success",
+      "exitCode": 0,
+      "signal": null,
+      "timeoutMs": 10000,
+      "count": 5,
+      "sampleTitles": [
+        "如何评价 Deepseek Harness 发布的 super-agent 构想？",
+        "我国首次载人登月任务乘组计划由三人组成，两人着陆月球表面，哪些细节值得关注？此次任务重点在哪？",
+        "S16 瑞士轮 BLG 2:0 淘汰 HLE 拿下最后一张淘汰赛门票，如何评价这场比赛？"
+      ],
+      "error": null,
+      "stderr": "",
+      "stdout": "{\n  \"source\": \"zhihu\",\n  \"count\": 5,\n  \"items\": [\n    {\n      \"id\": \"2099984457524572950\",\n      \"title\": \"如何评价 Deepseek Harness 发布的 super-agent 构想？\",\n      \"extra\": {\n        \"info\": \"348 万热度\",\n        \"hover\": \"Super-agent 设计探索：迈向更自主的 Agent 系统\"\n      },\n      \"url\": \"https://www.zhihu.com/question/2099984457524572950\"\n    },\n    {\n      \"id\": \"2099856268898690006\",\n      \"title\": \"我国首次载人登月任务乘组计划由三人组成，两人着陆月球表面，哪些细节值得关注？此次任务重点在哪？\",\n      \"extra\": {\n        \"info\": \"339 万热度\",\n        \"hover\": \"10 月 31 日，第七届载人航天学术大会在北京航空航天大学举行。《环球时报》记者在本届大会上获悉，我国计划在 2030 年前实现中国人登陆月球，将采用「两次发射，一次登月」的方式实现载人登月。 中国载人航天工程副总设计师兼月球探测工程总设计师王翔在本届大会上介绍称，我国首次载人月球探测计划采用环月轨道对接飞行模式。 据了解，这种模式将采用两枚长征十号运载火箭，先将着陆器送往月球轨道，然后再发射载人飞船与着陆器实现交会对接，航天员进入着陆器并与载人飞船分离着陆月面，开展有关科学探测活动。完成任务后航天员乘坐着陆器从月面上升，在月球轨道上与载人飞船实现二次交会对接，航天员乘坐载人飞船返回地球。 王翔介绍称，我国首次载人月球探测任务乘组计划由三人组成，其中两人着陆月球表面。 目前，中国月球探测工程登月阶段任务各项研制建设工作正在扎实推进。我国首次载人登月任务乘组计划由三人组成，两人着陆月球表面 _ 腾讯新闻\"\n      },\n      \"url\": \"https://www.zhihu.com/question/2099856268898690006\"\n    },\n    {\n      \"id\": \"2100108531160687738\",\n      \"title\": \"S16 瑞士轮 BLG 2:0 淘汰 HLE 拿下最后一张淘汰赛门票，如何评价这场比赛？\",\n      \"extra\": {\n        \"info\": \"239 万热度\",\n        \"hover\": \"北京时间 11 月 1 日，S16 瑞士轮最后一个比赛日，HLE 0-2 不敌 BLG，以 2-3 的战绩在瑞士轮阶段遭到淘汰，成为 LCK 赛区唯一一支没能进入淘汰赛的战队。 LCK 唯一一个没晋级的，HLE 以 2-3 在瑞士轮阶段遭到淘汰 _ 腾讯新闻\"\n      },\n      \"url\": \"https://www.zhihu.com/question/2100108531160687738\"\n    },\n    {\n      \"id\": \"2098823323752690341\",\n      \"title\": \"如何看待「三年内，扩散模型将全面替代大语言模型」的说法？这会给 AI Infra 带来哪些变化？\",\n      \"extra\": {\n        \"info\": \"154 万热度\",\n        \"hover\": \"[图片]\"\n      },\n      \"url\": \"https://www.zhihu.com/question/2098823323752690341\"\n    },\n    {\n      \"id\": \"1932369918818484287\",\n      \"title\": \"国内游戏界的奇耻大辱（事件、现状等等）是什么？\",\n      \"extra\": {\n        \"info\": \"133 万热度\",\n        \"hover\": \"这个问题的答案还是挺宽泛的，大家畅所欲言吧\"\n      },\n      \"url\": \"https://www.zhihu.com/question/1932369918818484287\"\n    }\n  ]\n}\n",
+      "startedAt": "2026-11-01T00:00:29.061Z",
+      "finishedAt": "2026-11-01T00:00:29.333Z"
+    },
+    {
+      "source": "zaobao",
+      "category": "zaobao",
+      "envVars": [],
+      "retried": true,
+      "attempts": [
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 10000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"zaobao\\\": [GET] \\\"https://www.zaochenbao.com/realtime/\\\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:28.829Z",
+          "finishedAt": "2026-11-01T00:00:29.280Z"
+        },
+        {
+          "status": "nonzero",
+          "exitCode": 2,
+          "signal": null,
+          "timeoutMs": 15000,
+          "error": null,
+          "stderr": "{\"error\":\"Fetch failed for \\\"zaobao\\\": [GET] \\\"https://www.zaochenbao.com/realtime/\\\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\",\"code\":\"FETCH_ERROR\"}\n",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:29.280Z",
+          "finishedAt": "2026-11-01T00:00:29.721Z"
+        }
+      ],
+      "status": "nonzero",
+      "exitCode": 2,
+      "signal": null,
+      "timeoutMs": 15000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "{\"error\":\"Fetch failed for \\\"zaobao\\\": [GET] \\\"https://www.zaochenbao.com/realtime/\\\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\",\"code\":\"FETCH_ERROR\"}",
+      "stderr": "{\"error\":\"Fetch failed for \\\"zaobao\\\": [GET] \\\"https://www.zaochenbao.com/realtime/\\\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\",\"code\":\"FETCH_ERROR\"}\n",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:29.280Z",
+      "finishedAt": "2026-11-01T00:00:29.721Z"
+    },
+    {
+      "source": "solidot",
+      "category": "solidot",
+      "envVars": [],
+      "retried": false,
+      "attempts": [
+        {
+          "status": "timeout",
+          "exitCode": null,
+          "signal": "SIGTERM",
+          "timeoutMs": 10000,
+          "error": "Timed out after 10000ms",
+          "stderr": "",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:24.781Z",
+          "finishedAt": "2026-11-01T00:00:34.787Z"
+        }
+      ],
+      "status": "timeout",
+      "exitCode": null,
+      "signal": "SIGTERM",
+      "timeoutMs": 10000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "Timed out after 10000ms",
+      "stderr": "",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:24.781Z",
+      "finishedAt": "2026-11-01T00:00:34.787Z"
+    },
+    {
+      "source": "linuxdo",
+      "category": "linuxdo",
+      "envVars": [],
+      "retried": true,
+      "attempts": [
+        {
+          "status": "timeout",
+          "exitCode": null,
+          "signal": "SIGTERM",
+          "timeoutMs": 10000,
+          "error": "Timed out after 10000ms",
+          "stderr": "",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:22.780Z",
+          "finishedAt": "2026-11-01T00:00:32.785Z"
+        },
+        {
+          "status": "timeout",
+          "exitCode": null,
+          "signal": "SIGTERM",
+          "timeoutMs": 15000,
+          "error": "Timed out after 15000ms",
+          "stderr": "",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:32.785Z",
+          "finishedAt": "2026-11-01T00:00:47.790Z"
+        }
+      ],
+      "status": "timeout",
+      "exitCode": null,
+      "signal": "SIGTERM",
+      "timeoutMs": 15000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "Timed out after 15000ms",
+      "stderr": "",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:32.785Z",
+      "finishedAt": "2026-11-01T00:00:47.790Z"
+    },
+    {
+      "source": "linuxdo-hot",
+      "category": "linuxdo",
+      "envVars": [],
+      "retried": true,
+      "attempts": [
+        {
+          "status": "timeout",
+          "exitCode": null,
+          "signal": "SIGTERM",
+          "timeoutMs": 10000,
+          "error": "Timed out after 10000ms",
+          "stderr": "",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:22.929Z",
+          "finishedAt": "2026-11-01T00:00:32.934Z"
+        },
+        {
+          "status": "timeout",
+          "exitCode": null,
+          "signal": "SIGTERM",
+          "timeoutMs": 15000,
+          "error": "Timed out after 15000ms",
+          "stderr": "",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:32.934Z",
+          "finishedAt": "2026-11-01T00:00:47.939Z"
+        }
+      ],
+      "status": "timeout",
+      "exitCode": null,
+      "signal": "SIGTERM",
+      "timeoutMs": 15000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "Timed out after 15000ms",
+      "stderr": "",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:32.934Z",
+      "finishedAt": "2026-11-01T00:00:47.939Z"
+    },
+    {
+      "source": "linuxdo-latest",
+      "category": "linuxdo",
+      "envVars": [],
+      "retried": true,
+      "attempts": [
+        {
+          "status": "timeout",
+          "exitCode": null,
+          "signal": "SIGTERM",
+          "timeoutMs": 10000,
+          "error": "Timed out after 10000ms",
+          "stderr": "",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:23.000Z",
+          "finishedAt": "2026-11-01T00:00:33.003Z"
+        },
+        {
+          "status": "timeout",
+          "exitCode": null,
+          "signal": "SIGTERM",
+          "timeoutMs": 15000,
+          "error": "Timed out after 15000ms",
+          "stderr": "",
+          "stdout": "",
+          "startedAt": "2026-11-01T00:00:33.003Z",
+          "finishedAt": "2026-11-01T00:00:48.007Z"
+        }
+      ],
+      "status": "timeout",
+      "exitCode": null,
+      "signal": "SIGTERM",
+      "timeoutMs": 15000,
+      "count": 0,
+      "sampleTitles": [],
+      "error": "Timed out after 15000ms",
+      "stderr": "",
+      "stdout": "",
+      "startedAt": "2026-11-01T00:00:33.003Z",
+      "finishedAt": "2026-11-01T00:00:48.007Z"
+    }
+  ],
+  "previous": {
+    "date": "2026-10-31",
+    "counts": {
+      "success": 43,
+      "nonzero": 15,
+      "timeout": 2,
+      "empty": 5,
+      "badjson": 0,
+      "skipenv": 1,
+      "aborted": 0
+    }
+  },
+  "diff": {
+    "previousDate": "2026-10-31",
+    "successDelta": 0,
+    "recoveredSources": [
+      "steam"
+    ],
+    "lostSources": [
+      "freebuf"
+    ]
+  }
+}

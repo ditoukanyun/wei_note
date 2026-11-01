@@ -1,0 +1,46 @@
+{
+  "source": "bilibili-hot-search",
+  "count": 5,
+  "items": [
+    {
+      "id": "HLE BLG",
+      "title": "BLG战胜HLE晋级淘汰赛",
+      "url": "https://search.bilibili.com/all?keyword=HLE%20BLG",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "中低端显卡价格持续下跌",
+      "title": "中低端显卡价格持续下跌",
+      "url": "https://search.bilibili.com/all?keyword=%E4%B8%AD%E4%BD%8E%E7%AB%AF%E6%98%BE%E5%8D%A1%E4%BB%B7%E6%A0%BC%E6%8C%81%E7%BB%AD%E4%B8%8B%E8%B7%8C",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "可控核聚变将在这代人实现",
+      "title": "可控核聚变将在这代人实现",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8F%AF%E6%8E%A7%E6%A0%B8%E8%81%9A%E5%8F%98%E5%B0%86%E5%9C%A8%E8%BF%99%E4%BB%A3%E4%BA%BA%E5%AE%9E%E7%8E%B0",
+      "extra": {
+        "icon": ""
+      }
+    },
+    {
+      "id": "MKOI KC",
+      "title": "KC战胜MKOI S16瑞士轮",
+      "url": "https://search.bilibili.com/all?keyword=MKOI%20KC",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "切尔西2-0曼联",
+      "title": "切尔西2-0曼联",
+      "url": "https://search.bilibili.com/all?keyword=%E5%88%87%E5%B0%94%E8%A5%BF2-0%E6%9B%BC%E8%81%94",
+      "extra": {
+        "icon": ""
+      }
+    }
+  ]
+}

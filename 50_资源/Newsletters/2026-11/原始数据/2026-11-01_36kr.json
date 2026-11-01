@@ -1,0 +1,46 @@
+{
+  "source": "36kr",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.36kr.com/newsflashes/4049556312118405",
+      "title": "禄达技术集团收购亚洲算力算网与量子计算科技有限公司55%股权",
+      "id": "/newsflashes/4049556312118405",
+      "extra": {
+        "date": 1793440820585
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4049553142551431",
+      "title": "中信证券：银行板块有望从“高股息防御资产”向“高确定性权益资产”重估，预计全年仍将演绎估值上行方向",
+      "id": "/newsflashes/4049553142551431",
+      "extra": {
+        "date": 1793437220585
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4049541789750153",
+      "title": "三星高管会见OpenAI首席执行官，探讨人工智能转型",
+      "id": "/newsflashes/4049541789750153",
+      "extra": {
+        "date": 1793437220585
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4049538395739272",
+      "title": "OpenAI奥特曼谈内存短缺：全球DRAM应优先供给数据中心，闲置在玩家PC里是浪费",
+      "id": "/newsflashes/4049538395739272",
+      "extra": {
+        "date": 1793437220585
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4049534176121734",
+      "title": "事关大额存单，多家外资银行密集上架",
+      "id": "/newsflashes/4049534176121734",
+      "extra": {
+        "date": 1793437220585
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5340781",
+      "title": "“千万王朝 千里大汉”大汉上市发布会-深圳站",
+      "id": "/news/5340781",
+      "extra": {
+        "date": 1793442480000,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5340780",
+      "title": "汉邦科技(688755.SH)：前三季净利润6398.52万元，同比增长72.85%",
+      "id": "/news/5340780",
+      "extra": {
+        "date": 1793421660000,
+        "info": "A股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5340779",
+      "title": "ETF资金流|科创债ETF、公司债ETF、信用债ETF、30年国债ETF、可转债ETF、通信ETF、酒ETF等获得资金净流出",
+      "id": "/news/5340779",
+      "extra": {
+        "date": 1793413200000,
+        "info": "A股异动"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5340778",
+      "title": "ETF资金流向观察|宽基ETF单日吸金252亿元，信用债ETF净流出107亿元",
+      "id": "/news/5340778",
+      "extra": {
+        "date": 1793413140000,
+        "info": "ETF"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5340777",
+      "title": "ETF资金流|沪深300ETF、创业板ETF、科创50ETF、A500ETF等获得资金净流入",
+      "id": "/news/5340777",
+      "extra": {
+        "date": 1793413080000,
+        "info": "A股异动"
+      }
+    }
+  ]
+}
