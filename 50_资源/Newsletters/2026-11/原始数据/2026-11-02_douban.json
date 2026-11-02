@@ -1,0 +1,51 @@
+{
+  "source": "douban",
+  "count": 5,
+  "items": [
+    {
+      "id": "37446297",
+      "title": "逃出布迪秀",
+      "url": "https://movie.douban.com/subject/37446297",
+      "extra": {
+        "info": "2026 / 美国 / 惊悚 恐怖 奇幻",
+        "hover": "2026 / 美国 / 惊悚 恐怖 奇幻 / 加斯帕·凯利 / 德莱尼·奎因 凯莱布·威廉姆斯"
+      }
+    },
+    {
+      "id": "38208000",
+      "title": "无处安放我的双眼",
+      "url": "https://movie.douban.com/subject/38208000",
+      "extra": {
+        "info": "2026 / 韩国 / 剧情",
+        "hover": "2026 / 韩国 / 剧情 / 洪常秀 / 金敏喜 崔明吉"
+      }
+    },
+    {
+      "id": "36618556",
+      "title": "柳条人",
+      "url": "https://movie.douban.com/subject/36618556",
+      "extra": {
+        "info": "2026 / 美国 英国 / 剧情 爱情 奇幻",
+        "hover": "2026 / 美国 英国 / 剧情 爱情 奇幻 / 埃莉诺·威尔逊 亚历克斯·休斯顿·费希尔 / 奥利维娅·科尔曼 亚历山大·斯卡斯加德"
+      }
+    },
+    {
+      "id": "38532820",
+      "title": "死神 千年血战篇 -祸进谭-",
+      "url": "https://movie.douban.com/subject/38532820",
+      "extra": {
+        "info": "2026 / 日本 / 动作 动画 奇幻",
+        "hover": "2026 / 日本 / 动作 动画 奇幻 / Hikaru Murata 田口智久 / 速水奖 伊藤健太郎"
+      }
+    },
+    {
+      "id": "37508847",
+      "title": "空枪",
+      "url": "https://movie.douban.com/subject/37508847",
+      "extra": {
+        "info": "2026 / 中国大陆 中国香港 / 剧情 犯罪",
+        "hover": "2026 / 中国大陆 中国香港 / 剧情 犯罪 / 韩延 / 朱一龙 檀健次"
+      }
+    }
+  ]
+}

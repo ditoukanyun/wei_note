@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3784952,
+      "title": "金融监管部门将召开座谈会，A股将迎哪些利好？",
+      "extra": {
+        "date": 1793576981000
+      },
+      "url": "https://wallstreetcn.com/articles/3784952"
+    },
+    {
+      "id": 41960126,
+      "title": "美国中选：“民主党横扫”已被定价，“大获全胜”还没有",
+      "extra": {
+        "date": 1793576957000
+      },
+      "url": "https://wallstreetcn.com/charts/41960126"
+    },
+    {
+      "id": 3784474,
+      "title": "35 岁不会写代码？这波 AI 红利，可能就轮到你了",
+      "extra": {
+        "date": 1793576624000
+      },
+      "url": "https://wallstreetcn.com/articles/3784474"
+    },
+    {
+      "id": 3784909,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月2日 ",
+      "extra": {
+        "date": 1793574167000
+      },
+      "url": "https://wallstreetcn.com/articles/3784909"
+    },
+    {
+      "id": 3784949,
+      "title": "90天暴增近1万亿！AI表外负债悄然突破4.1万亿美元",
+      "extra": {
+        "date": 1793534906000
+      },
+      "url": "https://wallstreetcn.com/articles/3784949"
+    }
+  ]
+}

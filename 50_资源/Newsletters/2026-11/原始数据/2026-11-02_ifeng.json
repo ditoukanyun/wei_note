@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8xhClkTmeKf",
+      "url": "https://news.ifeng.com/c/8xhClkTmeKf",
+      "title": "特朗普：支持马斯克执掌CNN",
+      "extra": {
+        "date": "2026-11-01 12:43:23"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xhcFyur2E4",
+      "url": "https://news.ifeng.com/c/8xhcFyur2E4",
+      "title": "默茨亚洲行碰了钉子，走得灰溜溜的",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xhh7srd39s",
+      "url": "https://news.ifeng.com/c/8xhh7srd39s",
+      "title": "伊朗：美国若再发动战事，将立即遭到“毁灭性回击”",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xhfWuADcvK",
+      "url": "https://news.ifeng.com/c/8xhfWuADcvK",
+      "title": "如果泽连斯基打来电话，普京是否会接听？俄总统助理回应",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xhUYqF4JRG",
+      "url": "https://news.ifeng.com/c/8xhUYqF4JRG",
+      "title": "特朗普称将邀请泽连斯基参加G20",
+      "extra": {}
+    }
+  ]
+}

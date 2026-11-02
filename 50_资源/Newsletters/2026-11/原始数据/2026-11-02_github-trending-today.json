@@ -1,0 +1,51 @@
+{
+  "source": "github-trending-today",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/thedotmack/claude-mem",
+      "title": "thedotmack /      claude-mem",
+      "id": "/thedotmack/claude-mem",
+      "extra": {
+        "info": "✰ 109,209",
+        "hover": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+      }
+    },
+    {
+      "url": "https://github.com/lightpanda-io/browser",
+      "title": "lightpanda-io /      browser",
+      "id": "/lightpanda-io/browser",
+      "extra": {
+        "info": "✰ 40,089",
+        "hover": "Lightpanda: the headless browser designed for AI and automation"
+      }
+    },
+    {
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "title": "shiyu-coder /      Kronos",
+      "id": "/shiyu-coder/Kronos",
+      "extra": {
+        "info": "✰ 45,356",
+        "hover": "Kronos: A Foundation Model for the Language of Financial Markets"
+      }
+    },
+    {
+      "url": "https://github.com/pingdotgg/t3code",
+      "title": "pingdotgg /      t3code",
+      "id": "/pingdotgg/t3code",
+      "extra": {
+        "info": "✰ 37,911",
+        "hover": ""
+      }
+    },
+    {
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "title": "milind-soni /      OpenMausBot",
+      "id": "/milind-soni/OpenMausBot",
+      "extra": {
+        "info": "✰ 10,497",
+        "hover": "Open-source Grok Bot alternative with a virtual machine that bots can use"
+      }
+    }
+  ]
+}
