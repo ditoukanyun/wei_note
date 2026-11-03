@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8xj3iqbyEbD",
+      "url": "https://news.ifeng.com/c/8xj3iqbyEbD",
+      "title": "外交部：中方多位特使特代分赴中东等地劝和促谈",
+      "extra": {
+        "date": "2026-11-02 15:26:59"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xj4MmP2Iyf",
+      "url": "https://news.ifeng.com/c/8xj4MmP2Iyf",
+      "title": "朝鲜是全球最大加密货币交易所遭攻击的幕后黑手？外交部回应",
+      "extra": {}
+    },
+    {
+      "id": "https://original.ifeng.com/c/8xjCj7c9hdI",
+      "url": "https://original.ifeng.com/c/8xjCj7c9hdI",
+      "title": "特朗普：没了结伊朗的唯一原因是想“做个好人”",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xiu0pJAWnR",
+      "url": "https://news.ifeng.com/c/8xiu0pJAWnR",
+      "title": "美国公务机急坠近万米全员遇难，资深机长解读关键细节",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xk9tfkYxLT",
+      "url": "https://news.ifeng.com/c/8xk9tfkYxLT",
+      "title": "金与正回应“币安加密货币被盗与朝鲜有关”",
+      "extra": {}
+    }
+  ]
+}

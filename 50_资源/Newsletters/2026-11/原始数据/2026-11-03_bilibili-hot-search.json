@@ -1,0 +1,46 @@
+{
+  "source": "bilibili-hot-search",
+  "count": 5,
+  "items": [
+    {
+      "id": "RTX5080 24GB或将延期发布",
+      "title": "RTX5080 24GB或将延期发布",
+      "url": "https://search.bilibili.com/all?keyword=RTX5080%2024GB%E6%88%96%E5%B0%86%E5%BB%B6%E6%9C%9F%E5%8F%91%E5%B8%83",
+      "extra": {
+        "icon": ""
+      }
+    },
+    {
+      "id": "BLG晋级八强赛事语音",
+      "title": "BLG晋级八强赛事语音",
+      "url": "https://search.bilibili.com/all?keyword=BLG%E6%99%8B%E7%BA%A7%E5%85%AB%E5%BC%BA%E8%B5%9B%E4%BA%8B%E8%AF%AD%E9%9F%B3",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
+      }
+    },
+    {
+      "id": "DeepSeek Harness入驻B站",
+      "title": "DeepSeek Harness入驻B站",
+      "url": "https://search.bilibili.com/all?keyword=DeepSeek%20Harness%E5%85%A5%E9%A9%BBB%E7%AB%99",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "巴西专家如何看卢拉逆转",
+      "title": "巴西专家如何看卢拉逆转",
+      "url": "https://search.bilibili.com/all?keyword=%E5%B7%B4%E8%A5%BF%E4%B8%93%E5%AE%B6%E5%A6%82%E4%BD%95%E7%9C%8B%E5%8D%A2%E6%8B%89%E9%80%86%E8%BD%AC",
+      "extra": {
+        "icon": ""
+      }
+    },
+    {
+      "id": "AI攻破困扰化学界50年难题",
+      "title": "AI攻破困扰化学界50年难题",
+      "url": "https://search.bilibili.com/all?keyword=AI%E6%94%BB%E7%A0%B4%E5%9B%B0%E6%89%B0%E5%8C%96%E5%AD%A6%E7%95%8C50%E5%B9%B4%E9%9A%BE%E9%A2%98",
+      "extra": {
+        "icon": ""
+      }
+    }
+  ]
+}

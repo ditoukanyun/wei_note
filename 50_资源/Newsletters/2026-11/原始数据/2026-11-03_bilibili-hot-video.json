@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-hot-video",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV1w34A62Eq2",
+      "title": "哟西！故乡的樱花开了！",
+      "url": "https://www.bilibili.com/video/BV1w34A62Eq2",
+      "pubDate": 1793608651000,
+      "extra": {
+        "info": "大漠叔叔 · 80w+观看 · 6w+点赞",
+        "hover": "",
+        "icon": "http://i1.hdslb.com/bfs/archive/399fb202a92d8b774416cb92a401389def6cde93.jpg"
+      }
+    },
+    {
+      "id": "BV1i24P6rEmt",
+      "title": "大家好，这里是 DeepSeek Harness，正式入驻 B 站！",
+      "url": "https://www.bilibili.com/video/BV1i24P6rEmt",
+      "pubDate": 1793626110000,
+      "extra": {
+        "info": "DeepSeekHarness · 69w+观看 · 5w+点赞",
+        "hover": "认识一下 DeepSeek Harness 创造模式：通过对话，把想法变成插件，写好就能直接用。\n从设计工作台、沙盒游戏，到模型可视化工具，让 Harness 拥有你想要的功能，成为适合自己的样子。\n你想为自己的 Harness 加点什么？\n\n我们也整理了视频中这些插件的中英文提示词，供大家参考：https://cdn.deepseek.com/harness/dsh-creator-mode-prompt-collection-zh.html",
+        "icon": "http://i0.hdslb.com/bfs/archive/0dd503239df6745961d8f2a1a4e3ccb7cc217f33.jpg"
+      }
+    },
+    {
+      "id": "BV16Ux46yEsR",
+      "title": "这还能是童年套圈机！？做成世界大赛！",
+      "url": "https://www.bilibili.com/video/BV16Ux46yEsR",
+      "pubDate": 1793528238000,
+      "extra": {
+        "info": "M木糖M · 97w+观看 · 4w+点赞",
+        "hover": "如果是你，你会如何改造呢？\n游戏:https://www.bilibili.com/toy/taoquan-zhi-meng/index.html",
+        "icon": "http://i1.hdslb.com/bfs/archive/5c5c2c8e68ed6f37d23a6334e810ebdf9ce78bd5.jpg"
+      }
+    },
+    {
+      "id": "BV14o4F6EELU",
+      "title": "宠粉天花板，请我的粉丝朋友清空一家零食店，你来选我买单，看看要花多少钱",
+      "url": "https://www.bilibili.com/video/BV14o4F6EELU",
+      "pubDate": 1793594128000,
+      "extra": {
+        "info": "superB太 · 153w+观看 · 8w+点赞",
+        "hover": "-",
+        "icon": "http://i1.hdslb.com/bfs/archive/ad82a2e8fa64f68eba0c24b746818236c746e906.jpg"
+      }
+    },
+    {
+      "id": "BV1REx46NEc4",
+      "title": "【全网最全】DeepSeek Harness超详细教程！50分钟吃透DSH，让SuperAgent给你干活！",
+      "url": "https://www.bilibili.com/video/BV1REx46NEc4",
+      "pubDate": 1793528522000,
+      "extra": {
+        "info": "Git源宝 · 69w+观看 · 3w+点赞",
+        "hover": "DeepSeek Harness超详细教程！\n大家可以速速收藏啦~\n耗时60天制作！感谢大家的三联\n未来还会出其他AI教程，大家可以关注一下~",
+        "icon": "http://i1.hdslb.com/bfs/archive/d6e478f06fea59f1515c3fd613845ab232b46e5b.jpg"
+      }
+    }
+  ]
+}

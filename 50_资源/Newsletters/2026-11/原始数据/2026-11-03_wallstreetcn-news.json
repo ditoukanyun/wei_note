@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3785028,
+      "title": "苹果电话会：中国市场\"有很大动能\"，高管明确AI商业化路径，折叠屏Duo供需难测",
+      "extra": {
+        "date": 1793663547000
+      },
+      "url": "https://wallstreetcn.com/articles/3785028"
+    },
+    {
+      "id": 3784474,
+      "title": "35 岁不会写代码？这波 AI 红利，可能就轮到你了",
+      "extra": {
+        "date": 1793663405000
+      },
+      "url": "https://wallstreetcn.com/articles/3784474"
+    },
+    {
+      "id": 3785030,
+      "title": "442只翻倍基“全军覆没”，基金经理在反思什么？",
+      "extra": {
+        "date": 1793663101000
+      },
+      "url": "https://wallstreetcn.com/articles/3785030"
+    },
+    {
+      "id": 3785026,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月3日",
+      "extra": {
+        "date": 1793660889000
+      },
+      "url": "https://wallstreetcn.com/articles/3785026"
+    },
+    {
+      "id": 3785029,
+      "title": "Marvell暴跌13%，Lumentum重挫19%！史上第二大科技并购引抛售",
+      "extra": {
+        "date": 1793660804000
+      },
+      "url": "https://wallstreetcn.com/articles/3785029"
+    }
+  ]
+}

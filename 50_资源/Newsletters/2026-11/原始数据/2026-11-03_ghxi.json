@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/newfiletime.html",
+      "url": "https://www.ghxi.com/newfiletime.html",
+      "title": "NewFileTime(修改文件时间戳工具) v8.33 单文件版",
+      "extra": {
+        "hover": "NewFileTime 就是一款 专为 Windows 设计的“文件（夹）时间戳修改器”。一句话概括就是把它想成一把“时间橡皮”，可以把任何文件或文件夹的“创建时间、最后修改时间、...",
+        "date": 1793617222769
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/windowtabs.html",
+      "url": "https://www.ghxi.com/windowtabs.html",
+      "title": "WindowTabs(窗口标签化) v2026.11.02 汉化版",
+      "extra": {
+        "hover": "WindowTabs是一款窗口多标签页管理工具，当你在电脑中打开多个相同的窗口就会自动合并到一块，你也可以关闭自动组合功能，通过手动拖拽Tab来实现任意组合，通过鼠标点击即可切到自...",
+        "date": 1793613622769
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/qmmp.html",
+      "url": "https://www.ghxi.com/qmmp.html",
+      "title": "Qmmp(开源音乐播放器) v2.4.3 便携版",
+      "extra": {
+        "hover": "Qmmp全称Qt-based Multimedia Player，是一个开源的音乐播放器，它能够使用winamp的皮肤，所以从界面上来说和winamp也没有什么差别，由于Qmmp是...",
+        "date": 1793613622769
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/manictime.html",
+      "url": "https://www.ghxi.com/manictime.html",
+      "title": "ManicTime Pro v2026.2.4 修改版",
+      "extra": {
+        "hover": "随着工作或者是学习的需要，你是否意识到自己越来越离不开PC了？电脑虽然能很方便的处理我们各类事务，但所带来的问题同样也很严重：它让大部分人更不容易集中注意力，去做该做的事情。很多朋...",
+        "date": 1793613622770
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/imageconverter.html",
+      "url": "https://www.ghxi.com/imageconverter.html",
+      "title": "ImageConverter(图像格式转换工具) v2.1.0 绿色版",
+      "extra": {
+        "hover": "ImageConverter 能够让您一键转换多种图像格式。它支持使用 MozJPEG 技术来保存更高压缩比的 JPEG 文件，并且允许用户指定宽度以按需调整图像大小。该软件兼容 ...",
+        "date": 1793613622770
+      }
+    }
+  ]
+}
