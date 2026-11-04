@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/waifu2x.html",
+      "url": "https://www.ghxi.com/waifu2x.html",
+      "title": "Waifu2x Extension-GUI(图片视频放大) v3.143.01 绿色版",
+      "extra": {
+        "hover": "软件是机器学习，本地ai算法。借助深度卷积神经网络对图片 & GIF & 视频进行超分辨率放大(即放大与降噪) 以及 对视频进行 插帧(即补帧). 感谢果核网友@会...",
+        "date": 1793700023133
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/multicommander9.html",
+      "url": "https://www.ghxi.com/multicommander9.html",
+      "title": "Multi Commander(多标签文件管理器) v16.6.0.3233",
+      "extra": {
+        "hover": "Multi Commander 中文版是一个多标签文件管理器，是一个标准的 Windows 资源管理器的替代软件，该最大的特色是带有双面板、并且还可以启用标签页形式浏览，在界面底部...",
+        "date": 1793700023133
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/qacpop.html",
+      "url": "https://www.ghxi.com/qacpop.html",
+      "title": "Quickaccesspopup(快速启动菜单工具) v12.4.1.0 中文版",
+      "extra": {
+        "hover": "Quick Access Popup是一款非常好用的快速启动器，利用它，你可以非常方便的管理和启动大量绿色软件，除了能够添加程序之外，还可以添加文件夹、文件、网址、快捷方式等其他东...",
+        "date": 1793700023133
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/pspadeditor.html",
+      "url": "https://www.ghxi.com/pspadeditor.html",
+      "title": "PSPad Editor(文本编辑器) v5.5.3 便携版",
+      "extra": {
+        "hover": "PSPad editor Portable 是一款集各种编辑器的优点于一身的免费文本编辑器，支持简体中文界面。它同时编辑多个文件，可以使用 project;内置HEX编辑器;支持宏...",
+        "date": 1793700023133
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/sharex.html",
+      "url": "https://www.ghxi.com/sharex.html",
+      "title": "ShareX(最强屏幕工具) v22.1.0 便携版/安装版",
+      "extra": {
+        "hover": "可以说，在ShareX面前，截图，录制屏幕，屏幕工具等软件一个能打的都没有，简直强大得可怕。果核这两天写一篇文章给大家。 ShareX功能多到夸张内建有萤幕撷图的功能，还支援圆角方...",
+        "date": 1793696423133
+      }
+    }
+  ]
+}

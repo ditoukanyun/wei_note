@@ -1,0 +1,46 @@
+{
+  "source": "bilibili-hot-search",
+  "count": 5,
+  "items": [
+    {
+      "id": "刘延东同志遗体在京火化",
+      "title": "刘延东同志遗体在京火化",
+      "url": "https://search.bilibili.com/all?keyword=%E5%88%98%E5%BB%B6%E4%B8%9C%E5%90%8C%E5%BF%97%E9%81%97%E4%BD%93%E5%9C%A8%E4%BA%AC%E7%81%AB%E5%8C%96",
+      "extra": {
+        "icon": ""
+      }
+    },
+    {
+      "id": "美坠机事故9名遇难者身份确认",
+      "title": "美坠机事故9名遇难者身份确认",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9D%A0%E6%9C%BA%E4%BA%8B%E6%95%859%E5%90%8D%E9%81%87%E9%9A%BE%E8%80%85%E8%BA%AB%E4%BB%BD%E7%A1%AE%E8%AE%A4",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "TES IG",
+      "title": "TES vs IG S16淘汰赛",
+      "url": "https://search.bilibili.com/all?keyword=TES%20IG",
+      "extra": {
+        "icon": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
+      }
+    },
+    {
+      "id": "暴雨暴雪来了",
+      "title": "暴雨暴雪来了",
+      "url": "https://search.bilibili.com/all?keyword=%E6%9A%B4%E9%9B%A8%E6%9A%B4%E9%9B%AA%E6%9D%A5%E4%BA%86",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "全球显卡价格大对账",
+      "title": "全球显卡价格大对账",
+      "url": "https://search.bilibili.com/all?keyword=%E5%85%A8%E7%90%83%E6%98%BE%E5%8D%A1%E4%BB%B7%E6%A0%BC%E5%A4%A7%E5%AF%B9%E8%B4%A6",
+      "extra": {
+        "icon": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3784474,
+      "title": "35岁不会写代码？这波 AI 红利，可能就轮到你了",
+      "extra": {
+        "date": 1793750197000
+      },
+      "url": "https://wallstreetcn.com/articles/3784474"
+    },
+    {
+      "id": 3785116,
+      "title": "AMD电话会：Q4 AI芯片收入将首次超越服务器CPU，明年数据中心收入占比将破80% ",
+      "extra": {
+        "date": 1793749552000
+      },
+      "url": "https://wallstreetcn.com/articles/3785116"
+    },
+    {
+      "id": 3785114,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月4日",
+      "extra": {
+        "date": 1793747784000
+      },
+      "url": "https://wallstreetcn.com/articles/3785114"
+    },
+    {
+      "id": 3785112,
+      "title": "未步英特尔后尘！AMD Q3营收超预期增45%，数据中心收入近翻倍，Q4指引提速又新高｜财报见闻",
+      "extra": {
+        "date": 1793747472000
+      },
+      "url": "https://wallstreetcn.com/articles/3785112"
+    },
+    {
+      "id": 3785117,
+      "title": "宝马自今年6月来第二次下调盈利预期，加速裁员与新车型生产",
+      "extra": {
+        "date": 1793746419000
+      },
+      "url": "https://wallstreetcn.com/articles/3785117"
+    }
+  ]
+}

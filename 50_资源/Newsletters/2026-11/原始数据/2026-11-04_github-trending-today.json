@@ -1,0 +1,51 @@
+{
+  "source": "github-trending-today",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/thedotmack/claude-mem",
+      "title": "thedotmack /      claude-mem",
+      "id": "/thedotmack/claude-mem",
+      "extra": {
+        "info": "✰ 111,871",
+        "hover": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+      }
+    },
+    {
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "title": "vercel-labs /      agent-desktop",
+      "id": "/vercel-labs/agent-desktop",
+      "extra": {
+        "info": "✰ 12,666",
+        "hover": "Computer use CLI for AI agents"
+      }
+    },
+    {
+      "url": "https://github.com/max-sixty/worktrunk",
+      "title": "max-sixty /      worktrunk",
+      "id": "/max-sixty/worktrunk",
+      "extra": {
+        "info": "✰ 10,467",
+        "hover": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows"
+      }
+    },
+    {
+      "url": "https://github.com/JustVugg/colibri",
+      "title": "JustVugg /      colibri",
+      "id": "/JustVugg/colibri",
+      "extra": {
+        "info": "✰ 47,236",
+        "hover": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own."
+      }
+    },
+    {
+      "url": "https://github.com/mattpocock/skills",
+      "title": "mattpocock /      skills",
+      "id": "/mattpocock/skills",
+      "extra": {
+        "info": "✰ 311,418",
+        "hover": "Skills for Real Engineers. Straight from my .agents directory."
+      }
+    }
+  ]
+}
