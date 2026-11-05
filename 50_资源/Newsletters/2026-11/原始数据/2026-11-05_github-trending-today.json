@@ -1,0 +1,51 @@
+{
+  "source": "github-trending-today",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "title": "NVIDIA /      auto-ontology",
+      "id": "/NVIDIA/auto-ontology",
+      "extra": {
+        "info": "✰ 4,901",
+        "hover": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows."
+      }
+    },
+    {
+      "url": "https://github.com/max-sixty/worktrunk",
+      "title": "max-sixty /      worktrunk",
+      "id": "/max-sixty/worktrunk",
+      "extra": {
+        "info": "✰ 11,009",
+        "hover": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows"
+      }
+    },
+    {
+      "url": "https://github.com/mattpocock/skills",
+      "title": "mattpocock /      skills",
+      "id": "/mattpocock/skills",
+      "extra": {
+        "info": "✰ 313,276",
+        "hover": "Skills for Real Engineers. Straight from my .agents directory."
+      }
+    },
+    {
+      "url": "https://github.com/floci-io/floci",
+      "title": "floci-io /      floci",
+      "id": "/floci-io/floci",
+      "extra": {
+        "info": "✰ 29,584",
+        "hover": "Light, fluffy, and always free - The AWS Local Emulator alternative"
+      }
+    },
+    {
+      "url": "https://github.com/thedotmack/claude-mem",
+      "title": "thedotmack /      claude-mem",
+      "id": "/thedotmack/claude-mem",
+      "extra": {
+        "info": "✰ 112,821",
+        "hover": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3785134,
+      "title": "民主党横扫国会！美股债齐涨，光通信与数据中心股下挫，原油一度暴跌10%，金银大涨",
+      "extra": {
+        "date": 1793835037000
+      },
+      "url": "https://wallstreetcn.com/articles/3785134"
+    },
+    {
+      "id": 3785214,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月5日",
+      "extra": {
+        "date": 1793834605000
+      },
+      "url": "https://wallstreetcn.com/articles/3785214"
+    },
+    {
+      "id": 3785210,
+      "title": "高通Q4财季超预期但盈利指引逊色，手机业务承压、数据中心转型提速｜财报见闻",
+      "extra": {
+        "date": 1793834497000
+      },
+      "url": "https://wallstreetcn.com/articles/3785210"
+    },
+    {
+      "id": 3785211,
+      "title": "Arm Q2财季业绩超预期，但指引不够惊喜，数据中心版税收入翻倍｜财报见闻",
+      "extra": {
+        "date": 1793831575000
+      },
+      "url": "https://wallstreetcn.com/articles/3785211"
+    },
+    {
+      "id": 3785208,
+      "title": "美国民主党中选大胜，一文看清美股各板块赢家输家",
+      "extra": {
+        "date": 1793827190000
+      },
+      "url": "https://wallstreetcn.com/articles/3785208"
+    }
+  ]
+}

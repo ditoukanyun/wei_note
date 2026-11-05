@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8xn8h8wAVzX",
+      "url": "https://news.ifeng.com/c/8xn8h8wAVzX",
+      "title": "万斯“甩锅”伊朗战争，特朗普选举失利后首次露面",
+      "extra": {
+        "date": "2026-11-05 06:27:43"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xmNGoIz5nt",
+      "url": "https://news.ifeng.com/c/8xmNGoIz5nt",
+      "title": "中期选举是否会让中美关系出现新可能性？中方回应",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xmTraMSmVz",
+      "url": "https://news.ifeng.com/c/8xmTraMSmVz",
+      "title": "日本防卫大臣再提讨论调整“无核三原则”",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xmjmI2djPt",
+      "url": "https://news.ifeng.com/c/8xmjmI2djPt",
+      "title": "民主党为何“大获全胜”？美国内政外交会迎来转向吗？",
+      "extra": {}
+    },
+    {
+      "id": "https://original.ifeng.com/c/8xmWDdJbh5C",
+      "url": "https://original.ifeng.com/c/8xmWDdJbh5C",
+      "title": "特朗普为何突然终止军援以色列？专家：看似突然，实则是权宜之计",
+      "extra": {}
+    }
+  ]
+}

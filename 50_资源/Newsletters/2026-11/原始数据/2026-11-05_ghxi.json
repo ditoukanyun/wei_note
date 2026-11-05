@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/musicbee.html",
+      "url": "https://www.ghxi.com/musicbee.html",
+      "title": "MusicBee(音乐管理播放器) v3.7 中文版",
+      "extra": {
+        "hover": "MusicBee是一个智能化、免费且易用的音乐收藏管理软件。可搜索本地硬盘、移动设备和互联网上的音乐文件，并将其归类，具备智能化的播放列表和标签，让音乐管理更加轻松。还支持文件夹和...",
+        "date": 1793790023568
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/serverbox.html",
+      "url": "https://www.ghxi.com/serverbox.html",
+      "title": "Server Box(Linux服务器工具箱) v1.0.1856 绿色版",
+      "extra": {
+        "hover": "Server Box 是一个使用 Flutter 开发的免费开源服务器管理软件，整个软件界面清新干净、占用内存也十分小，支持在线查看网络问题、进行SSH、Docker等管理，且整个...",
+        "date": 1793786423568
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/andvivaldi.html",
+      "url": "https://www.ghxi.com/andvivaldi.html",
+      "title": "Android Vivaldi浏览器 v8.2.4147.201",
+      "extra": {
+        "hover": "vivaldi浏览器安卓版是一款基于谷歌Chromium的浏览器，由Vivaldi Technologies AS开发。这款浏览器的便携之处在于其高度自定义化、多标签页管理、快速命...",
+        "date": 1793786423568
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/leafview.html",
+      "url": "https://www.ghxi.com/leafview.html",
+      "title": "LeafView(图片查看器) v4.5.3 绿色版",
+      "extra": {
+        "hover": "LeafView 是一款轻量级的图片查看器，具有简洁的界面和快速的加载速度，适合用于浏览大量图片文件。它支持常见的图片格式，如JPEG、PNG、BMP、GIF等，并提供了基本的图片...",
+        "date": 1793786423568
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/speedtest.html",
+      "url": "https://www.ghxi.com/speedtest.html",
+      "title": "Android Speedtest(网速测试) v7.1.4 去广告版",
+      "extra": {
+        "hover": "安卓测速哪家强，当然是这个Speedtest最为强大了。一款好的测速软件，要的是服务器要跟上，如果服务器不好，测速就不准，很多测速软件都只有一个测速服务器，所以测试效果与真实网速是...",
+        "date": 1793786423568
+      }
+    }
+  ]
+}

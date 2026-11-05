@@ -1,0 +1,36 @@
+{
+  "source": "solidot",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.solidot.org/story?sid=85379",
+      "title": "10月15日-16日，NVIDIA 中国开发者日，报名倒计时3天！",
+      "id": "/story?sid=85379",
+      "pubDate": 1789454640000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=85330",
+      "title": "10月15日，2026 NVIDIA 创业企业半程展示，报名倒计时3天！",
+      "id": "/story?sid=85330",
+      "pubDate": 1788952500000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=85799",
+      "title": "AMD 营收预计将首次超过英特尔",
+      "id": "/story?sid=85799",
+      "pubDate": 1793812800000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=85798",
+      "title": "韩国游戏 PC 启动器被植入恶意代码",
+      "id": "/story?sid=85798",
+      "pubDate": 1793811900000
+    },
+    {
+      "url": "https://www.solidot.org/story?sid=85797",
+      "title": "法国银行被盗走 1.18 亿欧元",
+      "id": "/story?sid=85797",
+      "pubDate": 1793808120000
+    }
+  ]
+}

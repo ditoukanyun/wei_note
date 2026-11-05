@@ -1,0 +1,14 @@
+{
+  "source": "freebuf",
+  "count": 1,
+  "items": [
+    {
+      "id": "510588",
+      "title": "超越漏洞管理：迈向下一代暴露面管理",
+      "url": "https://www.freebuf.com/articles/510588.html",
+      "extra": {
+        "hover": "近期，PHP 高危漏洞与群晖 NAS 安全事件接连引发关注，也让企业再次意识到：漏洞被发现和利用的速度正在不断加快。随着 AI 技术的发展，..."
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-hot-video",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV1w5xh6sEEz",
+      "title": "【只对你有感觉】|“【恋爱の小曲】”",
+      "url": "https://www.bilibili.com/video/BV1w5xh6sEEz",
+      "pubDate": 1793671200000,
+      "extra": {
+        "info": "蛋某人音乐 · 422w+观看 · 18w+点赞",
+        "hover": "木偶制作：我自己",
+        "icon": "http://i2.hdslb.com/bfs/archive/2d1f36db40ac0fd5402af0a44c5b8e24f2be1ade.jpg"
+      }
+    },
+    {
+      "id": "BV1XJ4g6WEyL",
+      "title": "《崩坏：星穹铁道》即兴巡演PV——「当阿哈来敲门」",
+      "url": "https://www.bilibili.com/video/BV1XJ4g6WEyL",
+      "pubDate": 1793764800000,
+      "extra": {
+        "info": "崩坏星穹铁道 · 284w+观看 · 21w+点赞",
+        "hover": "假如生活欺骗了你，不要悲伤，不要心急——\n在每一个沮丧的时刻，阿哈都在注视着你。\n \n中文CV：\n星神★阿哈——子音\n ‌\n日文CV：\n星神★阿哈——户松遥\n ‌\n英文CV：\n星神★阿哈——Amber Lee Connors\n ‌\n韩文CV：\n星神★阿哈——권다예",
+        "icon": "http://i1.hdslb.com/bfs/archive/5cc963a82a89537192bf1b6c7af2f5ec65105a99.jpg"
+      }
+    },
+    {
+      "id": "BV1hTxt6aEdm",
+      "title": "AIGC 月光鱼屋丨第三集 汆白肉",
+      "url": "https://www.bilibili.com/video/BV1hTxt6aEdm",
+      "pubDate": 1793552993000,
+      "extra": {
+        "info": "王如晦 · 46w+观看 · 3w+点赞",
+        "hover": "积分用完了 看了乐呵吧",
+        "icon": "http://i0.hdslb.com/bfs/archive/d4d9f794efb06fe48fb5f64e7014ef6d9a0b0133.jpg"
+      }
+    },
+    {
+      "id": "BV1PF4g6ME26",
+      "title": "《这是我儿子？》",
+      "url": "https://www.bilibili.com/video/BV1PF4g6ME26",
+      "pubDate": 1793700999000,
+      "extra": {
+        "info": "张小伙玩配音 · 268w+观看 · 12w+点赞",
+        "hover": "改编自-方天雷《依兰爱情故事》",
+        "icon": "http://i1.hdslb.com/bfs/archive/b8390fd88b8adaade6605c3237941395605699fe.jpg"
+      }
+    },
+    {
+      "id": "BV1XwxU6xEnL",
+      "title": "【2026全球总决赛】11月4日 TES vs IG",
+      "url": "https://www.bilibili.com/video/BV1XwxU6xEnL",
+      "pubDate": 1793746793000,
+      "extra": {
+        "info": "哔哩哔哩英雄联盟赛事 · 819w+观看 · 5w+点赞",
+        "hover": "【2026全球总决赛】11月4日 TES vs IG",
+        "icon": "http://i2.hdslb.com/bfs/archive/f877d4c63746db95655c1aa15d43dbf6dd3cfeec.jpg"
+      }
+    }
+  ]
+}

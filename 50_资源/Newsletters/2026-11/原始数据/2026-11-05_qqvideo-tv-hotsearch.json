@@ -1,0 +1,51 @@
+{
+  "source": "qqvideo-tv-hotsearch",
+  "count": 5,
+  "items": [
+    {
+      "id": "mzc00200zsqz54y",
+      "title": "走马上任",
+      "url": "https://v.qq.com/x/cover/mzc00200zsqz54y.html",
+      "pubDate": "2026-11-05",
+      "extra": {
+        "hover": "赵家班新爆笑喜剧"
+      }
+    },
+    {
+      "id": "mzc0020029jna20",
+      "title": "铁证",
+      "url": "https://v.qq.com/x/cover/mzc0020029jna20.html",
+      "pubDate": "2026-11-05",
+      "extra": {
+        "hover": "扫黑除恶正邪博弈"
+      }
+    },
+    {
+      "id": "mzc002001w361jz",
+      "title": "尚公主",
+      "url": "https://v.qq.com/x/cover/mzc002001w361jz.html",
+      "pubDate": "2026-11-05",
+      "extra": {
+        "hover": "扶摇直尚险途携手破危局"
+      }
+    },
+    {
+      "id": "mzc00200803dr6b",
+      "title": "兰香如故",
+      "url": "https://v.qq.com/x/cover/mzc00200803dr6b.html",
+      "pubDate": "2026-11-05",
+      "extra": {
+        "hover": "高门跌落！婢女深宅挣生机"
+      }
+    },
+    {
+      "id": "mzc003j18ie79i6",
+      "title": "十宗罪",
+      "url": "https://v.qq.com/x/cover/mzc003j18ie79i6.html",
+      "pubDate": "2026-11-05",
+      "extra": {
+        "hover": "黑暗之下，谁是真恶人"
+      }
+    }
+  ]
+}
