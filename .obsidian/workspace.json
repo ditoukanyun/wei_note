@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2d6b17c7ff359f0c",
+        "id": "b4e000de6f139142",
         "type": "tabs",
         "children": [
           {
-            "id": "7a7a71da6e7b4f5d",
+            "id": "0564257be0c05259",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Clippings/使用第三方 API 时保留 Codex 远程操作和官方插件.md",
-                "bFile": "Clippings/使用第三方 API 时保留 Codex 远程操作和官方插件.md",
-                "aRef": ""
+                "file": "50_资源/实用技巧/90%的人不知道支付宝可以买 Apple 礼品卡订阅 AI  还能免税.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 使用第三方 API 时保留 Codex 远程操作和官方插件  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "90%的人不知道支付宝可以买 Apple 礼品卡订阅 AI  还能免税"
             }
           }
         ]
@@ -178,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 443.5
+    "width": 443.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,7 +196,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "7a7a71da6e7b4f5d",
+  "active": "0564257be0c05259",
   "lastOpenFiles": [
     "50_资源/实用技巧/90%的人不知道支付宝可以买 Apple 礼品卡订阅 AI  还能免税.md",
     "Clippings/使用第三方 API 时保留 Codex 远程操作和官方插件.md",
