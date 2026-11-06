@@ -1,0 +1,46 @@
+{
+  "source": "36kr-quick",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.36kr.com/newsflashes/4057499803243394",
+      "title": "贝索斯旗下蓝色起源将关键火箭发射推迟至明年1月",
+      "id": "/newsflashes/4057499803243394",
+      "extra": {
+        "date": 1793923162789
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4057499314279302",
+      "title": "谷歌推出Gemini Omni 1.2 Flash，价格下调30%",
+      "id": "/newsflashes/4057499314279302",
+      "extra": {
+        "date": 1793923102790
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4057497071473543",
+      "title": "中信建投电子2027年度投资策略：算力硬件分化，半导体国产化迈入加速期",
+      "id": "/newsflashes/4057497071473543",
+      "extra": {
+        "date": 1793922982790
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4057496544498822",
+      "title": "水泥错峰组合拳升级，供给收缩有望带来阶段性盈利修复窗口",
+      "id": "/newsflashes/4057496544498822",
+      "extra": {
+        "date": 1793922802790
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4057494845625477",
+      "title": "近半年价格“腰斩”，碳酸锂市场分歧仍显著",
+      "id": "/newsflashes/4057494845625477",
+      "extra": {
+        "date": 1793922622790
+      }
+    }
+  ]
+}

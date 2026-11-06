@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-hot-video",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV136xd6CErJ",
+      "title": "这块电池抗冻、抗热、能泡水，和我们有什么关系？",
+      "url": "https://www.bilibili.com/video/BV136xd6CErJ",
+      "pubDate": 1793851366000,
+      "extra": {
+        "info": "超离谱科技 · 63w+观看 · 4w+点赞",
+        "hover": "这台车，这块电池，说“一键三连”可以只靠自己。不是不信，而是好奇：它的实力与底气，究竟从何累积？",
+        "icon": "http://i2.hdslb.com/bfs/archive/4353f59c21f51089158659baa990a5df1f2544b5.jpg"
+      }
+    },
+    {
+      "id": "BV1Jn4t62ErC",
+      "title": "不是在拍热点就是在拍热点的路上！终于一次性拍完所有热点了，厉娜！",
+      "url": "https://www.bilibili.com/video/BV1Jn4t62ErC",
+      "pubDate": 1793875200000,
+      "extra": {
+        "info": "李如儒也是李蠕蠕 · 55w+观看 · 4w+点赞",
+        "hover": "-",
+        "icon": "http://i0.hdslb.com/bfs/archive/44f9648879d7a523de2b49c203f26aa7d2eb1853.jpg"
+      }
+    },
+    {
+      "id": "BV1zk4b6nE21",
+      "title": "Roblox 单色",
+      "url": "https://www.bilibili.com/video/BV1zk4b6nE21",
+      "pubDate": 1793874008000,
+      "extra": {
+        "info": "鲤鱼Ace · 42w+观看 · 6w+点赞",
+        "hover": "Roblox 单色，这是什么东西？太恐怖了吧！\nRoblox Monochrome",
+        "icon": "http://i2.hdslb.com/bfs/archive/f1b939fc97d3ac90cf99d657567def62855de3f5.jpg"
+      }
+    },
+    {
+      "id": "BV1KBxS6DEuc",
+      "title": "【纪录片】人生一串 第四季 01 同道中人",
+      "url": "https://www.bilibili.com/video/BV1KBxS6DEuc",
+      "pubDate": 1793847602000,
+      "extra": {
+        "info": "哔哩哔哩纪录片 · 269w+观看 · 1w+点赞",
+        "hover": "本集以烟火串炉结知己，市井深夜遇同道为核心，聚焦烧烤摊独有的治愈磁场，解锁人与人之间最朴素真挚的羁绊。旅程首站落地泰安，夜市烤炉见证少年意气，成为学生群体的专属青春暗号。第二站走进贵阳市井街巷，烟火包容百态人生。琳琅特色烤品适配大众口味，吸引各行各业的打工人、市井闲人。最后一站奔赴鞍山钢铁之城，串火映照工业温情。",
+        "icon": "http://i1.hdslb.com/bfs/archive/951abd18ec4be4edd3da81e250a3509d6a27da83.jpg"
+      }
+    },
+    {
+      "id": "BV1mpxR6KESh",
+      "title": "物理意义上烫烫的一集",
+      "url": "https://www.bilibili.com/video/BV1mpxR6KESh",
+      "pubDate": 1793851200000,
+      "extra": {
+        "info": "吴磊LEO · 116w+观看 · 7w+点赞",
+        "hover": "",
+        "icon": "http://i2.hdslb.com/bfs/archive/22299adcaeed9e97b788078830ab7dcbdd8a2c8c.jpg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8xo5HAP62LX",
+      "url": "https://news.ifeng.com/c/8xo5HAP62LX",
+      "title": "万斯发长文与特朗普切割？特朗普回应",
+      "extra": {
+        "date": "2026-11-05 17:31:29"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xoIbiqBUIt",
+      "url": "https://news.ifeng.com/c/8xoIbiqBUIt",
+      "title": "美国中期选举之后，世界有3大疑问",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xo0myh6EAq",
+      "url": "https://news.ifeng.com/c/8xo0myh6EAq",
+      "title": "美众议长约翰逊：将不再竞选党派领袖",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xoF88iEdTb",
+      "url": "https://news.ifeng.com/c/8xoF88iEdTb",
+      "title": "中期选举惨败后，特朗普首次公开露面(图)",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xoNqjlAt87",
+      "url": "https://news.ifeng.com/c/8xoNqjlAt87",
+      "title": "特朗普选输，日本先怕了",
+      "extra": {}
+    }
+  ]
+}

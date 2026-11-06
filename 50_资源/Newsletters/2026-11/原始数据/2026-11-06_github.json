@@ -1,0 +1,51 @@
+{
+  "source": "github",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "title": "NVIDIA /      auto-ontology",
+      "id": "/NVIDIA/auto-ontology",
+      "extra": {
+        "info": "✰ 7,266",
+        "hover": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows."
+      }
+    },
+    {
+      "url": "https://github.com/mattpocock/skills",
+      "title": "mattpocock /      skills",
+      "id": "/mattpocock/skills",
+      "extra": {
+        "info": "✰ 315,176",
+        "hover": "Skills for Real Engineers. Straight from my .agents directory."
+      }
+    },
+    {
+      "url": "https://github.com/garrytan/gstack",
+      "title": "garrytan /      gstack",
+      "id": "/garrytan/gstack",
+      "extra": {
+        "info": "✰ 139,928",
+        "hover": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA"
+      }
+    },
+    {
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "title": "Usagi-org /      ai-goofish-monitor",
+      "id": "/Usagi-org/ai-goofish-monitor",
+      "extra": {
+        "info": "✰ 17,507",
+        "hover": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。"
+      }
+    },
+    {
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "title": "D4Vinci /      Scrapling",
+      "id": "/D4Vinci/Scrapling",
+      "extra": {
+        "info": "✰ 97,937",
+        "hover": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev"
+      }
+    }
+  ]
+}
