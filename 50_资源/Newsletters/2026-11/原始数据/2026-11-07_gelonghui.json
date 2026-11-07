@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5346707",
+      "title": "美股光通信概念集体反弹，Lumentum、迈威尔涨超6%",
+      "id": "/news/5346707",
+      "extra": {
+        "date": 1793977980000,
+        "info": "A股异动"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5346706",
+      "title": "宏光半导体(06908.HK)提前赎回承兑票据",
+      "id": "/news/5346706",
+      "extra": {
+        "date": 1793977200000,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5346705",
+      "title": "美股AI芯片概念集体反弹，AMD涨超13%，英伟达涨超6%",
+      "id": "/news/5346705",
+      "extra": {
+        "date": 1793976960000,
+        "info": "A股异动"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5346704",
+      "title": "卡撒天娇(02223.HK)附属以5000万港元出售俊誉国际全部股权",
+      "id": "/news/5346704",
+      "extra": {
+        "date": 1793976480000,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5346703",
+      "title": "志道国际(01220.HK)拟委任长青(香港)为新任核数师 继续停牌 ",
+      "id": "/news/5346703",
+      "extra": {
+        "date": 1793976360000,
+        "info": "港股公告摘要"
+      }
+    }
+  ]
+}

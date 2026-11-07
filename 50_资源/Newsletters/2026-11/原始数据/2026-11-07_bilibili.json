@@ -1,0 +1,46 @@
+{
+  "source": "bilibili",
+  "count": 5,
+  "items": [
+    {
+      "id": "T1 KC",
+      "title": "T1 vs KC S16淘汰赛",
+      "url": "https://search.bilibili.com/all?keyword=T1%20KC",
+      "extra": {
+        "icon": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
+      }
+    },
+    {
+      "id": "华南地区也将一夜入冬",
+      "title": "华南地区也将一夜入冬",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8D%8E%E5%8D%97%E5%9C%B0%E5%8C%BA%E4%B9%9F%E5%B0%86%E4%B8%80%E5%A4%9C%E5%85%A5%E5%86%AC",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "意甲联赛入驻B站",
+      "title": "意甲联赛入驻B站",
+      "url": "https://search.bilibili.com/all?keyword=%E6%84%8F%E7%94%B2%E8%81%94%E8%B5%9B%E5%85%A5%E9%A9%BBB%E7%AB%99",
+      "extra": {
+        "icon": ""
+      }
+    },
+    {
+      "id": "国产闪存大量涌入消费市场",
+      "title": "国产闪存大量涌入消费市场",
+      "url": "https://search.bilibili.com/all?keyword=%E5%9B%BD%E4%BA%A7%E9%97%AA%E5%AD%98%E5%A4%A7%E9%87%8F%E6%B6%8C%E5%85%A5%E6%B6%88%E8%B4%B9%E5%B8%82%E5%9C%BA",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "Peyz芸阿娜11-1",
+      "title": "Peyz芸阿娜11-1",
+      "url": "https://search.bilibili.com/all?keyword=Peyz%E8%8A%B8%E9%98%BF%E5%A8%9C11-1",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+      }
+    }
+  ]
+}

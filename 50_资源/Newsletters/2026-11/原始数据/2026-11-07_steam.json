@@ -1,0 +1,51 @@
+{
+  "source": "steam",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "title": "Counter-Strike 2",
+      "id": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "pubDate": 1794009638635,
+      "extra": {
+        "info": "647,734"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/570/Dota_2/",
+      "title": "Dota 2",
+      "id": "https://store.steampowered.com/app/570/Dota_2/",
+      "pubDate": 1794009638635,
+      "extra": {
+        "info": "427,282"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/1938090/Call_of_Duty/",
+      "title": "Call of Duty®",
+      "id": "https://store.steampowered.com/app/1938090/Call_of_Duty/",
+      "pubDate": 1794009638636,
+      "extra": {
+        "info": "159,931"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "title": "Bongo Cat",
+      "id": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "pubDate": 1794009638636,
+      "extra": {
+        "info": "159,080"
+      }
+    },
+    {
+      "url": "https://steamcommunity.com/app/3393110",
+      "title": "AION 2",
+      "id": "https://steamcommunity.com/app/3393110",
+      "pubDate": 1794009638636,
+      "extra": {
+        "info": "158,088"
+      }
+    }
+  ]
+}

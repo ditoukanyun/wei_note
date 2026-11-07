@@ -1,0 +1,17 @@
+Usage: newsnow <source> [options]
+       newsnow list [--json | --output json] [--pretty]
+       newsnow schema [--pretty]
+
+Commands:
+  list          List all available sources
+  schema        Print machine-readable JSON Schema for this CLI
+  <source>      Fetch news from the given source
+
+Options:
+  --json            Output as JSON
+  --output json     Alias for --json
+  --pretty          Pretty-print JSON output
+  --fields f1,f2    Filter output fields (JSON mode only)
+  --limit N         Limit number of items returned
+
+Sources: 66 available. Run "newsnow list" to see all.

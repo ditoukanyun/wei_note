@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8xqWagzSy9p",
+      "url": "https://news.ifeng.com/c/8xqWagzSy9p",
+      "title": "特朗普任命新白宫办公厅主任",
+      "extra": {
+        "date": "2026-11-07 03:23:57"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xpmhnOigWK",
+      "url": "https://news.ifeng.com/c/8xpmhnOigWK",
+      "title": "马斯克的这次“投资”，亏到血本无归",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xpkLsA9UUs",
+      "url": "https://news.ifeng.com/c/8xpkLsA9UUs",
+      "title": "以色列总统震惊：犹如晴天霹雳",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xpiCKtKfgT",
+      "url": "https://news.ifeng.com/c/8xpiCKtKfgT",
+      "title": "美国先减关税、中国再履行农产品采购承诺？外交部回应",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xq3K7XYcjo",
+      "url": "https://news.ifeng.com/c/8xq3K7XYcjo",
+      "title": "内塔尼亚胡，悬了",
+      "extra": {}
+    }
+  ]
+}

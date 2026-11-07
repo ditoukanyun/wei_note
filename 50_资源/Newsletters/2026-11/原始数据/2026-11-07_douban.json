@@ -1,0 +1,51 @@
+{
+  "source": "douban",
+  "count": 5,
+  "items": [
+    {
+      "id": "37124892",
+      "title": "不存在的罪人",
+      "url": "https://movie.douban.com/subject/37124892",
+      "extra": {
+        "info": "2026 / 美国 / 剧情 悬疑 惊悚 犯罪",
+        "hover": "2026 / 美国 / 剧情 悬疑 惊悚 犯罪 / 迈克尔·肖沃特 / 安妮·海瑟薇 达科塔·约翰逊"
+      }
+    },
+    {
+      "id": "37534660",
+      "title": "门牙",
+      "url": "https://movie.douban.com/subject/37534660",
+      "extra": {
+        "info": "2026 / 中国大陆 / 剧情",
+        "hover": "2026 / 中国大陆 / 剧情 / 李心 / 章宇 陈昊宇"
+      }
+    },
+    {
+      "id": "37457160",
+      "title": "小气鬼",
+      "url": "https://movie.douban.com/subject/37457160",
+      "extra": {
+        "info": "2026 / 中国大陆 / 剧情",
+        "hover": "2026 / 中国大陆 / 剧情 / 钟伟 / 孟鹤堂 管乐"
+      }
+    },
+    {
+      "id": "37293105",
+      "title": "血色机库",
+      "url": "https://movie.douban.com/subject/37293105",
+      "extra": {
+        "info": "2026 / 智利 阿根廷 意大利 / 剧情 惊悚 历史",
+        "hover": "2026 / 智利 阿根廷 意大利 / 剧情 惊悚 历史 / 胡安·巴勃罗·萨利亚托 / 尼古拉斯·萨拉特 鲍里斯·奎尔恰"
+      }
+    },
+    {
+      "id": "35244246",
+      "title": "敦煌英雄",
+      "url": "https://movie.douban.com/subject/35244246",
+      "extra": {
+        "info": "2026 / 中国大陆 / 动作 古装",
+        "hover": "2026 / 中国大陆 / 动作 古装 / 曹盾 / 章宇 窦骁"
+      }
+    }
+  ]
+}

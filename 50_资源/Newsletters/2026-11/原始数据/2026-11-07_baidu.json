@@ -1,0 +1,46 @@
+{
+  "source": "baidu",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.baidu.com/s?wd=%E6%88%B42499%E5%85%83%E6%8C%87%E7%8E%AF%E4%B8%8D%E6%98%93%E8%A2%AB%E6%8E%A8%E5%80%92%EF%BC%9F%E4%BC%81%E4%B8%9A%E5%9B%9E%E5%BA%94",
+      "title": "戴2499元指环不易被推倒？企业回应",
+      "url": "https://www.baidu.com/s?wd=%E6%88%B42499%E5%85%83%E6%8C%87%E7%8E%AF%E4%B8%8D%E6%98%93%E8%A2%AB%E6%8E%A8%E5%80%92%EF%BC%9F%E4%BC%81%E4%B8%9A%E5%9B%9E%E5%BA%94",
+      "extra": {
+        "hover": "近日，在某展会上，一款智能指环走红，人戴上后不容易被推倒，指环售价2499元，不少网友质疑其没有科学依据。11月6日，企业回应：将请院士级科学家出面说明。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E7%AB%8B%E5%86%AC",
+      "title": "今日立冬",
+      "url": "https://www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E7%AB%8B%E5%86%AC",
+      "extra": {
+        "hover": ""
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E8%BF%9B%E5%8D%9A%E4%BC%9A%E5%A6%82%E4%BD%95%E8%BF%9E%E6%8E%A5%E4%B8%96%E7%95%8C",
+      "title": "进博会如何连接世界",
+      "url": "https://www.baidu.com/s?wd=%E8%BF%9B%E5%8D%9A%E4%BC%9A%E5%A6%82%E4%BD%95%E8%BF%9E%E6%8E%A5%E4%B8%96%E7%95%8C",
+      "extra": {
+        "hover": "中国国际进口博览会的重要组成部分——第九届虹桥国际经济论坛11月5日在上海拉开帷幕。多国人士围绕“稳定合作 共建开放型世界经济”这一主题展开交流与对话，并感谢中国向发展中国家开放市场。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E4%BD%99%E8%89%B3%E7%BA%A2%E4%B8%BB%E5%8A%A8%E6%8A%95%E6%A1%88+%E6%9B%BE%E6%98%AF%E7%9F%A5%E5%90%8D%E5%A6%87%E4%BA%A7%E7%A7%91%E4%B8%93%E5%AE%B6",
+      "title": "余艳红主动投案 曾是知名妇产科专家",
+      "url": "https://www.baidu.com/s?wd=%E4%BD%99%E8%89%B3%E7%BA%A2%E4%B8%BB%E5%8A%A8%E6%8A%95%E6%A1%88+%E6%9B%BE%E6%98%AF%E7%9F%A5%E5%90%8D%E5%A6%87%E4%BA%A7%E7%A7%91%E4%B8%93%E5%AE%B6",
+      "extra": {
+        "hover": "2026年11月6日，国家卫生健康委员会原党组成员，国家中医药管理局原党组书记、局长、知名妇产科专家余艳红涉嫌严重违纪违法，主动投案，正接受审查调查。"
+      }
+    },
+    {
+      "id": "https://www.baidu.com/s?wd=%E9%85%92%E5%BA%9727%E5%B1%82%E8%90%BD%E5%9C%B0%E7%AA%97%E5%8F%AF%E5%A4%96%E5%BC%80%E4%B8%94%E6%97%A0%E6%8A%A4%E6%A0%8F",
+      "title": "酒店27层落地窗可外开且无护栏",
+      "url": "https://www.baidu.com/s?wd=%E9%85%92%E5%BA%9727%E5%B1%82%E8%90%BD%E5%9C%B0%E7%AA%97%E5%8F%AF%E5%A4%96%E5%BC%80%E4%B8%94%E6%97%A0%E6%8A%A4%E6%A0%8F",
+      "extra": {
+        "hover": "1月6日南昌涉事酒店回应：网友反映半夜在27层光脚关外开窗时打滑险坠楼；酒店称房屋系开发商及房东装修、自身仅为承租人，已对20余个房型整改并固定外开窗角度。"
+      }
+    }
+  ]
+}
