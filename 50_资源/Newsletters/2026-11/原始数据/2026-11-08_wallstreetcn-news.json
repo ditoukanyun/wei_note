@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3785463,
+      "title": "美中央司令部成立特遣队，阻止伊朗通过陆路运输先进武器",
+      "extra": {
+        "date": 1794059996000
+      },
+      "url": "https://wallstreetcn.com/articles/3785463"
+    },
+    {
+      "id": 3785462,
+      "title": "民生银行的小微生意，换了一批客人",
+      "extra": {
+        "date": 1794059048000
+      },
+      "url": "https://wallstreetcn.com/articles/3785462"
+    },
+    {
+      "id": 3785460,
+      "title": "伯克希尔Q3净利润大降28%，投资收益缩水近半，回购创年内单季新高，现金升至3774亿美元 | 财报见闻",
+      "extra": {
+        "date": 1794056551000
+      },
+      "url": "https://wallstreetcn.com/articles/3785460"
+    },
+    {
+      "id": 3785451,
+      "title": "马斯克再抛惊人目标：明年SpaceX年化收入5000亿美、星链计算机同步上天，Terafab芯片产能瞄准一太瓦",
+      "extra": {
+        "date": 1794053933000
+      },
+      "url": "https://wallstreetcn.com/articles/3785451"
+    },
+    {
+      "id": 3785165,
+      "title": "民主党大胜，AI数据中心的输家叙事里藏着谁的机会？",
+      "extra": {
+        "date": 1794053712000
+      },
+      "url": "https://wallstreetcn.com/member/articles/3785165"
+    }
+  ]
+}

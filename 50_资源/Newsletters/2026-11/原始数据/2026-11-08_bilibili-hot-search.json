@@ -1,0 +1,46 @@
+{
+  "source": "bilibili-hot-search",
+  "count": 5,
+  "items": [
+    {
+      "id": "IG GEN",
+      "title": "IG vs GEN S16半决赛",
+      "url": "https://search.bilibili.com/all?keyword=IG%20GEN",
+      "extra": {
+        "icon": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
+      }
+    },
+    {
+      "id": "S赛怀旧金曲云南山歌版",
+      "title": "S赛怀旧金曲云南山歌版",
+      "url": "https://search.bilibili.com/all?keyword=S%E8%B5%9B%E6%80%80%E6%97%A7%E9%87%91%E6%9B%B2%E4%BA%91%E5%8D%97%E5%B1%B1%E6%AD%8C%E7%89%88",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
+      }
+    },
+    {
+      "id": "369要在B站开播了",
+      "title": "369要在B站开播了",
+      "url": "https://search.bilibili.com/all?keyword=369%E8%A6%81%E5%9C%A8B%E7%AB%99%E5%BC%80%E6%92%AD%E4%BA%86",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "BLG野辅的美国生活",
+      "title": "BLG野辅的美国生活",
+      "url": "https://search.bilibili.com/all?keyword=BLG%E9%87%8E%E8%BE%85%E7%9A%84%E7%BE%8E%E5%9B%BD%E7%94%9F%E6%B4%BB",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
+      }
+    },
+    {
+      "id": "热火的问题在于字母哥吗",
+      "title": "热火的问题在于字母哥吗",
+      "url": "https://search.bilibili.com/all?keyword=%E7%83%AD%E7%81%AB%E7%9A%84%E9%97%AE%E9%A2%98%E5%9C%A8%E4%BA%8E%E5%AD%97%E6%AF%8D%E5%93%A5%E5%90%97",
+      "extra": {
+        "icon": ""
+      }
+    }
+  ]
+}

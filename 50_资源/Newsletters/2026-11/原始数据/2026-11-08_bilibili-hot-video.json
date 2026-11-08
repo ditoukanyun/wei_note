@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-hot-video",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV1Z24J6dEBk",
+      "title": "火柴人 VS 动画师 第十四集 黑暗时代（The Dark Age）",
+      "url": "https://www.bilibili.com/video/BV1Z24J6dEBk",
+      "pubDate": 1794060623000,
+      "extra": {
+        "info": "火柴人AlanBecker · 37w+观看 · 6w+点赞",
+        "hover": "-",
+        "icon": "http://i0.hdslb.com/bfs/archive/c510a20389cb9da2aa53db5a95ac7d2152ddaeb5.jpg"
+      }
+    },
+    {
+      "id": "BV1Xi4z6NEr2",
+      "title": "《完美婚礼》",
+      "url": "https://www.bilibili.com/video/BV1Xi4z6NEr2",
+      "pubDate": 1793970455000,
+      "extra": {
+        "info": "华为终端 · 36w+观看 · 3725点赞",
+        "hover": "使用#华为Mate90#系列拍摄，由黄建新监制、章笛沙执导的2026年中国金鸡百花电影节宣传片暨开幕短片《完美婚礼》，携吴磊、庄达菲等全明星阵容献映！华为Mate系列手机已连续三年拍摄金鸡百花电影节宣传片，以电影级专业影像能力见证中国电影产业发展，以真实动人的影像致敬经典！#这真实真动人##华为睿影XMAGE##华为睿影XMAGE金鸡手机电影计划#",
+        "icon": "http://i1.hdslb.com/bfs/archive/c7679d6e54770c4ad28a126bad0331dff30d2c4f.jpg"
+      }
+    },
+    {
+      "id": "BV1474i6DEzi",
+      "title": "【数据删除】基金会最欢乐的特战队，三名让异常破防的不死大爹——《SCP-2639-电子游戏暴力》",
+      "url": "https://www.bilibili.com/video/BV1474i6DEzi",
+      "pubDate": 1793961000000,
+      "extra": {
+        "info": "科幻视界 · 134w+观看 · 11w+点赞",
+        "hover": "几乎是全ai制作的一集，讲道理做ai还是费劲\n主要是太贵了心理负担大，这期搞得有点慢花了两周，ai确实好用（资金无限的情况下）\n但要是资金有限标准又高（也可能是我只用的好sd2.5）其实会更花时间\n不过claude做的这种剪辑起来还是蛮合适的\n感谢@Alizoed  帮我搞得claude！\n\n原文：https://scp-wiki-cn.wikidot.com/scp-2639\n作者：The Great Hippo 翻译：ashausesall\n\n开头部分原文：https://scp-wiki-cn.wi",
+        "icon": "http://i1.hdslb.com/bfs/archive/69c80bceaaf6c7dd61e7f08ad4c46dc8e037ac96.jpg"
+      }
+    },
+    {
+      "id": "BV1Qh456aEnQ",
+      "title": " 【独家】《凡人修仙传之慕兰之战》第23集【总第199集】",
+      "url": "https://www.bilibili.com/video/BV1Qh456aEnQ",
+      "pubDate": 1794020401000,
+      "extra": {
+        "info": "哔哩哔哩国创 · 470w+观看 · 11w+点赞",
+        "hover": "每周六中午11:00，bilibili独家呈现",
+        "icon": "http://i1.hdslb.com/bfs/archive/695008478bc3fb34855a56eee00d396be2a20da1.jpg"
+      }
+    },
+    {
+      "id": "BV1LM4L6TE3V",
+      "title": "星河流动",
+      "url": "https://www.bilibili.com/video/BV1LM4L6TE3V",
+      "pubDate": 1794013935000,
+      "extra": {
+        "info": "牛排大王mc · 77w+观看 · 9w+点赞",
+        "hover": "朋友说给我做了世界名画",
+        "icon": "http://i0.hdslb.com/bfs/archive/a93c4a0ae77a2c8767fe16073d3fd2e005cffcb9.jpg"
+      }
+    }
+  ]
+}

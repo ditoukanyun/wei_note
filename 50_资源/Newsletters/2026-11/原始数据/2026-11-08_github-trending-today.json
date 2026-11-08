@@ -1,0 +1,51 @@
+{
+  "source": "github-trending-today",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "title": "vercel-labs /      agent-browser",
+      "id": "/vercel-labs/agent-browser",
+      "extra": {
+        "info": "✰ 46,808",
+        "hover": "Browser automation CLI for AI agents"
+      }
+    },
+    {
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "title": "cloudflare /      security-audit-skill",
+      "id": "/cloudflare/security-audit-skill",
+      "extra": {
+        "info": "✰ 65,683",
+        "hover": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+      }
+    },
+    {
+      "url": "https://github.com/google/skills",
+      "title": "google /      skills",
+      "id": "/google/skills",
+      "extra": {
+        "info": "✰ 23,382",
+        "hover": "Agent Skills for Google products and technologies"
+      }
+    },
+    {
+      "url": "https://github.com/mattpocock/skills",
+      "title": "mattpocock /      skills",
+      "id": "/mattpocock/skills",
+      "extra": {
+        "info": "✰ 317,686",
+        "hover": "Skills for Real Engineers. Straight from my .agents directory."
+      }
+    },
+    {
+      "url": "https://github.com/anthropics/skills",
+      "title": "anthropics /      skills",
+      "id": "/anthropics/skills",
+      "extra": {
+        "info": "✰ 188,770",
+        "hover": "Public repository for Agent Skills"
+      }
+    }
+  ]
+}
