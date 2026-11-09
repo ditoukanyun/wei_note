@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8xtQgVRAQyi",
+      "url": "https://news.ifeng.com/c/8xtQgVRAQyi",
+      "title": "高市早苗：我十分想见金正恩",
+      "extra": {
+        "date": "2026-11-08 23:47:31"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xsu5r0KsWr",
+      "url": "https://news.ifeng.com/c/8xsu5r0KsWr",
+      "title": "内塔尼亚胡还有机会再做总理吗？",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xt0Iqb2bTj",
+      "url": "https://news.ifeng.com/c/8xt0Iqb2bTj",
+      "title": "沙特首都金融区遭袭，目击者称阿美石油大楼受损",
+      "extra": {}
+    },
+    {
+      "id": "https://original.ifeng.com/c/8xsybBLthfu",
+      "url": "https://original.ifeng.com/c/8xsybBLthfu",
+      "title": "美中央司令部成立铁门特遣队，阻击伊朗陆路运输",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xszu4DRUQY",
+      "url": "https://news.ifeng.com/c/8xszu4DRUQY",
+      "title": "日本自民党考虑处分前首相石破茂",
+      "extra": {}
+    }
+  ]
+}

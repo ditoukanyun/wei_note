@@ -1,0 +1,51 @@
+{
+  "source": "github",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/sherlock-project/sherlock",
+      "title": "sherlock-project /      sherlock",
+      "id": "/sherlock-project/sherlock",
+      "extra": {
+        "info": "✰ 103,406",
+        "hover": "Hunt down social media accounts by username across social networks"
+      }
+    },
+    {
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "title": "dsx-ai-factory /      nvke",
+      "id": "/dsx-ai-factory/nvke",
+      "extra": {
+        "info": "✰ 834",
+        "hover": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal."
+      }
+    },
+    {
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "title": "milind-soni /      OpenMausBot",
+      "id": "/milind-soni/OpenMausBot",
+      "extra": {
+        "info": "✰ 18,215",
+        "hover": "Open-source Grok Bot alternative with a virtual machine that bots can use"
+      }
+    },
+    {
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "title": "anthropics /      claude-quickstarts",
+      "id": "/anthropics/claude-quickstarts",
+      "extra": {
+        "info": "✰ 19,401",
+        "hover": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API"
+      }
+    },
+    {
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "title": "vercel-labs /      agent-browser",
+      "id": "/vercel-labs/agent-browser",
+      "extra": {
+        "info": "✰ 47,559",
+        "hover": "Browser automation CLI for AI agents"
+      }
+    }
+  ]
+}

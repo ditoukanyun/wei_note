@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/zsdesk.html",
+      "url": "https://www.ghxi.com/zsdesk.html",
+      "title": "ZSDesk v0.3.5 绿色版",
+      "extra": {
+        "hover": "ZSDesk 是用 Rust、Win32/COM、Direct2D 与 DirectWrite 编写的 Windows 原生多标签文件管理器 + 桌面格子工具，界面主题与菜单模型来...",
+        "date": 1794096025268
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/mayenano.html",
+      "url": "https://www.ghxi.com/mayenano.html",
+      "title": "MayeNano(快速启动工具) v7.0.1.261107 绿色版",
+      "extra": {
+        "hover": "Maye Nano 是一款专注于“快速启动”的纯粹工具。我们深知效率的本质是减法而非加法，因此摒弃一切冗余，仅保留最极致的启动体验。它坚持绿色无污染设计，不产生系统垃圾，旨在为 W...",
+        "date": 1794096025268
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/calibre.html",
+      "url": "https://www.ghxi.com/calibre.html",
+      "title": "Calibre(阅读&转换) v9.18.0 官方版",
+      "extra": {
+        "hover": "Calibre是一款免费的电子书制作及阅读软件，Calibre中文版操作简单，没有太复杂的操作，只需要打开软件就可以使用。Calibre中文版功能强大，在帮助你阅读书籍的同时还可以...",
+        "date": 1794009625268
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/ghvideo131-2.html",
+      "url": "https://www.ghxi.com/ghvideo131-2.html",
+      "title": "【果核视频】腾讯字节等巨头，又搞了一款网盘",
+      "extra": {
+        "hover": "果核已经把高清视频上传到B站，大家可以跳转B站观看，体验更佳！B站：https://www.bilibili.com/video/BV1qN4B6qEFf/",
+        "date": 1794009625268
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/windowtabs.html",
+      "url": "https://www.ghxi.com/windowtabs.html",
+      "title": "WindowTabs(窗口标签化) v2026.11.06 汉化版",
+      "extra": {
+        "hover": "WindowTabs是一款窗口多标签页管理工具，当你在电脑中打开多个相同的窗口就会自动合并到一块，你也可以关闭自动组合功能，通过手动拖拽Tab来实现任意组合，通过鼠标点击即可切到自...",
+        "date": 1794009625268
+      }
+    }
+  ]
+}

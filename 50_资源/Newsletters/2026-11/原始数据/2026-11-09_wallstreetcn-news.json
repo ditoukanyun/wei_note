@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3785497,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月9日 ",
+      "extra": {
+        "date": 1794178835000
+      },
+      "url": "https://wallstreetcn.com/articles/3785497"
+    },
+    {
+      "id": 3785493,
+      "title": "Anthropic斥资34亿美元采购燃气发电设备，为数据中心供电",
+      "extra": {
+        "date": 1794141222000
+      },
+      "url": "https://wallstreetcn.com/articles/3785493"
+    },
+    {
+      "id": 3785492,
+      "title": "马斯克中选后要被“秋后算账”？德银：算力越紧张SpaceX越赚钱，政治风险被高估",
+      "extra": {
+        "date": 1794139209000
+      },
+      "url": "https://wallstreetcn.com/articles/3785492"
+    },
+    {
+      "id": 3785491,
+      "title": "腾讯反弹，段永平：还拿着",
+      "extra": {
+        "date": 1794138224000
+      },
+      "url": "https://wallstreetcn.com/articles/3785491"
+    },
+    {
+      "id": 3785490,
+      "title": "回购又来了！国产光芯片龙头长光华芯等3家科创板公司披露最新信息，股价近期均已大幅回撤",
+      "extra": {
+        "date": 1794138048000
+      },
+      "url": "https://wallstreetcn.com/articles/3785490"
+    }
+  ]
+}
