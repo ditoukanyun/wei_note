@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5348263",
+      "title": "药明康德(02359.HK)从1260H项下中国军工企业名单中移除",
+      "id": "/news/5348263",
+      "extra": {
+        "date": 1794268105956,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5348262",
+      "title": "瑞博生物-B(06938.HK)：提交双靶点药物SR122注射液用于治疗混合型血脂异常及重度高甘油三酯血症的I期临床试验申请",
+      "id": "/news/5348262",
+      "extra": {
+        "date": 1794267865956,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5348131",
+      "title": "英唐智控(300131.SZ)：公司自研芯片业务已形成 MEMS 微振镜与车载显示芯片两大主攻方向",
+      "id": "/news/5348131",
+      "extra": {
+        "date": 1794240025956,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5348130",
+      "title": "英唐智控(300131.SZ)：公司电子元器件分销业务受益于 AI 基础硬件设施建设带来的元器件需求",
+      "id": "/news/5348130",
+      "extra": {
+        "date": 1794239940000,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5348129",
+      "title": "英唐智控(300131.SZ)：公司 MEMS 微振镜已在医疗成像、工业激光雷达场景取得客户批量订单",
+      "id": "/news/5348129",
+      "extra": {
+        "date": 1794239880000,
+        "info": "公司信息"
+      }
+    }
+  ]
+}

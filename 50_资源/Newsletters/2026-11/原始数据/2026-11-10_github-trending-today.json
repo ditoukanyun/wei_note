@@ -1,0 +1,51 @@
+{
+  "source": "github-trending-today",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/anthropics/skills",
+      "title": "anthropics /      skills",
+      "id": "/anthropics/skills",
+      "extra": {
+        "info": "✰ 190,925",
+        "hover": "Public repository for Agent Skills"
+      }
+    },
+    {
+      "url": "https://github.com/meta/astryx",
+      "title": "meta /      astryx",
+      "id": "/meta/astryx",
+      "extra": {
+        "info": "✰ 19,954",
+        "hover": "An open source design system that's fully customizable and agent ready"
+      }
+    },
+    {
+      "url": "https://github.com/sherlock-project/sherlock",
+      "title": "sherlock-project /      sherlock",
+      "id": "/sherlock-project/sherlock",
+      "extra": {
+        "info": "✰ 106,968",
+        "hover": "Hunt down social media accounts by username across social networks"
+      }
+    },
+    {
+      "url": "https://github.com/google-deepmind/mujoco",
+      "title": "google-deepmind /      mujoco",
+      "id": "/google-deepmind/mujoco",
+      "extra": {
+        "info": "✰ 16,892",
+        "hover": "Multi-Joint dynamics with Contact. A general purpose physics simulator."
+      }
+    },
+    {
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "title": "anthropics /      claude-quickstarts",
+      "id": "/anthropics/claude-quickstarts",
+      "extra": {
+        "info": "✰ 19,999",
+        "hover": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API"
+      }
+    }
+  ]
+}

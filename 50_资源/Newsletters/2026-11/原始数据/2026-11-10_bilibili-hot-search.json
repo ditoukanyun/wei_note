@@ -1,0 +1,46 @@
+{
+  "source": "bilibili-hot-search",
+  "count": 5,
+  "items": [
+    {
+      "id": "S16总决赛胜负预测",
+      "title": "S16总决赛胜负预测",
+      "url": "https://search.bilibili.com/all?keyword=S16%E6%80%BB%E5%86%B3%E8%B5%9B%E8%83%9C%E8%B4%9F%E9%A2%84%E6%B5%8B",
+      "extra": {
+        "icon": ""
+      }
+    },
+    {
+      "id": "央视披露花坛藏尸案细节",
+      "title": "央视披露花坛藏尸案细节",
+      "url": "https://search.bilibili.com/all?keyword=%E5%A4%AE%E8%A7%86%E6%8A%AB%E9%9C%B2%E8%8A%B1%E5%9D%9B%E8%97%8F%E5%B0%B8%E6%A1%88%E7%BB%86%E8%8A%82",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "杨瀚森新赛季进步有多大",
+      "title": "杨瀚森新赛季进步有多大",
+      "url": "https://search.bilibili.com/all?keyword=%E6%9D%A8%E7%80%9A%E6%A3%AE%E6%96%B0%E8%B5%9B%E5%AD%A3%E8%BF%9B%E6%AD%A5%E6%9C%89%E5%A4%9A%E5%A4%A7",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+      }
+    },
+    {
+      "id": "ON在S16的进步有多大",
+      "title": "ON在S16的进步有多大",
+      "url": "https://search.bilibili.com/all?keyword=ON%E5%9C%A8S16%E7%9A%84%E8%BF%9B%E6%AD%A5%E6%9C%89%E5%A4%9A%E5%A4%A7",
+      "extra": {
+        "icon": ""
+      }
+    },
+    {
+      "id": "细节复盘BLG被抢龙真相",
+      "title": "细节复盘BLG被抢龙真相",
+      "url": "https://search.bilibili.com/all?keyword=%E7%BB%86%E8%8A%82%E5%A4%8D%E7%9B%98BLG%E8%A2%AB%E6%8A%A2%E9%BE%99%E7%9C%9F%E7%9B%B8",
+      "extra": {
+        "icon": ""
+      }
+    }
+  ]
+}

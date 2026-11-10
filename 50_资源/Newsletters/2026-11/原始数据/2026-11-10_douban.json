@@ -1,0 +1,51 @@
+{
+  "source": "douban",
+  "count": 5,
+  "items": [
+    {
+      "id": "36847425",
+      "title": "可能的爱",
+      "url": "https://movie.douban.com/subject/36847425",
+      "extra": {
+        "info": "2026 / 韩国 / 剧情 爱情",
+        "hover": "2026 / 韩国 / 剧情 爱情 / 李沧东 / 全度妍 薛景求"
+      }
+    },
+    {
+      "id": "36575404",
+      "title": "沧海琴声",
+      "url": "https://movie.douban.com/subject/36575404",
+      "extra": {
+        "info": "2026 / 西班牙 意大利 新加坡 / 动画",
+        "hover": "2026 / 西班牙 意大利 新加坡 / 动画 / 劳尔·加西亚 韩蕴光 / 陈琼华 田边和也"
+      }
+    },
+    {
+      "id": "38548985",
+      "title": "阿里·G：我系水？",
+      "url": "https://movie.douban.com/subject/38548985",
+      "extra": {
+        "info": "2026 / 英国 美国 / 喜剧",
+        "hover": "2026 / 英国 美国 / 喜剧 / 萨莎·拜伦·科恩 / 萨莎·拜伦·科恩 摩甘娜·罗宾逊"
+      }
+    },
+    {
+      "id": "37363852",
+      "title": "入夜不再",
+      "url": "https://movie.douban.com/subject/37363852",
+      "extra": {
+        "info": "2026 / 日本 / 惊悚 恐怖 奇幻",
+        "hover": "2026 / 日本 / 惊悚 恐怖 奇幻 / 戴夫·博伊尔 / 穗志萌香 稻垣来泉"
+      }
+    },
+    {
+      "id": "36424371",
+      "title": "我们仅有一次的人生",
+      "url": "https://movie.douban.com/subject/36424371",
+      "extra": {
+        "info": "2026 / 中国大陆 / 剧情",
+        "hover": "2026 / 中国大陆 / 剧情 / 孙傲谦 / 宋佳 文淇"
+      }
+    }
+  ]
+}

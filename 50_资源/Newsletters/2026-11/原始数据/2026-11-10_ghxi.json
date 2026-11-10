@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/mwdt.html",
+      "url": "https://www.ghxi.com/mwdt.html",
+      "title": "喵呜导图 v3.0.0 单文件版",
+      "extra": {
+        "hover": "喵呜导图 是一款极致轻量的思维导图工具，软件安装包仅 3.64MB，真正做到了“短小精悍”。它采用绿色免安装设计，下载即用，无需经历繁琐的安装流程，且承诺 永久免费，无任何隐性收费...",
+        "date": 1794222025986
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/ultravnc.html",
+      "url": "https://www.ghxi.com/ultravnc.html",
+      "title": "UltraVNC(远程桌面控制) v1.8.3.2 中文版",
+      "extra": {
+        "hover": "UltraVNC 是一种远程桌面控制软件，它允许用户通过网络远程访问和控制其他计算机。它基于 Virtual Network Computing (VNC) 技术，可以在 Wind...",
+        "date": 1794218425986
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/koodoreader.html",
+      "url": "https://www.ghxi.com/koodoreader.html",
+      "title": "Koodo Reader(跨平台电子书阅读器) v2.4.7",
+      "extra": {
+        "hover": "Koodo Reader 是一个跨平台的电子书阅读器。平台支持Windows，macOS，Linux 和网页版，格式支持 epub, pdf, mobi, azw3, txt, d...",
+        "date": 1794218425986
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/qownnotes.html",
+      "url": "https://www.ghxi.com/qownnotes.html",
+      "title": "QOwnNotes(开源Markdown笔记本) v26.11.6 绿色版",
+      "extra": {
+        "hover": "QOwnNotes是开源的记事本，具有 Markdown支持 和针对GNU / Linux，Mac OS X和Windows的待办事项列表管理器，可与Nextcloud Notes...",
+        "date": 1794218425986
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/vnote.html",
+      "url": "https://www.ghxi.com/vnote.html",
+      "title": "VNote(开源Markdown笔记) v4.14.1 官方中文版",
+      "extra": {
+        "hover": "VNote官方版是一款基于qt的专业笔记型软件。VNote最新版界面简约、操作轻松、功能全面，专注于Markdown，VNote的设计是为了提供舒适的编辑体验，当然这款软件不仅仅是...",
+        "date": 1794218425986
+      }
+    }
+  ]
+}

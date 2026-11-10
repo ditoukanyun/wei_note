@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3785610,
+      "title": "和熙资本、世纪华通与第七大道，黄仁勋“出轨门”女主牵连的资本故事",
+      "extra": {
+        "date": 1794267968000
+      },
+      "url": "https://wallstreetcn.com/articles/3785610"
+    },
+    {
+      "id": 41960152,
+      "title": "油轮运费暴跌！",
+      "extra": {
+        "date": 1794267949000
+      },
+      "url": "https://wallstreetcn.com/charts/41960152"
+    },
+    {
+      "id": 3785609,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月10日",
+      "extra": {
+        "date": 1794266067000
+      },
+      "url": "https://wallstreetcn.com/articles/3785609"
+    },
+    {
+      "id": 3785603,
+      "title": "美伊核谈判重大进展？据称就伊朗铀浓缩丰度达成一致，特朗普称出现结束战事积极势头",
+      "extra": {
+        "date": 1794263105000
+      },
+      "url": "https://wallstreetcn.com/articles/3785603"
+    },
+    {
+      "id": 3785604,
+      "title": "两位美联储官员放鹰：Barkin称加息方向明确，节奏需审慎，Goolsbee称必须直面\"通胀失控\"",
+      "extra": {
+        "date": 1794262778000
+      },
+      "url": "https://wallstreetcn.com/articles/3785604"
+    }
+  ]
+}

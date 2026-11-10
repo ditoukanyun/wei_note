@@ -1,0 +1,51 @@
+{
+  "source": "steam",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "title": "Counter-Strike 2",
+      "id": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "pubDate": 1794268845006,
+      "extra": {
+        "info": "529,108"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/570/Dota_2/",
+      "title": "Dota 2",
+      "id": "https://store.steampowered.com/app/570/Dota_2/",
+      "pubDate": 1794268845006,
+      "extra": {
+        "info": "387,805"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/1938090/Call_of_Duty/",
+      "title": "Call of Duty®",
+      "id": "https://store.steampowered.com/app/1938090/Call_of_Duty/",
+      "pubDate": 1794268845006,
+      "extra": {
+        "info": "137,182"
+      }
+    },
+    {
+      "url": "https://steamcommunity.com/app/3393110",
+      "title": "AION 2",
+      "id": "https://steamcommunity.com/app/3393110",
+      "pubDate": 1794268845007,
+      "extra": {
+        "info": "136,115"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/4262460/ROB_RUN/",
+      "title": "ROB RUN",
+      "id": "https://store.steampowered.com/app/4262460/ROB_RUN/",
+      "pubDate": 1794268845007,
+      "extra": {
+        "info": "133,325"
+      }
+    }
+  ]
+}
