@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8xxRCkc2d8y",
+      "url": "https://news.ifeng.com/c/8xxRCkc2d8y",
+      "title": "弹劾美防长的决议被扼杀了！",
+      "extra": {
+        "date": "2026-11-11 07:09:56"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xxOVJVXDXb",
+      "url": "https://news.ifeng.com/c/8xxOVJVXDXb",
+      "title": "中期选举惨败，特朗普却准备更强硬，后两年计划曝光",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xwWv13rnOP",
+      "url": "https://news.ifeng.com/c/8xwWv13rnOP",
+      "title": "美最高法院放行得州边境墙项目",
+      "extra": {}
+    },
+    {
+      "id": "https://v.ifeng.com/c/8xwiW0G4cOt",
+      "url": "https://v.ifeng.com/c/8xwiW0G4cOt",
+      "title": "伊朗揭幕新地下导弹城，有导弹和人员被打码(图)",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xx7JbP2Zxe",
+      "url": "https://news.ifeng.com/c/8xx7JbP2Zxe",
+      "title": "将与万斯会面？雷扎伊：无稽之谈！",
+      "extra": {}
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3785684,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月11日",
+      "extra": {
+        "date": 1794352307000
+      },
+      "url": "https://wallstreetcn.com/articles/3785684"
+    },
+    {
+      "id": 3785685,
+      "title": "抢在Anthropic IPO前出手！投资者据称兜售配售份额，溢价高达5%",
+      "extra": {
+        "date": 1794351328000
+      },
+      "url": "https://wallstreetcn.com/articles/3785685"
+    },
+    {
+      "id": 3785686,
+      "title": "CoreWeave电话会：算力供不应求推动大幅提价，明年容量已近售罄",
+      "extra": {
+        "date": 1794351255000
+      },
+      "url": "https://wallstreetcn.com/articles/3785686"
+    },
+    {
+      "id": 3785679,
+      "title": "英伟达继续大跌，两日市值蒸发4300亿美元，微软一度重夺全球第二",
+      "extra": {
+        "date": 1794351030000
+      },
+      "url": "https://wallstreetcn.com/articles/3785679"
+    },
+    {
+      "id": 3785682,
+      "title": "美国10年期国债票面利率升至5%，创2006年以来新高，拍卖需求降温",
+      "extra": {
+        "date": 1794350903000
+      },
+      "url": "https://wallstreetcn.com/articles/3785682"
+    }
+  ]
+}

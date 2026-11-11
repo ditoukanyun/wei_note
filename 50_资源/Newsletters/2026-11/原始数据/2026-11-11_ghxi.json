@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/lightcraft.html",
+      "url": "https://www.ghxi.com/lightcraft.html",
+      "title": "LightCraft v0.20.0",
+      "extra": {
+        "hover": "LightCraft 是 storytold/lightcraft 推出的开源照片库与 RAW 显影工具，定位为 Adobe Lightroom 的\"清室重制版\"，由纯 Rust ...",
+        "date": 1794308426343
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/flameshot.html",
+      "url": "https://www.ghxi.com/flameshot.html",
+      "title": "Flameshot(截图工具) v15.0.0",
+      "extra": {
+        "hover": "Flameshot 是一款免费、开源、跨平台的屏幕截图工具，适用于 Linux、Windows 和 macOS 系统。它不仅支持自由框选、窗口识别、全屏截图等多种截图模式，还内置了...",
+        "date": 1794304826343
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/esexplorer.html",
+      "url": "https://www.ghxi.com/esexplorer.html",
+      "title": "Android ES文件管理器 v4.4.3.9 修改版",
+      "extra": {
+        "hover": "ES文件浏览器( ES File Explorer)是一个功能强大的免费的本地和网络文件管理器和应用程序管理器。 适用2.0以上Android机型 主要功能: 快捷的工具栏操作 管...",
+        "date": 1794304826344
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/lightbulb.html",
+      "url": "https://www.ghxi.com/lightbulb.html",
+      "title": "LightBulb v2.7.3 绿色汉化版",
+      "extra": {
+        "hover": "LightBulb是一款电脑屏幕色温调节软件，在github上开源，与知名的f.lux是同一类软件，可以调节电脑显示器屏幕的色温，通过调节，可以过滤蓝光，减少屏幕的蓝光输出，达到护...",
+        "date": 1794304826344
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/xnviewmp.html",
+      "url": "https://www.ghxi.com/xnviewmp.html",
+      "title": "XnView MP(图片管理) 1.12.3 官方免费版",
+      "extra": {
+        "hover": "XnView MP 是一款多功能且功能强大的照片查看器，图像管理，图像缩放。 XnView是最稳定、易用和全面的照片编辑器之一。支持所有常见的图片和图形格式（JPEG、TIFF、P...",
+        "date": 1794304826344
+      }
+    }
+  ]
+}

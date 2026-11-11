@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5349550",
+      "title": "凤凰卫视(02008.HK)：凤凰新媒体第三季度总收入2.2亿元 同比增长8.3%",
+      "id": "/news/5349550",
+      "extra": {
+        "date": 1794353846358,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5349422",
+      "title": "美股异动丨Sea大涨超9%，Q3营收同比增43%超预期+新增10亿美元股票回购",
+      "id": "/news/5349422",
+      "extra": {
+        "date": 1794324600000,
+        "info": "美股异动"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5349421",
+      "title": "美股异动｜亚马逊涨超2%，AI基建扩张放缓或利好存量算力巨头",
+      "id": "/news/5349421",
+      "extra": {
+        "date": 1794324000000,
+        "info": "美股异动"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5349420",
+      "title": "三达膜(688101.SH)：始终将科技创新作为核心驱动力，持续保持研发投入",
+      "id": "/news/5349420",
+      "extra": {
+        "date": 1794323160000,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5349419",
+      "title": "美股异动｜台积电涨超3%，10月合并营收同比大增近六成",
+      "id": "/news/5349419",
+      "extra": {
+        "date": 1794323040000,
+        "info": "美股异动"
+      }
+    }
+  ]
+}
