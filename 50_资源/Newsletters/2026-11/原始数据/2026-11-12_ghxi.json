@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/xl17green.html",
+      "url": "https://www.ghxi.com/xl17green.html",
+      "title": "迅雷17 v25.1.44.1745 绿色精简版",
+      "extra": {
+        "hover": "迅雷17绿色精简版 是基于官方迅雷17修改的下载加速与云盘客户端，主打纯净无广告、去除自动更新等冗余组件、免安装解压即用；保留云盘、片库、链接库、边下边播、极速下载等核心功能，并支...",
+        "date": 1794394815122
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/beyondcompare.html",
+      "url": "https://www.ghxi.com/beyondcompare.html",
+      "title": "Beyond Compare v5.2.8.33052 修改版",
+      "extra": {
+        "hover": "Beyond Compare是一款文件及文件夹（目录）的对比工具。Beyond Compare不仅可以快速比较出两个目录的不同，还可以比较每个文件的内容，而且可以任意显示比较结果。...",
+        "date": 1794394815123
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/hypersnap.html",
+      "url": "https://www.ghxi.com/hypersnap.html",
+      "title": "HyperSnap v10.5.2 修改便携版",
+      "extra": {
+        "hover": "Hypersnap汉化中文版 老牌优秀屏幕截图工具，果核剥壳独家便携。老牌优秀的屏幕截图工具，全新界面，不仅能抓取标准桌面程序，还能抓取 DirectX, 3Dfx Glide的 ...",
+        "date": 1794391215123
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/burnaware.html",
+      "url": "https://www.ghxi.com/burnaware.html",
+      "title": "BurnAware v19.5 修改版",
+      "extra": {
+        "hover": "光盘刻录工具(BurnAware)是一款绿色的光盘刻录软件，支持刻录包括iso、udf、iso与udf混合光盘、启动光盘等多种规格的数据光盘。见过很多人硬盘崩坏的情况，数据都找不回...",
+        "date": 1794391215123
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/mdm.html",
+      "url": "https://www.ghxi.com/mdm.html",
+      "title": "Mister Download Manager v0.5.2 便携版",
+      "extra": {
+        "hover": "Mister Download Manager是一款用纯 Rust 从零编写的开源下载管理器，定位为 IDM 的\"清室重制版\"——窗口、菜单、工具栏与工作流都与 IDM 一致，但更...",
+        "date": 1794391215123
+      }
+    }
+  ]
+}

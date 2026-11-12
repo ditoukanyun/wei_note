@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3785770,
+      "title": "CoreWeave拟发行至少40亿美元投资级贷款，盘后下挫近6%",
+      "extra": {
+        "date": 1794440347000
+      },
+      "url": "https://wallstreetcn.com/articles/3785770"
+    },
+    {
+      "id": 3785765,
+      "title": "黄仁勋再曝新婚外情，董事会准备罢免！英伟达盘后跌幅达8%",
+      "extra": {
+        "date": 1794439021000
+      },
+      "url": "https://wallstreetcn.com/articles/3785765"
+    },
+    {
+      "id": 3785764,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月12日",
+      "extra": {
+        "date": 1794438940000
+      },
+      "url": "https://wallstreetcn.com/articles/3785764"
+    },
+    {
+      "id": 3785768,
+      "title": "政策工具优化迭代，稳市机制加快完善",
+      "extra": {
+        "date": 1794438318000
+      },
+      "url": "https://wallstreetcn.com/articles/3785768"
+    },
+    {
+      "id": 3785762,
+      "title": "英伟达美股盘后跳水，媒体报道称：黄仁勋曾与英伟达高管有过婚外情",
+      "extra": {
+        "date": 1794437935000
+      },
+      "url": "https://wallstreetcn.com/articles/3785762"
+    }
+  ]
+}

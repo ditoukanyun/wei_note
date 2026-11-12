@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8xyqssC2Tzo",
+      "url": "https://news.ifeng.com/c/8xyqssC2Tzo",
+      "title": "黄仁勋被曝还有其他婚外情",
+      "extra": {
+        "date": "2026-11-12 06:16:02"
+      }
+    },
+    {
+      "id": "https://original.ifeng.com/c/8xy6azHF4S9",
+      "url": "https://original.ifeng.com/c/8xy6azHF4S9",
+      "title": "贝森特：将在APEC会议期间同中方重点磋商“超级智能”",
+      "extra": {}
+    },
+    {
+      "id": "https://original.ifeng.com/c/8xxU8RUdVo1",
+      "url": "https://original.ifeng.com/c/8xxU8RUdVo1",
+      "title": "俄外长：欧洲人飞到了阿布扎比，就让他们在酒店里坐着吧",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xyKziNuc6P",
+      "url": "https://news.ifeng.com/c/8xyKziNuc6P",
+      "title": "民主党掏出了两把刀",
+      "extra": {}
+    },
+    {
+      "id": "https://original.ifeng.com/c/8xySHSlVxt8",
+      "url": "https://original.ifeng.com/c/8xySHSlVxt8",
+      "title": "时隔14年，西班牙举行全国大罢工，多地交通中断",
+      "extra": {}
+    }
+  ]
+}
