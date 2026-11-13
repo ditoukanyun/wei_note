@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5351902",
+      "title": "中国黄金国际(02099.HK)：第三季度销售收入同比增加32%至4.54亿美元",
+      "id": "/news/5351902",
+      "extra": {
+        "date": 1794526696145,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5351901",
+      "title": "云顶新耀(01952.HK)：新增依嘉®100mg规格获国家药监局批准",
+      "id": "/news/5351901",
+      "extra": {
+        "date": 1794525256145,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5351900",
+      "title": "擎华控股(08082.HK)：委任中正天恒为核数师",
+      "id": "/news/5351900",
+      "extra": {
+        "date": 1794524416146,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5351817",
+      "title": "美股异动丨光通信概念股普跌，AXT Inc跌超8%",
+      "id": "/news/5351817",
+      "extra": {
+        "date": 1794497160000,
+        "info": "美股异动"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5351816",
+      "title": "美股异动丨黄仁勋离任或影响英伟达竞争地位？博通涨超5%，亚马逊涨超2%",
+      "id": "/news/5351816",
+      "extra": {
+        "date": 1794496620000,
+        "info": "A股异动"
+      }
+    }
+  ]
+}

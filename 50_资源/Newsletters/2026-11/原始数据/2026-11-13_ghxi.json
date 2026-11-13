@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/mpv.html",
+      "url": "https://www.ghxi.com/mpv.html",
+      "title": "MPV播放器 v20261111 官方版",
+      "extra": {
+        "hover": "mpv 是一个免费、开源、跨平台的多媒体播放器，可用于 Windows、Linux、MacOS、BSD 以及 Android 等平台。 mpv 带有极简的 GUI 界面以及丰富的命...",
+        "date": 1794481216244
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/serverbox.html",
+      "url": "https://www.ghxi.com/serverbox.html",
+      "title": "Server Box(Linux服务器工具箱) v1.0.1925 绿色版",
+      "extra": {
+        "hover": "Server Box 是一个使用 Flutter 开发的免费开源服务器管理软件，整个软件界面清新干净、占用内存也十分小，支持在线查看网络问题、进行SSH、Docker等管理，且整个...",
+        "date": 1794477616244
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/pdf24.html",
+      "url": "https://www.ghxi.com/pdf24.html",
+      "title": "PDF24 Creator(PDF工具箱) v11.34.0 官方版",
+      "extra": {
+        "hover": "可将大部分文件转成pdf格式的免费软件，安装好后会在你的打印机里看到一个叫PDF24的虚拟打印机，你可将要转成pdf格式的文件打印时选虚拟打印机PDF24，也可以直接将文件以拖拉方...",
+        "date": 1794477616244
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/fdm.html",
+      "url": "https://www.ghxi.com/fdm.html",
+      "title": "Free Download Manager v6.36.0.7128 便携版/安装版",
+      "extra": {
+        "hover": "Free Download Manager 是一款开源免费的的多功能下载和管理工具。不过5版本以上已经不开源了。 Free Download Manager 支持多线程下载，支持计...",
+        "date": 1794477616244
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/windowtabs.html",
+      "url": "https://www.ghxi.com/windowtabs.html",
+      "title": "WindowTabs(窗口标签化) v2026.11.11 汉化版",
+      "extra": {
+        "hover": "WindowTabs是一款窗口多标签页管理工具，当你在电脑中打开多个相同的窗口就会自动合并到一块，你也可以关闭自动组合功能，通过手动拖拽Tab来实现任意组合，通过鼠标点击即可切到自...",
+        "date": 1794477616245
+      }
+    }
+  ]
+}

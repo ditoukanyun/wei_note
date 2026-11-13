@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8y04rOsPfwl",
+      "url": "https://news.ifeng.com/c/8y04rOsPfwl",
+      "title": "英伟达宣布CEO黄仁勋辞职",
+      "extra": {
+        "date": "2026-11-12 21:49:42"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8y0AeY6dL0D",
+      "url": "https://news.ifeng.com/c/8y0AeY6dL0D",
+      "title": "惨遭合谋补刀，黄仁勋陷入绝境黯然辞职",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xzfJZQJ1fl",
+      "url": "https://news.ifeng.com/c/8xzfJZQJ1fl",
+      "title": "黄仁勋出轨对象现在在北京？外交部回应",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xzsT9RTgG1",
+      "url": "https://news.ifeng.com/c/8xzsT9RTgG1",
+      "title": "大乱斗预告！白宫警告民主党：敢乱发传票，就刑事调查",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8xzunsnnUb2",
+      "url": "https://news.ifeng.com/c/8xzunsnnUb2",
+      "title": "泽连斯基：星盾又限速，正在试图跟美方沟通",
+      "extra": {}
+    }
+  ]
+}
