@@ -1,0 +1,51 @@
+{
+  "source": "steam",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "title": "Counter-Strike 2",
+      "id": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "pubDate": 1794614420161,
+      "extra": {
+        "info": "657,652"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/570/Dota_2/",
+      "title": "Dota 2",
+      "id": "https://store.steampowered.com/app/570/Dota_2/",
+      "pubDate": 1794614420161,
+      "extra": {
+        "info": "492,807"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/4262460/ROB_RUN/",
+      "title": "ROB RUN",
+      "id": "https://store.steampowered.com/app/4262460/ROB_RUN/",
+      "pubDate": 1794614420161,
+      "extra": {
+        "info": "341,252"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "title": "Bongo Cat",
+      "id": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "pubDate": 1794614420161,
+      "extra": {
+        "info": "164,804"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/1938090/Call_of_Duty/",
+      "title": "Call of Duty®",
+      "id": "https://store.steampowered.com/app/1938090/Call_of_Duty/",
+      "pubDate": 1794614420161,
+      "extra": {
+        "info": "139,400"
+      }
+    }
+  ]
+}

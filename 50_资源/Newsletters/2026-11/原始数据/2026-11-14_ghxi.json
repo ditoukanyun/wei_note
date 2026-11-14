@@ -1,0 +1,51 @@
+{
+  "source": "ghxi",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.ghxi.com/dngrep.html",
+      "url": "https://www.ghxi.com/dngrep.html",
+      "title": "dnGrep(文件搜索) v5.0.80.0",
+      "extra": {
+        "hover": "dnGrep 是一个出色的 Windows 搜索实用程序，包括搜索和替换、整个文件预览、文件资源管理器中的右键单击搜索等等。允许使用文本、正则表达式、XPath 和语音查询来搜索文...",
+        "date": 1794567615869
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/pixpin.html",
+      "url": "https://www.ghxi.com/pixpin.html",
+      "title": "PixPin(截图工具) v3.7.1.3",
+      "extra": {
+        "hover": "作者在平时的工作流中经常使用图片相关的工具，截图贴图：Snipaste; Ocr：PearOCR; 长截图截动图：QQ 截图; 不过经常切换软件还是比较麻烦，于是写了一个新的截图工...",
+        "date": 1794564015870
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/aimp.html",
+      "url": "https://www.ghxi.com/aimp.html",
+      "title": "AIMP(音频播放器) v5.40.2731",
+      "extra": {
+        "hover": "AIMP最新版是一款高效便捷且实用的音乐播放器，AIMP官方版除了播放器基本的音频播放之外它还提供了音频转换、录制、ID3标签编辑等功能。AIMP正式版支持大多数音乐格式，拥有六款...",
+        "date": 1794564015870
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/ghvideo132-2.html",
+      "url": "https://www.ghxi.com/ghvideo132-2.html",
+      "title": "【果核视频】边喷边用，百度居然还有这么多用户",
+      "extra": {
+        "hover": "果核已经把高清视频上传到B站，大家可以跳转B站观看，体验更佳！B站：https://www.bilibili.com/video/BV1pTWq6iEKd/",
+        "date": 1794564015870
+      }
+    },
+    {
+      "id": "https://www.ghxi.com/lightcraft.html",
+      "url": "https://www.ghxi.com/lightcraft.html",
+      "title": "LightCraft v0.21.1",
+      "extra": {
+        "hover": "LightCraft 是 storytold/lightcraft 推出的开源照片库与 RAW 显影工具，定位为 Adobe Lightroom 的\"清室重制版\"，由纯 Rust ...",
+        "date": 1794564015870
+      }
+    }
+  ]
+}

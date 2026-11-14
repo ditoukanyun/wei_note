@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3785919,
+      "title": "英伟达创18个月最差单周表现，黄仁勋离职引发市场重估",
+      "extra": {
+        "date": 1794613461000
+      },
+      "url": "https://wallstreetcn.com/articles/3785919"
+    },
+    {
+      "id": 3785926,
+      "title": "同样是科技巨头IPO，Anthropic为何比SpaceX上市定价更保守",
+      "extra": {
+        "date": 1794613449000
+      },
+      "url": "https://wallstreetcn.com/articles/3785926"
+    },
+    {
+      "id": 3785925,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月14日",
+      "extra": {
+        "date": 1794611564000
+      },
+      "url": "https://wallstreetcn.com/articles/3785925"
+    },
+    {
+      "id": 3785924,
+      "title": "索罗斯基金Q3大举加码英特尔、Meta，新进SK海力士，减持英伟达",
+      "extra": {
+        "date": 1794611237000
+      },
+      "url": "https://wallstreetcn.com/articles/3785924"
+    },
+    {
+      "id": 3785920,
+      "title": "避免流动性支持被视为QE，美联储洛根提议市场功能性购债单独记账、尽快出售",
+      "extra": {
+        "date": 1794611211000
+      },
+      "url": "https://wallstreetcn.com/articles/3785920"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5353156",
+      "title": "TD Cowen：将伯克希尔哈撒韦的目标价上调至556美元",
+      "id": "/news/5353156",
+      "extra": {
+        "date": 1794585300000,
+        "info": "大行评级"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5353155",
+      "title": "国富量子(00290.HK)拟12亿港元出售南方东英资产管理22.50%股份",
+      "id": "/news/5353155",
+      "extra": {
+        "date": 1794582180000,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5353154",
+      "title": "玮俊生物科技(00660.HK)2026财年纯利720万港元 同比由亏转盈",
+      "id": "/news/5353154",
+      "extra": {
+        "date": 1794581760000,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5353153",
+      "title": "友宝在线(02429.HK)11月13日耗资5480港元回购4000股",
+      "id": "/news/5353153",
+      "extra": {
+        "date": 1794581580000,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5353152",
+      "title": "易点云(02416.HK)11月13日耗资21.74万港元回购7.95万股",
+      "id": "/news/5353152",
+      "extra": {
+        "date": 1794580320000,
+        "info": "港股公告摘要"
+      }
+    }
+  ]
+}

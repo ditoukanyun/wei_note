@@ -1,0 +1,51 @@
+{
+  "source": "qqvideo-tv-hotsearch",
+  "count": 5,
+  "items": [
+    {
+      "id": "mzc00200zsqz54y",
+      "title": "走马上任",
+      "url": "https://v.qq.com/x/cover/mzc00200zsqz54y.html",
+      "pubDate": "2026-11-14",
+      "extra": {
+        "hover": "赵家班新爆笑喜剧"
+      }
+    },
+    {
+      "id": "mzc00200803dr6b",
+      "title": "兰香如故",
+      "url": "https://v.qq.com/x/cover/mzc00200803dr6b.html",
+      "pubDate": "2026-11-14",
+      "extra": {
+        "hover": "高门跌落！婢女深宅挣生机"
+      }
+    },
+    {
+      "id": "mzc002001w361jz",
+      "title": "尚公主",
+      "url": "https://v.qq.com/x/cover/mzc002001w361jz.html",
+      "pubDate": "2026-11-14",
+      "extra": {
+        "hover": "扶摇直尚险途携手破危局"
+      }
+    },
+    {
+      "id": "mzc00200p1ilkw3",
+      "title": "伟大的长征",
+      "url": "https://v.qq.com/x/cover/mzc00200p1ilkw3.html",
+      "pubDate": "2026-11-14",
+      "extra": {
+        "hover": "英雄史诗不朽丰碑"
+      }
+    },
+    {
+      "id": "mzc0020005aceo2",
+      "title": "玫瑰战争[普通话版]",
+      "url": "https://v.qq.com/x/cover/mzc0020005aceo2.html",
+      "pubDate": "2026-11-14",
+      "extra": {
+        "hover": "娱乐圈致命游戏刺激上演"
+      }
+    }
+  ]
+}

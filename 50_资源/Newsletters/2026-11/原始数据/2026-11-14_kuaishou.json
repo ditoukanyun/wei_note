@@ -1,0 +1,46 @@
+{
+  "source": "kuaishou",
+  "count": 5,
+  "items": [
+    {
+      "id": "美国发布全国停飞指令",
+      "title": "美国发布全国停飞指令",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E7%BE%8E%E5%9B%BD%E5%8F%91%E5%B8%83%E5%85%A8%E5%9B%BD%E5%81%9C%E9%A3%9E%E6%8C%87%E4%BB%A4",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    },
+    {
+      "id": "今天是世界糖尿病日",
+      "title": "今天是世界糖尿病日",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E4%BB%8A%E5%A4%A9%E6%98%AF%E4%B8%96%E7%95%8C%E7%B3%96%E5%B0%BF%E7%97%85%E6%97%A5",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    },
+    {
+      "id": "百年宏愿 正在成为美好现实",
+      "title": "百年宏愿 正在成为美好现实",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E7%99%BE%E5%B9%B4%E5%AE%8F%E6%84%BF%20%E6%AD%A3%E5%9C%A8%E6%88%90%E4%B8%BA%E7%BE%8E%E5%A5%BD%E7%8E%B0%E5%AE%9E",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "我国严禁任何形式代孕",
+      "title": "我国严禁任何形式代孕",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E6%88%91%E5%9B%BD%E4%B8%A5%E7%A6%81%E4%BB%BB%E4%BD%95%E5%BD%A2%E5%BC%8F%E4%BB%A3%E5%AD%95",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "致敬江竹筠烈士",
+      "title": "致敬江竹筠烈士",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E8%87%B4%E6%95%AC%E6%B1%9F%E7%AB%B9%E7%AD%A0%E7%83%88%E5%A3%AB",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    }
+  ]
+}

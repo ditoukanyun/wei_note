@@ -1,0 +1,51 @@
+{
+  "source": "douban",
+  "count": 5,
+  "items": [
+    {
+      "id": "36847425",
+      "title": "可能的爱",
+      "url": "https://movie.douban.com/subject/36847425",
+      "extra": {
+        "info": "2026 / 韩国 / 剧情 爱情",
+        "hover": "2026 / 韩国 / 剧情 爱情 / 李沧东 / 全度妍 薛景求"
+      }
+    },
+    {
+      "id": "37067800",
+      "title": "阿尔法：初次猎杀",
+      "url": "https://movie.douban.com/subject/37067800",
+      "extra": {
+        "info": "2026 / 印度 / 动作 惊悚",
+        "hover": "2026 / 印度 / 动作 惊悚 / Shiv Rawail / 阿莉雅·布哈特 沙尔瓦里·瓦格"
+      }
+    },
+    {
+      "id": "37363852",
+      "title": "入夜不再",
+      "url": "https://movie.douban.com/subject/37363852",
+      "extra": {
+        "info": "2026 / 日本 / 惊悚 恐怖 奇幻",
+        "hover": "2026 / 日本 / 惊悚 恐怖 奇幻 / 戴夫·博伊尔 / 穗志萌香 稻垣来泉"
+      }
+    },
+    {
+      "id": "39016966",
+      "title": "小丑回魂：德里故事",
+      "url": "https://movie.douban.com/subject/39016966",
+      "extra": {
+        "info": "2026 / 美国 / 恐怖 奇幻",
+        "hover": "2026 / 美国 / 恐怖 奇幻 / 塔兹巴·查韦斯 / 齐亚文提奥 伊莎贝尔·德罗伊-奥尔森"
+      }
+    },
+    {
+      "id": "37317907",
+      "title": "另一个妈妈",
+      "url": "https://movie.douban.com/subject/37317907",
+      "extra": {
+        "info": "2026 / 美国 爱尔兰 / 恐怖",
+        "hover": "2026 / 美国 爱尔兰 / 恐怖 / 罗布·萨维奇 / 杰西卡·查斯坦 杰伊·杜普拉斯"
+      }
+    }
+  ]
+}

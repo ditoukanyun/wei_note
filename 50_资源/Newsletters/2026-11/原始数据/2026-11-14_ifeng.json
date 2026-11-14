@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8y2JErWHUa3",
+      "url": "https://news.ifeng.com/c/8y2JErWHUa3",
+      "title": "美空管局要求全部航班暂停起飞，特朗普听取简报",
+      "extra": {
+        "date": "2026-11-14 05:00:57"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8y2OJv6Z0ZL",
+      "url": "https://news.ifeng.com/c/8y2OJv6Z0ZL",
+      "title": "全美航班停飞，上上次还是“9·11”",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8y1VoPsQwIm",
+      "url": "https://news.ifeng.com/c/8y1VoPsQwIm",
+      "title": "限制中国，却让“美国卡住了美国”",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8y1OkYoL2VO",
+      "url": "https://news.ifeng.com/c/8y1OkYoL2VO",
+      "title": "黄仁勋辞职，特朗普“钦点”接班人：乔布斯也没他做得好",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8y2HAhP91GD",
+      "url": "https://news.ifeng.com/c/8y2HAhP91GD",
+      "title": "美媒称这位重量级官员将离职，白宫回应",
+      "extra": {}
+    }
+  ]
+}
