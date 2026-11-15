@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-hot-video",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV12oWi6VEz7",
+      "title": "根本没有这样的夹子",
+      "url": "https://www.bilibili.com/video/BV12oWi6VEz7",
+      "pubDate": 1794561077000,
+      "extra": {
+        "info": "机夹小翔 · 207w+观看 · 18w+点赞",
+        "hover": "-",
+        "icon": "http://i1.hdslb.com/bfs/archive/893b483d60ce6eaa63d85a145981b79cb9dea43b.jpg"
+      }
+    },
+    {
+      "id": "BV1fPWg6XEFY",
+      "title": "【唐唐】深度解析伪纪录片《放送禁止》细思极恐的答案！",
+      "url": "https://www.bilibili.com/video/BV1fPWg6XEFY",
+      "pubDate": 1794544200000,
+      "extra": {
+        "info": "Big笑工坊 · 99w+观看 · 2w+点赞",
+        "hover": "深度解析伪纪录片《放送禁止》细思极恐的答案！",
+        "icon": "http://i0.hdslb.com/bfs/archive/b96641d1a2d3a15df9a7591204b5e49ca1c8ee8e.jpg"
+      }
+    },
+    {
+      "id": "BV1XNWB6dE6g",
+      "title": "【独家】《凡人修仙传之慕兰之战》第24集【总第200集】",
+      "url": "https://www.bilibili.com/video/BV1XNWB6dE6g",
+      "pubDate": 1794625201000,
+      "extra": {
+        "info": "哔哩哔哩国创 · 452w+观看 · 11w+点赞",
+        "hover": "每周六中午11:00，bilibili独家呈现",
+        "icon": "http://i0.hdslb.com/bfs/archive/9668933b707d3c620bfbdb6bf5f3c22407804e64.jpg"
+      }
+    },
+    {
+      "id": "BV1vqWe6EEKQ",
+      "title": "冬日宿舍之零下六十度？",
+      "url": "https://www.bilibili.com/video/BV1vqWe6EEKQ",
+      "pubDate": 1794555717000,
+      "extra": {
+        "info": "小新博主 · 249w+观看 · 10w+点赞",
+        "hover": "这集太难做了，勿喷勿喷。",
+        "icon": "http://i0.hdslb.com/bfs/archive/31d9b10892980e8a6d4ef4b864469405d85f09d9.jpg"
+      }
+    },
+    {
+      "id": "BV1HTWq6iESp",
+      "title": "耗资上万！我把匠魂做进了网页版mc... 【B站AI创造公开赛】",
+      "url": "https://www.bilibili.com/video/BV1HTWq6iESp",
+      "pubDate": 1794565800000,
+      "extra": {
+        "info": "土豆味小哲 · 46w+观看 · 7w+点赞",
+        "hover": "全程使用Claude Opus 5.5开发~\n关注即可加入游戏内的股东名单~\n本次更新：修复了240多个bug、更新了匠魂、农夫乐事等模组、优化联机延迟\n游玩链接：https://www.bilibili.com/toy/OpusMC\n\n往期开发过程：\nBV1HkJ66vEk9\nBV126Hw6uEgW\nBV1Nxxr6oES2\nBV1ZH456BENv",
+        "icon": "http://i2.hdslb.com/bfs/archive/da222a33d8360a8ce63edd26bd9240c4b156e61d.jpg"
+      }
+    }
+  ]
+}

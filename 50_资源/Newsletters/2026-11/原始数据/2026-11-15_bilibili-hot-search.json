@@ -1,0 +1,46 @@
+{
+  "source": "bilibili-hot-search",
+  "count": 5,
+  "items": [
+    {
+      "id": "GEN BLG",
+      "title": "GEN vs BLG S16总决赛",
+      "url": "https://search.bilibili.com/all?keyword=GEN%20BLG",
+      "extra": {
+        "icon": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
+      }
+    },
+    {
+      "id": "BLG连赢两局拿下冠军点",
+      "title": "BLG连赢两局拿下冠军点",
+      "url": "https://search.bilibili.com/all?keyword=BLG%E8%BF%9E%E8%B5%A2%E4%B8%A4%E5%B1%80%E6%8B%BF%E4%B8%8B%E5%86%A0%E5%86%9B%E7%82%B9",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+      }
+    },
+    {
+      "id": "BLG鏖战53分钟扳平比分",
+      "title": "BLG鏖战53分钟扳平比分",
+      "url": "https://search.bilibili.com/all?keyword=BLG%E9%8F%96%E6%88%9853%E5%88%86%E9%92%9F%E6%89%B3%E5%B9%B3%E6%AF%94%E5%88%86",
+      "extra": {
+        "icon": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+      }
+    },
+    {
+      "id": "Xun皇子连续拼惩拿2龙魂",
+      "title": "Xun皇子连续拼惩拿2龙魂",
+      "url": "https://search.bilibili.com/all?keyword=Xun%E7%9A%87%E5%AD%90%E8%BF%9E%E7%BB%AD%E6%8B%BC%E6%83%A9%E6%8B%BF2%E9%BE%99%E9%AD%82",
+      "extra": {
+        "icon": ""
+      }
+    },
+    {
+      "id": "BLG GEN第一局赛事解读",
+      "title": "BLG GEN第一局赛事解读",
+      "url": "https://search.bilibili.com/all?keyword=BLG%20GEN%E7%AC%AC%E4%B8%80%E5%B1%80%E8%B5%9B%E4%BA%8B%E8%A7%A3%E8%AF%BB",
+      "extra": {
+        "icon": ""
+      }
+    }
+  ]
+}

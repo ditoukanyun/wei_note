@@ -1,0 +1,51 @@
+{
+  "source": "douban",
+  "count": 5,
+  "items": [
+    {
+      "id": "36847425",
+      "title": "可能的爱",
+      "url": "https://movie.douban.com/subject/36847425",
+      "extra": {
+        "info": "2026 / 韩国 / 剧情 爱情",
+        "hover": "2026 / 韩国 / 剧情 爱情 / 李沧东 / 全度妍 薛景求"
+      }
+    },
+    {
+      "id": "37310760",
+      "title": "纽约最后的扒手",
+      "url": "https://movie.douban.com/subject/37310760",
+      "extra": {
+        "info": "2026 / 美国 / 惊悚 犯罪",
+        "hover": "2026 / 美国 / 惊悚 犯罪 / 诺阿·西甘 / 约翰·特托罗 吉安卡罗·埃斯波西托"
+      }
+    },
+    {
+      "id": "37134880",
+      "title": "老千4：别西卜之歌",
+      "url": "https://movie.douban.com/subject/37134880",
+      "extra": {
+        "info": "2026 / 韩国 / 剧情 犯罪",
+        "hover": "2026 / 韩国 / 剧情 犯罪 / 崔国熙 / 卞约汉 卢在元"
+      }
+    },
+    {
+      "id": "36614615",
+      "title": "钢铁男孩",
+      "url": "https://movie.douban.com/subject/36614615",
+      "extra": {
+        "info": "2026 / 法国 比利时 / 动画",
+        "hover": "2026 / 法国 比利时 / 动画 / 路易斯·克里希 / 亚历山德拉·阿斯提耶尔 罗德·帕拉多特"
+      }
+    },
+    {
+      "id": "37317907",
+      "title": "另一个妈妈",
+      "url": "https://movie.douban.com/subject/37317907",
+      "extra": {
+        "info": "2026 / 美国 爱尔兰 / 恐怖",
+        "hover": "2026 / 美国 爱尔兰 / 恐怖 / 罗布·萨维奇 / 杰西卡·查斯坦 杰伊·杜普拉斯"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "source": "github",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/backnotprop/plannotator",
+      "title": "backnotprop /      plannotator",
+      "id": "/backnotprop/plannotator",
+      "extra": {
+        "info": "✰ 11,104",
+        "hover": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click."
+      }
+    },
+    {
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "title": "GoogleChrome /      modern-web-guidance-src",
+      "id": "/GoogleChrome/modern-web-guidance-src",
+      "extra": {
+        "info": "✰ 6,013",
+        "hover": "Keep your coding agent up to date with the latest web best practices"
+      }
+    },
+    {
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "title": "tradermonty /      claude-trading-skills",
+      "id": "/tradermonty/claude-trading-skills",
+      "extra": {
+        "info": "✰ 4,786",
+        "hover": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development."
+      }
+    },
+    {
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "title": "ChromeDevTools /      chrome-devtools-mcp",
+      "id": "/ChromeDevTools/chrome-devtools-mcp",
+      "extra": {
+        "info": "✰ 56,283",
+        "hover": "Chrome DevTools for coding agents"
+      }
+    },
+    {
+      "url": "https://github.com/alibaba/open-code-review",
+      "title": "alibaba /      open-code-review",
+      "id": "/alibaba/open-code-review",
+      "extra": {
+        "info": "✰ 51,414",
+        "hover": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8y3bqZBUpKw",
+      "url": "https://news.ifeng.com/c/8y3bqZBUpKw",
+      "title": "马斯克力挺黄仁勋，签署公开信呼吁让其回归",
+      "extra": {
+        "date": "2026-11-14 23:50:22"
+      }
+    },
+    {
+      "id": "https://tech.ifeng.com/c/8y2uGksHuwo",
+      "url": "https://tech.ifeng.com/c/8y2uGksHuwo",
+      "title": "黄仁勋辞职后亲友聚旧金山豪宅，炸鸡外卖送上门",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8y15KIpJiRB",
+      "url": "https://news.ifeng.com/c/8y15KIpJiRB",
+      "title": "鲁比奥也上名单了，民主党酝酿调查特朗普政府多名高官",
+      "extra": {}
+    },
+    {
+      "id": "https://original.ifeng.com/c/8y3A7IjZyka",
+      "url": "https://original.ifeng.com/c/8y3A7IjZyka",
+      "title": "科技界人士：黄仁勋会回来的",
+      "extra": {}
+    },
+    {
+      "id": "https://original.ifeng.com/c/8y3CtXMG6LQ",
+      "url": "https://original.ifeng.com/c/8y3CtXMG6LQ",
+      "title": "阿布扎比会谈后，俄方开出的强硬条件曝光",
+      "extra": {}
+    }
+  ]
+}
