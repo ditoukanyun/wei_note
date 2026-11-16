@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-hot-video",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV15es76gEgL",
+      "title": "【2026全球总决赛】11月15日 GEN vs BLG",
+      "url": "https://www.bilibili.com/video/BV15es76gEgL",
+      "pubDate": 1794687441000,
+      "extra": {
+        "info": "哔哩哔哩英雄联盟赛事 · 2250w+观看 · 32w+点赞",
+        "hover": "【2026全球总决赛】11月15日 GEN vs BLG",
+        "icon": "http://i1.hdslb.com/bfs/archive/75bd99af8766e89c599ccdfd66c36d363f9ea9bd.jpg"
+      }
+    },
+    {
+      "id": "BV1Uesp6yEsM",
+      "title": "【伪纪录片】镜 化",
+      "url": "https://www.bilibili.com/video/BV1Uesp6yEsM",
+      "pubDate": 1794739679000,
+      "extra": {
+        "info": "虚构柠檬 · 39w+观看 · 2w+点赞",
+        "hover": "",
+        "icon": "http://i1.hdslb.com/bfs/archive/5a202db2daa18fc4ffbdef57b233b587dad063e7.jpg"
+      }
+    },
+    {
+      "id": "BV1jHsp69Ekg",
+      "title": "命运让他们彼此对立，也让他们彼此靠近｜上",
+      "url": "https://www.bilibili.com/video/BV1jHsp69Ekg",
+      "pubDate": 1794738051000,
+      "extra": {
+        "info": "Foyege弗曳哥 · 100w+观看 · 11w+点赞",
+        "hover": "",
+        "icon": "http://i1.hdslb.com/bfs/archive/d1b39f1368dea0224896b0e10e20ed1cb4f4b7a6.jpg"
+      }
+    },
+    {
+      "id": "BV14VsJ6aEJd",
+      "title": "BLG S16夺冠赞歌《仰望星空》",
+      "url": "https://www.bilibili.com/video/BV14VsJ6aEJd",
+      "pubDate": 1794703751000,
+      "extra": {
+        "info": "蔚蓝边际 · 231w+观看 · 23w+点赞",
+        "hover": "原曲：《仰望星空》\n原唱：张杰\n混音：益辉\n填词/翻唱/和声/剪辑：蔚蓝边际",
+        "icon": "http://i0.hdslb.com/bfs/archive/6e1c8e530d5abc82f1dfd77f694006d7ba0d1ec0.jpg"
+      }
+    },
+    {
+      "id": "BV1dhWC65Ej8",
+      "title": "【独家】牧神记 第109集 无忧剑",
+      "url": "https://www.bilibili.com/video/BV1dhWC65Ej8",
+      "pubDate": 1794711602000,
+      "extra": {
+        "info": "哔哩哔哩国创 · 215w+观看 · 3w+点赞",
+        "hover": "天外神金坠大墟，神剑重铸名无忧",
+        "icon": "http://i1.hdslb.com/bfs/archive/890629b6e57420cc45bd9ca5605f15c531212e16.png"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3785971,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月16日 ",
+      "extra": {
+        "date": 1794784883000
+      },
+      "url": "https://wallstreetcn.com/articles/3785971"
+    },
+    {
+      "id": 3785968,
+      "title": "美银Hartnett：强美元冲击全球流动性，风险资产暂难入场，转折点推迟至明年春季",
+      "extra": {
+        "date": 1794748127000
+      },
+      "url": "https://wallstreetcn.com/articles/3785968"
+    },
+    {
+      "id": 3785932,
+      "title": "下周重磅日程：APEC峰会、Anthropic IPO、黄仁勋听证会、英伟达与阿里腾讯财报",
+      "extra": {
+        "date": 1794742912000
+      },
+      "url": "https://wallstreetcn.com/articles/3785932"
+    },
+    {
+      "id": 41960182,
+      "title": "如果调查证明没有违法，黄仁勋应该重任英伟达CEO？",
+      "extra": {
+        "date": 1794742481000
+      },
+      "url": "https://wallstreetcn.com/charts/41960182"
+    },
+    {
+      "id": 3785965,
+      "title": "最黑暗处最光明",
+      "extra": {
+        "date": 1794741066000
+      },
+      "url": "https://wallstreetcn.com/articles/3785965"
+    }
+  ]
+}

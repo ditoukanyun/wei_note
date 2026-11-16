@@ -1,0 +1,51 @@
+{
+  "source": "github",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/dream-num/univer",
+      "title": "dream-num /      univer",
+      "id": "/dream-num/univer",
+      "extra": {
+        "info": "✰ 25,593",
+        "hover": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core."
+      }
+    },
+    {
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "title": "ag-ui-protocol /      ag-ui",
+      "id": "/ag-ui-protocol/ag-ui",
+      "extra": {
+        "info": "✰ 17,833",
+        "hover": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications."
+      }
+    },
+    {
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "title": "google-labs-code /      stitch-skills",
+      "id": "/google-labs-code/stitch-skills",
+      "extra": {
+        "info": "✰ 9,278",
+        "hover": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor."
+      }
+    },
+    {
+      "url": "https://github.com/backnotprop/plannotator",
+      "title": "backnotprop /      plannotator",
+      "id": "/backnotprop/plannotator",
+      "extra": {
+        "info": "✰ 11,820",
+        "hover": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click."
+      }
+    },
+    {
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "title": "ChromeDevTools /      chrome-devtools-mcp",
+      "id": "/ChromeDevTools/chrome-devtools-mcp",
+      "extra": {
+        "info": "✰ 56,900",
+        "hover": "Chrome DevTools for coding agents"
+      }
+    }
+  ]
+}
