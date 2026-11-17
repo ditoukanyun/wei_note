@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-quick",
+  "count": 5,
+  "items": [
+    {
+      "id": 3200898,
+      "title": "雷诺拟在法国裁减最多1,000个白领岗位，并对EV生产部门扩员",
+      "extra": {
+        "date": 1794873615000
+      },
+      "url": "https://wallstreetcn.com/livenews/3200898"
+    },
+    {
+      "id": 3200897,
+      "title": "中国即将发行或正在发行的国债和政策性金融债",
+      "extra": {
+        "date": 1794873600000
+      },
+      "url": "https://wallstreetcn.com/livenews/3200897"
+    },
+    {
+      "id": 3200896,
+      "title": "中国即将发行或正在发行的地方政府债",
+      "extra": {
+        "date": 1794873600000
+      },
+      "url": "https://wallstreetcn.com/livenews/3200896"
+    },
+    {
+      "id": 3200895,
+      "title": "华泰证券：内需消费景气或底部反转 涨价链、制造、AI链结构性亮点延续",
+      "extra": {
+        "date": 1794872728000
+      },
+      "url": "https://wallstreetcn.com/livenews/3200895"
+    },
+    {
+      "id": 3200894,
+      "title": "纳斯达克23小时制交易渐近 全球化赛道联动性或增强",
+      "extra": {
+        "date": 1794872198000
+      },
+      "url": "https://wallstreetcn.com/livenews/3200894"
+    }
+  ]
+}

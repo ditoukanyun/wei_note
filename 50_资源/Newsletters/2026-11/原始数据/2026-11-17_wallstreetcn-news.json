@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3786058,
+      "title": "张瑜：消费或在供给出清——10月经济数据点评",
+      "extra": {
+        "date": 1794873294000
+      },
+      "url": "https://wallstreetcn.com/articles/3786058"
+    },
+    {
+      "id": 3786059,
+      "title": "腾讯内部讲话曝光，马化腾：浪已经杀过来了，远处的浪潮已经在吞没一个个山丘，你不能还坐着欣赏",
+      "extra": {
+        "date": 1794873205000
+      },
+      "url": "https://wallstreetcn.com/articles/3786059"
+    },
+    {
+      "id": 3786057,
+      "title": "英伟达三季度美股持仓缩水逾151亿美元，减持英特尔、增持SpaceX",
+      "extra": {
+        "date": 1794872531000
+      },
+      "url": "https://wallstreetcn.com/articles/3786057"
+    },
+    {
+      "id": 3786056,
+      "title": "特斯拉拟投30亿欧元扩建德国工厂生产Cybercab，高管称2029年投产",
+      "extra": {
+        "date": 1794871486000
+      },
+      "url": "https://wallstreetcn.com/articles/3786056"
+    },
+    {
+      "id": 3785998,
+      "title": "红果进客厅：广电牌照会成为新一轮短剧红利的入口吗？",
+      "extra": {
+        "date": 1794871468000
+      },
+      "url": "https://wallstreetcn.com/member/articles/3785998"
+    }
+  ]
+}

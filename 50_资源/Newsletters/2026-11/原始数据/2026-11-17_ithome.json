@@ -1,0 +1,36 @@
+{
+  "source": "ithome",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.ithome.com/1/028/034.htm",
+      "title": "AMD FSR 4.1 超分 +4 代帧生成技术首次落地 Vulkan 引擎：《毁灭战士：黑暗时代》游戏 5 号更新上线",
+      "id": "https://www.ithome.com/1/028/034.htm",
+      "pubDate": 1794873281000
+    },
+    {
+      "url": "https://www.ithome.com/1/027/998.htm",
+      "title": "英伟达发布 Rubin HPC GPU：单卡超 5 万 CUDA 核心创纪录，预计 2028 年上市",
+      "id": "https://www.ithome.com/1/027/998.htm",
+      "pubDate": 1794873138000
+    },
+    {
+      "url": "https://www.ithome.com/1/028/033.htm",
+      "title": "苹果 iOS 27.3 测试版新增 Siri AI 每日限额，付费订阅 iCloud+ 可提升 2~20 倍",
+      "id": "https://www.ithome.com/1/028/033.htm",
+      "pubDate": 1794873018000
+    },
+    {
+      "url": "https://www.ithome.com/1/028/032.htm",
+      "title": "消息称黄仁勋回归尚未进入英伟达董事会议程，已有 18 万人联署呼吁复职",
+      "id": "https://www.ithome.com/1/028/032.htm",
+      "pubDate": 1794872459000
+    },
+    {
+      "url": "https://www.ithome.com/1/028/031.htm",
+      "title": "问界新 M8 率先进驻 AITO 用户中心，华为终端门店停止接单",
+      "id": "https://www.ithome.com/1/028/031.htm",
+      "pubDate": 1794872424000
+    }
+  ]
+}

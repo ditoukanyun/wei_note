@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8y7NKG4EaNn",
+      "url": "https://news.ifeng.com/c/8y7NKG4EaNn",
+      "title": "美国，又发生了一件不该发生的事情",
+      "extra": {
+        "date": "2026-11-17 07:12:52"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8y6JvrzphiL",
+      "url": "https://news.ifeng.com/c/8y6JvrzphiL",
+      "title": "黄仁勋事件反转？倒黄势力仍紧追不舍",
+      "extra": {}
+    },
+    {
+      "id": "https://tech.ifeng.com/c/8y6K7vIGp2A",
+      "url": "https://tech.ifeng.com/c/8y6K7vIGp2A",
+      "title": "黄仁勋想复出？贝森特表态",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8y6dTXjLmQU",
+      "url": "https://news.ifeng.com/c/8y6dTXjLmQU",
+      "title": "亚马尔转发带有明显侮辱亚裔和华人的视频？西甲联盟：系伪造",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8y6eXewcinL",
+      "url": "https://news.ifeng.com/c/8y6eXewcinL",
+      "title": "万斯“接班人”地位生变？克鲁兹已开始准备、德桑蒂斯也在考虑",
+      "extra": {}
+    }
+  ]
+}
