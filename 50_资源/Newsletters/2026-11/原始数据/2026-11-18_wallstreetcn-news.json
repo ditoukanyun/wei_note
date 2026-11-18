@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3786139,
+      "title": "NSA内网中断、苹果服务受扰、Equinor遭网络攻击，FBI警告黑客利用AI入侵",
+      "extra": {
+        "date": 1794958673000
+      },
+      "url": "https://wallstreetcn.com/articles/3786139"
+    },
+    {
+      "id": 3786140,
+      "title": "英伟达业绩超预期，盘后大涨5%助推纳指走强，美芯片股反弹",
+      "extra": {
+        "date": 1794957718000
+      },
+      "url": "https://wallstreetcn.com/articles/3786140"
+    },
+    {
+      "id": 3786137,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月18日",
+      "extra": {
+        "date": 1794957441000
+      },
+      "url": "https://wallstreetcn.com/articles/3786137"
+    },
+    {
+      "id": 3786136,
+      "title": "英伟达电话会：“不打算请回黄仁勋”，2028年增速预期上调至75%，AI投资将更加“克制与挑剔”",
+      "extra": {
+        "date": 1794956669000
+      },
+      "url": "https://wallstreetcn.com/articles/3786136"
+    },
+    {
+      "id": 3786138,
+      "title": "美联储库克律师：库克不会出席白宫听证，特朗普已作出开除决定，委员会是“幌子”",
+      "extra": {
+        "date": 1794956056000
+      },
+      "url": "https://wallstreetcn.com/articles/3786138"
+    }
+  ]
+}

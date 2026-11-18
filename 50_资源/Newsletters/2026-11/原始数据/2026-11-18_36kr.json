@@ -1,0 +1,46 @@
+{
+  "source": "36kr",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.36kr.com/newsflashes/4074492542932104",
+      "title": "英伟达将2028财年营收增长预期上调至约75%",
+      "id": "/newsflashes/4074492542932104",
+      "extra": {
+        "date": 1794960003688
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4074492054213765",
+      "title": "中信建投：旗舰模型与Agent产品持续升级，继续看好头部平台",
+      "id": "/newsflashes/4074492054213765",
+      "extra": {
+        "date": 1794959896688
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4074491725583495",
+      "title": "OpenAI发布GPT-6.2 Astra和Sol，强化专业工作与日常任务能力",
+      "id": "/newsflashes/4074491725583495",
+      "extra": {
+        "date": 1794959716688
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4074488421061512",
+      "title": "美国参议员沃伦：应禁止总统持有和交易个股",
+      "id": "/newsflashes/4074488421061512",
+      "extra": {
+        "date": 1794959596688
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4074486517240706",
+      "title": "英伟达披露最高1180亿美元担保敞口，其中1050亿美元涉及OpenAI数据中心项目",
+      "id": "/newsflashes/4074486517240706",
+      "extra": {
+        "date": 1794959476689
+      }
+    }
+  ]
+}

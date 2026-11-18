@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8y8Bh3CMkoX",
+      "url": "https://news.ifeng.com/c/8y8Bh3CMkoX",
+      "title": "英特尔CEO陈立武遭股东集体诉讼，诉讼书详情披露",
+      "extra": {
+        "date": "2026-11-17 18:53:03"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8y8QRBh2ViW",
+      "url": "https://news.ifeng.com/c/8y8QRBh2ViW",
+      "title": "胡锡进：伊朗往华盛顿扔“脏弹”，像是“美国准备收手了”的叙事",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8y8McQjSFzZ",
+      "url": "https://news.ifeng.com/c/8y8McQjSFzZ",
+      "title": "黄仁勋X账号蓝V认证回来了",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8y7qFoCdcas",
+      "url": "https://news.ifeng.com/c/8y7qFoCdcas",
+      "title": "英伟达暴跌35%，空头狂赚240亿美元",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8y7vg9ZjBu8",
+      "url": "https://news.ifeng.com/c/8y7vg9ZjBu8",
+      "title": "胡塞武装逼近亚丁，联军换帅",
+      "extra": {}
+    }
+  ]
+}

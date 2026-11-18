@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-hot-video",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV1jgsz6KEWP",
+      "title": "蚌埠住的时候就抽出七匹狼",
+      "url": "https://www.bilibili.com/video/BV1jgsz6KEWP",
+      "pubDate": 1794912409000,
+      "extra": {
+        "info": "凶鸭栗 · 81w+观看 · 3w+点赞",
+        "hover": "",
+        "icon": "http://i2.hdslb.com/bfs/archive/82eca3abe41ff4f6d72cbe8bc3aff88b45a6d7b4.jpg"
+      }
+    },
+    {
+      "id": "BV1fDsu6xEyA",
+      "title": "钢铁侠给贾维斯装上病娇插件，这下玩大了",
+      "url": "https://www.bilibili.com/video/BV1fDsu6xEyA",
+      "pubDate": 1794896665000,
+      "extra": {
+        "info": "西伯利亚冬泳怪鸽 · 52w+观看 · 3w+点赞",
+        "hover": "",
+        "icon": "http://i0.hdslb.com/bfs/archive/d8b1550881c8c9182e7e750ff5a581a1706eec7e.jpg"
+      }
+    },
+    {
+      "id": "BV16ssM6sE2A",
+      "title": "高中生吸未知物质，当场喷红花油成中微子",
+      "url": "https://www.bilibili.com/video/BV16ssM6sE2A",
+      "pubDate": 1794888000000,
+      "extra": {
+        "info": "糟糕的历史-听文知 · 58w+观看 · 2w+点赞",
+        "hover": "",
+        "icon": "http://i0.hdslb.com/bfs/archive/066c737ad8d4ddcc205a1b3dfada5359aef93cdf.jpg"
+      }
+    },
+    {
+      "id": "BV1ojWq68E1D",
+      "title": "【完结】财神窦占龙 第16集 归乡【8月国创】",
+      "url": "https://www.bilibili.com/video/BV1ojWq68E1D",
+      "pubDate": 1794704402000,
+      "extra": {
+        "info": "哔哩哔哩国创 · 43w+观看 · 1843点赞",
+        "hover": "窦占龙雨战刀疤脸，心魔揭开窦家秘辛",
+        "icon": "http://i2.hdslb.com/bfs/archive/284b0134c6615d2c616b0de6723b8fe603df4701.jpg"
+      }
+    },
+    {
+      "id": "BV1xFs36uEvE",
+      "title": "【蜘蛛侠/MJ】非凡之爱真人版",
+      "url": "https://www.bilibili.com/video/BV1xFs36uEvE",
+      "pubDate": 1794885746000,
+      "extra": {
+        "info": "Crazy-face · 83w+观看 · 4w+点赞",
+        "hover": "-",
+        "icon": "http://i2.hdslb.com/bfs/archive/0df10664c91825200c46d45ecc34af35a1ce38ea.jpg"
+      }
+    }
+  ]
+}
