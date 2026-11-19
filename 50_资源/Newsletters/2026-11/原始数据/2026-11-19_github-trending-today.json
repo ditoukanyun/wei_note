@@ -1,0 +1,51 @@
+{
+  "source": "github-trending-today",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "title": "elementalsouls /      Claude-BugHunter",
+      "id": "/elementalsouls/Claude-BugHunter",
+      "extra": {
+        "info": "✰ 11,340",
+        "hover": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices."
+      }
+    },
+    {
+      "url": "https://github.com/cursor/plugins",
+      "title": "cursor /      plugins",
+      "id": "/cursor/plugins",
+      "extra": {
+        "info": "✰ 17,183",
+        "hover": "Cursor plugin specification and official plugins"
+      }
+    },
+    {
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "title": "HKUDS /      CLI-Anything",
+      "id": "/HKUDS/CLI-Anything",
+      "extra": {
+        "info": "✰ 59,719",
+        "hover": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+      }
+    },
+    {
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "title": "mvanhorn /      last30days-skill",
+      "id": "/mvanhorn/last30days-skill",
+      "extra": {
+        "info": "✰ 69,974",
+        "hover": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+      }
+    },
+    {
+      "url": "https://github.com/getarcaneapp/arcane",
+      "title": "getarcaneapp /      arcane",
+      "id": "/getarcaneapp/arcane",
+      "extra": {
+        "info": "✰ 9,781",
+        "hover": "Modern Docker Management, Designed for Everyone"
+      }
+    }
+  ]
+}

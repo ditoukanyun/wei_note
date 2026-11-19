@@ -1,0 +1,51 @@
+{
+  "source": "douban",
+  "count": 5,
+  "items": [
+    {
+      "id": "36847425",
+      "title": "可能的爱",
+      "url": "https://movie.douban.com/subject/36847425",
+      "extra": {
+        "info": "2026 / 韩国 / 剧情 爱情",
+        "hover": "2026 / 韩国 / 剧情 爱情 / 李沧东 / 全度妍 薛景求"
+      }
+    },
+    {
+      "id": "36943431",
+      "title": "疯狂舞蹈办公室",
+      "url": "https://movie.douban.com/subject/36943431",
+      "extra": {
+        "info": "2026 / 韩国 / 喜剧",
+        "hover": "2026 / 韩国 / 喜剧 / 赵娴珍 / 廉惠兰 崔成恩"
+      }
+    },
+    {
+      "id": "37107254",
+      "title": "末世行者",
+      "url": "https://movie.douban.com/subject/37107254",
+      "extra": {
+        "info": "2026 / 英国 美国 / 动作 科幻 惊悚",
+        "hover": "2026 / 英国 美国 / 动作 科幻 惊悚 / 雷德利·斯科特 / 雅各布·艾洛蒂 玛格丽特·库里"
+      }
+    },
+    {
+      "id": "37811556",
+      "title": "狗狗的完美圣诞节",
+      "url": "https://movie.douban.com/subject/37811556",
+      "extra": {
+        "info": "2026 / 加拿大 / 剧情",
+        "hover": "2026 / 加拿大 / 剧情 / 凯瑟琳·迈克 / 丹尼斯·奎德 米洛·文堤米利亚"
+      }
+    },
+    {
+      "id": "37317907",
+      "title": "另一个妈妈",
+      "url": "https://movie.douban.com/subject/37317907",
+      "extra": {
+        "info": "2026 / 美国 爱尔兰 / 恐怖",
+        "hover": "2026 / 美国 爱尔兰 / 恐怖 / 罗布·萨维奇 / 杰西卡·查斯坦 杰伊·杜普拉斯"
+      }
+    }
+  ]
+}

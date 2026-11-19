@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3786235,
+      "title": "穆迪：下调英伟达评级展望，治理隐患盖过财务实力",
+      "extra": {
+        "date": 1795045369000
+      },
+      "url": "https://wallstreetcn.com/articles/3786235"
+    },
+    {
+      "id": 3786222,
+      "title": "史上最大IPO周四上市！Anthropic定价83美元，募资940亿美元、估值1.5万亿",
+      "extra": {
+        "date": 1795045042000
+      },
+      "url": "https://wallstreetcn.com/articles/3786222"
+    },
+    {
+      "id": 3786233,
+      "title": "英伟达临时CEO承诺提前加薪安抚员工",
+      "extra": {
+        "date": 1795044393000
+      },
+      "url": "https://wallstreetcn.com/articles/3786233"
+    },
+    {
+      "id": 3786234,
+      "title": "半年最大降幅！海外美债持仓9月锐减，中日英三大“债主”齐减持，中国持债再创08年来新低",
+      "extra": {
+        "date": 1795043697000
+      },
+      "url": "https://wallstreetcn.com/articles/3786234"
+    },
+    {
+      "id": 3786237,
+      "title": "油价延续下跌：美国原油库存连续第二周增加，产量创历史新高，市场定价转向供需",
+      "extra": {
+        "date": 1795043686000
+      },
+      "url": "https://wallstreetcn.com/articles/3786237"
+    }
+  ]
+}

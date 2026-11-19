@@ -1,0 +1,36 @@
+{
+  "source": "ithome",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.ithome.com/1/029/144.htm",
+      "title": "谷歌推出 Gemini 4 Neon 模型，AA 编程 AI 智能体指数超 Claude Opus 5.5 排第一",
+      "id": "https://www.ithome.com/1/029/144.htm",
+      "pubDate": 1795046031000
+    },
+    {
+      "url": "https://www.ithome.com/1/029/143.htm",
+      "title": "马斯克、奥尔特曼、纳德拉等人出席 DealBook 峰会，回应热点问题",
+      "id": "https://www.ithome.com/1/029/143.htm",
+      "pubDate": 1795045194000
+    },
+    {
+      "url": "https://www.ithome.com/1/029/142.htm",
+      "title": "IT早报 1119：智界获车辆独立生产资质；董明珠回应格力利润下降仍不用铝代铜；苹果 iPhoneDuo 铰链风波升级；华为 HarmonyOS 7 设备占比突破 82%...",
+      "id": "https://www.ithome.com/1/029/142.htm",
+      "pubDate": 1795045066000
+    },
+    {
+      "url": "https://www.ithome.com/1/029/141.htm",
+      "title": "2GB 内存的手机也能流畅用 AI，谷歌降低安卓 Gemini App 使用门槛",
+      "id": "https://www.ithome.com/1/029/141.htm",
+      "pubDate": 1795044747000
+    },
+    {
+      "url": "https://www.ithome.com/1/029/140.htm",
+      "title": "地平线发布 LoFT 原生视频几何基础模型，多项指标达到 SoTA",
+      "id": "https://www.ithome.com/1/029/140.htm",
+      "pubDate": 1795044603000
+    }
+  ]
+}

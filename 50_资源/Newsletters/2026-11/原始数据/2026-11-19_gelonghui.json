@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5357016",
+      "title": "李氏大药厂(00950.HK)拟收购设备 代价最高为766.84万美元",
+      "id": "/news/5357016",
+      "extra": {
+        "date": 1795045056408,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5357015",
+      "title": "白鸽在线(02672.HK)与申能财产保险等三家保险公司签订战略合作协议",
+      "id": "/news/5357015",
+      "extra": {
+        "date": 1795042836409,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5357014",
+      "title": "星空华文(06698.HK)11月18日回购4700股",
+      "id": "/news/5357014",
+      "extra": {
+        "date": 1795042836409,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5356952",
+      "title": "Evercore ISI下调英伟达目标价至184美元",
+      "id": "/news/5356952",
+      "extra": {
+        "date": 1795015800000,
+        "info": "大行评级"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5356951",
+      "title": "美股异动｜大摩看法转为更积极，网络安全概念股逆势上涨，SentinelOne涨超7%",
+      "id": "/news/5356951",
+      "extra": {
+        "date": 1795015260000,
+        "info": "大行评级"
+      }
+    }
+  ]
+}
