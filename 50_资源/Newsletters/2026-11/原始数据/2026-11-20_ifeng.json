@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8yBj2ss25v1",
+      "url": "https://news.ifeng.com/c/8yBj2ss25v1",
+      "title": "特朗普：我们创造了历史",
+      "extra": {
+        "date": "2026-11-19 21:50:39"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8yBj2ss25yE",
+      "url": "https://news.ifeng.com/c/8yBj2ss25yE",
+      "title": "普京透露三方会晤细节：自由讨论让我印象深刻",
+      "extra": {}
+    },
+    {
+      "id": "https://original.ifeng.com/c/8yBXBZytLIb",
+      "url": "https://original.ifeng.com/c/8yBXBZytLIb",
+      "title": "特朗普乘空军一号离开深圳，结束APEC之行",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8yBKGeKfJ9A",
+      "url": "https://news.ifeng.com/c/8yBKGeKfJ9A",
+      "title": "特朗普：美国不支持“台独”",
+      "extra": {}
+    },
+    {
+      "id": "https://original.ifeng.com/c/8yBL2GQdepN",
+      "url": "https://original.ifeng.com/c/8yBL2GQdepN",
+      "title": "特朗普谈访华感受：场面盛大，展现极大尊重，我对此心怀感激",
+      "extra": {}
+    }
+  ]
+}

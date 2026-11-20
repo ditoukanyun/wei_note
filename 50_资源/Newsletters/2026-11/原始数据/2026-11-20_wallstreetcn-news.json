@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 41960204,
+      "title": "“蓝色狂潮”后，民主党瞄准马斯克",
+      "extra": {
+        "date": 1795131646000
+      },
+      "url": "https://wallstreetcn.com/charts/41960204"
+    },
+    {
+      "id": 3786323,
+      "title": "11月20日会员早报：Anthropic完成史上最大IPO AMD股价盘中重挫11%",
+      "extra": {
+        "date": 1795130441000
+      },
+      "url": "https://wallstreetcn.com/member/articles/3786323"
+    },
+    {
+      "id": 3786317,
+      "title": "苹果公司正开发自家AI智能体，以期与OpenAI、Anthropic竞争",
+      "extra": {
+        "date": 1795130280000
+      },
+      "url": "https://wallstreetcn.com/articles/3786317"
+    },
+    {
+      "id": 3786322,
+      "title": "黑客经第三方泄露Visa、万事达和摩根大通部分客户数据，三家称支付网络未中断",
+      "extra": {
+        "date": 1795130083000
+      },
+      "url": "https://wallstreetcn.com/articles/3786322"
+    },
+    {
+      "id": 3786319,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月20日",
+      "extra": {
+        "date": 1795129802000
+      },
+      "url": "https://wallstreetcn.com/articles/3786319"
+    }
+  ]
+}

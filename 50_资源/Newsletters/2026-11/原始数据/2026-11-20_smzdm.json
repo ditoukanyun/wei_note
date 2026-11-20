@@ -1,0 +1,51 @@
+{
+  "source": "smzdm",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://post.smzdm.com/p/aomq3n67/",
+      "title": "群晖补上9.8漏洞，但这代机型快没补丁可打了",
+      "url": "https://post.smzdm.com/p/aomq3n67/",
+      "pubDate": 1795132684000,
+      "extra": {
+        "hover": "十月底的勒索风暴余波未平，11月中旬群晖又推送了 SA-26:19 安全更新：其中的 CVE-2026-76954 拿到 CVSS 9.8 分——不用账号密码，只要你的 NAS 还暴露在公网，攻击者就..."
+      }
+    },
+    {
+      "id": "https://post.smzdm.com/p/a6z4kek0/",
+      "title": "直降七千的6K雷电5屏：比4K更锐，但这两道门槛绕不开",
+      "url": "https://post.smzdm.com/p/a6z4kek0/",
+      "pubDate": 1795132601000,
+      "extra": {
+        "hover": "如果你是为显示器预算卡在一两万之间的Mac用户，最近有个绕不开的新选项。全球首款把6K和雷电5攒到一块的LG UltraFine evo（国行32U990A-S），2025年10月在天津办的国内首发，..."
+      }
+    },
+    {
+      "id": "https://post.smzdm.com/p/aqrzvov2/",
+      "title": "AMD放出\"A\"字定档明年1月5日：RDNA5光追翻倍，但都是网友猜的",
+      "url": "https://post.smzdm.com/p/aqrzvov2/",
+      "pubDate": 1795132647000,
+      "extra": {
+        "hover": "AMD放出\"A\"字定档明年1月5日：RDNA5光追翻倍，但都是网友猜的11月18日，AMD高管Jack Huynh甩出一张神秘海报：一个\"A\"字，外加一行时间——美国时间2027年1月5日上午10点。..."
+      }
+    },
+    {
+      "id": "https://post.smzdm.com/p/axkdnq84/",
+      "title": "商场打卡0元购火了：冰箱贴白送，但你付出的不是钱",
+      "url": "https://post.smzdm.com/p/axkdnq84/",
+      "pubDate": 1795132685000,
+      "extra": {
+        "hover": "11月的羊毛党们不太一样：不蹲外卖券、不抄奶茶口令，改去商场“扫楼”了。小红书笔记《十一月最新白鹅潭万象城0元购来啦》拿下1501个赞，博主从B1到L6整出一张20多家店的清单：冰箱贴、彩铅、发带、挂..."
+      }
+    },
+    {
+      "id": "https://post.smzdm.com/p/a5rpw2wx/",
+      "title": "6.37英寸塞进8000mAh，小屏手机不用再妥协了",
+      "url": "https://post.smzdm.com/p/a5rpw2wx/",
+      "pubDate": 1795132602000,
+      "extra": {
+        "hover": "如果到现在还觉得\"小屏=妥协\"，你的印象大概停在两三年前。当时小屏党的日子是这样的：13 mini用户自己总结，“mini的手感完爆所有后续机器，就是夏天有点热电量有点小”。电池、发热、拍照三连砍，撑..."
+      }
+    }
+  ]
+}

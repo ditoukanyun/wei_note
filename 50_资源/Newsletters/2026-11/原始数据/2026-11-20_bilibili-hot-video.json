@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-hot-video",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV1v7s86zE7f",
+      "title": "尾随NPC的真实反应",
+      "url": "https://www.bilibili.com/video/BV1v7s86zE7f",
+      "pubDate": 1795066710000,
+      "extra": {
+        "info": "叶猫Gamer · 139w+观看 · 6w+点赞",
+        "hover": "好玩",
+        "icon": "http://i0.hdslb.com/bfs/archive/57492a779ff30c8e090f9b2ca4d38918ff21bab0.jpg"
+      }
+    },
+    {
+      "id": "BV1XGsU6REC5",
+      "title": "坐牢难，但出狱其实更难，如果你犯罪了，你会面临什么样的人生",
+      "url": "https://www.bilibili.com/video/BV1XGsU6REC5",
+      "pubDate": 1794988800000,
+      "extra": {
+        "info": "东八区赵光辉 · 246w+观看 · 13w+点赞",
+        "hover": "",
+        "icon": "http://i0.hdslb.com/bfs/archive/dcbc9b46210ba86daf03178c97ac45fe91a882f5.jpg"
+      }
+    },
+    {
+      "id": "BV1p5sm6vEJe",
+      "title": "最败家的一次",
+      "url": "https://www.bilibili.com/video/BV1p5sm6vEJe",
+      "pubDate": 1794991197000,
+      "extra": {
+        "info": "白菜家的AMD · 139w+观看 · 9w+点赞",
+        "hover": "",
+        "icon": "http://i0.hdslb.com/bfs/archive/0c9d04aefd1d7025e5b90ab013f18fa71fb365dc.jpg"
+      }
+    },
+    {
+      "id": "BV1Tksm6jERV",
+      "title": "【纪录片】人生一串 第四季 03 十二时辰",
+      "url": "https://www.bilibili.com/video/BV1Tksm6jERV",
+      "pubDate": 1795057202000,
+      "extra": {
+        "info": "哔哩哔哩纪录片 · 138w+观看 · 6794点赞",
+        "hover": "从清晨的微光到深夜的霓虹，烧烤摊的炉火从未真正熄灭。本集以“早、中、晚、深夜”四个时段为轴，展现烧烤如何随昼夜流转变换节奏、口味与人情。它不只是夜宵，更是城市生活的节拍器——有人用一串晨肉唤醒一天，有人靠几把炭火抚平长夜的疲惫。",
+        "icon": "http://i1.hdslb.com/bfs/archive/c4dff1bc46fbeedcc5a45cc95e580e072c8ea0ed.jpg"
+      }
+    },
+    {
+      "id": "BV1sKs16AEWv",
+      "title": "⚡霸 爸 去 哪 儿⚡",
+      "url": "https://www.bilibili.com/video/BV1sKs16AEWv",
+      "pubDate": 1795060800000,
+      "extra": {
+        "info": "洛温阿特金森 · 71w+观看 · 3w+点赞",
+        "hover": "",
+        "icon": "http://i1.hdslb.com/bfs/archive/0a71f6657b5336939d42b18b73d2c983e64646e2.jpg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "source": "github-trending-today",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "title": "elementalsouls /      Claude-BugHunter",
+      "id": "/elementalsouls/Claude-BugHunter",
+      "extra": {
+        "info": "✰ 12,488",
+        "hover": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices."
+      }
+    },
+    {
+      "url": "https://github.com/obra/superpowers",
+      "title": "obra /      superpowers",
+      "id": "/obra/superpowers",
+      "extra": {
+        "info": "✰ 322,058",
+        "hover": "An agentic skills framework & software development methodology that works."
+      }
+    },
+    {
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "title": "HKUDS /      CLI-Anything",
+      "id": "/HKUDS/CLI-Anything",
+      "extra": {
+        "info": "✰ 60,534",
+        "hover": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+      }
+    },
+    {
+      "url": "https://github.com/jingyaogong/minimind",
+      "title": "jingyaogong /      minimind",
+      "id": "/jingyaogong/minimind",
+      "extra": {
+        "info": "✰ 66,838",
+        "hover": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours."
+      }
+    },
+    {
+      "url": "https://github.com/cursor/plugins",
+      "title": "cursor /      plugins",
+      "id": "/cursor/plugins",
+      "extra": {
+        "info": "✰ 17,548",
+        "hover": "Cursor plugin specification and official plugins"
+      }
+    }
+  ]
+}

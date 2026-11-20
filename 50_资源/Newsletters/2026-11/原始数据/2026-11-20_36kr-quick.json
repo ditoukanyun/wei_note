@@ -1,0 +1,46 @@
+{
+  "source": "36kr-quick",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.36kr.com/newsflashes/4077331919033474",
+      "title": "苹果相机及照片软件业务负责人离职",
+      "id": "/newsflashes/4077331919033474",
+      "extra": {
+        "date": 1795132595625
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4077331444634761",
+      "title": "国金证券：AI芯片功耗与热点密度持续提升，推动高导热散热材料需求增长",
+      "id": "/newsflashes/4077331444634761",
+      "extra": {
+        "date": 1795132595626
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4077324480681090",
+      "title": "债市中期趋势不改，后市利率债或维持区间震荡格局",
+      "id": "/newsflashes/4077324480681090",
+      "extra": {
+        "date": 1795132535626
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4077301488325765",
+      "title": "巴斯夫宣布终止收购赢创",
+      "id": "/newsflashes/4077301488325765",
+      "extra": {
+        "date": 1795132415626
+      }
+    },
+    {
+      "url": "https://www.36kr.com/newsflashes/4077300290983046",
+      "title": "Blue Owl拟5.13亿美元收购亚马逊北弗吉尼亚数据中心",
+      "id": "/newsflashes/4077300290983046",
+      "extra": {
+        "date": 1795132235626
+      }
+    }
+  ]
+}
