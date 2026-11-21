@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8yD7VuAP2Qn",
+      "url": "https://news.ifeng.com/c/8yD7VuAP2Qn",
+      "title": "世卫组织总干事中国候选人宋莉，阐述竞选主张",
+      "extra": {
+        "date": "2026-11-20 14:45:50"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8yE10bk3Ajy",
+      "url": "https://news.ifeng.com/c/8yE10bk3Ajy",
+      "title": "特朗普找她当“接盘侠”，曾吹嘘要超越中俄(图)",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8yDQx7oJHSZ",
+      "url": "https://news.ifeng.com/c/8yDQx7oJHSZ",
+      "title": "日本政府关键网络业务系统遭非法访问",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8yDCLbA0PWU",
+      "url": "https://news.ifeng.com/c/8yDCLbA0PWU",
+      "title": "高市早苗拍特朗普后背套近乎被无视，日网民连呼“没眼看”",
+      "extra": {}
+    },
+    {
+      "id": "https://original.ifeng.com/c/8yCuUmFYrtR",
+      "url": "https://original.ifeng.com/c/8yCuUmFYrtR",
+      "title": "普京和高市早苗在深圳谈了什么？日本官方披露内幕",
+      "extra": {}
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5359404",
+      "title": "南南资源(01229.HK)：预计中期溢利不少于约4500万港元",
+      "id": "/news/5359404",
+      "extra": {
+        "date": 1795187220000,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5359403",
+      "title": "数科集团(02350.HK)盈警：预计中期亏损约2370万港元",
+      "id": "/news/5359403",
+      "extra": {
+        "date": 1795186500000,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5359402",
+      "title": "云锋金融(00376.HK)：海欧及肖风获委任为提名委员会成员",
+      "id": "/news/5359402",
+      "extra": {
+        "date": 1795186440000,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5359401",
+      "title": "维亮控股(08612.HK)：韩旭获委任为执行董事",
+      "id": "/news/5359401",
+      "extra": {
+        "date": 1795185600000,
+        "info": "港股公告摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5359400",
+      "title": "威高股份(01066.HK)：联交所就公司H股全流通授出上市批准",
+      "id": "/news/5359400",
+      "extra": {
+        "date": 1795185420000,
+        "info": "港股公告摘要"
+      }
+    }
+  ]
+}

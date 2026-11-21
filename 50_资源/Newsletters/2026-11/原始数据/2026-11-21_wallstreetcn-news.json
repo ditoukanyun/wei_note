@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3786416,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月21日",
+      "extra": {
+        "date": 1795217539000
+      },
+      "url": "https://wallstreetcn.com/articles/3786416"
+    },
+    {
+      "id": 3786410,
+      "title": "特朗普称美墨贸易协议接近达成，美加谈判进展滞后",
+      "extra": {
+        "date": 1795216588000
+      },
+      "url": "https://wallstreetcn.com/articles/3786410"
+    },
+    {
+      "id": 3786414,
+      "title": "发生了什么？AI交易雪崩！纳指跌超5%，AnthropicIPO次日险些破发，英伟达跌超10%",
+      "extra": {
+        "date": 1795216579000
+      },
+      "url": "https://wallstreetcn.com/articles/3786414"
+    },
+    {
+      "id": 3786330,
+      "title": "黑色星期五！美股和金属全线重挫，英伟达暴跌14%，VIX涨破35，美债五连涨",
+      "extra": {
+        "date": 1795215513000
+      },
+      "url": "https://wallstreetcn.com/articles/3786330"
+    },
+    {
+      "id": 3786417,
+      "title": "美联储理事库克为10月异见投票辩护：通胀压力紧迫，利率需更快上调",
+      "extra": {
+        "date": 1795215361000
+      },
+      "url": "https://wallstreetcn.com/articles/3786417"
+    }
+  ]
+}
