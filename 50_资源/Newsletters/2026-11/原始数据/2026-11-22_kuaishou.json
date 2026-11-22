@@ -1,0 +1,46 @@
+{
+  "source": "kuaishou",
+  "count": 5,
+  "items": [
+    {
+      "id": "今日小雪",
+      "title": "今日小雪",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E4%BB%8A%E6%97%A5%E5%B0%8F%E9%9B%AA",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "全国流感活动进入中流行水平",
+      "title": "全国流感活动进入中流行水平",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E5%85%A8%E5%9B%BD%E6%B5%81%E6%84%9F%E6%B4%BB%E5%8A%A8%E8%BF%9B%E5%85%A5%E4%B8%AD%E6%B5%81%E8%A1%8C%E6%B0%B4%E5%B9%B3",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "川滇金沙江特大桥建设完工",
+      "title": "川滇金沙江特大桥建设完工",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E5%B7%9D%E6%BB%87%E9%87%91%E6%B2%99%E6%B1%9F%E7%89%B9%E5%A4%A7%E6%A1%A5%E5%BB%BA%E8%AE%BE%E5%AE%8C%E5%B7%A5",
+      "extra": {
+        "icon": null
+      }
+    },
+    {
+      "id": "公安揭秘低价代缴取暖费骗局",
+      "title": "公安揭秘低价代缴取暖费骗局",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E5%85%AC%E5%AE%89%E6%8F%AD%E7%A7%98%E4%BD%8E%E4%BB%B7%E4%BB%A3%E7%BC%B4%E5%8F%96%E6%9A%96%E8%B4%B9%E9%AA%97%E5%B1%80",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    },
+    {
+      "id": "学生还没有逃离原生班级吗",
+      "title": "学生还没有逃离原生班级吗",
+      "url": "https://www.kuaishou.com/search/video?searchKey=%E5%AD%A6%E7%94%9F%E8%BF%98%E6%B2%A1%E6%9C%89%E9%80%83%E7%A6%BB%E5%8E%9F%E7%94%9F%E7%8F%AD%E7%BA%A7%E5%90%97",
+      "extra": {
+        "icon": "https://p66.a.yximgs.com/udata/pkg/nebula-app/rank_tag_new3x.png"
+      }
+    }
+  ]
+}

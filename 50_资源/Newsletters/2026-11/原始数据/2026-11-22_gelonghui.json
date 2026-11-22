@@ -1,0 +1,51 @@
+{
+  "source": "gelonghui",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.gelonghui.com/news/5359490",
+      "title": "从“天数地算”到“天基主算”：国星宇航上市，太空算力走向基础设施化",
+      "id": "/news/5359490",
+      "extra": {
+        "date": 1795262280000,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5359489",
+      "title": "AI时代最稀缺的能力，是联想集团这种“不烧钱的增长”",
+      "id": "/news/5359489",
+      "extra": {
+        "date": 1795253220000,
+        "info": "公司信息"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5359488",
+      "title": "华源证券：大型国有银行仍具红利价值，三季报国有行业绩增速延续修复态势",
+      "id": "/news/5359488",
+      "extra": {
+        "date": 1795242540000,
+        "info": "研报摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5359487",
+      "title": "中信建投食品饮料2027年投资策略：周期底部范式重构，红利守正成长出奇",
+      "id": "/news/5359487",
+      "extra": {
+        "date": 1795242000000,
+        "info": "研报摘要"
+      }
+    },
+    {
+      "url": "https://www.gelonghui.com/news/5359486",
+      "title": "中信建投：迎接MLCC超级周期， 重视产业链投资机遇",
+      "id": "/news/5359486",
+      "extra": {
+        "date": 1795241160000,
+        "info": "研报摘要"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "source": "bilibili-hot-video",
+  "count": 5,
+  "items": [
+    {
+      "id": "BV1jKsq6cEEP",
+      "title": "【IGN独家】《鸣潮：永明的烬焰》实机演示",
+      "url": "https://www.bilibili.com/video/BV1jKsq6cEEP",
+      "pubDate": 1795230000000,
+      "extra": {
+        "info": "IGN中国 · 397w+观看 · 26w+点赞",
+        "hover": "《鸣潮》即将于12月22日开启全新的年度篇章《永明的烬焰》，在4.0版本中玩家将可以使用全新共鸣者「安娜」、「露希尔」，并操纵名为「隧铠」的穿戴式机甲进行360度高机动性探索，甚至直接参与战斗。在即将到来的4.0版本中，漂泊者将率先抵达新联邦的布法罗山脉，以此为起点开启全新的冒险。本视频演示内容为开发中版本进度演示，不代表最终画面与品质。",
+        "icon": "http://i2.hdslb.com/bfs/archive/336534bb7ad630e967560852481755847f0e908b.jpg"
+      }
+    },
+    {
+      "id": "BV1rhyszPE6p",
+      "title": "《猫富贵 狗不让》",
+      "url": "https://www.bilibili.com/video/BV1rhyszPE6p",
+      "pubDate": 1795219200000,
+      "extra": {
+        "info": "IPx的粉红豹 · 100w+观看 · 5w+点赞",
+        "hover": "作词、翻唱：我\n原曲：陈奕迅《富士山下》\n视频素材来自网络",
+        "icon": "http://i0.hdslb.com/bfs/archive/eee984a8362d17685909d21cd946316b0bf64643.jpg"
+      }
+    },
+    {
+      "id": "BV1bGysz7EoD",
+      "title": "《我救不死你》",
+      "url": "https://www.bilibili.com/video/BV1bGysz7EoD",
+      "pubDate": 1795233600000,
+      "extra": {
+        "info": "伤心欲茄222 · 154w+观看 · 9w+点赞",
+        "hover": "-",
+        "icon": "http://i0.hdslb.com/bfs/archive/5444bdd2014eb5beb1026b35de244efb036756be.jpg"
+      }
+    },
+    {
+      "id": "BV1cesv6PEM4",
+      "title": "【纪录片】守护解放西·传承季 第1集 守护不止解放西",
+      "url": "https://www.bilibili.com/video/BV1cesv6PEM4",
+      "pubDate": 1795176002000,
+      "extra": {
+        "info": "哔哩哔哩纪录片 · 546w+观看 · 2w+点赞",
+        "hover": "守护继续，三所联动，三个案件来自三个不同警组，1.线下演出借由演戏发挥的暴力事件；2.老年黄昏恋里的爱恨情仇；3.入室猥亵后警察六小时破案抓捕犯人。",
+        "icon": "http://i2.hdslb.com/bfs/archive/40e6ec66a29321a9111eac8d5adf1e119a0b09fc.jpg"
+      }
+    },
+    {
+      "id": "BV1nuyWz8E7t",
+      "title": "炒蔬菜的底层逻辑：4种方法搞定99%的蔬菜？",
+      "url": "https://www.bilibili.com/video/BV1nuyWz8E7t",
+      "pubDate": 1795167620000,
+      "extra": {
+        "info": "我的样子平平无奇 · 120w+观看 · 4w+点赞",
+        "hover": "BGM\nAC／DC - Big Gun\n野肆乐队Reckless Abandon - 社会生死论\n贊詩 - 跳金水河\n扎进心脏的智齿 - 頂樓上五十個我先矛盾的理由\n塞壬唱片-MSR,Erik Castro - 近尘烟\n声音碎片乐队 - 优美的低于生活\n当代电影大师 - 我常常有一种感觉\n许冠杰 - 天才白痴梦",
+        "icon": "http://i2.hdslb.com/bfs/archive/07523f9f0b9bb4843b5d48ac07e78e0fdd8c7c94.jpg"
+      }
+    }
+  ]
+}

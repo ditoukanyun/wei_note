@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8yF4iZpyYsc",
+      "url": "https://news.ifeng.com/c/8yF4iZpyYsc",
+      "title": "普京扬眉吐气，欧洲妒火中烧",
+      "extra": {
+        "date": "2026-11-21 21:57:50"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8yEbDQ9RMKO",
+      "url": "https://news.ifeng.com/c/8yEbDQ9RMKO",
+      "title": "特朗普：中国的活力令人惊叹",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8yE5b6fGceB",
+      "url": "https://news.ifeng.com/c/8yE5b6fGceB",
+      "title": "菲总统谈APEC晚宴入场曲：中国考虑得如此周到",
+      "extra": {}
+    },
+    {
+      "id": "https://original.ifeng.com/c/8yEVcwfAWeI",
+      "url": "https://original.ifeng.com/c/8yEVcwfAWeI",
+      "title": "特朗普想赶在国会交接前达成俄乌协议，欧洲很担心",
+      "extra": {}
+    },
+    {
+      "id": "https://v.ifeng.com/c/8yETbtthcKR",
+      "url": "https://v.ifeng.com/c/8yETbtthcKR",
+      "title": "缅甸当局：视昂山素季表现考虑进一步减刑",
+      "extra": {}
+    }
+  ]
+}
