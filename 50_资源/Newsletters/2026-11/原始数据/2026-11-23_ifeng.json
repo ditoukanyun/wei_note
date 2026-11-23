@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8yGRie2tTlj",
+      "url": "https://news.ifeng.com/c/8yGRie2tTlj",
+      "title": "一些日媒盼着高市早苗被羞辱",
+      "extra": {
+        "date": "2026-11-22 18:26:12"
+      }
+    },
+    {
+      "id": "https://news.ifeng.com/c/8yFwwo4zedi",
+      "url": "https://news.ifeng.com/c/8yFwwo4zedi",
+      "title": "勒索组织给英伟达启动了倒计时",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8yGMpXjmYyY",
+      "url": "https://news.ifeng.com/c/8yGMpXjmYyY",
+      "title": "美国科技巨头称“AI已懂得忏悔”，知名牧师：那你们自己呢？",
+      "extra": {}
+    },
+    {
+      "id": "https://original.ifeng.com/c/8yGMpXjmZ4g",
+      "url": "https://original.ifeng.com/c/8yGMpXjmZ4g",
+      "title": "美以政局陷“动荡”，恐提前重启打击伊朗",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8yGTErLYUXY",
+      "url": "https://news.ifeng.com/c/8yGTErLYUXY",
+      "title": "“形势恶化”，伊朗开始限电：每两天停电约两小时",
+      "extra": {}
+    }
+  ]
+}

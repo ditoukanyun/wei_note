@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3786472,
+      "title": "纳指期货涨幅扩大至3%，标普500指数期货涨2%",
+      "extra": {
+        "date": 1795391994000
+      },
+      "url": "https://wallstreetcn.com/articles/3786472"
+    },
+    {
+      "id": 3786450,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月23日",
+      "extra": {
+        "date": 1795388428000
+      },
+      "url": "https://wallstreetcn.com/articles/3786450"
+    },
+    {
+      "id": 41960215,
+      "title": "垄断、暴利与资本管制：地球上最赚钱的“虚拟央行”",
+      "extra": {
+        "date": 1795353176000
+      },
+      "url": "https://wallstreetcn.com/charts/41960215"
+    },
+    {
+      "id": 3786465,
+      "title": "当前红利资产估值还有多少空间?",
+      "extra": {
+        "date": 1795350089000
+      },
+      "url": "https://wallstreetcn.com/articles/3786465"
+    },
+    {
+      "id": 3786456,
+      "title": "为马斯克融资买GPU，高盛“秀操作”",
+      "extra": {
+        "date": 1795349483000
+      },
+      "url": "https://wallstreetcn.com/articles/3786456"
+    }
+  ]
+}
