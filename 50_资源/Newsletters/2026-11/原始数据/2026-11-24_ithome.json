@@ -1,0 +1,36 @@
+{
+  "source": "ithome",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://www.ithome.com/1/031/258.htm",
+      "title": "三星拟扩大西安工厂先进 NAND 产能、升级 V9 闪存产线，扩大面向 AI 数据中心的 eSSD 供应",
+      "id": "https://www.ithome.com/1/031/258.htm",
+      "pubDate": 1795477956000
+    },
+    {
+      "url": "https://www.ithome.com/1/031/257.htm",
+      "title": "Anthropic 推出 Claude Ship 测试版：AI 可自动审查、修复及批准代码",
+      "id": "https://www.ithome.com/1/031/257.htm",
+      "pubDate": 1795477740000
+    },
+    {
+      "url": "https://www.ithome.com/1/031/256.htm",
+      "title": "摩托罗拉首款宽折叠手机 Razr Flex 通过认证，15W 无线充电",
+      "id": "https://www.ithome.com/1/031/256.htm",
+      "pubDate": 1795477466000
+    },
+    {
+      "url": "https://www.ithome.com/1/031/255.htm",
+      "title": "Teenage Engineering 推出复古 CD 播放器 EP / BC-1，可选配模块化扬声器",
+      "id": "https://www.ithome.com/1/031/255.htm",
+      "pubDate": 1795477063000
+    },
+    {
+      "url": "https://www.ithome.com/1/031/254.htm",
+      "title": "红魔 12 Pro+ 氘锋透明冰蓝今日开售：16GB+512GB 版 7499 元",
+      "id": "https://www.ithome.com/1/031/254.htm",
+      "pubDate": 1795476873000
+    }
+  ]
+}

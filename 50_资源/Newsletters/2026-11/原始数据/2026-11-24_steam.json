@@ -1,0 +1,51 @@
+{
+  "source": "steam",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "title": "Counter-Strike 2",
+      "id": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "pubDate": 1795478437658,
+      "extra": {
+        "info": "485,241"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/570/Dota_2/",
+      "title": "Dota 2",
+      "id": "https://store.steampowered.com/app/570/Dota_2/",
+      "pubDate": 1795478437658,
+      "extra": {
+        "info": "411,148"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/4262460/ROB_RUN/",
+      "title": "ROB RUN",
+      "id": "https://store.steampowered.com/app/4262460/ROB_RUN/",
+      "pubDate": 1795478437658,
+      "extra": {
+        "info": "333,282"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "title": "Bongo Cat",
+      "id": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "pubDate": 1795478437658,
+      "extra": {
+        "info": "114,279"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/440/Team_Fortress_2/",
+      "title": "Team Fortress 2",
+      "id": "https://store.steampowered.com/app/440/Team_Fortress_2/",
+      "pubDate": 1795478437658,
+      "extra": {
+        "info": "96,278"
+      }
+    }
+  ]
+}

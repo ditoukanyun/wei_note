@@ -1,0 +1,38 @@
+{
+  "source": "ifeng",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://news.ifeng.com/c/8yIN995Cvnz",
+      "url": "https://news.ifeng.com/c/8yIN995Cvnz",
+      "title": "英伟达重新任命黄仁勋为首席执行官",
+      "extra": {
+        "date": "2026-11-23 22:20:23"
+      }
+    },
+    {
+      "id": "https://original.ifeng.com/c/8yIOgLayqXf",
+      "url": "https://original.ifeng.com/c/8yIOgLayqXf",
+      "title": "黄仁勋正式回归！员工们奔走相告，英伟达大涨30%",
+      "extra": {}
+    },
+    {
+      "id": "https://tech.ifeng.com/c/8yIOgLayqUQ",
+      "url": "https://tech.ifeng.com/c/8yIOgLayqUQ",
+      "title": "回应黄仁勋回归？马斯克：搞定了",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8yINz3XS3vl",
+      "url": "https://news.ifeng.com/c/8yINz3XS3vl",
+      "title": "黄仁勋复职，特朗普回应",
+      "extra": {}
+    },
+    {
+      "id": "https://news.ifeng.com/c/8yICaTE32rw",
+      "url": "https://news.ifeng.com/c/8yICaTE32rw",
+      "title": "惯犯BBC，又将“阴间滤镜”对准了深圳",
+      "extra": {}
+    }
+  ]
+}

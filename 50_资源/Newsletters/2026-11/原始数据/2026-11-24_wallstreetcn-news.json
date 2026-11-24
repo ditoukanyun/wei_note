@@ -1,0 +1,46 @@
+{
+  "source": "wallstreetcn-news",
+  "count": 5,
+  "items": [
+    {
+      "id": 3786558,
+      "title": "黄仁勋回来了，英伟达回不去了",
+      "extra": {
+        "date": 1795478040000
+      },
+      "url": "https://wallstreetcn.com/articles/3786558"
+    },
+    {
+      "id": 41960220,
+      "title": "黄仁勋重返英伟达总部，数百名员工夹道欢迎",
+      "extra": {
+        "date": 1795478015000
+      },
+      "url": "https://wallstreetcn.com/charts/41960220"
+    },
+    {
+      "id": 3786536,
+      "title": "黄仁勋重掌英伟达帅印！股价暴涨31%，市值单日增长近万亿",
+      "extra": {
+        "date": 1795475701000
+      },
+      "url": "https://wallstreetcn.com/articles/3786536"
+    },
+    {
+      "id": 3786546,
+      "title": "黄仁勋称\"第二次担任CEO会做得更好\"，重返英伟达总部，数百名员工夹道欢迎",
+      "extra": {
+        "date": 1795475524000
+      },
+      "url": "https://wallstreetcn.com/articles/3786546"
+    },
+    {
+      "id": 3786555,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月24日",
+      "extra": {
+        "date": 1795474990000
+      },
+      "url": "https://wallstreetcn.com/articles/3786555"
+    }
+  ]
+}
