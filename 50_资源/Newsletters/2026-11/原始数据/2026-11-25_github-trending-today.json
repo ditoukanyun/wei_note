@@ -7,7 +7,7 @@
       "title": "elementalsouls /      Claude-BugHunter",
       "id": "/elementalsouls/Claude-BugHunter",
       "extra": {
-        "info": "✰ 21,430",
+        "info": "✰ 21,542",
         "hover": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices."
       }
     },
@@ -16,7 +16,7 @@
       "title": "obra /      superpowers",
       "id": "/obra/superpowers",
       "extra": {
-        "info": "✰ 325,782",
+        "info": "✰ 325,862",
         "hover": "An agentic skills framework & software development methodology that works."
       }
     },
@@ -25,7 +25,7 @@
       "title": "HKUDS /      CLI-Anything",
       "id": "/HKUDS/CLI-Anything",
       "extra": {
-        "info": "✰ 64,722",
+        "info": "✰ 64,873",
         "hover": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
       }
     },
@@ -34,7 +34,7 @@
       "title": "jingyaogong /      minimind",
       "id": "/jingyaogong/minimind",
       "extra": {
-        "info": "✰ 70,158",
+        "info": "✰ 70,271",
         "hover": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours."
       }
     },
@@ -43,7 +43,7 @@
       "title": "cursor /      plugins",
       "id": "/cursor/plugins",
       "extra": {
-        "info": "✰ 19,194",
+        "info": "✰ 19,236",
         "hover": "Cursor plugin specification and official plugins"
       }
     }

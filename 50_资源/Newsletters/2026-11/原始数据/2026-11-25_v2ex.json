@@ -3,44 +3,44 @@
   "count": 5,
   "items": [
     {
-      "id": "https://www.v2ex.com/t/1259587",
-      "title": "temasek 14 世纪淡马锡像素航海游戏，wang dayuan 多了一个隐藏的第二章",
+      "id": "https://www.v2ex.com/t/1259633",
+      "title": "官方支持 Markdown，以及楼中楼显示，感觉不再需要任何插件了",
       "extra": {
-        "date": "2026-11-24T17:37:23+00:00"
+        "date": "2026-11-25T02:08:13+00:00"
       },
-      "url": "https://www.v2ex.com/t/1259587"
+      "url": "https://www.v2ex.com/t/1259633"
     },
     {
-      "id": "https://www.v2ex.com/t/1259583",
-      "title": "朴捷——协同办公的新方式",
+      "id": "https://www.v2ex.com/t/1259560",
+      "title": "兄弟们，从技术到管理大家怎么克服当众讲话的",
       "extra": {
-        "date": "2026-11-24T16:53:43+00:00"
+        "date": "2026-11-25T01:58:51+00:00"
       },
-      "url": "https://www.v2ex.com/t/1259583"
+      "url": "https://www.v2ex.com/t/1259560"
     },
     {
-      "id": "https://www.v2ex.com/t/1259579",
-      "title": "搓了个午休用于降低白点来降低外接显示器亮度东西",
+      "id": "https://www.v2ex.com/t/1259624",
+      "title": "我想赶在 AI 替代我之前，先替代我自己",
       "extra": {
-        "date": "2026-11-24T16:26:53+00:00"
+        "date": "2026-11-25T01:50:12+00:00"
       },
-      "url": "https://www.v2ex.com/t/1259579"
+      "url": "https://www.v2ex.com/t/1259624"
     },
     {
-      "id": "https://www.v2ex.com/t/1259578",
-      "title": "macOS 工时记录工具",
+      "id": "https://www.v2ex.com/t/1259623",
+      "title": "受够了机械盘“炒豆子”？我给托盘小工具加了个“类物理拔线”功能",
       "extra": {
-        "date": "2026-11-24T16:15:11+00:00"
+        "date": "2026-11-25T01:49:48+00:00"
       },
-      "url": "https://www.v2ex.com/t/1259578"
+      "url": "https://www.v2ex.com/t/1259623"
     },
     {
-      "id": "https://www.v2ex.com/t/1259576",
-      "title": "利用 AI 开源了一个 macOS 小工具：LocalPeek 。把本机的 Redis、MySQL 和 Web 开发服务收进一个窗口，只读浏览、实时看日志。macOS 免费开源。",
+      "id": "https://www.v2ex.com/t/1259622",
+      "title": "把 @playwright/mcp 换成纯 Rust 管道后，Rust 浏览器 Moli 内存暴降 90.7%、速度反超 Chrome 2.76×（附官方 M4 复现）",
       "extra": {
-        "date": "2026-11-24T15:56:12+00:00"
+        "date": "2026-11-25T01:49:47+00:00"
       },
-      "url": "https://www.v2ex.com/t/1259576"
+      "url": "https://www.v2ex.com/t/1259622"
     }
   ]
 }

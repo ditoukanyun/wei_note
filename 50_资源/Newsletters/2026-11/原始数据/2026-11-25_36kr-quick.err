@@ -1,0 +1,11 @@
+source: 36kr-quick
+generatedAt: 2026/11/25 10:11:58 CST
+finalStatus: nonzero
+
+attempt 1
+status: nonzero
+exitCode: 2
+signal: null
+timeoutMs: 10000
+stderr:
+{"error":"Fetch failed for \"36kr-quick\": [GET] \"https://www.36kr.com/newsflashes\": <no response> ERR_TLS_CERT_ALTNAME_INVALID fetching \"https://www.36kr.com/newsflashes\". For more information, pass `verbose: true` in the second argument to fetch()","code":"FETCH_ERROR"}

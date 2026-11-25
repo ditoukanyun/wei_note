@@ -6,45 +6,45 @@
       "url": "https://store.steampowered.com/app/730/CounterStrike_2/",
       "title": "Counter-Strike 2",
       "id": "https://store.steampowered.com/app/730/CounterStrike_2/",
-      "pubDate": 1795564832556,
+      "pubDate": 1795572723438,
       "extra": {
-        "info": "417,728"
+        "info": "399,829"
       }
     },
     {
       "url": "https://store.steampowered.com/app/570/Dota_2/",
       "title": "Dota 2",
       "id": "https://store.steampowered.com/app/570/Dota_2/",
-      "pubDate": 1795564832556,
+      "pubDate": 1795572723438,
       "extra": {
-        "info": "333,205"
+        "info": "350,069"
       }
     },
     {
       "url": "https://store.steampowered.com/app/4262460/ROB_RUN/",
       "title": "ROB RUN",
       "id": "https://store.steampowered.com/app/4262460/ROB_RUN/",
-      "pubDate": 1795564832556,
+      "pubDate": 1795572723438,
       "extra": {
-        "info": "315,565"
-      }
-    },
-    {
-      "url": "https://store.steampowered.com/app/3393110/AION_2/",
-      "title": "AION 2",
-      "id": "https://store.steampowered.com/app/3393110/AION_2/",
-      "pubDate": 1795564832556,
-      "extra": {
-        "info": "91,543"
+        "info": "254,186"
       }
     },
     {
       "url": "https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/",
       "title": "PUBG: BATTLEGROUNDS",
       "id": "https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/",
-      "pubDate": 1795564832556,
+      "pubDate": 1795572723438,
       "extra": {
-        "info": "81,730"
+        "info": "116,527"
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "title": "Bongo Cat",
+      "id": "https://store.steampowered.com/app/3419430/Bongo_Cat/",
+      "pubDate": 1795572723438,
+      "extra": {
+        "info": "107,487"
       }
     }
   ]
