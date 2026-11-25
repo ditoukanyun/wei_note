@@ -1,0 +1,46 @@
+{
+  "source": "v2ex-share",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.v2ex.com/t/1259587",
+      "title": "temasek 14 世纪淡马锡像素航海游戏，wang dayuan 多了一个隐藏的第二章",
+      "extra": {
+        "date": "2026-11-24T17:37:23+00:00"
+      },
+      "url": "https://www.v2ex.com/t/1259587"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1259583",
+      "title": "朴捷——协同办公的新方式",
+      "extra": {
+        "date": "2026-11-24T16:53:43+00:00"
+      },
+      "url": "https://www.v2ex.com/t/1259583"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1259579",
+      "title": "搓了个午休用于降低白点来降低外接显示器亮度东西",
+      "extra": {
+        "date": "2026-11-24T16:26:53+00:00"
+      },
+      "url": "https://www.v2ex.com/t/1259579"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1259578",
+      "title": "macOS 工时记录工具",
+      "extra": {
+        "date": "2026-11-24T16:15:11+00:00"
+      },
+      "url": "https://www.v2ex.com/t/1259578"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1259576",
+      "title": "利用 AI 开源了一个 macOS 小工具：LocalPeek 。把本机的 Redis、MySQL 和 Web 开发服务收进一个窗口，只读浏览、实时看日志。macOS 免费开源。",
+      "extra": {
+        "date": "2026-11-24T15:56:12+00:00"
+      },
+      "url": "https://www.v2ex.com/t/1259576"
+    }
+  ]
+}

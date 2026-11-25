@@ -1,0 +1,46 @@
+{
+  "source": "hackernews",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://news.ycombinator.com/item?id=50633922",
+      "title": "Ternary Bonsai 2.5 27B",
+      "id": "50633922",
+      "extra": {
+        "info": "277 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50634658",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "id": "50634658",
+      "extra": {
+        "info": "121 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50634426",
+      "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+      "id": "50634426",
+      "extra": {
+        "info": "55 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50630594",
+      "title": "Active intrusion campaign against Check Point security management servers",
+      "id": "50630594",
+      "extra": {
+        "info": "251 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50625265",
+      "title": "Gödel Enigma",
+      "id": "50625265",
+      "extra": {
+        "info": "61 points"
+      }
+    }
+  ]
+}

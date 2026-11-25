@@ -1,0 +1,11 @@
+source: wallstreetcn-news
+generatedAt: 2026/11/25 08:00:32 CST
+finalStatus: nonzero
+
+attempt 1
+status: nonzero
+exitCode: 2
+signal: null
+timeoutMs: 10000
+stderr:
+{"error":"Fetch failed for \"wallstreetcn-news\": [GET] \"https://api-one.wallstcn.com/apiv1/content/information-flow?channel=global-channel&accept=article&limit=30\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()","code":"FETCH_ERROR"}

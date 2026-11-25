@@ -1,0 +1,51 @@
+{
+  "source": "douban",
+  "count": 5,
+  "items": [
+    {
+      "id": "36847425",
+      "title": "可能的爱",
+      "url": "https://movie.douban.com/subject/36847425",
+      "extra": {
+        "info": "2026 / 韩国 / 剧情 爱情",
+        "hover": "2026 / 韩国 / 剧情 爱情 / 李沧东 / 全度妍 薛景求"
+      }
+    },
+    {
+      "id": "38586131",
+      "title": "多萝西",
+      "url": "https://movie.douban.com/subject/38586131",
+      "extra": {
+        "info": "2026 / 印度 / 剧情 动作 爱情 犯罪 冒险",
+        "hover": "2026 / 印度 / 剧情 动作 爱情 犯罪 冒险 / Karthik Subbaraj / Sananth Rishikanth"
+      }
+    },
+    {
+      "id": "38520799",
+      "title": "忘年之约",
+      "url": "https://movie.douban.com/subject/38520799",
+      "extra": {
+        "info": "2026 / 印度 / 剧情 喜剧 爱情",
+        "hover": "2026 / 印度 / 剧情 喜剧 爱情 / 吉里什·A·D· / 尼文·保利 玛米塔·拜朱"
+      }
+    },
+    {
+      "id": "37436785",
+      "title": "非常治疗师",
+      "url": "https://movie.douban.com/subject/37436785",
+      "extra": {
+        "info": "2026 / 阿根廷 / 喜剧",
+        "hover": "2026 / 阿根廷 / 喜剧 / 埃尔南·戈德弗里德 / 里卡多·达林 迭戈·佩雷蒂"
+      }
+    },
+    {
+      "id": "37317907",
+      "title": "另一个妈妈",
+      "url": "https://movie.douban.com/subject/37317907",
+      "extra": {
+        "info": "2026 / 美国 爱尔兰 / 恐怖",
+        "hover": "2026 / 美国 爱尔兰 / 恐怖 / 罗布·萨维奇 / 杰西卡·查斯坦 杰伊·杜普拉斯"
+      }
+    }
+  ]
+}
