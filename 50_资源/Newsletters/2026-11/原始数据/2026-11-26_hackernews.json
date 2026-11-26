@@ -1,0 +1,46 @@
+{
+  "source": "hackernews",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://news.ycombinator.com/item?id=50644817",
+      "title": "1Password Security Incident",
+      "id": "50644817",
+      "extra": {
+        "info": "1044 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50648823",
+      "title": "Jev is (probably) Qwen3.5-35B-A3B",
+      "id": "50648823",
+      "extra": {
+        "info": "101 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50648050",
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "id": "50648050",
+      "extra": {
+        "info": "195 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50647673",
+      "title": "The New York Times tells photographers not to use the latest Photoshop",
+      "id": "50647673",
+      "extra": {
+        "info": "132 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50601280",
+      "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+      "id": "50601280",
+      "extra": {
+        "info": "194 points"
+      }
+    }
+  ]
+}
