@@ -1,0 +1,46 @@
+{
+  "source": "hackernews",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://news.ycombinator.com/item?id=50660180",
+      "title": "AI made self-hosting fun again",
+      "id": "50660180",
+      "extra": {
+        "info": "178 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50659841",
+      "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+      "id": "50659841",
+      "extra": {
+        "info": "195 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50657265",
+      "title": "AMD-specific fork of llama.cpp",
+      "id": "50657265",
+      "extra": {
+        "info": "265 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50657530",
+      "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+      "id": "50657530",
+      "extra": {
+        "info": "226 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50657645",
+      "title": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
+      "id": "50657645",
+      "extra": {
+        "info": "187 points"
+      }
+    }
+  ]
+}

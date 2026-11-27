@@ -1,0 +1,11 @@
+source: wallstreetcn-hot
+generatedAt: 2026/11/27 08:00:30 CST
+finalStatus: nonzero
+
+attempt 1
+status: nonzero
+exitCode: 2
+signal: null
+timeoutMs: 10000
+stderr:
+{"error":"Fetch failed for \"wallstreetcn-hot\": [GET] \"https://api-one.wallstcn.com/apiv1/content/articles/hot?period=all\": <no response> ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()","code":"FETCH_ERROR"}

@@ -1,0 +1,11 @@
+source: baidu
+generatedAt: 2026/11/27 08:00:24 CST
+finalStatus: nonzero
+
+attempt 1
+status: nonzero
+exitCode: 2
+signal: null
+timeoutMs: 10000
+stderr:
+{"error":"Fetch failed for \"baidu\": JSON Parse error: Invalid escape character -","code":"FETCH_ERROR"}

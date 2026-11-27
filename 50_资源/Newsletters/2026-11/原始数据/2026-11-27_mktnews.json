@@ -1,0 +1,51 @@
+{
+  "source": "mktnews",
+  "count": 5,
+  "items": [
+    {
+      "id": "01a21a45-47f0-7bbc-ad10-c950326214d4",
+      "title": "Weekly Foreign Bonds Buying  (Nov.20)",
+      "pubDate": "2026-11-26T23:51:17.000Z",
+      "extra": {
+        "info": "Important"
+      },
+      "url": "https://mktnews.net/flashDetail.html?id=01a21a45-47f0-7bbc-ad10-c950326214d4"
+    },
+    {
+      "id": "01a21a45-34d3-7bbc-ad10-c2938a29f1e2",
+      "title": "Weekly Foreign Stocks Buying  (Nov.20)",
+      "pubDate": "2026-11-26T23:51:12.000Z",
+      "extra": {
+        "info": "Important"
+      },
+      "url": "https://mktnews.net/flashDetail.html?id=01a21a45-34d3-7bbc-ad10-c2938a29f1e2"
+    },
+    {
+      "id": "01a21a45-1206-7bbc-ad10-b8df0c4eb6b2",
+      "title": "Weekly Foreign investment in Japanese Bonds (Nov.20)",
+      "pubDate": "2026-11-26T23:51:03.000Z",
+      "extra": {
+        "info": "Important"
+      },
+      "url": "https://mktnews.net/flashDetail.html?id=01a21a45-1206-7bbc-ad10-b8df0c4eb6b2"
+    },
+    {
+      "id": "01a21a45-0166-7bbc-ad10-b1be5974a8c6",
+      "title": "Weekly Foreign investment in Japanese Stocks  (Nov.20)",
+      "pubDate": "2026-11-26T23:50:59.000Z",
+      "extra": {
+        "info": "Important"
+      },
+      "url": "https://mktnews.net/flashDetail.html?id=01a21a45-0166-7bbc-ad10-b1be5974a8c6"
+    },
+    {
+      "id": "01a21a37-1a9d-7bbc-ad10-a9385f853325",
+      "title": "Tokyo CPI NSA (MoM) (Nov)",
+      "pubDate": "2026-11-26T23:35:48.000Z",
+      "extra": {
+        "info": "Important"
+      },
+      "url": "https://mktnews.net/flashDetail.html?id=01a21a37-1a9d-7bbc-ad10-a9385f853325"
+    }
+  ]
+}
