@@ -1,0 +1,46 @@
+{
+  "source": "v2ex-share",
+  "count": 5,
+  "items": [
+    {
+      "id": "https://www.v2ex.com/t/1260475",
+      "title": "上次把 DeepSeek 放在网页旁，这次把豆包和自己的 API 也接进来了",
+      "extra": {
+        "date": "2026-11-27T16:23:25+00:00"
+      },
+      "url": "https://www.v2ex.com/t/1260475"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1260473",
+      "title": "做了一个 MAGI-2 AI 视频生成器",
+      "extra": {
+        "date": "2026-11-27T16:04:33+00:00"
+      },
+      "url": "https://www.v2ex.com/t/1260473"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1260469",
+      "title": "让 Claude Code 重构了一个 1500 多行的函数，测试全过了，但我还是不太放心",
+      "extra": {
+        "date": "2026-11-27T15:57:27+00:00"
+      },
+      "url": "https://www.v2ex.com/t/1260469"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1260468",
+      "title": "咕咕嘎嘎 这么牛的公司，不至于玩不起吧",
+      "extra": {
+        "date": "2026-11-27T15:44:41+00:00"
+      },
+      "url": "https://www.v2ex.com/t/1260468"
+    },
+    {
+      "id": "https://www.v2ex.com/t/1260461",
+      "title": "23 年裸辞开始钓鱼，现在做了一个没有广告的钓鱼社区小程序：收竿，公开钓点免登录可看，想找钓鱼的 V 友试试",
+      "extra": {
+        "date": "2026-11-27T15:13:38+00:00"
+      },
+      "url": "https://www.v2ex.com/t/1260461"
+    }
+  ]
+}

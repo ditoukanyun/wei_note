@@ -1,0 +1,51 @@
+{
+  "source": "mktnews-flash",
+  "count": 5,
+  "items": [
+    {
+      "id": "01a21eed-2593-7bbc-ad12-07b85a204d58",
+      "title": "US Treasuries held by Foreign Central Banks (Nov.20)",
+      "pubDate": "2026-11-27T21:33:07.000Z",
+      "extra": {
+        "info": "Important"
+      },
+      "url": "https://mktnews.net/flashDetail.html?id=01a21eed-2593-7bbc-ad12-07b85a204d58"
+    },
+    {
+      "id": "01a21d32-dc2e-7bbc-ad11-fbd450983e76",
+      "title": "Current Account (Q3)",
+      "pubDate": "2026-11-27T13:30:02.000Z",
+      "extra": {
+        "info": "Important"
+      },
+      "url": "https://mktnews.net/flashDetail.html?id=01a21d32-dc2e-7bbc-ad11-fbd450983e76"
+    },
+    {
+      "id": "01a21d32-d7e0-7bbc-ad11-f40c6f69f605",
+      "title": "Wholesale Inventories (MoM) (Oct)",
+      "pubDate": "2026-11-27T13:30:00.000Z",
+      "extra": {
+        "info": "Important"
+      },
+      "url": "https://mktnews.net/flashDetail.html?id=01a21d32-d7e0-7bbc-ad11-f40c6f69f605"
+    },
+    {
+      "id": "01a21d32-d5e6-7bbc-ad11-ec52c8fca4f3",
+      "title": "Advance goods trade balance (Oct)",
+      "pubDate": "2026-11-27T13:30:00.000Z",
+      "extra": {
+        "info": "Important"
+      },
+      "url": "https://mktnews.net/flashDetail.html?id=01a21d32-d5e6-7bbc-ad11-ec52c8fca4f3"
+    },
+    {
+      "id": "01a21c75-c4a6-7bbc-ad11-e0d94d48b910",
+      "title": "Non-EU Trade Balance (Oct)",
+      "pubDate": "2026-11-27T10:03:29.000Z",
+      "extra": {
+        "info": "Important"
+      },
+      "url": "https://mktnews.net/flashDetail.html?id=01a21c75-c4a6-7bbc-ad11-e0d94d48b910"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "source": "hackernews",
+  "count": 5,
+  "items": [
+    {
+      "url": "https://news.ycombinator.com/item?id=50643158",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "id": "50643158",
+      "extra": {
+        "info": "244 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50668145",
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "id": "50668145",
+      "extra": {
+        "info": "394 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50669765",
+      "title": "Convex skills send the user's app idea to a remote server without telling them",
+      "id": "50669765",
+      "extra": {
+        "info": "208 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50672142",
+      "title": "Source Control from Hell",
+      "id": "50672142",
+      "extra": {
+        "info": "35 points"
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50672008",
+      "title": "9/UX: a Macintosh-inspired desktop for 9front",
+      "id": "50672008",
+      "extra": {
+        "info": "45 points"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "source": "douban",
+  "count": 5,
+  "items": [
+    {
+      "id": "36847425",
+      "title": "可能的爱",
+      "url": "https://movie.douban.com/subject/36847425",
+      "extra": {
+        "info": "2026 / 韩国 / 剧情 爱情",
+        "hover": "2026 / 韩国 / 剧情 爱情 / 李沧东 / 全度妍 薛景求"
+      }
+    },
+    {
+      "id": "37018308",
+      "title": "DB",
+      "url": "https://movie.douban.com/subject/37018308",
+      "extra": {
+        "info": "2026 / 中国大陆 / 剧情 喜剧 爱情",
+        "hover": "2026 / 中国大陆 / 剧情 喜剧 爱情 / 张帅 / 史星昊 Xinghao Shi 俞茜雅 Xiya Yu"
+      }
+    },
+    {
+      "id": "38535156",
+      "title": "灵魂摆渡·公主梦",
+      "url": "https://movie.douban.com/subject/38535156",
+      "extra": {
+        "info": "2026 / 中国大陆 / 剧情 奇幻",
+        "hover": "2026 / 中国大陆 / 剧情 奇幻 / 丁宽 / 于毅 刘智扬"
+      }
+    },
+    {
+      "id": "38535157",
+      "title": "灵魂摆渡·天女之梦",
+      "url": "https://movie.douban.com/subject/38535157",
+      "extra": {
+        "info": "2026 / 中国大陆 / 剧情 奇幻",
+        "hover": "2026 / 中国大陆 / 剧情 奇幻 / 丁宽 / 于毅 刘智扬"
+      }
+    },
+    {
+      "id": "37168181",
+      "title": "峡湾",
+      "url": "https://movie.douban.com/subject/37168181",
+      "extra": {
+        "info": "2026 / 罗马尼亚 法国 挪威 丹麦 芬兰 瑞典 / 剧情 惊悚",
+        "hover": "2026 / 罗马尼亚 法国 挪威 丹麦 芬兰 瑞典 / 剧情 惊悚 / 克里斯蒂安·蒙吉 / 塞巴斯蒂安·斯坦 雷娜特·赖因斯夫"
+      }
+    }
+  ]
+}
